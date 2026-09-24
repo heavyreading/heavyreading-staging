@@ -125,26 +125,35 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sa
   white-space:nowrap; border-bottom:2px solid transparent; margin-bottom:-1px; }
 .nd-caret { display:inline-block; width:0; height:0; margin:1px 14px 0 -8px;
   border-left:4px solid transparent; border-right:4px solid transparent;
-  border-top:5px solid var(--faint); flex:none; }
+  border-top:5px solid var(--faint); flex:none;
+  transition:transform .18s ease; }
 .navdrop.active .nd-top { border-bottom-color:var(--acc); }
-.nd-menu { display:none; position:absolute; top:100%; left:0; z-index:50;
+/* desktop dropdown animation: the menu stays rendered and hides with
+   opacity/visibility/transform (never display:none, which kills the
+   transition), so open and close both glide. Mobile keeps its own
+   display-based disclosure in the media query below. */
+.nd-menu { position:absolute; top:100%; left:0; z-index:50;
   background:var(--paper); border:1px solid var(--line);
-  padding:6px; min-width:230px; max-width:calc(100vw - 32px); }
+  padding:6px; min-width:230px; max-width:calc(100vw - 32px);
+  opacity:0; visibility:hidden; transform:translateY(-8px);
+  pointer-events:none;
+  transition:opacity .18s ease, transform .18s ease, visibility 0s linear .2s; }
 .navdrop:last-child .nd-menu, .navdrop:nth-last-child(2) .nd-menu {
   left:auto; right:0; }
+/* hover intent: a short fuse on open, a slightly longer glide on close, so
+   a stray pass doesn't fling a menu over the page heading */
 .nd:hover .nd-menu, .nd[open] .nd-menu, .nd:focus-within .nd-menu {
-  display:block; opacity:1; visibility:visible; transform:none;
-  transition:opacity .12s ease .08s, visibility 0s, transform .12s ease .08s; }
-/* hover intent: a short fuse on open, a longer one on close, so a stray
-   pass doesn't fling a menu over the page heading */
-.nd-menu { opacity:0; visibility:hidden; transform:translateY(-3px);
-  transition:opacity .12s ease, transform .12s ease, visibility 0s linear .22s; }
+  opacity:1; visibility:visible; transform:none; pointer-events:auto;
+  transition:opacity .18s ease .08s, transform .18s ease .08s, visibility 0s; }
 .nd-menu .mi { display:block; color:var(--ink); text-decoration:none;
   font-size:14px; padding:8px 12px; white-space:nowrap; }
 .nd-menu .mi[aria-current="page"] { font-weight:700; }
 @media (hover:hover) {
   .nd-menu .mi:hover { color:var(--acc-deep); }
   .nd-top:hover { color:var(--acc-deep); }
+  /* caret tips up while its menu is open: quiet confirmation, desktop only */
+  .nd:hover .nd-caret, .nd[open] .nd-caret, .nd:focus-within .nd-caret {
+    transform:rotate(180deg); }
 }
 .nd-megahead .mi { font-weight:600; }
 .nd-mega { display:grid; grid-template-columns:repeat(3,minmax(0,1fr));
@@ -493,7 +502,9 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   .nd-top { padding:14px 2px; font-size:13px; }
   .nd-caret { margin-left:auto; margin-right:2px; }
   .nd:hover .nd-menu { display:none; }
-  .nd[open] .nd-menu { display:block; position:static; border:none; padding:0 0 12px; }
+  .nd[open] .nd-menu { display:block; position:static; border:none; padding:0 0 12px;
+    opacity:1; visibility:visible; transform:none; pointer-events:auto;
+    transition:none; }
   .nd-menu .mi { padding:9px 2px; font-size:14.5px; white-space:normal; }
   .nd-mega { grid-template-columns:1fr; min-width:0; gap:0; }
   /* tables: horizontal scroll with a sticky first column */
