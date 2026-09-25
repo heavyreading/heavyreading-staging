@@ -221,13 +221,16 @@ table.data { border-collapse:separate; border-spacing:0; font-size:13px; min-wid
 /* Fixed layout for the ST3 grid (the editor 2026-09-24): column widths come from
    the server-rendered colgroup (172px labels, 68px months). This keeps the
    sticky row labels (horizontal scroll) working at phone width. */
-/* Sticky date header (the editor 2026-09-24): the header is its own table and
-   sticks as one unit (top:0). Per-cell sticky thead th drifted the date
-   columns ~half a column off the body on iOS Safari during horizontal
-   scroll; a single sticky table cannot drift from itself. Both tables share
-   the fixed layout and identical colgroups, so the columns line up. */
+/* Date header pinning (the editor 2026-09-24, reworked 2026-09-25): the header is
+   its own table and is pinned by JS (translate3d follows the scrollbox
+   offsets) instead of position:sticky. Per-cell sticky thead th drifted the
+   date columns ~half a column off the body on iOS Safari during horizontal
+   scroll, and a sticky header table still landed ~26px off the body columns
+   after a horizontal swipe there; a transform follows the scroll offset
+   exactly, in every engine. Both tables share the fixed layout and identical
+   colgroups, so the columns line up. */
 .tblwrap.tbox table.data { table-layout:fixed; }
-.tblwrap.tbox table.dhead { position:sticky; top:0; z-index:5; margin:0; }
+.tblwrap.tbox table.dhead { position:relative; z-index:5; margin:0; }
 .tblwrap.tbox table.dbody { margin:0; }
 table.dhead thead th { background:var(--paper); color:var(--ink);
                       padding:8px; font-size:11px; font-weight:700; white-space:nowrap;
@@ -235,7 +238,7 @@ table.dhead thead th { background:var(--paper); color:var(--ink);
 table.dhead thead tr.band th { padding:4px 8px; font-size:11px;
   letter-spacing:.09em; text-transform:uppercase; }
 table.dhead thead tr.months th { border-bottom:1px solid var(--ink); }
-table.dhead thead th.rowhead { position:sticky; left:0; z-index:6;
+table.dhead thead th.rowhead { position:relative; z-index:6;
   box-shadow:1px 0 0 var(--line2); }
 table.data thead th.fcband { background:var(--fcbg); }
 table.data thead th.ncband { background:var(--ncbg); }
@@ -806,6 +809,25 @@ function licenseLabel(k) { return LICENSE_LABEL[k] || k; }
   } catch (e) {}
   render();
   collapseAll();
+  /* Date header pinning (2026-09-25): iOS Safari misplaces position:sticky
+     tables when the scrollbox also scrolls horizontally (the header landed
+     about 26px off the body columns after a swipe), so the header table is
+     pinned with a transform driven by the scrollbox instead. One style write
+     per scroll event; translate3d keeps it on the compositor. */
+  (function () {
+    var box = document.querySelector(".tblwrap.tbox");
+    if (!box) return;
+    var dhead = box.querySelector("table.dhead");
+    if (!dhead) return;
+    var rowhead = dhead.querySelector("th.rowhead");
+    function pin() {
+      dhead.style.transform = "translate3d(0," + box.scrollTop + "px,0)";
+      if (rowhead) rowhead.style.transform =
+        "translate3d(" + box.scrollLeft + "px,0,0)";
+    }
+    box.addEventListener("scroll", pin, { passive: true });
+    pin();
+  })();
   /* print: expand the full tree for a complete hard copy, then restore */
   window.addEventListener("beforeprint", expandAll);
   window.addEventListener("afterprint", collapseAll);
