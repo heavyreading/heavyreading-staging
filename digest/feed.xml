@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>Heavy Reading Morning Digest</title>
+  <link>https://heavyreading.ca/digest/index.html</link>
+  <description>The Heavy Reading morning crude briefing as a short daily audio edition: overnight geopolitics through a supply/demand lens, prices, cracks and positioning, Canadian egress, and the Canadian diff complex. Public data only.</description>
+  <language>en</language>
+  <itunes:author>Heavy Reading</itunes:author>
+  <itunes:summary>The Heavy Reading morning crude briefing as a short daily audio edition: overnight geopolitics through a supply/demand lens, prices, cracks and positioning, Canadian egress, and the Canadian diff complex. Public data only.</itunes:summary>
+  <itunes:category text="News"/>
+  <itunes:explicit>false</itunes:explicit>
+</channel>
+</rss>
