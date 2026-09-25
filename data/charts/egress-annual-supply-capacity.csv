@@ -1,0 +1,6 @@
+year,conv_ab_kbd,conv_sk_other_kbd,sco_kbd,bitumen_kbd,diluent_kbd,egress_required_kbd,crude_export_capacity_kbd,spare_kbd,vintage
+2026,573.2,600.0,1352.1,2213.2,765.7,4769.2,4869.2,100.1,AER ST3 actuals through 2026-07 (DB file 2026-09-24); CER open data pulled 2026-09-22; model build 2026-09-25
+2027,567.8,600.0,1346.6,2205.1,762.9,4747.4,5104.4,357.1,AER ST3 actuals through 2026-07 (DB file 2026-09-24); CER open data pulled 2026-09-22; model build 2026-09-25
+2028,581.2,600.0,1384.0,2273.8,786.6,4890.7,5156.4,265.7,AER ST3 actuals through 2026-07 (DB file 2026-09-24); CER open data pulled 2026-09-22; model build 2026-09-25
+2029,595.0,600.0,1422.6,2341.2,809.9,5033.7,5310.2,276.5,AER ST3 actuals through 2026-07 (DB file 2026-09-24); CER open data pulled 2026-09-22; model build 2026-09-25
+2030,609.0,600.0,1462.2,2410.7,834.0,5180.9,5310.2,129.4,AER ST3 actuals through 2026-07 (DB file 2026-09-24); CER open data pulled 2026-09-22; model build 2026-09-25
