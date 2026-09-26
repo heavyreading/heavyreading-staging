@@ -643,6 +643,13 @@ details.now-det summary{cursor:pointer;color:var(--mut);font-size:.88rem;
 .lvl-fig{font-family:var(--serif);font-size:1.6rem;margin:.15rem 0 .3rem}
 .lvl-note{font-size:.88rem;color:var(--mut)}
 .now-foot{margin-top:2rem}
+.eg-fwd{display:flex;gap:1.2rem;margin:.4rem 0 .3rem;flex-wrap:wrap}
+.eg-mo .mo{font-size:.82rem;color:var(--mut);text-transform:uppercase;
+  letter-spacing:.05em}
+.eg-mo .fv{font-family:var(--serif);font-size:1.45rem;margin:.1rem 0}
+.eg-mo .fv.neg{color:#a33}
+.eg-per{font-size:.88rem;color:var(--mut);margin:.15rem 0 .4rem;line-height:1.6}
+.eg-per b{color:var(--ink);font-weight:650}
 </style>
 
 
@@ -740,6 +747,65 @@ stated as estimates.</p>
 <span class="chip src">RBN Energy</span></div>
 
 </article>
+</section>
+
+<section class="now-sec" aria-label="Egress watch">
+<h2>Egress watch — how much room is left</h2>
+<p class="sec-sub">Three independent reads on spare export capacity out of the
+Western Canadian Sedimentary Basin (WCSB): what the regulator measured, what
+the model says about right now, and what the forward curve says. Every figure
+carries its vintage; every model figure carries its score.</p>
+
+<article class="chg-card">
+<div class="chg-top"><span class="chg-title">The regulator's tape</span></div>
+<p class="chg-delta">+272 kb/d</p>
+<p class="eg-per"><b>Enbridge Canadian Mainline</b>
+202 kb/d spare · apportioned
+12% of nominations<br>
+<b>Keystone</b> 36 kb/d spare ·
+apportioned 5%<br>
+<b>Trans Mountain</b> 34 kb/d spare ·
+apportioned 0% — second-thinnest margin on record;
+the Pacific release valve is functionally at its limit</p>
+<div class="chips"><span class="chip">Canada Energy Regulator (CER) ·
+Jun 2026</span><span class="chip">pulled 2026-09-22</span>
+<span class="chip src">ground truth — this layer is the actual</span></div>
+</article>
+
+<article class="chg-card">
+<div class="chg-top"><span class="chg-title">Right now — model nowcast</span></div>
+<p class="chg-delta">+174 kb/d</p>
+<p class="chg-body">September spare export capacity: export stack
+4,954 kb/d against marketable supply
+4,780 kb/d.</p>
+<div class="chips"><span class="chip">model nowcast · built Sep 25,
+2026</span><span class="chip src">score: walk-forward bias +0.1 kb/d, MAE 161
+kb/d, 139 months</span></div>
+</article>
+
+<article class="chg-card">
+<div class="chg-top"><span class="chg-title">The forward — what you actually
+trade</span></div>
+<div class="eg-fwd"><div class="eg-mo"><div class="mo">Oct 2026</div><div class="fv">+292</div></div><div class="eg-mo"><div class="mo">Nov 2026</div><div class="fv neg">−146</div></div><div class="eg-mo"><div class="mo">Dec 2026</div><div class="fv neg">−243</div></div></div>
+<p class="chg-body">October is comfortable; then winter supply swamps the
+stack. Negative spare means marketable supply exceeds export capacity — the
+barrels have to find rail, storage, or apportionment takes a bigger bite.
+<span class="sub">kb/d spare export capacity.</span></p>
+<div class="chips"><span class="chip">model forecast · built Sep 25,
+2026</span><span class="chip src">unscored — CER Nov actuals land ~Feb
+2027</span></div>
+</article>
+
+<details class="now-det"><summary>Method note</summary>
+<p>Model spare = export stack − marketable supply. Export stack is 98%
+working capacity across six export routes plus 85 kb/d crude-by-rail =
+4,954 kb/d, flat. Marketable supply is the WCSB S&amp;D model monthly series
+(AER ST3 actuals through Jul 2026, modeled forward, less the published
+maintenance calendar). The regulator's spare uses Canada Energy Regulator
+"available capacity" — a different denominator from the model's working
+capacity, so the two layers are not directly comparable barrel-for-barrel.
+Low/base/high scenarios are identical through 2027 (they diverge 2028+).</p>
+</details>
 </section>
 
 <section class="now-sec" aria-label="Flags">
