@@ -9,13 +9,13 @@ if(t){document.documentElement.setAttribute('data-theme',t);}else if
 (window.matchMedia('(prefers-color-scheme: dark)').matches){
 document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();
 </script>
-<title>Nowcast scorecard | Heavy Reading</title>
-<meta name="description" content="WCSB S&D model nowcast vs AER ST3 actuals: per-leaf errors, bias, and method.">
+<title>Scorecards | Heavy Reading</title>
+<meta name="description" content="Heavy Reading scorecards: every model prediction graded against actuals, backtest accuracy with confidence intervals, live predictions on the clock.">
 <link rel="canonical" href="https://heavyreading.ca/scorecard.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Heavy Reading">
-<meta property="og:title" content="Nowcast scorecard | Heavy Reading">
-<meta property="og:description" content="WCSB S&D model nowcast vs AER ST3 actuals: per-leaf errors, bias, and method.">
+<meta property="og:title" content="Scorecards | Heavy Reading">
+<meta property="og:description" content="Heavy Reading scorecards: every model prediction graded against actuals, backtest accuracy with confidence intervals, live predictions on the clock.">
 <meta property="og:url" content="https://heavyreading.ca/scorecard.html">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Crect x='1.5' y='1.5' width='41' height='41' rx='9' fill='%2317191d'/%3E%3Crect x='10' y='25' width='6.5' height='8' fill='%23f4f1e8'/%3E%3Crect x='18.75' y='18' width='6.5' height='15' fill='%23f4f1e8'/%3E%3Crect x='27.5' y='11' width='6.5' height='22' fill='%23a13c22'/%3E%3C/svg%3E">
@@ -585,16 +585,17 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
       </details>
     <div class="searchbox" role="search"><input type="search" id="sitesearch" placeholder="Search Heavy Reading" aria-label="Search Heavy Reading" autocomplete="off" data-index="search-index.json"><div class="searchres" id="searchres" hidden></div></div>
   </header>
-  <div class="crumb"><a href="index.html">Home</a> / <a href="st3-dashboard.html">Projected ST3</a> / Scorecard</div>
-  <h1>Nowcast scorecard</h1>
-  <p class="sub">The model grades itself: every nowcast scored against ST3 actuals.</p>
+  <div class="crumb"><a href="index.html">Home</a> / <a href="st3-dashboard.html">Projected ST3</a> / Scorecards</div>
+  <h1>Scorecards</h1>
+  <p class="sub">The model grades itself: every prediction scored, with its uncertainty stated.</p>
   <p class="sub">Every published model nowcast, scored against the Alberta Energy Regulator (AER) ST3 actuals when they land. Positive error means the nowcast ran high.</p>
   <p class="vintage-inline">Nowcast vintage: built 2026-09-23.<br>Actuals: AER ST3 actuals, latest vintage in repo duckdb (ST3 file vintage 2026-08-27; loaded 2026-09-28).</p>
-  <h2>Bias so far</h2>
+  <h2>Supply nowcasts</h2>
+  <h3>Bias so far</h3>
   <p>No scored months yet. The first nowcasts (August and September 2026) are on the clock below; they get scored when the AER publishes ST3 actuals for those months.</p>
-  <h2>Scored months</h2>
+  <h3>Scored months</h3>
   <p class="tblnote">Nothing scored yet. This table fills in automatically each time a new ST3 month publishes.</p>
-  <h2>On the clock</h2>
+  <h3>On the clock</h3>
   <p>Published nowcasts awaiting ST3 actuals. These values are frozen: when the actuals land, the score is against exactly these numbers.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Leaf</th><th>2026-08 nowcast (kb/d)</th><th>2026-09 nowcast (kb/d)</th></tr>
@@ -617,11 +618,89 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <tr><td>Conventional crude</td><td class="num">665.7</td><td class="num">657.8</td></tr>
   <tr><td>Total WCSB crude supply</td><td class="num">4260.3</td><td class="num">3865.9</td></tr>
   </table></div>
-  <h2>How this is built</h2>
+  <h3>How this is built</h3>
   <p><b>The nowcast.</b> Each month, before the AER publishes ST3 (Alberta Energy Resource Industries Monthly Statistics), the model estimates every ST3 supply line with a seasonal baseline plus confirmed maintenance outages. Aggregates are recomputed from the leaves so the tree ties exactly.</p>
   <p><b>The score.</b> When ST3 actuals publish, the frozen nowcast is compared leaf by leaf. Error is nowcast minus actual, in thousand barrels per day (kb/d) and percent. Actuals use the latest ST3 vintage in the model database; cubic metres convert at 6.2898 barrels per cubic metre.</p>
   <p><b>The independent check.</b> Before any ST3 month is trusted, the pipeline reconciles Petrinex facility-level production against the ST3 monthly actuals. Petrinex buckets: in-situ is production of oil from thermal subtypes, conventional is production of oil from conventional and gas-battery subtypes plus condensate and pentanes. ST3 buckets: the in-situ category, and conventional as light plus medium plus heavy plus ultra-heavy crude plus condensate production. Both sides are compared in cubic metres and the run warns if either bucket differs by more than 3%. Latest same-month check, July 2026: in-situ minus 0.5%, conventional minus 0.1%. August 2026 Petrinex is in hand but ST3 August is unpublished, so the latest August read is against July ST3 as a sanity check only (plus 0.8% and plus 1.1%).</p>
   <p class="tblnote">This page scores the model. It does not change it: calibration is a separate decision, never an automatic one.</p>
+  <h2>Line accuracy backtest</h2>
+  <p>Every forecasted line, graded on its own terms. Walk-forward: at each of 172 origins (2012-03 to 2026-06), each line forecasts its target month from history ending three months before (the ST3 publication lag), then gets scored against the actual. ST3 is the Alberta Energy Regulator monthly statistics release. Positive error means the forecast ran high.</p>
+  <h3>Total supply</h3>
+  <p><b>What it predicts.</b> Total WCSB crude supply for the target month, in thousand barrels per day (kb/d). The top-line number everything else hangs off.</p>
+  <div class="tblwrap"><table class="data">
+  <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">162.1</td><td class="num">200.7</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;351.4</td><td class="num">&plusmn;428.4</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">-21.8</td><td class="num">-30.6</td></tr>
+  <tr><td>Months the model won</td><td class="num" colspan="2">96 of 172 (55.8% <span class="tblnote">(95% CI 48.4%-63.0%)</span>)</td></tr>
+  </table></div>
+  <p><b>Plain English.</b> The model has the smaller average miss on this line (162.1 vs 200.7 kb/d for Persistence (last knowable month)) and the tighter 90% band (&plusmn;351.4 vs &plusmn;428.4), mostly by avoiding big misses: it wins 96 of 172 months, about even month-to-month. Useful, with the band stated.</p>
+  <h3>Takeaway (removals from Alberta)</h3>
+  <p><b>What it predicts.</b> Crude leaving Alberta by pipeline, rail and truck, kb/d. Supply minus takeaway is what the egress balance scores.</p>
+  <div class="tblwrap"><table class="data">
+  <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">172.9</td><td class="num">196.7</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;382.9</td><td class="num">&plusmn;397.2</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">-25.3</td><td class="num">-37.4</td></tr>
+  <tr><td>Months the model won</td><td class="num" colspan="2">93 of 172 (54.1% <span class="tblnote">(95% CI 46.6%-61.4%)</span>)</td></tr>
+  </table></div>
+  <p><b>Plain English.</b> The model has the smaller average miss on this line (172.9 vs 196.7 kb/d for Persistence (last knowable month)) and the tighter 90% band (&plusmn;382.9 vs &plusmn;397.2), mostly by avoiding big misses: it wins 93 of 172 months, about even month-to-month. Useful, with the band stated.</p>
+  <h3>Storage build/draw</h3>
+  <p><b>What it predicts.</b> Implied inventory change, kb/d. Positive is a build (barrels going into tank); negative is a draw.</p>
+  <div class="tblwrap"><table class="data">
+  <tr><th></th><th>Model nowcast</th><th>Best naive: Zero (predict no change)</th></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">99.8</td><td class="num">69.7</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;218.1</td><td class="num">&plusmn;151.3</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">-1.9</td><td class="num">-3.9</td></tr>
+  <tr><td>Months the model won</td><td class="num" colspan="2">84 of 172 (48.8% <span class="tblnote">(95% CI 41.5%-56.2%)</span>)</td></tr>
+  </table></div>
+  <p><b>Plain English.</b> The naive rule (Zero (predict no change)) beats the model on this line: 69.7 vs 99.8 kb/d average miss. We do not use the model for this line: if it has no predictive power we do not use it.</p>
+  <h3>Light crude</h3>
+  <p><b>What it predicts.</b> Light and medium crude portion of supply, kb/d.</p>
+  <div class="tblwrap"><table class="data">
+  <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">21.1</td><td class="num">15.1</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;46.0</td><td class="num">&plusmn;30.1</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">+1.0</td><td class="num">-0.0</td></tr>
+  <tr><td>Months the model won</td><td class="num" colspan="2">63 of 172 (36.6% <span class="tblnote">(95% CI 29.8%-44.0%)</span>)</td></tr>
+  </table></div>
+  <p><b>Plain English.</b> The naive rule (Persistence (last knowable month)) beats the model on this line: 15.1 vs 21.1 kb/d average miss. We do not use the model for this line: if it has no predictive power we do not use it.</p>
+  <h3>Heavy crude</h3>
+  <p><b>What it predicts.</b> Heavy and ultra-heavy crude portion of supply, kb/d.</p>
+  <div class="tblwrap"><table class="data">
+  <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">6.3</td><td class="num">5.2</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;13.2</td><td class="num">&plusmn;9.3</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">-0.4</td><td class="num">-0.4</td></tr>
+  <tr><td>Months the model won</td><td class="num" colspan="2">71 of 172 (41.3% <span class="tblnote">(95% CI 34.2%-48.8%)</span>)</td></tr>
+  </table></div>
+  <p><b>Plain English.</b> The naive rule (Persistence (last knowable month)) beats the model on this line: 5.2 vs 6.3 kb/d average miss. We do not use the model for this line: if it has no predictive power we do not use it.</p>
+  <p class="tblnote">Uncertainty: the win-rate band is the Wilson 95% interval; depth bands are the empirical 90th percentile of absolute error (no normality assumed). Full per-method numbers ship in the page data feed.</p>
+  <h2>Other scorecards</h2>
+  <p>Every predictive component gets the same treatment: backtest accuracy with its uncertainty stated, live accuracy as predictions resolve, and an honest label when there is nothing to score yet.</p>
+  <h3>Apportionment</h3>
+  <p><b>What it predicts.</b> Whether each Mainline corridor will be apportioned (rationed) next month, and by how much. Walk-forward backtest: the model trains only on months before each forecast, 72 system forecasts scored.</p>
+  <div class="tblwrap"><table class="data">
+  <tr><th></th><th>Model</th><th>Naive benchmark (repeat last month)</th></tr>
+  <tr><td>On/off calls correct</td><td class="num">95.8% <span class="tblnote">(95% CI 88.4%-98.6%)</span></td><td class="num">93.1% <span class="tblnote">(95% CI 84.8%-97.0%)</span></td></tr>
+  <tr><td>Depth: average miss</td><td class="num">0.10 pts</td><td class="num">0.08 pts</td></tr>
+  <tr><td>Depth: within this, 90% of the time</td><td class="num">&plusmn;0.23 pts</td><td class="num">&plusmn;0.18 pts</td></tr>
+  </table></div>
+  <p><b>Plain English.</b> The model calls apportionment on or off correctly 95.8% of the time, but the naive rule (just repeat last month) is right 93.1% of the time, and the uncertainty bands overlap: we do not claim the model beats it. On depth (how much gets apportioned), the model misses by 0.10 points on average and lands within &plusmn;0.23 points 90% of the time; the naive rule misses by less (0.08). That is why the live nowcast below is the naive baseline, not the model: if it has no predictive power we do not use it.</p>
+  <p><b>On the clock.</b> November 2026 nowcast: 8% lights / 4% heavies at Kerrobert (backtest-selected baseline: persistence). on the clock; scored when Enbridge publishes the November notice.</p>
+  <p class="tblnote">Uncertainty: hit-rate bands are Wilson 95% intervals; depth bands are the empirical 90th percentile of absolute error (no normality assumed).</p>
+  <h3>Egress and spare capacity</h3>
+  <p><b>What it predicts.</b> Monthly spare pipeline egress capacity: pipeline capacity minus forecast marketable supply. Negative spare means the basin is pushing against the pipes.</p>
+  <p><b>The honest scoring position.</b> Spare is computed, not observed: there is no meter that reads basin spare capacity. Its accuracy rides entirely on the supply and takeaway nowcasts scored in the line accuracy backtest above. When the supply and takeaway lines score against ST3 actuals, the spare error band follows from their error bands. We do not invent a separate accuracy number for a number nobody measures.</p>
+  <p class="tblnote">Status: derived, not directly scored.</p>
+  <h3>Whale flags</h3>
+  <p><b>What it predicts.</b> The whale detector flags probable whale-sized builds in COT (Commitments of Traders) positioning: unusual managed-money or commercial flows that read as large-fund or large-producer activity.</p>
+  <p><b>The honest scoring position.</b> No backtest yet. Scoring a flag means measuring what the market did after the flag, and that needs a real price panel; the detector still runs on a synthetic price stand-in. Flags are logged with the rule that produced each one, and the scoring rule is defined (directional call over the 20 trading days after the flag, graded against a naive benchmark). It runs when the price feed is real.</p>
+  <p class="tblnote">Status: no backtest yet; flags logged, scoring rule defined, awaiting real prices.</p>
+  <h3>Trading signals</h3>
+  <p><b>What they predict.</b> The signal book (calendar carry, momentum, arb mean-reversion) makes paper trading calls with logged predictions, backtest expectancy, and gate states.</p>
+  <p><b>The honest scoring position.</b> Everything runs on synthetic prices, so the backtests are plumbing checks, not evidence. A weekly internal rollup compares trailing behavior against backtest expectancy and flags deviations beyond two standard deviations. True out-of-sample scoring starts with paper trading, which has not started.</p>
+  <p class="tblnote">Status: synthetic only; no live score yet.</p>
   <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="weekly/index.html">Edition archive</a></div><div class="fcol"><h4>Supply</h4><a href="supply/index.html">Supply hub</a><a href="st3-dashboard.html">Dashboard</a><a href="scorecard.html">Scorecard</a><a href="balance/index.html">S&amp;D balance</a><a href="maintenance/index.html">Maintenance</a><a href="projects/index.html">All projects</a><a href="apportionment/index.html">Apportionment</a></div><div class="fcol"><h4>World</h4><a href="world/hormuz/index.html">Hormuz watch</a><a href="world/iran/index.html">Iran watch</a><a href="world/redsea/index.html">Red Sea</a><a href="world/russia-refining/index.html">Russian refineries</a><a href="world/china-imports/index.html">China imports</a><a href="world/spr-storage/index.html">SPR & storage</a><a href="world/sour/index.html">The global sour barrel</a><a href="venezuela/index.html">Venezuela watch</a><a href="world/trump/index.html">Trump watch</a><a href="world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="digest/index.html">Latest digest</a><a href="digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="fieldguide/index.html">Field guide</a><a href="data/index.html">Data downloads</a><a href="sources/index.html">Sources</a><a href="methodology/index.html">Methodology</a><a href="about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="methodology/index.html">methodology</a> page; where every fact came from is in <a href="sources/index.html">sources</a>.</p></footer>
 </div>
 <script>
