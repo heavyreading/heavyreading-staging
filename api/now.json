@@ -114,6 +114,11 @@
     "when": "Oct 1–Dec 31",
     "what": "Base Plant turnaround",
     "detail": "-5 kb/d event rate"
+   },
+   {
+    "when": "Jul 1–Sep 30",
+    "what": "Christina Lake turnaround",
+    "detail": "-20 kb/d event rate"
    }
   ],
   "apportionment": {
