@@ -589,8 +589,10 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <h1>Scorecards</h1>
   <p class="sub">The model grades itself: every prediction scored, with its uncertainty stated.</p>
   <p class="sub">Every published model nowcast, scored against the Alberta Energy Regulator (AER) ST3 actuals when they land. Positive error means the nowcast ran high.</p>
+  <p><b>Why the naive rule gets a column.</b> Every number on this page is measured against the simplest possible forecast: repeat last month (persistence), or predict no change at all. The naive rule is a valid forecast, not a straw man. A fancy model that cannot beat it gets cut, and the naive rule that wins gets used and scored like everything else. The scorecard does not care how clever the method is, only how accurate.</p>
   <p class="vintage-inline">Nowcast vintage: built 2026-09-23.<br>Actuals: AER ST3 actuals, latest vintage in repo duckdb (ST3 file vintage 2026-08-27; loaded 2026-09-28).</p>
   <h2>Supply nowcasts</h2>
+  <p><b>How to read this.</b> Mean error is the average miss across scored months, in thousand barrels per day (kb/d); positive means the nowcast ran high, negative means it ran low. With no scored months yet, this section fills in automatically when the AER publishes ST3 actuals. "On the clock" lists frozen nowcasts: the numbers cannot be revised after the fact, so the score is against exactly what was published.</p>
   <h3>Bias so far</h3>
   <p>No scored months yet. The first nowcasts (August and September 2026) are on the clock below; they get scored when the AER publishes ST3 actuals for those months.</p>
   <h3>Scored months</h3>
@@ -627,6 +629,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p>Every forecasted line, graded on its own terms. Walk-forward: at each of 172 origins (2012-03 to 2026-06), each line forecasts its target month from history ending three months before (the ST3 publication lag), then gets scored against the actual. ST3 is the Alberta Energy Regulator monthly statistics release. Positive error means the forecast ran high.</p>
   <h3>Total supply</h3>
   <p><b>What it predicts.</b> Total WCSB crude supply for the target month, in thousand barrels per day (kb/d). The top-line number everything else hangs off.</p>
+  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The 90% band means 9 times out of 10 the miss landed inside that range. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">162.1</td><td class="num">200.7</td></tr>
@@ -637,6 +640,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p><b>Plain English.</b> The model has the smaller average miss on this line (162.1 vs 200.7 kb/d for Persistence (last knowable month)) and the tighter 90% band (&plusmn;351.4 vs &plusmn;428.4), mostly by avoiding big misses: it wins 96 of 172 months, about even month-to-month. Useful, with the band stated.</p>
   <h3>Takeaway (removals from Alberta)</h3>
   <p><b>What it predicts.</b> Crude leaving Alberta by pipeline, rail and truck, kb/d. Supply minus takeaway is what the egress balance scores.</p>
+  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The 90% band means 9 times out of 10 the miss landed inside that range. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">172.9</td><td class="num">196.7</td></tr>
@@ -647,6 +651,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p><b>Plain English.</b> The model has the smaller average miss on this line (172.9 vs 196.7 kb/d for Persistence (last knowable month)) and the tighter 90% band (&plusmn;382.9 vs &plusmn;397.2), mostly by avoiding big misses: it wins 93 of 172 months, about even month-to-month. Useful, with the band stated.</p>
   <h3>Storage build/draw</h3>
   <p><b>What it predicts.</b> Implied inventory change, kb/d. Positive is a build (barrels going into tank); negative is a draw.</p>
+  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The 90% band means 9 times out of 10 the miss landed inside that range. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model nowcast</th><th>Best naive: Zero (predict no change)</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">99.8</td><td class="num">69.7</td></tr>
@@ -657,6 +662,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p><b>Plain English.</b> The naive rule (Zero (predict no change)) beats the model on this line: 69.7 vs 99.8 kb/d average miss. We do not use the model for this line: if it has no predictive power we do not use it.</p>
   <h3>Light crude</h3>
   <p><b>What it predicts.</b> Light and medium crude portion of supply, kb/d.</p>
+  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The 90% band means 9 times out of 10 the miss landed inside that range. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">21.1</td><td class="num">15.1</td></tr>
@@ -667,6 +673,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p><b>Plain English.</b> The naive rule (Persistence (last knowable month)) beats the model on this line: 15.1 vs 21.1 kb/d average miss. We do not use the model for this line: if it has no predictive power we do not use it.</p>
   <h3>Heavy crude</h3>
   <p><b>What it predicts.</b> Heavy and ultra-heavy crude portion of supply, kb/d.</p>
+  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The 90% band means 9 times out of 10 the miss landed inside that range. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">6.3</td><td class="num">5.2</td></tr>
@@ -676,10 +683,64 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   </table></div>
   <p><b>Plain English.</b> The naive rule (Persistence (last knowable month)) beats the model on this line: 5.2 vs 6.3 kb/d average miss. We do not use the model for this line: if it has no predictive power we do not use it.</p>
   <p class="tblnote">Uncertainty: the win-rate band is the Wilson 95% interval; depth bands are the empirical 90th percentile of absolute error (no normality assumed). Full per-method numbers ship in the page data feed.</p>
+  <h2>Bottom-up vs top-down</h2>
+  <p>Two ways to forecast a total. <b>Bottom-up</b> forecasts each facility, then adds the forecasts up. <b>Top-down</b> forecasts the total directly with the same seasonal code. The walk-forward backtest scores both against actuals, and both against the naive rule (repeat last month). Monthly origins January 2015 to March 2026, 3-month horizon, history strictly at or before each origin: no lookahead. SAGD is steam-assisted gravity drainage; SCO is synthetic crude oil; ST53 is the Alberta Energy Regulator (AER) monthly in-situ statistics release; ST39 is the AER monthly oil-sands plant statistics release.</p>
+  <h3>SAGD</h3>
+  <p><b>What it predicts.</b> In-situ SAGD (steam-assisted gravity drainage) production, kb/d. Facility detail comes from ST53, the AER monthly in-situ statistics release (scheme/operator detail). An earlier working note said ST39; ST39 covers mines and upgraders, not SAGD schemes, so ST53 is the correct source.</p>
+  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 405 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The prescription is mechanical: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
+  <div class="tblwrap"><table class="data">
+  <tr><th></th><th>Bottom-up</th><th>Top-down</th><th>Naive</th></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">52.7</td><td class="num">66.6</td><td class="num">50.2</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;118.1</td><td class="num">&plusmn;140.2</td><td class="num">&plusmn;128.8</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">+4.4</td><td class="num">-0.6</td><td class="num">-7.9</td></tr>
+  <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">246 of 405 (60.7% <span class="tblnote">(95% CI 55.9%-65.4%)</span>): bottom-up wins</td></tr>
+  <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">171 of 405 (42.2% <span class="tblnote">(95% CI 37.5%-47.1%)</span>): loses to naive</td></tr>
+  </table></div>
+  <p><b>Plain English.</b> Structure: bottom-up wins. Against the naive rule: loses to naive. So the live forecast for this line uses the <b>naive (repeat last month), labeled</b>: cannot beat doing nothing clever, so the live forecast uses the naive rule and says so.</p>
+  <p class="tblnote">12 facilities (median across origins); origins 2015-01 to 2026-03.</p>
+  <h3>Mined bitumen</h3>
+  <p><b>What it predicts.</b> Oil-sands mined bitumen, kb/d. Facility detail from ST39 plant-level production (mines).</p>
+  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 405 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The prescription is mechanical: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
+  <div class="tblwrap"><table class="data">
+  <tr><th></th><th>Bottom-up</th><th>Top-down</th><th>Naive</th></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">174.1</td><td class="num">180.8</td><td class="num">175.9</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;331.0</td><td class="num">&plusmn;352.7</td><td class="num">&plusmn;316.2</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">-54.3</td><td class="num">-55.9</td><td class="num">-25.4</td></tr>
+  <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">241 of 405 (59.5% <span class="tblnote">(95% CI 54.7%-64.2%)</span>): bottom-up wins</td></tr>
+  <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">240 of 405 (59.3% <span class="tblnote">(95% CI 54.4%-63.9%)</span>): beats naive</td></tr>
+  </table></div>
+  <p><b>Plain English.</b> Structure: bottom-up wins. Against the naive rule: beats naive. So the live forecast for this line uses the <b>bottom-up model</b>: beats the naive rule cleanly, so it earns its place in the live forecast.</p>
+  <p class="tblnote">7 facilities (median across origins); origins 2015-01 to 2026-03.</p>
+  <h3>SCO</h3>
+  <p><b>What it predicts.</b> SCO (synthetic crude oil) from upgraders, kb/d. Facility detail from ST39 upgrader production. Thin sample: only a handful of upgraders, so read the bands, not just the point estimate.</p>
+  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 138 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The prescription is mechanical: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
+  <div class="tblwrap"><table class="data">
+  <tr><th></th><th>Bottom-up</th><th>Top-down</th><th>Naive</th></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">81.0</td><td class="num">81.3</td><td class="num">56.2</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;235.7</td><td class="num">&plusmn;243.4</td><td class="num">&plusmn;111.5</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">-35.8</td><td class="num">-35.6</td><td class="num">-12.3</td></tr>
+  <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">76 of 138 (55.1% <span class="tblnote">(95% CI 46.8%-63.1%)</span>): inconclusive</td></tr>
+  <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">54 of 138 (39.1% <span class="tblnote">(95% CI 31.4%-47.5%)</span>): loses to naive</td></tr>
+  </table></div>
+  <p><b>Plain English.</b> Structure: inconclusive. Against the naive rule: loses to naive. So the live forecast for this line uses the <b>naive (repeat last month), labeled</b>: cannot beat doing nothing clever, so the live forecast uses the naive rule and says so.</p>
+  <p class="tblnote">2 facilities (median across origins); origins 2021-12 to 2026-03.</p>
+  <h3>The maintenance hypothesis</h3>
+  <p><b>What it tests.</b> The standing hypothesis: facility-level forecasts should be good because they use the maintenance calendar. Scored walk-forward: facility seasonal forecasts vs persistence, across 29 projects, then restricted to the 65 documented turnaround months, where maintenance actually bites.</p>
+  <p><b>How to read this.</b> Overall, the facility seasonal forecasts lose to persistence: they win only 34.6% of head-to-head months. But inside turnaround months they win 61.5% (95% CI 49.4%-72.4%). That band just touches 50%, so read it as suggestive, not proven: the sample is 65 months. The honest reading is that the skill, if any, lives in maintenance windows, not in ordinary months.</p>
+  <div class="tblwrap"><table class="data">
+  <tr><th></th><th>Facility seasonal</th><th>Persistence</th></tr>
+  <tr><td>All months: average miss (kb/d)</td><td class="num">24.8</td><td class="num">21.7</td></tr>
+  <tr><td>All months: seasonal won</td><td class="num" colspan="2">2266 of 6552 (34.6% <span class="tblnote">(95% CI 33.4%-35.8%)</span>)</td></tr>
+  <tr><td>Turnaround months: average miss (kb/d)</td><td class="num">102.0</td><td class="num">111.6</td></tr>
+  <tr><td>Turnaround months: seasonal won</td><td class="num" colspan="2">40 of 65 (61.5% <span class="tblnote">(95% CI 49.4%-72.4%)</span>)</td></tr>
+  </table></div>
+  <p><b>Plain English.</b> The maintenance calendar does not make ordinary months predictable: persistence wins there. Where it matters, in turnaround months, the seasonal forecast wins 61.5% of the time with the smaller average miss (102.0 vs 111.6 kb/d). That is where the facility detail earns its keep.</p>
+  <p class="tblnote">Uncertainty: win-rate bands are Wilson 95% intervals; depth bands are empirical 90th percentiles of absolute error (no normality assumed). Turnaround windows are observed dips from the maintenance disposition record, not announcement vintages: they measure where maintenance matters, not what was knowable when.</p>
   <h2>Other scorecards</h2>
   <p>Every predictive component gets the same treatment: backtest accuracy with its uncertainty stated, live accuracy as predictions resolve, and an honest label when there is nothing to score yet.</p>
   <h3>Apportionment</h3>
   <p><b>What it predicts.</b> Whether each Mainline corridor will be apportioned (rationed) next month, and by how much. Walk-forward backtest: the model trains only on months before each forecast, 72 system forecasts scored.</p>
+  <p><b>How to read this.</b> "On/off calls correct" is the share of months the model got the direction right (apportionment or no apportionment). The 95% band around it is the uncertainty from the sample size: the true long-run rate could plausibly sit anywhere inside it. Depth is how much gets apportioned, in percentage points; the average miss and the 90% band read the same way as the line cards above. When the naive rule's band overlaps the model's, we do not claim the model is better, and the live nowcast uses the naive rule.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model</th><th>Naive benchmark (repeat last month)</th></tr>
   <tr><td>On/off calls correct</td><td class="num">95.8% <span class="tblnote">(95% CI 88.4%-98.6%)</span></td><td class="num">93.1% <span class="tblnote">(95% CI 84.8%-97.0%)</span></td></tr>
@@ -691,14 +752,17 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p class="tblnote">Uncertainty: hit-rate bands are Wilson 95% intervals; depth bands are the empirical 90th percentile of absolute error (no normality assumed).</p>
   <h3>Egress and spare capacity</h3>
   <p><b>What it predicts.</b> Monthly spare pipeline egress capacity: pipeline capacity minus forecast marketable supply. Negative spare means the basin is pushing against the pipes.</p>
+  <p><b>How to read this.</b> There is no meter that reads basin spare capacity, so there is no accuracy number to print here. Spare inherits the error of the supply and takeaway lines: if those miss by their 90% bands, the spare misses by about the combined band. Read the line accuracy backtest above as this card's score.</p>
   <p><b>The honest scoring position.</b> Spare is computed, not observed: there is no meter that reads basin spare capacity. Its accuracy rides entirely on the supply and takeaway nowcasts scored in the line accuracy backtest above. When the supply and takeaway lines score against ST3 actuals, the spare error band follows from their error bands. We do not invent a separate accuracy number for a number nobody measures.</p>
   <p class="tblnote">Status: derived, not directly scored.</p>
   <h3>Whale flags</h3>
   <p><b>What it predicts.</b> The whale detector flags probable whale-sized builds in COT (Commitments of Traders) positioning: unusual managed-money or commercial flows that read as large-fund or large-producer activity.</p>
+  <p><b>How to read this.</b> A backtest for flags needs real prices: the score is whether the market moved unusually in the 20 trading days after each flag, versus what a naive benchmark would have caught. Until the price feed is real, the honest entry is "no backtest yet". Every flag carries the exact rule that produced it, so the scoring can be audited when it starts.</p>
   <p><b>The honest scoring position.</b> No backtest yet. Scoring a flag means measuring what the market did after the flag, and that needs a real price panel; the detector still runs on a synthetic price stand-in. Flags are logged with the rule that produced each one, and the scoring rule is defined (directional call over the 20 trading days after the flag, graded against a naive benchmark). It runs when the price feed is real.</p>
   <p class="tblnote">Status: no backtest yet; flags logged, scoring rule defined, awaiting real prices.</p>
   <h3>Trading signals</h3>
   <p><b>What they predict.</b> The signal book (calendar carry, momentum, arb mean-reversion) makes paper trading calls with logged predictions, backtest expectancy, and gate states.</p>
+  <p><b>How to read this.</b> Synthetic prices prove the plumbing (flags fire, calls carry their rationale), not edge. No number on this card should be read as evidence the signal makes money. Paper trading, the first real score, has not started.</p>
   <p><b>The honest scoring position.</b> Everything runs on synthetic prices, so the backtests are plumbing checks, not evidence. A weekly internal rollup compares trailing behavior against backtest expectancy and flags deviations beyond two standard deviations. True out-of-sample scoring starts with paper trading, which has not started.</p>
   <p class="tblnote">Status: synthetic only; no live score yet.</p>
   <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="weekly/index.html">Edition archive</a></div><div class="fcol"><h4>Supply</h4><a href="supply/index.html">Supply hub</a><a href="st3-dashboard.html">Dashboard</a><a href="scorecard.html">Scorecard</a><a href="balance/index.html">S&amp;D balance</a><a href="maintenance/index.html">Maintenance</a><a href="projects/index.html">All projects</a><a href="apportionment/index.html">Apportionment</a></div><div class="fcol"><h4>World</h4><a href="world/hormuz/index.html">Hormuz watch</a><a href="world/iran/index.html">Iran watch</a><a href="world/redsea/index.html">Red Sea</a><a href="world/russia-refining/index.html">Russian refineries</a><a href="world/china-imports/index.html">China imports</a><a href="world/spr-storage/index.html">SPR & storage</a><a href="world/sour/index.html">The global sour barrel</a><a href="venezuela/index.html">Venezuela watch</a><a href="world/trump/index.html">Trump watch</a><a href="world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="digest/index.html">Latest digest</a><a href="digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="fieldguide/index.html">Field guide</a><a href="data/index.html">Data downloads</a><a href="sources/index.html">Sources</a><a href="methodology/index.html">Methodology</a><a href="about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="methodology/index.html">methodology</a> page; where every fact came from is in <a href="sources/index.html">sources</a>.</p></footer>
