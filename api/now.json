@@ -1,5 +1,5 @@
 {
- "vintage": "Now-page data from the 2026-09-28 edition sidecar (8 changes, 3 flags); apportionment Reuters Sep 24 2026; balance reconciled 2026-09-27; built 2026-09-28",
+ "vintage": "Now-page data from the 2026-09-28 edition sidecar (8 changes, 2 flags); apportionment Reuters Sep 24 2026; balance reconciled 2026-09-27; built 2026-09-28",
  "data": {
   "as_of": "2026-09-28",
   "edition": "2026-09-28",
@@ -72,11 +72,6 @@
     "title": "SCO supply returns ~Oct 5–mid-Oct",
     "detail": "Syncrude's 50-day coker turnaround wraps ~Oct 5 and CNRL's Horizon upgrader turnaround ends ~mid-Oct — both restore synthetic-crude supply, a softener for SYN vs WCS into the fall. Trigger: Confirmed completion dates on either turnaround move this into the forward curve read.",
     "vintage": "expires mid-October"
-   },
-   {
-    "title": "No ICE settlements, 4th day",
-    "detail": "The public ICE product pages carried no readable settlement tables this run — fourth day running. Per-tenor levels and blowout detection stay blind. Trigger: Resolves when settlements can be read from the public pages; the forward read then refreshes.",
-    "vintage": "expires when ICE tables become readable"
    }
   ],
   "forward_calendar": [
