@@ -64,6 +64,12 @@
    "vintage": "Enbridge notice (Sep 16, 2026)",
    "source": "Enbridge Connecting Pipelines notice, Sep 16, 2026",
    "source_url": ""
+  },
+  {
+   "text": "Sep 2026 mid-month context: Line 5 unplanned outage from the Aug 25 Saxon WI NGL release (~1.3M gal), ~3-week shutdown, temporary bypass, back in service ~Sep 12-14",
+   "vintage": "Public news reports, Sep 2026 (secondary reporting, not notice text)",
+   "source": "WRCO; WBZH; RBN Energy; Zacks",
+   "source_url": "https://wrco.com/news/2026/09/15/line-5-reopens-after-spill-despite-dnr-warning"
   }
  ],
  "sources": [
@@ -76,6 +82,11 @@
    "publisher": "Enbridge apportionment notices (Nominations Planning)",
    "vintage": "May-Oct 2026, incl. Sep 2026 mid-month (transcribed Sep 28, 2026)",
    "url": ""
+  },
+  {
+   "publisher": "Line 5 outage: WRCO, WBZH, RBN Energy, Zacks (news reports, secondary)",
+   "vintage": "Sep 2026",
+   "url": "https://wrco.com/news/2026/09/15/line-5-reopens-after-spill-despite-dnr-warning"
   }
  ]
 }
