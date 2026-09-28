@@ -22,6 +22,48 @@
    "vintage": "CER Guide BB.2, Jun 2026 (pulled Sep 26, 2026)",
    "source": "CER Open Government apportionment CSV",
    "source_url": "https://www.cer-rec.gc.ca/open/energy/throughput-capacity/apportionment.csv"
+  },
+  {
+   "text": "May 2026 announced: lights 15% at Kerrobert (Line 2/93), heavies 14% at Superior (Line 6/61)",
+   "vintage": "Enbridge notice (Apr 20, 2026)",
+   "source": "Enbridge notice, Apr 20, 2026 (Nominations Planning, Monterey Coates)",
+   "source_url": ""
+  },
+  {
+   "text": "June 2026 announced: lights 18% at Kerrobert (Line 2/93), heavies 19% at Superior (Line 6/61)",
+   "vintage": "Enbridge notice (May 19, 2026)",
+   "source": "Enbridge notice, May 19, 2026 (Nominations Planning, Monterey Coates)",
+   "source_url": ""
+  },
+  {
+   "text": "July 2026 announced: lights 21% at Kerrobert (Line 2/93), heavies 11% at Kerrobert (Line 4/67/93)",
+   "vintage": "Enbridge notice (Jun 17, 2026)",
+   "source": "Enbridge notice, Jun 17, 2026 (Nominations Planning, Monterey Coates)",
+   "source_url": ""
+  },
+  {
+   "text": "August 2026 announced: lights 14% at Kerrobert (Line 2/93), heavies 9% at Kerrobert (Line 4/67/93)",
+   "vintage": "Enbridge notice (Jul 21, 2026)",
+   "source": "Enbridge notice, Jul 21, 2026 (Nominations Planning, Tutka Otgon)",
+   "source_url": ""
+  },
+  {
+   "text": "September 2026 (mid-month) announced: lights 25% downstream of Griffith (Line 5 outage), heavies n/a",
+   "vintage": "Enbridge notice (Sep 8, 2026)",
+   "source": "Enbridge notice, Sep 8, 2026 (Katie Robertson)",
+   "source_url": ""
+  },
+  {
+   "text": "September 2026 announced: lights none (NPP not applied), heavies none (NPP not applied)",
+   "vintage": "Enbridge notice (n/a, 2026)",
+   "source": "Enbridge Notice of Shipment Summary, September 2026",
+   "source_url": ""
+  },
+  {
+   "text": "October 2026 announced: lights 8% at Kerrobert (Line 2/93), heavies 4% at Kerrobert (Line 4/67/93)",
+   "vintage": "Enbridge notice (Sep 16, 2026)",
+   "source": "Enbridge Connecting Pipelines notice, Sep 16, 2026",
+   "source_url": ""
   }
  ],
  "sources": [
@@ -29,6 +71,11 @@
    "publisher": "CER Open Government (Guide BB.2); Enbridge tariffs; NEB/CER",
    "vintage": "Jan 2007-Jun 2026 (pulled Sep 26, 2026)",
    "url": "https://www.cer-rec.gc.ca/open/energy/throughput-capacity/apportionment.csv"
+  },
+  {
+   "publisher": "Enbridge apportionment notices (Nominations Planning)",
+   "vintage": "May-Oct 2026, incl. Sep 2026 mid-month (transcribed Sep 28, 2026)",
+   "url": ""
   }
  ]
 }
