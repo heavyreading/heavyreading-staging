@@ -1,12 +1,12 @@
 {
- "vintage": "11 watches; newest source update 2026-09-27; built 2026-09-28",
+ "vintage": "11 watches; newest source update 2026-09-28; built 2026-09-28",
  "data": {
   "watches": [
    {
     "slug": "hormuz",
     "title": "Hormuz Watch",
     "dek": "Tanker movement through the world's most important oil chokepoint: baseline, conflict disruption, and the current transit picture.",
-    "updated": "2026-09-27",
+    "updated": "2026-09-28",
     "how_to_read": "Read this page as the barrel count behind the price: the Strait of Hormuz carries roughly one-fifth of the world's petroleum liquids, and every transit number here is a proxy for how much of that supply is actually moving. Each bullet carries its vintage, so read the wartime vessel counts against the pre-war baseline of about 20 to 21 million barrels per day, the US Energy Information Administration (EIA) figure for the first half of 2025.",
     "wcs_stakes": "Hormuz is the world's main sour export artery, and when it closes, the sour barrels Western Canadian Select (WCS) competes with disappear first, which is why Canadian differentials tightened as the war cut Gulf flows. Fewer Iranian, Iraqi, and Saudi sour barrels reaching Asia and Europe forces buyers onto substitute grades, bidding up Mars and other Atlantic Basin sours alongside WCS. If Hormuz transits normalize, the returning sour supply is the fastest way Canadian differentials soften again.",
     "wcs_closer": "For the WCSB book, Hormuz is the supply-side risk premium inside every WCS print. Vessel counts and the EIA's quarterly volume series tell you whether the chokepoint is loosening before the price does. The moment Gulf sour barrels flow freely again, expect the bid under Canadian heavies to fade with them.",
@@ -73,6 +73,12 @@
      {
       "heading": "The current escalation (reported)",
       "bullets": [
+       {
+        "text": "Foreign Minister Abbas Araghchi said on NBC's Meet the Press that Iran is fully prepared for the war to resume, even a doomsday war, while remaining ready for diplomacy; CNN reported the White House rejected the proposal because it doubts Tehran is negotiating in good faith.",
+        "vintage": "Sep 27, 2026",
+        "source": "CNN",
+        "source_url": "https://kioncentralcoast.com/news/national-world/cnn-world/2026/09/26/trump-rejects-irans-latest-proposal-to-reopen-the-strait-of-hormuz/"
+       },
        {
         "text": "Iranian Foreign Minister Abbas Araghchi said on September 27 that Tehran's conditions for reopening the strait are unchanged and that he had received nothing from mediators Qatar and Pakistan since the United States rejected the plan, insisting only a negotiated solution can end the standoff.",
         "vintage": "Sep 27, 2026",
@@ -156,6 +162,12 @@
      {
       "heading": "Now vs normal: the transit picture",
       "bullets": [
+       {
+        "text": "Trump told Axios on September 27 that Tehran had overplayed its hand and that the offer was what the United States might have accepted a year ago, adding he expects negotiations to resume this week and claiming more than 20 million barrels of oil transited the strait over the weekend, a figure a US defense official put at 22 million barrels; the figure is a US claim, not a tracker count.",
+        "vintage": "Sep 27, 2026",
+        "source": "Axios (via Ya Libnan)",
+        "source_url": "https://yalibnan.com/2026/09/28/after-rejecting-iran-proposal-trump-tells-axios-he-expects-talks-this-week/"
+       },
        {
         "text": "Trump asserted on September 26 that the United States exercises complete control over the strait and said 29 ships transited the chokepoint over the past day, framing the blockade as the pressure forcing Tehran toward talks; the figure is a US claim, not a tracker count.",
         "vintage": "Sep 26, 2026",
@@ -273,7 +285,7 @@
     "slug": "iran",
     "title": "Iran watch",
     "dek": "Iranian oil exports under sanctions and naval blockade: tanker-tracked export estimates, floating storage, grades and rerouting, the shadow fleet, and China's buying. Every figure carries its vintage.",
-    "updated": "2026-09-27",
+    "updated": "2026-09-28",
     "how_to_read": "Read this page as the sanctioned sour barrel: Iran's exports are the largest single pool of distressed medium and heavy sour crude, and every number here is either tracker-observed or claimed, never both. Bullets say which, so treat Iranian state media figures as claims and tanker-tracker figures as observations.",
     "wcs_stakes": "Iran is the marginal sour barrel in Asia: its exports land in the same Chinese teapot refineries that buy the Urals and other grades competing with Western Canadian Select (WCS). When Iranian barrels are blocked, teapots bid up substitute sours and the whole sour complex firms, supporting Canadian differentials; when the blockade loosens and Iranian crude flows again, medium and heavy sours soften first. The floating storage stockpile is the leading indicator: it is supply that can move without a single new barrel being produced.",
     "wcs_closer": "For the WCSB book, watch the floating storage drawdown and the blockade line: they tell you how much Iranian sour is coming before any official announcement. A sustained return of Iranian barrels would pressure the medium and heavy sour grades that price off Urals first, and Canadian heavies would feel it at the margin. The Iran Light premium flipping from discount to premium shows how fast the sour complex reprices when barrels vanish.",
@@ -476,6 +488,12 @@
       "heading": "The shadow fleet",
       "bullets": [
        {
+        "text": "No fresh sanctions designations on shadow-fleet vessels or entities appeared from the US Treasury's Office of Foreign Assets Control, the European Union, the United Kingdom, or the United Nations in the past week, per sanctions tracker Eagle Intelligence, leaving the enforcement picture flat even as Hormuz tensions raised tanker insurance costs.",
+        "vintage": "Sep 25, 2026",
+        "source": "Eagle Intelligence",
+        "source_url": "https://eagleintelmari.com/news/eagle-sanctions-watch-2026-09-25"
+       },
+       {
         "text": "Tracking data showed the tankers Tifani and Majestic X, seized by US forces in April, sailing along Brazil's northern coast while the June-seized Lenore rounded the Cape of Good Hope into the Atlantic, carrying nearly 6 million barrels of Iranian crude worth about $600 million toward the United States for expected forfeiture.",
         "vintage": "Sep 26, 2026",
         "source": "gCaptain (citing Bloomberg)",
@@ -548,7 +566,7 @@
     "slug": "redsea",
     "title": "Red Sea Watch",
     "dek": "Houthi pressure on Red Sea shipping: Bab el-Mandeb transit, territorial control, and the Cape of Good Hope diversion.",
-    "updated": "2026-09-27",
+    "updated": "2026-09-28",
     "how_to_read": "Read this page as the routing risk behind the sour price: the Red Sea and Bab el-Mandeb decide whether Gulf crude reaches Europe and Asia on time or diverts around the Cape of Good Hope at record freight. Houthi claims are carried as claims, not confirmed incidents, and each bullet says which. Vessel counts are proxies for volume, and the quarterly official series lags.",
     "wcs_stakes": "The Red Sea is the back door for Gulf sour barrels to Europe and the long way around to Asia, so its closure pushes those barrels onto longer routes at record freight and pushes European refiners onto substitute sours. That substitution is what keeps the bid under Atlantic Basin heavies like Mars and Western Canadian Select (WCS) while Yanbu loadings are suspended. If the East-West pipeline restart holds and Bab el-Mandeb transits recover, European sour demand normalizes and the support under WCS fades.",
     "wcs_closer": "For the WCSB book, the Red Sea is freight and substitution: watch Bab el-Mandeb transit counts and Yanbu loading resumption for the earliest sign that Gulf sour is reaching Europe normally again. While the reroute persists, record very large crude carrier (VLCC) rates keep delivered sour expensive and Canadian barrels relatively bid. The pipeline restart is fragile, so treat the recovery as a signal, not a settlement.",
@@ -556,6 +574,12 @@
      {
       "heading": "September 2026 escalation",
       "bullets": [
+       {
+        "text": "Kpler data showed commodity-vessel transits through Bab el-Mandeb fell to 11 on September 27, the lowest level in months, as Red Sea traffic slowed after Houthi attacks on Saudi coastal installations, though two very large crude carriers were still inbound to Yanbu to load crude.",
+        "vintage": "Sep 27, 2026",
+        "source": "Reuters (via MarineLink)",
+        "source_url": "https://www.marinelink.com/news/red-sea-shipping-slows-houthi-attack-541529"
+       },
        {
         "text": "Saudi authorities ordered Riyadh schools to switch to remote learning for a week after Saudi air defenses said they intercepted Houthi drones aimed at the capital and ballistic missiles targeting Khamis Mushait; a Houthi political bureau member described the raid as a small-scale rehearsal for a full escalation.",
         "vintage": "Sep 27, 2026",
@@ -663,6 +687,12 @@
       "heading": "International response",
       "bullets": [
        {
+        "text": "Saudi Foreign Minister Prince Faisal bin Farhan arrived in Washington on September 28 for talks with Secretary of State Marco Rubio, as Riyadh seeks US help against the Houthis; Reuters sources said Washington agreed to intelligence and targeting support while declining to launch strikes itself.",
+        "vintage": "Sep 28, 2026",
+        "source": "AnewZ (citing Reuters sources)",
+        "source_url": "https://anewz.tv/region/middle-east/24847/saudi-us-talks-focus-on-houthi-red-sea-threat/news"
+       },
+       {
         "text": "Military chiefs from Saudi Arabia, Pakistan and Turkey met in Riyadh under the Makkah Joint Defence Agreement to review the threats facing the kingdom, condemning Houthi attacks and agreeing to deepen intelligence sharing and military coordination.",
         "vintage": "Sep 25, 2026; reported Sep 26",
         "source": "Reuters (via Northland News Radio)",
@@ -715,7 +745,7 @@
     "slug": "russia-refining",
     "title": "Russian Refining Watch",
     "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
-    "updated": "2026-09-27",
+    "updated": "2026-09-28",
     "how_to_read": "Read this page as the diesel side of the crude market: Ukrainian strikes on Russian refineries remove products, not crude, so the read is crack spreads and export curbs rather than wellhead output. Ukrainian claims are carried as claims. Strike dates are approximate and every bullet carries its vintage.",
     "wcs_stakes": "Russian refinery outages tighten global diesel, and record diesel cracks keep US and Asian refiners running at maximum to capture them, which is the demand-side bid under heavy sour barrels including Western Canadian Select (WCS). At the same time, crude displaced from downed Russian refineries has pushed seaborne Russian exports to 16-month highs, capping how much support the tight product market can pass back to sour crude prices. The net effect for WCS is constructive while diesel cracks stay extreme: refineries run hard and bid for every discounted heavy barrel they can crack.",
     "wcs_closer": "For the WCSB book, watch the diesel crack, not the strike count: it is the margin that decides how hard refiners run and how much they pay for heavy barrels. If an energy ceasefire returns Russian refineries and the diesel crack compresses, runs fall and discounted heavies strand first. Until then, the tight product market is the best demand cover WCS has.",
@@ -740,6 +770,12 @@
      {
       "heading": "Market effects and negotiation backdrop",
       "bullets": [
+       {
+        "text": "President Trump said he asked President Zelenskyy to reduce strikes on Russian oil refineries, warning they could create a global problem, and claimed Zelenskyy said he probably would, though Kyiv did not confirm that response.",
+        "vintage": "Sep 28, 2026",
+        "source": "Informat.ro",
+        "source_url": "https://informat.ro/en/international/trump-asks-zelensky-to-reduce-attacks-on-russian-refineries-140870"
+       },
        {
         "text": "Both sides kept striking energy assets despite Trump's September 14 announcement of a mutual pledge to stop; Zelenskyy said Kyiv is ready for an energy ceasefire and floated US-pushed trilateral technical talks possibly in Abu Dhabi, while Kremlin spokesman Peskov said Putin and Trump discussed such a meeting but gave no specifics.",
         "vintage": "Sep 25, 2026",
@@ -793,6 +829,18 @@
      {
       "heading": "Named hits and outages",
       "bullets": [
+       {
+        "text": "Ukraine launched a large overnight drone attack on fuel depots in Russia's Krasnodar region, with local authorities reporting fires at three sites and no casualties in Krasnodar, while Russia's Defense Ministry claimed 254 Ukrainian drones were shot down across 15 regions, a figure that was not independently confirmed.",
+        "vintage": "Sep 28, 2026",
+        "source": "Associated Press (via Europesays)",
+        "source_url": "https://www.europesays.com/russia/69791/"
+       },
+       {
+        "text": "Ukrainian drones struck the Afipsky oil refinery in Krasnodar region, starting a fire, and hit Port Kavkaz on the Kerch Strait, injuring three people and damaging a service vessel and the pier complex, according to local authorities.",
+        "vintage": "Sep 26, 2026",
+        "source": "Reuters (via Infomarine)",
+        "source_url": "https://infomarine.net/en/global-shipping-news/19-world-maritime-news/67433-ukrainian-drones-strike-oil-refinery,-port-in-russia-s-krasnodar-region.html"
+       },
        {
         "text": "Ukraine struck the Ilsky refinery in Krasnodar region overnight on September 26, damaging the AT-4, AT-5 and AT-6 primary units, about 99 percent of its primary capacity, and the plant halted production; Ukraine's General Staff confirmed the strike and the regional governor confirmed drone attacks in the Seversky district.",
         "vintage": "Sep 26, 2026",
