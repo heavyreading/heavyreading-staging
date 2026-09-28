@@ -629,155 +629,182 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p>Every forecasted line, graded on its own terms. Walk-forward: at each of 172 origins (2012-03 to 2026-06), each line forecasts its target month from history ending three months before (the ST3 publication lag), then gets scored against the actual. ST3 is the Alberta Energy Regulator monthly statistics release. Positive error means the forecast ran high.</p>
   <h3>Total supply</h3>
   <p><b>What it predicts.</b> Total WCSB crude supply for the target month, in thousand barrels per day (kb/d). The top-line number everything else hangs off.</p>
-  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The 90% band means 9 times out of 10 the miss landed inside that range. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
+  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">162.1</td><td class="num">200.7</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;220.3</td><td class="num">&plusmn;265.2</td></tr>
   <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;351.4</td><td class="num">&plusmn;428.4</td></tr>
   <tr><td>Bias (kb/d)</td><td class="num">-21.8</td><td class="num">-30.6</td></tr>
   <tr><td>Months the model won</td><td class="num" colspan="2">96 of 172 (55.8% <span class="tblnote">(95% CI 48.4%-63.0%)</span>)</td></tr>
   </table></div>
   <p><b>Plain English.</b> The model has the smaller average miss on this line (162.1 vs 200.7 kb/d for Persistence (last knowable month)) and the tighter 90% band (&plusmn;351.4 vs &plusmn;428.4), mostly by avoiding big misses: it wins 96 of 172 months, about even month-to-month. Useful, with the band stated.</p>
-  <p><b>How the band widens with distance.</b> 90% band (kb/d): 9 times out of 10 the miss landed inside this range.</p>
+  <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Model nowcast</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;351.4</td></tr>
-  <tr><td>Persistence (last knowable month)</td><td class="num">&plusmn;302.7</td><td class="num">&plusmn;378.1</td><td class="num">&plusmn;428.4</td></tr>
+  <tr><td>Model nowcast, 75% band</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;220.3</td></tr>
+  <tr><td>Model nowcast, 90% band</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;351.4</td></tr>
+  <tr><td>Persistence (last knowable month), 75% band</td><td class="num">&plusmn;200.3</td><td class="num">&plusmn;280.5</td><td class="num">&plusmn;265.2</td></tr>
+  <tr><td>Persistence (last knowable month), 90% band</td><td class="num">&plusmn;302.7</td><td class="num">&plusmn;378.1</td><td class="num">&plusmn;428.4</td></tr>
   </table></div>
   <p class="tblnote">The model nowcast is built for the 3-month ST3 publication lag, so it only has a 3-month band. Naive rules can be scored at any distance; that is what shows error growing with horizon. Near months are surer than far ones.</p>
   <h3>Takeaway (removals from Alberta)</h3>
   <p><b>What it predicts.</b> Crude leaving Alberta by pipeline, rail and truck, kb/d. Supply minus takeaway is what the egress balance scores.</p>
-  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The 90% band means 9 times out of 10 the miss landed inside that range. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
+  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">172.9</td><td class="num">196.7</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;250.1</td><td class="num">&plusmn;277.1</td></tr>
   <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;382.9</td><td class="num">&plusmn;397.2</td></tr>
   <tr><td>Bias (kb/d)</td><td class="num">-25.3</td><td class="num">-37.4</td></tr>
   <tr><td>Months the model won</td><td class="num" colspan="2">93 of 172 (54.1% <span class="tblnote">(95% CI 46.6%-61.4%)</span>)</td></tr>
   </table></div>
   <p><b>Plain English.</b> The model has the smaller average miss on this line (172.9 vs 196.7 kb/d for Persistence (last knowable month)) and the tighter 90% band (&plusmn;382.9 vs &plusmn;397.2), mostly by avoiding big misses: it wins 93 of 172 months, about even month-to-month. Useful, with the band stated.</p>
-  <p><b>How the band widens with distance.</b> 90% band (kb/d): 9 times out of 10 the miss landed inside this range.</p>
+  <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Model nowcast</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;382.9</td></tr>
-  <tr><td>Persistence (last knowable month)</td><td class="num">&plusmn;232.5</td><td class="num">&plusmn;353.4</td><td class="num">&plusmn;397.2</td></tr>
+  <tr><td>Model nowcast, 75% band</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;250.1</td></tr>
+  <tr><td>Model nowcast, 90% band</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;382.9</td></tr>
+  <tr><td>Persistence (last knowable month), 75% band</td><td class="num">&plusmn;158.5</td><td class="num">&plusmn;224.8</td><td class="num">&plusmn;277.1</td></tr>
+  <tr><td>Persistence (last knowable month), 90% band</td><td class="num">&plusmn;232.5</td><td class="num">&plusmn;353.4</td><td class="num">&plusmn;397.2</td></tr>
   </table></div>
   <p class="tblnote">The model nowcast is built for the 3-month ST3 publication lag, so it only has a 3-month band. Naive rules can be scored at any distance; that is what shows error growing with horizon. Near months are surer than far ones.</p>
   <h3>Storage build/draw</h3>
   <p><b>What it predicts.</b> Implied inventory change, kb/d. Positive is a build (barrels going into tank); negative is a draw.</p>
-  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The 90% band means 9 times out of 10 the miss landed inside that range. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
+  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model nowcast</th><th>Best naive: Zero (predict no change)</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">99.8</td><td class="num">69.7</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;142.0</td><td class="num">&plusmn;93.9</td></tr>
   <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;218.1</td><td class="num">&plusmn;151.3</td></tr>
   <tr><td>Bias (kb/d)</td><td class="num">-1.9</td><td class="num">-3.9</td></tr>
   <tr><td>Months the model won</td><td class="num" colspan="2">84 of 172 (48.8% <span class="tblnote">(95% CI 41.5%-56.2%)</span>)</td></tr>
   </table></div>
   <p><b>Plain English.</b> The naive rule (Zero (predict no change)) beats the model on this line: 69.7 vs 99.8 kb/d average miss. We do not use the model for this line: if it has no predictive power we do not use it.</p>
-  <p><b>How the band widens with distance.</b> 90% band (kb/d): 9 times out of 10 the miss landed inside this range.</p>
+  <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Model nowcast</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;218.1</td></tr>
-  <tr><td>Zero (predict no change)</td><td class="num">&plusmn;151.3</td><td class="num">&plusmn;151.3</td><td class="num">&plusmn;151.3</td></tr>
+  <tr><td>Model nowcast, 75% band</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;142.0</td></tr>
+  <tr><td>Model nowcast, 90% band</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;218.1</td></tr>
+  <tr><td>Zero (predict no change), 75% band</td><td class="num">&plusmn;93.9</td><td class="num">&plusmn;93.9</td><td class="num">&plusmn;93.9</td></tr>
+  <tr><td>Zero (predict no change), 90% band</td><td class="num">&plusmn;151.3</td><td class="num">&plusmn;151.3</td><td class="num">&plusmn;151.3</td></tr>
   </table></div>
   <p class="tblnote">The model nowcast is built for the 3-month ST3 publication lag, so it only has a 3-month band. Naive rules can be scored at any distance; that is what shows error growing with horizon. Near months are surer than far ones.</p>
   <h3>Light crude</h3>
   <p><b>What it predicts.</b> Light and medium crude portion of supply, kb/d.</p>
-  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The 90% band means 9 times out of 10 the miss landed inside that range. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
+  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">21.1</td><td class="num">15.1</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;31.8</td><td class="num">&plusmn;21.4</td></tr>
   <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;46.0</td><td class="num">&plusmn;30.1</td></tr>
   <tr><td>Bias (kb/d)</td><td class="num">+1.0</td><td class="num">-0.0</td></tr>
   <tr><td>Months the model won</td><td class="num" colspan="2">63 of 172 (36.6% <span class="tblnote">(95% CI 29.8%-44.0%)</span>)</td></tr>
   </table></div>
   <p><b>Plain English.</b> The naive rule (Persistence (last knowable month)) beats the model on this line: 15.1 vs 21.1 kb/d average miss. We do not use the model for this line: if it has no predictive power we do not use it.</p>
-  <p><b>How the band widens with distance.</b> 90% band (kb/d): 9 times out of 10 the miss landed inside this range.</p>
+  <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Model nowcast</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;46.0</td></tr>
-  <tr><td>Persistence (last knowable month)</td><td class="num">&plusmn;16.4</td><td class="num">&plusmn;25.7</td><td class="num">&plusmn;30.1</td></tr>
+  <tr><td>Model nowcast, 75% band</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;31.8</td></tr>
+  <tr><td>Model nowcast, 90% band</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;46.0</td></tr>
+  <tr><td>Persistence (last knowable month), 75% band</td><td class="num">&plusmn;11.5</td><td class="num">&plusmn;18.9</td><td class="num">&plusmn;21.4</td></tr>
+  <tr><td>Persistence (last knowable month), 90% band</td><td class="num">&plusmn;16.4</td><td class="num">&plusmn;25.7</td><td class="num">&plusmn;30.1</td></tr>
   </table></div>
   <p class="tblnote">The model nowcast is built for the 3-month ST3 publication lag, so it only has a 3-month band. Naive rules can be scored at any distance; that is what shows error growing with horizon. Near months are surer than far ones.</p>
   <h3>Heavy crude</h3>
   <p><b>What it predicts.</b> Heavy and ultra-heavy crude portion of supply, kb/d.</p>
-  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The 90% band means 9 times out of 10 the miss landed inside that range. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
+  <p><b>How to read this.</b> Average miss is the mean absolute error: the typical size of the miss, ignoring direction. The bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. Bias is the average signed error: persistently positive means the forecast runs high. Win rate is how often the model beat the naive rule head-to-head across the 172 forecast months; if its 95% band includes 50%, we cannot claim the model wins more often than a coin flip.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model nowcast</th><th>Best naive: Persistence (last knowable month)</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">6.3</td><td class="num">5.2</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;9.0</td><td class="num">&plusmn;6.2</td></tr>
   <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;13.2</td><td class="num">&plusmn;9.3</td></tr>
   <tr><td>Bias (kb/d)</td><td class="num">-0.4</td><td class="num">-0.4</td></tr>
   <tr><td>Months the model won</td><td class="num" colspan="2">71 of 172 (41.3% <span class="tblnote">(95% CI 34.2%-48.8%)</span>)</td></tr>
   </table></div>
   <p><b>Plain English.</b> The naive rule (Persistence (last knowable month)) beats the model on this line: 5.2 vs 6.3 kb/d average miss. We do not use the model for this line: if it has no predictive power we do not use it.</p>
-  <p><b>How the band widens with distance.</b> 90% band (kb/d): 9 times out of 10 the miss landed inside this range.</p>
+  <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Model nowcast</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;13.2</td></tr>
-  <tr><td>Persistence (last knowable month)</td><td class="num">&plusmn;4.5</td><td class="num">&plusmn;8.0</td><td class="num">&plusmn;9.3</td></tr>
+  <tr><td>Model nowcast, 75% band</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;9.0</td></tr>
+  <tr><td>Model nowcast, 90% band</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&plusmn;13.2</td></tr>
+  <tr><td>Persistence (last knowable month), 75% band</td><td class="num">&plusmn;2.9</td><td class="num">&plusmn;4.5</td><td class="num">&plusmn;6.2</td></tr>
+  <tr><td>Persistence (last knowable month), 90% band</td><td class="num">&plusmn;4.5</td><td class="num">&plusmn;8.0</td><td class="num">&plusmn;9.3</td></tr>
   </table></div>
   <p class="tblnote">The model nowcast is built for the 3-month ST3 publication lag, so it only has a 3-month band. Naive rules can be scored at any distance; that is what shows error growing with horizon. Near months are surer than far ones.</p>
-  <p class="tblnote">Uncertainty: the win-rate band is the Wilson 95% interval; depth bands are the empirical 90th percentile of absolute error (no normality assumed). Full per-method numbers ship in the page data feed.</p>
+  <p class="tblnote">Uncertainty: the win-rate band is the Wilson 95% interval; depth bands are the empirical 75th and 90th percentiles of absolute error (no normality assumed). Full per-method numbers ship in the page data feed.</p>
   <h2>Bottom-up vs top-down</h2>
   <p>Two ways to forecast a total. <b>Bottom-up</b> forecasts each facility, then adds the forecasts up. <b>Top-down</b> forecasts the total directly with the same seasonal code. The walk-forward backtest scores both against actuals, and both against the naive rule (repeat last month). Monthly origins January 2015 to March 2026, scored at 1, 2 and 3-month horizons, history strictly at or before each origin: no lookahead. SAGD is steam-assisted gravity drainage; SCO is synthetic crude oil; ST53 is the Alberta Energy Regulator (AER) monthly in-situ statistics release; ST39 is the AER monthly oil-sands plant statistics release.</p>
   <h3>SAGD</h3>
   <p><b>What it predicts.</b> In-situ SAGD (steam-assisted gravity drainage) production, kb/d. Facility detail comes from ST53, the AER monthly in-situ statistics release (scheme/operator detail). An earlier working note said ST39; ST39 covers mines and upgraders, not SAGD schemes, so ST53 is the correct source.</p>
-  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 405 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The prescription is mechanical: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
+  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 405 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The error bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. The prescription is mechanical: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Bottom-up</th><th>Top-down</th><th>Naive</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">52.7</td><td class="num">66.6</td><td class="num">50.2</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;71.0</td><td class="num">&plusmn;96.9</td><td class="num">&plusmn;64.9</td></tr>
   <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;118.1</td><td class="num">&plusmn;140.2</td><td class="num">&plusmn;128.8</td></tr>
   <tr><td>Bias (kb/d)</td><td class="num">+4.4</td><td class="num">-0.6</td><td class="num">-7.9</td></tr>
   <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">246 of 405 (60.7% <span class="tblnote">(95% CI 55.9%-65.4%)</span>): bottom-up wins</td></tr>
   <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">171 of 405 (42.2% <span class="tblnote">(95% CI 37.5%-47.1%)</span>): loses to naive</td></tr>
   </table></div>
   <p><b>Plain English.</b> Structure: bottom-up wins. Against the naive rule: loses to naive. So the live forecast for this line uses the <b>naive (repeat last month), labeled</b>: cannot beat doing nothing clever, so the live forecast uses the naive rule and says so.</p>
-  <p><b>How the band widens with distance.</b> 90% band (kb/d) by forecast distance: 9 times out of 10 the miss landed inside the range.</p>
+  <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Bottom-up</td><td class="num">&plusmn;106.4</td><td class="num">&plusmn;115.2</td><td class="num">&plusmn;135.1</td></tr>
-  <tr><td>Top-down</td><td class="num">&plusmn;123.3</td><td class="num">&plusmn;137.9</td><td class="num">&plusmn;146.3</td></tr>
-  <tr><td>Naive</td><td class="num">&plusmn;90.6</td><td class="num">&plusmn;131.6</td><td class="num">&plusmn;151.1</td></tr>
+  <tr><td>Bottom-up, 75% band</td><td class="num">&plusmn;69.1</td><td class="num">&plusmn;70.9</td><td class="num">&plusmn;74.8</td></tr>
+  <tr><td>Bottom-up, 90% band</td><td class="num">&plusmn;106.4</td><td class="num">&plusmn;115.2</td><td class="num">&plusmn;135.1</td></tr>
+  <tr><td>Top-down, 75% band</td><td class="num">&plusmn;90.6</td><td class="num">&plusmn;97.7</td><td class="num">&plusmn;97.5</td></tr>
+  <tr><td>Top-down, 90% band</td><td class="num">&plusmn;123.3</td><td class="num">&plusmn;137.9</td><td class="num">&plusmn;146.3</td></tr>
+  <tr><td>Naive, 75% band</td><td class="num">&plusmn;44.1</td><td class="num">&plusmn;70.4</td><td class="num">&plusmn;82.3</td></tr>
+  <tr><td>Naive, 90% band</td><td class="num">&plusmn;90.6</td><td class="num">&plusmn;131.6</td><td class="num">&plusmn;151.1</td></tr>
   </table></div>
   <p class="tblnote">12 facilities (median across origins); origins 2015-01 to 2026-03.</p>
   <h3>Mined bitumen</h3>
   <p><b>What it predicts.</b> Oil-sands mined bitumen, kb/d. Facility detail from ST39 plant-level production (mines).</p>
-  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 405 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The prescription is mechanical: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
+  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 405 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The error bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. The prescription is mechanical: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Bottom-up</th><th>Top-down</th><th>Naive</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">174.1</td><td class="num">180.8</td><td class="num">175.9</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;182.5</td><td class="num">&plusmn;188.5</td><td class="num">&plusmn;214.1</td></tr>
   <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;331.0</td><td class="num">&plusmn;352.7</td><td class="num">&plusmn;316.2</td></tr>
   <tr><td>Bias (kb/d)</td><td class="num">-54.3</td><td class="num">-55.9</td><td class="num">-25.4</td></tr>
   <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">241 of 405 (59.5% <span class="tblnote">(95% CI 54.7%-64.2%)</span>): bottom-up wins</td></tr>
   <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">240 of 405 (59.3% <span class="tblnote">(95% CI 54.4%-63.9%)</span>): beats naive</td></tr>
   </table></div>
   <p><b>Plain English.</b> Structure: bottom-up wins. Against the naive rule: beats naive. So the live forecast for this line uses the <b>bottom-up model</b>: beats the naive rule cleanly, so it earns its place in the live forecast.</p>
-  <p><b>How the band widens with distance.</b> 90% band (kb/d) by forecast distance: 9 times out of 10 the miss landed inside the range.</p>
+  <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Bottom-up</td><td class="num">&plusmn;305.0</td><td class="num">&plusmn;332.5</td><td class="num">&plusmn;352.8</td></tr>
-  <tr><td>Top-down</td><td class="num">&plusmn;316.8</td><td class="num">&plusmn;352.7</td><td class="num">&plusmn;365.3</td></tr>
-  <tr><td>Naive</td><td class="num">&plusmn;273.7</td><td class="num">&plusmn;367.9</td><td class="num">&plusmn;320.3</td></tr>
+  <tr><td>Bottom-up, 75% band</td><td class="num">&plusmn;176.8</td><td class="num">&plusmn;180.1</td><td class="num">&plusmn;198.9</td></tr>
+  <tr><td>Bottom-up, 90% band</td><td class="num">&plusmn;305.0</td><td class="num">&plusmn;332.5</td><td class="num">&plusmn;352.8</td></tr>
+  <tr><td>Top-down, 75% band</td><td class="num">&plusmn;181.4</td><td class="num">&plusmn;192.3</td><td class="num">&plusmn;207.7</td></tr>
+  <tr><td>Top-down, 90% band</td><td class="num">&plusmn;316.8</td><td class="num">&plusmn;352.7</td><td class="num">&plusmn;365.3</td></tr>
+  <tr><td>Naive, 75% band</td><td class="num">&plusmn;164.0</td><td class="num">&plusmn;233.1</td><td class="num">&plusmn;246.2</td></tr>
+  <tr><td>Naive, 90% band</td><td class="num">&plusmn;273.7</td><td class="num">&plusmn;367.9</td><td class="num">&plusmn;320.3</td></tr>
   </table></div>
   <p class="tblnote">7 facilities (median across origins); origins 2015-01 to 2026-03.</p>
   <h3>SCO</h3>
   <p><b>What it predicts.</b> SCO (synthetic crude oil) from upgraders, kb/d. Facility detail from ST39 upgrader production. Thin sample: only a handful of upgraders, so read the bands, not just the point estimate.</p>
-  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 138 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The prescription is mechanical: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
+  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 138 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The error bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. The prescription is mechanical: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Bottom-up</th><th>Top-down</th><th>Naive</th></tr>
   <tr><td>Average miss (kb/d)</td><td class="num">81.0</td><td class="num">81.3</td><td class="num">56.2</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;72.5</td><td class="num">&plusmn;73.8</td><td class="num">&plusmn;60.6</td></tr>
   <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;235.7</td><td class="num">&plusmn;243.4</td><td class="num">&plusmn;111.5</td></tr>
   <tr><td>Bias (kb/d)</td><td class="num">-35.8</td><td class="num">-35.6</td><td class="num">-12.3</td></tr>
   <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">76 of 138 (55.1% <span class="tblnote">(95% CI 46.8%-63.1%)</span>): inconclusive</td></tr>
   <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">54 of 138 (39.1% <span class="tblnote">(95% CI 31.4%-47.5%)</span>): loses to naive</td></tr>
   </table></div>
   <p><b>Plain English.</b> Structure: inconclusive. Against the naive rule: loses to naive. So the live forecast for this line uses the <b>naive (repeat last month), labeled</b>: cannot beat doing nothing clever, so the live forecast uses the naive rule and says so.</p>
-  <p><b>How the band widens with distance.</b> 90% band (kb/d) by forecast distance: 9 times out of 10 the miss landed inside the range.</p>
+  <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Bottom-up</td><td class="num">&plusmn;104.4</td><td class="num">&plusmn;281.2</td><td class="num">&plusmn;299.8</td></tr>
-  <tr><td>Top-down</td><td class="num">&plusmn;91.8</td><td class="num">&plusmn;259.1</td><td class="num">&plusmn;276.7</td></tr>
-  <tr><td>Naive</td><td class="num">&plusmn;70.3</td><td class="num">&plusmn;111.6</td><td class="num">&plusmn;184.4</td></tr>
+  <tr><td>Bottom-up, 75% band</td><td class="num">&plusmn;63.9</td><td class="num">&plusmn;72.8</td><td class="num">&plusmn;74.0</td></tr>
+  <tr><td>Bottom-up, 90% band</td><td class="num">&plusmn;104.4</td><td class="num">&plusmn;281.2</td><td class="num">&plusmn;299.8</td></tr>
+  <tr><td>Top-down, 75% band</td><td class="num">&plusmn;69.5</td><td class="num">&plusmn;76.4</td><td class="num">&plusmn;73.4</td></tr>
+  <tr><td>Top-down, 90% band</td><td class="num">&plusmn;91.8</td><td class="num">&plusmn;259.1</td><td class="num">&plusmn;276.7</td></tr>
+  <tr><td>Naive, 75% band</td><td class="num">&plusmn;41.3</td><td class="num">&plusmn;65.8</td><td class="num">&plusmn;76.2</td></tr>
+  <tr><td>Naive, 90% band</td><td class="num">&plusmn;70.3</td><td class="num">&plusmn;111.6</td><td class="num">&plusmn;184.4</td></tr>
   </table></div>
   <p class="tblnote">2 facilities (median across origins); origins 2021-12 to 2026-03.</p>
   <h3>The maintenance hypothesis</h3>
@@ -796,19 +823,20 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p>Every predictive component gets the same treatment: backtest accuracy with its uncertainty stated, live accuracy as predictions resolve, and an honest label when there is nothing to score yet.</p>
   <h3>Apportionment</h3>
   <p><b>What it predicts.</b> Whether each Mainline corridor will be apportioned (rationed) next month, and by how much. Walk-forward backtest: the model trains only on months before each forecast, 72 system forecasts scored.</p>
-  <p><b>How to read this.</b> "On/off calls correct" is the share of months the model got the direction right (apportionment or no apportionment). The 95% band around it is the uncertainty from the sample size: the true long-run rate could plausibly sit anywhere inside it. Depth is how much gets apportioned, in percentage points; the average miss and the 90% band read the same way as the line cards above. When the naive rule's band overlaps the model's, we do not claim the model is better, and the live nowcast uses the naive rule.</p>
+  <p><b>How to read this.</b> "On/off calls correct" is the share of months the model got the direction right (apportionment or no apportionment). The 95% band around it is the uncertainty from the sample size: the true long-run rate could plausibly sit anywhere inside it. Depth is how much gets apportioned, in percentage points; the average miss and the two bands read the same way as the line cards above: the inner (75%) band is the likely range, the outer (90%) band the safety range. When the naive rule's band overlaps the model's, we do not claim the model is better, and the live nowcast uses the naive rule.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Model</th><th>Naive benchmark (repeat last month)</th></tr>
   <tr><td>On/off calls correct</td><td class="num">95.8% <span class="tblnote">(95% CI 88.4%-98.6%)</span></td><td class="num">93.1% <span class="tblnote">(95% CI 84.8%-97.0%)</span></td></tr>
   <tr><td>Depth: average miss</td><td class="num">0.10 pts</td><td class="num">0.08 pts</td></tr>
+  <tr><td>Depth: within this, 75% of the time</td><td class="num">&plusmn;0.14 pts</td><td class="num">&plusmn;0.13 pts</td></tr>
   <tr><td>Depth: within this, 90% of the time</td><td class="num">&plusmn;0.23 pts</td><td class="num">&plusmn;0.18 pts</td></tr>
   </table></div>
   <p><b>Plain English.</b> The model calls apportionment on or off correctly 95.8% of the time, but the naive rule (just repeat last month) is right 93.1% of the time, and the uncertainty bands overlap: we do not claim the model beats it. On depth (how much gets apportioned), the model misses by 0.10 points on average and lands within &plusmn;0.23 points 90% of the time; the naive rule misses by less (0.08). That is why the live nowcast below is the naive baseline, not the model: if it has no predictive power we do not use it.</p>
   <p><b>On the clock.</b> November 2026 nowcast: 8% lights / 4% heavies at Kerrobert (backtest-selected baseline: persistence). on the clock; scored when Enbridge publishes the November notice.</p>
-  <p class="tblnote">Uncertainty: hit-rate bands are Wilson 95% intervals; depth bands are the empirical 90th percentile of absolute error (no normality assumed).</p>
+  <p class="tblnote">Uncertainty: hit-rate bands are Wilson 95% intervals; depth bands are the empirical 75th and 90th percentiles of absolute error (no normality assumed).</p>
   <h3>Egress and spare capacity</h3>
   <p><b>What it predicts.</b> Monthly spare pipeline egress capacity: pipeline capacity minus forecast marketable supply. Negative spare means the basin is pushing against the pipes.</p>
-  <p><b>How to read this.</b> There is no meter that reads basin spare capacity, so there is no accuracy number to print here. Spare inherits the error of the supply and takeaway lines: if those miss by their 90% bands, the spare misses by about the combined band. Read the line accuracy backtest above as this card's score.</p>
+  <p><b>How to read this.</b> There is no meter that reads basin spare capacity, so there is no accuracy number to print here. Spare inherits the error of the supply and takeaway lines: if those miss by their bands, the spare misses by about the combined band (the inner 75% band is the likely range, the outer 90% band the safety range). Read the line accuracy backtest above as this card's score.</p>
   <p><b>The honest scoring position.</b> Spare is computed, not observed: there is no meter that reads basin spare capacity. Its accuracy rides entirely on the supply and takeaway nowcasts scored in the line accuracy backtest above. When the supply and takeaway lines score against ST3 actuals, the spare error band follows from their error bands. We do not invent a separate accuracy number for a number nobody measures.</p>
   <p class="tblnote">Status: derived, not directly scored.</p>
   <h3>Whale flags</h3>
