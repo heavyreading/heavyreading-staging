@@ -681,6 +681,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <tr><td>Months the model won</td><td class="num" colspan="2">84 of 172 (48.8%, <span class="tblnote">95% CI 41.5%-56.2%</span>)</td></tr>
   </table></div>
   <p><b>Plain English.</b> The naive rule (No change) beats the model on this line: 69.7 vs 99.8 kb/d average miss. We do not use the model for this line: if it has no predictive power we do not use it.</p>
+  <p><b>Why storage misses.</b> The storage number is not measured directly: it is supply minus crude leaving Alberta (takeaway) minus other uses, so its error is exactly their errors added together. Split that way, takeaway accounts for about a third of the storage miss (33%), supply for just under a third (31%) — together nearly two-thirds, with the rest scattered across smaller items. If takeaway were forecast perfectly, the storage average miss would fall from about 100 to about 20 kb/d. The storage problem is mostly a takeaway-forecasting problem.</p>
   <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
@@ -734,79 +735,79 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p class="tblnote">The model nowcast is built for the 3-month ST3 publication lag, so it only has a 3-month band. Naive rules can be scored at any distance; that is what shows error growing with horizon. Near months are surer than far ones.</p>
   <p class="tblnote">Uncertainty: the win-rate band is the Wilson 95% interval; depth bands are the empirical 75th and 90th percentiles of absolute error (no normality assumed). Full per-method numbers are in the page data feed.</p>
   <h2>Bottom-up vs top-down</h2>
-  <p>Two ways to forecast a total. <b>Bottom-up</b> forecasts each facility, then adds the forecasts up. <b>Top-down</b> forecasts the total directly with the same seasonal method. The backtest scores both against actuals, and both against the naive rule (repeat last month). Forecast months January 2015 to March 2026, scored 1, 2 and 3 months out; each forecast uses only history available at the time, with no peeking at the future. SAGD is steam-assisted gravity drainage; SCO is synthetic crude oil; ST53 is the Alberta Energy Regulator (AER) monthly in-situ statistics release; ST39 is the AER monthly oil-sands plant statistics release.</p>
+  <p>Two ways to forecast a total. <b>Bottom-up</b> forecasts each facility, then adds the forecasts up. <b>Top-down</b> forecasts the total directly with the same seasonal method. The backtest scores both against actuals, and both against the naive rule (repeat last month). Forecast months October 2014 to December 2025, scored 1, 2 and 3 months out; each forecast uses only history that had actually been published at the time (vintage-pinned, re-run September 2026), with no peeking at the future. SAGD is steam-assisted gravity drainage; SCO is synthetic crude oil; ST53 is the Alberta Energy Regulator (AER) monthly in-situ statistics release; ST39 is the AER monthly oil-sands plant statistics release.</p>
   <h3>SAGD</h3>
   <p><b>What it predicts.</b> Steam-assisted gravity drainage (SAGD) production from in-situ schemes, kb/d. Facility detail comes from ST53, the AER monthly in-situ statistics release.</p>
   <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 405 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The error bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. The rule is automatic: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Bottom-up</th><th>Top-down</th><th>Naive</th></tr>
-  <tr><td>Average miss (kb/d)</td><td class="num">52.7</td><td class="num">66.6</td><td class="num">50.2</td></tr>
-  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;71.0</td><td class="num">&plusmn;96.9</td><td class="num">&plusmn;64.9</td></tr>
-  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;118.1</td><td class="num">&plusmn;140.2</td><td class="num">&plusmn;128.8</td></tr>
-  <tr><td>Bias (kb/d)</td><td class="num">+4.4</td><td class="num">-0.6</td><td class="num">-7.9</td></tr>
-  <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">246 of 405 (60.7%, <span class="tblnote">95% CI 55.9%-65.4%</span>): bottom-up wins</td></tr>
-  <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">171 of 405 (42.2%, <span class="tblnote">95% CI 37.5%-47.1%</span>): loses to naive</td></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">51.9</td><td class="num">65.7</td><td class="num">48.7</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;70.2</td><td class="num">&plusmn;96.0</td><td class="num">&plusmn;61.6</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;111.6</td><td class="num">&plusmn;138.4</td><td class="num">&plusmn;127.0</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">+2.0</td><td class="num">-3.0</td><td class="num">-9.8</td></tr>
+  <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">242 of 405 (59.8%, <span class="tblnote">95% CI 54.9%-64.4%</span>): bottom-up wins</td></tr>
+  <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">168 of 405 (41.5%, <span class="tblnote">95% CI 36.8%-46.3%</span>): loses to naive</td></tr>
   </table></div>
   <p><b>Plain English.</b> Structure: bottom-up wins. Against the naive rule: loses to naive. So the live forecast for this line uses the <b>naive (repeat last month), labeled</b>: cannot beat doing nothing clever, so the live forecast uses the naive rule and says so.</p>
   <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Bottom-up, 75% band</td><td class="num">&plusmn;69.1</td><td class="num">&plusmn;70.9</td><td class="num">&plusmn;74.8</td></tr>
-  <tr><td>Bottom-up, 90% band</td><td class="num">&plusmn;106.4</td><td class="num">&plusmn;115.2</td><td class="num">&plusmn;135.1</td></tr>
-  <tr><td>Top-down, 75% band</td><td class="num">&plusmn;90.6</td><td class="num">&plusmn;97.7</td><td class="num">&plusmn;97.5</td></tr>
-  <tr><td>Top-down, 90% band</td><td class="num">&plusmn;123.3</td><td class="num">&plusmn;137.9</td><td class="num">&plusmn;146.3</td></tr>
-  <tr><td>Naive, 75% band</td><td class="num">&plusmn;44.1</td><td class="num">&plusmn;70.4</td><td class="num">&plusmn;82.3</td></tr>
-  <tr><td>Naive, 90% band</td><td class="num">&plusmn;90.6</td><td class="num">&plusmn;131.6</td><td class="num">&plusmn;151.1</td></tr>
+  <tr><td>Bottom-up, 75% band</td><td class="num">&plusmn;69.1</td><td class="num">&plusmn;70.0</td><td class="num">&plusmn;72.0</td></tr>
+  <tr><td>Bottom-up, 90% band</td><td class="num">&plusmn;106.4</td><td class="num">&plusmn;111.6</td><td class="num">&plusmn;128.5</td></tr>
+  <tr><td>Top-down, 75% band</td><td class="num">&plusmn;90.6</td><td class="num">&plusmn;97.6</td><td class="num">&plusmn;96.6</td></tr>
+  <tr><td>Top-down, 90% band</td><td class="num">&plusmn;123.3</td><td class="num">&plusmn;134.3</td><td class="num">&plusmn;145.9</td></tr>
+  <tr><td>Naive, 75% band</td><td class="num">&plusmn;42.7</td><td class="num">&plusmn;64.1</td><td class="num">&plusmn;76.6</td></tr>
+  <tr><td>Naive, 90% band</td><td class="num">&plusmn;90.6</td><td class="num">&plusmn;128.2</td><td class="num">&plusmn;142.6</td></tr>
   </table></div>
-  <p class="tblnote">12 facilities (median); forecast months Jan 2015 to Mar 2026.</p>
+  <p class="tblnote">12 facilities (median); forecast months Oct 2014 to Dec 2025.</p>
   <h3>Mined bitumen</h3>
   <p><b>What it predicts.</b> Oil-sands mined bitumen, kb/d. Facility detail from ST39 plant-level production (mines).</p>
   <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 405 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The error bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. The rule is automatic: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Bottom-up</th><th>Top-down</th><th>Naive</th></tr>
-  <tr><td>Average miss (kb/d)</td><td class="num">174.1</td><td class="num">180.8</td><td class="num">175.9</td></tr>
-  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;182.5</td><td class="num">&plusmn;188.5</td><td class="num">&plusmn;214.1</td></tr>
-  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;331.0</td><td class="num">&plusmn;352.7</td><td class="num">&plusmn;316.2</td></tr>
-  <tr><td>Bias (kb/d)</td><td class="num">-54.3</td><td class="num">-55.9</td><td class="num">-25.4</td></tr>
-  <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">241 of 405 (59.5%, <span class="tblnote">95% CI 54.7%-64.2%</span>): bottom-up wins</td></tr>
-  <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">240 of 405 (59.3%, <span class="tblnote">95% CI 54.4%-63.9%</span>): beats naive</td></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">123.1</td><td class="num">130.5</td><td class="num">151.4</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;169.0</td><td class="num">&plusmn;179.6</td><td class="num">&plusmn;209.8</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;277.0</td><td class="num">&plusmn;288.1</td><td class="num">&plusmn;302.7</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">-3.9</td><td class="num">-5.7</td><td class="num">-5.9</td></tr>
+  <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">238 of 405 (58.8%, <span class="tblnote">95% CI 53.9%-63.5%</span>): bottom-up wins</td></tr>
+  <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">248 of 405 (61.2%, <span class="tblnote">95% CI 56.4%-65.8%</span>): beats naive</td></tr>
   </table></div>
   <p><b>Plain English.</b> Structure: bottom-up wins. Against the naive rule: beats naive. So the live forecast for this line uses the <b>bottom-up model</b>: beats the naive rule cleanly, so it earns its place in the live forecast.</p>
   <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Bottom-up, 75% band</td><td class="num">&plusmn;176.8</td><td class="num">&plusmn;180.1</td><td class="num">&plusmn;198.9</td></tr>
-  <tr><td>Bottom-up, 90% band</td><td class="num">&plusmn;305.0</td><td class="num">&plusmn;332.5</td><td class="num">&plusmn;352.8</td></tr>
-  <tr><td>Top-down, 75% band</td><td class="num">&plusmn;181.4</td><td class="num">&plusmn;192.3</td><td class="num">&plusmn;207.7</td></tr>
-  <tr><td>Top-down, 90% band</td><td class="num">&plusmn;316.8</td><td class="num">&plusmn;352.7</td><td class="num">&plusmn;365.3</td></tr>
-  <tr><td>Naive, 75% band</td><td class="num">&plusmn;164.0</td><td class="num">&plusmn;233.1</td><td class="num">&plusmn;246.2</td></tr>
-  <tr><td>Naive, 90% band</td><td class="num">&plusmn;273.7</td><td class="num">&plusmn;367.9</td><td class="num">&plusmn;320.3</td></tr>
+  <tr><td>Bottom-up, 75% band</td><td class="num">&plusmn;173.1</td><td class="num">&plusmn;162.8</td><td class="num">&plusmn;166.5</td></tr>
+  <tr><td>Bottom-up, 90% band</td><td class="num">&plusmn;276.1</td><td class="num">&plusmn;270.9</td><td class="num">&plusmn;277.3</td></tr>
+  <tr><td>Top-down, 75% band</td><td class="num">&plusmn;170.6</td><td class="num">&plusmn;180.5</td><td class="num">&plusmn;183.9</td></tr>
+  <tr><td>Top-down, 90% band</td><td class="num">&plusmn;285.6</td><td class="num">&plusmn;290.2</td><td class="num">&plusmn;293.7</td></tr>
+  <tr><td>Naive, 75% band</td><td class="num">&plusmn;158.7</td><td class="num">&plusmn;227.2</td><td class="num">&plusmn;237.6</td></tr>
+  <tr><td>Naive, 90% band</td><td class="num">&plusmn;268.0</td><td class="num">&plusmn;339.8</td><td class="num">&plusmn;302.4</td></tr>
   </table></div>
-  <p class="tblnote">7 facilities (median); forecast months Jan 2015 to Mar 2026.</p>
+  <p class="tblnote">7 facilities (median); forecast months Oct 2014 to Dec 2025.</p>
   <h3>SCO</h3>
   <p><b>What it predicts.</b> SCO (synthetic crude oil) from upgraders, kb/d. Facility detail from ST39 upgrader production. Thin sample: only a handful of upgraders, so read the bands, not just the point estimate.</p>
-  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 138 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The error bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. The rule is automatic: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
+  <p><b>How to read this.</b> "Bottom-up vs top-down" is the head-to-head win rate: how often the summed facility forecasts beat the direct aggregate forecast across 129 forecast months. "Bottom-up vs naive" is the same contest against repeat-last-month. If a 95% band includes 50%, that contest is a statistical tie: we cannot claim a winner. The error bands are the empirical 75th and 90th percentiles of the miss: the inner (75%) band is where the miss landed 3 times out of 4, the outer (90%) band 9 times out of 10. The rule is automatic: beat the naive rule cleanly and the model earns the live forecast; lose to it and the live forecast is the naive rule, labeled.</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>Bottom-up</th><th>Top-down</th><th>Naive</th></tr>
-  <tr><td>Average miss (kb/d)</td><td class="num">81.0</td><td class="num">81.3</td><td class="num">56.2</td></tr>
-  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;72.5</td><td class="num">&plusmn;73.8</td><td class="num">&plusmn;60.6</td></tr>
-  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;235.7</td><td class="num">&plusmn;243.4</td><td class="num">&plusmn;111.5</td></tr>
-  <tr><td>Bias (kb/d)</td><td class="num">-35.8</td><td class="num">-35.6</td><td class="num">-12.3</td></tr>
-  <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">76 of 138 (55.1%, <span class="tblnote">95% CI 46.8%-63.1%</span>): inconclusive</td></tr>
-  <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">54 of 138 (39.1%, <span class="tblnote">95% CI 31.4%-47.5%</span>): loses to naive</td></tr>
+  <tr><td>Average miss (kb/d)</td><td class="num">43.9</td><td class="num">45.5</td><td class="num">37.8</td></tr>
+  <tr><td>Within this, 75% of the time</td><td class="num">&plusmn;61.3</td><td class="num">&plusmn;61.3</td><td class="num">&plusmn;53.1</td></tr>
+  <tr><td>Within this, 90% of the time</td><td class="num">&plusmn;86.9</td><td class="num">&plusmn;80.3</td><td class="num">&plusmn;87.3</td></tr>
+  <tr><td>Bias (kb/d)</td><td class="num">+3.2</td><td class="num">+2.0</td><td class="num">+2.4</td></tr>
+  <tr><td>Bottom-up vs top-down</td><td class="num" colspan="3">72 of 129 (55.8%, <span class="tblnote">95% CI 47.2%-64.1%</span>): inconclusive</td></tr>
+  <tr><td>Bottom-up vs naive</td><td class="num" colspan="3">53 of 129 (41.1%, <span class="tblnote">95% CI 33.0%-49.7%</span>): loses to naive</td></tr>
   </table></div>
   <p><b>Plain English.</b> Structure: inconclusive. Against the naive rule: loses to naive. So the live forecast for this line uses the <b>naive (repeat last month), labeled</b>: cannot beat doing nothing clever, so the live forecast uses the naive rule and says so.</p>
   <p><b>How the band widens with distance.</b> Error bands (kb/d) by forecast distance: the 75% band is the inner, likely range (miss inside 3 times out of 4); the 90% band is the outer, safety range (9 times out of 10).</p>
   <div class="tblwrap"><table class="data">
   <tr><th></th><th>1 month out</th><th>2 months out</th><th>3 months out</th></tr>
-  <tr><td>Bottom-up, 75% band</td><td class="num">&plusmn;63.9</td><td class="num">&plusmn;72.8</td><td class="num">&plusmn;74.0</td></tr>
-  <tr><td>Bottom-up, 90% band</td><td class="num">&plusmn;104.4</td><td class="num">&plusmn;281.2</td><td class="num">&plusmn;299.8</td></tr>
-  <tr><td>Top-down, 75% band</td><td class="num">&plusmn;69.5</td><td class="num">&plusmn;76.4</td><td class="num">&plusmn;73.4</td></tr>
-  <tr><td>Top-down, 90% band</td><td class="num">&plusmn;91.8</td><td class="num">&plusmn;259.1</td><td class="num">&plusmn;276.7</td></tr>
-  <tr><td>Naive, 75% band</td><td class="num">&plusmn;41.3</td><td class="num">&plusmn;65.8</td><td class="num">&plusmn;76.2</td></tr>
-  <tr><td>Naive, 90% band</td><td class="num">&plusmn;70.3</td><td class="num">&plusmn;111.6</td><td class="num">&plusmn;184.4</td></tr>
+  <tr><td>Bottom-up, 75% band</td><td class="num">&plusmn;60.4</td><td class="num">&plusmn;60.8</td><td class="num">&plusmn;61.1</td></tr>
+  <tr><td>Bottom-up, 90% band</td><td class="num">&plusmn;75.8</td><td class="num">&plusmn;86.4</td><td class="num">&plusmn;84.2</td></tr>
+  <tr><td>Top-down, 75% band</td><td class="num">&plusmn;59.3</td><td class="num">&plusmn;64.8</td><td class="num">&plusmn;59.2</td></tr>
+  <tr><td>Top-down, 90% band</td><td class="num">&plusmn;79.5</td><td class="num">&plusmn;82.1</td><td class="num">&plusmn;76.4</td></tr>
+  <tr><td>Naive, 75% band</td><td class="num">&plusmn;37.7</td><td class="num">&plusmn;58.4</td><td class="num">&plusmn;67.3</td></tr>
+  <tr><td>Naive, 90% band</td><td class="num">&plusmn;67.2</td><td class="num">&plusmn;80.9</td><td class="num">&plusmn;105.4</td></tr>
   </table></div>
-  <p class="tblnote">2 facilities (median); forecast months Dec 2021 to Mar 2026.</p>
+  <p class="tblnote">2 facilities (median); forecast months Dec 2021 to Dec 2025.</p>
   <h3>The maintenance hypothesis</h3>
   <p><b>What it tests.</b> The hypothesis: facility-level forecasts should be good because they use the maintenance calendar. Backtest: facility seasonal forecasts vs repeat last month, across 29 projects, then restricted to the 65 documented turnaround months, where maintenance actually bites.</p>
   <p><b>How to read this.</b> Overall, the facility seasonal forecasts lose to repeat last month: they win only 34.6% of head-to-head months. But inside turnaround months they win 61.5% (95% CI 49.4%-72.4%). That band just touches 50%, so read it as suggestive, not proven: the sample is 65 months. The honest reading is that the skill, if any, lives in maintenance windows, not in ordinary months.</p>
@@ -821,9 +822,12 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p class="tblnote">Uncertainty: win-rate bands are Wilson 95% intervals; depth bands are empirical 90th percentiles of absolute error (no normality assumed). Turnaround windows are the observed production dips from the maintenance record, not the announcement dates: they measure where maintenance mattered, not what was knowable at the time.</p>
   <h3>Turnaround modeling at the big facilities</h3>
   <p><b>What it tests.</b> Most of the aggregate miss comes from a handful of large facilities that shut down for maintenance (Shell Scotford accounts for 86% of the SCO miss; four facilities account for about half the SAGD miss). The idea: modeling their shutdowns explicitly should shrink the error bands. Tested over 2015-2026, three ways: (1) a seasonal forecast that ignores shutdown months when learning the pattern; (2) the same, plus the public maintenance calendar (company announcements, news); (3) perfect knowledge of every shutdown, to show the upper bound of what shutdown modeling can do.</p>
-  <p><b>Verdict.</b> Ignoring shutdown months when learning the seasonal pattern beats the plain seasonal head-to-head on SCO (67.4%, 95% CI 59.2-74.6%) and SAGD (58.5%, CI 53.7-63.2%); mined is inconclusive. But against the naive rule the picture is honest: mined bottom-up beats naive (59.0%, CI 54.2-63.7%), SAGD loses to naive (42.7%), and SCO is a dead tie (50.0%) <b>even with perfect shutdown knowledge</b>. Perfect knowledge ties naive on SCO because shutdowns there are rare (every 4-5 years): repeat last month already captures the normal operating regime in the other 95% of months. So the prescriptions stand: mined uses the bottom-up model, SAGD and SCO use the naive rule, labeled. A fancier model that cannot beat naive does not get used.</p>
+  <p><b>Verdict.</b> Ignoring shutdown months when learning the seasonal pattern beats the plain seasonal head-to-head on SCO (67.4%, 95% CI 59.2-74.6%) and SAGD (58.5%, CI 53.7-63.2%); mined is inconclusive. But against the naive rule the picture is honest: mined bottom-up beats naive (61.2%, CI 56.4-65.8%), SAGD loses to naive (41.5%), and SCO is a dead tie (50.0%) <b>even with perfect shutdown knowledge</b>. Perfect knowledge ties naive on SCO because shutdowns there are rare (every 4-5 years): repeat last month already captures the normal operating regime in the other 95% of months. So the prescriptions stand: mined uses the bottom-up model, SAGD and SCO use the naive rule, labeled. A fancier model that cannot beat naive does not get used. (The bottom-up vs naive contests were re-run September 2026 on pinned vintages — each forecast using only data actually published at the time — and the verdicts held, with mined slightly stronger. The shutdown-modeling figures are from the earlier backtest cut.)</p>
   <p><b>Guidance overlay (adopted 2026-09-28).</b> Do not replace the naive rule; layer announced guidance on top of it. Start with repeat last month, then adjust in months where a company has announced a shutdown impact. Tested on Shell Scotford, the only facility with enough documented guidance (shutdowns in 2015, 2020, 2022): adjusting only at the start and end of a shutdown, not every month inside it, wins where guidance applies: 18 of 24 months (75.0%, 95% CI 55.1&ndash;88.0%), average miss 10% lower, tighter bands. (Adjusting every guided month loses to naive: it double-counts the dip when the starting month is already inside the shutdown.) But guidance applies to only about 6% of months, so the overall gain is small. Guidance pulled from earnings-call transcripts has no history to test against yet; its value is prospective. Two simpler rules were tested and <b>cut</b>: projecting shutdowns from the usual cycle between them loses decisively everywhere tested (Scotford 4 of 33 months, <a class="plink" href="projects/cnq_horizon.html">Horizon</a> 11 of 112, mined aggregate 13 of 168; all 95% CIs entirely below 50%), because it calls shutdowns that never happen. Adding it on top of guidance drags the guidance win rate from 75% to 38.6%. Prescription: SCO stays repeat-last-month first, adjusted in announced-guidance months. Wired into the live Scotford forecast 2026-09-28: the overlay applies only to approved guidance and currently applies to nothing, so the live numbers are unchanged until an announcement is on record.</p>
   <p class="tblnote">Data note: the 2026 ST39 months were briefly double-counted (two file versions loaded); fixed 2026-09-28 to read the latest version per month. Scotford still accounts for 85.6% of the SCO miss after the fix; the SCO 90% band corrected from &plusmn;236 to &plusmn;97 kb/d.</p>
+  <h3>Blended forecasts</h3>
+  <p><b>What it tests.</b> Whether averaging several forecasts beats trusting the best one alone. Three blends per line, tested on the vintage-pinned backtests only: a straight average of the competing forecasts, an average weighted toward whichever method was most accurate recently, and the middle value of the pack. A blend earns a place only if it beats the line&apos;s best single method more often than a coin flip, with the 95% band to prove it.</p>
+  <p><b>Verdict.</b> No blend earns a place on any line. The closest calls: mined bitumen, where the straight average beat the bottom-up model 53.8% of the time (95% CI 49.0%-58.6% — includes 50%, so a tie); total supply, 51.2% (CI 43.7%-58.5%, a tie); light crude, 50.0% (CI 42.3%-57.7%, a tie). Blending in the weaker guidance-based forecasts made things decisively worse, because the weak members drag the average down. The live forecasts stay as they are: the single best method per line, scored above. A blend that cannot beat the best single forecast does not get used.</p>
   <h2>Other scorecards</h2>
   <p>Every predictive component gets the same treatment: backtest accuracy with its uncertainty stated, live accuracy as predictions resolve, and an honest label when there is nothing to score yet.</p>
   <h3>Apportionment</h3>
