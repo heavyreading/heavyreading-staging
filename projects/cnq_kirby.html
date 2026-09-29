@@ -455,6 +455,18 @@ details.vintage > summary::before { content:"+ "; font-weight:700; }
 details.vintage[open] > summary::before { content:"\2014  "; }
 details.vintage ul { margin:8px 0 4px; padding-left:18px; font-size:12px; color:var(--mut); }
 details.vintage li { margin:3px 0; }
+/* collapsible watch sections: summary styled as the section heading */
+details.sec { margin:0; }
+details.sec > summary { cursor:pointer; list-style:none; display:block;
+  font-family:var(--serif); font-optical-sizing:auto; font-weight:560;
+  font-size:clamp(1.4rem, 1.2rem + 1vw, 1.65rem); letter-spacing:-0.015em;
+  line-height:1.2; margin:3rem 0 1rem; padding-top:1.4rem;
+  border-top:1px solid var(--line); text-wrap:balance; }
+details.sec > summary::-webkit-details-marker { display:none; }
+details.sec > summary::marker { content:""; }
+details.sec > summary::before { content:"+ "; color:var(--faint); font-weight:700; }
+details.sec[open] > summary::before { content:"\2014  "; }
+details.sec > summary:hover { color:var(--acc-deep); }
 .nullnote { color:var(--mut); font-style:italic; }
 .panel { margin:26px 0; }
 hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:76ch; }
