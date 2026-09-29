@@ -42,8 +42,8 @@
    "source_url": "https://safety4sea.com/seafarer-dead-following-vessel-strike-and-fire-in-strait-of-hormuz/"
   },
   {
-   "text": "Freight priced the risk at records: VLCC rates Gulf-to-China surged above $30 per barrel (LSEG's highest on record) and West Asia-China time-charters hit $1.2 million a day, more than doubling since late August.",
-   "vintage": "Sep 18-23, 2026",
+   "text": "Freight priced the risk at records: VLCC rates Gulf-to-China surged above $30 per barrel (LSEG's highest on record) and West Asia-China time-charters hit a record $1.27 million a day (LSEG), more than doubling since late August.",
+   "vintage": "Sep 18-24, 2026",
    "source": "LSEG / Reuters; PressTV (citing Financial Times / Braemar)",
    "source_url": "https://www.presstv.co.uk/Detail/2026/09/23/776865/Oil-tanker-rates-hit-record--1-2m-a-day-as-US-war-on-Iran-disrupts-shipping"
   },
@@ -156,6 +156,30 @@
    "source_url": "https://storychase.co/news/irans-august-oil-exports-hit-two-year-peak-despite-sanctions-pressure/"
   },
   {
+   "text": "For the first time in two months, aggregate crude exports out of the US blockade line by Iraq, Kuwait, Saudi Arabia, Qatar, the UAE and Oman averaged north of 10 million b/d; Iranian crude exports remained at zero, with 'not a single barrel of crude oil' coming out of Iran over the past 60 days.",
+   "vintage": "Sep 2026; accessed 2026-09-29",
+   "source": "TankerTrackers (own Telegram channel)",
+   "source_url": ""
+  },
+  {
+   "text": "Middle East crude exports were down 39% in August versus a January-February baseline of 18.5 million b/d; the shortfall from that baseline narrowed to 7.2 million b/d, from a peak deficit of 12.4 million in May when exports were down 67%.",
+   "vintage": "Sep 6, 2026; accessed 2026-09-29",
+   "source": "TankerTrackers (via RFE/RL live blog)",
+   "source_url": ""
+  },
+  {
+   "text": "Vortexa's own write-up (Sep 15) put Iranian crude loadings at around 210 kb/d in August, the lowest since 2020 and down from roughly 2 million b/d earlier in 2026  -  and said the barrels still loading are not translating into fresh Iranian crude clearing the Gulf. The 210 kb/d (Vortexa, crude-only) and the 220,000-255,000 b/d (Reuters aggregation of Kpler, Vortexa and TankerTrackers, crude plus condensate) describe the same August; the gap is condensate, not a disagreement.",
+   "vintage": "Sep 15, 2026; accessed 2026-09-29",
+   "source": "Vortexa",
+   "source_url": ""
+  },
+  {
+   "text": "On whether any Iranian oil is actually getting out, the three trackers agree: Kpler, Vortexa and TankerTrackers all report no Iranian crude cargo has cleared Hormuz for China since the blockade was reinstated on July 14 (Reuters, Sep 1). The '210k vs zero' gap is loadings-versus-cleared-cargoes  -  different measures, same story.",
+   "vintage": "Sep 1-29, 2026; accessed 2026-09-29",
+   "source": "Reuters (Kpler, Vortexa, TankerTrackers estimates)",
+   "source_url": ""
+  },
+  {
    "text": "Iranian floating crude was ~29 million barrels on September 8, 2026, down from ~90 million in mid-July, the blockade drew down pre-war floating stock by roughly two-thirds (Kpler, via WSJ).",
    "vintage": "Sep 8, 2026; accessed 2026-09-24",
    "source": "WSJ via Kpler (compiled in Oil Depletion Report)",
@@ -178,6 +202,24 @@
    "vintage": "Jul 14, 2026; accessed 2026-09-24",
    "source": "WANA (citing TankerTrackers)",
    "source_url": "https://wanaen.com/iran-exports-more-than-80-million-barrels-of-oil-in-26-days/"
+  },
+  {
+   "text": "Iranian crude in floating storage west of the blockade line stood at 41.7 million barrels by Aug 26, as loadings continued while nothing cleared.",
+   "vintage": "Sep 1, 2026; accessed 2026-09-29",
+   "source": "Reuters (Kpler, Vortexa, TankerTrackers estimates)",
+   "source_url": ""
+  },
+  {
+   "text": "An estimated 40-50 million barrels of Iranian oil remained on the water in Asia, with Chinese discharges running near 1 million b/d  -  Tehran selling from already-cleared floating storage it cannot replenish.",
+   "vintage": "~Sep 12, 2026; accessed 2026-09-29",
+   "source": "Kpler (via Iran International)",
+   "source_url": ""
+  },
+  {
+   "text": "27 sanctioned tankers were waiting off Sri Lanka in ballast, part of the shadow fleet left idle by the blockade.",
+   "vintage": "Sep 18-23, 2026; accessed 2026-09-29",
+   "source": "Kpler / LSEG / Reuters",
+   "source_url": ""
   },
   {
    "text": "Iran's export stream is medium and heavy sour crude: Iran Light (medium sour, American Petroleum Institute (API) gravity 33.6, 1.46% sulfur) and Iran Heavy (heavy sour, API gravity about 29.5, sulfur about 1.77%), per National Iranian Oil Company (NIOC) assays reported by S&P Global Platts.",
@@ -480,6 +522,54 @@
    "source_url": "https://thedeepdraft.com/2026/09/19/hormuz-tanker-attacks-saudi-crude-vlcc-rates-september-19-2026/"
   },
   {
+   "text": "TankerTrackers' Sep 14-15 satellite imagery analysis said the strait 'now hosts bi-directional daytime traffic of VLCC supertankers' and that 'greater volumes of crude oil, LNG and LPG are being exchanged via STS transfer in the Gulf of Oman' (no vessel count given). The same day it reported Saudi Arabia had loaded 8.7 million barrels at its east-coast terminals that day  -  a loading figure, not a Hormuz transit figure.",
+   "vintage": "Sep 15, 2026; accessed 2026-09-29",
+   "source": "TankerTrackers (Sep 15, 2026 post)",
+   "source_url": ""
+  },
+  {
+   "text": "TankerTrackers identified at least 56 tankers running 'dark' in August  -  AIS transponders off, visible only via satellite  -  shuttling Hormuz to Gulf-of-Oman ship-to-ship transfers and back for another load, moving GCC/Arab-state exports under US military protection, not Iran's shadow fleet. Do not conflate with Iran's separate 56-vessel blacklist for unauthorized Hormuz transits, an Iranian toll/enforcement list (same number by coincidence).",
+   "vintage": "Aug 8-9, 2026; accessed 2026-09-29",
+   "source": "TankerTrackers (via Iran International / Middle East Eye)",
+   "source_url": ""
+  },
+  {
+   "text": "On Gulf ship-to-ship volumes the trackers are directionally aligned but measure different universes: Vortexa's published Sep 21 note put crude-on-VLCC STS from ports west of Hormuz at around 6 million b/d since end-August (about three VLCC pairs starting STS daily), with operations stretching to nearly 10 days from 5-7 and queues worsening; outlets quoting TankerTrackers put all-transfer STS at about 7.15 million b/d over the 14 days to mid-September, up 56% month-on-month (secondhand  -  treat as an estimate until the direct post is captured); Kpler's narrower Gulf-of-Oman STS read was about 2.5 million b/d for September versus 1.4 million in August. Editorial: Vortexa's is the firmest published figure; all three agree STS has surged to multi-million-b/d scale.",
+   "vintage": "Sep 17-24, 2026; accessed 2026-09-29",
+   "source": "Vortexa (Sep 21 note); TankerTrackers (via outlets); Kpler",
+   "source_url": ""
+  },
+  {
+   "text": "The 5-million-b/d East-West Petroline to Yanbu was knocked offline by drone strikes  -  one account dates them to Sep 10, another to Sep 13  -  and Yanbu loading halted from Sep 11. Aramco pivoted to eastern sea lanes, offering about 60 million barrels of Ras Tanura crude for Sep-Oct delivery via a two-tier shuttle: smaller tankers to Sohar, Oman, then ship-to-ship transfers onto deep-draft vessels for Asia. US CENTCOM said its forces had assisted about 2,000 commercial transits and moved over 1 billion barrels of Gulf oil over the prior couple of months.",
+   "vintage": "Sep 2026; accessed 2026-09-29",
+   "source": "Reuters (via UAE Vartha); CENTCOM (via Assafina)",
+   "source_url": ""
+  },
+  {
+   "text": "Kpler's Homayoun Falakshahi (~Sep 12): 'It's exactly the opposite scenario compared to the beginning of the war where Iran could export its oil but the neighbors couldn't... And now it's actually the contrary. Iran cannot export new oil.' Hormuz crude-and-condensate flows recovered to around two-thirds of pre-war volumes (Goldman Sachs), roughly 70% on Kpler's broader read; the UAE contrast: shipments back within 0.02% of pre-war, running 3.7-4.3 million b/d June through September versus a March crater of about 1.9-2.13 million b/d.",
+   "vintage": "~Sep 12, 2026; accessed 2026-09-29",
+   "source": "Kpler (via Iran International); Goldman Sachs",
+   "source_url": ""
+  },
+  {
+   "text": "On the Saudi September rebound the trackers agree: Kpler's September snapshot put Saudi exports at about 5.4 million b/d; Bloomberg ship-tracking had 5.28 million b/d for Sep 1-23. The Sep 21 east-coast surge reads 12-14 million barrels in 24 hours at Ras Tanura and Juaymah  -  Kpler counted six VLCCs, TankerTrackers seven supertankers  -  the largest single-day Gulf loading surge since the escalation; Saudi exports ran past 4 million b/d in mid-September from August's 2.4 million trough.",
+   "vintage": "Sep 18-26, 2026; accessed 2026-09-29",
+   "source": "Kpler; Bloomberg ship-tracking; TankerTrackers (via UAE Vartha)",
+   "source_url": ""
+  },
+  {
+   "text": "Kpler's September Hormuz figures look scattered until sorted by definition: about 7 million b/d of crude for the full week before Sep 20 (49.2 million barrels), 10.1 million b/d crude month-to-date, and above 13.5 million b/d all-liquids on a 7-day average (Sep 26). Same tracker, different windows and product universes  -  read the window before comparing.",
+   "vintage": "Sep 20-26, 2026; accessed 2026-09-29",
+   "source": "Kpler (via Reuters; Commodity Context)",
+   "source_url": ""
+  },
+  {
+   "text": "Asia's Middle East imports ran 12.56 million b/d in September, still 3.53 million b/d below the pre-conflict average.",
+   "vintage": "Sep 18-23, 2026; accessed 2026-09-29",
+   "source": "Kpler (via UAE Vartha)",
+   "source_url": ""
+  },
+  {
    "text": "Brent closed the September 21-25 trading week at about $105.40 a barrel, up roughly 1.4 percent on the week, while WTI fell about 3.3 percent to roughly $92.90, as Houthi strikes on Saudi Aramco facilities and stop-start US-Iran negotiations pulled the two benchmarks in different directions.",
    "vintage": "Sep 26, 2026",
    "source": "HDFCSky",
@@ -652,72 +742,6 @@
    "vintage": "Data: Jan-Jul 2026 and pre-2023 baseline; accessed 2026-09-24",
    "source": "Africa Center for Strategic Studies",
    "source_url": "https://africacenter.org/spotlight/2026-houthi-red-sea-threats/"
-  },
-  {
-   "text": "Standing weekly cross-check against TankerTrackers ship-tracking data for Hormuz and Red Sea tanker movements. Entries land here as each check runs.",
-   "vintage": "Standing order from 2026-09-28",
-   "source": "Heavy Reading",
-   "source_url": "https://heavyreading.ca/world/middle-east/index.html"
-  },
-  {
-   "text": "TankerTrackers' satellite imagery analysis, conducted 2026-09-14 and published Sep 15, said 'the Strait of Hormuz now hosts bi-directional daytime traffic of VLCC supertankers' and that 'greater volumes of crude oil, LNG and LPG are being exchanged via STS transfer in the Gulf of Oman.' TankerTrackers gave no vessel count. The same day it reported Saudi Arabia had loaded 8.7 million barrels of crude that day at its east coast terminals, an east-coast loading figure, not a Hormuz transit figure.",
-   "vintage": "Sep 15, 2026; accessed 2026-09-29",
-   "source": "TankerTrackers (Sep 15, 2026 post; text verified on profile mirror and quoted identically by Maritime Executive)",
-   "source_url": "https://maritime-executive.com/article/oil-prices-jump-at-news-of-pause-in-saudi-loadings-at-red-sea-terminal"
-  },
-  {
-   "text": "For the first time in two months, aggregate crude exports out of the US blockade line by Iraq, Kuwait, Saudi Arabia, Qatar, the UAE and Oman averaged north of 10 million b/d; Iranian crude exports remained at zero, with 'not a single barrel of crude oil' coming out of Iran over the past 60 days.",
-   "vintage": "Sep 2026; accessed 2026-09-29",
-   "source": "TankerTrackers (own Telegram channel)",
-   "source_url": "https://t.me/s/TankerTrackers?before=1466"
-  },
-  {
-   "text": "Middle East crude exports were down 39% in August versus a January-February baseline of 18.5 million b/d; the shortfall from that baseline narrowed to 7.2 million b/d, from a peak deficit of 12.4 million in May when exports were down 67%. Iran's baseline of 1.68 million b/d fell to zero, which TankerTrackers said could hold 'for the foreseeable future.'",
-   "vintage": "Sep 6, 2026; accessed 2026-09-29",
-   "source": "TankerTrackers (via RFE/RL live blog)",
-   "source_url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260906-rferl03.htm"
-  },
-  {
-   "text": "TankerTrackers identified a fleet of at least 56 tankers operating in 'digital darkness', AIS transponders switched off and visible only via satellite, running a shuttle: transiting Hormuz, conducting ship-to-ship transfers in the Gulf of Oman, then returning for another load. These moved GCC/Arab-state exports out under US military protection, not Iran's shadow fleet; Iran International's 'dozens' headline framed the same finding. Do not conflate with Iran's separate 56-vessel blacklist for unauthorized Hormuz transits, an Iran toll/enforcement list, not a TankerTrackers fleet (same number by coincidence).",
-   "vintage": "Aug 8-9, 2026; accessed 2026-09-29",
-   "source": "TankerTrackers (Aug 2026 finding; Iran International / Middle East Eye coverage, original pages not retrieved in search)",
-   "source_url": "https://t.me/s/TankerTrackers?before=1466"
-  },
-  {
-   "text": "Over the 14 days to mid-September, about 7.15 million b/d was exchanged via ship-to-ship transfers, up 56% month-on-month, per outlets quoting TankerTrackers; treat as a tracker estimate until the direct TankerTrackers post is captured. This is a September volume figure, distinct from the August fleet count. Kpler separately put September Gulf of Oman STS transfers at ~2.5 million b/d versus 1.4 in August, roughly 40% of the volumes currently moving through Hormuz.",
-   "vintage": "Published ~Sep 17-18, 2026; accessed 2026-09-29",
-   "source": "TankerTrackers (via outlets quoting TT) / Kpler",
-   "source_url": "https://t.me/s/TankerTrackers?before=1466"
-  },
-  {
-   "text": "Iran loaded 220,000-255,000 b/d of crude and condensate in August, down from ~740,000 b/d in July and ~2 million b/d in March; no Iranian crude cargoes transited Hormuz to China since the US reinstated the blockade on July 14, the first sustained near-zero stretch on record. Iranian crude in floating storage west of the blockade line rose to 41.7 million barrels by Aug 26.",
-   "vintage": "Sep 1, 2026; accessed 2026-09-29",
-   "source": "Reuters: Kpler, Vortexa, TankerTrackers estimates (via 101 WIXX)",
-   "source_url": "https://wixx.com/2026/09/01/blockade-succeeds-where-sanctions-failed-as-iran-oil-exports-stall/"
-  },
-  {
-   "text": "On Sep 21, tankers loaded roughly 12 million barrels of Saudi crude in 24 hours at Ras Tanura and Juaymah, the largest single-day Gulf loading surge since hostilities escalated (six VLCCs per Kpler; TankerTrackers counted seven supertankers / ~14M bbl). Saudi exports rebounded past 4 million b/d in mid-September from August's 2.4 million b/d trough.",
-   "vintage": "Sep 23, 2026; accessed 2026-09-29",
-   "source": "Kpler / TankerTrackers / MarineTraffic (via UAE Vartha)",
-   "source_url": "https://english.uaevartha.com/saudi-arabia-surges-oil-shipments-to-near-12-million-barrels-in-single-day-gulf-outflow/"
-  },
-  {
-   "text": "The 5-million-b/d East-West Petroline to Yanbu was knocked offline by drone strikes on Sep 10; Yanbu loading halted from Sep 11. Aramco pivoted back to eastern sea lanes, placing ~60 million barrels of Ras Tanura crude on the market for Sep-Oct delivery via a two-tier shuttle: smaller tankers to Sohar, Oman, then ship-to-ship transfers onto deep-draft vessels for Asia. US CENTCOM said its forces assisted 2,000 commercial ship transits and moved over 1 billion barrels of Gulf oil over the prior couple of months.",
-   "vintage": "Sep 2026; accessed 2026-09-29",
-   "source": "Reuters (via UAE Vartha; CENTCOM via Assafina)",
-   "source_url": "https://english.uaevartha.com/saudi-arabia-surges-oil-shipments-to-near-12-million-barrels-in-single-day-gulf-outflow/"
-  },
-  {
-   "text": "Kpler's Homayoun Falakshahi (via Iran International, ~Sep 12): 'It's exactly the opposite scenario compared to the beginning of the war where Iran could export its oil but the neighbors couldn't... And now it's actually the contrary. Iran cannot export new oil.' Hormuz crude-and-condensate flows recovered to around two-thirds of pre-war volumes (Goldman Sachs), broader recovery roughly 70% (Kpler); an estimated 40-50 million barrels of Iranian oil remained on the water in Asia with Chinese discharges running near 1 million b/d. The UAE contrast: UAE shipments recovered to within 0.02% of pre-war volumes, exports running 3.7-4.3 million b/d June through September versus a March crater of ~1.9-2.13 million b/d.",
-   "vintage": "Sep 12, 2026; accessed 2026-09-29",
-   "source": "Kpler (via Iran International rewrite); news89 (citing TankerTrackers)",
-   "source_url": "https://news89.com/uae-crude-exports-return-to-pre-war-levels-as-iranian-shipments-vanish/"
-  },
-  {
-   "text": "Kpler September snapshot: regional exports 12.8 million b/d (highest since February), Hormuz ~7.4 million b/d, Saudi ~5.4 million b/d versus 2.446 million in August, Ras Tanura ~3.6 million b/d versus 929k in August; Asia's Middle East imports 12.56 million b/d in September, still 3.53 million b/d below the pre-conflict average. VLCC freight Gulf to China surged above $30 per barrel, the highest on record (LSEG). On the Iranian side, total crude afloat fell to 107 million barrels from 135 million, with 27 sanctioned tankers waiting off Sri Lanka in ballast; the IMF put Iran's inflation near 70% this year, third-highest in the world.",
-   "vintage": "Sep 18-23, 2026; accessed 2026-09-29",
-   "source": "Kpler / LSEG / Reuters",
-   "source_url": "https://www.assafinaonline.com/en/article/Middle-East-Oil-Exports-Shift-to-New-Shuttling-System"
   }
  ],
  "sources": [
@@ -842,6 +866,26 @@
    "url": "https://storychase.co/news/irans-august-oil-exports-hit-two-year-peak-despite-sanctions-pressure/"
   },
   {
+   "publisher": "TankerTrackers (own Telegram channel)",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "TankerTrackers (via RFE/RL live blog)",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "Vortexa",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "Reuters (Kpler, Vortexa, TankerTrackers estimates)",
+   "vintage": "",
+   "url": ""
+  },
+  {
    "publisher": "WSJ via Kpler (compiled in Oil Depletion Report)",
    "vintage": "",
    "url": "https://github.com/mattcone/depletion-ledger/blob/HEAD/research/Oil-Depletion-Report.md"
@@ -855,6 +899,16 @@
    "publisher": "Maritime Executive (citing TankerTrackers)",
    "vintage": "",
    "url": "https://maritime-executive.com/article/iran-continues-to-sell-oil-out-of-its-floating-storage-reserve"
+  },
+  {
+   "publisher": "Kpler (via Iran International)",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "Kpler / LSEG / Reuters",
+   "vintage": "",
+   "url": ""
   },
   {
    "publisher": "Hellenic Shipping News (citing S&P Global Platts)",
@@ -1052,6 +1106,46 @@
    "url": "https://thedeepdraft.com/2026/09/19/hormuz-tanker-attacks-saudi-crude-vlcc-rates-september-19-2026/"
   },
   {
+   "publisher": "TankerTrackers (Sep 15, 2026 post)",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "TankerTrackers (via Iran International / Middle East Eye)",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "Vortexa (Sep 21 note); TankerTrackers (via outlets); Kpler",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "Reuters (via UAE Vartha); CENTCOM (via Assafina)",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "Kpler (via Iran International); Goldman Sachs",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "Kpler; Bloomberg ship-tracking; TankerTrackers (via UAE Vartha)",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "Kpler (via Reuters; Commodity Context)",
+   "vintage": "",
+   "url": ""
+  },
+  {
+   "publisher": "Kpler (via UAE Vartha)",
+   "vintage": "",
+   "url": ""
+  },
+  {
    "publisher": "HDFCSky",
    "vintage": "",
    "url": "https://hdfcsky.com/news/brent-rises-1-4percent-to-105-40-while-wti-drops-3-3percent-to-92-90-on-houthi-attacks-and-the-us-iran-talks"
@@ -1180,56 +1274,6 @@
    "publisher": "Africa Center for Strategic Studies",
    "vintage": "",
    "url": "https://africacenter.org/spotlight/2026-houthi-red-sea-threats/"
-  },
-  {
-   "publisher": "TankerTrackers (Sep 15, 2026 post; text verified on profile mirror and quoted identically by Maritime Executive)",
-   "vintage": "",
-   "url": "https://maritime-executive.com/article/oil-prices-jump-at-news-of-pause-in-saudi-loadings-at-red-sea-terminal"
-  },
-  {
-   "publisher": "TankerTrackers (own Telegram channel)",
-   "vintage": "",
-   "url": "https://t.me/s/TankerTrackers?before=1466"
-  },
-  {
-   "publisher": "TankerTrackers (via RFE/RL live blog)",
-   "vintage": "",
-   "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260906-rferl03.htm"
-  },
-  {
-   "publisher": "TankerTrackers (Aug 2026 finding; Iran International / Middle East Eye coverage, original pages not retrieved in search)",
-   "vintage": "",
-   "url": "https://t.me/s/TankerTrackers?before=1466"
-  },
-  {
-   "publisher": "TankerTrackers (via outlets quoting TT) / Kpler",
-   "vintage": "",
-   "url": "https://t.me/s/TankerTrackers?before=1466"
-  },
-  {
-   "publisher": "Reuters: Kpler, Vortexa, TankerTrackers estimates (via 101 WIXX)",
-   "vintage": "",
-   "url": "https://wixx.com/2026/09/01/blockade-succeeds-where-sanctions-failed-as-iran-oil-exports-stall/"
-  },
-  {
-   "publisher": "Kpler / TankerTrackers / MarineTraffic (via UAE Vartha)",
-   "vintage": "",
-   "url": "https://english.uaevartha.com/saudi-arabia-surges-oil-shipments-to-near-12-million-barrels-in-single-day-gulf-outflow/"
-  },
-  {
-   "publisher": "Reuters (via UAE Vartha; CENTCOM via Assafina)",
-   "vintage": "",
-   "url": "https://english.uaevartha.com/saudi-arabia-surges-oil-shipments-to-near-12-million-barrels-in-single-day-gulf-outflow/"
-  },
-  {
-   "publisher": "Kpler (via Iran International rewrite); news89 (citing TankerTrackers)",
-   "vintage": "",
-   "url": "https://news89.com/uae-crude-exports-return-to-pre-war-levels-as-iranian-shipments-vanish/"
-  },
-  {
-   "publisher": "Kpler / LSEG / Reuters",
-   "vintage": "",
-   "url": "https://www.assafinaonline.com/en/article/Middle-East-Oil-Exports-Shift-to-New-Shuttling-System"
   }
  ]
 }
