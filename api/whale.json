@@ -218,7 +218,7 @@
     "category": "commercial",
     "direction": -1,
     "d1_lots": -50221,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-07-14|ICE Brent|cot_attribution|1|whale|weekly d(managed_money_net)=114752 lots (4w 55711), z=+2.8 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; whale-sized + single-week velocity + category confirmed (COT agrees with OI tripwire direction, or COT-only whale build with clean category)",
@@ -230,7 +230,7 @@
     "category": "managed_money",
     "direction": 1,
     "d1_lots": 114752,
-    "attribution": "consistent with large fund activity (actor unknown, not confirmed)"
+    "attribution": "likely Citadel (probable fund-whale candidate - not confirmed)"
    },
    {
     "flag_id": "2026-06-30|ICE Brent|cot_attribution|1|sub_whale|weekly d(commercial_net)=30857 lots (4w 169682), z=+0.8 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity multi_week; sub-whale accumulation (attribution withheld), OR OI spike with ambiguous direction (liquidation / position squaring)",
@@ -266,7 +266,7 @@
     "category": "managed_money",
     "direction": -1,
     "d1_lots": -94763,
-    "attribution": "consistent with large fund activity (actor unknown, not confirmed)"
+    "attribution": "likely Citadel (probable fund-whale candidate - not confirmed)"
    },
    {
     "flag_id": "2026-06-09|ICE C5 1A diff|cot_attribution|1|sub_whale|weekly d(commercial_net)=540 lots (4w -195), z=+2.1 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; sub-whale accumulation (attribution withheld), OR OI spike with ambiguous direction (liquidation / position squaring)",
@@ -290,7 +290,7 @@
     "category": "commercial",
     "direction": 1,
     "d1_lots": 55491,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-05-26|ICE WCS Houston diff|cot_attribution|1|whale|weekly d(commercial_net)=4320 lots (4w 5770), z=+3.2 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; whale-sized + single-week velocity + category confirmed (COT agrees with OI tripwire direction, or COT-only whale build with clean category)",
@@ -302,7 +302,7 @@
     "category": "commercial",
     "direction": 1,
     "d1_lots": 4320,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-04-21|ICE WCS Houston diff|cot_attribution|1|sub_whale|weekly d(commercial_net)=735 lots (4w 4310), z=+0.7 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity multi_week; sub-whale accumulation (attribution withheld), OR OI spike with ambiguous direction (liquidation / position squaring)",
@@ -374,7 +374,7 @@
     "category": "commercial",
     "direction": 1,
     "d1_lots": 2062,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-03-17|ICE WTI|cot_attribution|1|whale|weekly d(commercial_net)=17336 lots (4w 132016), z=+1.0 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity multi_week; whale-sized but multi-week accumulation, OR OI-tripwire-only early warning (category unattributed until Friday), OR whale-sized with OI/COT direction conflict",
@@ -386,7 +386,7 @@
     "category": "commercial",
     "direction": 1,
     "d1_lots": 17336,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-03-17|ICE Brent|cot_attribution|-1|whale|weekly d(commercial_net)=-73836 lots (4w -152968), z=-2.0 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity multi_week; whale-sized but multi-week accumulation, OR OI-tripwire-only early warning (category unattributed until Friday), OR whale-sized with OI/COT direction conflict",
@@ -398,7 +398,7 @@
     "category": "commercial",
     "direction": -1,
     "d1_lots": -73836,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-03-10|ICE WCS 1A diff|cot_attribution|1|sub_whale|weekly d(managed_money_net)=2445 lots (4w -606), z=+2.0 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; sub-whale accumulation (attribution withheld), OR OI spike with ambiguous direction (liquidation / position squaring)",
@@ -422,7 +422,7 @@
     "category": "commercial",
     "direction": 1,
     "d1_lots": 5005,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-03-10|ICE C5 1A diff|cot_attribution|-1|whale|weekly d(commercial_net)=-1125 lots (4w -1125), z=-2.8 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; whale-sized + single-week velocity + category confirmed (COT agrees with OI tripwire direction, or COT-only whale build with clean category)",
@@ -446,7 +446,7 @@
     "category": "commercial",
     "direction": 1,
     "d1_lots": 55479,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-03-10|NYMEX WTI|cot_attribution|1|whale|weekly d(managed_money_net)=55865 lots (4w 110201), z=+3.2 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; whale-sized + single-week velocity + category confirmed (COT agrees with OI tripwire direction, or COT-only whale build with clean category)",
@@ -458,7 +458,7 @@
     "category": "managed_money",
     "direction": 1,
     "d1_lots": 55865,
-    "attribution": "consistent with large fund activity (actor unknown, not confirmed)"
+    "attribution": "likely Citadel (probable fund-whale candidate - not confirmed)"
    },
    {
     "flag_id": "2026-03-10|ICE Gasoil|cot_attribution|1|whale|weekly d(commercial_net)=42015 lots (4w 92472), z=+3.3 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; whale-sized + single-week velocity + category confirmed (COT agrees with OI tripwire direction, or COT-only whale build with clean category)",
@@ -470,7 +470,7 @@
     "category": "commercial",
     "direction": 1,
     "d1_lots": 42015,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-03-03|ICE Gasoil|cot_attribution|1|whale|weekly d(commercial_net)=45437 lots (4w 55358), z=+4.1 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; whale-sized + single-week velocity + category confirmed (COT agrees with OI tripwire direction, or COT-only whale build with clean category)",
@@ -482,7 +482,7 @@
     "category": "commercial",
     "direction": 1,
     "d1_lots": 45437,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-02-24|NYMEX WTI|cot_attribution|1|sub_whale|weekly d(managed_money_net)=31369 lots (4w 75730), z=+1.9 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity multi_week; sub-whale accumulation (attribution withheld), OR OI spike with ambiguous direction (liquidation / position squaring)",
@@ -506,7 +506,7 @@
     "category": "commercial",
     "direction": 1,
     "d1_lots": 58562,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-02-10|NYMEX WTI|cot_attribution|-1|sub_whale|weekly d(commercial_net)=-3367 lots (4w -90416), z=-0.3 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity multi_week; sub-whale accumulation (attribution withheld), OR OI spike with ambiguous direction (liquidation / position squaring)",
@@ -542,7 +542,7 @@
     "category": "managed_money",
     "direction": 1,
     "d1_lots": 16687,
-    "attribution": "consistent with large fund activity (actor unknown, not confirmed)"
+    "attribution": "likely Citadel (probable fund-whale candidate - not confirmed)"
    },
    {
     "flag_id": "2026-01-27|ICE Gasoil|cot_attribution|-1|sub_whale|weekly d(commercial_net)=-8524 lots (4w -64373), z=-0.7 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity multi_week; sub-whale accumulation (attribution withheld), OR OI spike with ambiguous direction (liquidation / position squaring)",
@@ -590,7 +590,7 @@
     "category": "commercial",
     "direction": -1,
     "d1_lots": -26148,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-01-13|ICE WCS 1A diff|cot_attribution|-1|whale|weekly d(managed_money_net)=-5330 lots (4w -6046), z=-4.7 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; whale-sized + single-week velocity + category confirmed (COT agrees with OI tripwire direction, or COT-only whale build with clean category)",
@@ -602,7 +602,7 @@
     "category": "managed_money",
     "direction": -1,
     "d1_lots": -5330,
-    "attribution": "consistent with large fund activity (actor unknown, not confirmed)"
+    "attribution": "likely Citadel (probable fund-whale candidate - not confirmed)"
    },
    {
     "flag_id": "2026-01-13|ICE Brent|cot_attribution|-1|whale|weekly d(commercial_net)=-80863 lots (4w -133874), z=-2.7 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; whale-sized + single-week velocity + category confirmed (COT agrees with OI tripwire direction, or COT-only whale build with clean category)",
@@ -614,7 +614,7 @@
     "category": "commercial",
     "direction": -1,
     "d1_lots": -80863,
-    "attribution": "consistent with major-producer activity (actor unknown, not confirmed)"
+    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    },
    {
     "flag_id": "2026-01-06|ICE Gasoil|cot_attribution|-1|sub_whale|weekly d(commercial_net)=-23133 lots (4w -38025), z=-2.3 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; sub-whale accumulation (attribution withheld), OR OI spike with ambiguous direction (liquidation / position squaring)",
