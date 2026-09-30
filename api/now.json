@@ -177,9 +177,9 @@
    "note": "Mainline back into apportionment after zero in September"
   },
   "breaking": {
+   "headline": "Mainline back into apportionment for October 2026: light 8% (heavy 4%) (was zero)",
    "id": "apportionment-october_2026",
-   "headline": "Mainline apportionment out of apportionment for October 2026: heavy 10% to 4%",
-   "set_at": "2026-09-28",
+   "set_at": "2026-09-16",
    "source": "Enbridge notice, Sep 16, 2026 (Oct); Enbridge announcement (Sep)"
   },
   "balance_highlights": [
