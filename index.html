@@ -229,14 +229,14 @@ ul.tight li { margin:.38rem 0; }
 
 /* links: quiet, warm on interaction. Visited links keep the same ink color:
    a data publication never shows browser-default blue/purple. */
-main a, .wrap > a, p a, li a, td a, th a, figcaption a, .fcolophon a,
+main a, .wrap > a, p a, li a, td a, th a, figcaption a, .fcolophon a, section a,
 main a:visited, p a:visited, li a:visited, td a:visited, th a:visited,
-figcaption a:visited, .fcolophon a:visited {
+figcaption a:visited, .fcolophon a:visited, section a:visited {
   color:var(--ink); text-decoration:underline;
   text-decoration-color:#cfc8b8; text-decoration-thickness:1px;
   text-underline-offset:3px; }
 main a:hover, p a:hover, li a:hover, td a:hover, th a:hover,
-figcaption a:hover, .fcolophon a:hover {
+figcaption a:hover, .fcolophon a:hover, section a:hover {
   color:var(--acc-deep); text-decoration-color:var(--acc); }
 h1 a, h2 a, h3 a { text-decoration:none; color:var(--ink); }
 h1 a:hover, h2 a:hover, h3 a:hover { color:var(--acc-deep); }
@@ -753,17 +753,6 @@ inputs, stated as estimates.</p>
 </article>
 <article class="chg-card">
 <div class="chg-top"><span class="chg-rank">6</span>
-<span class="chg-title">Joliet still unconfirmed — the strip's verdict</span></div>
-<p class="chg-delta">restart status still unconfirmed</p>
-<p class="chg-body">ExxonMobil's Joliet, Illinois refinery (~275 kb/d) still has no public restart confirmation: the only 'back in service' reports remain paywalled Quantum Commodity Intelligence headlines (Sep 24/28), and ExxonMobil's last public word (Sep 18) said the refinery was restarting with no date. The market must assume roughly 275 kb/d of heavy-crude demand is not back until there is public word or the weekly data shows Midwest runs recovering.</p>
-<p class="chg-balance"><b>Balance read:</b> While Joliet is dark, the WCS discount stays pressured wide; a confirmed restart is the classic snap-tighter catalyst. Today's EIA weekly is the public test.</p>
-<p class="chg-cond"><b>Model conditional:</b> Joliet confirmed → ~275 kb/d of PADD 2 heavy-crude demand back. No dollar translation: the differential model is uncalibrated pending licensed marks, so no model-implied $Y exists.</p>
-<div class="chips"><span class="chip conf">paywalled single source</span><span class="chip">Sep 29-30, 2026</span>
-<span class="chip src">Quantum Commodity Intelligence headlines (paywalled); ExxonMobil Sep 18 statement</span></div>
-
-</article>
-<article class="chg-card">
-<div class="chg-top"><span class="chg-rank">7</span>
 <span class="chg-title">Hormuz healing, Red Sea escalation, diesel-ban risk de-escalates</span></div>
 <p class="chg-delta">Hormuz ~80% of pre-war; no US diesel ban in the works</p>
 <p class="chg-body">Flows are healing: 13.1 mb/d through Hormuz last week, about 80% of the pre-war rate (Kpler). The counterweight: the Houthis stepped up Red Sea attacks and asserted control over Bab el-Mandeb (Wall Street Journal, Sep 30); France is deploying defensive assets to Yanbu. The diesel-export-limit policy risk de-escalated: the White House says no ban is being prepared and Energy Secretary Wright opposes a blanket ban — voluntary refiner cooperation and red-dyed diesel floated instead (RBN Energy led the story Sep 28).</p>
@@ -771,6 +760,17 @@ inputs, stated as estimates.</p>
 
 <div class="chips"><span class="chip conf">single source</span><span class="chip">Sep 29-30, 2026</span>
 <span class="chip src">Kpler; Wall Street Journal; RBN Energy; White House</span></div>
+
+</article>
+<article class="chg-card">
+<div class="chg-top"><span class="chg-rank">7</span>
+<span class="chg-title">Joliet still unconfirmed — the strip's verdict</span></div>
+<p class="chg-delta">restart status still unconfirmed</p>
+<p class="chg-body">ExxonMobil's Joliet, Illinois refinery (~275 kb/d) still has no public restart confirmation: the only 'back in service' reports remain paywalled Quantum Commodity Intelligence headlines (Sep 24/28), and ExxonMobil's last public word (Sep 18) said the refinery was restarting with no date. The market must assume roughly 275 kb/d of heavy-crude demand is not back until there is public word or the weekly data shows Midwest runs recovering.</p>
+<p class="chg-balance"><b>Balance read:</b> While Joliet is dark, the WCS discount stays pressured wide; a confirmed restart is the classic snap-tighter catalyst. Today's EIA weekly is the public test.</p>
+<p class="chg-cond"><b>Model conditional:</b> Joliet confirmed → ~275 kb/d of PADD 2 heavy-crude demand back. No dollar translation: the differential model is uncalibrated pending licensed marks, so no model-implied $Y exists.</p>
+<div class="chips"><span class="chip conf">paywalled single source</span><span class="chip">Sep 29-30, 2026</span>
+<span class="chip src">Quantum Commodity Intelligence headlines (paywalled); ExxonMobil Sep 18 statement</span></div>
 
 </article>
 <article class="chg-card">
@@ -826,6 +826,39 @@ inputs, stated as estimates.</p>
 
 <div class="chips"><span class="chip conf">confirmed</span><span class="chip">Sep 30, 2026</span>
 <span class="chip src">In-house blending nowcast (synthetic)</span></div>
+
+</article>
+<article class="chg-card">
+<div class="chg-top"><span class="chg-rank">13</span>
+<span class="chg-title">Pipeline spare capacity revised for Nov 2026</span></div>
+<p class="chg-delta">-155 kb/d</p>
+<p class="chg-body">Pipeline spare capacity for Nov 2026 moved from 0 to -155 kb/d in the reconciled balance.</p>
+<p class="chg-balance"><b>Balance read:</b> Tighter: less room before the pipes bind.</p>
+
+<div class="chips"><span class="chip conf">confirmed</span><span class="chip">2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant)</span>
+<span class="chip src">WCSB supply/demand balance model</span></div>
+
+</article>
+<article class="chg-card">
+<div class="chg-top"><span class="chg-rank">14</span>
+<span class="chg-title">Pipeline spare capacity revised for Dec 2026</span></div>
+<p class="chg-delta">-155 kb/d</p>
+<p class="chg-body">Pipeline spare capacity for Dec 2026 moved from 0 to -155 kb/d in the reconciled balance.</p>
+<p class="chg-balance"><b>Balance read:</b> Tighter: less room before the pipes bind.</p>
+
+<div class="chips"><span class="chip conf">confirmed</span><span class="chip">2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant)</span>
+<span class="chip src">WCSB supply/demand balance model</span></div>
+
+</article>
+<article class="chg-card">
+<div class="chg-top"><span class="chg-rank">15</span>
+<span class="chg-title">Pipeline spare capacity revised for Dec 2027</span></div>
+<p class="chg-delta">-72 kb/d</p>
+<p class="chg-body">Pipeline spare capacity for Dec 2027 moved from 15 to -56 kb/d in the reconciled balance.</p>
+<p class="chg-balance"><b>Balance read:</b> Tighter: less room before the pipes bind.</p>
+
+<div class="chips"><span class="chip conf">confirmed</span><span class="chip">2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant)</span>
+<span class="chip src">WCSB supply/demand balance model</span></div>
 
 </article>
 </section>
