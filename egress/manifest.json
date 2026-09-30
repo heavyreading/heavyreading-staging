@@ -24,13 +24,13 @@
    "source_url": ""
   },
   {
-   "text": "Egress model base-case annual spare pipeline capacity 2029: +161 kb/d",
+   "text": "Egress model base-case annual spare pipeline capacity 2029: +156 kb/d",
    "vintage": "AER ST3 actuals through 2026-07 (DB file 2026-09-28); CER open data pulled 2026-09-22; model build 2026-09-30",
    "source": "Heavy Reading egress model (AER ST3, CER open data)",
    "source_url": ""
   },
   {
-   "text": "Egress model base-case annual spare pipeline capacity 2030: +161 kb/d",
+   "text": "Egress model base-case annual spare pipeline capacity 2030: +152 kb/d",
    "vintage": "AER ST3 actuals through 2026-07 (DB file 2026-09-28); CER open data pulled 2026-09-22; model build 2026-09-30",
    "source": "Heavy Reading egress model (AER ST3, CER open data)",
    "source_url": ""
@@ -54,13 +54,13 @@
    "source_url": ""
   },
   {
-   "text": "Egress model high-case annual spare pipeline capacity 2029: +161 kb/d",
+   "text": "Egress model high-case annual spare pipeline capacity 2029: +156 kb/d",
    "vintage": "AER ST3 actuals through 2026-07 (DB file 2026-09-28); CER open data pulled 2026-09-22; model build 2026-09-30",
    "source": "Heavy Reading egress model (AER ST3, CER open data)",
    "source_url": ""
   },
   {
-   "text": "Egress model high-case annual spare pipeline capacity 2030: +161 kb/d",
+   "text": "Egress model high-case annual spare pipeline capacity 2030: +152 kb/d",
    "vintage": "AER ST3 actuals through 2026-07 (DB file 2026-09-28); CER open data pulled 2026-09-22; model build 2026-09-30",
    "source": "Heavy Reading egress model (AER ST3, CER open data)",
    "source_url": ""
@@ -84,13 +84,13 @@
    "source_url": ""
   },
   {
-   "text": "Egress model low-case annual spare pipeline capacity 2029: +161 kb/d",
+   "text": "Egress model low-case annual spare pipeline capacity 2029: +156 kb/d",
    "vintage": "AER ST3 actuals through 2026-07 (DB file 2026-09-28); CER open data pulled 2026-09-22; model build 2026-09-30",
    "source": "Heavy Reading egress model (AER ST3, CER open data)",
    "source_url": ""
   },
   {
-   "text": "Egress model low-case annual spare pipeline capacity 2030: +161 kb/d",
+   "text": "Egress model low-case annual spare pipeline capacity 2030: +152 kb/d",
    "vintage": "AER ST3 actuals through 2026-07 (DB file 2026-09-28); CER open data pulled 2026-09-22; model build 2026-09-30",
    "source": "Heavy Reading egress model (AER ST3, CER open data)",
    "source_url": ""
