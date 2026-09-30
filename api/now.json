@@ -1,7 +1,7 @@
 {
- "vintage": "Now-page data from the 2026-09-29 edition sidecar (10 changes, 3 flags); apportionment Enbridge notice Sep 16 2026; balance reconciled 2026-09-27; built 2026-09-30",
+ "vintage": "Now-page data from the 2026-09-29 edition sidecar (10 changes, 3 flags); apportionment Enbridge notice Sep 16 2026; balance reconciled 2026-09-27; built 2026-09-29",
  "data": {
-  "as_of": "2026-09-30",
+  "as_of": "2026-09-29",
   "edition": "2026-09-29",
   "call_vintage": "as of Tue Sep 29 morning",
   "changes": [
@@ -162,12 +162,12 @@
    {
     "month": "2026-11",
     "requires_price_response_kbd": 154.8,
-    "pipe_spare_kbd": -154.8
+    "pipe_spare_kbd": 0
    },
    {
     "month": "2026-12",
     "requires_price_response_kbd": 154.8,
-    "pipe_spare_kbd": -154.8
+    "pipe_spare_kbd": 0
    }
   ],
   "latest_digest": "2026-09-29"
