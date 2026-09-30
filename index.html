@@ -447,6 +447,10 @@ sup.fnref a:hover { color:var(--acc-deep); text-decoration:underline; }
 .note { font-size:13.5px; color:var(--mut); max-width:68ch; line-height:1.6; }
 .vintage { font-size:12px; color:var(--mut); max-width:68ch; line-height:1.6; }
 .vintage-inline { font-size:12px; color:var(--mut); }
+/* per-bullet freshness chips on watch pages: quiet by default; stale red
+   matches the page-level STALE flag in the data-freshness strip. */
+.age-chip { color:var(--faint); font-weight:400; white-space:nowrap; }
+.age-stale { color:#a33; font-weight:600; }
 details.vintage { margin:2px 0 6px; max-width:76ch; }
 details.vintage > summary { cursor:pointer; font-size:12px; color:var(--mut);
   list-style:none; display:inline-block; padding:4px 0; }
@@ -753,17 +757,6 @@ inputs, stated as estimates.</p>
 </article>
 <article class="chg-card">
 <div class="chg-top"><span class="chg-rank">6</span>
-<span class="chg-title">Hormuz healing, Red Sea escalation, diesel-ban risk de-escalates</span></div>
-<p class="chg-delta">Hormuz ~80% of pre-war; no US diesel ban in the works</p>
-<p class="chg-body">Flows are healing: 13.1 mb/d through Hormuz last week, about 80% of the pre-war rate (Kpler). The counterweight: the Houthis stepped up Red Sea attacks and asserted control over Bab el-Mandeb (Wall Street Journal, Sep 30); France is deploying defensive assets to Yanbu. The diesel-export-limit policy risk de-escalated: the White House says no ban is being prepared and Energy Secretary Wright opposes a blanket ban — voluntary refiner cooperation and red-dyed diesel floated instead (RBN Energy led the story Sep 28).</p>
-<p class="chg-balance"><b>Balance read:</b> Hormuz diplomacy is stalled-to-slightly-bearish on spot; the physical healing continues, offset by Houthi escalation in the Red Sea. The US diesel-export policy risk de-escalated to voluntary measures.</p>
-
-<div class="chips"><span class="chip conf">single source</span><span class="chip">Sep 29-30, 2026</span>
-<span class="chip src">Kpler; Wall Street Journal; RBN Energy; White House</span></div>
-
-</article>
-<article class="chg-card">
-<div class="chg-top"><span class="chg-rank">7</span>
 <span class="chg-title">Joliet still unconfirmed — the strip's verdict</span></div>
 <p class="chg-delta">restart status still unconfirmed</p>
 <p class="chg-body">ExxonMobil's Joliet, Illinois refinery (~275 kb/d) still has no public restart confirmation: the only 'back in service' reports remain paywalled Quantum Commodity Intelligence headlines (Sep 24/28), and ExxonMobil's last public word (Sep 18) said the refinery was restarting with no date. The market must assume roughly 275 kb/d of heavy-crude demand is not back until there is public word or the weekly data shows Midwest runs recovering.</p>
@@ -774,10 +767,21 @@ inputs, stated as estimates.</p>
 
 </article>
 <article class="chg-card">
+<div class="chg-top"><span class="chg-rank">7</span>
+<span class="chg-title">Hormuz healing, Red Sea escalation, diesel-ban risk de-escalates</span></div>
+<p class="chg-delta">Hormuz ~80% of pre-war; no US diesel ban in the works</p>
+<p class="chg-body">Flows are healing: 13.1 mb/d through Hormuz last week, about 80% of the pre-war rate (Kpler). The counterweight: the Houthis stepped up Red Sea attacks and asserted control over Bab el-Mandeb (Wall Street Journal, Sep 30); France is deploying defensive assets to Yanbu. The diesel-export-limit policy risk de-escalated: the White House says no ban is being prepared and Energy Secretary Wright opposes a blanket ban — voluntary refiner cooperation and red-dyed diesel floated instead (RBN Energy led the story Sep 28).</p>
+<p class="chg-balance"><b>Balance read:</b> Hormuz diplomacy is stalled-to-slightly-bearish on spot; the physical healing continues, offset by Houthi escalation in the Red Sea. The US diesel-export policy risk de-escalated to voluntary measures.</p>
+
+<div class="chips"><span class="chip conf">single source</span><span class="chip">Sep 29-30, 2026</span>
+<span class="chip src">Kpler; Wall Street Journal; RBN Energy; White House</span></div>
+
+</article>
+<article class="chg-card">
 <div class="chg-top"><span class="chg-rank">8</span>
 <span class="chg-title">Pipes functionally full; apportionment binding</span></div>
-<p class="chg-delta">October apportionment binding: 7% lights / 10% heavies</p>
-<p class="chg-body">Implied spare takeaway is about 272 kb/d on lagged June data — Keystone ~94% of available capacity, Mainline ~94.5%. October Mainline apportionment is binding: 7% on lights, 10% on heavies (correction: this note transposed the values as 8%/4% on Sep 29; the official notice reads 7% light / 10% heavy). The CER approved Trans Mountain's negotiated toll settlement Monday: contracted capacity rises from 80% to 90% of 890 kb/d from Jan 1, 2027, with an open season oversubscribed more than 2.5x and +300 kb/d via optimization by 2028. The in-house corridor model (synthetic, not observed) has Keystone and TMX at 100% across the 12-month window.</p>
+<p class="chg-delta">October apportionment binding: 8% lights / 4% heavies</p>
+<p class="chg-body">Implied spare takeaway is about 272 kb/d on lagged June data — Keystone ~94% of available capacity, Mainline ~94.5%. October Mainline apportionment is binding at 8% on lights and 4% on heavies, per the Enbridge notice of Sep 16, 2026. The CER approved Trans Mountain's negotiated toll settlement Monday: contracted capacity rises from 80% to 90% of 890 kb/d from Jan 1, 2027, with an open season oversubscribed more than 2.5x and +300 kb/d via optimization by 2028. The in-house corridor model (synthetic, not observed) has Keystone and TMX at 100% across the 12-month window.</p>
 <p class="chg-balance"><b>Balance read:</b> Near-term, apportionment binds: extra barrels clear through price (wider differentials), not through spare capacity. Medium-term, the TMX toll settlement locks in egress certainty from January 2027.</p>
 
 <div class="chips"><span class="chip conf">confirmed</span><span class="chip">Sep 28, 2026</span>
@@ -826,39 +830,6 @@ inputs, stated as estimates.</p>
 
 <div class="chips"><span class="chip conf">confirmed</span><span class="chip">Sep 30, 2026</span>
 <span class="chip src">In-house blending nowcast (synthetic)</span></div>
-
-</article>
-<article class="chg-card">
-<div class="chg-top"><span class="chg-rank">13</span>
-<span class="chg-title">Pipeline spare capacity revised for Nov 2026</span></div>
-<p class="chg-delta">-155 kb/d</p>
-<p class="chg-body">Pipeline spare capacity for Nov 2026 moved from 0 to -155 kb/d in the reconciled balance.</p>
-<p class="chg-balance"><b>Balance read:</b> Tighter: less room before the pipes bind.</p>
-
-<div class="chips"><span class="chip conf">confirmed</span><span class="chip">2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant)</span>
-<span class="chip src">WCSB supply/demand balance model</span></div>
-
-</article>
-<article class="chg-card">
-<div class="chg-top"><span class="chg-rank">14</span>
-<span class="chg-title">Pipeline spare capacity revised for Dec 2026</span></div>
-<p class="chg-delta">-155 kb/d</p>
-<p class="chg-body">Pipeline spare capacity for Dec 2026 moved from 0 to -155 kb/d in the reconciled balance.</p>
-<p class="chg-balance"><b>Balance read:</b> Tighter: less room before the pipes bind.</p>
-
-<div class="chips"><span class="chip conf">confirmed</span><span class="chip">2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant)</span>
-<span class="chip src">WCSB supply/demand balance model</span></div>
-
-</article>
-<article class="chg-card">
-<div class="chg-top"><span class="chg-rank">15</span>
-<span class="chg-title">Pipeline spare capacity revised for Dec 2027</span></div>
-<p class="chg-delta">-72 kb/d</p>
-<p class="chg-body">Pipeline spare capacity for Dec 2027 moved from 15 to -56 kb/d in the reconciled balance.</p>
-<p class="chg-balance"><b>Balance read:</b> Tighter: less room before the pipes bind.</p>
-
-<div class="chips"><span class="chip conf">confirmed</span><span class="chip">2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant)</span>
-<span class="chip src">WCSB supply/demand balance model</span></div>
 
 </article>
 </section>

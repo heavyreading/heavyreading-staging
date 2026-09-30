@@ -447,6 +447,10 @@ sup.fnref a:hover { color:var(--acc-deep); text-decoration:underline; }
 .note { font-size:13.5px; color:var(--mut); max-width:68ch; line-height:1.6; }
 .vintage { font-size:12px; color:var(--mut); max-width:68ch; line-height:1.6; }
 .vintage-inline { font-size:12px; color:var(--mut); }
+/* per-bullet freshness chips on watch pages: quiet by default; stale red
+   matches the page-level STALE flag in the data-freshness strip. */
+.age-chip { color:var(--faint); font-weight:400; white-space:nowrap; }
+.age-stale { color:#a33; font-weight:600; }
 details.vintage { margin:2px 0 6px; max-width:76ch; }
 details.vintage > summary { cursor:pointer; font-size:12px; color:var(--mut);
   list-style:none; display:inline-block; padding:4px 0; }
@@ -620,7 +624,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <li><b>The front of the WCS strip widened on the supposed Joliet-return day.</b> November 2026 settled <b>$22.10 under the index, down $1.40 on the day</b> (ICE settlements, Sep 29), and the Houston leg fell harder still, down $2.37 to $14.62 under. The implied Hardisty→Houston arb collapsed to <b>+$7.48</b>. The strip is not pricing a restart.</li>
   <li><b>Both demand-side binaries broke against the diff.</b> Joliet still has no public restart confirmation (only paywalled headlines); the September 29 USW talks at BP Whiting failed, the union walked out, the lockout continues, and the strike tail stays live.</li>
   <li><b>Tighter:</b> refinery-war escalation, overnight strikes halted the Moscow refinery's 53%-of-capacity primary unit; Russia's diesel-export ban is expected to extend to October 31. Distillate-led tightness is why SYN sits at a <b>+$5.55 premium</b> while WCS bleeds, the SYN-WCS spread is $27.65 on November.</li>
-  <li><b>Wider:</b> binding October apportionment (7% lights / 10% heavies) on full pipes, freight-driven Merey at $18-20 under Brent, the quarter-end flat-price selloff, and a new one: DOE put up to 40MMbbl of SPR crude up for exchange, Nov-Dec delivery from Big Hill and Bryan Mound, sour barrels landing directly on USGC cokers. The headline is big; the read is in the takeup.</li>
+  <li><b>Wider:</b> binding October apportionment (8% lights / 4% heavies, per the Enbridge notice of Sep 16) on full pipes, freight-driven Merey at $18-20 under Brent, the quarter-end flat-price selloff, and a new one: DOE put up to 40MMbbl of SPR crude up for exchange, Nov-Dec delivery from Big Hill and Bryan Mound, sour barrels landing directly on USGC cokers. The headline is big; the read is in the takeup.</li>
   <li>The next arbiter: today's EIA weekly (8:30 AM MDT), PADD 2 utilization and Canadian imports decide whether the Joliet restart is real.</li>
   </ul>
   <h2>Flat price, rejection premium unwound</h2>
@@ -665,7 +669,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   </ul>
   <h2>Egress, functionally full, apportionment binding</h2>
   <ul class="ev">
-  <li>Implied spare takeaway ~272 kb/d on lagged June data, Keystone ~94% of available capacity, Mainline ~94.5%. <b>October apportionment: 7% lights / 10% heavies</b>, the congestion signal is live; shippers over-nominate to protect allocations while the window is open.</li>
+  <li>Implied spare takeaway ~272 kb/d on lagged June data, Keystone ~94% of available capacity, Mainline ~94.5%. <b>October apportionment: 8% lights / 4% heavies</b> (Enbridge notice, Sep 16), the congestion signal is live; shippers over-nominate to protect allocations while the window is open.</li>
   <li>The CER approved Trans Mountain's negotiated toll settlement on Monday: contracted capacity rises <b>80% → 90%</b> of 890 kb/d from Jan 1, 2027 (open season oversubscribed &gt;2.5x); +300 kb/d via optimization by 2028. Medium-term egress certainty, not near-term relief. The in-house corridor model (synthetic, not observed) has Keystone and TMX at 100% across the 12-month window.</li>
   </ul>
   <h2>Venezuela, enforcement goes transoceanic</h2>
