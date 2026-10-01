@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Three tankers were hit by unknown projectiles while transiting the Strait of Hormuz on September 29, according to time-late reports received by UKMTO: the Liberia-flagged, AIS-dark VLCC Mersin Prosperity, the Aframax Sinbad and the products tanker Al Ruwais, identified by shipping intelligence firm Marisks (carried by Reuters). A separate September 28 strike on a tanker caused a fire that has since been extinguished, with the vessel underway and crew safe.",
+   "vintage": "Sep 28-29, 2026",
+   "source": "OilPrice.com (Marisks via Reuters)",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html"
+  },
+  {
    "text": "Bab el-Mandeb traffic fell to 11 commodity-vessel transits on September 27, the lowest in months, after Houthi strikes on Saudi coastal installations; on September 25 the Houthis captured Mayun island at the Red Sea entrance, a key position over the alternative lane for Saudi oil while Hormuz is disrupted.",
    "vintage": "Sep 25-27, 2026",
    "source": "Reuters (via MarineLink); The Associated Press",
@@ -835,6 +841,11 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "OilPrice.com (Marisks via Reuters)",
+   "vintage": "",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html"
+  },
   {
    "publisher": "Reuters (via MarineLink); The Associated Press",
    "vintage": "",
