@@ -6,85 +6,85 @@
   "call_vintage": "as of Thu Oct 1 morning",
   "changes": [
    {
-    "headline": "S",
-    "dek": "e. The free ICE Report Center end-of-day PDFs yielded full Sep 30 settlements on all six Canadian-differential futures. WCS at Hardisty (TMW): Nov26 -$21.60 (+$0.50), Dec26 -$22.40 (+$0.15, the widest point), tightening about $4 into summer 2027. WCS at Houston (ARV): Nov26 -$13.772 (+$0.846) - the Houston leg bounced harder than Hardisty, recovering the implied Hardisty-to-Houston arb to +$7.83 from +$7.48. MSW (TMR) Nov26 -$1.00, nearly at parity; UHC (TMU) +$4.35; condensate (TMF) Nov26 +$2.75, firming into winter diluent season; synthetic crude (TMS) Nov26 +$5.55 unchanged, so SYN-minus-WCS is $27.15.",
+    "headline": "Sep 30 ICE settlements: full six-contract Canadian strip",
+    "dek": "TMW Nov26 -$21.60 (+$0.50); ARV Nov26 -$13.772 (+$0.846). The free ICE Report Center end-of-day PDFs yielded full Sep 30 settlements on all six Canadian-differential futures. WCS at Hardisty (TMW): Nov26 -$21.60 (+$0.50), Dec26 -$22.40 (+$0.15, the widest point), tightening about $4 into summer 2027. WCS at Houston (ARV): Nov26 -$13.772 (+$0.846) - the Houston leg bounced harder than Hardisty, recovering the implied Hardisty-to-Houston arb to +$7.83 from +$7.48. MSW (TMR) Nov26 -$1.00, nearly at parity; UHC (TMU) +$4.35; condensate (TMF) Nov26 +$2.75, firming into winter diluent season; synthetic crude (TMS) Nov26 +$5.55 unchanged, so SYN-minus-WCS is $27.15.",
     "balance_read": "The front is pricing fall egress plus two broken PADD 2 demand binaries; the light-end dislocation is a coker-arbitrage story, not weak crude demand. The Gulf's pull on WCS is healing but not healed.",
     "vintage": "Sep 30, 2026",
     "publishers": "ICE Report Center end-of-day settlements, Sep 30, 2026"
    },
    {
-    "headline": "F",
-    "dek": "i. NYMEX diesel crack crossed $100/bbl for the first time ever; the RBN 3-2-1 crack set a record $80.63; gasoline is at a 12-year low and PADD 2 gasoline stocks hit a record low ~41.8 Mbbl. This is the Javier Blas thesis in live form: crude flows do not equal product availability, and WCS's distillate-linked outlet value is doing the heavy lifting.",
+    "headline": "Diesel crack back above $100/bbl, most of September at extremes",
+    "dek": "NYMEX diesel crack $100+; RBN 3-2-1 record $80.63. NYMEX diesel crack re-crossed $100/bbl after a one-day dip. It has held above $100 for most of September (peak $117.92 on Sep 16). First sustained $100+ regime on record (2022's $100+ prints were single-day contract-expiry squeezes). The RBN 3-2-1 crack set a record $80.63; gasoline is at a 12-year low and PADD 2 gasoline stocks hit a record low ~41.8 Mbbl. This is the Javier Blas thesis in live form: crude flows do not equal product availability, and WCS's distillate-linked outlet value is doing the heavy lifting.",
     "balance_read": "The trade is products versus crude, and the record cracks say the product side wins until supply returns. For WCS this cuts both ways: wide fuel margins pull refinery runs (good for barrels), but sour-barrel discounts widen when the distillate premium accrues to the upgrading barrel (bad for the diff).",
     "vintage": "Sep 30, 2026",
     "publishers": "NYMEX/RBN; EIA"
    },
    {
-    "headline": "S",
-    "dek": "P. DOE released the Sep 29 exchange RFP: 40 MMbbl, the final tranche of the 172 MMbbl authorization, all sour from Bryan Mound (20M) and Big Hill (20M), delivery Nov-Dec 2026, interest 7.5%/9.5%, bids due Oct 6 11:00 AM CT. December is already the widest point on the TMW strip at -$22.40; the exchange is aimed squarely at Gulf Coast medium sour.",
+    "headline": "DOE releases 40 MMbbl SPR exchange RFP",
+    "dek": "40 MMbbl sour, Nov-Dec delivery; bids due Oct 6. DOE released the Sep 29 exchange RFP: 40 MMbbl, the final tranche of the 172 MMbbl authorization, all sour from Bryan Mound (20M) and Big Hill (20M), delivery Nov-Dec 2026, interest 7.5%/9.5%, bids due Oct 6 11:00 AM CT. December is already the widest point on the TMW strip at -$22.40; the exchange is aimed squarely at Gulf Coast medium sour.",
     "balance_read": "Actual takeup is the only thing that matters. The June round carried 18% interest and only ~0.5M bbl were taken. If this round takes like June, it is noise; if refiners actually take 40M sour barrels, USGC heavies feel it.",
     "vintage": "Sep 30, 2026",
     "publishers": "DOE Sep 29 RFP"
    },
    {
-    "headline": "E",
-    "dek": "I. EIA weekly (w/e Sep 25, released Sep 30): crude +922k to 427.3M (vs -264k poll expectation); Cushing +555k to ~24.0M, highest since May; gasoline -1.684M to the lowest since Nov 2014; distillates -2.251M, 14% below the 5-year average, lowest seasonal record; utilization 92.5% (-1.5pp); Canada imports 3.4M b/d. The mixed PADD 2 runs print leaves the Joliet restart unproven.",
+    "headline": "EIA weekly: crude builds, gasoline stocks at 2014 lows",
+    "dek": "crude +922k; gasoline -1.68M; Cushing +555k. EIA weekly (w/e Sep 25, released Sep 30): crude +922k to 427.3M (vs -264k poll expectation); Cushing +555k to ~24.0M, highest since May; gasoline -1.684M to the lowest since Nov 2014; distillates -2.251M, 14% below the 5-year average, lowest seasonal record; utilization 92.5% (-1.5pp); Canada imports 3.4M b/d. The mixed PADD 2 runs print leaves the Joliet restart unproven.",
     "balance_read": "The crude balance loosened (build, Cushing building) while the products balance tightened (record-low gasoline, deep distillate draw). PADD 2 runs tell the Joliet story; the number is mixed at best.",
     "vintage": "Sep 30, 2026",
     "publishers": "EIA weekly, released Sep 30"
    },
    {
-    "headline": "P",
-    "dek": "o. CFTC (vintage Sep 22): WTI managed-money net long +101,828, 96th percentile - crowded; Brent -64.5k after a 23% washout. Whale flags (high-confidence only): commercial net-short builds on WCS 1A and SW 1A; funds covered the WCS 1A short to -19,735.",
+    "headline": "CFTC: WTI managed-money net long 96th percentile",
+    "dek": "+101,828 net long; whale flags on WCS 1A. CFTC (vintage Sep 22): WTI managed-money net long +101,828, 96th percentile - crowded; Brent -64.5k after a 23% washout. Whale flags (high-confidence only): commercial net-short builds on WCS 1A and SW 1A; funds covered the WCS 1A short to -19,735.",
     "balance_read": "Commercials leaning short into a binding Mainline is the textbook setup for a squeeze if the Joliet binary resolves tighter. The whale flag is high-confidence but the positioning data is vintage Sep 22 - treat the level as indicative, not live.",
     "vintage": "Sep 30, 2026",
     "publishers": "CFTC (vintage Sep 22); whale flags"
    },
    {
-    "headline": "O",
-    "dek": "P. OPEC+ meets Oct 4; the consensus (Reuters) is no change to November quotas. No cut is coming to offset the SPR exchange barrels or the demand hit from refinery outages.",
+    "headline": "OPEC+ meets Oct 4; consensus no change to November quotas",
+    "dek": "no cut expected (Reuters consensus). OPEC+ meets Oct 4; the consensus (Reuters) is no change to November quotas. No cut is coming to offset the SPR exchange barrels or the demand hit from refinery outages.",
     "balance_read": "November quotas hold means no incremental OPEC+ support; the market is left to clear through demand and outages. The Sunday meeting is a non-event for supply; the watch item is the 2027 quota/baseline review.",
     "vintage": "Sep 30, 2026",
     "publishers": "Reuters"
    },
    {
-    "headline": "J",
-    "dek": "o. Quantum Commodity Intelligence headlines Joliet back in service as of about Sep 28, but the article is paywalled and no public confirmation exists. ExxonMobil's last public statement (Sep 18): power restored, restart underway, no date given. The mixed EIA PADD 2 runs print did not confirm it.",
+    "headline": "Joliet restart still unconfirmed",
+    "dek": "Quantum headlines restart ~Sep 28; paywalled. Quantum Commodity Intelligence headlines Joliet back in service as of about Sep 28, but the article is paywalled and no public confirmation exists. ExxonMobil's last public statement (Sep 18): power restored, restart underway, no date given. The mixed EIA PADD 2 runs print did not confirm it.",
     "balance_read": "The discount stays under pressure while the confirmation does not arrive. The restart is a tightening catalyst when it is confirmed; until then it is a stale tailwind.",
     "vintage": "Sep 30, 2026",
     "publishers": "Quantum Commodity Intelligence (paywalled); ExxonMobil"
    },
    {
-    "headline": "U",
-    "dek": "S. Seventh tanker seized (Sagitta, Sep 29); ~20% of exports are sitting in Caribbean storage per Vortexa; October Merey offered at Brent -$14 loading (~-$7 delivered); freight Jose-to-USGC is $5-7/bbl, a real tax on delivered economics. Exxon is nearing a return agreement, which would eventually add sanctioned supply.",
+    "headline": "Seventh tanker seized; ~20% of Venezuelan exports in floating storage",
+    "dek": "Sagitta seized Sep 29; Merey offered at Brent -$14. Seventh tanker seized (Sagitta, Sep 29); ~20% of exports are sitting in Caribbean storage per Vortexa; October Merey offered at Brent -$14 loading (~-$7 delivered); freight Jose-to-USGC is $5-7/bbl, a real tax on delivered economics. Exxon is nearing a return agreement, which would eventually add sanctioned supply.",
     "balance_read": "The US campaign is the tightening force on delivered Venezuelan barrels; the length in Caribbean storage and the Merey offer are the loosening force. Net: a second competing heavy stream against WCS at the Gulf.",
     "vintage": "Sep 30, 2026",
     "publishers": "Vortexa; US officials; market reports"
    },
    {
-    "headline": "C",
-    "dek": "E. The CER approved the TMX toll settlement on Sep 28 (announced Sep 29): firm service steps from 80% to 90% of capacity from Jan 1, 2027. TMX restarted around Sep 27 at reduced rates after the storm outage.",
+    "headline": "CER approves TMX toll settlement; firm service to 90%",
+    "dek": "firm 80%->90% from Jan 1, 2027. The CER approved the TMX toll settlement on Sep 28 (announced Sep 29): firm service steps from 80% to 90% of capacity from Jan 1, 2027. TMX restarted around Sep 27 at reduced rates after the storm outage.",
     "balance_read": "A settled toll is a constructive input for TMX utilization and for heavy-barrel routing optionality out of Edmonton. Firm capacity stepping to 90% from Jan 1, 2027 tightens the TMX egress lane.",
     "vintage": "Sep 30, 2026",
     "publishers": "CER announcement Sep 29"
    },
    {
-    "headline": "O",
-    "dek": "c. October Mainline apportionment is 8% lights / 4% heavies (Enbridge notice Sep 16, 2026). The binding-from-November base case means the November apportionment notice (~mid-Oct) is the next real data point for the front of the strip.",
+    "headline": "October Mainline apportionment: 8% lights, 4% heavies",
+    "dek": "8% / 4%; November notice ~mid-Oct. October Mainline apportionment is 8% lights / 4% heavies (Enbridge notice Sep 16, 2026). The binding-from-November base case means the November apportionment notice (~mid-Oct) is the next real data point for the front of the strip.",
     "balance_read": "8%/4% is a real constraint but not a severe one; the allocator's base case has the Mainline binding from November, which is where the calendar gets interesting for the diff.",
     "vintage": "Sep 30, 2026",
     "publishers": "Enbridge notice Sep 16, 2026"
    },
    {
-    "headline": "R",
-    "dek": "u. Russia extended its diesel-export ban through Oct 31. Trump floated a US diesel-export ban on Sep 30. Either direction tightens the Atlantic basin distillate balance; the NYMEX diesel crack already crossed $100/bbl.",
+    "headline": "Russia extends diesel-export ban; Trump floats US ban",
+    "dek": "Russia ban through Oct 31. Russia extended its diesel-export ban through Oct 31. Trump floated a US diesel-export ban on Sep 30. Either direction tightens the Atlantic basin distillate balance; the NYMEX diesel crack already crossed $100/bbl.",
     "balance_read": "Structurally constructive for distillate premiums and for synthetic crude over WCS into winter. A US export ban would be the mirror-image policy shock on the product side.",
     "vintage": "Sep 30, 2026",
     "publishers": "Announcements Sep 30"
    },
    {
-    "headline": "C",
-    "dek": "a. EIA showed Canadian imports at 3.4M b/d for the week ending Sep 25. Venezuela imports were 553 kb/d (vs 583 the prior week); US exports were 3.57M b/d.",
+    "headline": "EIA: Canadian imports 3.4M b/d; Venezuela 553 kb/d",
+    "dek": "Canada 3.4M b/d; Venezuela 553 kb/d. EIA showed Canadian imports at 3.4M b/d for the week ending Sep 25. Venezuela imports were 553 kb/d (vs 583 the prior week); US exports were 3.57M b/d.",
     "balance_read": "Canadian crude imports at 3.4M b/d keep the US Midwest and Gulf supplied; the flow rate is the baseline against which any apportionment or outage shock is measured.",
     "vintage": "Sep 30, 2026",
     "publishers": "EIA weekly, released Sep 30"
