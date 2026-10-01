@@ -1,5 +1,5 @@
 {
- "vintage": "9 watches; newest source update 2026-09-30; built 2026-10-01",
+ "vintage": "9 watches; newest source update 2026-10-01; built 2026-10-01",
  "data": {
   "watches": [
    {
@@ -945,7 +945,7 @@
     "slug": "russia-refining",
     "title": "Russian Refining Watch",
     "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
-    "updated": "2026-09-30",
+    "updated": "2026-10-01",
     "how_to_read": "Read this page as the diesel side of the crude market: Ukrainian strikes on Russian refineries remove products, not crude, so the read is crack spreads and export curbs rather than wellhead output. Ukrainian claims are carried as claims. Strike dates are approximate and every bullet carries its vintage.",
     "wcs_stakes": "Russian refinery outages tighten global diesel, and record diesel cracks keep US and Asian refiners running at maximum to capture them, which is the demand-side bid under heavy sour barrels including Western Canadian Select (WCS). At the same time, crude displaced from downed Russian refineries has pushed seaborne Russian exports to 16-month highs, capping how much support the tight product market can pass back to sour crude prices. The net effect for WCS is constructive while diesel cracks stay extreme: refineries run hard and bid for every discounted heavy barrel they can crack.",
     "wcs_closer": "For the WCSB book, watch the diesel crack, not the strike count: it is the margin that decides how hard refiners run and how much they pay for heavy barrels. If an energy ceasefire returns Russian refineries and the diesel crack compresses, runs fall and discounted heavies strand first. Until then, the tight product market is the best demand cover WCS has.",
@@ -1041,6 +1041,12 @@
      {
       "heading": "Named hits and outages",
       "bullets": [
+       {
+        "text": "Ukraine struck an oil facility in Russia's Samara region overnight, President Zelenskyy said, the latest long-range hit on Russian energy infrastructure.",
+        "vintage": "Oct 1, 2026",
+        "source": "Reuters",
+        "source_url": "https://www.devdiscourse.com/article/international/3985010-ukraines-military-struck-an-oil-facility-in-russias-samara-region-zelenskiy-says"
+       },
        {
         "text": "Russia's second-largest refinery, Kirishi, halted processing on September 29 after Ukrainian drone attacks damaged three of its four crude distillation units, two industry sources told Reuters.",
         "vintage": "Sep 29, 2026",
@@ -1295,7 +1301,7 @@
     "slug": "spr-storage",
     "title": "US SPR & Storage Watch",
     "dek": "US Strategic Petroleum Reserve (SPR) and commercial crude stocks -- SPR inventory, the 2026 exchange/refill mechanics, and Cushing.",
-    "updated": "2026-09-30",
+    "updated": "2026-10-01",
     "how_to_read": "Read this page as the US government's sour barrel: the Strategic Petroleum Reserve (SPR) is mostly sour crude, and its exchanges put barrels into the market while the returns schedule takes them back out. The reserve's published inventory is the hard data; the 2026 exchange repayment ledger is not published, so outstanding loan balances are estimates. Every bullet carries its vintage.",
     "wcs_stakes": "What's drawing lately is leaning sweet: between August 20 and September 11 the Strategic Petroleum Reserve (SPR) lost 5.0 million barrels of sweet against 4.2 million of sour, leaving it at roughly 34% sweet and 66% sour against the 40/60 mix the Department of Energy (DOE) says US Gulf Coast refineries were built around, and at 284.9 million barrels the reserve sits only about 32 million above the 252.4-million-barrel minimum Congress mandates. Near term the pressure stays bearish: Energy Secretary Chris Wright calls another exchange round 'a very real possibility' with 38.5 million barrels still unallocated. The trade flips in 2027, when borrowers start returning barrels at about 1.25 per barrel borrowed through 2029, turning the SPR from the market's biggest sour supplier into a standing bid for medium-sour crude.",
     "wcs_closer": "For the WCSB book, the SPR is a two-act story with a grade twist: exchanges now, repayments later, and sweet leaving fastest while the reserve drifts further from its 40/60 design mix. Watch the weekly EIA petroleum status report for the draw pace, the DOE grade table for the sweet/sour split, and any disclosed repayments; the 2027-2029 return schedule is a known future bid for sour barrels. Until then, the reserve's releases are the quiet headwind on every sour differential print, and the 252.4-million-barrel congressional floor leaves only about 32 million barrels of drawdown room.",
@@ -1338,6 +1344,12 @@
      {
       "heading": "US petroleum stocks: crude, distillate, and gasoline",
       "bullets": [
+       {
+        "text": "The EIA's weekly report for the week ended September 25 showed US crude inventories rose 922,000 barrels to 427.3 million barrels, against a Reuters poll expecting a 264,000 barrel draw, confirming the direction of the API estimate reported a day earlier.",
+        "vintage": "Data: week ending Sep 25, 2026; reported Sep 30, 2026",
+        "source": "Reuters",
+        "source_url": "https://www.oilmonster.com/article/oil-prices-barely-changed-as-investors-assess-usiran-peace-talks-and-gulf-exports/8645/"
+       },
        {
         "text": "The American Petroleum Institute's weekly estimate for the week ending Sep 25 showed US commercial crude stocks rising 1.019 million barrels, a second straight weekly build against an analyst consensus cited by OilPrice expecting a 1.9 million barrel draw, with gasoline up 2.991 million barrels and distillates down 286,000 barrels; the official EIA weekly report was due later on Sep 30.",
         "vintage": "Data: week ending Sep 25, 2026; reported Sep 29, 2026",
@@ -1443,6 +1455,12 @@
      {
       "heading": "SPR: current inventory",
       "bullets": [
+       {
+        "text": "Reuters reported US Strategic Petroleum Reserve stocks fell 800,000 barrels last week to 283.8 million barrels, the lowest level since October 1982, per Department of Energy data.",
+        "vintage": "Data: week ending Sep 25, 2026; published Sep 28, 2026",
+        "source": "Reuters",
+        "source_url": "https://boereport.com/2026/09/28/oil-stocks-in-us-strategic-petroleum-reserve-fall-to-lowest-level-since-1982-3/"
+       },
        {
         "text": "OilPrice's weekly snapshot put the SPR at 283.8 million barrels after another 800,000 barrels left the reserve in the week ending Sep 25, against the reserve's roughly 714 million barrel design capacity.",
         "vintage": "Data: week ending Sep 25, 2026; reported Sep 29, 2026",
