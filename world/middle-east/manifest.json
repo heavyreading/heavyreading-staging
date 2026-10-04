@@ -6,6 +6,30 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Houthi military spokesman Yahya Saree said the group struck an Aramco oil facility in Riyadh with ballistic missiles and drones late on Oct 3, sparking fires, and an AFP journalist reported seeing firefighters battling a blaze at Aramco's Riyadh refinery south of the capital; the Houthis also said Saudi Arabia launched 94 strikes on Houthi-held areas in the preceding 24 hours.",
+   "vintage": "Oct 3, 2026",
+   "source": "AFP (via Morning Chronicle)",
+   "source_url": "https://www.morningchronicle.co.uk/Politics/763582-yemen-government-forces-say-struck-houthi-targets.html"
+  },
+  {
+   "text": "Yemeni President Rashad al-Alimi announced the start of a major military operation to retake Houthi-held territory, with Saudi Arabia leading aerial combat and Yemeni forces fighting on the ground; the announcement followed weeks of preparations aimed at reversing the Houthis' seizure of the Bab el-Mandeb strait.",
+   "vintage": "Oct 4, 2026",
+   "source": "Reuters (via Northland News Radio)",
+   "source_url": "https://northlandnewsradio.com/2026/10/04/head-of-yemens-presidential-council-announces-military-operations-to-retake-territory/"
+  },
+  {
+   "text": "G7 leaders agreed Oct 2 to release up to 100 million barrels of diesel and crude from emergency reserves over four months via the IEA, starting immediately, with substantial diesel in the first 20 days and further diesel releases under discussion. The joint statement also called for restoring navigation through the Strait of Hormuz.",
+   "vintage": "Oct 2, 2026",
+   "source": "Maaal",
+   "source_url": "https://maaal.com/en/news/details/g7-countries-agree-on-rel/"
+  },
+  {
+   "text": "Five Indian nationals aboard the struck Kuwait-flagged VLCC Kazimah III were brought ashore in Oman after the Embassy of India in Oman coordinated the rescue, with Omani authorities assisting. India says more than 4,500 Indian seafarers are currently on commercial vessels in the region.",
+   "vintage": "Oct 2, 2026",
+   "source": "ANI (via Reporter World News)",
+   "source_url": "https://reporterworldnews.com/news/world/2026/10/03/five-indians-rescued-tanker-projectile-strait-hormuz"
+  },
+  {
    "text": "Iranian outlets reported a supertanker able to carry 2.5 million barrels was hit about 8 kilometers off the Omani coast while sailing what Iran's Fars News Agency called an 'unauthorized route' south of the strait, and caught fire. UKMTO confirmed it had received a report of a tanker incident; the vessel's identity and the Fars account were not independently corroborated.",
    "vintage": "Oct 2, 2026",
    "source": "WANA (Iranian agency)",
@@ -52,6 +76,18 @@
    "vintage": "Sep 18-23, 2026; accessed 2026-09-29",
    "source": "Kpler / LSEG / Reuters; TankerTrackers",
    "source_url": "https://www.assafinaonline.com/en/article/Middle-East-Oil-Exports-Shift-to-New-Shuttling-System"
+  },
+  {
+   "text": "Iran's rial fell to a new record low on Saturday as the central bank announced an injection of up to $2 billion to support the currency, which has lost more than half its value over the past year under U.S. sanctions and the naval blockade. The free-market dollar traded around 2.688 million rials, up from 2.632 million on Friday, with state banks selling dollars under the central bank's directive.",
+   "vintage": "Oct 3, 2026",
+   "source": "Arab News (via Devdiscourse)",
+   "source_url": "https://www.devdiscourse.com/article/international/3986367-iranian-rial-at-new-low-as-cenbank-sells-dollars-to-support-currency"
+  },
+  {
+   "text": "The physical oil market is pricing a far tighter situation than futures: Europe's Dated Brent benchmark jumped above $120 per barrel even as ICE Brent sat near $101, a divergence the report ties to droned tankers in Hormuz, the European diesel release, and China's reinstated refined-product export ban.",
+   "vintage": "Oct 2, 2026",
+   "source": "OilPrice.com",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html"
   },
   {
    "text": "No Iranian tankers loaded any crude in September, the first zero-lifting month in Kpler's tracking history back to 2013, analysts Yui Torikata and Nhway Khin Soe said. August loadings were 255,000 b/d across one VLCC, four suezmaxes, two aframaxes and one MR tanker, with the final lifting the 160,000-dwt suezmax Sarak from Kharg Island on August 25. Production was throttled to 2.06 million b/d, shore inventories sat at 66-70 million barrels (about 59% of capacity), and floating storage outside the blockade fell to 45 million barrels from 100 million in late July. Confirmed Iranian crude arrivals in China fell to about 468,000 b/d in September, roughly half June's level, though 'zombie' vessels with falsified AIS signals kept discharging obscured Iranian barrels at Chinese ports, peaking at 18 million barrels on nine VLCCs in August.",
@@ -256,6 +292,24 @@
    "vintage": "~Jun 24, 2026; accessed 2026-09-24",
    "source": "MarineInsight (citing UANI)",
    "source_url": "https://www.marineinsight.com/over-30-iranian-oil-tankers-carrying-50-million-barrels-head-to-asia-under-u-s-sanctions-waiver/"
+  },
+  {
+   "text": "Kpler data reported by CNBC put the seven-day average of crude transiting Hormuz at 13.5 million b/d as of September 28, matching the firm's pre-war baseline for the corridor, while total Middle East Gulf crude shipments including Red Sea outlets ran about 16.5 million b/d in September excluding Iran. The recovery is not a return to normal: over 70 percent of crude crossing the strait changed tankers off Fujairah or Oman in August, refined-product flows through Hormuz remain only about 677,000 b/d versus roughly 3.6 million b/d before the war, and Iran's own crude loadings have effectively hit zero.",
+   "vintage": "Oct 2, 2026",
+   "source": "CNBC (via RWT News)",
+   "source_url": "https://rwtnews.com/articles/gulf-crude-exports-top-a-pre-war-baseline-as-iranian-loadings-stop"
+  },
+  {
+   "text": "Flows through Saudi Arabia's East-West pipeline have climbed to almost 6 million barrels per day, close to June-July levels, with about 4.5 million b/d available for Red Sea exports, restoring Saudi Arabia's Hormuz bypass despite continued Houthi strikes.",
+   "vintage": "Oct 2, 2026",
+   "source": "OilPrice.com",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html"
+  },
+  {
+   "text": "War-risk premiums for Saudi-linked tankers loading at Yanbu have risen to about 3% of vessel value from below 1% in early July, while ports further south face quotes as high as 7%, after the London marine insurance market classified the waters as high risk following Houthi attacks near the Bab el-Mandeb strait.",
+   "vintage": "Oct 1, 2026",
+   "source": "Business Insurance (citing Reuters)",
+   "source_url": "https://www.businessinsurance.com/saudi-linked-tanker-war-risk-premiums-triple/"
   },
   {
    "text": "The New York Times reported that Iran is conducting roughly 30 drone attacks and 10 missile attacks per week on commercial vessels passing through the Strait of Hormuz, a tempo that has turned the strait back into a direct tanker-safety corridor rather than just a congestion problem.",
@@ -510,6 +564,24 @@
    "source_url": "https://infomarine.net/en/global-shipping-news/19-world-maritime-news/65304-xeneta-ocean-carriers-unlikely-to-return-to-red-sea-in-2026.html"
   },
   {
+   "text": "The U.S. is sending roughly 9,000 troops aboard ships to the Middle East, including the USS Theodore Roosevelt carrier strike group and the USS Makin Island amphibious group, potentially putting three carrier groups in the region. President Trump told Time it is possible he ramps up bombing of Iran after the Nov 3 elections, and said Iran offered to open the Strait of Hormuz in its latest ceasefire proposal, which he rejected as not good enough.",
+   "vintage": "Oct 1, 2026",
+   "source": "Associated Press",
+   "source_url": "https://usa-today-news.com/news/us-is-moving-thousands-of-troops-aboard-ships-to-the-mideast-as-trump-weighs-new-strikes-on-iran/"
+  },
+  {
+   "text": "Reuters reported that Saudi Arabia is planning an offensive to push the Houthis off the Bab el-Mandeb strait, citing six Gulf and Yemeni officials and Western diplomats; Riyadh is weighing either a focused coastal assault or a broader multi-front campaign in Al-Bayda, Marib, Taiz and Al-Jawf that could mobilize more than 100,000 Yemeni troops, with timing estimates ranging from within a week to after the US midterm elections.",
+   "vintage": "Oct 2, 2026",
+   "source": "Reuters (via Europe Says)",
+   "source_url": "https://www.europesays.com/turkiye/57273/"
+  },
+  {
+   "text": "Fighting centered on Taiz, Yemen's third-largest city, with the Houthis reporting 55 of their fighters killed on Oct 2 while government sources told AFP 26 troops had died; Saudi authorities separately reported a Houthi projectile damaged a school in the border city of Najran.",
+   "vintage": "Oct 2, 2026",
+   "source": "AFP (via Morning Chronicle)",
+   "source_url": "https://www.morningchronicle.co.uk/Politics/763582-yemen-government-forces-say-struck-houthi-targets.html"
+  },
+  {
    "text": "A Kuwait-flagged very large crude carrier, the 317,250-dwt Kazimah III operated by Kuwait Oil Tanker Company, was struck by an unknown projectile while transiting the Strait of Hormuz on October 1, starting a fire aboard. UKMTO logged a third-party report without naming the vessel and said the crew was safe; maritime security firm Vanguard Tech identified the tanker. It was the second KOTC VLCC hit in four days, after the Al Funtas on September 28.",
    "vintage": "Oct 1, 2026",
    "source": "Splash247",
@@ -658,6 +730,18 @@
    "vintage": "~Sep 22, 2026; accessed 2026-09-24",
    "source": "Walaw (citing Reuters shipping data)",
    "source_url": "https://en.walaw.press/articles/hormuz_shipping_remains_below_average_as_traffic_through_bab_el-mandeb_stays_relatively_resilient/GPWXGFLGXXLL"
+  },
+  {
+   "text": "U.S. aviation sanctions have cut international movements at Tehran's Imam Khomeini airport by about 42 percent, far short of the 80 to 90 percent shutdown claimed by U.S. officials: FlightRadar24 data summarized by AFP show an average of 53 international movements a day since September 23 versus 91 before the compliance deadline. Flights to China held steady at about eight a day and Turkey service fell only 19 percent, while regular service to Georgia, Oman, Azerbaijan and Dubai stopped or was sharply reduced, and Iraq access remains contested.",
+   "vintage": "Oct 2, 2026",
+   "source": "Iran Dossier (citing AFP/FlightRadar24)",
+   "source_url": "https://irandossier.online/posts/pressure-on-four-fronts-iran-loads-no-crude-in-september-as-washington-sanctions-its-car-and-rail-sectors/"
+  },
+  {
+   "text": "As part of the market-management response, Bank Saderat began selling foreign currency at 60 selected branches on Saturday, with adults allowed up to $10,000 a year. The Iranian Foreign Ministry separately condemned U.S. aviation sanctions as illegal and urged Iraq to lift flight restrictions between the two countries.",
+   "vintage": "Oct 2, 2026",
+   "source": "Iran Dossier",
+   "source_url": "https://irandossier.online/posts/pressure-on-four-fronts-iran-loads-no-crude-in-september-as-washington-sanctions-its-car-and-rail-sectors/"
   },
   {
    "text": "Treasury Secretary Scott Bessent said on X that 'Iran loaded ZERO crude oil onto tankers in September,' describing the Trump administration's Operation Economic Outcast campaign as cutting off Tehran's most critical source of revenue.",
@@ -854,6 +938,26 @@
  ],
  "sources": [
   {
+   "publisher": "AFP (via Morning Chronicle)",
+   "vintage": "",
+   "url": "https://www.morningchronicle.co.uk/Politics/763582-yemen-government-forces-say-struck-houthi-targets.html"
+  },
+  {
+   "publisher": "Reuters (via Northland News Radio)",
+   "vintage": "",
+   "url": "https://northlandnewsradio.com/2026/10/04/head-of-yemens-presidential-council-announces-military-operations-to-retake-territory/"
+  },
+  {
+   "publisher": "Maaal",
+   "vintage": "",
+   "url": "https://maaal.com/en/news/details/g7-countries-agree-on-rel/"
+  },
+  {
+   "publisher": "ANI (via Reporter World News)",
+   "vintage": "",
+   "url": "https://reporterworldnews.com/news/world/2026/10/03/five-indians-rescued-tanker-projectile-strait-hormuz"
+  },
+  {
    "publisher": "WANA (Iranian agency)",
    "vintage": "",
    "url": "https://wanaen.com/supertanker-hit-and-catches-fire-in-strait-of-hormuz/"
@@ -892,6 +996,16 @@
    "publisher": "Kpler / LSEG / Reuters; TankerTrackers",
    "vintage": "",
    "url": "https://www.assafinaonline.com/en/article/Middle-East-Oil-Exports-Shift-to-New-Shuttling-System"
+  },
+  {
+   "publisher": "Arab News (via Devdiscourse)",
+   "vintage": "",
+   "url": "https://www.devdiscourse.com/article/international/3986367-iranian-rial-at-new-low-as-cenbank-sells-dollars-to-support-currency"
+  },
+  {
+   "publisher": "OilPrice.com",
+   "vintage": "",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html"
   },
   {
    "publisher": "UANI (via Maritime Executive)",
@@ -1037,6 +1151,16 @@
    "publisher": "MarineInsight (citing UANI)",
    "vintage": "",
    "url": "https://www.marineinsight.com/over-30-iranian-oil-tankers-carrying-50-million-barrels-head-to-asia-under-u-s-sanctions-waiver/"
+  },
+  {
+   "publisher": "CNBC (via RWT News)",
+   "vintage": "",
+   "url": "https://rwtnews.com/articles/gulf-crude-exports-top-a-pre-war-baseline-as-iranian-loadings-stop"
+  },
+  {
+   "publisher": "Business Insurance (citing Reuters)",
+   "vintage": "",
+   "url": "https://www.businessinsurance.com/saudi-linked-tanker-war-risk-premiums-triple/"
   },
   {
    "publisher": "Aju Press (citing New York Times)",
@@ -1249,6 +1373,16 @@
    "url": "https://infomarine.net/en/global-shipping-news/19-world-maritime-news/65304-xeneta-ocean-carriers-unlikely-to-return-to-red-sea-in-2026.html"
   },
   {
+   "publisher": "Associated Press",
+   "vintage": "",
+   "url": "https://usa-today-news.com/news/us-is-moving-thousands-of-troops-aboard-ships-to-the-mideast-as-trump-weighs-new-strikes-on-iran/"
+  },
+  {
+   "publisher": "Reuters (via Europe Says)",
+   "vintage": "",
+   "url": "https://www.europesays.com/turkiye/57273/"
+  },
+  {
    "publisher": "DeepDraft SITREP",
    "vintage": "",
    "url": "https://thedeepdraft.com/2026/09/30/al-funtas-hormuz-projectile-strike-kuwaiti-vlcc-september-30-2026/"
@@ -1347,6 +1481,16 @@
    "publisher": "Walaw (citing Reuters shipping data)",
    "vintage": "",
    "url": "https://en.walaw.press/articles/hormuz_shipping_remains_below_average_as_traffic_through_bab_el-mandeb_stays_relatively_resilient/GPWXGFLGXXLL"
+  },
+  {
+   "publisher": "Iran Dossier (citing AFP/FlightRadar24)",
+   "vintage": "",
+   "url": "https://irandossier.online/posts/pressure-on-four-fronts-iran-loads-no-crude-in-september-as-washington-sanctions-its-car-and-rail-sectors/"
+  },
+  {
+   "publisher": "Iran Dossier",
+   "vintage": "",
+   "url": "https://irandossier.online/posts/pressure-on-four-fronts-iran-loads-no-crude-in-september-as-washington-sanctions-its-car-and-rail-sectors/"
   },
   {
    "publisher": "Benzinga (via TradingView)",
