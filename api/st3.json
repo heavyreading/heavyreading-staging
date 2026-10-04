@@ -1565,7 +1565,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line. Confirmed maintenance is reflected in this row after the baseline (see Why).",
-     "why": "Suncor Energy Inc. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Maintenance at this plant: Suncor Base Plant Q4 bitumen maintenance, Nov 2026 -15 kb/d (quarterly rate; timing within Q4 unpublished, placed mid-quarter). Source: Suncor 2026 planned maintenance table (Q1 2026 investor presentation, 2026-04-01).",
+     "why": "Suncor Energy Inc. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Maintenance at this plant: Suncor Base Plant Q4 bitumen maintenance, Nov 2026 -15 kb/d (quarterly rate; timing within Q4 unpublished, placed mid-quarter). Source: Suncor 2026 planned maintenance table (Q1 2026 investor presentation, 2026-04-01).",
      "extra": "",
      "nowcast": "Seasonal baseline, scaled proportionally so the plants sum to the ST3 line nowcast. No confirmed maintenance events affect this plant in Aug-Sep 2026."
     }
@@ -1610,7 +1610,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line.",
-     "why": "Canadian Natural Resources Limited facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
+     "why": "Canadian Natural Resources Limited facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
      "extra": "",
      "nowcast": "Sep nowcast is this plant's seasonal baseline minus the Sep 8 turnaround's -230 kb/d September impact, reflected at this plant (see the maintenance note in Why)."
     }
@@ -1655,7 +1655,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line.",
-     "why": "Syncrude Canada Ltd. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
+     "why": "Syncrude Canada Ltd. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
      "extra": "",
      "nowcast": "Seasonal baseline, scaled proportionally so the plants sum to the ST3 line nowcast. No confirmed maintenance events affect this plant in Aug-Sep 2026."
     }
@@ -1700,7 +1700,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line.",
-     "why": "Imperial Oil Resources Limited facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
+     "why": "Imperial Oil Resources Limited facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
      "extra": "",
      "nowcast": "Seasonal baseline, scaled proportionally so the plants sum to the ST3 line nowcast. No confirmed maintenance events affect this plant in Aug-Sep 2026."
     }
@@ -1745,7 +1745,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line. Confirmed maintenance is reflected in this row after the baseline (see Why).",
-     "why": "Syncrude Canada Ltd. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Context only: Syncrude Coker 8-2 mine dial-back, Aug 2026 -35.4, Sep 2026 -91.4, Oct 2026 -26.6 kb/d bitumen (full bitumen-equivalent of the coker rate at the observed 0.843 Syncrude yield: the mine plan is set months ahead to match reduced upgrader demand). This does NOT reduce this row: the Coker 8-2 market impact is on synthetic crude only (Sep 2026 -77.0 kb/d gross coker rate, no redirect between plants); heavy-market impact is zero. The paired upgrader row carries the SCO cut.",
+     "why": "Syncrude Canada Ltd. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Context only: Syncrude Coker 8-2 mine dial-back, Aug 2026 -35.4, Sep 2026 -91.4, Oct 2026 -26.6 kb/d bitumen (full bitumen-equivalent of the coker rate at the observed 0.843 Syncrude yield: the mine plan is set months ahead to match reduced upgrader demand). This does NOT reduce this row: the Coker 8-2 market impact is on synthetic crude only (Sep 2026 -77.0 kb/d gross coker rate, no redirect between plants); heavy-market impact is zero. The paired upgrader row carries the SCO cut.",
      "extra": "",
      "nowcast": "Coker 8-2 mine dial-back (Aug -35.4, Sep -91.4, Oct -26.6 kb/d bitumen, full bitumen-equivalent of the coker rate at the observed 0.843 Syncrude yield) is shown on this mined-bitumen row for context only and does not reduce the forecast (zero heavy-market impact)."
     }
@@ -1790,7 +1790,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line.",
-     "why": "Shell Canada Energy facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
+     "why": "Shell Canada Energy facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
      "extra": "",
      "nowcast": "Seasonal baseline, scaled proportionally so the plants sum to the ST3 line nowcast. No confirmed maintenance events affect this plant in Aug-Sep 2026."
     }
@@ -1835,7 +1835,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line.",
-     "why": "Canadian Natural Upgrading Limited facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
+     "why": "Canadian Natural Upgrading Limited facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
      "extra": "",
      "nowcast": "Seasonal baseline, scaled proportionally so the plants sum to the ST3 line nowcast. No confirmed maintenance events affect this plant in Aug-Sep 2026."
     }
@@ -1880,7 +1880,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line.",
-     "why": "Fort Hills Energy Corporation facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
+     "why": "Fort Hills Energy Corporation facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
      "extra": "",
      "nowcast": "Seasonal baseline, scaled proportionally so the plants sum to the ST3 line nowcast. No confirmed maintenance events affect this plant in Aug-Sep 2026."
     }
@@ -2105,7 +2105,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 upgraded production (SCO) line. Confirmed maintenance is reflected in this row after the baseline (see Why).",
-     "why": "Suncor Energy Inc. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Maintenance at this plant: Suncor Base Plant Q4 SCO and diesel maintenance, Nov 2026 -5 kb/d. Source: Suncor 2026 planned maintenance table (Q1 2026 investor presentation, 2026-04-01).",
+     "why": "Suncor Energy Inc. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Maintenance at this plant: Suncor Base Plant Q4 SCO and diesel maintenance, Nov 2026 -5 kb/d. Source: Suncor 2026 planned maintenance table (Q1 2026 investor presentation, 2026-04-01).",
      "extra": "",
      "nowcast": "No Coker 8-2 effect here: with a planned turnaround the mine plan is set months ahead, so no redirect between plants is assumed. Seasonal baseline only."
     }
@@ -2150,7 +2150,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 upgraded production (SCO) line. Confirmed maintenance is reflected in this row after the baseline (see Why).",
-     "why": "Syncrude Canada Ltd. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Maintenance at this plant: Syncrude Coker 8-2 turnaround (planned start Aug 20 2026, about 50 days). Aug 2026 -29.8 kb/d (Aug 20-31, 12 of 31 days at the 77 kb/d rate), Sep 2026 -77.0 kb/d (full month), Oct 2026 -22.4 kb/d (Oct 1-9 tail, 9 of 31 days). Source: Suncor Q2 2026 management discussion and analysis (2026-08-04), Q1 2026 investor presentation. The paired mine dial-back (Aug -35.4, Sep -91.4, Oct -26.6 kb/d bitumen) is shown for context only and does not reduce the forecast (planned turnaround: the mine plan is set months ahead, so no redirect to other plants is assumed; zero heavy-market impact). The SCO market impact is the gross coker rate: Sep 2026 -77.0 kb/d.",
+     "why": "Syncrude Canada Ltd. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Maintenance at this plant: Syncrude Coker 8-2 turnaround (planned start Aug 20 2026, about 50 days). Aug 2026 -29.8 kb/d (Aug 20-31, 12 of 31 days at the 77 kb/d rate), Sep 2026 -77.0 kb/d (full month), Oct 2026 -22.4 kb/d (Oct 1-9 tail, 9 of 31 days). Source: Suncor Q2 2026 management discussion and analysis (2026-08-04), Q1 2026 investor presentation. The paired mine dial-back (Aug -35.4, Sep -91.4, Oct -26.6 kb/d bitumen) is shown for context only and does not reduce the forecast (planned turnaround: the mine plan is set months ahead, so no redirect to other plants is assumed; zero heavy-market impact). The SCO market impact is the gross coker rate: Sep 2026 -77.0 kb/d.",
      "extra": "",
      "nowcast": "Coker 8-2 SCO impacts (Aug -29.8, Sep -77.0 kb/d) sit on this upgrader row, not carried separately."
     }
@@ -2195,7 +2195,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 upgraded production (SCO) line.",
-     "why": "Shell Canada Energy facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
+     "why": "Shell Canada Energy facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
      "extra": "",
      "nowcast": "Seasonal baseline, scaled proportionally so the plants sum to the ST3 line nowcast. No confirmed maintenance events affect this plant in Aug-Sep 2026."
     }
@@ -2240,7 +2240,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 upgraded production (SCO) line. Confirmed maintenance is reflected in this row after the baseline (see Why).",
-     "why": "Canadian Natural Resources Limited facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Maintenance at this plant: Horizon 35-day turnaround (started Sep 8 2026). Sep 2026 -230 kb/d (September share per ruling 2026-09-22 on CNRL 2026 budget guidance); Oct 2026 -119 kb/d (Oct 1-12 residual tail; the outage extends into October per the operator turnaround schedule). Pure upgrader outage: synthetic crude oil needs no blending, so the cut reduces tradable synthetic barrels 1:1. Source: CNRL 2026 budget (2025-12-16). The Maintenance offline memo row shows the same outage for reference; it is not subtracted again. Growth at this plant: Horizon NRUTT (Naphtha Recovery Unit Tailings Treatment) +6.3 kb/d SCO step change from Jul 2027, persisting through the Dec 2027 window end. Source: CNRL 2026 budget news release (2025-12-16). Added 2026-09-23. The implied ~277,300 bbl/d post-NRUTT nameplate capacity is not used: the demonstrated ST39 peak is 309.8 kb/d SCO (Nov 2025), so only the +6.3 increment is modeled.",
+     "why": "Canadian Natural Resources Limited facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Maintenance at this plant: Horizon 35-day turnaround (started Sep 8 2026). Sep 2026 -230 kb/d (September share per ruling 2026-09-22 on CNRL 2026 budget guidance); Oct 2026 -119 kb/d (Oct 1-12 residual tail; the outage extends into October per the operator turnaround schedule). Pure upgrader outage: synthetic crude oil needs no blending, so the cut reduces tradable synthetic barrels 1:1. Source: CNRL 2026 budget (2025-12-16). The Maintenance offline memo row shows the same outage for reference; it is not subtracted again. Growth at this plant: Horizon NRUTT (Naphtha Recovery Unit Tailings Treatment) +6.3 kb/d SCO step change from Jul 2027, persisting through the Dec 2027 window end. Source: CNRL 2026 budget news release (2025-12-16). Added 2026-09-23. The implied ~277,300 bbl/d post-NRUTT nameplate capacity is not used: the demonstrated ST39 peak is 309.8 kb/d SCO (Nov 2025), so only the +6.3 increment is modeled.",
      "extra": "",
      "nowcast": "Sep nowcast is this plant's seasonal baseline minus the Sep 8 turnaround's -230 kb/d September impact, reflected at this plant (see the maintenance note in Why)."
     }
@@ -2285,7 +2285,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 upgraded production (SCO) line.",
-     "why": "North West Redwater Holdings Corp. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep-Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
+     "why": "North West Redwater Holdings Corp. facility. Actuals through 2026-06; Jul 2026, Aug 2026 blank until AER publishes. Sep 2026 nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
      "extra": "",
      "nowcast": "Seasonal baseline, scaled proportionally so the plants sum to the ST3 line nowcast. No confirmed maintenance events affect this plant in Aug-Sep 2026."
     }
