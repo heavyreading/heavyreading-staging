@@ -299,6 +299,7 @@ table.data td { border-bottom:1px solid var(--line);
   font-variant-numeric:tabular-nums; }
 table.data tbody tr:last-child td { border-bottom:none; }
 table.data td.num, table.data th.num { text-align:right; font-variant-numeric:tabular-nums; }
+table.data td .mom { font-size:11px; color:var(--mut); font-variant-numeric:tabular-nums; }
 table.data tr.tot td { font-weight:700; }
 table.data td.n, table.data th.n { text-align:right; font-variant-numeric:tabular-nums; }
 table.data td.k { color:var(--faint); font-size:12px; white-space:nowrap; }
@@ -327,6 +328,17 @@ details.verbatim > summary { cursor:pointer; font-size:12px; color:var(--mut); }
 details.verbatim > summary::-webkit-details-marker { display:none; }
 details.verbatim > summary::before { content:"+ "; color:var(--faint); }
 details.verbatim[open] > summary::before { content:"2  "; }
+/* seasonal risk disclosure on Barrels: quiet, collapsed by default,
+   framing for the supply forecast without clutter. */
+details.riskfold { margin:20px 0 6px; border-top:1px solid var(--line); }
+details.riskfold > summary { cursor:pointer; padding:12px 0;
+  list-style:none; }
+details.riskfold > summary::-webkit-details-marker { display:none; }
+details.riskfold > summary::marker { content:""; }
+details.riskfold > summary::before { content:"+ "; color:var(--faint); }
+details.riskfold[open] > summary::before { content:"2  "; }
+details.riskfold > summary strong { font-size:15px; }
+details.riskfold .rs-sub { color:var(--mut); font-size:13px; }
 .wraw { font-size:13px; color:var(--mut); white-space:pre-wrap; max-width:66ch;
   border-left:2px solid var(--line); padding-left:12px; }
 table.facts td:first-child { font-weight:600; width:34%; color:#3a352c; }
@@ -373,6 +385,15 @@ table.facts td:first-child { font-weight:600; width:34%; color:#3a352c; }
   text-transform:uppercase; color:var(--mut); }
 .jumplist a { text-decoration:none; color:var(--ink); font-weight:600; }
 .jumplist a:hover { color:var(--acc-deep); }
+
+/* changelog: dated "what changed" list. Quiet, compact, most recent first.
+   One line per change; the date is muted, the change is the point. */
+.changelog { margin:14px 0 0; padding:0; list-style:none; font-size:14px; }
+.changelog li { display:flex; gap:12px; padding:7px 2px;
+  border-top:1px solid var(--line); line-height:1.45; }
+.changelog li:last-child { border-bottom:1px solid var(--line); }
+.changelog .cl-date { flex:0 0 auto; min-width:92px; color:var(--mut);
+  font-variant-numeric:tabular-nums; }
 .weeknav a:last-child { text-align:right; }
 .weeknav a:hover { color:var(--acc-deep); }
 

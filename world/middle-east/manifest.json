@@ -90,12 +90,6 @@
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html"
   },
   {
-   "text": "No Iranian tankers loaded any crude in September, the first zero-lifting month in Kpler's tracking history back to 2013, analysts Yui Torikata and Nhway Khin Soe said. August loadings were 255,000 b/d across one VLCC, four suezmaxes, two aframaxes and one MR tanker, with the final lifting the 160,000-dwt suezmax Sarak from Kharg Island on August 25. Production was throttled to 2.06 million b/d, shore inventories sat at 66-70 million barrels (about 59% of capacity), and floating storage outside the blockade fell to 45 million barrels from 100 million in late July. Confirmed Iranian crude arrivals in China fell to about 468,000 b/d in September, roughly half June's level, though 'zombie' vessels with falsified AIS signals kept discharging obscured Iranian barrels at Chinese ports, peaking at 18 million barrels on nine VLCCs in August.",
-   "vintage": "Oct 1, 2026",
-   "source": "TradeWinds (citing Kpler)",
-   "source_url": "https://www.tradewindsnews.com/tankers/iran-tanker-loadings-plunge-to-zero-for-first-time-in-war-as-us-blockade-strangles-kharg-island-exports/2-1-2052866"
-  },
-  {
    "text": "Iran's seaborne oil exports were 587 million barrels in 2024 (+10.75% y/y); China took 533 million barrels, 91% of the total, up 24% from 2023.",
    "vintage": "Year-end 2024 review; accessed 2026-09-24",
    "source": "UANI (via Maritime Executive)",
@@ -144,12 +138,6 @@
    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hZkJ3WnRXd0liX0tzekJlZDdDMi01V0FFNVoxWE1fUXBjMHpIbnd6MHREYl9WVDBBWm1hemJoQnQ4di0yRHhCclo1UFktSlFWVXBKNjRLQ3h5RjZ6NEcxTC1ORDg4LVhIbXRRa3JBUQ?oc=5"
   },
   {
-   "text": "On whether any Iranian oil is actually getting out, the three trackers agree: Kpler, Vortexa and TankerTrackers all report no Iranian crude cargo has cleared Hormuz for China since the blockade was reinstated on July 14 (Reuters, Sep 1). The '210k vs zero' gap is loadings-versus-cleared-cargoes: different measures, same story.",
-   "vintage": "Sep 1-29, 2026; accessed 2026-09-29",
-   "source": "Reuters (Kpler, Vortexa, TankerTrackers estimates)",
-   "source_url": "https://www.tbsnews.net/world/blockade-succeeds-where-sanctions-failed-iran-oil-exports-stall-1530686"
-  },
-  {
    "text": "Iranian floating crude was ~29 million barrels on September 8, 2026, down from ~90 million in mid-July, the blockade drew down pre-war floating stock by roughly two-thirds (Kpler, via WSJ).",
    "vintage": "Sep 8, 2026; accessed 2026-09-24",
    "source": "WSJ via Kpler (compiled in Oil Depletion Report)",
@@ -166,18 +154,6 @@
    "vintage": "~Sep 10, 2026; accessed 2026-09-24",
    "source": "Maritime Executive (citing TankerTrackers)",
    "source_url": "https://maritime-executive.com/article/iran-continues-to-sell-oil-out-of-its-floating-storage-reserve"
-  },
-  {
-   "text": "TankerTrackers estimated ~30 million barrels of Iranian crude awaiting export in mid-July, with ~60 million barrels of floating storage capacity available in surrounding waters as a buffer if production faced restrictions.",
-   "vintage": "Jul 14, 2026; accessed 2026-09-24",
-   "source": "WANA (citing TankerTrackers)",
-   "source_url": "https://wanaen.com/iran-exports-more-than-80-million-barrels-of-oil-in-26-days/"
-  },
-  {
-   "text": "Iranian crude in floating storage west of the blockade line stood at 41.7 million barrels by Aug 26, as loadings continued while nothing cleared.",
-   "vintage": "Sep 1, 2026; accessed 2026-09-29",
-   "source": "Reuters (Kpler, Vortexa, TankerTrackers estimates)",
-   "source_url": "https://www.tbsnews.net/world/blockade-succeeds-where-sanctions-failed-iran-oil-exports-stall-1530686"
   },
   {
    "text": "An estimated 40-50 million barrels of Iranian oil remained on the water in Asia, with Chinese discharges running near 1 million b/d; Tehran selling from already-cleared floating storage it cannot replenish.",
@@ -280,12 +256,6 @@
    "vintage": "Testimony Apr 1, 2025; accessed 2026-09-24",
    "source": "Claire Jungman, UANI (House Foreign Affairs testimony)",
    "source_url": "https://docs.house.gov/meetings/FA/FA00/20250401/118069/HHRG-119-FA00-Wstate-JungmanC-20250401.pdf"
-  },
-  {
-   "text": "Treasury Secretary Bessent said June 29, 2026 that despite the US lifting sanctions on Iranian oil, no country except China had bought at a discount, others held back fearing sanctions snapback.",
-   "vintage": "Jul 1, 2026; accessed 2026-09-24",
-   "source": "RFE/RL (via GlobalSecurity)",
-   "source_url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260701-rferl09.htm"
   },
   {
    "text": "China is expected to remain the biggest buyer via independent refiners; UANI's Charlie Brown noted it was unclear whether exporters would abandon the established EOPL ship-to-ship transfer networks even under the waiver.",
@@ -412,12 +382,6 @@
    "vintage": "Sep 15, 2026; accessed 2026-09-29",
    "source": "TankerTrackers (Sep 15, 2026 post)",
    "source_url": "https://t.me/s/TankerTrackers?before=1466"
-  },
-  {
-   "text": "TankerTrackers identified at least 56 tankers running 'dark' in August (AIS transponders off, visible only via satellite), shuttling Hormuz to Gulf-of-Oman ship-to-ship transfers and back for another load, moving GCC/Arab-state exports under US military protection, not Iran's shadow fleet. Do not conflate with Iran's separate 56-vessel blacklist for unauthorized Hormuz transits, an Iranian toll/enforcement list (same number by coincidence).",
-   "vintage": "Aug 8-9, 2026; accessed 2026-09-29",
-   "source": "TankerTrackers (via Iran International / Middle East Eye)",
-   "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsSkg1MnZMN1RfWGxFMVg2VGtudWxrUmNpc01WUmVFOF9fVXllcHdFV1lsRGxYZjNWZ3NSN2FEeFlnR2xza2xuOFBGOHhiM21wWWc?oc=5"
   },
   {
    "text": "On Gulf ship-to-ship volumes the trackers are directionally aligned but measure different universes: Vortexa's published Sep 21 note put crude-on-VLCC STS from ports west of Hormuz at around 6 million b/d since end-August (about three VLCC pairs starting STS daily), with operations stretching to nearly 10 days from 5-7 and queues worsening; outlets quoting TankerTrackers put all-transfer STS at about 7.15 million b/d over the 14 days to mid-September, up 56% month-on-month (secondhand; treat as an estimate until the direct post is captured); Kpler's narrower Gulf-of-Oman STS read was about 2.5 million b/d for September versus 1.4 million in August. Editorial: Vortexa's is the firmest published figure; all three agree STS has surged to multi-million-b/d scale.",
@@ -582,18 +546,6 @@
    "source_url": "https://www.morningchronicle.co.uk/Politics/763582-yemen-government-forces-say-struck-houthi-targets.html"
   },
   {
-   "text": "A Kuwait-flagged very large crude carrier, the 317,250-dwt Kazimah III operated by Kuwait Oil Tanker Company, was struck by an unknown projectile while transiting the Strait of Hormuz on October 1, starting a fire aboard. UKMTO logged a third-party report without naming the vessel and said the crew was safe; maritime security firm Vanguard Tech identified the tanker. It was the second KOTC VLCC hit in four days, after the Al Funtas on September 28.",
-   "vintage": "Oct 1, 2026",
-   "source": "Splash247",
-   "source_url": "https://splash247.com/fresh-attacks-hit-hormuz-tanker-and-saudi-oil-gateway/"
-  },
-  {
-   "text": "Iranian outlets reported a supertanker able to carry 2.5 million barrels was hit about 8 kilometers off the Omani coast while sailing what Iran's Fars News Agency called an 'unauthorized route' south of the strait, and caught fire. UKMTO confirmed it had received a report of a tanker incident; the vessel's identity and the Fars account were not independently corroborated.",
-   "vintage": "Oct 2, 2026",
-   "source": "WANA (Iranian agency)",
-   "source_url": "https://wanaen.com/supertanker-hit-and-catches-fire-in-strait-of-hormuz/"
-  },
-  {
    "text": "The Kuwait Oil Tanker Co VLCC Al Funtas, struck by a suspected projectile north of Khasab on September 28, had its onboard fire extinguished, all crew safe and no environmental impact reported, with the vessel remaining underway toward a port of refuge rather than becoming disabled inside the chokepoint.",
    "vintage": "Sep 30, 2026",
    "source": "DeepDraft SITREP",
@@ -642,12 +594,6 @@
    "source_url": "https://www.defconlevel.com/alert/2026-09-21-inbound-tanker-struck-in-strait-of-hormuz-u-s-restricts-travel-to-taif-and-yanbu"
   },
   {
-   "text": "On September 1, 2026, a commercial tanker was struck by at least three unknown projectiles while completing an outbound Hormuz transit about 17 nautical miles east of Khasab, Oman; no casualties were reported. A second reported tanker strike nearby (Saudi-flagged Sidr) was carried as reported but unconfirmed by that source.",
-   "vintage": "Sep 1, 2026; accessed 2026-09-23",
-   "source": "GeoBit AI",
-   "source_url": "https://www.geobit.ai/blog/2026-09-01-tanker-struck-by-projectiles-exiting-strait-of-hormuz-what-marit-md"
-  },
-  {
    "text": "Between September 16 and 18, 2026, three tankers were struck in the strait; the Togo-flagged product tanker Trend was hit September 16 near Khasab and caught fire before the crew extinguished it. Iran's Revolutionary Guard claimed the Trend attack, saying it was an illegal transit attempt, and warned any unauthorized passage would face 'destruction'.",
    "vintage": "Sep 16 - 19, 2026; accessed 2026-09-23",
    "source": "MarineRadar",
@@ -664,12 +610,6 @@
    "vintage": "Sep 21, 2026; accessed 2026-09-23",
    "source": "Nation Press (citing UKMTO)",
    "source_url": "https://www.nationpress.com/international/two-hurt-as-tanker-hit-in-strait-of-hormuz"
-  },
-  {
-   "text": "A Houthi attack targeted Yanbu port, starting a fire inside the Red Sea port and prompting a temporary halt to loadings, according to maritime security firm Vanguard Tech. The strike came just days after Saudi Arabia repaired the East-West Pipeline following the September 10 drone hit and resumed crude loadings, with Kpler showing all seven crude berths at Yanbu and the Muajjiz terminal occupied on September 27.",
-   "vintage": "Oct 1, 2026",
-   "source": "TradeWinds (citing Vanguard Tech)",
-   "source_url": "https://www.tradewindsnews.com/tankers/new-houthi-attack-targets-yanbu-port-/2-1-2052926"
   },
   {
    "text": "The Houthis said they struck two Saudi oil tankers, the Encelia and the Layla, with missiles and drones as part of a naval blockade on Saudi Arabia; Saudi state news agency SPA confirmed the Encelia was struck with a fire on its bow and all crew safe, while the Layla strike was unconfirmed; UKMTO reported an 'unknown projectile' striking a tanker about 130 km from Al Shuqaiq. The claim followed the group's announced maritime embargo on Saudi Arabia after a drone strike on the East-West Pipeline and an attempted attack on the Red Sea port of Yanbu.",
@@ -804,18 +744,6 @@
    "source_url": "https://www.seatrade-maritime.com/tankers/iran-oil-exports-plunge-over-90-as-us-blockade-bites"
   },
   {
-   "text": "Mid-June 2026, the Islamabad memorandum of understanding (MOU) took effect and the US lifted the naval blockade under a sanctions waiver; Iran exported roughly 50 million barrels in the following two weeks (~1.66 million b/d in June, per TankerTrackers), and Iran's parliament speaker put the post-blockade figure above 40 million barrels.",
-   "vintage": "Jul 1, 2026; accessed 2026-09-24",
-   "source": "RFE/RL (via GlobalSecurity)",
-   "source_url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260701-rferl09.htm"
-  },
-  {
-   "text": "In the 26 days after the MOU signing, Iran exported more than 80 million barrels of crude and products, worth over $6 billion at prevailing prices, per TankerTrackers.",
-   "vintage": "Jul 14, 2026; accessed 2026-09-24",
-   "source": "WANA (citing TankerTrackers)",
-   "source_url": "https://wanaen.com/iran-exports-more-than-80-million-barrels-of-oil-in-26-days/"
-  },
-  {
    "text": "Washington restored the blockade on July 14, 2026; Kpler, Vortexa and TankerTrackers identified no Iranian crude cargo vessel successfully transiting Hormuz to China after that date.",
    "vintage": "~Sep 2, 2026; accessed 2026-09-24",
    "source": "National Security Journal (citing Vortexa, Kpler, Reuters)",
@@ -922,12 +850,6 @@
    "vintage": "Sep 25, 2026",
    "source": "Al Jazeera",
    "source_url": "https://www.genocidewatch.com/single-post/saudi-allies-line-up-support-as-houthi-attacks-mount"
-  },
-  {
-   "text": "Yemen's Saudi-led coalition said early on September 26 it intercepted two ballistic missiles and two drones launched by the Houthis toward the kingdom, the missiles headed for Khamis Mushait and the drones for Riyadh.",
-   "vintage": "Sep 26, 2026",
-   "source": "Reuters (via WNCY)",
-   "source_url": "https://wncy.com/2026/09/25/saudi-says-it-intercepted-2-drones-launched-by-houthis-towards-riyadh/"
   },
   {
    "text": "UK Prime Minister Andy Burnham said on September 21 that Britain would provide limited military support to Saudi Arabia, with the Royal Air Force (RAF) supplying defensive air-to-air refueling for Saudi aircraft on missions countering Houthi missile and drone attacks; the agreement runs for a matter of weeks and will be kept under review. The United States, which bombed the Houthis under the Biden and Trump administrations, has shown no interest in getting involved militarily this time.",
@@ -1048,11 +970,6 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hZkJ3WnRXd0liX0tzekJlZDdDMi01V0FFNVoxWE1fUXBjMHpIbnd6MHREYl9WVDBBWm1hemJoQnQ4di0yRHhCclo1UFktSlFWVXBKNjRLQ3h5RjZ6NEcxTC1ORDg4LVhIbXRRa3JBUQ?oc=5"
   },
   {
-   "publisher": "Reuters (Kpler, Vortexa, TankerTrackers estimates)",
-   "vintage": "",
-   "url": "https://www.tbsnews.net/world/blockade-succeeds-where-sanctions-failed-iran-oil-exports-stall-1530686"
-  },
-  {
    "publisher": "WSJ via Kpler (compiled in Oil Depletion Report)",
    "vintage": "",
    "url": "https://github.com/mattcone/depletion-ledger/blob/HEAD/research/Oil-Depletion-Report.md"
@@ -1066,11 +983,6 @@
    "publisher": "Maritime Executive (citing TankerTrackers)",
    "vintage": "",
    "url": "https://maritime-executive.com/article/iran-continues-to-sell-oil-out-of-its-floating-storage-reserve"
-  },
-  {
-   "publisher": "WANA (citing TankerTrackers)",
-   "vintage": "",
-   "url": "https://wanaen.com/iran-exports-more-than-80-million-barrels-of-oil-in-26-days/"
   },
   {
    "publisher": "Kpler (via Iran International)",
@@ -1141,11 +1053,6 @@
    "publisher": "Claire Jungman, UANI (House Foreign Affairs testimony)",
    "vintage": "",
    "url": "https://docs.house.gov/meetings/FA/FA00/20250401/118069/HHRG-119-FA00-Wstate-JungmanC-20250401.pdf"
-  },
-  {
-   "publisher": "RFE/RL (via GlobalSecurity)",
-   "vintage": "",
-   "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260701-rferl09.htm"
   },
   {
    "publisher": "MarineInsight (citing UANI)",
@@ -1246,11 +1153,6 @@
    "publisher": "TankerTrackers (Sep 15, 2026 post)",
    "vintage": "",
    "url": "https://t.me/s/TankerTrackers?before=1466"
-  },
-  {
-   "publisher": "TankerTrackers (via Iran International / Middle East Eye)",
-   "vintage": "",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsSkg1MnZMN1RfWGxFMVg2VGtudWxrUmNpc01WUmVFOF9fVXllcHdFV1lsRGxYZjNWZ3NSN2FEeFlnR2xza2xuOFBGOHhiM21wWWc?oc=5"
   },
   {
    "publisher": "Vortexa (Sep 21 note); TankerTrackers (via outlets); Kpler",
@@ -1421,11 +1323,6 @@
    "publisher": "Defcon Level (citing CENTCOM)",
    "vintage": "",
    "url": "https://www.defconlevel.com/alert/2026-09-21-inbound-tanker-struck-in-strait-of-hormuz-u-s-restricts-travel-to-taif-and-yanbu"
-  },
-  {
-   "publisher": "GeoBit AI",
-   "vintage": "",
-   "url": "https://www.geobit.ai/blog/2026-09-01-tanker-struck-by-projectiles-exiting-strait-of-hormuz-what-marit-md"
   },
   {
    "publisher": "MarineRadar",
