@@ -78,7 +78,7 @@
     },
     "detail": {
      "source": "WCSB S&D model (sums of the rows beneath)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Sum of the rows beneath it; matches by design.",
      "why": "Oct 2026 is the maintenance-heavy month: 164.4 kb/d of outages at the affected plants (Horizon SCO -119, Oct 1-12 tail; Syncrude Mildred Lake SCO -22.4, Oct 1-9 tail; Christina Lake -20, assumed carryover; Cold Lake -3). Nov-Dec rebound as turnarounds clear. May 2027 is the forecast low (3,853.7): the spring seasonal dip in SAGD (steam-assisted gravity drainage) plus conventional decline. Apr 2027 carries the Primrose/Wolf Lake turnaround (-26 kb/d; cadence-modeled from the historical April-dip pattern, which has weakened in recent years; not company-confirmed). Aug-Sep 2027 recover on normal seasonality.",
      "extra": "",
@@ -123,7 +123,7 @@
     },
     "detail": {
      "source": "WCSB S&D model (sums of the rows beneath)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Sum of the rows beneath it; matches by design.",
      "why": "ST53 in-situ forecasts with no gross-up: 21 commercial-scheme project forecasts plus aggregate Primary (cold bitumen), Enhanced recovery (polymer floods), and unmapped commercial rows. Total ST53 bitumen covers about 99% of the ST3 in-situ line, so the total matches the ST3 in-situ line by design. Confirmed turnarounds are reflected in the affected project rows (Cold Lake -3 kb/d Aug-Dec 2026, Christina Lake -20 assumed Oct 2026). Single-month dips (notably Sep 2027) are seasonal factors repeating the last 3 years, not scheduled events.",
      "extra": "",
@@ -168,7 +168,7 @@
     },
     "detail": {
      "source": "WCSB S&D model (sums of the rows beneath)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Sum of the rows beneath it; matches by design.",
      "why": "18 SAGD (steam-assisted gravity drainage) schemes. May is the seasonally soft month (the method flags it as pattern-soft at several SAGD schemes). The method repeats the last 3 years of seasonality around a flat trailing-12m baseline.",
      "extra": "",
@@ -1158,7 +1158,7 @@
     },
     "detail": {
      "source": "WCSB S&D model (sums of the rows beneath)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Sum of the rows beneath it; matches by design.",
      "why": "3 CSS (cyclic steam stimulation) schemes (Cold Lake, Primrose/Wolf Lake, Peace River). The only confirmed CSS event in the window is Cold Lake Q4 2026 (-3 kb/d, Imperial guidance).",
      "extra": "",
@@ -1518,7 +1518,7 @@
     },
     "detail": {
      "source": "WCSB S&D model (sums of the rows beneath)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Sum of the rows beneath it; matches by design.",
      "why": "ST3 mined bitumen line (gross). Plant detail from AER ST39 (actuals through 2026-06). Plant forecasts are each facility's seasonal baseline scaled proportionally, then reduced for confirmed turnarounds at the affected plants (Horizon, Suncor Base); the line is sum(plants) plus the fixed ST39 coverage residual. Oct 2026 carries the two big mining turnarounds: Horizon -119 (Oct 1-12 tail of the Sep 8 35-day turnaround) and Syncrude Coker 8-2 -22.4 (Oct 1-9 tail, derived). Nov adds Suncor Base Plant Q4 cuts (-15 bitumen at the mine, -5 SCO at the upgrader).",
      "extra": "",
@@ -2058,7 +2058,7 @@
     },
     "detail": {
      "source": "WCSB S&D model (sums of the rows beneath)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Sum of the rows beneath it; matches by design.",
      "why": "ST3 upgraded-production (SCO) line. Upgrader detail from AER ST39 (actuals through 2026-06). The four largest upgraders (Suncor Base Plant, Scotford, Syncrude Mildred Lake, CNRL Horizon) dominate SCO. Plant forecasts are scaled proportionally, then reduced for confirmed turnarounds at the affected upgraders (Syncrude Mildred Lake Coker 8-2, Suncor Base); the line is sum(upgraders) plus the fixed ST39 coverage residual.",
      "extra": "",
@@ -2373,7 +2373,7 @@
     },
     "detail": {
      "source": "WCSB S&D model (sums of the rows beneath)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Sum of the rows beneath it; matches by design.",
      "why": "Alberta conventional crude in structural decline; month-to-month moves are seasonal factors, not new information. There is no public project- or well-level mapping, so the five ST3 streams are shown as reported.",
      "extra": "",
@@ -2418,7 +2418,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "ST3 light-crude stream. Seasonal baseline; decline assumption is baked into the trailing-12m mean.",
      "extra": "",
@@ -2463,7 +2463,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "ST3 medium-crude stream. Seasonal baseline; decline assumption is baked into the trailing-12m mean.",
      "extra": "",
@@ -2508,7 +2508,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "ST3 heavy-crude stream. Seasonal baseline; decline assumption is baked into the trailing-12m mean.",
      "extra": "",
@@ -2553,7 +2553,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "ST3 ultra-heavy stream. Small and noisy; seasonal baseline.",
      "extra": "",
@@ -2598,7 +2598,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "ST3 condensate stream. Seasonal baseline.",
      "extra": "",
@@ -2643,7 +2643,7 @@
     },
     "detail": {
      "source": "AER ST3 (crude-light and condensate-production lines)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Light plus condensate production, from the approved ST3 lines. Condensate is folded into lights and labeled as such, never dropped.",
      "why": "Conventional light crude plus condensate production (AER ST3 lines). Condensate is mostly diluent supply; it is folded into lights and labeled as such, matching the supply hub's tradeable buckets.",
      "extra": "Project mapping: none; the grade carries the ST3 crude-light and condensate-production lines directly.",
@@ -2688,7 +2688,7 @@
     },
     "detail": {
      "source": "AER ST3 (crude-medium line)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Carries the ST3 crude-medium line. ST3 reports density grades and does not separate sulfur, so medium stands in for the conventional sour stream.",
      "why": "Conventional medium crude (AER ST3 line). ST3 reports density grades and does not separate sulfur, so medium stands in for the conventional sour stream.",
      "extra": "Project mapping: none; the grade carries the ST3 crude-medium line directly.",
@@ -2733,7 +2733,7 @@
     },
     "detail": {
      "source": "AER ST3 (crude-heavy and crude-ultra-heavy lines)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Heavy plus ultra-heavy, from the approved ST3 lines: the blended heavy conventional stream.",
      "why": "Conventional heavy plus ultra-heavy crude (AER ST3 lines): the blended heavy conventional stream.",
      "extra": "Project mapping: none; the grade carries the ST3 crude-heavy and crude-ultra-heavy lines directly.",
@@ -2778,7 +2778,7 @@
     },
     "detail": {
      "source": "AER ST3 (upgraded-production line); ST39 upgrader drill-down in the tree",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Carries the ST3 upgraded-production line (the approved model number). The ST39 upgrader rows in the tree (Scotford, Syncrude Mildred Lake, Suncor Base, Horizon, Sturgeon) plus the ST39 coverage residual sum to this line by design.",
      "why": "The synthetic crude oil (SCO) grade: every SCO barrel the ST3 upgraded-production line counts. The Coker 8-2 cut shows here: Syncrude's upgrader is down 29.8/77.0/22.4 kb/d in Aug/Sep/Oct 2026, the gross coker rate (planned turnaround: the mine plan is set months ahead, so no redirect to other plants is assumed). SCO market impact: -29.8/-77.0/-22.4 kb/d.",
      "extra": "Plant mapping: the five ST39 upgraders (Scotford, Syncrude Mildred Lake, Suncor Base, Horizon, Sturgeon) plus the ST39 coverage residual sum to the ST3 upgraded-production line; the grade carries the line.",
@@ -2823,7 +2823,7 @@
     },
     "detail": {
      "source": "WCSB S&D model grade layer (AER ST3 lines)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Residual: ST3 mined plus ST3 in-situ minus ST3 sent for further processing (taken as a positive number), from the approved ST3 lines. The sent-for-further-processing line (bitumen fed to upgraders) is kept in the data but is not a visible row: it is an intermediate manufacturing transfer, not a market stream. Never a plug: it is the remainder, not a number chosen to balance.",
      "why": "Raw bitumen that does not feed an upgrader: the pool that can be blended into dilbit (ST3 mined plus in-situ bitumen, less bitumen sent for further processing). It becomes dilbit only after blending with diluent (roughly 25-35% diluent by volume). The blend pool is steam-assisted gravity drainage (SAGD) bitumen minus the share bound for upgraders, plus mined bitumen from Kearl and Fort Hills; mined bitumen at Horizon, Syncrude, and Suncor Base is locked to their upgraders by plant configuration and is never blended. Bitumen sent for further processing (the upgrader feed) is a manufacturing transfer, not a market stream, so it is not shown as a row; the bitumen number already excludes it. This is the grade whose availability gets tight during Suncor/Syncrude turnarounds, because redirected flows and flexible barrels from SAGD and PFT (paraffinic froth treatment) mines land in dilbit differently every event. Coker 8-2 accounting: the Syncrude mine dial-back (Aug -35.4, Sep -91.4, Oct -26.6 kb/d bitumen) is shown for context only and does not reduce tradable heavy; the event's market impact is on synthetic crude only (Sep 2026 -77.0 kb/d gross coker rate, no redirect between plants). Cleanest precedent: Q1 2026, when Suncor non-upgraded bitumen rose to 279.5 kb/d 'primarily due to decreased upgrader availability.'",
      "extra": "Project mapping (conceptual): the dilbit blend pool is steam-assisted gravity drainage (SAGD) bitumen minus the upgrader-bound share plus Kearl and Fort Hills mined bitumen; mined bitumen at Horizon, Syncrude, and Suncor Base is upgrader-locked and never blended. The ST3 lines do not support a project-level dilbit split, so the grade is the residual; no split is shown and nothing is invented. Disposition defaults: PFT (paraffinic froth treatment) mines send their barrels to the most profitable outlet; SAGD output is unchanged by upgrader outages, with the upgrader-bound share assumed diverted to dilbit.",
@@ -2868,7 +2868,7 @@
     },
     "detail": {
      "source": "WCSB S&D model grade layer (AER ST3 lines)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Conventional lights + conventional sours + blended heavy conventional + synthetic crude oil (SCO) + blended dilbit, from the approved ST3 lines. Verified in the build to tie exactly to Total WCSB crude supply every month.",
      "why": "Total crude supply: conventional lights plus conventional sours plus blended heavy conventional plus synthetic crude oil (SCO) plus blended dilbit. The same barrels as the Total WCSB crude supply row, verified to tie exactly every month. Use this view when the question is what stream clears; use the source view when the question is where it was produced.",
      "extra": "Project mapping: the union of the five grade mappings. Grade conversion default: 0.87 SCO per barrel of bitumen feed (observed: fleet 0.865, Horizon 0.888, Syncrude 0.843).",
@@ -2913,7 +2913,7 @@
     },
     "detail": {
      "source": "WCSB S&D model (sums of the rows beneath)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Sum of the rows beneath it; matches by design.",
      "why": "Condensate plus pentanes-plus imports; tracks blended-bitumen egress. Seasonal baseline. In maintenance months the model also trims diluent: bitumen that is offline would have been blended into dilbit, so its diluent is not imported (bitumen cut times 0.43; e.g. Oct 2026 -9.9 on Cold Lake -3 and Christina Lake -20). Upgrader outages do not free diluent.",
      "extra": "",
@@ -2958,7 +2958,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "ST3 condensate imports. Seasonal baseline.",
      "extra": "",
@@ -3003,7 +3003,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "ST3 pentanes-plus imports. Seasonal baseline.",
      "extra": "",
@@ -3048,7 +3048,7 @@
     },
     "detail": {
      "source": "WCSB S&D model (sums of the rows beneath)",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "Sum of the rows beneath it; matches by design.",
      "why": "ST3 total Alberta use: refinery sales (about 85%) plus other Alberta sales, injection-well use, fuel and plant use.",
      "extra": "",
@@ -3093,7 +3093,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "ST3 Alberta refinery sales. Seasonal baseline.",
      "extra": "",
@@ -3183,7 +3183,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "Pipeline, rail and truck disposition out of province. Seasonal baseline; the demand side of the supply balance.",
      "extra": "",
@@ -3261,7 +3261,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "Full ST3 receipt leg: pentanes-plus plant and fractionation yield, skim oil, waste plant receipts, other Alberta receipts, butanes and NGL as crude, and all imports. Forecast by the standard seasonal-baseline method.",
      "extra": "",
@@ -3351,7 +3351,7 @@
     },
     "detail": {
      "source": "AER ST3",
-     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-02); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
+     "vintage": "AER ST3 actuals through 2026-08 (ST3 file vintage 28 September 2026; loaded 2026-10-04); seasonal baseline forecast, built 2026-10-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-10-04",
      "method": "actuals: reported. forecast: seasonal baseline (trailing-12m mean x seasonal factor from last 3 complete years).",
      "why": "ST3 adjustments leg (metering and reporting corrections). Forecast by the standard seasonal-baseline method.",
      "extra": "",
