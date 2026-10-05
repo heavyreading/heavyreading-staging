@@ -93,7 +93,18 @@
    "set_at": "2026-09-16",
    "source": "Enbridge notice, Sep 16, 2026 (Oct); Enbridge announcement (Sep)"
   },
-  "balance_highlights": [],
+  "balance_highlights": [
+   {
+    "month": "2026-11",
+    "requires_price_response_kbd": 52.2,
+    "pipe_spare_kbd": -52.2
+   },
+   {
+    "month": "2026-12",
+    "requires_price_response_kbd": 94.6,
+    "pipe_spare_kbd": -94.6
+   }
+  ],
   "latest_digest": "2026-10-05"
  },
  "meta": {
