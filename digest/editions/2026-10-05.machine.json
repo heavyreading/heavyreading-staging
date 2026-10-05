@@ -1,40 +1,6 @@
 {
  "edition": "2026-10-05",
- "generated_at": "2026-10-05T15:14:44",
+ "generated_at": "2026-10-05T15:50:51",
  "generator": "change_engine v1",
- "changes": [
-  {
-   "title": "Pipeline spare capacity revised for Nov 2027",
-   "delta": "+65 kb/d",
-   "body": "Pipeline spare capacity for Nov 2027 moved from 97 to 163 kb/d in the reconciled balance.",
-   "balance": "Looser: more room before the pipes bind.",
-   "vintage": "2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant)",
-   "source": "WCSB supply/demand balance model",
-   "confirmation": "confirmed",
-   "dedup_key": "balance-pipe_spare_kbd-2027-11-163",
-   "auto_detected": true
-  },
-  {
-   "title": "Pipeline spare capacity revised for Dec 2027",
-   "delta": "+65 kb/d",
-   "body": "Pipeline spare capacity for Dec 2027 moved from 77 to 142 kb/d in the reconciled balance.",
-   "balance": "Looser: more room before the pipes bind.",
-   "vintage": "2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant)",
-   "source": "WCSB supply/demand balance model",
-   "confirmation": "confirmed",
-   "dedup_key": "balance-pipe_spare_kbd-2027-12-142",
-   "auto_detected": true
-  },
-  {
-   "title": "Pipeline spare capacity revised for Sep 2027",
-   "delta": "+65 kb/d",
-   "body": "Pipeline spare capacity for Sep 2027 moved from 189 to 255 kb/d in the reconciled balance.",
-   "balance": "Looser: more room before the pipes bind.",
-   "vintage": "2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant)",
-   "source": "WCSB supply/demand balance model",
-   "confirmation": "confirmed",
-   "dedup_key": "balance-pipe_spare_kbd-2027-09-255",
-   "auto_detected": true
-  }
- ]
+ "changes": []
 }
