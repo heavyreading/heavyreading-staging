@@ -6,6 +6,24 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Saudi Arabia's East-West oil pipeline was halted again on Oct 4 after a fresh attack damaged a pumping station at Khurais, east of Riyadh, a source in the kingdom's energy sector told Agence France-Presse. The source said the Khurais station had not been targeted before and the damage was extensive; Kpler data cited in the report shows the line's flows had already been halted from Sep 11 to Sep 22, and the pipeline has become essential to Saudi exports since the Hormuz blockade cut the main route.",
+   "vintage": "Oct 4, 2026",
+   "source": "Agence France-Presse (via The Business Standard)",
+   "source_url": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabias-east-west-oil-pipeline-halted-again-after-fresh-attack-1563431"
+  },
+  {
+   "text": "UKMTO issued four warnings and an advisory on Oct 5 as attacks on shipping in the Strait of Hormuz intensified, including a projectile strike that set a ship's engine room on fire with the crew still fighting it and no casualties reported. UKMTO also logged Iranian forces hailing the Liberia-registered tanker Singapore Energy 11 nm north of Oman with a warning it would be fired upon unless it turned back, plus time-late reports of Oct 3-4 strikes on an LPG tanker and two crude tankers, bringing its October count to nine reports.",
+   "vintage": "Oct 5, 2026",
+   "source": "Seatrade Maritime",
+   "source_url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-warnings-in-four-hours"
+  },
+  {
+   "text": "A Bangladeshi national, Md Sajib Hossain of Cumilla, was killed on Oct 4 when a Houthi missile or drone struck a Saudi Aramco facility at Al Khurais, according to a Bangladesh foreign ministry press release issued Oct 5. The ministry condemned the attack and said its Riyadh embassy is coordinating with Saudi authorities to repatriate the body; it is the first independently reported casualty from the Oct 4 Houthi strikes on Aramco sites, which Saudi Arabia itself has still not commented on.",
+   "vintage": "Oct 4, 2026",
+   "source": "The Business Standard (Bangladesh)",
+   "source_url": "https://www.tbsnews.net/bangladesh/bangladeshi-worker-killed-houthi-attack-saudi-aramco-facility-1563591"
+  },
+  {
    "text": "Oil prices rose on October 4 after the Houthis said they fired ballistic missiles and drones at Saudi Aramco sites in Riyadh and the Khurais area, in retaliation for about 50 Saudi-led strikes in Yemen that Saudi Arabia has not confirmed. Brent crude futures rose 81 cents to $103.06 a barrel and US West Texas Intermediate (WTI) gained 46 cents to $91.57 a barrel.",
    "vintage": "Oct 4, 2026",
    "source": "Reuters (via Superhits979)",
@@ -60,24 +78,6 @@
    "source_url": "https://wanaen.com/supertanker-hit-and-catches-fire-in-strait-of-hormuz/"
   },
   {
-   "text": "A Kuwait-flagged very large crude carrier, the 317,250-dwt Kazimah III operated by Kuwait Oil Tanker Company, was struck by an unknown projectile while transiting the Strait of Hormuz on October 1, starting a fire aboard. UKMTO logged a third-party report without naming the vessel and said the crew was safe; maritime security firm Vanguard Tech identified the tanker. It was the second KOTC VLCC hit in four days, after the Al Funtas on September 28.",
-   "vintage": "Oct 1, 2026",
-   "source": "Splash247",
-   "source_url": "https://splash247.com/fresh-attacks-hit-hormuz-tanker-and-saudi-oil-gateway/"
-  },
-  {
-   "text": "No Iranian tankers loaded any crude in September, the first zero-lifting month in Kpler's tracking history back to 2013, analysts Yui Torikata and Nhway Khin Soe said. August loadings were 255,000 b/d across one VLCC, four suezmaxes, two aframaxes and one MR tanker, with the final lifting the 160,000-dwt suezmax Sarak from Kharg Island on August 25. Production was throttled to 2.06 million b/d, shore inventories sat at 66-70 million barrels (about 59% of capacity), and floating storage outside the blockade fell to 45 million barrels from 100 million in late July. Confirmed Iranian crude arrivals in China fell to about 468,000 b/d in September, roughly half June's level, though 'zombie' vessels with falsified AIS signals kept discharging obscured Iranian barrels at Chinese ports, peaking at 18 million barrels on nine VLCCs in August.",
-   "vintage": "Oct 1, 2026",
-   "source": "TradeWinds (citing Kpler)",
-   "source_url": "https://www.tradewindsnews.com/tankers/iran-tanker-loadings-plunge-to-zero-for-first-time-in-war-as-us-blockade-strangles-kharg-island-exports/2-1-2052866"
-  },
-  {
-   "text": "A Houthi attack targeted Yanbu port, starting a fire inside the Red Sea port and prompting a temporary halt to loadings, according to maritime security firm Vanguard Tech. The strike came just days after Saudi Arabia repaired the East-West Pipeline following the September 10 drone hit and resumed crude loadings, with Kpler showing all seven crude berths at Yanbu and the Muajjiz terminal occupied on September 27.",
-   "vintage": "Oct 1, 2026",
-   "source": "TradeWinds (citing Vanguard Tech)",
-   "source_url": "https://www.tradewindsnews.com/tankers/new-houthi-attack-targets-yanbu-port-/2-1-2052926"
-  },
-  {
    "text": "Three tankers were hit by unknown projectiles while transiting the Strait of Hormuz on September 29, according to time-late reports received by UKMTO: the Liberia-flagged, AIS-dark VLCC Mersin Prosperity, the Aframax Sinbad and the products tanker Al Ruwais, identified by shipping intelligence firm Marisks (carried by Reuters). A separate September 28 strike on a tanker caused a fire that has since been extinguished, with the vessel underway and crew safe.",
    "vintage": "Sep 28-29, 2026",
    "source": "OilPrice.com (Marisks via Reuters)",
@@ -100,6 +100,12 @@
    "vintage": "Sep 18-23, 2026; accessed 2026-09-29",
    "source": "Kpler / LSEG / Reuters; TankerTrackers",
    "source_url": "https://www.assafinaonline.com/en/article/Middle-East-Oil-Exports-Shift-to-New-Shuttling-System"
+  },
+  {
+   "text": "Saudi Aramco unexpectedly cut its November crude prices for Asian buyers to six-year lows, Reuters reported, while OPEC+ delayed a review that would set members' 2027 output quotas after the Iran war disrupted capacity expansion projects across the Middle East. Two sources told Reuters the delay throws estimates of future production potential into uncertainty.",
+   "vintage": "Oct 4-5, 2026",
+   "source": "Reuters (via Northland News Radio)",
+   "source_url": "https://northlandnewsradio.com/2026/10/04/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites/"
   },
   {
    "text": "Iran's rial fell to a new record low on Saturday as the central bank announced an injection of up to $2 billion to support the currency, which has lost more than half its value over the past year under U.S. sanctions and the naval blockade. The free-market dollar traded around 2.688 million rials, up from 2.632 million on Friday, with state banks selling dollars under the central bank's directive.",
@@ -186,12 +192,6 @@
    "source_url": "https://rwtnews.com/articles/gulf-crude-exports-top-a-pre-war-baseline-as-iranian-loadings-stop"
   },
   {
-   "text": "Flows through Saudi Arabia's East-West pipeline have climbed to almost 6 million barrels per day, close to June-July levels, with about 4.5 million b/d available for Red Sea exports, restoring Saudi Arabia's Hormuz bypass despite continued Houthi strikes.",
-   "vintage": "Oct 2, 2026",
-   "source": "OilPrice.com",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html"
-  },
-  {
    "text": "War-risk premiums for Saudi-linked tankers loading at Yanbu have risen to about 3% of vessel value from below 1% in early July, while ports further south face quotes as high as 7%, after the London marine insurance market classified the waters as high risk following Houthi attacks near the Bab el-Mandeb strait.",
    "vintage": "Oct 1, 2026",
    "source": "Business Insurance (citing Reuters)",
@@ -244,6 +244,12 @@
    "vintage": "Sep 18, 2026; accessed 2026-09-23",
    "source": "GeoTrends (citing Baltic Exchange)",
    "source_url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
+  },
+  {
+   "text": "Iran's parliament speaker and chief negotiator Mohammad Baqer Qalibaf said on Oct 4 that the Strait of Hormuz will not reopen until seven Iranian conditions from a June interim agreement with the US are met, adding that Washington must understand the period of dragging out the process and dictating one-sided demands is over. The statement followed Tehran's receipt, via Qatari mediators, of the US reply to its UN General Assembly proposal for a seven-day reopening; the Foreign Ministry stressed its current focus is Hormuz security, not nuclear talks, and denied offering IAEA inspections for sanctions relief.",
+   "vintage": "Oct 4, 2026",
+   "source": "Reuters (via Sowetan)",
+   "source_url": "https://www.sowetan.co.za/news/world/2026-10-04-iran-says-strait-of-hormuz-will-not-reopen-until-conditions-are-met-nournews-reports/"
   },
   {
    "text": "The U.S. is sending roughly 9,000 troops aboard ships to the Middle East, including the USS Theodore Roosevelt carrier strike group and the USS Makin Island amphibious group, potentially putting three carrier groups in the region. President Trump told Time it is possible he ramps up bombing of Iran after the Nov 3 elections, and said Iran offered to open the Strait of Hormuz in its latest ceasefire proposal, which he rejected as not good enough.",
@@ -862,9 +868,48 @@
    "vintage": "Sep 21, 2026; accessed 2026-09-24",
    "source": "SRN News (citing the Associated Press)",
    "source_url": "https://srnnews.com/uk-to-offer-saudi-arabia-aerial-refueling-to-counter-houthi-attacks/"
+  },
+  {
+   "text": "A Houthi attack targeted Yanbu port, starting a fire inside the Red Sea port and prompting a temporary halt to loadings, according to maritime security firm Vanguard Tech. The strike came just days after Saudi Arabia repaired the East-West Pipeline following the September 10 drone hit and resumed crude loadings, with Kpler showing all seven crude berths at Yanbu and the Muajjiz terminal occupied on September 27.",
+   "vintage": "Oct 1, 2026",
+   "source": "TradeWinds (citing Vanguard Tech)",
+   "source_url": "https://www.tradewindsnews.com/tankers/new-houthi-attack-targets-yanbu-port-/2-1-2052926"
+  },
+  {
+   "text": "No Iranian tankers loaded any crude in September, the first zero-lifting month in Kpler's tracking history back to 2013, analysts Yui Torikata and Nhway Khin Soe said. August loadings were 255,000 b/d across one VLCC, four suezmaxes, two aframaxes and one MR tanker, with the final lifting the 160,000-dwt suezmax Sarak from Kharg Island on August 25. Production was throttled to 2.06 million b/d, shore inventories sat at 66-70 million barrels (about 59% of capacity), and floating storage outside the blockade fell to 45 million barrels from 100 million in late July. Confirmed Iranian crude arrivals in China fell to about 468,000 b/d in September, roughly half June's level, though 'zombie' vessels with falsified AIS signals kept discharging obscured Iranian barrels at Chinese ports, peaking at 18 million barrels on nine VLCCs in August.",
+   "vintage": "Oct 1, 2026",
+   "source": "TradeWinds (citing Kpler)",
+   "source_url": "https://www.tradewindsnews.com/tankers/iran-tanker-loadings-plunge-to-zero-for-first-time-in-war-as-us-blockade-strangles-kharg-island-exports/2-1-2052866"
+  },
+  {
+   "text": "A Kuwait-flagged very large crude carrier, the 317,250-dwt Kazimah III operated by Kuwait Oil Tanker Company, was struck by an unknown projectile while transiting the Strait of Hormuz on October 1, starting a fire aboard. UKMTO logged a third-party report without naming the vessel and said the crew was safe; maritime security firm Vanguard Tech identified the tanker. It was the second KOTC VLCC hit in four days, after the Al Funtas on September 28.",
+   "vintage": "Oct 1, 2026",
+   "source": "Splash247",
+   "source_url": "https://splash247.com/fresh-attacks-hit-hormuz-tanker-and-saudi-oil-gateway/"
+  },
+  {
+   "text": "Flows through Saudi Arabia's East-West pipeline have climbed to almost 6 million barrels per day, close to June-July levels, with about 4.5 million b/d available for Red Sea exports, restoring Saudi Arabia's Hormuz bypass despite continued Houthi strikes.",
+   "vintage": "Oct 2, 2026",
+   "source": "OilPrice.com",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html"
   }
  ],
  "sources": [
+  {
+   "publisher": "Agence France-Presse (via The Business Standard)",
+   "vintage": "",
+   "url": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabias-east-west-oil-pipeline-halted-again-after-fresh-attack-1563431"
+  },
+  {
+   "publisher": "Seatrade Maritime",
+   "vintage": "",
+   "url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-warnings-in-four-hours"
+  },
+  {
+   "publisher": "The Business Standard (Bangladesh)",
+   "vintage": "",
+   "url": "https://www.tbsnews.net/bangladesh/bangladeshi-worker-killed-houthi-attack-saudi-aramco-facility-1563591"
+  },
   {
    "publisher": "Reuters (via Superhits979)",
    "vintage": "",
@@ -911,21 +956,6 @@
    "url": "https://wanaen.com/supertanker-hit-and-catches-fire-in-strait-of-hormuz/"
   },
   {
-   "publisher": "Splash247",
-   "vintage": "",
-   "url": "https://splash247.com/fresh-attacks-hit-hormuz-tanker-and-saudi-oil-gateway/"
-  },
-  {
-   "publisher": "TradeWinds (citing Kpler)",
-   "vintage": "",
-   "url": "https://www.tradewindsnews.com/tankers/iran-tanker-loadings-plunge-to-zero-for-first-time-in-war-as-us-blockade-strangles-kharg-island-exports/2-1-2052866"
-  },
-  {
-   "publisher": "TradeWinds (citing Vanguard Tech)",
-   "vintage": "",
-   "url": "https://www.tradewindsnews.com/tankers/new-houthi-attack-targets-yanbu-port-/2-1-2052926"
-  },
-  {
    "publisher": "OilPrice.com (Marisks via Reuters)",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html"
@@ -944,6 +974,11 @@
    "publisher": "Kpler / LSEG / Reuters; TankerTrackers",
    "vintage": "",
    "url": "https://www.assafinaonline.com/en/article/Middle-East-Oil-Exports-Shift-to-New-Shuttling-System"
+  },
+  {
+   "publisher": "Reuters (via Northland News Radio)",
+   "vintage": "",
+   "url": "https://northlandnewsradio.com/2026/10/04/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites/"
   },
   {
    "publisher": "Arab News (via Devdiscourse)",
@@ -1054,6 +1089,11 @@
    "publisher": "GeoTrends (citing Baltic Exchange)",
    "vintage": "",
    "url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
+  },
+  {
+   "publisher": "Reuters (via Sowetan)",
+   "vintage": "",
+   "url": "https://www.sowetan.co.za/news/world/2026-10-04-iran-says-strait-of-hormuz-will-not-reopen-until-conditions-are-met-nournews-reports/"
   },
   {
    "publisher": "Associated Press",
@@ -1514,6 +1554,21 @@
    "publisher": "SRN News (citing the Associated Press)",
    "vintage": "",
    "url": "https://srnnews.com/uk-to-offer-saudi-arabia-aerial-refueling-to-counter-houthi-attacks/"
+  },
+  {
+   "publisher": "TradeWinds (citing Vanguard Tech)",
+   "vintage": "",
+   "url": "https://www.tradewindsnews.com/tankers/new-houthi-attack-targets-yanbu-port-/2-1-2052926"
+  },
+  {
+   "publisher": "TradeWinds (citing Kpler)",
+   "vintage": "",
+   "url": "https://www.tradewindsnews.com/tankers/iran-tanker-loadings-plunge-to-zero-for-first-time-in-war-as-us-blockade-strangles-kharg-island-exports/2-1-2052866"
+  },
+  {
+   "publisher": "Splash247",
+   "vintage": "",
+   "url": "https://splash247.com/fresh-attacks-hit-hormuz-tanker-and-saudi-oil-gateway/"
   }
  ]
 }

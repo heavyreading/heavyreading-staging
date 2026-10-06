@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Two merchant vessels were hit by air and sea drones around 3 a.m. on Oct 6 inside Bulgaria's exclusive economic zone in the Black Sea, about 112 km off Byala; the Togo-flagged Alfa Watan sank with its crew missing and the Palau-flagged Able caught fire, with 18 crew rescued and two injured. Bulgarian prime minister Rumen Radev confirmed the attack, the first on shipping in Bulgarian waters, and called it a gross violation of international law; no party has claimed responsibility.",
+   "vintage": "Oct 6, 2026",
+   "source": "Reuters (via Sowetan)",
+   "source_url": "https://www.sowetan.co.za/news/world/2026-10-06-crew-missing-after-drone-sinks-ship-in-bulgarias-black-sea/"
+  },
+  {
    "text": "Bloomberg tanker-tracking data cited by OilPrice.com show Russia's seaborne crude exports averaged 3.62 million barrels per day in the four weeks to September 28, the highest since May 2024, a sign that neither India nor other major buyers have reduced purchases despite US pressure. Russia's oil and gas revenues were nevertheless expected to plunge 23 percent year on year in September on lower crude prices and a stronger ruble, per Reuters calculations cited in the piece.",
    "vintage": "Data: four weeks ending Sep 28, 2026; accessed 2026-09-24",
    "source": "OilPrice.com (citing Bloomberg tanker-tracking)",
@@ -16,6 +22,18 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "In a rare acknowledgment at the Oct 1 Valdai Club session, Putin said Ukrainian strikes on Russian refineries had cost Russia roughly 1% of GDP and conceded Kyiv had partially achieved its goal of damaging the economy, while offering no ceasefire and saying Russia would prefer talks.",
+   "vintage": "Oct 1, 2026",
+   "source": "Associated Press (via AAP)",
+   "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "On Oct 4, Zelenskyy said Ukraine would escalate its attacks on Russian energy infrastructure in response to Russian strikes on Ukraine's energy grid, saying Kyiv had to respond on their energy and pointing specifically at oil refining as the revenue source funding the war.",
+   "vintage": "Oct 4, 2026",
+   "source": "EA WorldView",
+   "source_url": "https://eaworldview.com/2026/10/ukraine-war-day-1685-kyivs-mass-attack-across-moscow-region/"
   },
   {
    "text": "President Trump said late on Wednesday that a potential U.S. diesel export ban could have 'a negative impact on gasoline,' but he did not rule it out, saying the administration discusses it daily. U.S. retail diesel hit a record $6.50 a gallon and regular gasoline averaged $4.43, a record for this time of year; Goldman Sachs analysts warned a ban would push domestic gasoline prices higher as refiners cut processing rates.",
@@ -88,6 +106,18 @@
    "vintage": "Published ~Sep 23, 2026; accessed 2026-09-24",
    "source": "Commodity Board",
    "source_url": "https://commodity-board.com/crude-oil-pauses-near-two-week-lows-while-diesel-tightens-the-market"
+  },
+  {
+   "text": "Overnight on Oct 5-6, Ukraine launched what Moscow mayor Sergei Sobyanin called one of the largest drone attacks on the capital region in two years, with about 650 drones approaching and 105 downed near the city; the regional governor reported one fatality and six injured. Monitoring channels and eyewitness footage showed flames and heavy smoke at the Volodarskaya linear production and dispatch station near Konstantinovo, Transneft's largest Moscow-region oil depot at about 3 million tons a year, which supplies fuel to the capital's three main airports; Russian authorities have not confirmed damage at the depot itself.",
+   "vintage": "Oct 5-6, 2026",
+   "source": "The Gaze (citing Astra and eyewitness footage)",
+   "source_url": "https://thegaze.media/news/moscow-fuel-hub-supplying-major-airports-hit-in-ukrainian-drone-attack"
+  },
+  {
+   "text": "Ukraine's General Staff said a drone strike ignited fires at the port of Taman in the Krasnodar region, damaging an oil storage tank, a warehouse and terminals, with regional governor Veniamin Kondratyev reporting two people wounded. The same statement said a Pantsir-S1 air defense system in occupied Crimea was also hit.",
+   "vintage": "Oct 4, 2026",
+   "source": "Hellenic Shipping News",
+   "source_url": "https://www.hellenicshippingnews.com/ukraine-hits-russian-oil-terminal-as-moscows-drone-strikes-intensify/"
   },
   {
    "text": "Ukraine's General Staff confirmed the October 1-2 strikes on the Lukoil-Volgogradneftepererabotka refinery, one of Russia's largest at about 15 million tons per year, and on Transneft's Samara tank farm plus the Samara-1 and Samara-2 pumping stations; analysts described the Samara facility as Europe's largest tank farm. Russia's defense ministry claimed to have intercepted 646 drones in the same overnight wave.",
@@ -168,6 +198,12 @@
    "source_url": "https://atlas360.news/en/news/russia-strikes-ukrainian-infrastructure-after-trump-zelensky-meeting"
   },
   {
+   "text": "The Associated Press reported on Oct 4 that the International Energy Agency estimates a Russian refinery has been successfully struck by a drone roughly once every three days in recent months. The cadence is consistent with a sustained attrition campaign but is not an independent confirmation of Ukraine's claim, which AP noted it could not verify, that 51% of Russian refining capacity is out of action.",
+   "vintage": "Oct 4, 2026",
+   "source": "Associated Press (via AAP)",
+   "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
    "text": "Ukraine's Defence Ministry said on October 4 that long-range strikes have put 51% of Russia's oil refining capacity out of action, citing strikes on refineries in Moscow, Yaroslavl, Perm, Saratov and Syzran plus the Kirishi (Kinef) and Ust-Luga plants. The claim could not be independently verified. President Vladimir Putin told the Valdai forum on October 1 that the strikes had cost Russia about 1% of gross domestic product (GDP), while International Energy Agency (IEA) data cited in the report says Russian diesel output has fallen about 30%, with drivers queuing up to 40 hours at filling stations and Moscow banning diesel exports.",
    "vintage": "Oct 4, 2026",
    "source": "The Pink Un (AP wire)",
@@ -182,6 +218,11 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via Sowetan)",
+   "vintage": "",
+   "url": "https://www.sowetan.co.za/news/world/2026-10-06-crew-missing-after-drone-sinks-ship-in-bulgarias-black-sea/"
+  },
+  {
    "publisher": "OilPrice.com (citing Bloomberg tanker-tracking)",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Crude-Shipments-Hit-16-Month-High-Despite-US-Sanctions.html"
@@ -190,6 +231,16 @@
    "publisher": "Maritime Professional (citing traders)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "publisher": "Associated Press (via AAP)",
+   "vintage": "",
+   "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "EA WorldView",
+   "vintage": "",
+   "url": "https://eaworldview.com/2026/10/ukraine-war-day-1685-kyivs-mass-attack-across-moscow-region/"
   },
   {
    "publisher": "OilPrice.com",
@@ -250,6 +301,16 @@
    "publisher": "Commodity Board",
    "vintage": "",
    "url": "https://commodity-board.com/crude-oil-pauses-near-two-week-lows-while-diesel-tightens-the-market"
+  },
+  {
+   "publisher": "The Gaze (citing Astra and eyewitness footage)",
+   "vintage": "",
+   "url": "https://thegaze.media/news/moscow-fuel-hub-supplying-major-airports-hit-in-ukrainian-drone-attack"
+  },
+  {
+   "publisher": "Hellenic Shipping News",
+   "vintage": "",
+   "url": "https://www.hellenicshippingnews.com/ukraine-hits-russian-oil-terminal-as-moscows-drone-strikes-intensify/"
   },
   {
    "publisher": "OSNT.IN",
