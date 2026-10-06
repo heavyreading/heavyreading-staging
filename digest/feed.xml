@@ -136,5 +136,14 @@
     <enclosure url="https://pub-9df98d7efbc74d9fbe1dfe6431229e0e.r2.dev/2026-10-05.mp3" length="2230125" type="audio/mpeg"/>
     <itunes:duration>4:39</itunes:duration>
   </item>
+  <item>
+    <title>Heavy Reading Morning Digest, October 6, 2026</title>
+    <description>WTI hovered near $89.33 overnight while Brent held around $100.28; Saudi Aramco cut its Arab Light official price for Asia to a six-year low as Middle East exports beat pre-war levels four days last week. The diesel crack settled back above $100 Monday ($101.47). Today&#x27;s binary: SPR exchange bids due 11:00 a.m. Central.</description>
+    <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">heavyreading-digest-2026-10-06</guid>
+    <link>https://heavyreading.ca/digest/2026-10-06/index.html</link>
+    <enclosure url="https://pub-9df98d7efbc74d9fbe1dfe6431229e0e.r2.dev/2026-10-06.mp3" length="1657581" type="audio/mpeg"/>
+    <itunes:duration>3:27</itunes:duration>
+  </item>
 </channel>
 </rss>
