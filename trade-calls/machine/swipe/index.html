@@ -107,7 +107,7 @@ function dayKey(offset) {
   return d.toISOString().slice(0, 10);
 }
 function getY() {
-  try { return JSON.parse(localStorage.getItem('tm_' + dayKey(-1)) || {}; }
+  try { var r = localStorage.getItem('tm_' + dayKey(-1)); return r ? JSON.parse(r) : {}; }
   catch (e) { return {}; }
 }
 function saveToday() {
