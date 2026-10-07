@@ -6,6 +6,24 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Twelve seafarers were injured when the 114,600-dwt LR2 tanker On Peace was struck by a projectile while crossing the Strait of Hormuz; UKMTO confirmed the incident and the wounded were hospitalised in Khasab, Oman, on Oct 6.",
+   "vintage": "Oct 6, 2026",
+   "source": "TradeWinds",
+   "source_url": "https://www.tradewindsnews.com/casualties/multiple-seafarers-injured-after-tanker-struck-in-new-iranian-strait-of-hormuz-attack/2-1-2054398"
+  },
+  {
+   "text": "Yemen's Houthis claimed three operations on Oct 6 using ballistic and cruise missiles plus drones, targeting King Khalid International Airport in Riyadh, an Aramco refinery in Rabigh, and military sites across southern Saudi Arabia, and warned international airlines against using Saudi airspace; Saudi authorities did not immediately comment.",
+   "vintage": "Oct 6, 2026",
+   "source": "Anadolu Agency (via MCI Group)",
+   "source_url": "https://mcigroup.my/world-news/houthis-claim-attacks-on-saudi-airports-state-oil-refinery-military-sites/"
+  },
+  {
+   "text": "Saudi naval forces struck military targets in the Houthi-held Red Sea port of Hodeidah, destroying weapons depots and facilities holding booby-trapped boats and naval mines, coalition spokesman Turki Al-Malki said, adding that the operation prevented a planned attack on shipping routes in the southern Red Sea.",
+   "vintage": "Oct 6, 2026",
+   "source": "Anadolu Agency (via DainikNews Live)",
+   "source_url": "https://dainiknewslive.in/from-riyadh-airport-to-aramco-refinery-yemens-houthis-claim-strikes-across-saudi-arabia/"
+  },
+  {
    "text": "Saudi Arabia's East-West oil pipeline was halted again on Oct 4 after a fresh attack damaged a pumping station at Khurais, east of Riyadh, a source in the kingdom's energy sector told Agence France-Presse. The source said the Khurais station had not been targeted before and the damage was extensive; Kpler data cited in the report shows the line's flows had already been halted from Sep 11 to Sep 22, and the pipeline has become essential to Saudi exports since the Hormuz blockade cut the main route.",
    "vintage": "Oct 4, 2026",
    "source": "Agence France-Presse (via The Business Standard)",
@@ -186,6 +204,12 @@
    "source_url": "https://docs.house.gov/meetings/FA/FA00/20250401/118069/HHRG-119-FA00-Wstate-JungmanC-20250401.pdf"
   },
   {
+   "text": "Fox News reported that Saudi Arabia's East-West Pipeline, which moves roughly 2.6 to 4 million b/d of crude from the Gulf to the Red Sea, could stay largely offline for three to five weeks of repairs after the Oct 4 attack damaged a pumping station at Khurais.",
+   "vintage": "Oct 4-5, 2026",
+   "source": "Fox News (via Unbiased Headlines)",
+   "source_url": "https://unbiasedheadlines.com/article/three-more-tankers-hit-in-hormuz-as-houthis-claim-riyadh-refinery-strike-and-saudi-pipeline-stays-offline"
+  },
+  {
    "text": "Kpler data reported by CNBC put the seven-day average of crude transiting Hormuz at 13.5 million b/d as of September 28, matching the firm's pre-war baseline for the corridor, while total Middle East Gulf crude shipments including Red Sea outlets ran about 16.5 million b/d in September excluding Iran. The recovery is not a return to normal: over 70 percent of crude crossing the strait changed tankers off Fujairah or Oman in August, refined-product flows through Hormuz remain only about 677,000 b/d versus roughly 3.6 million b/d before the war, and Iran's own crude loadings have effectively hit zero.",
    "vintage": "Oct 2, 2026",
    "source": "CNBC (via RWT News)",
@@ -244,6 +268,18 @@
    "vintage": "Sep 18, 2026; accessed 2026-09-23",
    "source": "GeoTrends (citing Baltic Exchange)",
    "source_url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
+  },
+  {
+   "text": "UKMTO logged five incidents on Oct 5 in and near the Strait of Hormuz: four tanker attacks, including delayed reports of an Oct 4 strike on an inbound LPG tanker and another on a crude oil tanker, plus an inbound tanker hailed by IRGC forces off Khasab, Oman, and ordered to turn back or risk being targeted; the tanker complied.",
+   "vintage": "Oct 5, 2026",
+   "source": "UKMTO (via Marine Insight)",
+   "source_url": "https://www.marineinsight.com/four-tankers-attacked-another-vessel-threatened-by-irans-irgc-in-strait-of-hormuz/"
+  },
+  {
+   "text": "President Trump said on Oct 6 he was 'always open' to direct talks with Iran, even as UKMTO logged a ninth ship attack in the region within a week; the remarks followed a reported Camp David meeting where Vice President Vance and Secretary of State Rubio discussed next steps in the Iran war.",
+   "vintage": "Oct 6, 2026",
+   "source": "Stock Market Watch",
+   "source_url": "https://www2.stockmarketwatch.com/stock-market-news/trump-signals-openness-to-iran-talks-amid-escalating-hormuz-tanker-attacks/72638/"
   },
   {
    "text": "Iran's parliament speaker and chief negotiator Mohammad Baqer Qalibaf said on Oct 4 that the Strait of Hormuz will not reopen until seven Iranian conditions from a June interim agreement with the US are met, adding that Washington must understand the period of dragging out the process and dictating one-sided demands is over. The statement followed Tehran's receipt, via Qatari mediators, of the US reply to its UN General Assembly proposal for a seven-day reopening; the Foreign Ministry stressed its current focus is Hormuz security, not nuclear talks, and denied offering IAEA inspections for sanctions relief.",
@@ -896,6 +932,21 @@
  ],
  "sources": [
   {
+   "publisher": "TradeWinds",
+   "vintage": "",
+   "url": "https://www.tradewindsnews.com/casualties/multiple-seafarers-injured-after-tanker-struck-in-new-iranian-strait-of-hormuz-attack/2-1-2054398"
+  },
+  {
+   "publisher": "Anadolu Agency (via MCI Group)",
+   "vintage": "",
+   "url": "https://mcigroup.my/world-news/houthis-claim-attacks-on-saudi-airports-state-oil-refinery-military-sites/"
+  },
+  {
+   "publisher": "Anadolu Agency (via DainikNews Live)",
+   "vintage": "",
+   "url": "https://dainiknewslive.in/from-riyadh-airport-to-aramco-refinery-yemens-houthis-claim-strikes-across-saudi-arabia/"
+  },
+  {
    "publisher": "Agence France-Presse (via The Business Standard)",
    "vintage": "",
    "url": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabias-east-west-oil-pipeline-halted-again-after-fresh-attack-1563431"
@@ -1041,6 +1092,11 @@
    "url": "https://docs.house.gov/meetings/FA/FA00/20250401/118069/HHRG-119-FA00-Wstate-JungmanC-20250401.pdf"
   },
   {
+   "publisher": "Fox News (via Unbiased Headlines)",
+   "vintage": "",
+   "url": "https://unbiasedheadlines.com/article/three-more-tankers-hit-in-hormuz-as-houthis-claim-riyadh-refinery-strike-and-saudi-pipeline-stays-offline"
+  },
+  {
    "publisher": "CNBC (via RWT News)",
    "vintage": "",
    "url": "https://rwtnews.com/articles/gulf-crude-exports-top-a-pre-war-baseline-as-iranian-loadings-stop"
@@ -1089,6 +1145,16 @@
    "publisher": "GeoTrends (citing Baltic Exchange)",
    "vintage": "",
    "url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
+  },
+  {
+   "publisher": "UKMTO (via Marine Insight)",
+   "vintage": "",
+   "url": "https://www.marineinsight.com/four-tankers-attacked-another-vessel-threatened-by-irans-irgc-in-strait-of-hormuz/"
+  },
+  {
+   "publisher": "Stock Market Watch",
+   "vintage": "",
+   "url": "https://www2.stockmarketwatch.com/stock-market-news/trump-signals-openness-to-iran-talks-amid-escalating-hormuz-tanker-attacks/72638/"
   },
   {
    "publisher": "Reuters (via Sowetan)",

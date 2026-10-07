@@ -6,6 +6,18 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Overnight strikes on Oct 3-4 hit the Lazarevo pumping station on the Surgut-Gorky-Polotsk crude pipeline in the Kirov region, sparked a large fire at the Saratov refinery on the Volga, and set a fuel depot ablaze in Matveyev Kurgan; Moscow-appointed authorities in Crimea restricted gasoline sales without stating a reason.",
+   "vintage": "Oct 3-4, 2026",
+   "source": "Pipeline Technology Journal",
+   "source_url": "https://www.pipeline-journal.net/news/ukraine-drone-strikes-target-major-russian-oil-pipeline-station-and-refineries"
+  },
+  {
+   "text": "The Black Sea export port of Novorossiysk suspended oil exports for several days after a major Ukrainian attack on the port early on Oct 2, the same Reuters-sourced reporting said, as Ukraine's campaign widened from refineries to export terminals.",
+   "vintage": "Oct 2, 2026",
+   "source": "OilPrice.com (citing Reuters)",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Ukrainian-Drone-Strike-Halts-Russias-Fourth-Largest-Oil-Refinery.html"
+  },
+  {
    "text": "Two merchant vessels were hit by air and sea drones around 3 a.m. on Oct 6 inside Bulgaria's exclusive economic zone in the Black Sea, about 112 km off Byala; the Togo-flagged Alfa Watan sank with its crew missing and the Palau-flagged Able caught fire, with 18 crew rescued and two injured. Bulgarian prime minister Rumen Radev confirmed the attack, the first on shipping in Bulgarian waters, and called it a gross violation of international law; no party has claimed responsibility.",
    "vintage": "Oct 6, 2026",
    "source": "Reuters (via Sowetan)",
@@ -106,6 +118,18 @@
    "vintage": "Published ~Sep 23, 2026; accessed 2026-09-24",
    "source": "Commodity Board",
    "source_url": "https://commodity-board.com/crude-oil-pauses-near-two-week-lows-while-diesel-tightens-the-market"
+  },
+  {
+   "text": "President Zelenskyy said on Oct 7 that Ukrainian forces struck two oil facilities and a training ground in the Perm, Samara and Astrakhan regions over the past day, calling them 'justified responses' to Russian strikes on Ukraine.",
+   "vintage": "Oct 7, 2026",
+   "source": "AnewZ",
+   "source_url": "https://anewz.tv/world/world-news/25182/ukraine-war-latest-russian-strikes-kill-11-zelenskyy-says/news"
+  },
+  {
+   "text": "Rosneft's Ryazan refinery, Russia's fourth-largest at more than 260,000 b/d, suspended crude processing after a weekend drone attack; Reuters industry sources said the plant is expected to stay idle until the end of the month with no product loadings planned before Dec 1, and a second crude unit is under repair after an earlier strike that took about 80,000 b/d offline.",
+   "vintage": "Oct 6, 2026",
+   "source": "OilPrice.com (citing Reuters industry sources)",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Ukrainian-Drone-Strike-Halts-Russias-Fourth-Largest-Oil-Refinery.html"
   },
   {
    "text": "Overnight on Oct 5-6, Ukraine launched what Moscow mayor Sergei Sobyanin called one of the largest drone attacks on the capital region in two years, with about 650 drones approaching and 105 downed near the city; the regional governor reported one fatality and six injured. Monitoring channels and eyewitness footage showed flames and heavy smoke at the Volodarskaya linear production and dispatch station near Konstantinovo, Transneft's largest Moscow-region oil depot at about 3 million tons a year, which supplies fuel to the capital's three main airports; Russian authorities have not confirmed damage at the depot itself.",
@@ -218,6 +242,16 @@
  ],
  "sources": [
   {
+   "publisher": "Pipeline Technology Journal",
+   "vintage": "",
+   "url": "https://www.pipeline-journal.net/news/ukraine-drone-strikes-target-major-russian-oil-pipeline-station-and-refineries"
+  },
+  {
+   "publisher": "OilPrice.com (citing Reuters)",
+   "vintage": "",
+   "url": "https://oilprice.com/Energy/Energy-General/Ukrainian-Drone-Strike-Halts-Russias-Fourth-Largest-Oil-Refinery.html"
+  },
+  {
    "publisher": "Reuters (via Sowetan)",
    "vintage": "",
    "url": "https://www.sowetan.co.za/news/world/2026-10-06-crew-missing-after-drone-sinks-ship-in-bulgarias-black-sea/"
@@ -303,6 +337,16 @@
    "url": "https://commodity-board.com/crude-oil-pauses-near-two-week-lows-while-diesel-tightens-the-market"
   },
   {
+   "publisher": "AnewZ",
+   "vintage": "",
+   "url": "https://anewz.tv/world/world-news/25182/ukraine-war-latest-russian-strikes-kill-11-zelenskyy-says/news"
+  },
+  {
+   "publisher": "OilPrice.com (citing Reuters industry sources)",
+   "vintage": "",
+   "url": "https://oilprice.com/Energy/Energy-General/Ukrainian-Drone-Strike-Halts-Russias-Fourth-Largest-Oil-Refinery.html"
+  },
+  {
    "publisher": "The Gaze (citing Astra and eyewitness footage)",
    "vintage": "",
    "url": "https://thegaze.media/news/moscow-fuel-hub-supplying-major-airports-hit-in-ukrainian-drone-attack"
@@ -366,11 +410,6 @@
    "publisher": "Reuters (via Europesays)",
    "vintage": "",
    "url": "https://www.europesays.com/ukraine/48021/"
-  },
-  {
-   "publisher": "Pipeline Technology Journal",
-   "vintage": "",
-   "url": "https://www.pipeline-journal.net/news/ukraine-drone-strikes-target-major-russian-oil-pipeline-station-and-refineries"
   },
   {
    "publisher": "Atlas360",
