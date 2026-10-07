@@ -9,265 +9,269 @@
           --green:#34d399; --red:#f87171; --yellow:#fbbf24; --blue:#60a5fa; --border:#2d3139; }
   * { box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent; }
   body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,sans-serif;
-         overflow:hidden; height:100vh; height:100dvh; -webkit-font-smoothing:antialiased;
-         touch-action:pan-y; user-select:none; -webkit-user-select:none; }
-  .topbar { padding:14px 16px 8px; text-align:center; }
+         height:100vh; height:100dvh; display:flex; flex-direction:column;
+         -webkit-font-smoothing:antialiased; user-select:none; -webkit-user-select:none; overflow:hidden; }
+  .topbar { padding:14px 16px 8px; text-align:center; flex-shrink:0; }
   .topbar .count { font-size:13px; color:var(--muted); }
   .topbar .bar { height:4px; background:var(--border); border-radius:2px; margin-top:8px; overflow:hidden; }
   .topbar .fill { height:100%; background:var(--blue); border-radius:2px; transition:width .3s; }
-  .deck { position:relative; flex:1; margin:12px 16px; height:calc(100dvh - 220px); min-height:320px; }
-  .card {
-    position:absolute; inset:0; background:var(--card); border:1px solid var(--border);
-    border-radius:16px; padding:24px 20px; display:flex; flex-direction:column;
-    transition:transform .25s ease, opacity .25s ease;
-    box-shadow:0 8px 32px rgba(0,0,0,.4);
-  }
-  .card .grade { font-size:11px; font-weight:700; color:var(--blue); text-transform:uppercase; letter-spacing:.5px; }
-  .card h2 { font-size:22px; margin:6px 0 8px; }
-  .card .desc { font-size:14px; color:var(--muted); line-height:1.5; flex:1; }
-  .card .yesterday { font-size:12px; color:var(--muted); margin-top:12px; padding-top:12px; border-top:1px solid var(--border); }
-  .card .stamp {
-    position:absolute; top:20px; right:20px; font-size:28px; font-weight:800;
-    padding:4px 12px; border-radius:8px; opacity:0; transform:rotate(12deg);
-    transition:opacity .15s;
-  }
+  .deck { position:relative; flex:1; margin:12px 16px; min-height:200px; }
+  .card { position:absolute; inset:0; background:var(--card); border:1px solid var(--border);
+          border-radius:16px; padding:20px; display:flex; flex-direction:column; overflow-y:auto;
+          transition:transform .25s ease, opacity .25s ease; box-shadow:0 8px 32px rgba(0,0,0,.4); }
+  .card .grade-tag { font-size:11px; font-weight:700; color:var(--blue); text-transform:uppercase; letter-spacing:.5px; }
+  .card h2 { font-size:20px; margin:6px 0 8px; }
+  .card .desc { font-size:14px; color:var(--muted); line-height:1.5; }
+  .card .stamp { position:absolute; top:16px; right:16px; font-size:24px; font-weight:800;
+                 padding:4px 12px; border-radius:8px; opacity:0; transform:rotate(12deg); transition:opacity .15s; }
   .card .stamp.bull { color:var(--green); border:3px solid var(--green); }
   .card .stamp.bear { color:var(--red); border:3px solid var(--red); }
-  .swipe-hint { text-align:center; color:var(--muted); font-size:13px; padding:0 16px; }
-  .actions { display:flex; gap:12px; padding:16px; padding-bottom:calc(16px + env(safe-area-inset-bottom)); }
-  .act {
-    flex:1; padding:16px; border-radius:14px; border:2px solid var(--border);
-    background:var(--card); font-size:28px; cursor:pointer; text-align:center;
-  }
-  .act:active { transform:scale(.94); }
-  .act.bear-btn { border-color:rgba(248,113,113,.4); }
-  .act.flat-btn { border-color:rgba(251,191,36,.4); font-size:20px; }
-  .act.bull-btn { border-color:rgba(52,211,153,.4); }
-  .done { text-align:center; padding:60px 24px; }
-  .done h2 { font-size:24px; margin-bottom:12px; }
-  .gbtn { flex:1; padding:14px 8px; font-size:15px; border-radius:8px; border:1px solid var(--border);
-           background:transparent; color:var(--muted); font-size:13px; font-weight:600; cursor:pointer; }
+  .grade-pick { margin-top:12px; padding:12px; background:rgba(96,165,250,.06); border-radius:10px;
+                border:1px dashed rgba(96,165,250,.3); }
+  .grade-pick .lbl { font-size:12px; font-weight:700; color:var(--blue); margin-bottom:8px; }
+  .grade-row { display:flex; gap:8px; }
+  .gbtn { flex:1; padding:12px 4px; border-radius:8px; border:1px solid var(--border);
+          background:transparent; color:var(--muted); font-size:14px; font-weight:700; cursor:pointer; }
   .gbtn.sel { border-color:var(--blue); color:var(--blue); background:rgba(96,165,250,.12); }
-  .done .btn { display:inline-block; margin-top:20px; padding:14px 36px; border-radius:12px;
-               background:var(--blue); color:#fff; font-weight:700; text-decoration:none; }
-  @keyframes pulse { 0%,100% { transform:scale(1); } 50% { transform:scale(1.05); } }
+  .note-in { margin-top:10px; width:100%; padding:10px; border:1px solid var(--border); border-radius:8px;
+             background:var(--bg); color:var(--text); font-size:14px; font-family:inherit; }
+  .note-in::placeholder { color:var(--muted); }
+  .yday { margin-top:10px; padding:10px; background:rgba(96,165,250,.06); border-radius:8px; font-size:13px; }
+  .yday .ylbl { font-size:11px; font-weight:700; color:var(--blue); margin-bottom:4px; }
+  .yday-btns { display:flex; gap:8px; margin-top:8px; }
+  .yday-btns button { flex:1; padding:10px; border-radius:8px; font-weight:700; font-size:13px; cursor:pointer; }
+  .yday-keep { border:none; background:var(--green); color:#06281c; }
+  .yday-drop { border:1px solid var(--border); background:transparent; color:var(--muted); }
+  .swipe-hint { text-align:center; color:var(--muted); font-size:13px; padding:0 16px 8px; flex-shrink:0; }
+  .actions { display:flex; gap:12px; padding:0 16px 16px; padding-bottom:calc(16px + env(safe-area-inset-bottom)); flex-shrink:0; }
+  .act { flex:1; padding:16px; border-radius:14px; border:2px solid var(--border);
+         background:var(--card); font-size:28px; cursor:pointer; text-align:center; }
+  .act:active { transform:scale(.94); }
+  .fup-card { border-color:var(--yellow) !important; }
+  .fup-card .grade-tag { color:var(--yellow); }
+  .fup-q { font-size:17px; font-weight:600; margin:16px 0; line-height:1.4; }
+  .fup-btns { display:flex; gap:8px; margin-top:12px; }
+  .fup-btns button { padding:12px; border-radius:8px; font-weight:700; cursor:pointer; }
+  .fup-skip { flex:1; border:1px solid var(--border); background:transparent; color:var(--muted); }
+  .fup-next { flex:2; border:none; background:var(--blue); color:#fff; }
+  .done { text-align:center; padding:40px 20px; }
+  .done h2 { font-size:24px; margin-bottom:12px; }
+  .done-item { text-align:left; font-size:13px; padding:10px; border-bottom:1px solid var(--border); }
+  @keyframes pulse { 0%,100% { transform:scale(1); } 50% { transform:scale(1.04); } }
 </style>
 </head>
 <body>
 
 <div class="topbar">
-  <div class="count" id="count">Factor 1 of 5 · swipe or tap</div>
+  <div class="count" id="count">Loading…</div>
   <div class="bar"><div class="fill" id="fill" style="width:0%"></div></div>
 </div>
-
 <div class="deck" id="deck"></div>
-
-<div class="swipe-hint">← bearish &nbsp;·&nbsp; tap card = skip &nbsp;·&nbsp; bullish →</div>
-
-<div class="actions">
-  <button class="act bear-btn" onclick="vote(-1)">🔴</button>
-  <button class="act flat-btn" onclick="vote(0)">SKIP</button>
-  <button class="act bull-btn" onclick="vote(1)">🟢</button>
+<div class="swipe-hint" id="hint">← bearish &nbsp;·&nbsp; tap card = skip &nbsp;·&nbsp; bullish →</div>
+<div class="actions" id="actions">
+  <button class="act" style="border-color:rgba(248,113,113,.4)" onclick="vote(-1)">🔴</button>
+  <button class="act" style="border-color:rgba(251,191,36,.4);font-size:18px;font-weight:700;color:var(--yellow)" onclick="vote(0)">SKIP</button>
+  <button class="act" style="border-color:rgba(52,211,153,.4)" onclick="vote(1)">🟢</button>
 </div>
 
 <script>
-const factors = [
+var factors = [
   { name:"Rumours & Chatter", grade:"WCS",
-    desc:"Any rumours of operating issues, unplanned outages, or market gossip not on the wires yet?",
-    yesterday:"Flat / 2" },
+    desc:"Any rumours of operating issues, unplanned outages, or market gossip not on the wires yet?" },
   { name:"Trump Wildcard", grade:"WCS · SCO · Flat",
-    desc:"Any new Trump statements, tariff threats, or policy moves affecting crude?",
-    yesterday:"Flat / 2" },
+    desc:"Any new Trump statements, tariff threats, or policy moves affecting crude?" },
   { name:"China: What is Xi Doing?", grade:"WCS · SCO · Flat",
-    desc:"SPR fills/draws, refinery quotas, stimulus, teapot runs. Any signals?",
-    yesterday:"Bullish / 3" },
+    desc:"SPR fills/draws, refinery quotas, stimulus, teapot runs. Any signals?" },
   { name:"Whale Stop Dynamics", grade:"WCS",
-    desc:"Is the market ripe for a whale to roll stops? Stops clustered at obvious levels?",
-    yesterday:"Flat / 1" },
+    desc:"Is the market ripe for a whale to roll stops? Stops clustered at obvious levels?" },
   { name:"Marginal Buyer / Seller", grade:"WCS",
-    desc:"Who HAS to trade right now? Forced flows?",
-    yesterday:"Flat / 1" },
+    desc:"Who HAS to trade right now? Forced flows?" }
 ];
-let idx = 0, results = [];
-const deck = document.getElementById('deck');
 
-function getYesterday() {
-  try {
-    const raw = localStorage.getItem('tm_scores_' + yesterdayKey());
-    return raw ? JSON.parse(raw) : {};
-  } catch(e) { return {}; }
+var followUps = {
+  "Rumours & Chatter": [
+    "Are you seeing cash trades consistent with this rumour?",
+    "Is the futures curve confirming, or is cash diverging?",
+    "How reliable is the source?"
+  ],
+  "Trump Wildcard": ["Is this priced in yet, or fresh?", "Which grade does it hit hardest?"],
+  "China: What is Xi Doing?": ["SPR or commercial demand?", "How many barrels are we talking?"]
+};
+
+var idx = 0, results = [], selGrades = [], pendingFup = null;
+var deck = document.getElementById('deck');
+
+function dayKey(offset) {
+  var d = new Date(); d.setDate(d.getDate() + (offset || 0));
+  return d.toISOString().slice(0, 10);
 }
-function yesterdayKey() {
-  const d = new Date(); d.setDate(d.getDate() - 1);
-  return d.toISOString().slice(0,10);
-}
-function todayKey() {
-  return new Date().toISOString().slice(0,10);
+function getY() {
+  try { return JSON.parse(localStorage.getItem('tm_' + dayKey(-1)) || {}; }
+  catch (e) { return {}; }
 }
 function saveToday() {
   try {
-    localStorage.setItem('tm_scores_' + todayKey(), JSON.stringify(
-      Object.fromEntries(results.map(r => [r.factor, r]))
-    ));
-  } catch(e) {}
+    var o = {};
+    results.forEach(function (r) { o[r.factor] = r; });
+    localStorage.setItem('tm_' + dayKey(0), JSON.stringify(o));
+  } catch (e) {}
 }
 
 function render() {
-  if (idx >= factors.length) { showDone(); saveToday(); return; }
-  const f = factors[idx];
-  const y = getYesterday()[f.name];
-  deck.innerHTML = `
-    <div class="card" id="card">
-      <div class="stamp bull" id="stampBull">BULLISH</div>
-      <div class="stamp bear" id="stampBear">BEARISH</div>
-      <div class="grade">${f.grade}</div>
-      <h2>${f.name}</h2>
-      <div class="desc">${f.desc}</div>
-      <div style="margin-top:14px;padding:12px;background:rgba(96,165,250,.06);border-radius:10px;border:1px dashed rgba(96,165,250,.3);">
-        <div style="font-size:13px;font-weight:700;color:var(--blue);margin-bottom:8px;">👆 TAP GRADE(S) FIRST, THEN SWIPE</div>
-        <div style="display:flex;gap:8px;" id="gradeRow">
-          <button class="gbtn" data-g="WCS" onclick="selGrade(this)">WCS</button>
-          <button class="gbtn" data-g="SCO" onclick="selGrade(this)">SCO</button>
-          <button class="gbtn" data-g="MSW" onclick="selGrade(this)">MSW</button>
-          <button class="gbtn" data-g="FLAT" onclick="selGrade(this)">FLAT</button>
-        </div>
-      </div>
-      <input id="noteInput" placeholder="What? e.g. 'upgrader issues'"
-             style="margin-top:10px;width:100%;padding:10px;border:1px solid var(--border);
-                    border-radius:8px;background:var(--bg);color:var(--text);font-size:14px;">
-      ${y ? `
-      <div style="margin-top:12px;padding:12px;background:rgba(96,165,250,.08);border-radius:8px;border:1px solid rgba(96,165,250,.2);">
-        <div style="font-size:12px;color:var(--blue);font-weight:700;margin-bottom:4px;">YESTERDAY</div>
-        <div style="font-size:14px;">
-          ${y.direction===1?'🟢 Bullish':y.direction===-1?'🔴 Bearish':'🟡 Flat'}
-          ${y.grades?.length?` <span style="color:var(--blue)">[${y.grades.join(',')}]</span>`:''}
-        </div>
-        ${y.note?`<div style="font-size:13px;color:var(--muted);margin-top:4px;">"${y.note}"</div>`:''}
-        ${y.followUps?.length?`<div style="font-size:12px;color:var(--muted);margin-top:4px;">↳ ${y.followUps.join(' · ')}</div>`:''}
-        <div style="display:flex;gap:6px;margin-top:8px;">
-          <button onclick="keepYesterday()" style="flex:1;padding:10px;border-radius:8px;border:none;background:var(--green);color:#06281c;font-weight:700;font-size:13px;">✓ Still valid</button>
-          <button onclick="dropYesterday()" style="flex:1;padding:10px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--muted);font-weight:600;font-size:13px;">✕ Gone</button>
-        </div>
-        <div style="font-size:11px;color:var(--muted);margin-top:6px;text-align:center;">Or swipe below to update</div>
-      </div>`
-      : `<div class="yesterday">No score yesterday — fresh card</div>`}
-    </div>`;
-  document.getElementById('count').textContent = `Factor ${idx+1} of ${factors.length} · swipe or tap`;
+  if (idx >= factors.length) { finish(); return; }
+  var f = factors[idx], y = getY()[f.name];
+  var yHtml = '';
+  if (y) {
+    var dirIcon = y.direction === 1 ? '🟢 Bullish' : y.direction === -1 ? '🔴 Bearish' : '🟡 Flat';
+    yHtml = '<div class="yday"><div class="ylbl">YESTERDAY</div>'
+      + '<div>' + dirIcon
+      + (y.grades && y.grades.length ? ' <span style="color:var(--blue)">[' + y.grades.join(',') + ']</span>' : '')
+      + '</div>'
+      + (y.note ? '<div style="color:var(--muted);margin-top:4px">"' + esc(y.note) + '"</div>' : '')
+      + '<div class="yday-btns">'
+      + '<button class="yday-keep" onclick="keepY()">✓ Still valid</button>'
+      + '<button class="yday-drop" onclick="dropY()">✕ Gone</button>'
+      + '</div><div style="font-size:11px;color:var(--muted);margin-top:6px;text-align:center">Or swipe below to update</div></div>';
+  }
+  deck.innerHTML =
+    '<div class="card" id="card">'
+    + '<div class="stamp bull" id="stB">BULLISH</div><div class="stamp bear" id="stR">BEARISH</div>'
+    + '<div class="grade-tag">' + f.grade + '</div><h2>' + f.name + '</h2>'
+    + '<div class="desc">' + f.desc + '</div>'
+    + '<div class="grade-pick" id="gpick"><div class="lbl">👆 TAP GRADE(S) FIRST, THEN SWIPE</div>'
+    + '<div class="grade-row" id="grow">'
+    + ['WCS','SCO','MSW','FLAT'].map(function (g) {
+        return '<button class="gbtn" data-g="' + g + '" onclick="tg(this)">' + g + '</button>';
+      }).join('')
+    + '</div></div>'
+    + '<input class="note-in" id="noteIn" placeholder="What? e.g. upgrader issues">'
+    + yHtml
+    + '</div>';
+  document.getElementById('count').textContent = 'Factor ' + (idx + 1) + ' of ' + factors.length + ' · swipe or tap';
   document.getElementById('fill').style.width = (idx / factors.length * 100) + '%';
-  attachSwipe();
+  selGrades = [];
+  wireSwipe();
 }
 
-function attachSwipe() {
-  const card = document.getElementById('card');
-  let sx = 0, dx = 0, dragging = false;
-  card.addEventListener('touchstart', e => { sx = e.touches[0].clientX; dragging = true; }, {passive:true});
-  card.addEventListener('touchmove', e => {
-    if (!dragging) return;
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+
+function tg(el) {
+  el.classList.toggle('sel');
+  var g = el.dataset.g;
+  selGrades = el.classList.contains('sel')
+    ? selGrades.concat([g]) : selGrades.filter(function (x) { return x !== g; });
+}
+
+function keepY() {
+  var y = getY()[factors[idx].name];
+  var r = Object.assign({}, y, { factor: factors[idx].name, carried: true });
+  results.push(r);
+  fly(0); setTimeout(next, 200);
+}
+function dropY() {
+  var els = deck.querySelectorAll('.yday');
+  els.forEach(function (e) { e.style.display = 'none'; });
+}
+
+function wireSwipe() {
+  var card = document.getElementById('card');
+  var sx = 0, dx = 0, on = false;
+  card.addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; on = true; }, { passive: true });
+  card.addEventListener('touchmove', function (e) {
+    if (!on) return;
     dx = e.touches[0].clientX - sx;
-    card.style.transform = `translateX(${dx}px) rotate(${dx/20}deg)`;
-    document.getElementById('stampBull').style.opacity = dx > 60 ? 1 : 0;
-    document.getElementById('stampBear').style.opacity = dx < -60 ? 1 : 0;
-  }, {passive:true});
-  card.addEventListener('touchend', () => {
-    dragging = false;
+    card.style.transform = 'translateX(' + dx + 'px) rotate(' + (dx / 20) + 'deg)';
+    document.getElementById('stB').style.opacity = dx > 60 ? 1 : 0;
+    document.getElementById('stR').style.opacity = dx < -60 ? 1 : 0;
+  }, { passive: true });
+  card.addEventListener('touchend', function () {
+    on = false;
     if (dx > 100) vote(1);
     else if (dx < -100) vote(-1);
     else { card.style.transform = ''; dx = 0;
-           document.getElementById('stampBull').style.opacity = 0;
-           document.getElementById('stampBear').style.opacity = 0; }
+           document.getElementById('stB').style.opacity = 0;
+           document.getElementById('stR').style.opacity = 0; }
   });
-  card.addEventListener('click', () => vote(0));
+  card.addEventListener('click', function (e) {
+    if (e.target.tagName === 'BUTTON' || e.target.tagName === 'INPUT') return;
+    vote(0);
+  });
 }
 
-let selGrades = [];
-function selGrade(el) {
-  el.classList.toggle('sel');
-  const g = el.dataset.g;
-  if (el.classList.contains('sel')) selGrades.push(g);
-  else selGrades = selGrades.filter(x => x !== g);
+function fly(dir) {
+  var card = document.getElementById('card');
+  if (!card) return;
+  var x = dir === 1 ? 400 : dir === -1 ? -400 : 0;
+  card.style.transform = 'translateX(' + x + 'px)';
+  card.style.opacity = '0';
 }
+
 function vote(dir) {
-  const card = document.getElementById('card');
-  const note = document.getElementById('noteInput')?.value || '';
-  results.push({ factor: factors[idx].name, direction: dir, grades: [...selGrades], note });
-  selGrades = [];
-  const card = document.getElementById('card');
-  const x = dir === 1 ? 400 : dir === -1 ? -400 : 0;
-  if (card) {
-    card.style.transform = `translateX(${x}px) rotate(${x/20}deg)`;
-    card.style.opacity = '0';
+  var noteEl = document.getElementById('noteIn');
+  var note = noteEl ? noteEl.value : '';
+  var fname = factors[idx].name;
+  if (dir !== 0 && selGrades.length === 0) {
+    var gp = document.getElementById('gpick');
+    if (gp) { gp.style.animation = 'pulse 0.5s 2'; gp.style.border = '2px solid var(--yellow)'; }
   }
-  advance();}
-
-function advance() {
-  setTimeout(() => { idx++; selGrades = []; render(); }, 220);}
+  var fups = followUps[fname];
+  if (dir !== 0 && note && fups && fups.length) {
+    pendingFup = { factor: fname, direction: dir, grades: selGrades.slice(), note: note, qi: 0, ans: [] };
+    fly(dir);
+    setTimeout(showFup, 220);
+    return;
+  }
+  results.push({ factor: fname, direction: dir, grades: selGrades.slice(), note: note });
+  fly(dir);
+  setTimeout(next, 220);
 }
 
-function keepYesterday() {
-  const y = getYesterday()[factors[idx].name];
-  results.push({ ...y, factor: factors[idx].name, carried: true });
-  selGrades = [];
-  advance();
-}
-function dropYesterday() {
-  // Just advance without carrying — user will swipe fresh
-  const yc = document.querySelector('#deck .card > div:nth-last-child(2)');
-  if (yc) yc.style.display = 'none';
-}
-function showFollowUp() {
-  const pf = pendingFollowUp;
-  const qs = followUps[pf.factor];
-  const q = qs[pf.qIdx];
-  deck.innerHTML = `
-    <div class="card" style="border-color:var(--yellow);">
-      <div class="grade" style="color:var(--yellow);">FOLLOW-UP</div>
-      <h2 style="font-size:18px;">${pf.note}</h2>
-      <div class="desc" style="font-size:16px;color:var(--text);margin:16px 0;">${q}</div>
-      <input id="fupAnswer" placeholder="Type answer..."
-             style="width:100%;padding:12px;border:1px solid var(--border);border-radius:8px;
-                    background:var(--bg);color:var(--text);font-size:15px;margin-bottom:12px;">
-      <div style="display:flex;gap:8px;">
-        <button onclick="answerFup('')" style="flex:1;padding:12px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--muted);font-weight:600;">Skip</button>
-        <button onclick="answerFup(document.getElementById('fupAnswer').value)" style="flex:2;padding:12px;border-radius:8px;border:none;background:var(--blue);color:#fff;font-weight:700;">Next →</button>
-      </div>
-      <div style="font-size:12px;color:var(--muted);margin-top:8px;">Question ${pf.qIdx+1} of ${qs.length}</div>
-    </div>`;
-  document.querySelector('.actions').style.display = 'none';
-  setTimeout(() => document.getElementById('fupAnswer')?.focus(), 300);
+function showFup() {
+  var pf = pendingFup, qs = followUps[pf.factor], q = qs[pf.qi];
+  document.getElementById('actions').style.display = 'none';
+  document.getElementById('hint').style.display = 'none';
+  deck.innerHTML =
+    '<div class="card fup-card"><div class="grade-tag">FOLLOW-UP</div>'
+    + '<h2 style="font-size:17px">"' + esc(pf.note) + '"</h2>'
+    + '<div class="fup-q">' + q + '</div>'
+    + '<input class="note-in" id="fupA" placeholder="Type answer...">'
+    + '<div class="fup-btns"><button class="fup-skip" onclick="ansFup(\'\')">Skip</button>'
+    + '<button class="fup-next" onclick="ansFup(document.getElementById(\'fupA\').value)">Next →</button></div>'
+    + '<div style="font-size:12px;color:var(--muted);margin-top:8px">Question ' + (pf.qi + 1) + ' of ' + qs.length + '</div></div>';
+  setTimeout(function () { var el = document.getElementById('fupA'); if (el) el.focus(); }, 300);
 }
 
-function answerFup(ans) {
-  const pf = pendingFollowUp;
-  if (ans) pf.answers.push(ans);
-  pf.qIdx++;
-  const qs = followUps[pf.factor];
-  if (pf.qIdx < qs.length) { showFollowUp(); return; }
-  // Done with follow-ups
-  results.push({ factor: pf.factor, direction: pf.direction, grades: pf.grades,
-                 note: pf.note, followUps: pf.answers });
-  pendingFollowUp = null;
-  document.querySelector('.actions').style.display = 'flex';
-  advance();
+function ansFup(a) {
+  var pf = pendingFup;
+  if (a) pf.ans.push(a);
+  pf.qi++;
+  if (pf.qi < followUps[pf.factor].length) { showFup(); return; }
+  results.push({ factor: pf.factor, direction: pf.direction, grades: pf.grades, note: pf.note, followUps: pf.ans });
+  pendingFup = null;
+  document.getElementById('actions').style.display = 'flex';
+  document.getElementById('hint').style.display = 'block';
+  next();
 }
 
-function showDone() {
-  const bull = results.filter(r => r.direction === 1).length;
-  const bear = results.filter(r => r.direction === -1).length;
-  const detail = results.filter(r => r.direction !== 0).map(r =>
-    `<div style="text-align:left;font-size:13px;padding:8px;border-bottom:1px solid var(--border);">
-      <strong>${r.direction===1?'🟢':'🔴'} ${r.factor}</strong>
-      ${r.grades.length ? `<span style="color:var(--blue)"> [${r.grades.join(',')}]</span>` : ''}
-      ${r.note ? `<br><span style="color:var(--muted)">${r.note}</span>` : ''}
-    </div>`).join('');
-  deck.innerHTML = `<div class="done">
-    <h2>Done ✓</h2>
-    <p style="color:var(--muted)">${bull} bullish · ${bear} bearish · ${results.length - bull - bear} skipped</p>
-    <p style="color:var(--muted); font-size:13px; margin-top:8px;">~${Math.round(results.length * 3)} seconds. Not bad.</p>
-    <div style="margin-top:16px;">${detail}</div>
-    <a href="#" class="btn">Recalculate →</a>
-  </div>`;
-  document.querySelector('.actions').style.display = 'none';
-  document.querySelector('.swipe-hint').style.display = 'none';
+function next() { idx++; render(); }
+
+function finish() {
+  saveToday();
+  var bull = results.filter(function (r) { return r.direction === 1; }).length;
+  var bear = results.filter(function (r) { return r.direction === -1; }).length;
+  var items = results.filter(function (r) { return r.direction !== 0; }).map(function (r) {
+    return '<div class="done-item"><strong>' + (r.direction === 1 ? '🟢' : '🔴') + ' ' + r.factor + '</strong>'
+      + (r.grades && r.grades.length ? ' <span style="color:var(--blue)">[' + r.grades.join(',') + ']</span>' : '')
+      + (r.note ? '<br><span style="color:var(--muted)">"' + esc(r.note) + '"</span>' : '')
+      + (r.followUps && r.followUps.length ? '<br><span style="color:var(--muted);font-size:12px">↳ ' + r.followUps.map(esc).join(' · ') + '</span>' : '')
+      + (r.carried ? ' <span style="color:var(--green);font-size:11px">✓ carried</span>' : '')
+      + '</div>';
+  }).join('');
+  deck.innerHTML = '<div class="done"><h2>Done ✓</h2>'
+    + '<p style="color:var(--muted)">' + bull + ' bullish · ' + bear + ' bearish · '
+    + (results.length - bull - bear) + ' skipped</p>' + items + '</div>';
+  document.getElementById('actions').style.display = 'none';
+  document.getElementById('hint').style.display = 'none';
   document.getElementById('count').textContent = 'Complete';
   document.getElementById('fill').style.width = '100%';
 }
