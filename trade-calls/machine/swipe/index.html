@@ -274,9 +274,12 @@ function ansFup(a) {
 function next() { idx++; render(); }
 
 function finish() {
-  saveToday();
-  var bull = results.filter(function (r) { return r.direction === 1; }).length;
-  var bear = results.filter(function (r) { return r.direction === -1; }).length;
+  try { saveToday(); } catch (e) {}
+  var bull = 0, bear = 0;
+  try {
+    bull = results.filter(function (r) { return r.direction === 1; }).length;
+    bear = results.filter(function (r) { return r.direction === -1; }).length;
+  } catch (e) {}
   var items = results.filter(function (r) { return r.direction !== 0; }).map(function (r) {
     return '<div class="done-item"><strong>' + (r.direction === 1 ? '🟢' : '🔴') + ' ' + r.factor + '</strong>'
       + (r.grades && r.grades.length ? ' <span style="color:var(--blue)">[' + r.grades.join(',') + ']</span>' : '')
