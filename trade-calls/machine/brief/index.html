@@ -769,30 +769,88 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
 <nav class="tm-tabs"><a href="../brief/index.html" class="active">📊 Brief</a><a href="../score/index.html" class="">✋ Score</a><a href="../calls/index.html" class="">🎯 Calls</a><a href="../risk/index.html" class="">⚠️ Risk</a></nav>
 
 <h2>Morning Brief</h2>
-<p class="note">Wednesday, October 7, 2026 — auto-scored 06:30 MDT</p>
+<p class="note">2026-10-07 — auto-scored from live data (unknown)</p>
 <div class="tm-card" style="text-align:center;">
-  <div style="font-size:12px;color:var(--ch-muted);text-transform:uppercase;">Net Marginal Signal</div>
-  <div class="score-big tm-score-neg">−2</div>
-  <div><strong>Mildly Bearish WCS</strong></div>
-  <p class="note">57 factors scored · 42 auto · 15 awaiting your input</p>
+  <div style="font-size:12px;color:var(--ch-muted);text-transform:uppercase;">Net Marginal Signal (MVP: 17 factors live)</div>
+  <div class="score-big tm-score-neg">-2</div>
+  <div><strong>Neutral / Mixed</strong></div>
+  <p class="note">Full 57-factor scoring coming. Manual factors via Score tab.</p>
 </div>
-<h3>Biggest Movers Overnight</h3>
-<div class="tm-mover bear">
-  <div class="tm-name">🔴 WCS Inventories <span class="tm-score-neg">−4</span></div>
-  <div class="tm-detail">Cushing built 2.1 MMbbl. Arb to USGC shut. Was −1 yesterday.</div>
-</div>
+<h3>Live Factor Scores</h3>
+
 <div class="tm-mover flat">
-  <div class="tm-name">🟡 Diesel Cracks <span class="tm-score-flat">+2</span></div>
-  <div class="tm-detail">Russian refinery strikes — 2 offline. Cracks +$1.20. Supports SCO.</div>
+  <div class="tm-name">🟡 WCS Momentum (TMW) <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">2026-11 -0.08 — noise (dir +0 × imp 1)</div>
 </div>
 <div class="tm-mover bull">
-  <div class="tm-name">🟢 TMW Bid/Ask <span>0</span></div>
-  <div class="tm-detail">Spreads tightened. Two-way market. Was −1 yesterday.</div>
+  <div class="tm-name">🟢 Curve Roll (Dec-Nov) <span class="tm-score-pos">+3</span></div>
+  <div class="tm-detail">Dec -0.81 wide to Nov — roll-up (dir +1 × imp 3)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 wti_momentum <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">WTI front $0.00 — need history for momentum (dir +0 × imp 1)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 wti_structure <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">Flat structure $+0.00 (dir +0 × imp 1)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 inventories <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">Inventories +0.9 MMbbl — noise (dir +0 × imp 1)</div>
+</div>
+<div class="tm-mover bear">
+  <div class="tm-name">🔴 cracks <span class="tm-score-neg">-3</span></div>
+  <div class="tm-detail">Crack $63.9 (-3.5/5d) weakening (dir -1 × imp 3)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 positioning <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">MM net column not found (dir +0 × imp 1)</div>
+</div>
+<div class="tm-mover bear">
+  <div class="tm-name">🔴 seasonality <span class="tm-score-neg">-2</span></div>
+  <div class="tm-detail">Oct: fall turnarounds, wide bias (dir -1 × imp 2)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 time_of_month <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">Mid-month: normal flows (dir +0 × imp 1)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 trump <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">Trump: quiet — no oil-relevant news (dir +0 × imp 2)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 china <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">China: no signals — watching for SPR/quota moves (dir +0 × imp 3)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 venezuela <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">Venezuela: no flow change (dir +0 × imp 2)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 opec <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">OPEC: indirect for WCS — not overweighted (dir +0 × imp 1)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 spr <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">SPR: quiet — watching for grade-specific news (dir +0 × imp 2)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 whale_stops <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">Whale stops: no setup — positioning not extreme (dir +0 × imp 2)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 marginal_buyer <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">Marginal buyer: none forced (dir +0 × imp 1)</div>
+</div>
+<div class="tm-mover flat">
+  <div class="tm-name">🟡 price_signals <span class="tm-score-flat">+0</span></div>
+  <div class="tm-detail">Price signals: quiet (dir +0 × imp 1)</div>
 </div>
 <div style="text-align:center; margin: 20px 0;">
-  <a href="../score/index.html" class="tm-btn">Score 15 Manual Factors →</a>
+  <a href="../score/index.html" class="tm-btn">Score Manual Factors →</a>
   <p class="note">~45 seconds. The machine can't read rumours.</p>
 </div>
+<p class="note"><strong>MVP:</strong> 2 of 57 factors wired to live data. More coming.</p>
 
   <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../balance/index.html">S&amp;D balance</a><a href="../../st3-dashboard.html">Projected ST3</a><a href="../../scorecard.html">Scorecard</a><a href="../../open-calls/index.html">Open calls</a></div><div class="fcol"><h4>Supply</h4><a href="../../supply/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../egress/index.html">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
 </div>
