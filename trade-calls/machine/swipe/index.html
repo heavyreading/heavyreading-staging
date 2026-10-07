@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Swipe Factors</title>
+<style>
+  :root { --bg:#0f1115; --card:#1a1d24; --text:#e8eaed; --muted:#9aa0a6;
+          --green:#34d399; --red:#f87171; --yellow:#fbbf24; --blue:#60a5fa; --border:#2d3139; }
+  * { box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent; }
+  body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+         overflow:hidden; height:100vh; height:100dvh; -webkit-font-smoothing:antialiased;
+         touch-action:pan-y; user-select:none; -webkit-user-select:none; }
+  .topbar { padding:14px 16px 8px; text-align:center; }
+  .topbar .count { font-size:13px; color:var(--muted); }
+  .topbar .bar { height:4px; background:var(--border); border-radius:2px; margin-top:8px; overflow:hidden; }
+  .topbar .fill { height:100%; background:var(--blue); border-radius:2px; transition:width .3s; }
+  .deck { position:relative; flex:1; margin:12px 16px; height:calc(100dvh - 220px); min-height:320px; }
+  .card {
+    position:absolute; inset:0; background:var(--card); border:1px solid var(--border);
+    border-radius:16px; padding:24px 20px; display:flex; flex-direction:column;
+    transition:transform .25s ease, opacity .25s ease;
+    box-shadow:0 8px 32px rgba(0,0,0,.4);
+  }
+  .card .grade { font-size:11px; font-weight:700; color:var(--blue); text-transform:uppercase; letter-spacing:.5px; }
+  .card h2 { font-size:22px; margin:6px 0 8px; }
+  .card .desc { font-size:14px; color:var(--muted); line-height:1.5; flex:1; }
+  .card .yesterday { font-size:12px; color:var(--muted); margin-top:12px; padding-top:12px; border-top:1px solid var(--border); }
+  .card .stamp {
+    position:absolute; top:20px; right:20px; font-size:28px; font-weight:800;
+    padding:4px 12px; border-radius:8px; opacity:0; transform:rotate(12deg);
+    transition:opacity .15s;
+  }
+  .card .stamp.bull { color:var(--green); border:3px solid var(--green); }
+  .card .stamp.bear { color:var(--red); border:3px solid var(--red); }
+  .swipe-hint { text-align:center; color:var(--muted); font-size:13px; padding:0 16px; }
+  .actions { display:flex; gap:12px; padding:16px; padding-bottom:calc(16px + env(safe-area-inset-bottom)); }
+  .act {
+    flex:1; padding:16px; border-radius:14px; border:2px solid var(--border);
+    background:var(--card); font-size:28px; cursor:pointer; text-align:center;
+  }
+  .act:active { transform:scale(.94); }
+  .act.bear-btn { border-color:rgba(248,113,113,.4); }
+  .act.flat-btn { border-color:rgba(251,191,36,.4); font-size:20px; }
+  .act.bull-btn { border-color:rgba(52,211,153,.4); }
+  .done { text-align:center; padding:60px 24px; }
+  .done h2 { font-size:24px; margin-bottom:12px; }
+  .done .btn { display:inline-block; margin-top:20px; padding:14px 36px; border-radius:12px;
+               background:var(--blue); color:#fff; font-weight:700; text-decoration:none; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="count" id="count">Factor 1 of 5 · swipe or tap</div>
+  <div class="bar"><div class="fill" id="fill" style="width:0%"></div></div>
+</div>
+
+<div class="deck" id="deck"></div>
+
+<div class="swipe-hint">← bearish &nbsp;·&nbsp; tap card = skip &nbsp;·&nbsp; bullish →</div>
+
+<div class="actions">
+  <button class="act bear-btn" onclick="vote(-1)">🔴</button>
+  <button class="act flat-btn" onclick="vote(0)">SKIP</button>
+  <button class="act bull-btn" onclick="vote(1)">🟢</button>
+</div>
+
+<script>
+const factors = [
+  { name:"Rumours & Chatter", grade:"WCS",
+    desc:"Any rumours of operating issues, unplanned outages, or market gossip not on the wires yet?",
+    yesterday:"Flat / 2" },
+  { name:"Trump Wildcard", grade:"WCS · SCO · Flat",
+    desc:"Any new Trump statements, tariff threats, or policy moves affecting crude?",
+    yesterday:"Flat / 2" },
+  { name:"China: What is Xi Doing?", grade:"WCS · SCO · Flat",
+    desc:"SPR fills/draws, refinery quotas, stimulus, teapot runs. Any signals?",
+    yesterday:"Bullish / 3" },
+  { name:"Whale Stop Dynamics", grade:"WCS",
+    desc:"Is the market ripe for a whale to roll stops? Stops clustered at obvious levels?",
+    yesterday:"Flat / 1" },
+  { name:"Marginal Buyer / Seller", grade:"WCS",
+    desc:"Who HAS to trade right now? Forced flows?",
+    yesterday:"Flat / 1" },
+];
+let idx = 0, results = [];
+const deck = document.getElementById('deck');
+
+function render() {
+  if (idx >= factors.length) { showDone(); return; }
+  const f = factors[idx];
+  deck.innerHTML = `
+    <div class="card" id="card">
+      <div class="stamp bull" id="stampBull">BULLISH</div>
+      <div class="stamp bear" id="stampBear">BEARISH</div>
+      <div class="grade">${f.grade}</div>
+      <h2>${f.name}</h2>
+      <div class="desc">${f.desc}</div>
+      <div class="yesterday">Yesterday: <strong>${f.yesterday}</strong> · tap to keep</div>
+    </div>`;
+  document.getElementById('count').textContent = `Factor ${idx+1} of ${factors.length} · swipe or tap`;
+  document.getElementById('fill').style.width = (idx / factors.length * 100) + '%';
+  attachSwipe();
+}
+
+function attachSwipe() {
+  const card = document.getElementById('card');
+  let sx = 0, dx = 0, dragging = false;
+  card.addEventListener('touchstart', e => { sx = e.touches[0].clientX; dragging = true; }, {passive:true});
+  card.addEventListener('touchmove', e => {
+    if (!dragging) return;
+    dx = e.touches[0].clientX - sx;
+    card.style.transform = `translateX(${dx}px) rotate(${dx/20}deg)`;
+    document.getElementById('stampBull').style.opacity = dx > 60 ? 1 : 0;
+    document.getElementById('stampBear').style.opacity = dx < -60 ? 1 : 0;
+  }, {passive:true});
+  card.addEventListener('touchend', () => {
+    dragging = false;
+    if (dx > 100) vote(1);
+    else if (dx < -100) vote(-1);
+    else { card.style.transform = ''; dx = 0;
+           document.getElementById('stampBull').style.opacity = 0;
+           document.getElementById('stampBear').style.opacity = 0; }
+  });
+  card.addEventListener('click', () => vote(0));
+}
+
+function vote(dir) {
+  const card = document.getElementById('card');
+  results.push({ factor: factors[idx].name, direction: dir });
+  const x = dir === 1 ? 400 : dir === -1 ? -400 : 0;
+  card.style.transform = `translateX(${x}px) rotate(${x/20}deg)`;
+  card.style.opacity = '0';
+  setTimeout(() => { idx++; render(); }, 220);
+}
+
+function showDone() {
+  const bull = results.filter(r => r.direction === 1).length;
+  const bear = results.filter(r => r.direction === -1).length;
+  deck.innerHTML = `<div class="done">
+    <h2>Done ✓</h2>
+    <p style="color:var(--muted)">${bull} bullish · ${bear} bearish · ${results.length - bull - bear} skipped</p>
+    <p style="color:var(--muted); font-size:13px; margin-top:8px;">~${Math.round(results.length * 3)} seconds. Not bad.</p>
+    <a href="#" class="btn">Recalculate →</a>
+  </div>`;
+  document.querySelector('.actions').style.display = 'none';
+  document.querySelector('.swipe-hint').style.display = 'none';
+  document.getElementById('count').textContent = 'Complete';
+  document.getElementById('fill').style.width = '100%';
+}
+
+render();
+</script>
+</body>
+</html>
