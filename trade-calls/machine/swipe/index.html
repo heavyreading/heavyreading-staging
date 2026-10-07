@@ -45,6 +45,9 @@
   .act.bull-btn { border-color:rgba(52,211,153,.4); }
   .done { text-align:center; padding:60px 24px; }
   .done h2 { font-size:24px; margin-bottom:12px; }
+  .gbtn { flex:1; padding:8px; border-radius:8px; border:1px solid var(--border);
+           background:transparent; color:var(--muted); font-size:13px; font-weight:600; cursor:pointer; }
+  .gbtn.sel { border-color:var(--blue); color:var(--blue); background:rgba(96,165,250,.12); }
   .done .btn { display:inline-block; margin-top:20px; padding:14px 36px; border-radius:12px;
                background:var(--blue); color:#fff; font-weight:700; text-decoration:none; }
 </style>
@@ -97,7 +100,19 @@ function render() {
       <div class="grade">${f.grade}</div>
       <h2>${f.name}</h2>
       <div class="desc">${f.desc}</div>
-      <div class="yesterday">Yesterday: <strong>${f.yesterday}</strong> · tap to keep</div>
+      <div style="margin-top:12px;">
+        <div style="font-size:12px;color:var(--muted);margin-bottom:6px;">AFFECTS WHICH GRADE?</div>
+        <div style="display:flex;gap:6px;" id="gradeRow">
+          <button class="gbtn" data-g="WCS" onclick="selGrade(this)">WCS</button>
+          <button class="gbtn" data-g="SCO" onclick="selGrade(this)">SCO</button>
+          <button class="gbtn" data-g="MSW" onclick="selGrade(this)">MSW</button>
+          <button class="gbtn" data-g="FLAT" onclick="selGrade(this)">FLAT</button>
+        </div>
+      </div>
+      <input id="noteInput" placeholder="What? e.g. 'upgrader issues'"
+             style="margin-top:10px;width:100%;padding:10px;border:1px solid var(--border);
+                    border-radius:8px;background:var(--bg);color:var(--text);font-size:14px;">
+      <div class="yesterday">Yesterday: <strong>${f.yesterday}</strong></div>
     </div>`;
   document.getElementById('count').textContent = `Factor ${idx+1} of ${factors.length} · swipe or tap`;
   document.getElementById('fill').style.width = (idx / factors.length * 100) + '%';
@@ -126,9 +141,18 @@ function attachSwipe() {
   card.addEventListener('click', () => vote(0));
 }
 
+let selGrades = [];
+function selGrade(el) {
+  el.classList.toggle('sel');
+  const g = el.dataset.g;
+  if (el.classList.contains('sel')) selGrades.push(g);
+  else selGrades = selGrades.filter(x => x !== g);
+}
 function vote(dir) {
   const card = document.getElementById('card');
-  results.push({ factor: factors[idx].name, direction: dir });
+  const note = document.getElementById('noteInput')?.value || '';
+  results.push({ factor: factors[idx].name, direction: dir, grades: [...selGrades], note });
+  selGrades = [];
   const x = dir === 1 ? 400 : dir === -1 ? -400 : 0;
   card.style.transform = `translateX(${x}px) rotate(${x/20}deg)`;
   card.style.opacity = '0';
@@ -138,10 +162,17 @@ function vote(dir) {
 function showDone() {
   const bull = results.filter(r => r.direction === 1).length;
   const bear = results.filter(r => r.direction === -1).length;
+  const detail = results.filter(r => r.direction !== 0).map(r =>
+    `<div style="text-align:left;font-size:13px;padding:8px;border-bottom:1px solid var(--border);">
+      <strong>${r.direction===1?'🟢':'🔴'} ${r.factor}</strong>
+      ${r.grades.length ? `<span style="color:var(--blue)"> [${r.grades.join(',')}]</span>` : ''}
+      ${r.note ? `<br><span style="color:var(--muted)">${r.note}</span>` : ''}
+    </div>`).join('');
   deck.innerHTML = `<div class="done">
     <h2>Done ✓</h2>
     <p style="color:var(--muted)">${bull} bullish · ${bear} bearish · ${results.length - bull - bear} skipped</p>
     <p style="color:var(--muted); font-size:13px; margin-top:8px;">~${Math.round(results.length * 3)} seconds. Not bad.</p>
+    <div style="margin-top:16px;">${detail}</div>
     <a href="#" class="btn">Recalculate →</a>
   </div>`;
   document.querySelector('.actions').style.display = 'none';
