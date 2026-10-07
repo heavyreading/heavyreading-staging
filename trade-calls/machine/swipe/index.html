@@ -90,9 +90,31 @@ const factors = [
 let idx = 0, results = [];
 const deck = document.getElementById('deck');
 
+function getYesterday() {
+  try {
+    const raw = localStorage.getItem('tm_scores_' + yesterdayKey());
+    return raw ? JSON.parse(raw) : {};
+  } catch(e) { return {}; }
+}
+function yesterdayKey() {
+  const d = new Date(); d.setDate(d.getDate() - 1);
+  return d.toISOString().slice(0,10);
+}
+function todayKey() {
+  return new Date().toISOString().slice(0,10);
+}
+function saveToday() {
+  try {
+    localStorage.setItem('tm_scores_' + todayKey(), JSON.stringify(
+      Object.fromEntries(results.map(r => [r.factor, r]))
+    ));
+  } catch(e) {}
+}
+
 function render() {
-  if (idx >= factors.length) { showDone(); return; }
+  if (idx >= factors.length) { showDone(); saveToday(); return; }
   const f = factors[idx];
+  const y = getYesterday()[f.name];
   deck.innerHTML = `
     <div class="card" id="card">
       <div class="stamp bull" id="stampBull">BULLISH</div>
@@ -112,7 +134,22 @@ function render() {
       <input id="noteInput" placeholder="What? e.g. 'upgrader issues'"
              style="margin-top:10px;width:100%;padding:10px;border:1px solid var(--border);
                     border-radius:8px;background:var(--bg);color:var(--text);font-size:14px;">
-      <div class="yesterday">Yesterday: <strong>${f.yesterday}</strong></div>
+      ${y ? `
+      <div style="margin-top:12px;padding:12px;background:rgba(96,165,250,.08);border-radius:8px;border:1px solid rgba(96,165,250,.2);">
+        <div style="font-size:12px;color:var(--blue);font-weight:700;margin-bottom:4px;">YESTERDAY</div>
+        <div style="font-size:14px;">
+          ${y.direction===1?'🟢 Bullish':y.direction===-1?'🔴 Bearish':'🟡 Flat'}
+          ${y.grades?.length?` <span style="color:var(--blue)">[${y.grades.join(',')}]</span>`:''}
+        </div>
+        ${y.note?`<div style="font-size:13px;color:var(--muted);margin-top:4px;">"${y.note}"</div>`:''}
+        ${y.followUps?.length?`<div style="font-size:12px;color:var(--muted);margin-top:4px;">↳ ${y.followUps.join(' · ')}</div>`:''}
+        <div style="display:flex;gap:6px;margin-top:8px;">
+          <button onclick="keepYesterday()" style="flex:1;padding:10px;border-radius:8px;border:none;background:var(--green);color:#06281c;font-weight:700;font-size:13px;">✓ Still valid</button>
+          <button onclick="dropYesterday()" style="flex:1;padding:10px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--muted);font-weight:600;font-size:13px;">✕ Gone</button>
+        </div>
+        <div style="font-size:11px;color:var(--muted);margin-top:6px;text-align:center;">Or swipe below to update</div>
+      </div>`
+      : `<div class="yesterday">No score yesterday — fresh card</div>`}
     </div>`;
   document.getElementById('count').textContent = `Factor ${idx+1} of ${factors.length} · swipe or tap`;
   document.getElementById('fill').style.width = (idx / factors.length * 100) + '%';
@@ -165,6 +202,17 @@ function advance() {
   setTimeout(() => { idx++; selGrades = []; render(); }, 220);}
 }
 
+function keepYesterday() {
+  const y = getYesterday()[factors[idx].name];
+  results.push({ ...y, factor: factors[idx].name, carried: true });
+  selGrades = [];
+  advance();
+}
+function dropYesterday() {
+  // Just advance without carrying — user will swipe fresh
+  const yc = document.querySelector('#deck .card > div:nth-last-child(2)');
+  if (yc) yc.style.display = 'none';
+}
 function showFollowUp() {
   const pf = pendingFollowUp;
   const qs = followUps[pf.factor];
