@@ -107,11 +107,15 @@ function dayKey(offset) {
   return d.toISOString().slice(0, 10);
 }
 function getY() {
-  try { var r = localStorage.getItem('tm_' + dayKey(-1)); return r ? JSON.parse(r) : {}; }
-  catch (e) { return {}; }
+  try {
+    if (typeof localStorage === 'undefined') return {};
+    var r = localStorage.getItem('tm_' + dayKey(-1));
+    return r ? JSON.parse(r) : {};
+  } catch (e) { return {}; }
 }
 function saveToday() {
   try {
+    if (typeof localStorage === 'undefined') return;
     var o = {};
     results.forEach(function (r) { o[r.factor] = r; });
     localStorage.setItem('tm_' + dayKey(0), JSON.stringify(o));
@@ -119,6 +123,15 @@ function saveToday() {
 }
 
 function render() {
+  try {
+    _render();
+  } catch (e) {
+    document.getElementById('deck').innerHTML =
+      '<div class="card"><h2>Error</h2><p style="color:var(--muted)">' + String(e.message || e) + '</p>'
+      + '<button onclick="location.reload()" style="margin-top:16px;padding:12px;border-radius:8px;border:none;background:var(--blue);color:#fff;font-weight:700;">Reload</button></div>';
+  }
+}
+function _render() {
   if (idx >= factors.length) { finish(); return; }
   var f = factors[idx], y = getY()[f.name];
   var yHtml = '';
