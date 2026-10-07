@@ -78,22 +78,26 @@
 <script>
 var factors = [
   { name:"Rumours & Chatter", grade:"WCS",
-    desc:"Any rumours of operating issues, unplanned outages, or market gossip not on the wires yet?" },
+    desc:"What are you hearing that isn't on the wires? Upgrader issues? Unplanned outages? Who's talking?" },
   { name:"Trump Wildcard", grade:"WCS · SCO · Flat",
-    desc:"Any new Trump statements, tariff threats, or policy moves affecting crude?" },
+    desc:"Has Trump said or done anything in the last 24h that touches oil? Tariffs? SPR? Drill-baby-drill?" },
   { name:"China: What is Xi Doing?", grade:"WCS · SCO · Flat",
-    desc:"SPR fills/draws, refinery quotas, stimulus, teapot runs. Any signals?" },
+    desc:"Is Xi buying or selling? SPR fill? New quotas? Stimulus? Or is the data soft?" },
   { name:"Whale Stop Dynamics", grade:"WCS",
-    desc:"Is the market ripe for a whale to roll stops? Stops clustered at obvious levels?" },
+    desc:"Are stops piled up at an obvious level? Is someone big enough to gun for them? Thin market?" },
   { name:"Marginal Buyer / Seller", grade:"WCS",
-    desc:"Who HAS to trade right now? Forced flows?" }
+    desc:"Who is FORCED to trade today? Refiners pre-turnaround? Month-end sellers? Who's stuck?" },
+  { name:"Cash vs Screen", grade:"WCS · SCO",
+    desc:"Is the cash market telling a different story than futures? Tight cash + weak screen (or vice versa)?" },
+  { name:"What Changed Overnight?", grade:"ALL",
+    desc:"Forget the model — what actually happened since yesterday that matters? News, moves, surprises?" }
 ];
 
 var followUps = {
   "Rumours & Chatter": [
-    "Are you seeing cash trades consistent with this rumour?",
-    "Is the futures curve confirming, or is cash diverging?",
-    "How reliable is the source?"
+    "Are cash trades confirming this, or is it just talk?",
+    "Who told you — trader, broker, or did you see it on screen?",
+    "If true, how many barrels are we talking?"
   ],
   "Trump Wildcard": ["Is this priced in yet, or fresh?", "Which grade does it hit hardest?"],
   "China: What is Xi Doing?": ["SPR or commercial demand?", "How many barrels are we talking?"]
