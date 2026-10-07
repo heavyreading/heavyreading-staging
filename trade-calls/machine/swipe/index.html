@@ -153,10 +153,52 @@ function vote(dir) {
   const note = document.getElementById('noteInput')?.value || '';
   results.push({ factor: factors[idx].name, direction: dir, grades: [...selGrades], note });
   selGrades = [];
+  const card = document.getElementById('card');
   const x = dir === 1 ? 400 : dir === -1 ? -400 : 0;
-  card.style.transform = `translateX(${x}px) rotate(${x/20}deg)`;
-  card.style.opacity = '0';
-  setTimeout(() => { idx++; render(); }, 220);
+  if (card) {
+    card.style.transform = `translateX(${x}px) rotate(${x/20}deg)`;
+    card.style.opacity = '0';
+  }
+  advance();}
+
+function advance() {
+  setTimeout(() => { idx++; selGrades = []; render(); }, 220);}
+}
+
+function showFollowUp() {
+  const pf = pendingFollowUp;
+  const qs = followUps[pf.factor];
+  const q = qs[pf.qIdx];
+  deck.innerHTML = `
+    <div class="card" style="border-color:var(--yellow);">
+      <div class="grade" style="color:var(--yellow);">FOLLOW-UP</div>
+      <h2 style="font-size:18px;">${pf.note}</h2>
+      <div class="desc" style="font-size:16px;color:var(--text);margin:16px 0;">${q}</div>
+      <input id="fupAnswer" placeholder="Type answer..."
+             style="width:100%;padding:12px;border:1px solid var(--border);border-radius:8px;
+                    background:var(--bg);color:var(--text);font-size:15px;margin-bottom:12px;">
+      <div style="display:flex;gap:8px;">
+        <button onclick="answerFup('')" style="flex:1;padding:12px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--muted);font-weight:600;">Skip</button>
+        <button onclick="answerFup(document.getElementById('fupAnswer').value)" style="flex:2;padding:12px;border-radius:8px;border:none;background:var(--blue);color:#fff;font-weight:700;">Next →</button>
+      </div>
+      <div style="font-size:12px;color:var(--muted);margin-top:8px;">Question ${pf.qIdx+1} of ${qs.length}</div>
+    </div>`;
+  document.querySelector('.actions').style.display = 'none';
+  setTimeout(() => document.getElementById('fupAnswer')?.focus(), 300);
+}
+
+function answerFup(ans) {
+  const pf = pendingFollowUp;
+  if (ans) pf.answers.push(ans);
+  pf.qIdx++;
+  const qs = followUps[pf.factor];
+  if (pf.qIdx < qs.length) { showFollowUp(); return; }
+  // Done with follow-ups
+  results.push({ factor: pf.factor, direction: pf.direction, grades: pf.grades,
+                 note: pf.note, followUps: pf.answers });
+  pendingFollowUp = null;
+  document.querySelector('.actions').style.display = 'flex';
+  advance();
 }
 
 function showDone() {
