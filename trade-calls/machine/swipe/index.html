@@ -242,6 +242,7 @@
 <body>
 
 <header class="cr-top">
+  <button onclick="if(confirm('Clear all judgments and start over?')){Object.keys(localStorage).filter(function(k){return k.indexOf('tm_')===0}).forEach(function(k){localStorage.removeItem(k)});location.reload();}" style="position:absolute;right:12px;top:12px;background:none;border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:11px;color:var(--mut);cursor:pointer;z-index:10;">Reset</button>
   <div class="cr-brand"><span class="cr-mark">🧠</span><span class="cr-word">Cerebrum</span></div>
   <div class="cr-tools">
     <button class="toolbtn" id="themeBtn" onclick="toggleTheme()">Dark</button>
