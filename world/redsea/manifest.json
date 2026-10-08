@@ -1,0 +1,249 @@
+{
+ "page": "/world/redsea/",
+ "title": "Red Sea Watch",
+ "dek": "Houthi pressure on Red Sea shipping: Bab el-Mandeb transit, territorial control, and the Cape of Good Hope diversion.",
+ "built_at": "2026-09-28",
+ "generator": "heavyreading-manifest/1",
+ "claims": [
+  {
+   "text": "Kpler data showed commodity-vessel transits through Bab el-Mandeb fell to 11 on September 27, the lowest level in months, as Red Sea traffic slowed after Houthi attacks on Saudi coastal installations, though two very large crude carriers were still inbound to Yanbu to load crude.",
+   "vintage": "Sep 27, 2026",
+   "source": "Reuters (via MarineLink)",
+   "source_url": "https://www.marinelink.com/news/red-sea-shipping-slows-houthi-attack-541529"
+  },
+  {
+   "text": "Saudi authorities ordered Riyadh schools to switch to remote learning for a week after Saudi air defenses said they intercepted Houthi drones aimed at the capital and ballistic missiles targeting Khamis Mushait; a Houthi political bureau member described the raid as a small-scale rehearsal for a full escalation.",
+   "vintage": "Sep 27, 2026",
+   "source": "The Media Line",
+   "source_url": "https://themedialine.org/headlines/riyadh-suspends-in-person-classes-following-renewed-houthi-attacks-on-saudi-arabia/"
+  },
+  {
+   "text": "Houthi military spokesperson Yahya Saree said the group struck Aramco sites in Jizan and Yanbu on September 26, a claim Riyadh did not confirm; Kpler data showed only 11 commodity vessels transited Bab el-Mandeb on September 27, the lowest in months, though two very large crude carriers were still sailing to Yanbu to load Saudi crude.",
+   "vintage": "Sep 26-27, 2026",
+   "source": "Reuters (via MarineLink)",
+   "source_url": "https://www.marinelink.com/news/red-sea-shipping-slows-houthi-attack-541529"
+  },
+  {
+   "text": "Yemen's Houthi rebels captured the island of Mayun at the entrance of the Red Sea on September 25, a key position over the alternative shipping lane for Saudi oil while Hormuz is disrupted; Saudi Arabia responded with airstrikes against the airport in Mokha, the Red Sea port the Houthis seized the day before.",
+   "vintage": "Sep 25, 2026",
+   "source": "The Associated Press",
+   "source_url": "https://usa-today-news.com/news/houthis-capture-red-sea-island-in-threat-to-shipping-and-other-mideast-developments/"
+  },
+  {
+   "text": "The Houthis claimed missile and drone attacks on September 24 against Saudi Aramco facilities in Yanbu and a sensitive target in Riyadh; Saudi forces said they intercepted six ballistic missiles, with no damage confirmed by authorities.",
+   "vintage": "Sep 24, 2026",
+   "source": "Al Jazeera",
+   "source_url": "https://www.genocidewatch.com/single-post/saudi-allies-line-up-support-as-houthi-attacks-mount"
+  },
+  {
+   "text": "The US Maritime Administration, in guidance effective September 23, urged US-flagged commercial vessels to switch off their Automatic Identification System (AIS) when transiting the Red Sea and Gulf of Aden, and to vary routes and speeds and limit electronic transmissions, as Houthi attacks persist. Vessels with links to Israel, the US, the UK or Saudi Arabia are considered at greater risk.",
+   "vintage": "Sep 25, 2026",
+   "source": "Argus (via World Ports Organization)",
+   "source_url": "https://www.worldports.org/us-warns-vessels-over-houthi-red-sea-threat/"
+  },
+  {
+   "text": "Saudi Arabia restarted its East-West Pipeline (Petroline) on September 22, 2026 after a nine-day shutdown triggered by drone attacks on September 13, with the line pumping at a low rate and Saudi Aramco seeking to return toward about 4 million barrels per day, roughly 4% of global oil supply; one crude cargo was scheduled to load at Yanbu later that Tuesday bound for China, and the restart pressured Brent crude futures down more than $2 a barrel to their lowest since September 8.",
+   "vintage": "Sep 22, 2026; accessed 2026-09-24",
+   "source": "Mettis Global (citing Reuters)",
+   "source_url": "https://mettisglobal.news/Saudi-Arabia-restarts-EastWest-Pipeline-Yanbu-crude-shipments-set-to-resume-63636"
+  },
+  {
+   "text": "Before the attack, the East-West Pipeline carried roughly 5.5 million barrels per day, of which about 4.5 million barrels per day of crude was exported through Yanbu to Mediterranean and northwest European refiners without routing through the Strait of Hormuz or Bab el-Mandeb; Houthi forces struck multiple pumping stations across two regions of Saudi Arabia on September 10, no crude has loaded from Yanbu since September 11, and terminal inventories were estimated to cover only three to five days of loadings at normal rates.",
+   "vintage": "Published ~Sep 20, 2026; accessed 2026-09-24",
+   "source": "World Ports Organization",
+   "source_url": "https://www.worldports.org/yanbu-pipeline-attack-ripples-across-crude-freight-and-gas-markets/"
+  },
+  {
+   "text": "The Houthis claimed on September 23 that they struck the Saudi oil tanker Wafa with ballistic missiles off the coast of Yanbu, calling the strike precise but giving no details of damage or casualties; the claim was not independently verified and Saudi authorities did not immediately respond. The Houthi spokesperson also claimed eight Saudi oil tankers have been targeted since the campaign began with 29 others forced to turn back, figures that are self-reported.",
+   "vintage": "Claim dated Sep 23, 2026; accessed 2026-09-24",
+   "source": "Madhyamam Online (citing Al-Masirah TV)",
+   "source_url": "https://madhyamamonline.com/world/yemens-houthi-claim-missile-attack-on-saudi-oil-tanker-in-red-sea-1543455"
+  },
+  {
+   "text": "The Houthis said they targeted the Saudi oil tanker Amzan in the Red Sea off Yanbu with a ballistic missile and drones earlier in the week; unlike the later claims, this incident drew confirmation from the Saudi side, with Saudi shipping company Bahri stating its Amzan vessel was involved in a hostile incident in regional waters.",
+   "vintage": "Reported ~Sep 21, 2026; accessed 2026-09-24",
+   "source": "Webull (news wire)",
+   "source_url": "https://www.webull.com/news/15459620305585152"
+  },
+  {
+   "text": "Traffic through Bab el-Mandeb stayed volatile but open: 22 commodity vessels crossed on Tuesday, September 22 (14 toward the Red Sea, 8 toward the Gulf of Aden), below the 10-day average of about 26 but well above the single-digit levels seen through the Strait of Hormuz over the same weekend.",
+   "vintage": "~Sep 22, 2026; accessed 2026-09-24",
+   "source": "Walaw (citing Reuters shipping data)",
+   "source_url": "https://en.walaw.press/articles/hormuz_shipping_remains_below_average_as_traffic_through_bab_el-mandeb_stays_relatively_resilient/GPWXGFLGXXLL"
+  },
+  {
+   "text": "Brent rose more than 3 percent on September 24, briefly topping $108 a barrel, before easing to $105.77 on September 25 morning, as Houthi strikes on Yanbu added pressure on Saudi Arabia's oil exports; analysts said crude would likely stay above $100 a barrel as long as the war on Iran continued.",
+   "vintage": "Sep 25, 2026",
+   "source": "Al Jazeera",
+   "source_url": "https://www.genocidewatch.com/single-post/saudi-allies-line-up-support-as-houthi-attacks-mount"
+  },
+  {
+   "text": "With Yanbu loadings suspended, Saudi Aramco cancelled or delayed some September crude cargoes to European refiners, which may need to source alternative barrels from the Americas, the North Sea, and Africa at higher freight costs; Kpler estimates cited at the time put Yanbu inventories below 15 million barrels, enough for only about four days of exports at 3.5 million barrels per day.",
+   "vintage": "Published Sep 17, 2026; accessed 2026-09-24",
+   "source": "TankTerminals (citing OilPrice.com)",
+   "source_url": "https://tankterminals.com/news/saudi-oil-crisis-is-about-to-hit-europe/"
+  },
+  {
+   "text": "The Suez Canal Authority (SCA) reported that 5,874 vessels carrying 247.2 million tons transited the canal from July through mid-September 2026, generating $1.97 billion in revenue, up 5.2% in vessel count, 14.4% in tonnage, and 17.5% in revenue versus the same period last year; chairman Ossama Rabiee also projected canal revenue reaching about $8 billion in fiscal year 2026/27.",
+   "vintage": "Published ~Sep 15, 2026; accessed 2026-09-24",
+   "source": "State Information Service Egypt (quoting the Suez Canal Authority)",
+   "source_url": "https://sis.gov.eg/en/media-center/news/suez-canal-authority-projects-30-revenue-growth-by-2027/"
+  },
+  {
+   "text": "COSCO Shipping Lines made its first southbound Suez transit since the Red Sea and Bab el-Mandeb tensions disrupted patterns, with the 24,188 twenty-foot equivalent unit (TEU) OOCL Portugal sailing from Belgium to China on September 16; the Suez Canal Authority (SCA) said container-ship net tonnage through the canal reached about 72.1 million tonnes in January-August 2026, up 54.2% year on year, and that services by CMA CGM, Maersk, Mediterranean Shipping Company (MSC), Hapag-Lloyd, and COSCO have returned to the canal on Europe-Asia trades.",
+   "vintage": "Published ~Sep 21, 2026; accessed 2026-09-24",
+   "source": "Container News (citing the Suez Canal Authority)",
+   "source_url": "https://container-news.com/cosco-returns-to-suez-canal-as-oocl-portugal-makes-southbound-transit/"
+  },
+  {
+   "text": "War-risk pricing has split into tiers rather than one Red Sea number: indicative premiums for the southern Red Sea and Bab el-Mandeb rose above 1% of vessel value from about 0.3% a week earlier, Saudi-linked voyages were quoted as high as 3%, while the northern Saudi Red Sea ports of Jeddah and Yanbu were quoted around 0.1%, a markedly different near-term risk profile.",
+   "vintage": "~Sep 23, 2026; accessed 2026-09-24",
+   "source": "Ship Universe",
+   "source_url": "https://www.shipuniverse.com/news/red-sea-war-risk-premiums-jump-after-houthi-tanker-attacks/"
+  },
+  {
+   "text": "Xeneta analyst Peter Sand said ocean freight is unlikely to return to Suez at scale for the rest of 2026, warning that renewed Houthi attacks would shelve any phased return; he estimates the Cape of Good Hope routing absorbs about 2.5 million TEU of the global 34 million TEU boxship fleet, shrinking available capacity by roughly 7%. Separately, leading protection and indemnity (P&I) clubs and their reinsurers are pulling war-risk cover for much of the Gulf region, effectively putting the Arabian Gulf off-limits for insurance purposes.",
+   "vintage": "~Sep 23, 2026; accessed 2026-09-24",
+   "source": "Infomarine (citing Maritime Executive / Xeneta)",
+   "source_url": "https://infomarine.net/en/global-shipping-news/19-world-maritime-news/65304-xeneta-ocean-carriers-unlikely-to-return-to-red-sea-in-2026.html"
+  },
+  {
+   "text": "Saudi Foreign Minister Prince Faisal bin Farhan arrived in Washington on September 28 for talks with Secretary of State Marco Rubio, as Riyadh seeks US help against the Houthis; Reuters sources said Washington agreed to intelligence and targeting support while declining to launch strikes itself.",
+   "vintage": "Sep 28, 2026",
+   "source": "AnewZ (citing Reuters sources)",
+   "source_url": "https://anewz.tv/region/middle-east/24847/saudi-us-talks-focus-on-houthi-red-sea-threat/news"
+  },
+  {
+   "text": "Military chiefs from Saudi Arabia, Pakistan and Turkey met in Riyadh under the Makkah Joint Defence Agreement to review the threats facing the kingdom, condemning Houthi attacks and agreeing to deepen intelligence sharing and military coordination.",
+   "vintage": "Sep 25, 2026; reported Sep 26",
+   "source": "Reuters (via Northland News Radio)",
+   "source_url": "https://northlandnewsradio.com/2026/09/25/pakistan-saudi-turkish-chiefs-discuss-closer-military-ties/"
+  },
+  {
+   "text": "France confirmed on September 25 it will send troops, radars and air-defense systems to guard the oil terminal at Yanbu; separately, the foreign ministers of Saudi Arabia, Pakistan and Turkey arranged an urgent meeting of military chiefs under the Mecca Joint Defence Agreement, which treats an attack on one member as an attack on all.",
+   "vintage": "Sep 25, 2026",
+   "source": "Al Jazeera",
+   "source_url": "https://www.genocidewatch.com/single-post/saudi-allies-line-up-support-as-houthi-attacks-mount"
+  },
+  {
+   "text": "Yemen's Saudi-led coalition said early on September 26 it intercepted two ballistic missiles and two drones launched by the Houthis toward the kingdom, the missiles headed for Khamis Mushait and the drones for Riyadh. Saudi Arabia's military chiefs met in Riyadh with allies Pakistan and Turkey to review threats.",
+   "vintage": "Sep 26, 2026",
+   "source": "Reuters (via WNCY)",
+   "source_url": "https://wncy.com/2026/09/25/saudi-says-it-intercepted-2-drones-launched-by-houthis-towards-riyadh/"
+  },
+  {
+   "text": "UK Prime Minister Andy Burnham said on September 21 that Britain would provide limited military support to Saudi Arabia, with the Royal Air Force (RAF) supplying defensive air-to-air refueling for Saudi aircraft on missions countering Houthi missile and drone attacks; the agreement runs for a matter of weeks and will be kept under review. The United States, which bombed the Houthis under the Biden and Trump administrations, has shown no interest in getting involved militarily this time.",
+   "vintage": "Sep 21, 2026; accessed 2026-09-24",
+   "source": "SRN News (citing the Associated Press)",
+   "source_url": "https://srnnews.com/uk-to-offer-saudi-arabia-aerial-refueling-to-counter-houthi-attacks/"
+  },
+  {
+   "text": "Weekly transit volume through the Bab el-Mandeb Strait grew from 1.1 million to 1.5 million metric tons (roughly 32 to 38 vessel transits) between January and July 2026 as Hormuz disruption pushed traffic south, but contracted to 25 weekly transits carrying about 750,000 metric tons after Houthi missile strikes resumed in July; for scale, pre-October 2023 traffic averaged about 80 vessels and 3.4 million metric tons per week, so Red Sea shipping is still below a third of its old normal.",
+   "vintage": "Data: Jan-Jul 2026 and pre-2023 baseline; accessed 2026-09-24",
+   "source": "Africa Center for Strategic Studies",
+   "source_url": "https://africacenter.org/spotlight/2026-houthi-red-sea-threats/"
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Reuters (via MarineLink)",
+   "vintage": "",
+   "url": "https://www.marinelink.com/news/red-sea-shipping-slows-houthi-attack-541529"
+  },
+  {
+   "publisher": "The Media Line",
+   "vintage": "",
+   "url": "https://themedialine.org/headlines/riyadh-suspends-in-person-classes-following-renewed-houthi-attacks-on-saudi-arabia/"
+  },
+  {
+   "publisher": "The Associated Press",
+   "vintage": "",
+   "url": "https://usa-today-news.com/news/houthis-capture-red-sea-island-in-threat-to-shipping-and-other-mideast-developments/"
+  },
+  {
+   "publisher": "Al Jazeera",
+   "vintage": "",
+   "url": "https://www.genocidewatch.com/single-post/saudi-allies-line-up-support-as-houthi-attacks-mount"
+  },
+  {
+   "publisher": "Argus (via World Ports Organization)",
+   "vintage": "",
+   "url": "https://www.worldports.org/us-warns-vessels-over-houthi-red-sea-threat/"
+  },
+  {
+   "publisher": "Mettis Global (citing Reuters)",
+   "vintage": "",
+   "url": "https://mettisglobal.news/Saudi-Arabia-restarts-EastWest-Pipeline-Yanbu-crude-shipments-set-to-resume-63636"
+  },
+  {
+   "publisher": "World Ports Organization",
+   "vintage": "",
+   "url": "https://www.worldports.org/yanbu-pipeline-attack-ripples-across-crude-freight-and-gas-markets/"
+  },
+  {
+   "publisher": "Madhyamam Online (citing Al-Masirah TV)",
+   "vintage": "",
+   "url": "https://madhyamamonline.com/world/yemens-houthi-claim-missile-attack-on-saudi-oil-tanker-in-red-sea-1543455"
+  },
+  {
+   "publisher": "Webull (news wire)",
+   "vintage": "",
+   "url": "https://www.webull.com/news/15459620305585152"
+  },
+  {
+   "publisher": "Walaw (citing Reuters shipping data)",
+   "vintage": "",
+   "url": "https://en.walaw.press/articles/hormuz_shipping_remains_below_average_as_traffic_through_bab_el-mandeb_stays_relatively_resilient/GPWXGFLGXXLL"
+  },
+  {
+   "publisher": "TankTerminals (citing OilPrice.com)",
+   "vintage": "",
+   "url": "https://tankterminals.com/news/saudi-oil-crisis-is-about-to-hit-europe/"
+  },
+  {
+   "publisher": "State Information Service Egypt (quoting the Suez Canal Authority)",
+   "vintage": "",
+   "url": "https://sis.gov.eg/en/media-center/news/suez-canal-authority-projects-30-revenue-growth-by-2027/"
+  },
+  {
+   "publisher": "Container News (citing the Suez Canal Authority)",
+   "vintage": "",
+   "url": "https://container-news.com/cosco-returns-to-suez-canal-as-oocl-portugal-makes-southbound-transit/"
+  },
+  {
+   "publisher": "Ship Universe",
+   "vintage": "",
+   "url": "https://www.shipuniverse.com/news/red-sea-war-risk-premiums-jump-after-houthi-tanker-attacks/"
+  },
+  {
+   "publisher": "Infomarine (citing Maritime Executive / Xeneta)",
+   "vintage": "",
+   "url": "https://infomarine.net/en/global-shipping-news/19-world-maritime-news/65304-xeneta-ocean-carriers-unlikely-to-return-to-red-sea-in-2026.html"
+  },
+  {
+   "publisher": "AnewZ (citing Reuters sources)",
+   "vintage": "",
+   "url": "https://anewz.tv/region/middle-east/24847/saudi-us-talks-focus-on-houthi-red-sea-threat/news"
+  },
+  {
+   "publisher": "Reuters (via Northland News Radio)",
+   "vintage": "",
+   "url": "https://northlandnewsradio.com/2026/09/25/pakistan-saudi-turkish-chiefs-discuss-closer-military-ties/"
+  },
+  {
+   "publisher": "Reuters (via WNCY)",
+   "vintage": "",
+   "url": "https://wncy.com/2026/09/25/saudi-says-it-intercepted-2-drones-launched-by-houthis-towards-riyadh/"
+  },
+  {
+   "publisher": "SRN News (citing the Associated Press)",
+   "vintage": "",
+   "url": "https://srnnews.com/uk-to-offer-saudi-arabia-aerial-refueling-to-counter-houthi-attacks/"
+  },
+  {
+   "publisher": "Africa Center for Strategic Studies",
+   "vintage": "",
+   "url": "https://africacenter.org/spotlight/2026-houthi-red-sea-threats/"
+  }
+ ]
+}
