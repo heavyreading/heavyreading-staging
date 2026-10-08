@@ -2,7 +2,7 @@
  "page": "/open-calls/",
  "title": "Open Calls",
  "dek": "Open Calls: the WCSB S&D model's live predictions with their scoring dates - the November egress wall, the Mainline apportionment nowcast, and the frozen nowcast vintages, each scored against actuals when they land.",
- "built_at": "2026-10-07",
+ "built_at": "2026-10-08",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -18,8 +18,8 @@
    "source_url": "https://heavyreading.ca/apportionment/index.html"
   },
   {
-   "text": "11 nowcast vintages hold frozen September 2026 supply nowcasts (scoring ~late Nov 2026)",
-   "vintage": "Scorecard nowcasts, daily vintages 2026-09-23 to 2026-10-07",
+   "text": "12 nowcast vintages hold frozen September 2026 supply nowcasts (scoring ~late Nov 2026)",
+   "vintage": "Scorecard nowcasts, daily vintages 2026-09-23 to 2026-10-08",
    "source": "Nowcast scorecard (scorecard_nowcast.json)",
    "source_url": "https://heavyreading.ca/scorecard.html"
   }

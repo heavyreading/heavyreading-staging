@@ -636,6 +636,57 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
   padding:12px 16px; margin:18px 0; background:color-mix(in srgb, var(--ch-green) 6%, transparent); }
 .quiet-banner { border:1px solid var(--line); border-left:4px solid var(--mut);
   padding:12px 16px; margin:18px 0; }
+
+/* Arb Watch: daily update badge. */
+.daily-badge { display:flex; align-items:center; gap:8px; font-size:13px;
+  color:var(--mut); margin:0 0 16px; }
+.daily-dot { width:8px; height:8px; border-radius:50%; background:var(--ch-green);
+  flex-shrink:0; }
+
+/* Arb Watch: horizontal scroll on narrow screens. */
+.arb-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:18px -16px; padding:0 16px; }
+.arb-scroll table { min-width:640px; }
+@media (min-width:760px) { .arb-scroll { margin:18px 0; padding:0; } .arb-scroll table { min-width:0; } }
+
+/* Arb Watch: pipeline status map. */
+.pipe-map-wrap { margin:24px 0; }
+.pipe-map { width:100%; height:auto; display:block; }
+.map-region { font-size:11px; fill:#94a3b8; letter-spacing:2px; font-weight:600; }
+.map-grid-label { font-size:10px; fill:#cbd5e1; }
+.node-label { font-size:13px; fill:#1e293b; font-weight:600; }
+.badge-text { font-size:12px; fill:#1e293b; font-weight:600; }
+.pipe { transition:stroke 0.3s; }
+.map-controls { display:flex; align-items:center; gap:12px; margin-top:12px; }
+.slider-label { font-size:13px; color:var(--mut); font-weight:600; }
+.tenor-slider { flex:1; accent-color:var(--acc); }
+.tenor-display { font-size:13px; font-weight:600; min-width:140px; }
+
+/* Trade calls (private): checklist and banners. */
+.private-banner { background:#1e293b; color:#f8fafc; padding:12px 16px;
+  border-radius:8px; margin:0 0 20px; font-size:13px; }
+.private-banner strong { color:#fbbf24; }
+.checklist { display:grid; gap:16px; margin:20px 0; }
+.check-item { border:1px solid var(--line); border-radius:8px; padding:14px 16px; }
+.check-item h4 { margin:0 0 6px; font-size:14px; display:flex; align-items:center; gap:8px; }
+.check-item .flag { font-size:10px; padding:2px 8px; border-radius:4px; font-weight:700;
+  background:var(--line); color:var(--mut); }
+.check-item .flag.on { background:var(--ch-green); color:#fff; }
+.no-calls { border:1px dashed var(--line); border-radius:8px; padding:20px;
+  margin:16px 0; text-align:center; }
+
+.framework-box { background:var(--bg-subtle, #f8fafc); border:1px solid var(--line);
+  border-left:4px solid var(--acc); border-radius:0 8px 8px 0;
+  padding:16px 20px; margin:20px 0; }
+.framework-box h3 { margin:0 0 10px; font-size:15px; }
+.framework-box p { margin:8px 0; }
+.grade-tag { font-size:10px; padding:2px 6px; border-radius:3px; font-weight:600; background:#dbeafe; color:#1e40af; }
+.machine-nav { margin: 24px 0; }
+.machine-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 12px; }
+.machine-link { display: block; padding: 16px; border: 1px solid var(--ch-border); border-radius: 8px; text-decoration: none; color: inherit; transition: border-color 0.2s; }
+.machine-link:hover { border-color: var(--ch-blue); }
+.machine-link strong { display: block; font-size: 16px; margin-bottom: 4px; }
+.machine-link span { font-size: 13px; color: var(--ch-muted); }
+@media (max-width: 600px) { .machine-links { grid-template-columns: 1fr 1fr; } }
 </style>
 </head>
 <body>
@@ -648,7 +699,7 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
       <nav class="sitenav" aria-label="Sections">
       <div class="navdrop active"><a class="nd-top nd-plain" href="index.html" aria-current="page">Now</a></div>
       <div class="navdrop"><a class="nd-top" href="weekly/index.html" aria-haspopup="true">Letter</a><div class="nd-panel"><div class="nd-sec"><p class="nd-label">The Letter</p><a class="nd-link" href="weekly/index.html">Edition archive</a></div></div></div>
-      <div class="navdrop"><a class="nd-top" href="digest/index.html" aria-haspopup="true">Digest</a><div class="nd-panel"><div class="nd-sec"><p class="nd-label">The Digest</p><a class="nd-link" href="digest/2026-10-07/index.html">Today&apos;s edition</a><a class="nd-link" href="digest/index.html">Edition archive</a><a class="nd-link" href="digest/podcast/index.html">Reader podcast</a></div></div></div>
+      <div class="navdrop"><a class="nd-top" href="digest/index.html" aria-haspopup="true">Digest</a><div class="nd-panel"><div class="nd-sec"><p class="nd-label">The Digest</p><a class="nd-link" href="digest/2026-10-08/index.html">Today&apos;s edition</a><a class="nd-link" href="digest/index.html">Edition archive</a><a class="nd-link" href="digest/podcast/index.html">Reader podcast</a></div></div></div>
       <div class="navdrop"><a class="nd-top" href="barrels/index.html" aria-haspopup="true">Barrels</a><div class="nd-panel"><div class="nd-sec"><p class="nd-label">Barrels</p><a class="nd-link" href="barrels/index.html">Barrels</a><a class="nd-link" href="projects/index.html">All projects</a><a class="nd-link" href="apportionment/index.html">Apportionment</a></div></div></div>
       <div class="navdrop"><a class="nd-top nd-plain" href="whale-watch.html">Whale watch</a></div>
       <div class="navdrop"><a class="nd-top" href="maintenance/index.html" aria-haspopup="true">Maintenance</a><div class="nd-panel"><div class="nd-sec"><p class="nd-label">Maintenance</p><a class="nd-link" href="maintenance/index.html">Maintenance</a><a class="nd-link" href="growth/index.html">Production growth</a></div></div></div>
@@ -659,7 +710,7 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
       <div class="mnav-sec"><p class="mnav-label">Barrels</p><a class="mg-link" href="barrels/index.html">Barrels</a><a class="mg-link" href="projects/index.html">All projects</a><a class="mg-link" href="apportionment/index.html">Apportionment</a></div>
       <div class="mnav-sec"><p class="mnav-label">Maintenance</p><a class="mg-link" href="maintenance/index.html">Maintenance</a><a class="mg-link" href="growth/index.html">Production growth</a></div>
       <div class="mnav-sec"><p class="mnav-label">World</p><a class="mg-link" href="world/middle-east/index.html">Middle East watch</a><a class="mg-link" href="world/russia-refining/index.html">Russian refineries</a><a class="mg-link" href="world/china-imports/index.html">China imports</a><a class="mg-link" href="world/spr-storage/index.html">SPR &amp; storage</a><a class="mg-link" href="world/sour/index.html">The global sour barrel</a><a class="mg-link" href="venezuela/index.html">Venezuela watch</a><a class="mg-link" href="world/trump/index.html">Trump watch</a><a class="mg-link" href="world/index.html">World</a></div>
-      <div class="mnav-sec"><p class="mnav-label">The Digest</p><a class="mg-link" href="digest/2026-10-07/index.html">Today&apos;s edition</a><a class="mg-link" href="digest/index.html">Edition archive</a><a class="mg-link" href="digest/podcast/index.html">Reader podcast</a></div>
+      <div class="mnav-sec"><p class="mnav-label">The Digest</p><a class="mg-link" href="digest/2026-10-08/index.html">Today&apos;s edition</a><a class="mg-link" href="digest/index.html">Edition archive</a><a class="mg-link" href="digest/podcast/index.html">Reader podcast</a></div>
       <div class="mnav-sec"><a class="mg-link" href="whale-watch.html">Whale watch</a></div>
       <div class="mnav-sec"><p class="mnav-label">Reference</p><a class="mg-link" href="fieldguide/index.html">Field guide</a><a class="mg-link" href="tolls/index.html">Toll search</a><a class="mg-link" href="commitments/index.html">Commitments grid</a><a class="mg-link" href="freight-watch.html">Freight watch</a><a class="mg-link" href="arb-watch/index.html">Arb watch</a><a class="mg-link" href="data/index.html">Data downloads</a><a class="mg-link" href="sources/index.html">Sources</a><a class="mg-link" href="methodology/index.html">Methodology</a><a class="mg-link" href="about/index.html">About</a></div>
       </div>
@@ -735,9 +786,9 @@ details.now-det summary{cursor:pointer;color:var(--mut);font-size:.88rem;
 
 <section class="now-call" aria-label="The call">
 <p class="kicker">Now: the WCSB balance</p>
-<p class="call-text">Brent December traded around $101.6 overnight (+1%) and WTI around $90.2 (+0.9%) after Saudi Arabia confirmed Houthi strikes on Jazan and Najran airports and a Gulf of Mexico storm formed over offshore production. Tuesday's session had Brent trading down to a $97.06 intraday low before recovering to settle $100.58 (+$0.26); WTI settled $89.44 (DTN). The diesel crack settled $102.47 Tuesday; SPR exchange bids went in with no award announced yet.</p>
-<div class="chips"><span class="chip">as of Wed Oct 7 morning</span>
-<span class="chip src"><a href="digest/2026-10-07/">Full edition &rarr;</a></span></div>
+<p class="call-text">Hurricane Isaias (75 mph, possibly Cat 3) tracks toward a Mobile landfall early Oct 10 with ~511 kb/d of Gulf oil shut in; Houthi strikes killed three at Saudi airports and a tanker took projectiles north of Qatar. Wednesday's session was sold on the IEA agreeing to accelerate the strategic release and prioritize diesel: WTI settled $88.28 (-$1.16), Brent $100.20 (-$0.38); overnight Brent Dec ran back to ~$102.35 (+~2.2%). The diesel crack settled $105.87 Wednesday, its third straight close above $100. ICE (Oct 7): TMW Nov26 -$24.62, Dec26 -$25.15 still the widest tenor; ARV Nov26 -$15.69. EIA: crude drew 3.2 Mbbl vs +1.7 expected; Cushing built a third week.</p>
+<div class="chips"><span class="chip">as of Thu Oct 8 morning</span>
+<span class="chip src"><a href="digest/2026-10-08/">Full edition &rarr;</a></span></div>
 </section>
 
 <details class="start-here"><summary>New here? How to read this site</summary><p class="sub">Three ways in, depending on how much time you have:</p><ul class="ev"><li><b><a href="digest/index.html">Give me 5 minutes</a></b>: the daily digest, what changed and what it means.</li><li><b><a href="world/index.html">Something is moving</a></b>: the watches, one page per risk (Trump, Middle East, refineries). Each opens with what changed, then what is coming.</li><li><b><a href="weekly/index.html">Give me the month</a></b>: the letter, the longer game plan in plain words.</li></ul><p class="sub">Every number is dated. How each figure was built is on the <a href="methodology/index.html">methodology</a> page.</p></details>
@@ -756,57 +807,57 @@ one paywalled source, no public confirmation yet; <b>rumor</b> = unverified.</p>
 
 <article class="chg-card">
 <div class="chg-top"><span class="chg-rank">1</span>
-<span class="chg-title">Overnight tape bid on confirmed strikes and hurricane; Tuesday dipped to $97</span></div>
-<p class="chg-delta">Brent Dec ~$101.6 (+1%), WTI ~$90.2 (+0.9%) overnight; Tuesday Brent dipped to ~$97, settled $100.58; Jazan/Najran strikes confirmed by Riyadh; Gulf hurricane forming</p>
-<p class="chg-body">Overnight tape bid: Brent Dec $101.55-101.65 (+~1%), WTI $90.15-90.27 (+~0.9%) into the Singapore morning (The Hindu BusinessLine; ksaexpats live benchmarks). Brent-WTI holding ~$11.4. Two fresh legs: (1) Saudi Arabia's General Authority of Civil Aviation confirmed Houthi strikes damaged Jazan and Najran airports Tuesday, wounding three - the first Riyadh-confirmed hit in this round (Riyadh airport, Rabigh refinery, Abha claims remain unconfirmed); (2) NHC says a Gulf of Mexico storm becomes the first Atlantic hurricane of 2026 within two days, over offshore areas producing 15% of US crude and 5% of US gas. Tuesday's session: ICE Brent traded down toward $97 before recovering to settle ~$100.4 (ING). Saudi energy minister: East-West pipeline at 5.8 Mb/d - the Hormuz bypass is full.</p>
-<p class="chg-balance"><b>Balance read:</b> The market rents the war premium by the night and returns it by the afternoon: Tuesday's dip toward $97 on flows, then confirmed strikes plus a hurricane put the bid back. The premium leaks on intact flows but the floor stays firm without a diplomatic breakthrough.</p>
-<p class="chg-cond"><b>Model conditional:</b> Confirmed strike on Saudi energy infrastructure -> premium rebuilds fast; ceasefire proposal advances -> premium bleeds.</p>
-<div class="chips"><span class="chip conf">confirmed</span><span class="chip">Oct 6-7, 2026</span>
-<span class="chip src">The Hindu BusinessLine, Oct 7, 2026; ksaexpats; ING Commodities Feed, Oct 7, 2026; Saudi GACA statement, Oct 6, 2026; Reuters, Oct 6, 2026</span></div>
+<span class="chg-title">Overnight bid on casualty-bearing ship strike and Isaias; Wednesday sold on the IEA release</span></div>
+<p class="chg-delta">Brent Dec ~$102.35 (+2.15%), WTI ~$90.1-90.8 overnight; Wednesday WTI -$1.16 to $88.28 on IEA release; Isaias confirmed, Mobile landfall early Oct 10; Qatar tanker strike with casualties</p>
+<p class="chg-body">Overnight tape bid: Brent Dec $102.2-102.4 (+~2.1-2.2%), WTI $90.1-90.8 (+~1.3-2.3%) into the Singapore morning (Reuters via Hindu BusinessLine live blog; live benchmarks FT/OilPriceAPI/Convextrade). Brent-WTI back near $12. Two fresh legs: (1) a tanker north of Qatar took multiple projectiles Wednesday with casualties reported (UKMTO via Reuters) - the first casualty-bearing ship hit this round; the Sep 28-Oct 5 window saw 12+ Hormuz-area incidents, the highest weekly rate since the war began; (2) Hurricane Isaias confirmed as the first Atlantic hurricane of 2026 (Reuters, Oct 8) - 75 mph, ~445 mi SSW of the Mississippi River mouth, possible Cat 3 before a Mobile landfall early Oct 10; ~511 kb/d of GoM oil and 16.4% of gas shut in, 8 of 371 platforms evacuated. Wednesday's session: WTI Nov26 settled $88.28 (-$1.16), Brent Dec $100.20 (-$0.38) (Yonhap Infomax) after the IEA agreed to accelerate the strategic release and prioritize diesel. Houthi strikes killed 3 at Saudi airports (1 Riyadh, 2 Abha); coalition hit 80+ Houthi sites late Wednesday; Monday's Mocha claim was premature.</p>
+<p class="chg-balance"><b>Balance read:</b> The market rents the war premium by the night and returns it by the afternoon: Wednesday's $1.16 WTI loss on the IEA release, then the overnight bid on a casualty-bearing ship strike and a hurricane. The premium leaks on intact flows but the floor stays firm without a diplomatic breakthrough.</p>
+<p class="chg-cond"><b>Model conditional:</b> Casualty-bearing strike on Saudi energy infrastructure -> premium rebuilds fast; ceasefire proposal advances -> premium bleeds.</p>
+<div class="chips"><span class="chip conf">confirmed</span><span class="chip">Oct 7-8, 2026</span>
+<span class="chip src">Reuters via Hindu BusinessLine, Oct 8, 2026; Yonhap Infomax, Oct 8, 2026; UKMTO via Reuters, Oct 7-8, 2026</span></div>
 
 </article>
 <article class="chg-card">
 <div class="chg-top"><span class="chg-rank">2</span>
-<span class="chg-title">Diesel crack extends $100 regime; hurricane adds distillate wrinkle</span></div>
-<p class="chg-delta">Diesel crack $102.47 Tuesday close (>$100, second straight); overnight ~$106.84 provisional; 3-2-1 $66.18</p>
-<p class="chg-body">NYMEX diesel crack settled $102.47 on Tuesday Oct 6 (+$1.00 vs Monday's $101.47) - second straight close above $100 after Friday's $97.94 broke the prior 18-day run (validated against the refreshed crack history; all-time max $117.92, Sep 16; 3-2-1 at $66.18 vs $75.31 max Aug 28). The overnight session print runs ~$106.84 (Yahoo front-month bar ~02:00 MDT - provisional, not a close). ING's gasoil mark ($85->$70) and the G7's front-loaded diesel are the ceiling; Russia's export ban through Oct 31, China's October halt, and Ukrainian refinery strikes are the floor. New from EIA's October STEO (published Tuesday): 2026 Brent spot forecast raised to $96.32 (from $91), Q4 avg $105 on inventory draws, 2026 WTI $88.21; Winter Fuels Outlook flags East Coast distillate 20-30% below the 5-yr seasonal average - the agency's own numbers frame distillate tightness as structural.</p>
-<p class="chg-balance"><b>Balance read:</b> The release is the ceiling on the product market; the physical drivers (Russia's diesel export ban through Oct 31, China's October product-export halt) are the floor. A Gulf Coast refining track on the hurricane would tighten the distillate leg further.</p>
-<p class="chg-cond"><b>Model conditional:</b> Hurricane tracks into Gulf Coast refining -> distillate tightens hard; front-loaded diesel arrives on schedule -> cracks stay soft into winter.</p>
-<div class="chips"><span class="chip conf">confirmed</span><span class="chip">Oct 6-7, 2026</span>
-<span class="chip src">Validated crack history (Yahoo front-month futures), refreshed Oct 7, 2026; DTN/EIA STEO, Oct 6, 2026</span></div>
+<span class="chg-title">Diesel crack extends $100 regime; IEA now aiming the release at diesel</span></div>
+<p class="chg-delta">Diesel crack $105.87 Wednesday close (>$100, third straight); overnight ~$109.27 provisional; IEA now prioritizing diesel in the release</p>
+<p class="chg-body">NYMEX diesel crack settled $105.87 on Wednesday Oct 7 - third straight close above $100 (validated against the refreshed crack history; all-time max $117.92, Sep 16 - not a record; first $100+ cross 2022-04-28; 3-2-1 at $67.00 vs $75.31 max Aug 28). The overnight session print runs ~$109.27 (Yahoo front-month bar ~02:00 MDT - provisional, not a close). Diesel futures +3% Wednesday at ~$4.72/gal (zerohedge/Bloomberg). The regime change: the IEA is now prioritizing diesel in the accelerated release, and Trump's Monday executive order waived red-dyed-diesel restrictions - a policy admission that distillate is the binding constraint. EIA's own Winter Fuels Outlook flags East Coast distillates 20-30% below the 5-yr seasonal average. RBN Energy's Oct 7 blog ties record crack spreads to refining economics rather than just war premium. Russia's diesel export ban runs through Oct 31.</p>
+<p class="chg-balance"><b>Balance read:</b> The release is the ceiling on the product market; the physical drivers (Russia's diesel export ban through Oct 31, hurricane track) are the floor. A Gulf Coast refining track on Isaias tightens the distillate leg further.</p>
+<p class="chg-cond"><b>Model conditional:</b> Isaias tracks into Gulf Coast refining -> distillate tightens hard; front-loaded diesel arrives on schedule -> cracks stay soft into winter.</p>
+<div class="chips"><span class="chip conf">confirmed</span><span class="chip">Oct 7-8, 2026</span>
+<span class="chip src">Validated crack history (Yahoo front-month futures), refreshed Oct 8, 2026; Reuters via lapost.com, Oct 7, 2026; RBN Energy, Oct 7, 2026</span></div>
 
 </article>
 <article class="chg-card">
 <div class="chg-top"><span class="chg-rank">3</span>
-<span class="chg-title">TMW Dec26 widens $0.50 to -$25.25; export arb still healthy</span></div>
-<p class="chg-delta">TMW Nov26 -$24.44, Dec26 -$25.25 (widest, -$0.50); ARV Nov26 -$15.41; ARV-TMW Nov +$9.04</p>
-<p class="chg-body">ICE settles Oct 6: TMW Nov26 -$24.44 (-$0.08), Dec26 -$25.25 (-$0.50) - December remains the widest tenor and widened half a dollar. ARV Nov26 -$15.41 (-$0.28), Dec26 -$16.10 (-$0.85). ARV-TMW November spread +$9.04/bbl (implied Hardisty-to-Houston export arb, still healthy). SYN (TMS) Nov26 +$5.82; C5 (TMF) Nov26 +$4.55 (+$0.19); MSW (TMR) Nov26 -$1.59; UHC (TMU) Nov26 +$2.40. The ~700 kb/d PADD 2 demand snap-back stands (Joliet restarted ~Sep 28-Oct 2; Whiting at full strength per Reuters Sep 21); today's 10:30 a.m. ET EIA PADD 2 utilization print (w/e Oct 2) is the quantitative confirm (Sep 25 was 85.6%). Supply healing: <a class="plink" href="projects/syncrude.html">Syncrude</a> ~50-day coker TAR wraps ~Oct 5-16 (completion unconfirmed); CNRL 35-day <a class="plink" href="projects/cnq_horizon.html">Horizon</a> upgrader TAR implies ~Oct 12-13; Suncor Edmonton/Base fall turnarounds roll off mid-month. All AESO-monitored SAGD cogen units at full MC (01:39 MDT).</p>
-<p class="chg-balance"><b>Balance read:</b> September's >$20 WCS blowout (widest since Dec 2023) was a refinery-outage event, not an egress event - and it is already unwinding on restarts. The December seasonal wide is starting to price; the Nov-Dec egress crunch trades on the ~Oct 19 apportionment notice.</p>
-<p class="chg-cond"><b>Model conditional:</b> EIA PADD 2 prints high-90s -> snap-back confirmed; prints soft -> Whiting conflict reopens. November apportionment notice ~Oct 19 decides the binding-from-November base case.</p>
-<div class="chips"><span class="chip conf">confirmed</span><span class="chip">Oct 6-7, 2026</span>
-<span class="chip src">ICE Report Center EOD, Oct 6, 2026; Reuters Sep 21; in-house maintenance forecast refreshed Oct 5; AESO CSD Oct 7</span></div>
+<span class="chg-title">WCS front holds; December seasonal wide pricing; EIA crude draws on builds expected</span></div>
+<p class="chg-delta">TMW Nov26 -$24.62 (-$0.18), Dec26 -$25.15 (+$0.10, still widest); ARV-TMW Nov +$8.93; EIA crude -3.2 Mbbl vs +1.7 expected; Cushing 3rd straight build</p>
+<p class="chg-body">ICE settles Oct 7: TMW Nov26 -$24.62 (-$0.18, zero volume - thin front print), Dec26 -$25.15 (+$0.10, still the widest tenor), Jan27 -$23.60, Feb27 -$22.45, Mar27 -$21.75, Apr27 -$20.00. ARV Nov26 -$15.69 (-$0.28), Dec26 -$16.40 (-$0.30). ARV-TMW November spread +$8.93/bbl (implied Hardisty-to-Houston export arb, still healthy). SYN (TMS) Nov26 +$5.87; C5 (TMF) Nov26 +$4.71; MSW (TMR) Nov26 -$1.71; UHC (TMU) Nov26 +$2.40. The ~700 kb/d PADD 2 demand snap-back stands (Joliet restarted ~Sep 28-Oct 2; Whiting at full strength per Reuters Sep 21); Midwest crude processing 'bounced back big time' but remains below year-ago (zerohedge/Bloomberg). EIA (w/e Oct 2): commercial crude drew 3.2 Mbbl vs +1.7 expected; Cushing built a third straight week to 24.75 Mbbl (highest since May); US refinery utilization 92.7%. Gap: the PADD-2-specific utilization % for w/e Oct 2 did not surface in wire coverage - the 85.6% (w/e Sep 25) successor is open. Supply healing: <a class="plink" href="projects/syncrude.html">Syncrude</a> coker turnaround Aug 20-Oct 16 per union schedule (completion unconfirmed); CNRL 35-day <a class="plink" href="projects/cnq_horizon.html">Horizon</a> upgrader TAR implies ~Oct 12-13; August ST53 data still unpublished. All AESO-monitored SAGD cogen units at full MC (01:39 MDT).</p>
+<p class="chg-balance"><b>Balance read:</b> September's >$20 WCS blowout (widest since Dec 2023) was a refinery-outage event, not an egress event - and it is unwinding on restarts. The December seasonal wide is pricing; the Nov-Dec egress crunch trades on the ~Oct 19 apportionment notice.</p>
+<p class="chg-cond"><b>Model conditional:</b> November apportionment notice ~Oct 19 decides the binding-from-November base case; December wide already pricing the seasonal.</p>
+<div class="chips"><span class="chip conf">confirmed</span><span class="chip">Oct 7-8, 2026</span>
+<span class="chip src">ICE Report Center EOD, Oct 7, 2026; EIA WPSR w/e Oct 2, released Oct 7, 2026; zerohedge/Bloomberg, Oct 7, 2026</span></div>
 
 </article>
 <article class="chg-card">
 <div class="chg-top"><span class="chg-rank">4</span>
-<span class="chg-title">Riyadh confirms Houthi airport strikes; Mocha contested</span></div>
-<p class="chg-delta">Jazan/Najran strikes confirmed by Saudi GACA (3 wounded); Mocha recapture disputed; East-West pipeline full at 5.8 Mb/d</p>
-<p class="chg-body">Yemen/Saudi (Oct 6-7): Saudi GACA confirmed Houthi strikes damaged Jazan and Najran airports, wounding three. Houthi claims on Abha, Riyadh's King Khalid airport, and the Aramco Rabigh refinery remain unconfirmed by Riyadh. GCC condemned the Jazan/Najran strikes. Saudi-backed forces say they retook Mocha and are pushing toward Bab el-Mandeb with ~100 coalition jets in support; the Houthis dispute the Mocha claim. Saudi energy minister: East-West pipeline at 5.8 Mb/d (full). Hormuz: UKMTO disclosed five incidents Monday Oct 5 (fresh 1637 UTC strike, engine-room fire); TradeWinds counts 11 ships hit in a week. Ceasefire: stalemate. US buildup timeline stands (three carriers by end-October).</p>
-<p class="chg-balance"><b>Balance read:</b> Claims became confirmed strikes on Saudi soil overnight; barrels still flowing; the bypass at capacity; diplomacy stalled. On the ground, the Mocha recapture is contested - treat both sides' claims as unverified.</p>
-<p class="chg-cond"><b>Model conditional:</b> Confirmed strike on Saudi energy infrastructure -> premium rebuilds; ceasefire proposal advances -> premium bleeds.</p>
-<div class="chips"><span class="chip conf">confirmed</span><span class="chip">Oct 6-7, 2026</span>
-<span class="chip src">Saudi GACA statement, Oct 6, 2026; Reuters, Oct 6, 2026; UKMTO via gCaptain/BOE Report, Oct 5, 2026</span></div>
+<span class="chg-title">Saudi airport strikes kill 3; coalition retaliates; Hormuz ship hit with casualties</span></div>
+<p class="chg-delta">3 killed at Saudi airports (Riyadh 1+8 wounded, Abha 2+28 wounded); Aden airport ballistic attack; 80+ coalition strikes; Qatar tanker strike with casualties; OPEC+ Nov quotas unchanged</p>
+<p class="chg-body">Yemen/Saudi (Oct 7-8): Houthi strikes killed 1 and wounded 8 at Riyadh's King Khalid airport and killed 2 and wounded 28 at Abha airport (Saudi civil aviation authorities via BusinessWorld Online, Oct 8). Houthis fired two ballistic missiles plus drones at Aden airport early Wednesday - one missile landed near the runway minutes before a Cairo flight (Yemen Transport Ministry via Reuters). The Saudi-led coalition struck 80+ Houthi military sites across Saada, Hodeidah, Jawf, and Marib late Wednesday. Monday's Yemeni government claim to have retaken Mocha was premature (military officials via thenews.pk, Oct 8). Hormuz (Oct 7-8): tanker north of Qatar struck by multiple projectiles Wednesday with casualties reported (UKMTO via Reuters) - the first casualty-bearing ship hit this round; 12+ incidents Sep 28-Oct 5, the highest weekly rate since the war began. OPEC+ (Oct 4): November quotas held unchanged at 31.01 Mb/d combined (OilPrice, Oct 5); August actual output ~25 Mb/d, ~5 Mb/d below quota. Next review Nov 1; ministerial Nov 29 sets 2027 policy.</p>
+<p class="chg-balance"><b>Balance read:</b> Escalation moved from claims to casualties on Saudi soil; barrels still flowing; the bypass is full; diplomacy stalled.</p>
+<p class="chg-cond"><b>Model conditional:</b> Confirmed strike on Saudi energy infrastructure -> premium rebuilds; Bab el-Mandeb closure -> the event the market cannot price.</p>
+<div class="chips"><span class="chip conf">confirmed</span><span class="chip">Oct 7-8, 2026</span>
+<span class="chip src">Reuters/BusinessWorld Online, Oct 7-8, 2026; UKMTO via Reuters, Oct 7-8, 2026; OilPrice, Oct 5, 2026</span></div>
 
 </article>
 <article class="chg-card">
 <div class="chg-top"><span class="chg-rank">5</span>
-<span class="chg-title">SPR bids in (award pending); producer news quiet</span></div>
-<p class="chg-delta">SPR 40 Mbbl bids due Oct 6 11:00 a.m. CT - no award announced; no updates on Cenovus-Athabasca or Ithaca-Suncor deals</p>
-<p class="chg-body">The SPR exchange bids went in yesterday (40 Mbbl sour: 20 Bryan Mound, 20 Big Hill; Nov-Dec delivery; replacement interest 7.5%/9.5% vs June's 18%). No award announcement has surfaced - the award is the next real data point for Gulf sour pricing; a clean award prices 40 Mbbl of medium sour into the Gulf, a no-bid is Sparta's cover-shorts trigger (Sparta Sep 30: Gulf Coast medium grades under pressure into year-end, watching Dec Mars FOB below $1/bbl). Producer news quiet: no updates on the Oct 5 Cenovus-Athabasca C$5.7B deal or the Oct 5 Ithaca-Suncor offshore transaction. RBN Energy's Oct 6 blog (ExxonMobil upstream strategy) flags the Guyana FPSO ramp (+250 kb/d Q4 2026 toward ~1.7 MMb/d by 2030) as the growing Atlantic Basin heavy/medium sour competitor set for Canadian heavy into the USGC.</p>
-<p class="chg-balance"><b>Balance read:</b> The award is the one event that actually reprices barrels today; everything else is headline vol.</p>
-<p class="chg-cond"><b>Model conditional:</b> Clean award -> Gulf sour repriced softer; no-bid -> Sparta's cover-shorts trigger.</p>
-<div class="chips"><span class="chip conf">confirmed</span><span class="chip">Oct 5-7, 2026</span>
-<span class="chip src">US DOE SPR solicitation; Sparta Commodities Sep 30; RBN Energy blog Oct 6, 2026</span></div>
+<span class="chg-title">SPR exchange award pending; Gulf sour pricing awaits</span></div>
+<p class="chg-delta">SPR 40 Mbbl exchange award still pending (bids due Oct 7); no DOE announcement</p>
+<p class="chg-body">The SPR exchange award is still pending - bids went in Tuesday (11:00 a.m. CT deadline), 40 Mbbl of sour (20 Bryan Mound, 20 Big Hill), Nov-Dec delivery, replacement interest 7.5%/9.5% vs June's 18%. No DOE announcement surfaced as of ~02:05 MDT (confirmed absence) (sixth exchange solicitation under the 172 Mbbl IEA coordinated release; energy-pedia.com, Sep 30). Sparta Commodities (Sep 30) expects Gulf Coast medium grades under pressure through year-end and is watching December Mars FOB below $1/bbl. No fresh Venezuela seizure or Chevron-license news; standing: seven seizures (latest the Sagitta, Sep 29).</p>
+<p class="chg-balance"><b>Balance read:</b> The exchange award is the next real data point for Gulf sour pricing; the Merey-vs-WCS-vs-Mars triangle at the Gulf is the comp-barrel trade against WCS length.</p>
+<p class="chg-cond"><b>Model conditional:</b> Clean award -> 40 Mbbl of medium sour priced into the Gulf; no-bid -> the cover-shorts trigger.</p>
+<div class="chips"><span class="chip conf">confirmed</span><span class="chip">Oct 7-8, 2026</span>
+<span class="chip src">energy-pedia.com, Sep 30, 2026; Sparta Commodities, Sep 30, 2026</span></div>
 
 </article>
 </section>
@@ -889,15 +940,15 @@ Stale flags are removed.</p>
 
 <div class="flag">
 <h3>Data gaps this run</h3>
-<p>Soft-data Wednesday: no EIA or SPR/DOE tables in this edition (EIA releases 10:30 a.m. ET today, after the run) - the hard-data layer returns Thursday. The OSM poller's newest item remains Oct 1 (stale - manual check needed). Nuttall's weekly Ninepoint update still missing (gap carried from last week).</p>
+<p>PADD-2-specific refinery utilization % for w/e Oct 2 did not surface in wire coverage - the 85.6% (w/e Sep 25) successor is open; the ~700 kb/d demand snap-back stays qualitative. Nuttall's weekly Ninepoint inventory numbers unlocatable for the third straight run. August ST53 data still unpublished (was due the first week of October). TMW Nov26 printed zero volume two days running - the ICE front print is thin.</p>
 <p class="trig"><b>Trigger:</b> None needed; informational.</p>
-<div class="chips"><span class="chip">expires Oct 8, 2026</span></div>
+<div class="chips"><span class="chip">expires Oct 9, 2026</span></div>
 </div>
 <div class="flag">
 <h3>Nomination week: apportionment gaming likely</h3>
 <p>Mainline nominations were cut 12% on the latest CER data (Jun 2026), and forward spare stays positive, but the latest data says the pipe is already being cut. While nominations are open, expect shippers to over-nominate to protect their allocations, which can inflate Edmonton/Hardisty price assessments. The price effect of a full pipe shows up after the apportionment announcement, passed back to producers. The financial contract settles on the window average: the overbidding is baked into the settlement, but the unwind is not. <a href="fieldguide/apportionment-price-signature.html">Full mechanics in the field guide</a>.</p>
 <p class="trig"><b>Trigger:</b> Mainline apportionment of 10% or more on the latest CER data, or negative forward spare in the next 3 months</p>
-<div class="chips"><span class="chip">expires Oct 8</span></div>
+<div class="chips"><span class="chip">expires Oct 9</span></div>
 </div>
 </section>
 
@@ -907,15 +958,18 @@ Stale flags are removed.</p>
 impact on the balance in kb/d, or says plainly when it cannot be
 quantified.</p>
 <div class="cal-group"><h3>This week</h3>
-<div class="cal-ev"><span class="cal-date">Wed Oct 7</span>
-<span><b>EIA PADD 2 refinery utilization, w/e Oct 2 (10:30 a.m. ET)</b><br>
-<span class="cal-impact">Arbitrates the Whiting full-strength read (Reuters Sep 21) vs Sep 16 trade sources putting unit overhauls 'until early November'. Sep 25 was 85.6%; a high-90s print confirms the ~700 kb/d PADD 2 demand snap-back is real.</span></span></div>
-<div class="cal-ev"><span class="cal-date">Wed Oct 7</span>
+<div class="cal-ev"><span class="cal-date">Thu Oct 8</span>
 <span><b>SPR 40-million-barrel exchange award (pending)</b><br>
-<span class="cal-impact">Bids went in Oct 6 (11:00 a.m. CT); a clean award prices 40 Mbbl of medium sour into the Gulf for Nov-Dec delivery. No award announced yet.</span></span></div></div><div class="cal-group"><h3>Next 30 days</h3>
+<span class="cal-impact">Bids went in Oct 7 (11:00 a.m. CT); a clean award prices 40 Mbbl of medium sour into the Gulf for Nov-Dec delivery. No award announced yet.</span></span></div>
+<div class="cal-ev"><span class="cal-date">Fri Oct 9</span>
+<span><b>CFTC/ICE positioning release (Friday)</b><br>
+<span class="cal-impact">Next COT vintage; carrying Sep 29 (Brent MM net +63,651, WTI MM net +79,592).</span></span></div>
+<div class="cal-ev"><span class="cal-date">Sat Oct 10</span>
+<span><b>Hurricane Isaias landfall (Mobile, AL area; early Oct 10)</b><br>
+<span class="cal-impact">Possible Cat 3 landfall near Mobile; a Pascagoula-area refinery track turns the distillate leg ($105.87 close, ~$109.27 overnight) from tight to very tight.</span></span></div></div><div class="cal-group"><h3>Next 30 days</h3>
 <div class="cal-ev"><span class="cal-date">Mon Oct 19</span>
 <span><b>November Mainline apportionment notice (~mid-October)</b><br>
-<span class="cal-impact">Decides whether the binding-from-November base case is right; in-house max modeled congestion rent $8.65/bbl.</span></span></div>
+<span class="cal-impact">Decides whether the binding-from-November base case is right; December TMW already pricing the seasonal wide (-$25.15).</span></span></div>
 <div class="cal-ev"><span class="cal-date">Sun Nov 1</span>
 <span><b>OPEC+ meeting</b><br>
 <span class="cal-impact">Next scheduled OPEC+ meeting; quotas are not the constraint, actual supply is.</span></span></div></div>
