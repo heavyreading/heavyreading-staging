@@ -763,6 +763,14 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
   border-radius:4px;padding:2px 6px;vertical-align:middle}
 .stag.s{color:var(--mut);border:1px solid var(--line)}
 .stag.f{color:#fff;background:var(--ch-acc)}
+.cma-rolls{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px;align-items:center}
+.cma-rolls .rl{font-size:12px;color:var(--mut);border:1px solid var(--line);border-radius:8px;
+  padding:5px 10px;font-variant-numeric:tabular-nums;background:var(--paper)}
+.cma-rolls .rl b{font-weight:700}
+.cma-rolls .rl .up{color:var(--ch-acc)}
+.cma-rolls .rl .dn{color:var(--ch-red)}
+.cma-rolls .rl-lab{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--faint);
+  margin-right:2px}
 .q-note{font-size:12px;color:var(--mut);margin:0 0 18px}
 #cma-error{display:none;border:1px solid var(--ch-red);border-radius:10px;padding:14px;
   margin-bottom:18px;font-size:14px}
@@ -773,6 +781,7 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
 </div>
 <div id="cma-error"></div>
 <div class="cma-tabs" id="cma-tabs" style="display:none"></div>
+<div class="cma-rolls" id="cma-rolls" style="display:none"></div>
 <div class="cma-panel" id="cma-panel" style="display:none"></div>
 
 <div class="cma-scroll" id="cma-wrap" style="display:none"><table id="cma-table"></table></div>
@@ -808,12 +817,39 @@ function dayPrice(month,row){
   return px!=null?Number(px):null;
 }
 
+function monthPrice(pack){
+  // Headline number for a month: final avg, or blended settled+market.
+  var month=pack.json, cma=month.cma, rows=month.trading_days||[];
+  if(cma.status==="final"&&rows.length===0) return cma.settled.avg;
+  var sum=0,n=0;
+  for(var i=0;i<rows.length;i++){
+    var px=dayPrice(month,rows[i]);
+    if(px==null) return null;
+    sum+=px;n++;
+  }
+  return n===rows.length&&n>0?sum/n:null;
+}
+
 function renderMonth(idx){
   var pack=months[idx], key=pack.key, month=pack.json, cma=month.cma;
   var rows=month.trading_days||[];
   document.querySelectorAll('.cma-tab').forEach(function(t,i){
     t.classList.toggle('on',i===idx);});
   var panel=document.getElementById('cma-panel');
+  var isFinalNoGrid=cma.status==="final"&&rows.length===0;
+  var price=monthPrice(pack);
+  var html='<div class="cma-main"><div class="k">'+esc(cma.label)+' CMA — '
+    +(cma.status==="final"?"final":"live")+'</div>';
+  html+='<div class="v">'+fmt(price)+'</div>';
+  if(isFinalNoGrid){
+    html+='<div class="s">'+cma.total_trading_days+' trading days · final</div></div>'
+      +'<div class="cma-roll">Settled average from '+(month.source||'EIA WTI spot proxy')
+      +'. Daily contract grid unavailable for expired contracts.</div>';
+    panel.innerHTML=html; panel.style.display='';
+    document.getElementById('cma-wrap').style.display='none';
+    document.getElementById('cma-note').textContent='';
+    return;
+  }
   var sum=0,n=0,nS=0,nF=0,fsum=0,fdays=0,fsegs={};
   rows.forEach(function(r){
     var px=dayPrice(month,r);
@@ -829,10 +865,6 @@ function renderMonth(idx){
   });
   settledAvg=nS?(ssum/nS):null;
   var blended=(n===rows.length&&n>0)?sum/n:null;
-  var isFwd=cma.status==="forward";
-  var html='<div class="cma-main"><div class="k">'+esc(cma.label)+' CMA — '
-    +(cma.status==="final"?"final":"live")+'</div>';
-  html+='<div class="v">'+(blended!=null?fmt(blended):fmt(settledAvg))+'</div>';
   html+='<div class="s">'
     +(nS?nS+' settled + ':'')+nF+' floating · '+rows.length+' trading days</div></div>'
     +'<div class="cma-legs">'
@@ -899,6 +931,20 @@ get(R2+'/cma/manifest.json').then(function(man){
     tabs.appendChild(b);
   });
   tabs.style.display='';
+  // Month-over-month rolls: adjacent CMA differences across the strip.
+  var rollsEl=document.getElementById('cma-rolls');
+  var rh='<span class="rl-lab">Rolls</span>';
+  var anyRoll=false;
+  for(var ri=0;ri<months.length-1;ri++){
+    var pa=monthPrice(months[ri]), pb=monthPrice(months[ri+1]);
+    if(pa==null||pb==null) continue;
+    var d=pb-pa, cls=d>=0?'up':'dn';
+    var la=months[ri].json.cma.label, lb=months[ri+1].json.cma.label;
+    rh+='<span class="rl">'+esc(la)+'→'+esc(lb)+' <b class="'+cls+'">'
+      +(d>=0?'+':'')+d.toFixed(2)+'</b></span>';
+    anyRoll=true;
+  }
+  if(anyRoll){rollsEl.innerHTML=rh; rollsEl.style.display='';}
   var first=months[def].json;
   var upd=Date.parse(first.updated_utc), stale=(Date.now()-upd)>26*3600*1000;
   var pill=document.getElementById('asof-pill');
