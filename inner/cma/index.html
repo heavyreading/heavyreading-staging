@@ -344,6 +344,11 @@ details.riskfold .rs-sub { color:var(--mut); font-size:13px; }
 table.facts td:first-child { font-weight:600; width:34%; color:#3a352c; }
 .tblnote { font-size:12px; color:var(--mut); margin:8px 0 0; max-width:68ch;
   line-height:1.6; }
+/* thin-sample badge: quiet pill flagging stats computed from n < 30.
+   Sits muted until needed - a reader should not over-read a thin number. */
+.nbadge { font-size:11px; color:var(--faint); border:1px solid var(--line);
+  border-radius:999px; padding:1px 8px; margin-left:6px; white-space:nowrap;
+  font-weight:400; }
 
 /* executive call: a red hairline, not a box */
 .exec { margin:28px 0; padding:2px 0 2px 20px; border-left:2px solid var(--acc); }
@@ -726,6 +731,10 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
 .q-asof .pill{font-size:12px;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:4px 12px}
 .q-asof .pill.stale{color:#fff;background:var(--ch-red);border-color:var(--ch-red);font-weight:700}
 .q-asof .pill.live{color:var(--ch-acc)}
+.cma-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}
+.cma-tab{font:inherit;font-size:13px;padding:7px 14px;border:1px solid var(--line);
+  border-radius:999px;background:var(--paper);color:var(--mut);cursor:pointer}
+.cma-tab.on{background:var(--ink);color:var(--paper);border-color:var(--ink);font-weight:700}
 .cma-panel{border:1px solid var(--line);border-radius:12px;background:var(--paper);
   padding:18px;margin-bottom:22px}
 .cma-main .k{font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--mut)}
@@ -743,18 +752,17 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
   font-size:13px;color:var(--mut)}
 .cma-roll b{color:var(--ink);font-variant-numeric:tabular-nums}
 .cma-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin-bottom:8px}
-.cma-scroll table{border-collapse:collapse;min-width:640px;width:100%;font-size:13px}
+.cma-scroll table{border-collapse:collapse;min-width:520px;width:100%;font-size:13px}
 .cma-scroll th,.cma-scroll td{padding:7px 10px;text-align:right;font-variant-numeric:tabular-nums;
   border-bottom:1px solid var(--line2);white-space:nowrap}
 .cma-scroll thead th{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--mut);
   border-bottom:1px solid var(--line);background:var(--paper)}
-.cma-scroll tbody th{position:sticky;left:0;background:var(--paper);text-align:left;font-weight:600;
-  border-right:1px solid var(--line);z-index:1}
-.cma-scroll td.prompt{font-weight:700;box-shadow:inset 0 -2px 0 var(--ch-acc)}
-.cma-scroll tr.live td,.cma-scroll tr.live th{background:color-mix(in srgb,var(--ch-acc) 9%,var(--paper))}
-.cma-scroll tr.live td:first-child{font-weight:700;color:var(--ch-acc)}
-.tag-live{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.5px;color:#fff;
-  background:var(--ch-acc);border-radius:4px;padding:2px 6px;margin-left:6px;vertical-align:middle}
+.cma-scroll tbody th{background:var(--paper);text-align:left;font-weight:600}
+.cma-scroll td.c{color:var(--mut)}
+.stag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.5px;
+  border-radius:4px;padding:2px 6px;vertical-align:middle}
+.stag.s{color:var(--mut);border:1px solid var(--line)}
+.stag.f{color:#fff;background:var(--ch-acc)}
 .q-note{font-size:12px;color:var(--mut);margin:0 0 18px}
 #cma-error{display:none;border:1px solid var(--ch-red);border-radius:10px;padding:14px;
   margin-bottom:18px;font-size:14px}
@@ -764,6 +772,7 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
   <span class="pill" id="asof-pill">loading…</span>
 </div>
 <div id="cma-error"></div>
+<div class="cma-tabs" id="cma-tabs" style="display:none"></div>
 <div class="cma-panel" id="cma-panel" style="display:none"></div>
 
 <div class="cma-scroll" id="cma-wrap" style="display:none"><table id="cma-table"></table></div>
@@ -774,123 +783,132 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
 var R2="https://pub-9df98d7efbc74d9fbe1dfe6431229e0e.r2.dev";
 function edmNow(){try{return new Date(new Date().toLocaleString("en-US",{timeZone:"America/Edmonton"}));}catch(e){return new Date();}}
 function ym(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");}
-function prevYm(d){var n=new Date(d.getFullYear(),d.getMonth()-1,1);return ym(n);}
 function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");}
 function fmt(n){return (n==null||isNaN(n))?"—":Number(n).toFixed(2);}
-function sgn(n){return (n==null||isNaN(n))?"—":(n>=0?"+":"")+Number(n).toFixed(2);}
 function mlabel(ymd){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   var p=ymd.split("-");return M[+p[1]-1]+" "+p[0].slice(2);}
 function get(u){return fetch(u,{cache:"no-store"}).then(function(r){
   if(!r.ok) throw new Error("HTTP "+r.status);return r.json();});}
 
-var now=edmNow(), cur=ym(now);
-get(R2+"/cma/"+cur+".json").catch(function(){return get(R2+"/cma/"+prevYm(now)+".json");})
-.then(function(month){
-  return get(R2+"/quotes/quotes.json").catch(function(){return null;})
-    .then(function(q){return {month:month,q:q};});
-}).then(function(pack){
-  var month=pack.month, q=pack.q, cma=month.cma;
-  var days=Object.keys(month.days).sort();
-  var contracts=month.contracts;
-  var upd=Date.parse(month.updated_utc);
-  var stale=(Date.now()-upd)>26*3600*1000;
-  var pill=document.getElementById('asof-pill');
-  var updD=new Date(upd);
-  pill.textContent=(stale?"STALE — ":"")+"as of "+updD.toLocaleString("en-US",{timeZone:"America/Edmonton",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
-  pill.className="pill "+(stale?"stale":"live");
+var live={}, qAsOf=null, months=[];
+function contractLabel(month,sym){
+  for(var i=0;i<month.contracts.length;i++){
+    if(month.contracts[i].symbol===sym) return mlabel(month.contracts[i].delivery);
+  }
+  if(month.cma.prompt_before&&month.cma.prompt_before.symbol===sym) return month.cma.prompt_before.label;
+  if(month.cma.prompt_after&&month.cma.prompt_after.symbol===sym) return month.cma.prompt_after.label;
+  return sym;
+}
+function dayPrice(month,row){
+  if(row.settled){
+    var d=(month.days||{})[row.date]||{};
+    return d[row.prompt]!=null?Number(d[row.prompt]):null;
+  }
+  var px=live[row.prompt];
+  return px!=null?Number(px):null;
+}
 
-  // live futures by symbol (15-min feed) for the floating leg + LIVE row
-  var live={};
-  if(q&&q.wti&&q.wti.contracts){q.wti.contracts.forEach(function(c){live[c.symbol]=c.last;});}
-  var qAsOf=q&&q.asof?new Date(q.asof):null;
-
+function renderMonth(idx){
+  var pack=months[idx], key=pack.key, month=pack.json, cma=month.cma;
+  var rows=month.trading_days||[];
+  document.querySelectorAll('.cma-tab').forEach(function(t,i){
+    t.classList.toggle('on',i===idx);});
   var panel=document.getElementById('cma-panel');
-  var s=cma.settled, total=cma.total_trading_days;
-  var html='<div class="cma-main"><div class="k">'+esc(cma.label)+' CMA — '
-    +(cma.status==="final"?"final":"estimate")+'</div>';
-
-  function segText(segs){return segs.map(function(g){
-    return g.days+"d "+esc(g.label)+" @ "+fmt(g.avg);}).join(" + ");}
-  function rollText(){
-    if(!cma.roll||!cma.prompt_before||!cma.prompt_after) return "";
-    var r=cma.roll;
-    return 'Rolled '+esc(r.date.slice(5).replace("-","/"))+': <b>'
-      +esc(cma.prompt_after.label)+" − "+esc(cma.prompt_before.label)
-      +" = "+sgn(r.value)+"</b> on roll day";
-  }
-
-  if(cma.status==="final"){
-    html+='<div class="v">'+fmt(s.avg)+'</div>'
-      +'<div class="s">'+total+' trading days · '+esc(segText(s.segments))+'</div></div>';
-    var rt=rollText();
-    if(rt) html+='<div class="cma-roll">'+rt+'</div>';
-  } else {
-    // floating leg: remaining days at today's futures for the prompt of each day
-    var fsum=0, fdays=0, fsegs=[], fOk=true;
-    Object.keys(cma.floating_days||{}).forEach(function(sym){
-      var n=cma.floating_days[sym], px=live[sym];
-      var lab=(cma.prompt_before&&cma.prompt_before.symbol===sym)?cma.prompt_before.label
-             :(cma.prompt_after&&cma.prompt_after.symbol===sym)?cma.prompt_after.label:sym;
-      if(px==null){fOk=false;fsegs.push({t:n+"d "+lab+" @ —",ok:false});}
-      else{fsum+=n*px;fdays+=n;fsegs.push({t:n+"d "+lab+" @ "+fmt(px),ok:true});}
-    });
-    var floatingAvg=fOk&&fdays?fsum/fdays:null;
-    var blended=(fOk&&floatingAvg!=null&&s.avg!=null)?(s.sum+fsum)/total:null;
-    html+='<div class="v">'+(blended!=null?"~"+fmt(blended):fmt(s.avg))+'</div>'
-      +'<div class="s">'+s.days+' settled + '+fdays+' floating · '+total+' trading days</div></div>'
-      +'<div class="cma-legs">'
-      +'<div class="cma-leg"><div class="k">Settled (locked)</div><div class="v">'+fmt(s.avg)+'</div>'
-      +'<div class="s">'+esc(segText(s.segments))+'</div></div>'
-      +'<div class="cma-leg"><div class="k">Floating<span class="live-dot"></span></div>'
-      +'<div class="v">'+fmt(floatingAvg)+'</div>'
-      +'<div class="s">'+esc(fsegs.map(function(g){return g.t;}).join(" + "))+'</div>'
-      +'<div class="s">live futures'
-      +(qAsOf?" as of "+qAsOf.toLocaleString("en-US",{timeZone:"America/Edmonton",hour:"numeric",minute:"2-digit"}):"")
-      +' · ~15 min delayed</div></div></div>';
-    var rt2=rollText()||(cma.roll_date
-      ?("Rolls "+esc(cma.roll_date.slice(5).replace("-","/"))+": "
-        +esc(cma.prompt_after?cma.prompt_after.label:"")+" takes over from "
-        +esc(cma.prompt_before?cma.prompt_before.label:""))
-      :"");
-    if(rt2) html+='<div class="cma-roll">'+rt2+'</div>';
-    if(!fOk) html+='<div class="cma-roll">Floating leg unavailable — live futures feed did not load. Settled leg is final.</div>';
-  }
-  panel.innerHTML=html; panel.style.display="";
-
-  // grid: prompt cell of each day marked (derivation made visible)
-  var lastDay=days[days.length-1];
-  var todayStr=ym(now)+"-"+String(now.getDate()).padStart(2,"0");
-  var showLive=todayStr>lastDay&&q&&q.market_status==="open";
-  function promptSym(d){
-    if(!cma.roll_date||!cma.prompt_before||!cma.prompt_after) return null;
-    return d<cma.roll_date?cma.prompt_before.symbol:cma.prompt_after.symbol;
-  }
-  var h='<thead><tr><th></th>';
-  contracts.forEach(function(c){h+='<th>'+esc(mlabel(c.delivery))+'</th>';});
-  h+='</tr></thead><tbody>';
-  days.forEach(function(d){
-    var ps=promptSym(d);
-    h+='<tr><th>'+esc(d.slice(5).replace("-","/"))+'</th>';
-    contracts.forEach(function(c){
-      h+='<td'+(c.symbol===ps?' class="prompt" title="prompt contract this day"':'')+'>'
-        +fmt(month.days[d][c.symbol])+'</td>';});
-    h+='</tr>';
+  var sum=0,n=0,nS=0,nF=0,fsum=0,fdays=0,fsegs={};
+  rows.forEach(function(r){
+    var px=dayPrice(month,r);
+    if(px==null) return;
+    sum+=px;n++;
+    if(r.settled){nS++;}
+    else{nF++;fsum+=px;fdays++;fsegs[r.prompt]=(fsegs[r.prompt]||0)+1;}
   });
-  if(showLive){
-    h+='<tr class="live"><th>today<span class="tag-live">LIVE</span></th>';
-    contracts.forEach(function(c){h+='<td>'+fmt(live[c.symbol])+'</td>';});
-    h+='</tr>';
+  var settledAvg=null, ssum=0;
+  rows.forEach(function(r){
+    if(!r.settled) return;
+    var px=dayPrice(month,r); if(px!=null){ssum+=px;}
+  });
+  settledAvg=nS?(ssum/nS):null;
+  var blended=(n===rows.length&&n>0)?sum/n:null;
+  var isFwd=cma.status==="forward";
+  var html='<div class="cma-main"><div class="k">'+esc(cma.label)+' CMA — '
+    +(cma.status==="final"?"final":isFwd?"forward estimate":"estimate")+'</div>';
+  html+='<div class="v">'+(blended!=null?(isFwd||nF?"~":"")+fmt(blended):fmt(settledAvg))+'</div>';
+  html+='<div class="s">'
+    +(nS?nS+' settled + ':'')+nF+' floating · '+rows.length+' trading days</div></div>'
+    +'<div class="cma-legs">'
+    +'<div class="cma-leg"><div class="k">Settled (locked)</div><div class="v">'+fmt(settledAvg)+'</div>'
+    +'<div class="s">'+(nS?nS+' days':'no settled days yet')+'</div></div>'
+    +'<div class="cma-leg"><div class="k">Floating<span class="live-dot"></span></div>'
+    +'<div class="v">'+(fdays?fmt(fsum/fdays):'—')+'</div>'
+    +'<div class="s">'+Object.keys(fsegs).map(function(s){
+        return fsegs[s]+'d '+esc(contractLabel(month,s));}).join(' + ')+'</div>'
+    +'<div class="s">live futures'
+    +(qAsOf?' as of '+qAsOf.toLocaleString('en-US',{timeZone:'America/Edmonton',hour:'numeric',minute:'2-digit'}):'')
+    +' · ~15 min delayed</div></div></div>';
+  if(cma.roll_date){
+    html+='<div class="cma-roll">Rolls '+esc(cma.roll_date.slice(5).replace('-','/'))+': '
+      +'<b>'+esc(contractLabel(month,cma.prompt_after.symbol))+'</b> takes over from '
+      +'<b>'+esc(contractLabel(month,cma.prompt_before.symbol))+'</b> as prompt</div>';
   }
+  if(blended==null){
+    html+='<div class="cma-roll">Floating leg unavailable — live futures feed did not load.</div>';
+  }
+  panel.innerHTML=html; panel.style.display='';
+
+  var h='<thead><tr><th>Date</th><th>Prompt</th><th>Price</th><th>Status</th></tr></thead><tbody>';
+  rows.forEach(function(r){
+    var px=dayPrice(month,r);
+    h+='<tr><th>'+esc(r.date.slice(5).replace('-','/'))+'</th>'
+      +'<td class="c">'+esc(contractLabel(month,r.prompt))+'</td>'
+      +'<td>'+fmt(px)+'</td>'
+      +'<td><span class="stag '+(r.settled?'s':'f')+'">'+(r.settled?'settled':'floating')+'</span></td></tr>';
+  });
   h+='</tbody>';
   document.getElementById('cma-table').innerHTML=h;
-  document.getElementById('cma-wrap').style.display="";
+  document.getElementById('cma-wrap').style.display='';
   document.getElementById('cma-note').textContent=
-    "CMA = mean of the daily prompt settle ("+month.source+"). "
-    +"Underlined cells mark the prompt contract each day — those are the settles in the average. "
-    +"The LIVE row is today's intraday quote from the 15-min feed — not in the settled average.";
+    'CMA = mean of the daily prompt settle ('+(month.source||'NYMEX')+'). '
+    +'Settled rows are locked prints; floating rows are valued at the live future for that day’s prompt contract. '
+    +'A futures price is the market’s expectation of its own future value, so the blend is the best estimate — '
+    +'it converges to the final print as days lock in.';
+}
+
+get(R2+'/cma/manifest.json').then(function(man){
+  var keys=man.months||[];
+  var qs=keys.map(function(k){
+    return get(R2+'/cma/'+k+'.json').then(function(j){return {key:k,json:j};});
+  });
+  return Promise.all(qs).then(function(ms){
+    return get(R2+'/quotes/quotes.json').catch(function(){return null;})
+      .then(function(q){
+        if(q&&q.wti&&q.wti.contracts){q.wti.contracts.forEach(function(c){live[c.symbol]=c.last;});}
+        qAsOf=q&&q.asof?new Date(q.asof):null;
+        return ms;
+      });
+  });
+}).then(function(ms){
+  months=ms;
+  var tabs=document.getElementById('cma-tabs');
+  var now=edmNow(), cur=ym(now), def=0;
+  months.forEach(function(p,i){
+    if(p.key===cur) def=i;
+    var b=document.createElement('button');
+    b.className='cma-tab'+(i===def?' on':'');
+    b.textContent=p.json.cma.label;
+    b.onclick=function(){renderMonth(i);};
+    tabs.appendChild(b);
+  });
+  tabs.style.display='';
+  var first=months[def].json;
+  var upd=Date.parse(first.updated_utc), stale=(Date.now()-upd)>26*3600*1000;
+  var pill=document.getElementById('asof-pill');
+  pill.textContent=(stale?'STALE — ':'')+'as of '
+    +new Date(upd).toLocaleString('en-US',{timeZone:'America/Edmonton',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+  pill.className='pill '+(stale?'stale':'live');
+  renderMonth(def);
 }).catch(function(e){
-  var el=document.getElementById('cma-error');el.style.display="";
-  el.textContent="CMA data unavailable ("+e.message+").";
+  var el=document.getElementById('cma-error');el.style.display='';
+  el.textContent='CMA data unavailable ('+e.message+').';
 });
 })();
 </script>
