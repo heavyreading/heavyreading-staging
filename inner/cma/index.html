@@ -10,12 +10,12 @@ if(t){document.documentElement.setAttribute('data-theme',t);}else if
 document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();
 </script>
 <title>WTI CMA | Heavy Reading</title>
-<meta name="description" content="WTI calendar-month-average: settled days, floating projection, blended estimate, and the daily settles grid.">
+<meta name="description" content="WTI calendar-month-average: settled days, market marks, live price, and the daily grid.">
 <link rel="canonical" href="https://heavyreading.ca/inner/cma/index.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Heavy Reading">
 <meta property="og:title" content="WTI CMA | Heavy Reading">
-<meta property="og:description" content="WTI calendar-month-average: settled days, floating projection, blended estimate, and the daily settles grid.">
+<meta property="og:description" content="WTI calendar-month-average: settled days, market marks, live price, and the daily grid.">
 <meta property="og:url" content="https://heavyreading.ca/inner/cma/index.html">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Crect x='1.5' y='1.5' width='41' height='41' rx='9' fill='%2317191d'/%3E%3Crect x='10' y='25' width='6.5' height='8' fill='%23f4f1e8'/%3E%3Crect x='18.75' y='18' width='6.5' height='15' fill='%23f4f1e8'/%3E%3Crect x='27.5' y='11' width='6.5' height='22' fill='%23a13c22'/%3E%3C/svg%3E">
@@ -725,7 +725,7 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
   </header>
   <div class="crumb"><a href="../../index.html">Home</a> / <a href="../index.html">Inner</a> / WTI CMA</div>
   <h1>WTI CMA</h1>
-  <p class="sub">Prompt-following calendar monthly average: settled, floating, and blended estimate.</p>
+  <p class="sub">Prompt-following calendar monthly average: settled days, market marks, and the live price.</p>
 <style>
 .q-asof{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:4px 0 18px}
 .q-asof .pill{font-size:12px;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:4px 12px}
@@ -831,8 +831,8 @@ function renderMonth(idx){
   var blended=(n===rows.length&&n>0)?sum/n:null;
   var isFwd=cma.status==="forward";
   var html='<div class="cma-main"><div class="k">'+esc(cma.label)+' CMA — '
-    +(cma.status==="final"?"final":isFwd?"forward estimate":"estimate")+'</div>';
-  html+='<div class="v">'+(blended!=null?(isFwd||nF?"~":"")+fmt(blended):fmt(settledAvg))+'</div>';
+    +(cma.status==="final"?"final":"live")+'</div>';
+  html+='<div class="v">'+(blended!=null?fmt(blended):fmt(settledAvg))+'</div>';
   html+='<div class="s">'
     +(nS?nS+' settled + ':'')+nF+' floating · '+rows.length+' trading days</div></div>'
     +'<div class="cma-legs">'
@@ -868,9 +868,9 @@ function renderMonth(idx){
   document.getElementById('cma-wrap').style.display='';
   document.getElementById('cma-note').textContent=
     'CMA = mean of the daily prompt settle ('+(month.source||'NYMEX')+'). '
-    +'Settled rows are locked prints; floating rows are valued at the live future for that day’s prompt contract. '
-    +'A futures price is the market’s expectation of its own future value, so the blend is the best estimate — '
-    +'it converges to the final print as days lock in.';
+    +'Settled rows are locked prints; floating rows are marked at the live futures price '
+    +'for that day’s prompt contract — the market price, not an estimate. '
+    +'As days settle, locked prints replace market marks and the number converges to the final.';
 }
 
 get(R2+'/cma/manifest.json').then(function(man){
