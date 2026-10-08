@@ -771,7 +771,7 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
 
 <script>
 (function(){
-var R2="/api";
+var R2="https://pub-9df98d7efbc74d9fbe1dfe6431229e0e.r2.dev";
 function edmNow(){try{return new Date(new Date().toLocaleString("en-US",{timeZone:"America/Edmonton"}));}catch(e){return new Date();}}
 function ym(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");}
 function prevYm(d){var n=new Date(d.getFullYear(),d.getMonth()-1,1);return ym(n);}
@@ -784,9 +784,9 @@ function get(u){return fetch(u,{cache:"no-store"}).then(function(r){
   if(!r.ok) throw new Error("HTTP "+r.status);return r.json();});}
 
 var now=edmNow(), cur=ym(now);
-get(R2+"/cma/"+cur).catch(function(){return get(R2+"/cma/"+prevYm(now));})
+get(R2+"/cma/"+cur+".json").catch(function(){return get(R2+"/cma/"+prevYm(now)+".json");})
 .then(function(month){
-  return get(R2+"/quotes").catch(function(){return null;})
+  return get(R2+"/quotes/quotes.json").catch(function(){return null;})
     .then(function(q){return {month:month,q:q};});
 }).then(function(pack){
   var month=pack.month, q=pack.q, cma=month.cma;
