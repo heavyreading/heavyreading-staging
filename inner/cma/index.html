@@ -964,8 +964,10 @@ get(R2+'/cma/manifest.json').then(function(man){
     var n2=function(y){return String(y).slice(2);};
     var strips=[];
     var bq=[]; for(var m=cm+1;m<(cq+1)*3;m++) bq.push(kk(cy,m));
-    if(bq.length) strips.push({label:'Bal Q'+(cq+1)+' '+n2(cy), months:bq,
-      sub:'rest of quarter'});
+    if(bq.length){
+      var bql=byKey[bq[0]].json.cma.label+'–'+byKey[bq[bq.length-1]].json.cma.label;
+      strips.push({label:bql, months:bq, sub:'rest of quarter'});
+    }
     for(var i=1;i<=4;i++){
       var qq=cq+i, yy=cy+Math.floor(qq/4); qq=qq%4;
       strips.push({label:'Q'+(qq+1)+' '+n2(yy), months:qdef(yy,qq), sub:'quarter'});
