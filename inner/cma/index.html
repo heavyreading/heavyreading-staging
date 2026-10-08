@@ -771,6 +771,13 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
 .cma-rolls .rl .dn{color:var(--ch-red)}
 .cma-rolls .rl-lab{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--faint);
   margin-right:2px}
+.cma-strips{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:10px;
+  margin:0 0 18px}
+.cma-strip{border:1px solid var(--line);border-radius:10px;background:var(--paper);
+  padding:10px 12px}
+.cma-strip .k{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut)}
+.cma-strip .v{font-size:20px;font-weight:700;font-variant-numeric:tabular-nums;margin:2px 0}
+.cma-strip .s{font-size:11px;color:var(--faint)}
 .q-note{font-size:12px;color:var(--mut);margin:0 0 18px}
 #cma-error{display:none;border:1px solid var(--ch-red);border-radius:10px;padding:14px;
   margin-bottom:18px;font-size:14px}
@@ -782,6 +789,7 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
 <div id="cma-error"></div>
 <div class="cma-tabs" id="cma-tabs" style="display:none"></div>
 <div class="cma-rolls" id="cma-rolls" style="display:none"></div>
+<div class="cma-strips" id="cma-strips" style="display:none"></div>
 <div class="cma-panel" id="cma-panel" style="display:none"></div>
 
 <div class="cma-scroll" id="cma-wrap" style="display:none"><table id="cma-table"></table></div>
@@ -922,6 +930,7 @@ get(R2+'/cma/manifest.json').then(function(man){
   months=ms;
   var tabs=document.getElementById('cma-tabs');
   var now=edmNow(), cur=ym(now), def=0;
+  var cy=now.getFullYear(), cm=now.getMonth(), cq=Math.floor(cm/3);
   months.forEach(function(p,i){
     if(p.key===cur) def=i;
     var b=document.createElement('button');
@@ -945,6 +954,45 @@ get(R2+'/cma/manifest.json').then(function(man){
     anyRoll=true;
   }
   if(anyRoll){rollsEl.innerHTML=rh; rollsEl.style.display='';}
+  // Commonly quoted strips: balance of quarter, next 4 quarters, cals.
+  (function(){
+    var byKey={}; months.forEach(function(p){byKey[p.key]=p;});
+    function kk(y,m){return y+'-'+('0'+(m+1)).slice(-2);}
+    function qdef(y,q){ // q: 0-based quarter
+      var ms=[]; for(var m=q*3;m<q*3+3;m++) ms.push(kk(y,m)); return ms;
+    }
+    var n2=function(y){return String(y).slice(2);};
+    var strips=[];
+    var bq=[]; for(var m=cm+1;m<(cq+1)*3;m++) bq.push(kk(cy,m));
+    if(bq.length) strips.push({label:'Bal Q'+(cq+1)+' '+n2(cy), months:bq,
+      sub:'rest of quarter'});
+    for(var i=1;i<=4;i++){
+      var qq=cq+i, yy=cy+Math.floor(qq/4); qq=qq%4;
+      strips.push({label:'Q'+(qq+1)+' '+n2(yy), months:qdef(yy,qq), sub:'quarter'});
+    }
+    [cy,cy+1].forEach(function(yy){
+      var ms=[]; for(var m=0;m<12;m++) ms.push(kk(yy,m));
+      strips.push({label:'Cal '+n2(yy), months:ms, sub:'calendar '+yy});
+    });
+    var sh='', anyS=false;
+    strips.forEach(function(s){
+      var sum=0,n=0, ok=true;
+      s.months.forEach(function(k){
+        var p=byKey[k]; if(!p){ok=false;return;}
+        var px=monthPrice(p); if(px==null){ok=false;return;}
+        sum+=px; n++;
+      });
+      if(!ok||!n) return;
+      sh+='<div class="cma-strip"><div class="k">'+esc(s.label)+'</div>'
+        +'<div class="v">'+fmt(sum/n)+'</div>'
+        +'<div class="s">'+s.months.length+' mo avg</div></div>';
+      anyS=true;
+    });
+    if(anyS){
+      var se=document.getElementById('cma-strips');
+      se.innerHTML=sh; se.style.display='';
+    }
+  })();
   var first=months[def].json;
   var upd=Date.parse(first.updated_utc), stale=(Date.now()-upd)>26*3600*1000;
   var pill=document.getElementById('asof-pill');
