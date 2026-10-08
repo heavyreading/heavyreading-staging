@@ -1,6 +1,62 @@
 {
  "edition": "2026-10-08",
- "generated_at": "2026-10-08T19:20:00",
+ "generated_at": "2026-10-08T20:04:15",
  "generator": "change_engine v1",
- "changes": []
+ "changes": [
+  {
+   "title": "Project update: Surmont",
+   "delta": "note changed",
+   "body": "Surmont: note changed from \"None\" to \"WATCH: debottlenecking active per CEO ('as we speak'); new well pad + more steam planned. No published kb/d target. 136 nameplate, ~147 Q3 2025.\".",
+   "balance": "Reference update; no direct balance read.",
+   "vintage": "Project roster",
+   "source": "Project roster (AER ST3/ST53 mapping)",
+   "confirmation": "confirmed",
+   "dedup_key": "project-field-cop_surmont-note-WATCH: debottlenecking active per CEO ('as we speak'); new well pad + more steam planned. No published kb/d target. 136 nameplate, ~147 Q3 2025.",
+   "auto_detected": true
+  },
+  {
+   "title": "Project update: Long Lake Upgrader",
+   "delta": "note changed",
+   "body": "Long Lake Upgrader: note changed from \"SAGD + upgrader complex; ST53 tracks SAGD bitumen\" to \"HISTORICAL — idled indefinitely Jul 2016 after Jan 2016 hydrocracker explosion; never restarted. Site is SAGD-only (raw bitumen/dilbit). US$1.6B impairment. ST53 tracks SAGD bitumen.\".",
+   "balance": "Reference update; no direct balance read.",
+   "vintage": "Project roster",
+   "source": "Project roster (AER ST3/ST53 mapping)",
+   "confirmation": "confirmed",
+   "dedup_key": "project-field-cnooc_long_lake_upgrader-note-HISTORICAL — idled indefinitely Jul 2016 after Jan 2016 hydrocracker explosion; never restarted. Site is SAGD-only (raw bitumen/dilbit). US$1.6B impairment. ST53 tracks SAGD bitumen.",
+   "auto_detected": true
+  },
+  {
+   "title": "Project update: Scotford Upgrader",
+   "delta": "note changed",
+   "body": "Scotford Upgrader: note changed from \"Upgrades Albian bitumen (Muskeg River + Jackpine mines); ST39 SCO only.\" to \"Upgrades Albian bitumen (Muskeg River + Jackpine mines); ST39 SCO only. AOSP JV: CNRL 70%, Chevron 20%, Shell 10% (Shell operator). 255 kb/d bitumen rated; hydrogen-addition, no coker.\".",
+   "balance": "Reference update; no direct balance read.",
+   "vintage": "Project roster",
+   "source": "Project roster (AER ST3/ST53 mapping)",
+   "confirmation": "confirmed",
+   "dedup_key": "project-field-shell_scotford-note-Upgrades Albian bitumen (Muskeg River + Jackpine mines); ST39 SCO only. AOSP JV: CNRL 70%, Chevron 20%, Shell 10% (Shell operator). 255 kb/d bitumen rated; hydrogen-addition, no coker.",
+   "auto_detected": true
+  },
+  {
+   "title": "New project on the roster: Lloydminster Upgrader",
+   "delta": "added",
+   "body": "Lloydminster Upgrader (Cenovus Energy Inc.) added to the project roster as upgrading.",
+   "balance": "Watch: new supply entering the basin picture.",
+   "vintage": "Project roster",
+   "source": "Project roster (AER ST3/ST53 mapping)",
+   "confirmation": "confirmed",
+   "dedup_key": "project-new-cve_lloydminster_upgrader",
+   "auto_detected": true
+  },
+  {
+   "title": "New project on the roster: Sturgeon Refinery",
+   "delta": "added",
+   "body": "Sturgeon Refinery (North West Redwater Partnership) added to the project roster as upgrading.",
+   "balance": "Watch: new supply entering the basin picture.",
+   "vintage": "Project roster",
+   "source": "Project roster (AER ST3/ST53 mapping)",
+   "confirmation": "confirmed",
+   "dedup_key": "project-new-nwr_sturgeon",
+   "auto_detected": true
+  }
+ ]
 }
