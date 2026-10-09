@@ -54,6 +54,24 @@
    "source_url": "https://www.oilmonster.com/article/oil-prices-barely-changed-as-investors-assess-usiran-peace-talks-and-gulf-exports/8645/"
   },
   {
+   "text": "IEA Executive Director Fatih Birol said on Oct 8 that member countries still hold about 1.1 billion barrels of public emergency oil stocks, including over 200 million barrels of diesel, and stand ready to release more to the market if and when required.",
+   "vintage": "Oct 8, 2026",
+   "source": "Reuters (via The Leaders Online)",
+   "source_url": "https://theleaders-online.com/iea-ready-to-tap-more-oil-reserves-as-diesel-supplies-tighten/"
+  },
+  {
+   "text": "In a televised national address on Oct 7, French Prime Minister Sebastien Lecornu confirmed France will make 10 million barrels of diesel from strategic reserves available to distributors at cost price over about three months (Nov 2026 to Jan 2027), projected to cut diesel prices at the pump by 12 to 18 euro cents per liter; he will sign a decree authorizing the operation.",
+   "vintage": "Oct 7, 2026",
+   "source": "Reuters (via Devdiscourse)",
+   "source_url": "https://www.devdiscourse.com/article/international/3988534-france-to-release-10-mln-barrels-of-diesel-from-stocks-french-pm-says"
+  },
+  {
+   "text": "Polish Energy Minister Milosz Motyka said on Oct 7 that Poland was ready to release oil and diesel stocks if a consensus is reached among IEA members; the IEA governing board is expected to settle details of the G7 diesel-stock release at an October 14-15 meeting.",
+   "vintage": "Oct 7, 2026",
+   "source": "Reuters (via Q101.9 FM)",
+   "source_url": "https://q1019fm.com/2026/10/07/iea-to-meet-wednesday-over-proposed-release-of-reserves-say-two-eu-diplomats/"
+  },
+  {
    "text": "Gasoline stocks rose 400,000 barrels (6% below the five-year average) while distillate stocks were essentially unchanged and sit 12% below the five-year average; four-week implied demand averaged 21.1 million b/d, up 0.7% year on year.",
    "vintage": "Oct 7, 2026",
    "source": "OilPrice.com",
@@ -112,24 +130,6 @@
    "vintage": "Published Sep 23, 2026; accessed 2026-09-28",
    "source": "Reuters (via LA Post)",
    "source_url": "https://www.lapost.com/content/us-diesel-futures-fall-after-report-of-export-ban-plan-which-the-white-house-denies"
-  },
-  {
-   "text": "Senators Susan Collins and Angus King of Maine wrote to President Trump on Sep 22 asking him to release home heating oil from the Northeast Home Heating Oil Reserve, noting Maine households are paying about 675 dollars more per tank fill than last year and diesel has surged past 6.50 dollars a gallon. The 1-million-barrel reserve, stored at four sites from Maine to New Jersey, holds roughly 10 days of regional supply and has not been tapped since Hurricane Sandy in 2012.",
-   "vintage": "Letter sent Sep 22, 2026; published Sep 23, 2026; accessed 2026-09-28",
-   "source": "Reuters (via WNCY)",
-   "source_url": "https://wncy.com/2026/09/23/senators-from-both-parties-ask-trump-to-release-emergency-heating-oil-as-prices-surge/"
-  },
-  {
-   "text": "The Northeast Home Heating Oil Reserve holds about one million barrels of heating oil, roughly five days of regional supply, and a release requires the heating-oil-over-crude price spread to run more than 60 percent above its five-year average for seven straight days while continuing to widen. Unlike the Strategic Petroleum Reserve (SPR), the Northeast reserve holds refined fuel that can go directly to heating-oil markets, but a price spike alone does not automatically trigger a release; it must meet the statutory dislocation standard (National Energy Assistance Directors Association).",
-   "vintage": "Reported Sep 23, 2026; accessed 2026-09-24",
-   "source": "Daily Caller News Foundation (quoting National Energy Assistance Directors Association)",
-   "source_url": "https://dailycallernewsfoundation.org/2026/09/23/strategic-petroleum-reserve-drawdown-diesel-heating-oil-winter/"
-  },
-  {
-   "text": "The Energy Information Administration's (EIA) September Short-Term Energy Outlook (STEO) raised its 2026 distillate crack spread forecast to $1.57 per gallon, up 20.8 percent from the August estimate, and lifted the 2027 figure to $1.25, formalizing the market's bet that refinery margins stay elevated while global middle-distillate balances stay tight. Ukrainian strikes on Russian refineries, Russia's diesel export curbs, and Middle East supply risk are cited as the drivers.",
-   "vintage": "EIA September 2026 STEO; reported Sep 21, 2026; accessed 2026-09-24",
-   "source": "The Autowire (citing EIA Short-Term Energy Outlook)",
-   "source_url": "https://theautowire.com/2026/09/21/record-diesel-prices-refining-capacity-expor/"
   },
   {
    "text": "The bid window for DOE's sixth and final 40-million-barrel SPR exchange closed on Oct 6 at 11 a.m. CT, with deliveries under awarded exchanges scheduled for November and December 2026; the tranche completes the US portion of the 172-million-barrel pledge under the IEA-coordinated 400-million-barrel release, with borrowers returning the oil plus premium barrels.",
@@ -289,6 +289,21 @@
    "url": "https://www.oilmonster.com/article/oil-prices-barely-changed-as-investors-assess-usiran-peace-talks-and-gulf-exports/8645/"
   },
   {
+   "publisher": "Reuters (via The Leaders Online)",
+   "vintage": "",
+   "url": "https://theleaders-online.com/iea-ready-to-tap-more-oil-reserves-as-diesel-supplies-tighten/"
+  },
+  {
+   "publisher": "Reuters (via Devdiscourse)",
+   "vintage": "",
+   "url": "https://www.devdiscourse.com/article/international/3988534-france-to-release-10-mln-barrels-of-diesel-from-stocks-french-pm-says"
+  },
+  {
+   "publisher": "Reuters (via Q101.9 FM)",
+   "vintage": "",
+   "url": "https://q1019fm.com/2026/10/07/iea-to-meet-wednesday-over-proposed-release-of-reserves-say-two-eu-diplomats/"
+  },
+  {
    "publisher": "Reuters (via LAPOST)",
    "vintage": "",
    "url": "https://www.lapost.com/content/oil-prices-rise-as-storms-and-air-strikes-threaten-supply"
@@ -317,21 +332,6 @@
    "publisher": "Reuters (via LA Post)",
    "vintage": "",
    "url": "https://www.lapost.com/content/us-diesel-futures-fall-after-report-of-export-ban-plan-which-the-white-house-denies"
-  },
-  {
-   "publisher": "Reuters (via WNCY)",
-   "vintage": "",
-   "url": "https://wncy.com/2026/09/23/senators-from-both-parties-ask-trump-to-release-emergency-heating-oil-as-prices-surge/"
-  },
-  {
-   "publisher": "Daily Caller News Foundation (quoting National Energy Assistance Directors Association)",
-   "vintage": "",
-   "url": "https://dailycallernewsfoundation.org/2026/09/23/strategic-petroleum-reserve-drawdown-diesel-heating-oil-winter/"
-  },
-  {
-   "publisher": "The Autowire (citing EIA Short-Term Energy Outlook)",
-   "vintage": "",
-   "url": "https://theautowire.com/2026/09/21/record-diesel-prices-refining-capacity-expor/"
   },
   {
    "publisher": "Big Energy News",

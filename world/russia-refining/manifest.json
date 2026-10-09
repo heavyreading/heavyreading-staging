@@ -120,6 +120,24 @@
    "source_url": "https://commodity-board.com/crude-oil-pauses-near-two-week-lows-while-diesel-tightens-the-market"
   },
   {
+   "text": "Ukraine's General Staff said it struck Russia's largest refinery, the Gazprom Neft Omsk plant (about 440,000 b/d, roughly one-fifteenth of national capacity), overnight Oct 8, some 2,500-2,700 km from Ukraine; regional governor Vitaly Khotsenko confirmed a drone hit an industrial zone. It is the second strike on Omsk since July 6, and Zelenskyy called it an 'important achievement,' saying 'Siberia, too, is now within reach.'",
+   "vintage": "Oct 8, 2026",
+   "source": "Reuters (via Devdiscourse)",
+   "source_url": "https://www.devdiscourse.com/article/international/3989199-ukraine-says-it-hit-russias-largest-oil-refinery-in-omsk"
+  },
+  {
+   "text": "In the same overnight wave, Ukraine's military said it struck the Ust-Luga and Vysotsk ports, which handle Baltic Sea oil exports, plus targets in the Kaluga and Yaroslavl regions, with local governors confirming the attacks; the strikes widen the campaign from refineries to export infrastructure.",
+   "vintage": "Oct 8, 2026",
+   "source": "Reuters (via MarineLink)",
+   "source_url": "https://www.marinelink.com/news/ukrainian-drones-hit-largest-russian-540951"
+  },
+  {
+   "text": "Ukraine's General Staff confirmed on Oct 8 that the Oct 2 strike on the Samara linear production and dispatch station at Prosvet damaged 11 RVS-20000 tanks, 3 RVS-50000 tanks, pipeline sections and an automated oil loading station; the hub blends Urals export crude and, per the General Staff, handles up to half of Russia's oil exports.",
+   "vintage": "Oct 8, 2026",
+   "source": "Defence Express",
+   "source_url": "https://en.defence-ua.com/news/ukraine_confirms_significant_damage_to_russian_samara_oil_hub_and_astrakhan_gas_plant-20029.html"
+  },
+  {
    "text": "Ukraine's General Staff claimed an overnight strike on the Gazprom Neftekhim Salavat refinery complex in Bashkortostan, described as one of Russia's largest oil refining and petrochemical facilities, about 750 miles east of Moscow; local authorities had not confirmed the claim. The 200 kb/d plant was previously hit on July 14 and September 24, when its AVT-6 primary unit caught fire.",
    "vintage": "Oct 7, 2026",
    "source": "Cumhuriyet Daily",
@@ -202,24 +220,6 @@
    "vintage": "Sep 26, 2026",
    "source": "Reuters (via Europesays)",
    "source_url": "https://www.europesays.com/russia/69095/"
-  },
-  {
-   "text": "The Novoshakhtinsk refinery in Russia's Rostov region was damaged overnight September 24 to 25 and temporarily suspended operations, Governor Yuri Slyusar said; Russia's defense ministry said air defenses destroyed 592 drones overnight. One man was killed in the Perm region during the same wave.",
-   "vintage": "Sep 25, 2026",
-   "source": "Reuters (via WNCY)",
-   "source_url": "https://wncy.com/2026/09/24/eight-injured-in-drone-attack-in-russias-ulyanovsk-region-one-killed-in-belgorod-region/"
-  },
-  {
-   "text": "The Ilsky refinery in Krasnodar Krai was reportedly struck on September 26, making it the fourth Russian refinery to suspend operations in less than a week amid the sustained Ukrainian campaign against oil-processing infrastructure.",
-   "vintage": "Sep 26, 2026",
-   "source": "Reuters (via Europesays)",
-   "source_url": "https://www.europesays.com/ukraine/48021/"
-  },
-  {
-   "text": "Ukraine expanded the campaign from refineries to crude logistics around September 20-21: drones hit the Lazarevo pumping station in the Kirov region, about 1,300 kilometers from Ukrainian-held territory, which serves the Surgut-Gorky-Polotsk pipeline carrying Siberian crude to Belarus. Ukraine's General Staff confirmed a fresh strike on the Saratov refinery that sparked a large fire, a fuel depot at Matveyev Kurgan in the Rostov region burned after a drone strike, and the Moscow-appointed governor of Crimea announced gasoline sales restrictions without giving a reason. Russia's Defense Ministry claimed 216 drones were intercepted; the damage assessments are unconfirmed.",
-   "vintage": "Strikes ~Sep 20-21, 2026; accessed 2026-09-24",
-   "source": "Pipeline Technology Journal",
-   "source_url": "https://www.pipeline-journal.net/news/ukraine-drone-strikes-target-major-russian-oil-pipeline-station-and-refineries"
   },
   {
    "text": "Russia raised its expected idle primary refining capacity for October by 67% versus the earlier plan to 4.0 million tons, per Reuters industry-source estimates, after postponed maintenance at Rosneft's Novokuibyshevsk refinery and a unit of Lukoil's NORSI; Rosneft's Tuapse refinery also reportedly halted crude processing on Oct 1 on low margins. More than half of October's idle capacity is expected to return in November, with November idle at 1.2 to 1.8 million tons.",
@@ -343,6 +343,21 @@
    "url": "https://commodity-board.com/crude-oil-pauses-near-two-week-lows-while-diesel-tightens-the-market"
   },
   {
+   "publisher": "Reuters (via Devdiscourse)",
+   "vintage": "",
+   "url": "https://www.devdiscourse.com/article/international/3989199-ukraine-says-it-hit-russias-largest-oil-refinery-in-omsk"
+  },
+  {
+   "publisher": "Reuters (via MarineLink)",
+   "vintage": "",
+   "url": "https://www.marinelink.com/news/ukrainian-drones-hit-largest-russian-540951"
+  },
+  {
+   "publisher": "Defence Express",
+   "vintage": "",
+   "url": "https://en.defence-ua.com/news/ukraine_confirms_significant_damage_to_russian_samara_oil_hub_and_astrakhan_gas_plant-20029.html"
+  },
+  {
    "publisher": "Cumhuriyet Daily",
    "vintage": "",
    "url": "https://www.cumhuriyetdaily.com/world/drone-strike-causes-fire-at-yandex-data-centre-in-russias-ryazan-region-2140625?utm_campaign=Cumhuriyet&utm_medium=Surmanset&utm_source=Anasayfa"
@@ -411,16 +426,6 @@
    "publisher": "Reuters (via Europesays)",
    "vintage": "",
    "url": "https://www.europesays.com/russia/69095/"
-  },
-  {
-   "publisher": "Reuters (via WNCY)",
-   "vintage": "",
-   "url": "https://wncy.com/2026/09/24/eight-injured-in-drone-attack-in-russias-ulyanovsk-region-one-killed-in-belgorod-region/"
-  },
-  {
-   "publisher": "Reuters (via Europesays)",
-   "vintage": "",
-   "url": "https://www.europesays.com/ukraine/48021/"
   },
   {
    "publisher": "OilPrice.com",

@@ -6,6 +6,30 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "The US Treasury imposed fresh Iran sanctions on Oct 8 under 'Operation Economic Outcast,' designating 17 tankers plus individuals and networks moving Iranian crude, oil products and petrochemicals. Treasury officials said Iran has stopped loading and offloading crude and has only about 20 million barrels left on vessels outside the blockade.",
+   "vintage": "Oct 8, 2026",
+   "source": "Reuters (via WABX)",
+   "source_url": "https://wabx.net/2026/10/08/us-imposes-fresh-iran-related-sanctions/"
+  },
+  {
+   "text": "Kpler data showed crude crossing the Strait of Hormuz fell 27% week over week to about 10.1 million b/d on Oct 8, with only seven commodity carriers transiting on Tuesday, the lowest since late July, as fresh Iranian tanker strikes and record Persian Gulf freight rates tightened vessel supply.",
+   "vintage": "Oct 8, 2026",
+   "source": "OilPrice.com",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Saudi civil aviation authority GACA confirmed two Houthi strikes on Riyadh's King Khalid International Airport on Oct 8 that destroyed a parked Saudia aircraft and killed three people including a Saudia pilot; more than 150 flights were cancelled Thursday as Etihad, Qatar Airways, Flydubai, PIA, EgyptAir and Oman Air suspended services.",
+   "vintage": "Oct 8, 2026",
+   "source": "Gulf Business",
+   "source_url": "https://gulfbusiness.com/en/2026/saudi-arabia/riyadh-airport-150-flights-cancelled-houthi-attacks/"
+  },
+  {
+   "text": "President Trump said Oct 8 the US would not attack Iran before the Nov 3 midterm elections amid 'productive discussions,' while Iran's Foreign Minister Abbas Araqchi said Tehran is reviewing the US response to its proposal to reopen the Strait of Hormuz within seven days; Brent fell about 1.3% Friday to roughly $103.",
+   "vintage": "Oct 9, 2026",
+   "source": "Reuters (via WABX)",
+   "source_url": "https://wabx.net/2026/10/08/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns/"
+  },
+  {
    "text": "Since the war began in late February, 93 ships have been hit and 24 seafarers killed, Splash247 reported; the shrinking pool of willing crews is pushing tanker captain pay as high as $100,000 a month plus $50,000 per Hormuz transit, with war-risk insurance for single tanker voyages climbing to $20 million and some tanker earnings nearing $1.3 million a day.",
    "vintage": "Oct 7, 2026",
    "source": "Splash247",
@@ -967,6 +991,26 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "Reuters (via WABX)",
+   "vintage": "",
+   "url": "https://wabx.net/2026/10/08/us-imposes-fresh-iran-related-sanctions/"
+  },
+  {
+   "publisher": "OilPrice.com",
+   "vintage": "",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Gulf Business",
+   "vintage": "",
+   "url": "https://gulfbusiness.com/en/2026/saudi-arabia/riyadh-airport-150-flights-cancelled-houthi-attacks/"
+  },
+  {
+   "publisher": "Reuters (via WABX)",
+   "vintage": "",
+   "url": "https://wabx.net/2026/10/08/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns/"
+  },
   {
    "publisher": "Splash247",
    "vintage": "",
