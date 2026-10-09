@@ -10,12 +10,12 @@ if(t){document.documentElement.setAttribute('data-theme',t);}else if
 document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();
 </script>
 <title>How the WTI calendar month average works | Heavy Reading</title>
-<meta name="description" content="The calendar month average (CMA) is the average of every daily West Texas Intermediate (WTI) settlement in a calendar month. It floats while the month trades, freezes when the month ends, and is priced from the futures strip before the month begins.">
+<meta name="description" content="The calendar month average (CMA) is the average of every daily West Texas Intermediate (WTI) settlement in a calendar month. It floats while the month trades, freezes when the month ends, and is implied from the futures strip before the month begins.">
 <link rel="canonical" href="https://heavyreading.ca/fieldguide/wti-cma.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Heavy Reading">
 <meta property="og:title" content="How the WTI calendar month average works | Heavy Reading">
-<meta property="og:description" content="The calendar month average (CMA) is the average of every daily West Texas Intermediate (WTI) settlement in a calendar month. It floats while the month trades, freezes when the month ends, and is priced from the futures strip before the month begins.">
+<meta property="og:description" content="The calendar month average (CMA) is the average of every daily West Texas Intermediate (WTI) settlement in a calendar month. It floats while the month trades, freezes when the month ends, and is implied from the futures strip before the month begins.">
 <meta property="og:url" content="https://heavyreading.ca/fieldguide/wti-cma.html">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Crect x='1.5' y='1.5' width='41' height='41' rx='9' fill='%2317191d'/%3E%3Crect x='10' y='25' width='6.5' height='8' fill='%23f4f1e8'/%3E%3Crect x='18.75' y='18' width='6.5' height='15' fill='%23f4f1e8'/%3E%3Crect x='27.5' y='11' width='6.5' height='22' fill='%23a13c22'/%3E%3C/svg%3E">
@@ -344,11 +344,6 @@ details.riskfold .rs-sub { color:var(--mut); font-size:13px; }
 table.facts td:first-child { font-weight:600; width:34%; color:#3a352c; }
 .tblnote { font-size:12px; color:var(--mut); margin:8px 0 0; max-width:68ch;
   line-height:1.6; }
-/* thin-sample badge: quiet pill flagging stats computed from n < 30.
-   Sits muted until needed - a reader should not over-read a thin number. */
-.nbadge { font-size:11px; color:var(--faint); border:1px solid var(--line);
-  border-radius:999px; padding:1px 8px; margin-left:6px; white-space:nowrap;
-  font-weight:400; }
 
 /* executive call: a red hairline, not a box */
 .exec { margin:28px 0; padding:2px 0 2px 20px; border-left:2px solid var(--acc); }
@@ -625,73 +620,6 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   padding:14px 18px; margin:22px 0; }
 .takeaway h2 { margin:0 0 8px; font-size:17px; }
 .takeaway p.note { margin-bottom:0; }
-
-/* Arb Watch: spot arb table. Shared stylesheet, not a fork. */
-.arb-table { border-collapse:collapse; width:100%; margin:18px 0; font-size:13px; }
-.arb-table th, .arb-table td { border-bottom:1px solid var(--line); padding:8px 10px; text-align:right; }
-.arb-table th { color:var(--mut); font-weight:600; font-size:12px; }
-.arb-table td:first-child, .arb-table th:first-child { text-align:left; }
-.arb-table td.allin { font-weight:600; }
-.arb-table tr.arb-open td { background:color-mix(in srgb, var(--ch-green) 8%, transparent); }
-.arb-table tr.arb-shut td { background:color-mix(in srgb, var(--ch-red) 6%, transparent); }
-.arb-flag { font-weight:700; font-size:11px; padding:3px 8px; border-radius:4px; }
-tr.arb-open .arb-flag { background:var(--ch-green); color:#fff; }
-tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
-.alert-banner { border:1px solid var(--ch-green); border-left:4px solid var(--ch-green);
-  padding:12px 16px; margin:18px 0; background:color-mix(in srgb, var(--ch-green) 6%, transparent); }
-.quiet-banner { border:1px solid var(--line); border-left:4px solid var(--mut);
-  padding:12px 16px; margin:18px 0; }
-
-/* Arb Watch: daily update badge. */
-.daily-badge { display:flex; align-items:center; gap:8px; font-size:13px;
-  color:var(--mut); margin:0 0 16px; }
-.daily-dot { width:8px; height:8px; border-radius:50%; background:var(--ch-green);
-  flex-shrink:0; }
-
-/* Arb Watch: horizontal scroll on narrow screens. */
-.arb-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:18px -16px; padding:0 16px; }
-.arb-scroll table { min-width:640px; }
-@media (min-width:760px) { .arb-scroll { margin:18px 0; padding:0; } .arb-scroll table { min-width:0; } }
-
-/* Arb Watch: pipeline status map. */
-.pipe-map-wrap { margin:24px 0; }
-.pipe-map { width:100%; height:auto; display:block; }
-.map-region { font-size:11px; fill:#94a3b8; letter-spacing:2px; font-weight:600; }
-.map-grid-label { font-size:10px; fill:#cbd5e1; }
-.node-label { font-size:13px; fill:#1e293b; font-weight:600; }
-.badge-text { font-size:12px; fill:#1e293b; font-weight:600; }
-.pipe { transition:stroke 0.3s; }
-.map-controls { display:flex; align-items:center; gap:12px; margin-top:12px; }
-.slider-label { font-size:13px; color:var(--mut); font-weight:600; }
-.tenor-slider { flex:1; accent-color:var(--acc); }
-.tenor-display { font-size:13px; font-weight:600; min-width:140px; }
-
-/* Trade calls (private): checklist and banners. */
-.private-banner { background:#1e293b; color:#f8fafc; padding:12px 16px;
-  border-radius:8px; margin:0 0 20px; font-size:13px; }
-.private-banner strong { color:#fbbf24; }
-.checklist { display:grid; gap:16px; margin:20px 0; }
-.check-item { border:1px solid var(--line); border-radius:8px; padding:14px 16px; }
-.check-item h4 { margin:0 0 6px; font-size:14px; display:flex; align-items:center; gap:8px; }
-.check-item .flag { font-size:10px; padding:2px 8px; border-radius:4px; font-weight:700;
-  background:var(--line); color:var(--mut); }
-.check-item .flag.on { background:var(--ch-green); color:#fff; }
-.no-calls { border:1px dashed var(--line); border-radius:8px; padding:20px;
-  margin:16px 0; text-align:center; }
-
-.framework-box { background:var(--bg-subtle, #f8fafc); border:1px solid var(--line);
-  border-left:4px solid var(--acc); border-radius:0 8px 8px 0;
-  padding:16px 20px; margin:20px 0; }
-.framework-box h3 { margin:0 0 10px; font-size:15px; }
-.framework-box p { margin:8px 0; }
-.grade-tag { font-size:10px; padding:2px 6px; border-radius:3px; font-weight:600; background:#dbeafe; color:#1e40af; }
-.machine-nav { margin: 24px 0; }
-.machine-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 12px; }
-.machine-link { display: block; padding: 16px; border: 1px solid var(--ch-border); border-radius: 8px; text-decoration: none; color: inherit; transition: border-color 0.2s; }
-.machine-link:hover { border-color: var(--ch-blue); }
-.machine-link strong { display: block; font-size: 16px; margin-bottom: 4px; }
-.machine-link span { font-size: 13px; color: var(--ch-muted); }
-@media (max-width: 600px) { .machine-links { grid-template-columns: 1fr 1fr; } }
 </style>
 </head>
 <body>
@@ -726,14 +654,14 @@ tr.arb-shut .arb-flag { background:var(--ch-red); color:#fff; }
   </header>
   <div class="crumb"><a href="../index.html">Home</a> / <a href="../fieldguide/index.html">Reference</a> / <a href="index.html">Field guide</a> / How the market trades / How the WTI calendar month average works</div>
   <h1>How the WTI calendar month average works</h1>
-  <p class="sub">The calendar month average (CMA) is the average of every daily West Texas Intermediate (WTI) settlement in a calendar month. It floats while the month trades, freezes when the month ends, and is priced from the futures strip before the month begins.</p>
+  <p class="sub">The calendar month average (CMA) is the average of every daily West Texas Intermediate (WTI) settlement in a calendar month. It floats while the month trades, freezes when the month ends, and is implied from the futures strip before the month begins.</p>
   <p class="vintage">Field guide entry &middot; written September 29, 2026.</p>
   <h2>What the CMA is</h2>
   <p>The calendar month average is the mean of every daily WTI settlement in a calendar month. It is the number that Western Canadian Select differentials price against: a WCS deal quoted at WTI CMA minus $14 pays the average of the month's daily WTI closes, not the price on any single day. Once the month ends, the CMA is a backward-looking average. While the month is still trading, it is a moving target.</p>
   <h2>Three states: settled, floating, forward</h2>
-  <p>A CMA exists in one of three states. A settled month is finished and frozen: every daily close is in, the average is final, and it never changes. The current month is floating: each new daily settlement moves the average, and every remaining trading day is marked at the current futures price of whichever contract will be prompt that day. That is the market price, not a guess: if you asked what the CMA is today, that number is the answer, and it is a number you can transact against. The floating CMA is therefore the sum of the printed daily closes plus each remaining day's contract price, all divided by the total trading days in the month. A forward month has no settlements yet, so its CMA is the strip price: every trading day marked at the futures price of its prompt contract. Forward CMAs are refreshed daily and always carry a vintage stamp, because last Tuesday's price is not today's.</p>
+  <p>A CMA exists in one of three states. A settled month is finished and frozen: every daily close is in, the average is final, and it never changes. The current month is floating: each new daily settlement moves the average, and every remaining unexpired trading day is filled in at the current prompt futures price, the market's best guess of where those days will settle. The quoted floating CMA is therefore the sum of the printed daily closes plus the prompt futures price times the remaining trading days, all divided by the total trading days in the month, and the read is labeled by how many trading days have printed (September 2026 sits at 19 of 21 trading days through Monday the 28th). A forward month has no settlements yet, so its CMA is implied from the live futures strip: the market's current read on what the average will be. Forward CMAs are refreshed daily and always carry a vintage stamp, because last Tuesday's read is not today's.</p>
   <h2>Worked example: October 2026</h2>
-  <p>This is the part that confuses newcomers. The prompt NYMEX (New York Mercantile Exchange) contract (the nearest-expiry one, the one traders mean by 'prompt') changes in the middle of the month, so October's CMA rides on two contracts. Trading in the November contract (CLX26) ends Tuesday, October 20: exchange rules stop trading three business days before the 25th, and the 25th is a Sunday in October 2026, so you count back from Friday the 23rd. October has 22 trading days: 14 on CLX26 and 8 on the December contract (CLZ26). October's CMA is therefore (14 x CLX26 + 8 x CLZ26) / 22, using each contract's current futures price. That is why October's CMA still moves when November and December contracts trade. The same arithmetic gives January 2027: the roll lands Wednesday, January 20, so its CMA is (12 x CLG27 + 7 x CLH27) / 19.</p>
+  <p>This is the part that confuses newcomers. The prompt NYMEX (New York Mercantile Exchange) contract (the nearest-expiry one, the one traders mean by 'prompt') changes in the middle of the month, so October's CMA rides on two contracts. Trading in the November contract (CLX26) ends Tuesday, October 20: exchange rules stop trading three business days before the 25th, and the 25th is a Sunday in October 2026, so you count back from Friday the 23rd. October has 22 trading days: 14 on CLX26 and 8 on the December contract (CLZ26). October's implied CMA is therefore (14 x CLX26 + 8 x CLZ26) / 22, using each contract's current futures price. That is why October's CMA still moves when November and December contracts trade. The same arithmetic gives January 2027: the roll lands Wednesday, January 20, so its implied CMA is (12 x CLG27 + 7 x CLH27) / 19.</p>
   <h2>The forward curve is a snapshot, not a forecast</h2>
   <p>A forward CMA answers one question: what would the month average if the strip froze today. That is exactly the number a trader can transact against, which makes it market data with a timestamp rather than a prediction. Never judge a decision made in September against the strip as re-priced in November. Use the vintage that existed when the decision was made.</p>
 <div class="exec"><h2>Why it matters</h2><p>Every WCS barrel prices off this average, and every storage decision compares it across months. If you cannot say which state a CMA is in, settled, floating, or forward, you cannot say what any spread means.</p></div>
