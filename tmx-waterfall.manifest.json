@@ -1,0 +1,43 @@
+{
+ "page": "/tmx-waterfall.html",
+ "title": "TMX waterfall",
+ "dek": "TMX waterfall: monthly allocation of Trans Mountain barrels to Pacific Northwest, California, China, Korea, Japan, and India, ranked by refinery netback. Marginal barrel economics and tripwires for the next trading cycle.",
+ "built_at": "2026-10-10",
+ "generator": "heavyreading-manifest/1",
+ "claims": [
+  {
+   "text": "October 2026: PNW netback $46.74/bbl (135 kbd cap), California $46.33/bbl (50 kbd cap), China $35.38/bbl (310 kbd cap).",
+   "vintage": "October 2026 model read, built 2026-10-10",
+   "source": "TMX waterfall model v3",
+   "source_url": ""
+  },
+  {
+   "text": "California's edge over Maya is $1.91/bbl; a $2 move flips California demand to Maya.",
+   "vintage": "October 2026 model read, built 2026-10-10",
+   "source": "TMX waterfall model v3",
+   "source_url": ""
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "TMX waterfall model (Heavy Reading)",
+   "vintage": "v3, built 2026-10-10",
+   "url": ""
+  },
+  {
+   "publisher": "US Energy Information Administration (EIA)",
+   "vintage": "product spot prices, Oct 2026",
+   "url": ""
+  },
+  {
+   "publisher": "Baltic Exchange (via thedcn.com.au)",
+   "vintage": "freight, Oct 2026",
+   "url": ""
+  },
+  {
+   "publisher": "ICE Endex",
+   "vintage": "TMW settles, Oct 2026",
+   "url": ""
+  }
+ ]
+}

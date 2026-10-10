@@ -1,10 +1,17 @@
 {
- "vintage": "Now-page data from the 2026-10-10 edition sidecar (6 changes, 1 flags); apportionment Enbridge notice Sep 16 2026; balance reconciled 2026-09-27; built 2026-10-10",
+ "vintage": "Now-page data from the 2026-10-10 edition sidecar (7 changes, 1 flags); apportionment Enbridge notice Sep 16 2026; balance reconciled 2026-09-27; built 2026-10-10",
  "data": {
   "as_of": "2026-10-10",
   "edition": "2026-10-10",
   "call_vintage": "as of Sat Oct 10 morning",
   "changes": [
+   {
+    "headline": "Freight trapping barrels; arbs closed across North America",
+    "dek": "TD3C at WS 1058, TD9 at WS 681 — both roughly double early-September levels.. Every benchmark export arb out of North America is uneconomic at current freight. TD3C (MEG-China VLCC) printed WS 1058 on Oct 1 (Gibson) vs 677 in early September. TD9 (Caribbean-USGC Aframax) printed WS 681 on Oct 2 (Baltic via thedcn) vs 324 a month ago. At these levels, eastern refiners are backing off TMX spot barrels — the Asia arb does not clear.",
+    "balance_read": "All North American and Venezuelan surplus barrels now have to price against freight that is destroying their economics. Barrels cannot clear east and are not clearing into USGC either — Venezuelan barrels, TMX spot, and USGC heavy exports are all bidding for the same constrained outlet. The clearing mechanism is price: differentials widen until the economics work. This explains recent WCS weakness better than refinery outages — Joliet is back online and the diff did not rebound.",
+    "vintage": "Oct 1-2, 2026",
+    "publishers": "Gibson weekly, Oct 1, 2026; Baltic Exchange weekly via thedcn, Oct 2, 2026"
+   },
    {
     "headline": "Isaias post-tropical; Friday round trip closes firmer; US strikes Iran; fresh tanker hit NW of Oman",
     "dek": "Isaias post-tropical; BSEE ~71.5% shut in Friday; WTI $91.85 (+$0.36), Brent $104.72 (+$0.44) Friday settles; US struck Iranian targets late Friday; UKMTO tanker hit NW of Oman ~02:00 MDT Saturday. Hurricane Isaias made landfall in the western Florida Panhandle (near Pensacola, east of Mobile) Friday night as a strong Category 2 (110 mph, 967 mb at the 8pm ET advisory) and was post-tropical by 08:01 UTC Saturday. BSEE Friday: ~71.5% of Gulf of Mexico oil shut in (~1.5 Mb/d per AP wire), 58.8% of gas; 129 of 371 platforms evacuated. Cumulative loss ~9 Mbbl (Earth Science Associates). Friday's session was a round trip: a morning selloff on Trump's Iran comments ('constructive talks,' no US strike before the Nov 3 midterms) took Brent to ~$102.60-102.80 and WTI to ~$90.18-90.43 intraday, then recovery into the close on the storm's final approach: WTI Nov26 settled $91.85 (+$0.36), Brent Dec26 $104.72 (+$0.44) (Dow Jones via Morningstar). Late Friday the US struck Iranian military targets in retaliation for Thursday's drone attacks on ships in the Strait (4 launched, 1 hit the M/V Ever Lovely). At ~02:00 MDT Saturday UKMTO reported a tanker struck by an unidentified projectile NW of Oman (bridge damaged, crew safe). Overnight tape steady: WTI ~$91.6-91.7, within ~20c of Friday's settle (indicative, thin weekend tape).",
