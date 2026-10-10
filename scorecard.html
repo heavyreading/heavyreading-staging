@@ -657,7 +657,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p class="sub">The model grades itself: every prediction scored, with its uncertainty stated.</p>
   <p class="sub">Every published model nowcast, scored against the Alberta Energy Regulator (AER) Monthly Statistics (ST3) actuals when they land. Positive error means the nowcast ran high.</p>
   <p><b>Why the naive rule gets a column.</b> Every number on this page is measured against the simplest possible forecast: repeat last month (persistence), or predict no change at all. The naive rule is a valid forecast, not a straw man. A fancy model that cannot beat it gets cut, and the naive rule that wins gets used and scored like everything else. The scorecard does not care how clever the method is, only how accurate.</p>
-  <p class="vintage-inline">Nowcasts built 2026-09-23, 2026-09-28, 2026-09-29, 2026-09-30, 2026-10-01, 2026-10-02, 2026-10-03, 2026-10-04, 2026-10-05, 2026-10-06, 2026-10-07, 2026-10-08, 2026-10-09.<br>Actuals: AER ST3 actuals, latest available (ST3 file vintage 2026-09-28; loaded 2026-10-04).</p>
+  <p class="vintage-inline">Nowcasts built 2026-09-23, 2026-09-28, 2026-09-29, 2026-09-30, 2026-10-01, 2026-10-02, 2026-10-03, 2026-10-04, 2026-10-05, 2026-10-06, 2026-10-07, 2026-10-08, 2026-10-09, 2026-10-10.<br>Actuals: AER ST3 actuals, latest available (ST3 file vintage 2026-09-28; loaded 2026-10-04).</p>
   <h2>Supply nowcasts</h2>
   <p><b>How to read this.</b> Mean error is the average miss across scored months, in thousand barrels per day (kb/d); positive means the nowcast ran high, negative means it ran low. With no scored months yet, this section fills in automatically when the AER publishes ST3 actuals. "On the clock" lists frozen nowcasts: the numbers cannot be revised after the fact, so the score is against exactly what was published.</p>
   <h3>Bias so far</h3>
@@ -741,7 +741,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <tr><td>Conventional heavy</td><td class="num">0.6</td><td class="num">6.2</td><td>stable across vintages</td></tr>
   <tr><td>Conventional ultra-heavy</td><td class="num">4.8</td><td class="num">6.2</td><td>stable across vintages</td></tr>
   </table></div>
-  <p><b>Stable across vintages.</b> Across 13 published vintages, the largest revision of the supply nowcast was 58.6 kb/d, inside the 220.3 kb/d p75 error band. Revisions are noise, not signal.</p>
+  <p><b>Stable across vintages.</b> Across 14 published vintages, the largest revision of the supply nowcast was 58.6 kb/d, inside the 220.3 kb/d p75 error band. Revisions are noise, not signal.</p>
   <h3>How this is built</h3>
   <p><b>The nowcast.</b> Each month, before the AER publishes the Monthly Statistics (ST3), the model estimates each ST3 supply line from its seasonal pattern plus confirmed maintenance shutdowns. Totals are recomputed from the project-level forecasts so everything adds up.</p>
   <p><b>The score.</b> When ST3 actuals publish, the frozen nowcast is compared project by project. Error is nowcast minus actual, in thousand barrels per day (kb/d) and percent. Actuals use the latest ST3 vintage in the model database; cubic metres convert at 6.2898 barrels per cubic metre.</p>

@@ -1,7 +1,7 @@
 {
- "vintage": "Now-page data from the 2026-10-09 edition sidecar (5 changes, 1 flags); apportionment Enbridge notice Sep 16 2026; balance reconciled 2026-09-27; built 2026-10-09",
+ "vintage": "Now-page data from the 2026-10-09 edition sidecar (5 changes, 1 flags); apportionment Enbridge notice Sep 16 2026; balance reconciled 2026-09-27; built 2026-10-10",
  "data": {
-  "as_of": "2026-10-09",
+  "as_of": "2026-10-10",
   "edition": "2026-10-09",
   "call_vintage": "as of Fri Oct 9 morning",
   "changes": [
@@ -35,7 +35,7 @@
    },
    {
     "headline": "SPR exchange award pending; Gulf sour pricing awaits",
-    "dek": "SPR 40 Mbbl exchange award still pending (bids due Oct 7); no DOE announcement. The SPR exchange award is still pending - bids went in Tuesday (11:00 a.m. CT deadline), 40 Mbbl of sour (20 Bryan Mound, 20 Big Hill), Nov-Dec delivery, replacement interest 7.5%/9.5% vs June's 18%. No DOE announcement surfaced as of ~02:10 MDT (sixth exchange solicitation under the 172 Mbbl IEA coordinated release; energy-pedia.com, Sep 30). Sparta Commodities (Sep 30) expects Gulf Coast medium grades under pressure through year-end and is watching December Mars FOB below $1/bbl. No fresh Venezuela seizure or Chevron-license news; standing: seven seizures (latest the Sagitta, Sep 29).",
+    "dek": "SPR 40 Mbbl exchange award still pending (bids due Oct 7); no DOE announcement. The SPR exchange award is still pending - bids went in Tuesday (11:00 a.m. CT deadline), 40 Mbbl of sour (20 Bryan Mound, 20 Big Hill), Nov-Dec delivery, replacement interest 7.5%/9.5% vs June's 18%. No DOE announcement surfaced as of ~02:10 MDT (sixth exchange solicitation under the 172 Mbbl IEA coordinated release; energy-pedia.com, Sep 30). Sparta Commodities (Sep 30) expects Gulf Coast medium grades under pressure through year-end and is watching December Mars FOB below $1/bbl.",
     "balance_read": "The exchange award is the next real data point for Gulf sour pricing; the Merey-vs-WCS-vs-Mars triangle at the Gulf is the comp-barrel trade against WCS length.",
     "vintage": "Oct 7-9, 2026",
     "publishers": "energy-pedia.com, Sep 30, 2026; Sparta Commodities, Sep 30, 2026"
