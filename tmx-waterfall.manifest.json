@@ -6,9 +6,9 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
-   "text": "October 2026: PNW netback $46.74/bbl (135 kbd cap), California $46.33/bbl (50 kbd cap), China $35.38/bbl (310 kbd cap).",
+   "text": "October 2026: California netback $46.33/bbl (50 kbd cap), China $35.38/bbl (310 kbd cap). PNW excluded from heavy: PNW refineries cannot run heavy, modeled as sweet toggle.",
    "vintage": "October 2026 model read, built 2026-10-10",
-   "source": "TMX waterfall model v3",
+   "source": "TMX waterfall model v5",
    "source_url": ""
   },
   {
@@ -16,12 +16,24 @@
    "vintage": "October 2026 model read, built 2026-10-10",
    "source": "TMX waterfall model v3",
    "source_url": ""
+  },
+  {
+   "text": "December 2026 PROJECTION: PNW $47.50/bbl, California $47.00/bbl, China/Korea $34.50/bbl. Winter diesel strength lifts West Coast; winter freight premium widens the Asia gap. Explicitly a projection from October 2026 base, not a read.",
+   "vintage": "December 2026 projection, built 2026-10-10",
+   "source": "TMX waterfall model v3 (projected)",
+   "source_url": ""
+  },
+  {
+   "text": "January 2027 PROJECTION: California $46.50/bbl, China/Korea $34.00/bbl. Post-holiday diesel fade narrows the West Coast edge; Chinese New Year (late Jan 2027) front-loads Asia demand then shuts it. Explicitly a projection from December 2026 base, not a read.",
+   "vintage": "January 2027 projection, built 2026-10-10",
+   "source": "TMX waterfall model v3 (projected)",
+   "source_url": ""
   }
  ],
  "sources": [
   {
    "publisher": "TMX waterfall model (Heavy Reading)",
-   "vintage": "v3, built 2026-10-10",
+   "vintage": "v5, built 2026-10-10",
    "url": ""
   },
   {
