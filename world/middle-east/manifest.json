@@ -6,6 +6,24 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "UKMTO reported an outbound tanker struck on the port side by an unknown projectile in the Strait of Hormuz at 19:20 UTC on Oct 10, starting a fire on board; the crew was reported safe and vessels were advised to transit with caution. Separately the same day, masters near Ras Al Khaimah reported VHF broadcasts directing them to move from their anchorages.",
+   "vintage": "Oct 10, 2026",
+   "source": "UKMTO (via Defcon Level)",
+   "source_url": "https://www.defconlevel.com/alert/2026-10-10-outbound-tanker-struck-by-projectile-in-strait-of-hormuz"
+  },
+  {
+   "text": "The UAE National Guard's Coast Guard rescued 22 crew members from an oil tanker that caught fire in the Arabian Gulf, all reported in stable condition; Arab News linked the rescue to the same weekend as the Oct 9 strike on the Panama-flagged supertanker GEM NO.2 off the UAE coast, though reports did not confirm it was the same vessel.",
+   "vintage": "Oct 10, 2026",
+   "source": "Arab News (via JBizNews)",
+   "source_url": "https://jbiznews.com/how-will-saudi-arabia-respond-to-houthi-attacks-on-strategic-civilian-infrastructure-analysis/"
+  },
+  {
+   "text": "Iran's Tasnim news agency reported that Foreign Minister Abbas Araqchi said Tehran is reviewing the US response to its proposal that would reopen the Strait of Hormuz within seven days, a possible off-ramp after the Oct 9 vessel attacks helped push Brent more than 4% higher on Thursday.",
+   "vintage": "Oct 8, 2026",
+   "source": "Tasnim (via Reuters)",
+   "source_url": "https://wnflsports.com/2026/10/08/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns/"
+  },
+  {
    "text": "UKMTO said a vessel was struck by an unknown projectile 13 nautical miles west of Al Jazeera, UAE, on Friday, with a fire later extinguished; maritime security sources identified it as the Panama-flagged crude supertanker GEM NO.2, fully laden at anchor, and said the strike outside the Hormuz area signaled widening tanker risk.",
    "vintage": "Oct 9, 2026",
    "source": "Reuters (via gCaptain)",
@@ -84,22 +102,10 @@
    "source_url": "https://superhits979.com/2026/10/04/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites/"
   },
   {
-   "text": "Iran's Oil Minister Mohsen Paknejad resigned for personal reasons and President Masoud Pezeshkian accepted the resignation, state media said on October 4. Hamid Bovard, chief executive of the government-owned National Iranian Oil Company (NIOC), was named acting minister. Paknejad had held the post since August 2024 and departs seven months into the US-Iran war, which has squeezed Iran's economy and oil exports.",
-   "vintage": "Oct 4, 2026",
-   "source": "Reuters (via SRN News)",
-   "source_url": "https://srnnews.com/irans-oil-minister-resigns-state-media-says/"
-  },
-  {
-   "text": "The Institute for the Study of War (ISW) reported that Houthi forces captured the key supply route between the cities of Taiz and Aden on October 4, part of their campaign to seize Taiz City. Yemen's government announced an offensive across all fronts against the Houthis, but ISW's Critical Threats Project had not yet observed any offensive action. The loss of government-held ground narrows the protected corridor around the Red Sea coast and the Bab el-Mandeb approach.",
-   "vintage": "Oct 4, 2026",
-   "source": "Institute for the Study of War",
-   "source_url": "https://understandingwar.org/research/middle-east/iran-update-october-4-2026/"
-  },
-  {
-   "text": "Yemeni President Rashad al-Alimi announced the start of a major military operation to retake Houthi-held territory, with Saudi Arabia leading aerial combat and Yemeni forces fighting on the ground; the announcement followed weeks of preparations aimed at reversing the Houthis' seizure of the Bab el-Mandeb strait.",
-   "vintage": "Oct 4, 2026",
-   "source": "Reuters (via Northland News Radio)",
-   "source_url": "https://northlandnewsradio.com/2026/10/04/head-of-yemens-presidential-council-announces-military-operations-to-retake-territory/"
+   "text": "Brent fell $1.37 to $102.91 and WTI fell $1.09 to $90.40 on Oct 9 as Trump's 'productive discussions' comment and pledge of no US attack before the Nov 3 midterms eased war risk; Brent had still settled about 4% higher on Thursday on the tanker-attack campaign, and China resuming refined fuel exports after Golden Week added fuel-market relief.",
+   "vintage": "Oct 9, 2026",
+   "source": "Reuters (via WNFL Sports)",
+   "source_url": "https://wnflsports.com/2026/10/08/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns/"
   },
   {
    "text": "Treasury officials briefing after the Oct 8 designations said Iran has about 20 million barrels of crude left on vessels outside the blockade, off Singapore, Malaysia and China, that Tehran has stopped loading and offloading crude under the blockade, and that US forces boarded the sanctioned tanker Davina in the Indian Ocean; Trump said the US is having productive discussions with Iran and will not attack before the Nov 3 midterms.",
@@ -118,12 +124,6 @@
    "vintage": "Oct 3, 2026",
    "source": "Arab News (via Devdiscourse)",
    "source_url": "https://www.devdiscourse.com/article/international/3986367-iranian-rial-at-new-low-as-cenbank-sells-dollars-to-support-currency"
-  },
-  {
-   "text": "The physical oil market is pricing a far tighter situation than futures: Europe's Dated Brent benchmark jumped above $120 per barrel even as ICE Brent sat near $101, a divergence the report ties to droned tankers in Hormuz, the European diesel release, and China's reinstated refined-product export ban.",
-   "vintage": "Oct 2, 2026",
-   "source": "OilPrice.com",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html"
   },
   {
    "text": "Iran's seaborne oil exports were 587 million barrels in 2024 (+10.75% y/y); China took 533 million barrels, 91% of the total, up 24% from 2023.",
@@ -304,6 +304,30 @@
    "vintage": "Oct 2, 2026",
    "source": "AFP (via Morning Chronicle)",
    "source_url": "https://www.morningchronicle.co.uk/Politics/763582-yemen-government-forces-say-struck-houthi-targets.html"
+  },
+  {
+   "text": "The physical oil market is pricing a far tighter situation than futures: Europe's Dated Brent benchmark jumped above $120 per barrel even as ICE Brent sat near $101, a divergence the report ties to droned tankers in Hormuz, the European diesel release, and China's reinstated refined-product export ban.",
+   "vintage": "Oct 2, 2026",
+   "source": "OilPrice.com",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html"
+  },
+  {
+   "text": "Iran's Oil Minister Mohsen Paknejad resigned for personal reasons and President Masoud Pezeshkian accepted the resignation, state media said on October 4. Hamid Bovard, chief executive of the government-owned National Iranian Oil Company (NIOC), was named acting minister. Paknejad had held the post since August 2024 and departs seven months into the US-Iran war, which has squeezed Iran's economy and oil exports.",
+   "vintage": "Oct 4, 2026",
+   "source": "Reuters (via SRN News)",
+   "source_url": "https://srnnews.com/irans-oil-minister-resigns-state-media-says/"
+  },
+  {
+   "text": "The Institute for the Study of War (ISW) reported that Houthi forces captured the key supply route between the cities of Taiz and Aden on October 4, part of their campaign to seize Taiz City. Yemen's government announced an offensive across all fronts against the Houthis, but ISW's Critical Threats Project had not yet observed any offensive action. The loss of government-held ground narrows the protected corridor around the Red Sea coast and the Bab el-Mandeb approach.",
+   "vintage": "Oct 4, 2026",
+   "source": "Institute for the Study of War",
+   "source_url": "https://understandingwar.org/research/middle-east/iran-update-october-4-2026/"
+  },
+  {
+   "text": "Yemeni President Rashad al-Alimi announced the start of a major military operation to retake Houthi-held territory, with Saudi Arabia leading aerial combat and Yemeni forces fighting on the ground; the announcement followed weeks of preparations aimed at reversing the Houthis' seizure of the Bab el-Mandeb strait.",
+   "vintage": "Oct 4, 2026",
+   "source": "Reuters (via Northland News Radio)",
+   "source_url": "https://northlandnewsradio.com/2026/10/04/head-of-yemens-presidential-council-announces-military-operations-to-retake-territory/"
   },
   {
    "text": "The US Treasury designated the Kremlin-linked A7 financial network a 'significant transnational criminal organization,' saying its subagents disguised payments involving sanctioned entities as legitimate commercial transactions to help Russian and Iranian entities move money outside the banking system, including for Iranian oil sales and weapons procurement. FinCEN said A7 subagents processed more than $17 billion between January 2025 and June 2026. A7 denied any Iran links on October 2.",
@@ -1016,6 +1040,21 @@
  ],
  "sources": [
   {
+   "publisher": "UKMTO (via Defcon Level)",
+   "vintage": "",
+   "url": "https://www.defconlevel.com/alert/2026-10-10-outbound-tanker-struck-by-projectile-in-strait-of-hormuz"
+  },
+  {
+   "publisher": "Arab News (via JBizNews)",
+   "vintage": "",
+   "url": "https://jbiznews.com/how-will-saudi-arabia-respond-to-houthi-attacks-on-strategic-civilian-infrastructure-analysis/"
+  },
+  {
+   "publisher": "Tasnim (via Reuters)",
+   "vintage": "",
+   "url": "https://wnflsports.com/2026/10/08/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns/"
+  },
+  {
    "publisher": "Reuters (via gCaptain)",
    "vintage": "",
    "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/"
@@ -1081,19 +1120,9 @@
    "url": "https://superhits979.com/2026/10/04/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites/"
   },
   {
-   "publisher": "Reuters (via SRN News)",
+   "publisher": "Reuters (via WNFL Sports)",
    "vintage": "",
-   "url": "https://srnnews.com/irans-oil-minister-resigns-state-media-says/"
-  },
-  {
-   "publisher": "Institute for the Study of War",
-   "vintage": "",
-   "url": "https://understandingwar.org/research/middle-east/iran-update-october-4-2026/"
-  },
-  {
-   "publisher": "Reuters (via Northland News Radio)",
-   "vintage": "",
-   "url": "https://northlandnewsradio.com/2026/10/04/head-of-yemens-presidential-council-announces-military-operations-to-retake-territory/"
+   "url": "https://wnflsports.com/2026/10/08/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns/"
   },
   {
    "publisher": "Reuters (via Baird Maritime)",
@@ -1109,11 +1138,6 @@
    "publisher": "Arab News (via Devdiscourse)",
    "vintage": "",
    "url": "https://www.devdiscourse.com/article/international/3986367-iranian-rial-at-new-low-as-cenbank-sells-dollars-to-support-currency"
-  },
-  {
-   "publisher": "OilPrice.com",
-   "vintage": "",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html"
   },
   {
    "publisher": "UANI (via Maritime Executive)",
@@ -1259,6 +1283,26 @@
    "publisher": "AFP (via Morning Chronicle)",
    "vintage": "",
    "url": "https://www.morningchronicle.co.uk/Politics/763582-yemen-government-forces-say-struck-houthi-targets.html"
+  },
+  {
+   "publisher": "OilPrice.com",
+   "vintage": "",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html"
+  },
+  {
+   "publisher": "Reuters (via SRN News)",
+   "vintage": "",
+   "url": "https://srnnews.com/irans-oil-minister-resigns-state-media-says/"
+  },
+  {
+   "publisher": "Institute for the Study of War",
+   "vintage": "",
+   "url": "https://understandingwar.org/research/middle-east/iran-update-october-4-2026/"
+  },
+  {
+   "publisher": "Reuters (via Northland News Radio)",
+   "vintage": "",
+   "url": "https://northlandnewsradio.com/2026/10/04/head-of-yemens-presidential-council-announces-military-operations-to-retake-territory/"
   },
   {
    "publisher": "Geneva Times",

@@ -24,6 +24,12 @@
    "source_url": "https://pboilandgasmagazine.com/oil-in-strategic-petroleum-reserve-falls-to-lowest-level-in-more-than-40-years/"
   },
   {
+   "text": "Hurricane Isaias shut in about 1.46 million b/d of Gulf of Mexico oil production with 129 platforms evacuated as the Category 3 storm made landfall late Oct 9 near the Alabama-Florida line; WTI settled at $91.85 and Brent at $104.72 to start the weekend, with the market weighing storm damage against the Hormuz tanker-attack risk.",
+   "vintage": "Oct 10, 2026",
+   "source": "Bakken Wire (citing Rigzone)",
+   "source_url": "https://bakkenwire.com/article/morning-take-energy-market-briefing-2026-10-10-g3d7g"
+  },
+  {
    "text": "US commercial crude inventories fell 3.2 million barrels to 424.1 million barrels in the week ended Oct 2, defying a Reuters poll that expected a 1.7-million-barrel build, leaving stocks 1% above the five-year average.",
    "vintage": "Oct 7, 2026",
    "source": "OilPrice.com",
@@ -48,10 +54,22 @@
    "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html"
   },
   {
-   "text": "The EIA's weekly report for the week ended September 25 showed US crude inventories rose 922,000 barrels to 427.3 million barrels, against a Reuters poll expecting a 264,000 barrel draw, confirming the direction of the API estimate reported a day earlier.",
-   "vintage": "Data: week ending Sep 25, 2026; reported Sep 30, 2026",
-   "source": "Reuters",
-   "source_url": "https://www.oilmonster.com/article/oil-prices-barely-changed-as-investors-assess-usiran-peace-talks-and-gulf-exports/8645/"
+   "text": "Details of the Oct 9 Trump-Putin diesel deal now total 4.8 million tons: 300,000 tons immediately, 500,000 in November, 1 million after that, and up to 3 million more depending on Russian refinery condition; US diesel futures fell almost 5% to about $4.64 a gallon on the news while AAA's national average sat near a record $6.28.",
+   "vintage": "Oct 9-10, 2026",
+   "source": "Reuters (via Global Banking & Finance)",
+   "source_url": "https://www.globalbankingandfinance.com/trump-russia-supply-diesel-us-global-market/"
+  },
+  {
+   "text": "OFAC General License 135, signed minutes before Trump's Oct 9 announcement, authorizes the sale, delivery, offloading and import of Russian-origin diesel through 12:01 a.m. EDT on April 7, 2027, while barring debits to US accounts of Russia's central bank, National Wealth Fund and Finance Ministry.",
+   "vintage": "Oct 9, 2026",
+   "source": "Energy News Beat (citing OFAC)",
+   "source_url": "https://energynewsbeat.com/diesel/trump-says-russia-will-supply-diesel-the-first-300000-tons-is-less-than-a-day-of-u-s-demand/"
+  },
+  {
+   "text": "Trump said he would soon issue a directive under the Defense Production Act aimed at expanding US refining capacity; three industry sources told Reuters it could take the form of a presidential memo, as record diesel prices collide with the Iran war's strain on supply.",
+   "vintage": "Oct 10, 2026",
+   "source": "QNC News (citing Reuters)",
+   "source_url": "https://qncnews.com/trump-says-russia-to-ship-300000-tons-of-fuel-in-move-to-lower-prices/"
   },
   {
    "text": "President Trump announced a deal for Russia to supply more than 300,000 tons of diesel immediately, plus 500,000 tons in November, 1 million 'immediately thereafter' and 3 million more to follow; Treasury issued a general license sparing Russian diesel loaded as of Oct 9 from sanctions until April 2027, and diesel futures dipped on Friday. The IEA says Russian diesel output has fallen about 30% amid the refinery strikes.",
@@ -112,24 +130,6 @@
    "vintage": "Oct 2, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html"
-  },
-  {
-   "text": "G7 countries agreed on October 2 to a coordinated release of 100 million barrels of diesel and crude oil from emergency reserves through the IEA over four months, with a substantial frontloaded diesel release within the first 20 days, after US pressure; no country-level or crude-vs-product volume breakdown was given. Trump said the US will not impose a diesel export ban, and G7 members pledged to refrain from energy export restrictions.",
-   "vintage": "Oct 2, 2026",
-   "source": "Reuters",
-   "source_url": "https://srnnews.com/exclusive-europe-weighs-new-diesel-stocks-release-after-us-pressure-sources-say/"
-  },
-  {
-   "text": "The release followed a French proposal for European countries to release 50 million barrels of diesel and IEA members to release 50 million barrels of crude, with part of the diesel released over a 20-day period; IEA Executive Director Fatih Birol said members had released about two-thirds of the 400-million-barrel March agreement. Energy Aspects called the deal a political statement intended to keep Trump from imposing a diesel export ban rather than a binding commitment.",
-   "vintage": "Oct 2, 2026",
-   "source": "Reuters",
-   "source_url": "https://srnnews.com/exclusive-europe-weighs-new-diesel-stocks-release-after-us-pressure-sources-say/"
-  },
-  {
-   "text": "The White House is preparing an executive order to tackle record-high US diesel prices, possibly including expanded use of tax-exempt red-dyed diesel and other tax changes; US diesel averaged a record $6.53 per gallon last week, and the administration is seeking to cool fuel prices ahead of the November midterm elections.",
-   "vintage": "Oct 2, 2026",
-   "source": "Reuters",
-   "source_url": "https://srnnews.com/exclusive-europe-weighs-new-diesel-stocks-release-after-us-pressure-sources-say/"
   },
   {
    "text": "The bid window for DOE's sixth and final 40-million-barrel SPR exchange closed on Oct 6 at 11 a.m. CT, with deliveries under awarded exchanges scheduled for November and December 2026; the tranche completes the US portion of the 172-million-barrel pledge under the IEA-coordinated 400-million-barrel release, with borrowers returning the oil plus premium barrels.",
@@ -269,6 +269,11 @@
    "url": "https://pboilandgasmagazine.com/oil-in-strategic-petroleum-reserve-falls-to-lowest-level-in-more-than-40-years/"
   },
   {
+   "publisher": "Bakken Wire (citing Rigzone)",
+   "vintage": "",
+   "url": "https://bakkenwire.com/article/morning-take-energy-market-briefing-2026-10-10-g3d7g"
+  },
+  {
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Stocks-Dip-But-Distillates-Hold-Steady.html"
@@ -284,9 +289,19 @@
    "url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html"
   },
   {
-   "publisher": "Reuters",
+   "publisher": "Reuters (via Global Banking & Finance)",
    "vintage": "",
-   "url": "https://www.oilmonster.com/article/oil-prices-barely-changed-as-investors-assess-usiran-peace-talks-and-gulf-exports/8645/"
+   "url": "https://www.globalbankingandfinance.com/trump-russia-supply-diesel-us-global-market/"
+  },
+  {
+   "publisher": "Energy News Beat (citing OFAC)",
+   "vintage": "",
+   "url": "https://energynewsbeat.com/diesel/trump-says-russia-will-supply-diesel-the-first-300000-tons-is-less-than-a-day-of-u-s-demand/"
+  },
+  {
+   "publisher": "QNC News (citing Reuters)",
+   "vintage": "",
+   "url": "https://qncnews.com/trump-says-russia-to-ship-300000-tons-of-fuel-in-move-to-lower-prices/"
   },
   {
    "publisher": "Associated Press (via NPR Illinois)",
@@ -327,11 +342,6 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html"
-  },
-  {
-   "publisher": "Reuters",
-   "vintage": "",
-   "url": "https://srnnews.com/exclusive-europe-weighs-new-diesel-stocks-release-after-us-pressure-sources-say/"
   },
   {
    "publisher": "Big Energy News",
