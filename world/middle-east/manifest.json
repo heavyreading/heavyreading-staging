@@ -6,6 +6,24 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "The US military disabled the Panama-flagged bulk carrier M/V Ocean Molica, also known as the Arika Sun, in the Gulf of Oman on Oct 10 after the vessel departed an Iranian port and ignored repeated warnings to turn back. A US fighter jet struck the stern with a precision munition, fully disabling propulsion with no crew injuries, per US Central Command.",
+   "vintage": "Oct 10, 2026",
+   "source": "Reuters (via gCaptain)",
+   "source_url": "https://gcaptain.com/us-says-it-disabled-cargo-vessel-trying-to-run-iran-blockade/"
+  },
+  {
+   "text": "A drone struck the Nicaragua-flagged tanker MT Petro Dolphin at Sohar Anchorage off Oman on Oct 11, leaving two Indian seafarers missing and nine rescued, according to India's shipping minister Sarbananda Sonowal. UKMTO confirmed the vessel was hit by a drone and reclassified the incident as an attack.",
+   "vintage": "Oct 11, 2026",
+   "source": "ANI (via Latestly)",
+   "source_url": "https://www.latestly.com/agency-news/world-news-mt-petro-dolphin-hit-by-drone-attack-off-omans-coast-two-indian-seafarers-missing-sonowal-7641009.html"
+  },
+  {
+   "text": "India's Ministry of External Affairs condemned attacks on two tankers in the Hormuz region on Oct 11, including the Marshall Islands-flagged MT Valthera, which was hit by an unknown projectile and caught fire. All 11 Indian seafarers aboard Valthera were reported safe after the fire was brought under control. No group had claimed responsibility for either attack in initial reporting.",
+   "vintage": "Oct 11, 2026",
+   "source": "Maritime Gateway",
+   "source_url": "https://www.maritimegateway.com/strait-of-hormuz-attacks-two-indian-seafarers-missing-after-drone-hits-mt-petro-dolphin/"
+  },
+  {
    "text": "UKMTO reported an outbound tanker struck on the port side by an unknown projectile in the Strait of Hormuz at 19:20 UTC on Oct 10, starting a fire on board; the crew was reported safe and vessels were advised to transit with caution. Separately the same day, masters near Ras Al Khaimah reported VHF broadcasts directing them to move from their anchorages.",
    "vintage": "Oct 10, 2026",
    "source": "UKMTO (via Defcon Level)",
@@ -52,54 +70,6 @@
    "vintage": "Oct 9, 2026",
    "source": "Reuters (via WABX)",
    "source_url": "https://wabx.net/2026/10/08/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns/"
-  },
-  {
-   "text": "Since the war began in late February, 93 ships have been hit and 24 seafarers killed, Splash247 reported; the shrinking pool of willing crews is pushing tanker captain pay as high as $100,000 a month plus $50,000 per Hormuz transit, with war-risk insurance for single tanker voyages climbing to $20 million and some tanker earnings nearing $1.3 million a day.",
-   "vintage": "Oct 7, 2026",
-   "source": "Splash247",
-   "source_url": "https://splash247.com/twelve-injured-in-latest-hormuz-attack/"
-  },
-  {
-   "text": "Twelve seafarers were injured when the 114,600-dwt LR2 tanker On Peace was struck by a projectile while crossing the Strait of Hormuz; UKMTO confirmed the incident and the wounded were hospitalised in Khasab, Oman, on Oct 6.",
-   "vintage": "Oct 6, 2026",
-   "source": "TradeWinds",
-   "source_url": "https://www.tradewindsnews.com/casualties/multiple-seafarers-injured-after-tanker-struck-in-new-iranian-strait-of-hormuz-attack/2-1-2054398"
-  },
-  {
-   "text": "Yemen's Houthis claimed three operations on Oct 6 using ballistic and cruise missiles plus drones, targeting King Khalid International Airport in Riyadh, an Aramco refinery in Rabigh, and military sites across southern Saudi Arabia, and warned international airlines against using Saudi airspace; Saudi authorities did not immediately comment.",
-   "vintage": "Oct 6, 2026",
-   "source": "Anadolu Agency (via MCI Group)",
-   "source_url": "https://mcigroup.my/world-news/houthis-claim-attacks-on-saudi-airports-state-oil-refinery-military-sites/"
-  },
-  {
-   "text": "Saudi naval forces struck military targets in the Houthi-held Red Sea port of Hodeidah, destroying weapons depots and facilities holding booby-trapped boats and naval mines, coalition spokesman Turki Al-Malki said, adding that the operation prevented a planned attack on shipping routes in the southern Red Sea.",
-   "vintage": "Oct 6, 2026",
-   "source": "Anadolu Agency (via DainikNews Live)",
-   "source_url": "https://dainiknewslive.in/from-riyadh-airport-to-aramco-refinery-yemens-houthis-claim-strikes-across-saudi-arabia/"
-  },
-  {
-   "text": "Saudi Arabia's East-West oil pipeline was halted again on Oct 4 after a fresh attack damaged a pumping station at Khurais, east of Riyadh, a source in the kingdom's energy sector told Agence France-Presse. The source said the Khurais station had not been targeted before and the damage was extensive; Kpler data cited in the report shows the line's flows had already been halted from Sep 11 to Sep 22, and the pipeline has become essential to Saudi exports since the Hormuz blockade cut the main route.",
-   "vintage": "Oct 4, 2026",
-   "source": "Agence France-Presse (via The Business Standard)",
-   "source_url": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabias-east-west-oil-pipeline-halted-again-after-fresh-attack-1563431"
-  },
-  {
-   "text": "UKMTO issued four warnings and an advisory on Oct 5 as attacks on shipping in the Strait of Hormuz intensified, including a projectile strike that set a ship's engine room on fire with the crew still fighting it and no casualties reported. UKMTO also logged Iranian forces hailing the Liberia-registered tanker Singapore Energy 11 nm north of Oman with a warning it would be fired upon unless it turned back, plus time-late reports of Oct 3-4 strikes on an LPG tanker and two crude tankers, bringing its October count to nine reports.",
-   "vintage": "Oct 5, 2026",
-   "source": "Seatrade Maritime",
-   "source_url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-warnings-in-four-hours"
-  },
-  {
-   "text": "A Bangladeshi national, Md Sajib Hossain of Cumilla, was killed on Oct 4 when a Houthi missile or drone struck a Saudi Aramco facility at Al Khurais, according to a Bangladesh foreign ministry press release issued Oct 5. The ministry condemned the attack and said its Riyadh embassy is coordinating with Saudi authorities to repatriate the body; it is the first independently reported casualty from the Oct 4 Houthi strikes on Aramco sites, which Saudi Arabia itself has still not commented on.",
-   "vintage": "Oct 4, 2026",
-   "source": "The Business Standard (Bangladesh)",
-   "source_url": "https://www.tbsnews.net/bangladesh/bangladeshi-worker-killed-houthi-attack-saudi-aramco-facility-1563591"
-  },
-  {
-   "text": "Oil prices rose on October 4 after the Houthis said they fired ballistic missiles and drones at Saudi Aramco sites in Riyadh and the Khurais area, in retaliation for about 50 Saudi-led strikes in Yemen that Saudi Arabia has not confirmed. Brent crude futures rose 81 cents to $103.06 a barrel and US West Texas Intermediate (WTI) gained 46 cents to $91.57 a barrel.",
-   "vintage": "Oct 4, 2026",
-   "source": "Reuters (via Superhits979)",
-   "source_url": "https://superhits979.com/2026/10/04/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites/"
   },
   {
    "text": "Brent fell $1.37 to $102.91 and WTI fell $1.09 to $90.40 on Oct 9 as Trump's 'productive discussions' comment and pledge of no US attack before the Nov 3 midterms eased war risk; Brent had still settled about 4% higher on Thursday on the tanker-attack campaign, and China resuming refined fuel exports after Golden Week added fuel-market relief.",
@@ -240,6 +210,18 @@
    "source_url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
   },
   {
+   "text": "Iran's IRGC Navy claimed on Oct 11 that a 'violating' crude supertanker exploded after striking a naval mine while attempting to exit the Strait of Hormuz via an 'unauthorized route' with its navigation systems switched off, and warned such vessels would be treated as hostile. No vessel name, flag, or independent confirmation was provided; UKMTO logged the same window's strike only as an unknown projectile hit with crew safe.",
+   "vintage": "Oct 11, 2026",
+   "source": "Press TV",
+   "source_url": "https://www.presstv.co.uk/Detail/2026/10/11/778113/Iran-IRGC-Hormuz-tanker"
+  },
+  {
+   "text": "A Houthi missile strike on Riyadh's King Khalid International Airport on Oct 10 killed 12 people and wounded 309, per Saudi Arabia's civil aviation authority, the deadliest such attack on Saudi soil in more than a decade; a fresh strike Oct 11 killed one and injured 11. US President Trump said he was considering joining Saudi strikes against the Houthis, while Saudi Arabia intercepted a Houthi ballistic missile headed for Khamis Mushait on Oct 12.",
+   "vintage": "Oct 10-11, 2026",
+   "source": "AFP (via Le Pays de France)",
+   "source_url": "https://www.lepaysdefrance.fr/en/Politics/746147-riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack.html"
+  },
+  {
    "text": "Iran's IRGC Navy claimed it struck the LPG carrier NV Sunshine south of the Strait of Hormuz for using an 'illegal route,' saying the engine room caught fire; the vessel's owner told AAP the tanker was not attacked, is operating normally, and all crew are safe.",
    "vintage": "Oct 9, 2026",
    "source": "AAP",
@@ -280,6 +262,54 @@
    "vintage": "Oct 7, 2026",
    "source": "Reuters (via BOE Report)",
    "source_url": "https://boereport.com/2026/10/07/iranian-official-says-illegal-routes-in-strait-of-hormuz-to-soon-be-blocked/"
+  },
+  {
+   "text": "Since the war began in late February, 93 ships have been hit and 24 seafarers killed, Splash247 reported; the shrinking pool of willing crews is pushing tanker captain pay as high as $100,000 a month plus $50,000 per Hormuz transit, with war-risk insurance for single tanker voyages climbing to $20 million and some tanker earnings nearing $1.3 million a day.",
+   "vintage": "Oct 7, 2026",
+   "source": "Splash247",
+   "source_url": "https://splash247.com/twelve-injured-in-latest-hormuz-attack/"
+  },
+  {
+   "text": "Twelve seafarers were injured when the 114,600-dwt LR2 tanker On Peace was struck by a projectile while crossing the Strait of Hormuz; UKMTO confirmed the incident and the wounded were hospitalised in Khasab, Oman, on Oct 6.",
+   "vintage": "Oct 6, 2026",
+   "source": "TradeWinds",
+   "source_url": "https://www.tradewindsnews.com/casualties/multiple-seafarers-injured-after-tanker-struck-in-new-iranian-strait-of-hormuz-attack/2-1-2054398"
+  },
+  {
+   "text": "Yemen's Houthis claimed three operations on Oct 6 using ballistic and cruise missiles plus drones, targeting King Khalid International Airport in Riyadh, an Aramco refinery in Rabigh, and military sites across southern Saudi Arabia, and warned international airlines against using Saudi airspace; Saudi authorities did not immediately comment.",
+   "vintage": "Oct 6, 2026",
+   "source": "Anadolu Agency (via MCI Group)",
+   "source_url": "https://mcigroup.my/world-news/houthis-claim-attacks-on-saudi-airports-state-oil-refinery-military-sites/"
+  },
+  {
+   "text": "Saudi naval forces struck military targets in the Houthi-held Red Sea port of Hodeidah, destroying weapons depots and facilities holding booby-trapped boats and naval mines, coalition spokesman Turki Al-Malki said, adding that the operation prevented a planned attack on shipping routes in the southern Red Sea.",
+   "vintage": "Oct 6, 2026",
+   "source": "Anadolu Agency (via DainikNews Live)",
+   "source_url": "https://dainiknewslive.in/from-riyadh-airport-to-aramco-refinery-yemens-houthis-claim-strikes-across-saudi-arabia/"
+  },
+  {
+   "text": "Saudi Arabia's East-West oil pipeline was halted again on Oct 4 after a fresh attack damaged a pumping station at Khurais, east of Riyadh, a source in the kingdom's energy sector told Agence France-Presse. The source said the Khurais station had not been targeted before and the damage was extensive; Kpler data cited in the report shows the line's flows had already been halted from Sep 11 to Sep 22, and the pipeline has become essential to Saudi exports since the Hormuz blockade cut the main route.",
+   "vintage": "Oct 4, 2026",
+   "source": "Agence France-Presse (via The Business Standard)",
+   "source_url": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabias-east-west-oil-pipeline-halted-again-after-fresh-attack-1563431"
+  },
+  {
+   "text": "UKMTO issued four warnings and an advisory on Oct 5 as attacks on shipping in the Strait of Hormuz intensified, including a projectile strike that set a ship's engine room on fire with the crew still fighting it and no casualties reported. UKMTO also logged Iranian forces hailing the Liberia-registered tanker Singapore Energy 11 nm north of Oman with a warning it would be fired upon unless it turned back, plus time-late reports of Oct 3-4 strikes on an LPG tanker and two crude tankers, bringing its October count to nine reports.",
+   "vintage": "Oct 5, 2026",
+   "source": "Seatrade Maritime",
+   "source_url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-warnings-in-four-hours"
+  },
+  {
+   "text": "A Bangladeshi national, Md Sajib Hossain of Cumilla, was killed on Oct 4 when a Houthi missile or drone struck a Saudi Aramco facility at Al Khurais, according to a Bangladesh foreign ministry press release issued Oct 5. The ministry condemned the attack and said its Riyadh embassy is coordinating with Saudi authorities to repatriate the body; it is the first independently reported casualty from the Oct 4 Houthi strikes on Aramco sites, which Saudi Arabia itself has still not commented on.",
+   "vintage": "Oct 4, 2026",
+   "source": "The Business Standard (Bangladesh)",
+   "source_url": "https://www.tbsnews.net/bangladesh/bangladeshi-worker-killed-houthi-attack-saudi-aramco-facility-1563591"
+  },
+  {
+   "text": "Oil prices rose on October 4 after the Houthis said they fired ballistic missiles and drones at Saudi Aramco sites in Riyadh and the Khurais area, in retaliation for about 50 Saudi-led strikes in Yemen that Saudi Arabia has not confirmed. Brent crude futures rose 81 cents to $103.06 a barrel and US West Texas Intermediate (WTI) gained 46 cents to $91.57 a barrel.",
+   "vintage": "Oct 4, 2026",
+   "source": "Reuters (via Superhits979)",
+   "source_url": "https://superhits979.com/2026/10/04/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites/"
   },
   {
    "text": "UKMTO logged five incidents on Oct 5 in and near the Strait of Hormuz: four tanker attacks, including delayed reports of an Oct 4 strike on an inbound LPG tanker and another on a crude oil tanker, plus an inbound tanker hailed by IRGC forces off Khasab, Oman, and ordered to turn back or risk being targeted; the tanker complied.",
@@ -1040,6 +1070,21 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via gCaptain)",
+   "vintage": "",
+   "url": "https://gcaptain.com/us-says-it-disabled-cargo-vessel-trying-to-run-iran-blockade/"
+  },
+  {
+   "publisher": "ANI (via Latestly)",
+   "vintage": "",
+   "url": "https://www.latestly.com/agency-news/world-news-mt-petro-dolphin-hit-by-drone-attack-off-omans-coast-two-indian-seafarers-missing-sonowal-7641009.html"
+  },
+  {
+   "publisher": "Maritime Gateway",
+   "vintage": "",
+   "url": "https://www.maritimegateway.com/strait-of-hormuz-attacks-two-indian-seafarers-missing-after-drone-hits-mt-petro-dolphin/"
+  },
+  {
    "publisher": "UKMTO (via Defcon Level)",
    "vintage": "",
    "url": "https://www.defconlevel.com/alert/2026-10-10-outbound-tanker-struck-by-projectile-in-strait-of-hormuz"
@@ -1078,46 +1123,6 @@
    "publisher": "Reuters (via WABX)",
    "vintage": "",
    "url": "https://wabx.net/2026/10/08/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns/"
-  },
-  {
-   "publisher": "Splash247",
-   "vintage": "",
-   "url": "https://splash247.com/twelve-injured-in-latest-hormuz-attack/"
-  },
-  {
-   "publisher": "TradeWinds",
-   "vintage": "",
-   "url": "https://www.tradewindsnews.com/casualties/multiple-seafarers-injured-after-tanker-struck-in-new-iranian-strait-of-hormuz-attack/2-1-2054398"
-  },
-  {
-   "publisher": "Anadolu Agency (via MCI Group)",
-   "vintage": "",
-   "url": "https://mcigroup.my/world-news/houthis-claim-attacks-on-saudi-airports-state-oil-refinery-military-sites/"
-  },
-  {
-   "publisher": "Anadolu Agency (via DainikNews Live)",
-   "vintage": "",
-   "url": "https://dainiknewslive.in/from-riyadh-airport-to-aramco-refinery-yemens-houthis-claim-strikes-across-saudi-arabia/"
-  },
-  {
-   "publisher": "Agence France-Presse (via The Business Standard)",
-   "vintage": "",
-   "url": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabias-east-west-oil-pipeline-halted-again-after-fresh-attack-1563431"
-  },
-  {
-   "publisher": "Seatrade Maritime",
-   "vintage": "",
-   "url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-warnings-in-four-hours"
-  },
-  {
-   "publisher": "The Business Standard (Bangladesh)",
-   "vintage": "",
-   "url": "https://www.tbsnews.net/bangladesh/bangladeshi-worker-killed-houthi-attack-saudi-aramco-facility-1563591"
-  },
-  {
-   "publisher": "Reuters (via Superhits979)",
-   "vintage": "",
-   "url": "https://superhits979.com/2026/10/04/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites/"
   },
   {
    "publisher": "Reuters (via WNFL Sports)",
@@ -1230,6 +1235,16 @@
    "url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
   },
   {
+   "publisher": "Press TV",
+   "vintage": "",
+   "url": "https://www.presstv.co.uk/Detail/2026/10/11/778113/Iran-IRGC-Hormuz-tanker"
+  },
+  {
+   "publisher": "AFP (via Le Pays de France)",
+   "vintage": "",
+   "url": "https://www.lepaysdefrance.fr/en/Politics/746147-riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack.html"
+  },
+  {
    "publisher": "AAP",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/iran-strikes-gas-tanker-in-strait-of-hormuz"
@@ -1263,6 +1278,46 @@
    "publisher": "Reuters (via BOE Report)",
    "vintage": "",
    "url": "https://boereport.com/2026/10/07/iranian-official-says-illegal-routes-in-strait-of-hormuz-to-soon-be-blocked/"
+  },
+  {
+   "publisher": "Splash247",
+   "vintage": "",
+   "url": "https://splash247.com/twelve-injured-in-latest-hormuz-attack/"
+  },
+  {
+   "publisher": "TradeWinds",
+   "vintage": "",
+   "url": "https://www.tradewindsnews.com/casualties/multiple-seafarers-injured-after-tanker-struck-in-new-iranian-strait-of-hormuz-attack/2-1-2054398"
+  },
+  {
+   "publisher": "Anadolu Agency (via MCI Group)",
+   "vintage": "",
+   "url": "https://mcigroup.my/world-news/houthis-claim-attacks-on-saudi-airports-state-oil-refinery-military-sites/"
+  },
+  {
+   "publisher": "Anadolu Agency (via DainikNews Live)",
+   "vintage": "",
+   "url": "https://dainiknewslive.in/from-riyadh-airport-to-aramco-refinery-yemens-houthis-claim-strikes-across-saudi-arabia/"
+  },
+  {
+   "publisher": "Agence France-Presse (via The Business Standard)",
+   "vintage": "",
+   "url": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabias-east-west-oil-pipeline-halted-again-after-fresh-attack-1563431"
+  },
+  {
+   "publisher": "Seatrade Maritime",
+   "vintage": "",
+   "url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-warnings-in-four-hours"
+  },
+  {
+   "publisher": "The Business Standard (Bangladesh)",
+   "vintage": "",
+   "url": "https://www.tbsnews.net/bangladesh/bangladeshi-worker-killed-houthi-attack-saudi-aramco-facility-1563591"
+  },
+  {
+   "publisher": "Reuters (via Superhits979)",
+   "vintage": "",
+   "url": "https://superhits979.com/2026/10/04/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites/"
   },
   {
    "publisher": "UKMTO (via Marine Insight)",

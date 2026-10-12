@@ -42,6 +42,18 @@
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "text": "On Oct 11 Trump posted that an 'energy ceasefire' between Russia and Ukraine was effective immediately, with neither government confirming any deal. Zelensky said Ukraine would honor it if Russia reciprocated, but Russian strikes on Ukrainian power facilities continued afterward and the Kremlin made no public commitment.",
+   "vintage": "Oct 11, 2026",
+   "source": "Brussels Signal",
+   "source_url": "https://brusselssignal.eu/2026/10/trump-declares-russia-ukraine-energy-ceasefire-as-strikes-on-kyiv-continue/"
+  },
+  {
+   "text": "Crude fell on Oct 12 on hopes of improved supply from the announced energy ceasefire and the diesel waiver deal, with Brent for December down 1.14 percent to $103.50 and WTI for November down 1.49 percent to $90.48. Iran-Saudi diplomatic outreach added to the easing of supply concerns.",
+   "vintage": "Oct 12, 2026",
+   "source": "Outlook Money",
+   "source_url": "https://www.outlookmoney.com/invest/sensex-nifty-volatile-russia-ukraine-energy-ceasefire-iran-saudi-talks-stock-market-today"
+  },
+  {
    "text": "Axios, citing a US official, reported Trump moved ahead with the Russian diesel waiver after Zelensky ignored about six US requests to stop hitting Russian refineries; during Oct 9 talks in Miami, envoys Witkoff and Kushner told Ukraine's delegation the waiver was coming because the strikes were 'directly affecting U.S. consumers'.",
    "vintage": "Oct 10, 2026",
    "source": "Axios (via Planet-Today)",
@@ -88,18 +100,6 @@
    "vintage": "Sep 30, 2026",
    "source": "Reuters",
    "source_url": "https://northlandnewsradio.com/2026/09/29/russian-air-strikes-kill-one-injure-five-in-and-around-kyiv-officials-say/"
-  },
-  {
-   "text": "Russia's government formally extended the ban on diesel, marine fuel and gasoil exports for all fuel producers through October 31, saying it needs to keep the domestic fuel market stable through the harvest season; the measure keeps Russian diesel, once about 10 percent of seaborne supply, off the world market for another month.",
-   "vintage": "Sep 30, 2026",
-   "source": "OilPrice.com",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html"
-  },
-  {
-   "text": "President Trump said he asked President Zelenskyy to reduce strikes on Russian oil refineries, warning they could create a global problem, and claimed Zelenskyy said he probably would, though Kyiv did not confirm that response.",
-   "vintage": "Sep 28, 2026",
-   "source": "Informat.ro",
-   "source_url": "https://informat.ro/en/international/trump-asks-zelensky-to-reduce-attacks-on-russian-refineries-140870"
   },
   {
    "text": "Russia's seaborne oil product exports rebounded 16.4 percent from July in August to 4.57 million metric tons as some refineries returned from unplanned maintenance, but remained 50 percent below August 2025. The mix skewed to naphtha and fuel oil, Baltic shipments rose 32.7 percent while Black Sea and Azov Sea loadings fell 25.3 percent. Russian diesel exports had already fallen below 1 million metric tons in June, versus roughly 2.5 million tons per month a year earlier. Moscow is extending its diesel export ban through October 31, according to Russian media reports, to rebuild stocks before winter.",
@@ -278,6 +278,16 @@
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "publisher": "Brussels Signal",
+   "vintage": "",
+   "url": "https://brusselssignal.eu/2026/10/trump-declares-russia-ukraine-energy-ceasefire-as-strikes-on-kyiv-continue/"
+  },
+  {
+   "publisher": "Outlook Money",
+   "vintage": "",
+   "url": "https://www.outlookmoney.com/invest/sensex-nifty-volatile-russia-ukraine-energy-ceasefire-iran-saudi-talks-stock-market-today"
+  },
+  {
    "publisher": "Axios (via Planet-Today)",
    "vintage": "",
    "url": "https://www.planet-today.com/2026/10/trump-putin-diesel-deal-message-to-kyiv.html"
@@ -316,16 +326,6 @@
    "publisher": "Reuters",
    "vintage": "",
    "url": "https://northlandnewsradio.com/2026/09/29/russian-air-strikes-kill-one-injure-five-in-and-around-kyiv-officials-say/"
-  },
-  {
-   "publisher": "OilPrice.com",
-   "vintage": "",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html"
-  },
-  {
-   "publisher": "Informat.ro",
-   "vintage": "",
-   "url": "https://informat.ro/en/international/trump-asks-zelensky-to-reduce-attacks-on-russian-refineries-140870"
   },
   {
    "publisher": "OilPrice.com (citing industry sources and Reuters calculations)",
