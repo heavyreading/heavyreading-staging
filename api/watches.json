@@ -1624,6 +1624,41 @@
     "wcs_closer": "For the WCSB book, the SPR is a two-act story with a grade twist: exchanges now, repayments later, and sweet leaving fastest while the reserve drifts further from its 40/60 design mix. Watch the weekly EIA petroleum status report for the draw pace, the DOE grade table for the sweet/sour split, and any disclosed repayments; the 2027-2029 return schedule is a known future bid for sour barrels. Until then, the reserve's releases are the quiet headwind on every sour differential print, and the 252.4-million-barrel congressional floor leaves only about 32 million barrels of drawdown room.",
     "sections": [
      {
+      "heading": "The exchange ledger: two threads, one timeline",
+      "bullets": [
+       {
+        "text": "Two SPR exchange threads are open at once and are tracked here as one ledger. The first is the sixth and final 40-million-barrel exchange under the IEA-coordinated release: bids closed October 6 and the award is still pending. The second is an emergency exchange of up to 4 million barrels authorized October 10 for Hurricane Isaias disruptions. Combined, up to 44 million barrels of reserve crude is committed to move into the Gulf market in November and December 2026, every barrel a loan due back with premium barrels starting in 2027.",
+        "vintage": "Oct 12, 2026",
+        "source": "U.S. Department of Energy",
+        "source_url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply"
+       },
+       {
+        "text": "DOE issued the request for proposals for the sixth and final 40-million-barrel exchange, drawn from the Big Hill and Bryan Mound sites, with bids due by 11:00 a.m. Central Time on October 6 and deliveries under awarded exchanges scheduled for November and December 2026. Borrowers return the oil plus premium barrels.",
+        "vintage": "Sep 29, 2026",
+        "source": "US Department of Energy (energy.gov)",
+        "source_url": "https://www.energy.gov/articles/united-states-energy-department-continues-execution-strategic-reserve-release-commitments"
+       },
+       {
+        "text": "The bid window for the 40-million-barrel exchange closed at 11 a.m. CT. As of October 12, DOE has not announced the award; the award announcement is the next dated event on this ledger.",
+        "vintage": "Oct 6, 2026",
+        "source": "Big Energy News",
+        "source_url": "https://bigenergynews.com/2026/09/energy-department-offers-40-million-barrels-from-strategic-petroleum-reserve/"
+       },
+       {
+        "text": "DOE authorized an emergency exchange of up to 4 million barrels, 2 million each to ExxonMobil and BP America, to address supply disruptions from Hurricane Isaias. The borrowed crude plus premium barrels is to be returned in 2027; ExxonMobil's share accelerates deliveries of previously awarded SPR crude to keep Gulf Coast refineries running.",
+        "vintage": "Oct 10, 2026",
+        "source": "U.S. Department of Energy",
+        "source_url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply"
+       },
+       {
+        "text": "Next on the ledger: awarded exchanges under the 40-million-barrel tranche deliver through November and December 2026. Returns begin in 2027, with exchange returns running through 2029; earlier phases returned an average premium of about 25 percent, which DOE says expands long-term reserve inventory at no taxpayer cost.",
+        "vintage": "Oct 12, 2026",
+        "source": "US Department of Energy (energy.gov)",
+        "source_url": "https://www.energy.gov/articles/united-states-energy-department-continues-execution-strategic-reserve-release-commitments"
+       }
+      ]
+     },
+     {
       "heading": "What's drawing lately: sweet vs sour",
       "bullets": [
        {
@@ -1774,30 +1809,6 @@
         "source_url": "https://www.europesays.com/turkiye/57447/"
        },
        {
-        "text": "Bids are due October 6 at 11:00 a.m. Central Time under the Department of Energy's (DOE) sixth and final 40-million-barrel tranche of the 172-million-barrel exchange, drawn from the Big Hill and Bryan Mound sites, with deliveries scheduled for November and December 2026. Borrowers return the 40 million barrels plus premium barrels, which the department says will expand long-term reserve inventory at no taxpayer cost.",
-        "vintage": "Oct 5, 2026",
-        "source": "US Department of Energy",
-        "source_url": "https://www.energy.gov/articles/united-states-energy-department-continues-execution-strategic-reserve-release-commitments"
-       },
-       {
-        "text": "At a rally in Mobile, Alabama on October 2, President Donald Trump said the United States will 'very shortly' refill the Strategic Petroleum Reserve (SPR) 'for nothing.' He gave no timing or volume details, and the Department of Energy (DOE) previously clarified that Venezuelan heavy crude would not be placed directly into the reserve's salt caverns.",
-        "vintage": "Oct 2, 2026",
-        "source": "EnergyNow",
-        "source_url": "https://energynow.com/2026/10/trump-says-u-s-will-soon-refill-strategic-oil-reserves-at-no-cost-could-venezuela-be-the-answer/"
-       },
-       {
-        "text": "DOE issued the final 40-million-barrel tranche of the US 172-million-barrel IEA-coordinated exchange, offered as a loan rather than an outright sale, with company bids due Oct 6 and deliveries in November and December. DOE says the exchange structure will ultimately return roughly 200 million barrels to the reserve, replenishing it at no taxpayer cost, but the reserve is expected to fall to its lowest level since 1982 once the latest tranche is out.",
-        "vintage": "Sep 29, 2026",
-        "source": "OilPrice.com",
-        "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Taps-Strategic-Oil-Reserve-Again-as-Diesel-Tops-6.html"
-       },
-       {
-        "text": "Federal law restricts non-emergency drawdowns once SPR inventories fall below 252.4 million barrels, and a 1981 GAO report advised against releases below 250 million except in a very severe emergency. With the reserve near 284 million barrels and another tranche now in motion, the legal floor is roughly 30 million barrels away.",
-        "vintage": "Sep 29, 2026",
-        "source": "OilPrice.com",
-        "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Taps-Strategic-Oil-Reserve-Again-as-Diesel-Tops-6.html"
-       },
-       {
         "text": "The Department of Energy issued a request for proposal on Sep 29 for an exchange of up to 40 million barrels of SPR crude from the Big Hill and Bryan Mound sites, with deliveries under awarded exchanges scheduled for November and December 2026 and bids due by 11:00 a.m. Central Time on Oct 6; DOE says five prior solicitations awarded more than 133 million barrels and earlier exchanges returned an average 25 percent premium.",
         "vintage": "Published Sep 29, 2026",
         "source": "US Department of Energy (energy.gov)",
@@ -1820,6 +1831,12 @@
         "vintage": "~Jul 2026; accessed 2026-09-24",
         "source": "Finwire (citing Reuters)",
         "source_url": "https://finwire.io/news/world-news/iea-agrees-release-of-400m-barrels-of-oil-from-strategic-reserves"
+       },
+       {
+        "text": "Federal law restricts non-emergency drawdowns once SPR inventories fall below 252.4 million barrels, and a 1981 GAO report advised against releases below 250 million except in a very severe emergency. With the reserve near 284 million barrels and another tranche now in motion, the legal floor is roughly 30 million barrels away.",
+        "vintage": "Sep 29, 2026",
+        "source": "OilPrice.com",
+        "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Taps-Strategic-Oil-Reserve-Again-as-Diesel-Tops-6.html"
        }
       ]
      },
