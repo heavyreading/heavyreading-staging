@@ -1,8 +1,8 @@
 {
- "page": "/tmx-waterfall.html",
+ "page": "/inner/tmx-waterfall/",
  "title": "TMX waterfall",
  "dek": "TMX waterfall: monthly allocation of Trans Mountain barrels to Pacific Northwest, California, China, Korea, Japan, and India, ranked by refinery netback. Marginal barrel economics and tripwires for the next trading cycle.",
- "built_at": "2026-10-10",
+ "built_at": "2026-10-12",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
