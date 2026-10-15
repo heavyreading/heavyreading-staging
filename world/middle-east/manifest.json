@@ -6,6 +6,24 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Iran's army said on Oct 15 that a violating oil tanker was on fire in the eastern Strait of Hormuz after disabling its tracking systems and trying to pass through a restricted area in the Gulf of Oman, according to a statement carried by state media.",
+   "vintage": "Oct 15, 2026",
+   "source": "Reuters (via BOE Report)",
+   "source_url": "https://boereport.com/2026/10/15/irans-army-says-oil-tanker-on-fire-in-the-strait-of-hormuz/"
+  },
+  {
+   "text": "Oil fell more than 1 percent on Oct 15, with Brent down $1.64 to $104.42 and WTI down 98 cents to $94.11 by 0337 GMT, as traders weighed Hormuz shipping attacks against a US official saying Washington is considering easing sanctions on shadow-fleet vessels to cut shipping costs and let legal oil flow on previously sanctioned ships.",
+   "vintage": "Oct 15, 2026",
+   "source": "Reuters (via Euronext Live)",
+   "source_url": "https://live.euronext.com/en/financial-news/oil-prices-retreat-investors-weigh-supply-outlook-middle-east-tensions"
+  },
+  {
+   "text": "Two Singapore-registered container ships were struck by unknown projectiles in the Strait of Hormuz on Oct 13 and Oct 14, Singapore's Maritime and Port Authority said. GFS Pride caught fire and sank, with all 21 crew evacuated safely; GFS Giselle took hull damage, reached a safe anchorage under its own power, and all 22 crew were safe.",
+   "vintage": "Oct 13-14, 2026",
+   "source": "Reuters (via The Business Standard)",
+   "source_url": "https://www.tbsnews.net/world/two-singapore-registered-vessels-struck-strait-hormuz-one-sinks-1573101"
+  },
+  {
    "text": "Iranian officials told Reuters on Oct 14 that Tehran began using different offensive tactics about 10 days ago against vessels it deems in violation of its Hormuz restrictions, aiming to keep oil prices high. UKMTO said a container ship and a tanker were hit by unknown projectiles in the strait on Oct 13, and Iran's IRGC Navy said a container ship sank south of the strait after hitting a naval mine and catching fire. Brent was up 14 cents to $105.83 and WTI up 57 cents to $94.71 by 0938 GMT on Oct 14.",
    "vintage": "Oct 14, 2026",
    "source": "Reuters (via LA Post)",
@@ -232,6 +250,18 @@
    "vintage": "Sep 18, 2026; accessed 2026-09-23",
    "source": "GeoTrends (citing Baltic Exchange)",
    "source_url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
+  },
+  {
+   "text": "A senior Iranian commander, Rear Admiral Habibollah Sayyari, said on Oct 15 that the Strait of Hormuz remains closed and any vessel passage must be coordinated with Iran's armed forces, warning that uncoordinated transits would face consequences. He said the IRGC Navy holds the western side of the strait while the regular army operates on the eastern side into the Sea of Oman.",
+   "vintage": "Oct 15, 2026",
+   "source": "Press TV",
+   "source_url": "https://www.presstv.co.uk/Detail/2026/10/15/778364/Iran-Hormuz-Sayyari-coordination"
+  },
+  {
+   "text": "A container ship and a dry bulk carrier sank near the Strait of Hormuz in the past 24 hours, maritime officials said on Oct 14, the second and third vessels sunk since the war began on Feb 28, according to IMO casualty data. The Antigua and Barbuda-flagged Cape Dao sank weeks after a Sep 23 projectile strike that killed one crew member; the rest were evacuated at the time.",
+   "vintage": "Oct 14, 2026",
+   "source": "Reuters (via The Business Standard)",
+   "source_url": "https://www.tbsnews.net/world/two-singapore-registered-vessels-struck-strait-hormuz-one-sinks-1573101"
   },
   {
    "text": "The Houthis hit an administrative building belonging to Saudi Aramco in Dhahran on Oct 14, causing a limited fire, Saudi Arabia's energy ministry said. The strike extends a week of Houthi missile and drone fire at Saudi targets, including four hits on Riyadh's international airport, with a strike on Saturday killing 13 people.",
@@ -1100,6 +1130,21 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via BOE Report)",
+   "vintage": "",
+   "url": "https://boereport.com/2026/10/15/irans-army-says-oil-tanker-on-fire-in-the-strait-of-hormuz/"
+  },
+  {
+   "publisher": "Reuters (via Euronext Live)",
+   "vintage": "",
+   "url": "https://live.euronext.com/en/financial-news/oil-prices-retreat-investors-weigh-supply-outlook-middle-east-tensions"
+  },
+  {
+   "publisher": "Reuters (via The Business Standard)",
+   "vintage": "",
+   "url": "https://www.tbsnews.net/world/two-singapore-registered-vessels-struck-strait-hormuz-one-sinks-1573101"
+  },
+  {
    "publisher": "Reuters (via LA Post)",
    "vintage": "",
    "url": "https://www.lapost.com/content/oil-prices-climb-as-traders-weigh-saudi-supply-risk-russian-diesel-flow"
@@ -1283,6 +1328,11 @@
    "publisher": "GeoTrends (citing Baltic Exchange)",
    "vintage": "",
    "url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
+  },
+  {
+   "publisher": "Press TV",
+   "vintage": "",
+   "url": "https://www.presstv.co.uk/Detail/2026/10/15/778364/Iran-Hormuz-Sayyari-coordination"
   },
   {
    "publisher": "Press TV",

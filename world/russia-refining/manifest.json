@@ -42,6 +42,12 @@
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "text": "Ukraine resumed strikes on Russian refineries on Oct 15 after a three-day pause, President Zelenskiy told the Financial Times, saying the block on energy strikes was over because Russia kept hitting Ukrainian energy infrastructure, leaving 600,000 people without power on Oct 14. The Ryazan hit was the first Ukrainian attack on a Russian energy facility since President Trump announced an energy ceasefire on Oct 11, a truce neither side confirmed; Kremlin spokesman Dmitry Peskov said no specific agreements had been established.",
+   "vintage": "Oct 15, 2026",
+   "source": "Associated Press (via KSFR)",
+   "source_url": "https://www.ksfr.org/npr-news/2026-10-15/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-after-brief-truce"
+  },
+  {
    "text": "The IEA said on Oct 14 that a lack of operational Russian refinery capacity meant the recently announced easing of Russian diesel export restrictions was unlikely to bring any material change to the global gasoil balance, and that constrained diesel supplies could persist well into next year. The agency put Russian crude production in September at 8.43 million b/d, up 65,000 b/d on the month but 870,000 b/d below a year earlier.",
    "vintage": "Oct 14, 2026",
    "source": "Reuters (via LA Post)",
@@ -102,10 +108,10 @@
    "source_url": "https://eaworldview.com/2026/10/ukraine-war-day-1685-kyivs-mass-attack-across-moscow-region/"
   },
   {
-   "text": "President Trump said late on Wednesday that a potential U.S. diesel export ban could have 'a negative impact on gasoline,' but he did not rule it out, saying the administration discusses it daily. U.S. retail diesel hit a record $6.50 a gallon and regular gasoline averaged $4.43, a record for this time of year; Goldman Sachs analysts warned a ban would push domestic gasoline prices higher as refiners cut processing rates.",
-   "vintage": "Oct 1, 2026",
-   "source": "OilPrice.com",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Admits-Diesel-US-Export-Ban-Could-Raise-Gasoline-Prices.html"
+   "text": "A large Ukrainian drone attack caused a fire at Rosneft's Ryazan refinery early on Oct 15, regional governor Pavel Malkov said, with damage still being assessed and emergency services at the scene. The plant, about 300 km southeast of Moscow, supplies fuel to the capital and accounts for almost 5 percent of Russian refining throughput; it has been hit several times in recent months.",
+   "vintage": "Oct 15, 2026",
+   "source": "Reuters",
+   "source_url": "https://cruisin929.com/2026/10/15/drone-attack-causes-fire-at-russias-ryazan-refinery-regional-governor-says/"
   },
   {
    "text": "Ukraine's Ministry of Defence said its forces hit 12 large Russian refineries in September, per ArmyInform reporting on Oct 12, with Lukoil's Perm refinery, about 1,500 km from the border, the farthest on the list. Monitoring by Euromaidan Press found no reports of new Ukrainian refinery strikes in the sources it tracks since the Oct 11 ceasefire announcement.",
@@ -216,12 +222,6 @@
    "source_url": "https://www.infomarine.net/en/global-shipping-news/19-world-maritime-news/75426-major-russian-oil-refinery-knocked-offline-by-ukrainian-drone-strike.html"
   },
   {
-   "text": "The Associated Press reported on September 26 that Russian attacks killed four people across Ukraine while Ukraine continued targeting Russian oil refineries and industrial sites with long-range drones, as Trump said he hoped Zelenskyy would 'settle' with Putin; a Ukrainian drone attack in Krasnodar killed three and wounded two, and Zelenskyy said Ukrainian forces targeted the Ilsky oil refinery.",
-   "vintage": "Sep 26, 2026",
-   "source": "Associated Press (via Europesays)",
-   "source_url": "https://www.europesays.com/ukraine/48241/"
-  },
-  {
    "text": "Russia raised its expected idle primary refining capacity for October by 67% versus the earlier plan to 4.0 million tons, per Reuters industry-source estimates, after postponed maintenance at Rosneft's Novokuibyshevsk refinery and a unit of Lukoil's NORSI; Rosneft's Tuapse refinery also reportedly halted crude processing on Oct 1 on low margins. More than half of October's idle capacity is expected to return in November, with November idle at 1.2 to 1.8 million tons.",
    "vintage": "Oct 7, 2026",
    "source": "OilPrice.com",
@@ -278,6 +278,11 @@
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "publisher": "Associated Press (via KSFR)",
+   "vintage": "",
+   "url": "https://www.ksfr.org/npr-news/2026-10-15/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-after-brief-truce"
+  },
+  {
    "publisher": "Reuters (via LA Post)",
    "vintage": "",
    "url": "https://www.lapost.com/content/oil-prices-climb-as-traders-weigh-saudi-supply-risk-russian-diesel-flow"
@@ -328,9 +333,9 @@
    "url": "https://eaworldview.com/2026/10/ukraine-war-day-1685-kyivs-mass-attack-across-moscow-region/"
   },
   {
-   "publisher": "OilPrice.com",
+   "publisher": "Reuters",
    "vintage": "",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Admits-Diesel-US-Export-Ban-Could-Raise-Gasoline-Prices.html"
+   "url": "https://cruisin929.com/2026/10/15/drone-attack-causes-fire-at-russias-ryazan-refinery-regional-governor-says/"
   },
   {
    "publisher": "Euromaidan Press (via Collector)",
@@ -421,11 +426,6 @@
    "publisher": "Reuters (via Infomarine)",
    "vintage": "",
    "url": "https://www.infomarine.net/en/global-shipping-news/19-world-maritime-news/75426-major-russian-oil-refinery-knocked-offline-by-ukrainian-drone-strike.html"
-  },
-  {
-   "publisher": "Associated Press (via Europesays)",
-   "vintage": "",
-   "url": "https://www.europesays.com/ukraine/48241/"
   },
   {
    "publisher": "OilPrice.com",
