@@ -670,6 +670,8 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 .sw-log li{padding:.45rem 0;border-top:1px solid var(--line);font-size:.92rem;line-height:1.45}
 .sw-log .sw-kind{font-weight:600}
 .sw-err{color:#b3261e}
+.sw-region{font-size:1.05rem;margin:1.4rem 0 .2rem}
+.sw-bt{font-size:.92rem;line-height:1.5}
 </style>
 
 <p class="kicker">Sat watch</p>
@@ -680,9 +682,12 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <div id="sw-board" class="sw-grid"></div></section>
 <section><h2>Event and anomaly log</h2>
 <ul id="sw-log" class="sw-log"></ul></section>
+<section><h2>Validation - replayed against the archive</h2><p class="sw-bt">Known events replayed against the daily satellite fire archive (National Aeronautics and Space Administration (NASA) Global Imagery Browse Services (GIBS) thermal-anomaly tiles; day granularity, no fire radiative power in this archive):</p><ul class="sw-bt"><li><b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, yanbu-end box): detected 2026-09-12, +2 d vs event date; peak 53 fire pixels vs baseline 14; extent: FACILITY (facility share 2.409).</li><li><b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, mid-line box): NOT detected; peak 0 fire pixels vs baseline 0; extent: REGIONAL (facility share 0.0).</li><li><b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, east-end box): detected 2026-09-10, +0 d vs event date; peak 82 fire pixels vs baseline 15; extent: FACILITY (facility share 0.2).</li><li><b>Khurais pumping station hit (AFP-reported, disputed)</b> (2026-10-05, khurais box): detected 2026-10-05, +0 d vs event date; peak 66 fire pixels vs baseline 18; extent: FACILITY (facility share 0.291).</li><li><b>Yanbu port projectile incident</b> (2026-10-01, yanbu box): detected 2026-10-03, +2 d vs event date; peak 100 fire pixels vs baseline 28; extent: FACILITY (facility share 1.389).</li><li><b><a class="plink" href="projects/syncrude.html">Syncrude</a> Mildred Lake upgrader fire</b> (2017-03-14, syncrude box): detected 2017-03-14, +0 d vs event date; peak 109 fire pixels vs baseline 0; extent: FACILITY (facility share 1.885).</li><li><b>Fort McMurray wildfire (CONFOUNDER)</b> (2016-05-03, syncrude box): NOT detected; peak 0 fire pixels vs baseline 0; extent: REGIONAL (facility share 0.0).</li></ul><p class="sw-bt">Quiet-period mining: 177 asset-days with no known events produced 2 false-alarm days at production thresholds. Misses and ambiguities are reported as measured, including the disputed Khurais case; the full method and pass-level caveats are in the build note.</p></section>
 <section><h2>How it works, and what it cannot see</h2>
 <p><b>Geostationary layer.</b> Meteosat Indian Ocean Data Coverage (IODC), the Meteosat-9 satellite parked over 45.5 degrees east, puts Saudi Arabia and the Gulf almost directly underneath. Frames arrive every 15 minutes through the public EUMETView map service. Each asset is compared against its own recent baseline: refineries flare constantly, so the signal is a step change in the fire channel (3.9 micrometres) against the thermal channel (10.8 micrometres), not the mere presence of heat. The published frames are styled renders, so readings are palette units used for step detection, not calibrated temperatures.</p>
 <p><b>Confirmation layer.</b> The Fire Information for Resource Management System (FIRMS), run by the National Aeronautics and Space Administration (NASA), distributes detections from the Visible Infrared Imaging Radiometer Suite (VIIRS) and the Moderate Resolution Imaging Spectroradiometer (MODIS) on polar orbiters. A pass over an asset either finds an anomalous fire against the asset flare baseline, or it does not; between passes the board says BLIND rather than guessing. Pass times here are inferred from regional detection clusters and are labeled as inferences.</p>
+<p><b>Baselines, and the cold start.</b> Step detection is only as good as the baseline behind it. Each asset baseline is its own, matched to the same hours of the day (a 03:00 flare is not a 15:00 flare), and the card shows how many clear looks it holds. A baseline counts as mature at about one week of looks (672 clear frames). Until then the board runs conservative: only large step changes alert, smaller deviations are logged silently, and the card carries a BASELINE BUILDING chip. Cloud cover and missed passes pause the count; a gap never masquerades as baseline data.</p>
+<p><b>Canada.</b> The Canadian facilities are watched by Geostationary Operational Environmental Satellite West (GOES-West) through the same NASA GIBS service, at an oblique angle from its slot over 137 degrees west: coarser effective pixels than Meteosat over Saudi Arabia, stated rather than hidden. The compensation is geometry: at 57 degrees north the polar orbiters pass far more often than at 24 degrees, so the FIRMS confirmation layer is dense (looks per day are measured per asset on each card, not assumed). Upgraders and refineries are scored in both directions: an unplanned trip first spikes the flare, then the plant goes abnormally quiet against its baseline. These sites are remote, with no social media crowd watching them: here the sensor layer is the detection itself, not just the adjudication of someone else's claim. Westridge is thermal only on this board; its vessel traffic is covered by the Narrows AIS stack.</p>
 <p><b>Limits, plainly.</b> The geostationary pixels are about 3 kilometres: this layer sees big fires, not small ones. Cloud blinds the infrared channels, and the status says so when it happens. There is no public vessel (Automatic Identification System, AIS) or aircraft (Automatic Dependent Surveillance - Broadcast, ADS-B) feed for the Gulf and Red Sea anchorages that can be read without credentials, so loadings are not tracked here rather than tracked badly.</p></section>
 
 <script>
@@ -696,32 +701,49 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
       d.toLocaleString([], {hour:'2-digit', minute:'2-digit'}) + ' local)'; }
   function esc(s){ return String(s == null ? '' : s)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+  function card(a){
+    var t = a.thermal, f = a.firms, b = a.baseline || {};
+    var delta = (t.delta_vs_baseline == null) ? 'n/a'
+      : (t.delta_vs_baseline >= 0 ? '+' : '') + t.delta_vs_baseline;
+    var mat = b.mature
+      ? '<span class="sw-chip">BASELINE MATURE</span>'
+      : '<span class="sw-chip sw-BLIND_CLOUD">BASELINE BUILDING - ' +
+        esc(b.looks_clear) + ' of ' + esc(b.mature_looks) +
+        ' clear looks (' + esc(b.maturity_pct) + '%)</span>';
+    return '<div class="sw-card"><h3>' + esc(a.label) + '</h3>' +
+      '<span class="sw-chip sw-' + esc(a.status) + '">' +
+        esc(a.status.replace(/_/g,' ')) + '</span> ' + mat +
+      '<p class="sw-meta">' + esc(a.status_reason) + '</p>' +
+      '<p class="sw-meta">Sensor layer: ' + esc(a.geo_source) +
+        (a.direction === 'both'
+          ? '; bidirectional (flare spike or abnormal quiet)' : '') +
+        '<br>Last sensor check: ' + fmt(a.last_check_utc) +
+        '<br>Latest satellite frame: ' + fmt(a.last_frame_utc) +
+        '<br>Thermal differential (fire channel minus thermal channel): ' +
+        '<span class="sw-num">' + esc(t.diff_p995) + '</span> vs baseline ' +
+        '<span class="sw-num">' + esc(t.baseline_diff_med) + '</span> ' +
+        '(step <span class="sw-num">' + delta + '</span>, ' +
+        esc(t.baseline_samples) + ' baseline frames)' +
+        '<br>Active-fire product pixels in box: ' + esc(t.fire_px) +
+        '<br>FIRMS last pass over the region: ' + fmt(f.last_pass_utc) +
+        '<br>FIRMS looks per day (measured, trailing 48 hours): ' +
+        esc(f.looks_per_day) +
+        '<br>Next expected FIRMS passes: ' +
+        esc((f.next_pass_windows || []).join('; ') || 'n/a') + '</p></div>';
+  }
   fetch('api/satwatch.json').then(function(r){ return r.json(); })
   .then(function(doc){
     var d = doc.data;
     upd.textContent = 'Board updated ' + fmt(d.updated_at) +
       '. Open claims under adjudication: ' +
       (d.claims_open.length ? d.claims_open.join(', ') : 'none') + '.';
-    el.innerHTML = d.assets.map(function(a){
-      var t = a.thermal, f = a.firms;
-      var delta = (t.delta_vs_baseline == null) ? 'n/a'
-        : (t.delta_vs_baseline >= 0 ? '+' : '') + t.delta_vs_baseline;
-      return '<div class="sw-card"><h3>' + esc(a.label) + '</h3>' +
-        '<span class="sw-chip sw-' + esc(a.status) + '">' +
-          esc(a.status.replace(/_/g,' ')) + '</span>' +
-        '<p class="sw-meta">' + esc(a.status_reason) + '</p>' +
-        '<p class="sw-meta">Last sensor check: ' + fmt(a.last_check_utc) +
-          '<br>Latest satellite frame: ' + fmt(a.last_frame_utc) +
-          '<br>Thermal differential (fire channel minus thermal channel): ' +
-          '<span class="sw-num">' + esc(t.diff_p995) + '</span> vs baseline ' +
-          '<span class="sw-num">' + esc(t.baseline_diff_med) + '</span> ' +
-          '(step <span class="sw-num">' + delta + '</span>, ' +
-          esc(t.baseline_samples) + ' baseline frames)' +
-          '<br>Active-fire product pixels in box: ' + esc(t.fire_px) +
-          '<br>FIRMS last pass over the region: ' + fmt(f.last_pass_utc) +
-          '<br>Next expected FIRMS passes: ' +
-          esc((f.next_pass_windows || []).join('; ') || 'n/a') + '</p></div>';
-    }).join('');
+    var gulf = d.assets.filter(function(a){ return a.region !== 'canada'; });
+    var can = d.assets.filter(function(a){ return a.region === 'canada'; });
+    el.innerHTML =
+      '<h2 class="sw-region">Gulf and Red Sea</h2><div class="sw-grid">' +
+      gulf.map(card).join('') + '</div>' +
+      '<h2 class="sw-region">Canada - oil sands and the coast</h2>' +
+      '<div class="sw-grid">' + can.map(card).join('') + '</div>';
     log.innerHTML = d.event_log.map(function(e){
       return '<li><span class="sw-kind">' + esc(e.kind) + '</span> ' +
         fmt(e.ts) + (e.asset ? ' - ' + esc(e.asset) : '') +
