@@ -683,11 +683,13 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <section><h2>Event and anomaly log</h2>
 <ul id="sw-log" class="sw-log"></ul></section>
 <section><h2>Validation - replayed against the archive</h2><p class="sw-bt">Known events replayed against the daily satellite fire archive (National Aeronautics and Space Administration (NASA) Global Imagery Browse Services (GIBS) thermal-anomaly tiles; day granularity, no fire radiative power in this archive):</p><ul class="sw-bt"><li><b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, yanbu-end box): detected 2026-09-12, +2 d vs event date; peak 53 fire pixels vs baseline 14; extent: FACILITY (facility share 2.409).</li><li><b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, mid-line box): NOT detected; peak 0 fire pixels vs baseline 0; extent: REGIONAL (facility share 0.0).</li><li><b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, east-end box): detected 2026-09-10, +0 d vs event date; peak 82 fire pixels vs baseline 15; extent: FACILITY (facility share 0.2).</li><li><b>Khurais pumping station hit (AFP-reported, disputed)</b> (2026-10-05, khurais box): detected 2026-10-05, +0 d vs event date; peak 66 fire pixels vs baseline 18; extent: FACILITY (facility share 0.291).</li><li><b>Yanbu port projectile incident</b> (2026-10-01, yanbu box): detected 2026-10-03, +2 d vs event date; peak 100 fire pixels vs baseline 28; extent: FACILITY (facility share 1.389).</li><li><b><a class="plink" href="projects/syncrude.html">Syncrude</a> Mildred Lake upgrader fire</b> (2017-03-14, syncrude box): detected 2017-03-14, +0 d vs event date; peak 109 fire pixels vs baseline 0; extent: FACILITY (facility share 1.885).</li><li><b>Fort McMurray wildfire (CONFOUNDER)</b> (2016-05-03, syncrude box): NOT detected; peak 0 fire pixels vs baseline 0; extent: REGIONAL (facility share 0.0).</li></ul><p class="sw-bt">Quiet-period mining: 177 asset-days with no known events produced 2 false-alarm days at production thresholds. Misses and ambiguities are reported as measured, including the disputed Khurais case; the full method and pass-level caveats are in the build note.</p></section>
+<section><h2>Restart signatures - validation</h2><p class="sw-bt">Documented maintenance events (dates fixed from the published record before the thermal series was consulted) replayed through the production lifecycle machine against the keyed FIRMS archive (acquisition times and fire radiative power; day granularity, with pass-level brackets in the build note):</p><ul class="sw-bt"><li><b>R1 <a class="plink" href="projects/cnq_horizon.html">Horizon</a> return (35-day upgrader TAR)</b>: no FIRMS-day profile - this asset's operating and turnaround heat do not separate in the fire archive, so no thermal verdict is issued for it (its sensor on this board is the GOES-West frame read, still building history).</li><li><b>R2 <a class="plink" href="projects/su_base_plant.html">Suncor Base Plant</a> return (fall TAR)</b>: down-transition 2026-09-05 (STARTED_EARLY); return signature not yet confirmed vs documented completion 2026-10-13 (error None days, None); false signatures before the return: 0.</li><li><b>R3 Strathcona return (Edmonton refinery TAR)</b>: down-transition 2026-09-10 (STARTED_ON_TIME); return signature not yet confirmed vs documented completion 2026-10-13 (error None days, None); false signatures before the return: 0.</li><li><b>W1 <a class="plink" href="projects/syncrude.html">Syncrude</a> coker TAR window verification (live return day Oct 16 excluded by design)</b>: scheduled 2026-08-20 to 2026-10-16; sensor-estimated start 2026-08-13 (STARTED_EARLY), end None (None); state at replay close STARTUP_TRANSIENT.</li><li><b>W2 <a class="plink" href="projects/syncrude.html">Syncrude</a> spring TAR window verification</b>: scheduled 2026-03-15 to 2026-05-10; sensor-estimated start None (DOWN_AT_OPEN_START_NOT_WITNESSED), end None (None); state at replay close DOWN.</li><li><b>U1 <a class="plink" href="projects/syncrude.html">Syncrude</a> pre-window control</b> (2026-01-15 to 2026-03-10): down-transitions: none; return signatures: 0. Record documents an UNPLANNED Coker 8-3 shutdown in Feb-Mar 2026: a DOWN transition here with no window join is the unplanned leg firing on a documented unplanned event (a positive control, not a false alarm).</li><li><b>U2 Suncor pre-window control</b> (2026-01-15 to 2026-09-05): down-transitions: 2026-05-02 (UNPLANNED_DOWN); 2026-08-15 (UNPLANNED_DOWN); return signatures: 3. Record documents a <a class="plink" href="projects/su_base_plant.html">Base Plant</a> U2 coker turnaround completed in Q2 2026 (46 days, planned but not day-pinned): a DOWN transition here joins no day-precise window and classifies UNPLANNED_DOWN - a registry granularity gap, reported as such if it appears.</li></ul></section>
 <section><h2>How it works, and what it cannot see</h2>
 <p><b>Geostationary layer.</b> Meteosat Indian Ocean Data Coverage (IODC), the Meteosat-9 satellite parked over 45.5 degrees east, puts Saudi Arabia and the Gulf almost directly underneath. Frames arrive every 15 minutes through the public EUMETView map service. Each asset is compared against its own recent baseline: refineries flare constantly, so the signal is a step change in the fire channel (3.9 micrometres) against the thermal channel (10.8 micrometres), not the mere presence of heat. The published frames are styled renders, so readings are palette units used for step detection, not calibrated temperatures.</p>
 <p><b>Confirmation layer.</b> The Fire Information for Resource Management System (FIRMS), run by the National Aeronautics and Space Administration (NASA), distributes detections from the Visible Infrared Imaging Radiometer Suite (VIIRS) and the Moderate Resolution Imaging Spectroradiometer (MODIS) on polar orbiters. A pass over an asset either finds an anomalous fire against the asset flare baseline, or it does not; between passes the board says BLIND rather than guessing. Pass times here are inferred from regional detection clusters and are labeled as inferences.</p>
 <p><b>Baselines, and the cold start.</b> Step detection is only as good as the baseline behind it. Each asset baseline is its own, matched to the same hours of the day (a 03:00 flare is not a 15:00 flare), and the card shows how many clear looks it holds. A baseline counts as mature at about one week of looks (672 clear frames). Until then the board runs conservative: only large step changes alert, smaller deviations are logged silently, and the card carries a BASELINE BUILDING chip. Cloud cover and missed passes pause the count; a gap never masquerades as baseline data.</p>
 <p><b>Canada.</b> The Canadian facilities are watched by Geostationary Operational Environmental Satellite West (GOES-West) through the same NASA GIBS service, at an oblique angle from its slot over 137 degrees west: coarser effective pixels than Meteosat over Saudi Arabia, stated rather than hidden. The compensation is geometry: at 57 degrees north the polar orbiters pass far more often than at 24 degrees, so the FIRMS confirmation layer is dense (looks per day are measured per asset on each card, not assumed). Upgraders and refineries are scored in both directions: an unplanned trip first spikes the flare, then the plant goes abnormally quiet against its baseline. These sites are remote, with no social media crowd watching them: here the sensor layer is the detection itself, not just the adjudication of someone else's claim. Westridge is thermal only on this board; its vessel traffic is covered by the Narrows AIS stack.</p>
+<p><b>Maintenance lifecycle.</b> For the Canadian plants the board also runs a state machine over the thermal series. A running plant sits in its operating band; a turnaround drops it to a floor learned from its own documented maintenance windows (never a hardcoded number); a return has a signature shape: heat leaves the floor, flares in a startup transient, then sustains in the operating band. The same flare spike means the opposite on the way down (a trip), so the machine reads direction from state, not from the spike alone. A drop with no scheduled window behind it is an unplanned shutdown event. Each scheduled window is verified against the thermal record (started early, on time, or late; returned early, on time, or extended), and the sensor-estimated actual start and end are stored beside the scheduled ones. A partial return (one train back, heat sustained between floor and band) is reported as partial, and a flare that falls back to the floor is an aborted startup, not a return. Winter improves the Canadian read (hot plant, cold ground); summer wildfire smoke degrades it, and the cards say which regime applies.</p>
 <p><b>Limits, plainly.</b> The geostationary pixels are about 3 kilometres: this layer sees big fires, not small ones. Cloud blinds the infrared channels, and the status says so when it happens. There is no public vessel (Automatic Identification System, AIS) or aircraft (Automatic Dependent Surveillance - Broadcast, ADS-B) feed for the Gulf and Red Sea anchorages that can be read without credentials, so loadings are not tracked here rather than tracked badly.</p></section>
 
 <script>
@@ -701,6 +703,57 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
       d.toLocaleString([], {hour:'2-digit', minute:'2-digit'}) + ' local)'; }
   function esc(s){ return String(s == null ? '' : s)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+  function presenceHtml(a){
+    var p = a.thermal_presence;
+    if (!p) return '';
+    var poor = p.sensor_poor
+      ? ' <b>SENSOR-POOR</b>: silence from this asset is weak ' +
+        'evidence in either direction - it must not be read as ' +
+        'the plant running normally, or as the plant being down.'
+      : '';
+    return '<p class="sw-meta">Thermal presence (standard fire ' +
+      'archive): ' + esc(p.det_days_per_week) + ' detection ' +
+      'days/week over ' + esc(p.span_days) + ' archive days, ' +
+      'median fire radiative power ' + esc(p.median_frp) +
+      ' MW.' + poor + '</p>';
+  }
+  function restartHtml(a){
+    var r = a.restart;
+    if (!r) return '';
+    var wv = (r.windows || []).map(function(w){
+      return '<br>Scheduled window ' + esc(w.start) + ' to ' +
+        esc(w.end) + ' (' + esc(w.kind) + '): start ' +
+        esc(w.start_verdict || 'pending') +
+        (w.actual_start ? ' (sensor-estimated actual ' +
+          esc(w.actual_start) + ')' : '') + '; return ' +
+        esc(w.end_verdict || 'pending') +
+        (w.actual_end ? ' (sensor-estimated actual ' +
+          esc(w.actual_end) + ')' : '');
+    }).join('');
+    var sig = r.last_signature
+      ? '<br>Last return signature: ' + esc(r.last_signature.returned_at) +
+        ' (' + (r.last_signature.partial ? 'partial' : 'full') +
+        ' return, confidence ' + esc(r.last_signature.confidence) + ')'
+      : '';
+    var prov = r.provisional
+      ? '<br>Today, provisional (partial day): state ' +
+        esc(r.provisional.state) + ', zone ' + esc(r.provisional.zone) +
+        ', ' + esc(r.provisional.n_detections) +
+        ' archive detections so far'
+      : '';
+    var fa = a.firms_archive
+      ? '<br>Keyed FIRMS archive: ' + esc(a.firms_archive.rows) +
+        ' detections, ' + esc(a.firms_archive.first_day) + ' to ' +
+        esc(a.firms_archive.last_day)
+      : '';
+    return '<p class="sw-meta">Maintenance lifecycle (thermal state ' +
+      'machine): FIRMS-day state <b>' + esc(r.state_firms_day || 'n/a') +
+      '</b>; GOES-frame state <b>' + esc(r.state_goes_frame || 'n/a') +
+      '</b>' +
+      (r.down_since ? '<br>Down since (sensor-estimated): ' +
+        esc(r.down_since) : '') + sig + prov + wv + fa +
+      '<br>Thermal signal-to-noise: ' + esc(r.snr || '') + '</p>';
+  }
   function card(a){
     var t = a.thermal, f = a.firms, b = a.baseline || {};
     var delta = (t.delta_vs_baseline == null) ? 'n/a'
@@ -729,7 +782,8 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
         '<br>FIRMS looks per day (measured, trailing 48 hours): ' +
         esc(f.looks_per_day) +
         '<br>Next expected FIRMS passes: ' +
-        esc((f.next_pass_windows || []).join('; ') || 'n/a') + '</p></div>';
+        esc((f.next_pass_windows || []).join('; ') || 'n/a') + '</p>' +
+      presenceHtml(a) + restartHtml(a) + '</div>';
   }
   fetch('api/satwatch.json').then(function(r){ return r.json(); })
   .then(function(doc){
