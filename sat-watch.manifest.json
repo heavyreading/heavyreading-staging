@@ -1,0 +1,20 @@
+{
+ "page": "/sat-watch.html",
+ "title": "Sat Watch",
+ "dek": "Satellite sensor board for watched crude assets: Meteosat geostationary thermal step-change status and NASA FIRMS fire-detection pass coverage for Yanbu, the East-West pipeline, Ras Tanura, Kharg Island and the Strait of Hormuz.",
+ "built_at": "2026-10-16",
+ "generator": "heavyreading-manifest/1",
+ "claims": [],
+ "sources": [
+  {
+   "publisher": "EUMETSAT EUMETView (Meteosat IODC)",
+   "vintage": "15-minute frames, public WMS",
+   "url": ""
+  },
+  {
+   "publisher": "NASA FIRMS (VIIRS and MODIS)",
+   "vintage": "near-real-time active-fire CSV feeds",
+   "url": ""
+  }
+ ]
+}
