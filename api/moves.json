@@ -1,5 +1,5 @@
 {
- "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-10-17T05:08:03.509474Z",
+ "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-10-17T06:22:54.293396Z",
  "data": {
   "updated_at": "2026-10-17T04:28:27.431201Z",
   "events": [
@@ -17,11 +17,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 39 min after the claim with no confirmation on any channel. no post-claim FIRMS pass yet. Geostationary layer: anomaly.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 114 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-16T23:18:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261017T042827-sensor-yanbu",
-     "generated_at": "2026-10-17T05:07:47.090536Z",
+     "generated_at": "2026-10-17T06:22:48.298598Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -49,21 +49,21 @@
        "detail": "verified/geolocated footage is an agent-verification step on wake"
       },
       "firms": {
-       "verdict": "PENDING",
-       "coverage_end_at_claim": null,
+       "verdict": "STILL_BLIND",
+       "coverage_end_at_claim": "2026-10-16T23:18:00Z",
        "claim_window_covered": false,
        "first_post_claim_pass": null,
        "anomalous": []
       },
       "geostationary": {
-       "status": "ANOMALY",
+       "status": "NORMAL",
        "per_asset": [
         {
          "asset": "yanbu",
-         "status": "ANOMALY",
-         "last_frame_utc": "2026-10-17T04:15:00Z",
-         "delta_vs_baseline": 94.0,
-         "detail": "IR fire-channel differential stepped +94.0 palette-gray levels vs baseline median 10.0"
+         "status": "BLIND_ERROR",
+         "last_frame_utc": "2026-10-17T04:45:00Z",
+         "delta_vs_baseline": 84.5,
+         "detail": "IR fire-channel differential stepped +84.5 palette-gray levels vs baseline median 18.5"
         }
        ],
        "note": "Meteosat IODC via EUMETView WMS, 15-min frames, styled-render palette-gray metrics"
@@ -74,7 +74,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 39,
+      "minutes_since_claim": 114,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -86,10 +86,15 @@
         "ts": "2026-10-17T04:43:27.431201Z",
         "price": 109.69,
         "pct_vs_claim": 0.0
+       },
+       "+60": {
+        "ts": "2026-10-17T05:28:27.431201Z",
+        "price": 109.69,
+        "pct_vs_claim": 0.0
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 39 min after the claim with no confirmation on any channel. no post-claim FIRMS pass yet. Geostationary layer: anomaly."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 114 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-16T23:18:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {
@@ -106,11 +111,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 54 min after the claim with no confirmation on any channel. no post-claim FIRMS pass yet. Geostationary layer: normal.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 129 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-17T00:22:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261017T041327-sensor-east-west",
-     "generated_at": "2026-10-17T05:07:47.090536Z",
+     "generated_at": "2026-10-17T06:22:48.298598Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -138,8 +143,8 @@
        "detail": "verified/geolocated footage is an agent-verification step on wake"
       },
       "firms": {
-       "verdict": "PENDING",
-       "coverage_end_at_claim": null,
+       "verdict": "STILL_BLIND",
+       "coverage_end_at_claim": "2026-10-17T00:22:00Z",
        "claim_window_covered": false,
        "first_post_claim_pass": null,
        "anomalous": []
@@ -149,10 +154,10 @@
        "per_asset": [
         {
          "asset": "east-west",
-         "status": "BLIND_ERROR",
-         "last_frame_utc": "2026-10-17T04:15:00Z",
-         "delta_vs_baseline": 77.0,
-         "detail": "IR fire-channel differential stepped +77.0 palette-gray levels vs baseline median 20.0"
+         "status": "NORMAL",
+         "last_frame_utc": "2026-10-17T05:30:00Z",
+         "delta_vs_baseline": 2.0,
+         "detail": "no step change"
         }
        ],
        "note": "Meteosat IODC via EUMETView WMS, 15-min frames, styled-render palette-gray metrics"
@@ -163,7 +168,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 54,
+      "minutes_since_claim": 129,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -175,10 +180,15 @@
         "ts": "2026-10-17T04:28:27.274796Z",
         "price": 109.69,
         "pct_vs_claim": 0.0
+       },
+       "+60": {
+        "ts": "2026-10-17T05:13:27.274796Z",
+        "price": 109.69,
+        "pct_vs_claim": 0.0
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 54 min after the claim with no confirmation on any channel. no post-claim FIRMS pass yet. Geostationary layer: normal."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 129 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-17T00:22:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {
@@ -195,11 +205,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 69 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-17T00:22:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 144 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-17T00:22:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261017T035828-sensor-hormuz",
-     "generated_at": "2026-10-17T05:07:47.090536Z",
+     "generated_at": "2026-10-17T06:22:48.298598Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -234,14 +244,14 @@
        "anomalous": []
       },
       "geostationary": {
-       "status": "NORMAL",
+       "status": "ANOMALY",
        "per_asset": [
         {
          "asset": "hormuz",
-         "status": "NORMAL",
-         "last_frame_utc": "2026-10-17T04:15:00Z",
-         "delta_vs_baseline": 35.0,
-         "detail": "sub-threshold deviation logged (baseline immature or single-frame); not alerted"
+         "status": "ANOMALY",
+         "last_frame_utc": "2026-10-17T05:30:00Z",
+         "delta_vs_baseline": 93.0,
+         "detail": "IR fire-channel differential stepped +93.0 palette-gray levels vs baseline median 9.0"
         }
        ],
        "note": "Meteosat IODC via EUMETView WMS, 15-min frames, styled-render palette-gray metrics"
@@ -252,7 +262,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 69,
+      "minutes_since_claim": 144,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -272,7 +282,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 69 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-17T00:22:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 144 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-17T00:22:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly."
     }
    },
    {
@@ -289,11 +299,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 84 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-16T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 159 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-16T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261017T034326-sensor-kharg",
-     "generated_at": "2026-10-17T05:07:47.090536Z",
+     "generated_at": "2026-10-17T06:22:48.298598Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -333,9 +343,9 @@
         {
          "asset": "kharg",
          "status": "NORMAL",
-         "last_frame_utc": "2026-10-17T04:15:00Z",
-         "delta_vs_baseline": 56.5,
-         "detail": "sub-threshold deviation logged (baseline immature or single-frame); not alerted"
+         "last_frame_utc": "2026-10-17T05:30:00Z",
+         "delta_vs_baseline": -1.0,
+         "detail": "no step change"
         }
        ],
        "note": "Meteosat IODC via EUMETView WMS, 15-min frames, styled-render palette-gray metrics"
@@ -346,7 +356,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 84,
+      "minutes_since_claim": 159,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -366,7 +376,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 84 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-16T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 159 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-16T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {
@@ -383,11 +393,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 84 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-16T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 159 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-16T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261017T034326-sensor-ras-tanura",
-     "generated_at": "2026-10-17T05:07:47.090536Z",
+     "generated_at": "2026-10-17T06:22:48.298598Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -426,10 +436,10 @@
        "per_asset": [
         {
          "asset": "ras-tanura",
-         "status": "NORMAL",
-         "last_frame_utc": "2026-10-17T04:15:00Z",
-         "delta_vs_baseline": 48.5,
-         "detail": "sub-threshold deviation logged (baseline immature or single-frame); not alerted"
+         "status": "BLIND_ERROR",
+         "last_frame_utc": "2026-10-17T04:45:00Z",
+         "delta_vs_baseline": 11.0,
+         "detail": "geo fetch failed: RuntimeError"
         }
        ],
        "note": "Meteosat IODC via EUMETView WMS, 15-min frames, styled-render palette-gray metrics"
@@ -440,7 +450,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 84,
+      "minutes_since_claim": 159,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -460,7 +470,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 84 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-16T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 159 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-16T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {
