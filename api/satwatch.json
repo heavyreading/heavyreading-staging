@@ -1,7 +1,7 @@
 {
- "vintage": "Sat Watch: Meteosat IODC geostationary hotspot polls (EUMETView public WMS, 15-min frames, styled-render palette-gray step detection) + NASA FIRMS rechecks, built 2026-10-17T03:04:39.633942Z",
+ "vintage": "Sat Watch: Meteosat IODC geostationary hotspot polls (EUMETView public WMS, 15-min frames, styled-render palette-gray step detection) + NASA FIRMS rechecks, built 2026-10-17T03:28:26.522648Z",
  "data": {
-  "updated_at": "2026-10-17T02:58:41.605419Z",
+  "updated_at": "2026-10-17T03:23:44.853639Z",
   "assets": [
    {
     "key": "yanbu",
@@ -13,21 +13,21 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:30:00Z",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T03:00:00Z",
     "thermal": {
      "diff_p995": 9.0,
      "baseline_diff_med": 9.0,
      "delta_vs_baseline": 0.0,
      "fire_px": 0,
-     "baseline_samples": 8
+     "baseline_samples": 10
     },
     "baseline": {
-     "looks_total": 34,
-     "looks_clear": 34,
+     "looks_total": 36,
+     "looks_clear": 36,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 5.1
+     "maturity_pct": 5.4
     },
     "firms": {
      "last_pass_utc": "2026-10-16T23:18:00Z",
@@ -64,21 +64,21 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:30:00Z",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T03:00:00Z",
     "thermal": {
-     "diff_p995": 8.0,
+     "diff_p995": 31.0,
      "baseline_diff_med": 9.0,
-     "delta_vs_baseline": -1.0,
+     "delta_vs_baseline": 22.0,
      "fire_px": 0,
-     "baseline_samples": 8
+     "baseline_samples": 9
     },
     "baseline": {
-     "looks_total": 35,
-     "looks_clear": 31,
+     "looks_total": 37,
+     "looks_clear": 33,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 4.6
+     "maturity_pct": 4.9
     },
     "firms": {
      "last_pass_utc": "2026-10-16T23:18:00Z",
@@ -114,22 +114,22 @@
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
     "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:30:00Z",
+    "status_reason": "sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T03:00:00Z",
     "thermal": {
-     "diff_p995": 26.0,
-     "baseline_diff_med": 8.5,
-     "delta_vs_baseline": 17.5,
+     "diff_p995": 77.0,
+     "baseline_diff_med": 9.0,
+     "delta_vs_baseline": 68.0,
      "fire_px": 0,
-     "baseline_samples": 8
+     "baseline_samples": 9
     },
     "baseline": {
-     "looks_total": 35,
-     "looks_clear": 35,
+     "looks_total": 37,
+     "looks_clear": 37,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 5.2
+     "maturity_pct": 5.5
     },
     "firms": {
      "last_pass_utc": "2026-10-16T23:16:00Z",
@@ -165,22 +165,22 @@
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
     "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:30:00Z",
+    "status_reason": "sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T03:00:00Z",
     "thermal": {
-     "diff_p995": 23.0,
-     "baseline_diff_med": 8.0,
-     "delta_vs_baseline": 15.0,
+     "diff_p995": 72.0,
+     "baseline_diff_med": 8.5,
+     "delta_vs_baseline": 63.5,
      "fire_px": 0,
-     "baseline_samples": 8
+     "baseline_samples": 10
     },
     "baseline": {
-     "looks_total": 35,
-     "looks_clear": 35,
+     "looks_total": 37,
+     "looks_clear": 37,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 5.2
+     "maturity_pct": 5.5
     },
     "firms": {
      "last_pass_utc": "2026-10-16T23:16:00Z",
@@ -215,19 +215,19 @@
     "region": "gulf",
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
-    "status": "NORMAL",
-    "status_reason": "sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:30:00Z",
+    "status": "BLIND_CLOUD",
+    "status_reason": "cloud fraction 0.83 >= 0.6 \u2014 IR blind this frame",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T03:00:00Z",
     "thermal": {
-     "diff_p995": 67.0,
+     "diff_p995": 103.0,
      "baseline_diff_med": 8.0,
-     "delta_vs_baseline": 59.0,
+     "delta_vs_baseline": null,
      "fire_px": 0,
      "baseline_samples": 8
     },
     "baseline": {
-     "looks_total": 35,
+     "looks_total": 37,
      "looks_clear": 35,
      "mature": false,
      "mature_looks": 672,
@@ -266,23 +266,23 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: ValueError",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T02:40:00Z",
     "thermal": {
-     "diff_p995": 170.0,
-     "baseline_diff_med": 194.0,
-     "delta_vs_baseline": -24.0,
+     "diff_p995": 153.0,
+     "baseline_diff_med": 193.83,
+     "delta_vs_baseline": -40.83,
      "fire_px": 0,
-     "baseline_samples": 21
+     "baseline_samples": 22
     },
     "baseline": {
-     "looks_total": 21,
-     "looks_clear": 21,
+     "looks_total": 22,
+     "looks_clear": 22,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.1
+     "maturity_pct": 3.3
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
@@ -371,22 +371,22 @@
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
     "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "status_reason": "sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T02:50:00Z",
     "thermal": {
-     "diff_p995": 170.0,
-     "baseline_diff_med": 165.83,
-     "delta_vs_baseline": 4.17,
+     "diff_p995": 153.0,
+     "baseline_diff_med": 170.0,
+     "delta_vs_baseline": -17.0,
      "fire_px": 0,
-     "baseline_samples": 8
+     "baseline_samples": 9
     },
     "baseline": {
-     "looks_total": 24,
-     "looks_clear": 24,
+     "looks_total": 26,
+     "looks_clear": 26,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.6
+     "maturity_pct": 3.9
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
@@ -464,10 +464,10 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: ValueError",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T02:40:00Z",
     "thermal": {
      "diff_p995": 170.0,
      "baseline_diff_med": 170.0,
@@ -476,17 +476,17 @@
      "baseline_samples": 8
     },
     "baseline": {
-     "looks_total": 25,
-     "looks_clear": 25,
+     "looks_total": 26,
+     "looks_clear": 26,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.7
+     "maturity_pct": 3.9
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
      "next_pass_windows": [
-      "~2026-10-17T02:33:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-17T03:29:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-17T03:35:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-17T04:32:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 13.5
     },
@@ -542,9 +542,9 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: ValueError",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
     "last_frame_utc": "2026-10-17T02:20:00Z",
     "thermal": {
      "diff_p995": 186.35,
@@ -563,8 +563,8 @@
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
      "next_pass_windows": [
-      "~2026-10-17T02:33:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-17T03:29:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-17T03:35:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-17T04:32:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 13.5
     },
@@ -605,23 +605,23 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: ValueError",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T02:40:00Z",
     "thermal": {
-     "diff_p995": 196.0,
-     "baseline_diff_med": 195.17,
-     "delta_vs_baseline": 0.83,
+     "diff_p995": 195.0,
+     "baseline_diff_med": 195.0,
+     "delta_vs_baseline": 0.0,
      "fire_px": 0,
-     "baseline_samples": 20
+     "baseline_samples": 21
     },
     "baseline": {
-     "looks_total": 20,
-     "looks_clear": 20,
+     "looks_total": 21,
+     "looks_clear": 21,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.0
+     "maturity_pct": 3.1
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
@@ -647,12 +647,32 @@
      "presence_floor_per_week": 2.0
     },
     "restart": {
-     "state_firms_day": "PROFILE_LEARNING",
+     "state_firms_day": "DOWN",
      "state_goes_frame": "PROFILE_LEARNING",
-     "down_since": null,
+     "down_since": "2026-10-11",
      "transient_start": null,
-     "last_signature": null,
-     "profile_firms": null,
+     "last_signature": {
+      "asset_down_since": "2026-01-28",
+      "transient_start": "2026-04-17",
+      "returned_at": "2026-04-18",
+      "confidence": "medium",
+      "partial": false,
+      "granularity": "firms_day"
+     },
+     "profile_firms": {
+      "floor": 4.84,
+      "band_med": 51.97,
+      "band_lo": 28.75,
+      "band_hi": 73.3,
+      "n_down_days": 63,
+      "n_op_days": 182,
+      "n_op_trimmed": 63,
+      "learn_span": [
+       "2025-09-17",
+       "2026-09-16"
+      ],
+      "basis": "trailing-14d FRP sum; QUANTILE floor (no documented down window): floor = q25 of learning-span trailing sums, band from the trimmed sample above it; last 30 days held out so the current episode never trains its own floor"
+     },
      "profile_goes": null,
      "windows": [],
      "provisional": null,
@@ -670,21 +690,21 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T02:50:00Z",
     "thermal": {
-     "diff_p995": 193.0,
-     "baseline_diff_med": 193.0,
-     "delta_vs_baseline": 0.0,
+     "diff_p995": 197.0,
+     "baseline_diff_med": 193.5,
+     "delta_vs_baseline": 3.5,
      "fire_px": 0,
-     "baseline_samples": 23
+     "baseline_samples": 8
     },
     "baseline": {
-     "looks_total": 23,
-     "looks_clear": 23,
+     "looks_total": 24,
+     "looks_clear": 24,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.4
+     "maturity_pct": 3.6
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
@@ -763,9 +783,9 @@
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
     "status": "LEARNING",
-    "status_reason": "baseline still accumulating (1/8 clear samples) \u2014 no step verdict yet",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "status_reason": "baseline still accumulating (2/8 clear samples) \u2014 no step verdict yet",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T02:50:00Z",
     "thermal": {
      "diff_p995": 157.0,
      "baseline_diff_med": null,
@@ -774,11 +794,11 @@
      "baseline_samples": 0
     },
     "baseline": {
-     "looks_total": 1,
-     "looks_clear": 1,
+     "looks_total": 2,
+     "looks_clear": 2,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 0.1
+     "maturity_pct": 0.3
     },
     "firms": {
      "last_pass_utc": null,
@@ -786,17 +806,17 @@
      "looks_per_day": null
     },
     "firms_archive": {
-     "rows": 6,
+     "rows": 43,
      "first_day": "2026-04-06",
-     "last_day": "2026-06-26",
+     "last_day": "2026-09-27",
      "key_used": true
     },
     "thermal_presence": {
-     "det_days": 4,
-     "span_days": 82,
-     "det_days_per_week": 0.34,
-     "median_frp": 1.41,
-     "n_rows": 6,
+     "det_days": 26,
+     "span_days": 175,
+     "det_days_per_week": 1.04,
+     "median_frp": 1.47,
+     "n_rows": 43,
      "sensor_poor": true,
      "presence_floor_per_week": 2.0
     },
@@ -824,21 +844,21 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "last_check_utc": "2026-10-17T02:58:41.605419Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "last_check_utc": "2026-10-17T03:23:44.853639Z",
+    "last_frame_utc": "2026-10-17T02:50:00Z",
     "thermal": {
      "diff_p995": 197.0,
-     "baseline_diff_med": 157.0,
-     "delta_vs_baseline": 40.0,
+     "baseline_diff_med": 159.0,
+     "delta_vs_baseline": 38.0,
      "fire_px": 0,
-     "baseline_samples": 22
+     "baseline_samples": 23
     },
     "baseline": {
-     "looks_total": 22,
-     "looks_clear": 22,
+     "looks_total": 23,
+     "looks_clear": 23,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.3
+     "maturity_pct": 3.4
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:50:00Z",
@@ -867,6 +887,314 @@
    }
   ],
   "event_log": [
+   {
+    "ts": "2026-10-17T03:29:56.524803Z",
+    "kind": "UNPLANNED_DOWN",
+    "detail": "[archive replay] Scotford upgrader (Shell, Fort Saskatchewan): UNPLANNED_DOWN \u2014 thermal level at the turnaround floor for a sustained run \u2014 plant is DOWN (spike before the fall: yes) No scheduled window covers this date.",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:56.524414Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Scotford upgrader (Shell, Fort Saskatchewan): FULL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-04-17, returned 2026-04-18. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:56.524377Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Scotford upgrader (Shell, Fort Saskatchewan): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:56.524220Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Scotford upgrader (Shell, Fort Saskatchewan): machine initialized in the DOWN state (first profiled observation at the floor)",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:54.691915Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "westridge",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:54.691905Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:54.691892Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "kharg",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:54.691874Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "ras-tanura",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177606Z",
+    "kind": "PLAN_DEVIATION",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): PLAN_DEVIATION EXTENDED \u2014 window 2026-09-08->2026-10-13 (Edmonton refinery fall turnaround (planned)) is still thermally DOWN past its scheduled end 2026-10-13 \u2014 extension in progress (sensor-estimated)",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177533Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): STARTUP_ABORTED: heat fell back to the floor \u2014 maintenance flaring without a return; still DOWN, not a return",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177521Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177487Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): down-transition attributed to the scheduled window 2026-09-08->2026-10-13 (Edmonton refinery fall turnaround (planned))",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177429Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): FULL return signature (firms_day, confidence high) \u2014 down since 2026-07-18, startup transient from 2026-07-29, returned 2026-07-30. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177394Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177376Z",
+    "kind": "UNPLANNED_DOWN",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): UNPLANNED_DOWN \u2014 thermal level at the turnaround floor for a sustained run \u2014 plant is DOWN (spike before the fall: yes) No scheduled window covers this date.",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177324Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): FULL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-06-15, returned 2026-06-16. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177307Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177294Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): STARTUP_ABORTED: heat fell back to the floor \u2014 maintenance flaring without a return; still DOWN, not a return",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177280Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177267Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): partial return failed: heat back at the floor; plant DOWN again",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177258Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): PARTIAL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-05-26, returned 2026-06-01. heat sustained in the intermediate zone without reaching the operating band \u2014 staged/partial return (one train back)",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177233Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.177065Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): machine initialized in the DOWN state (first profiled observation at the floor)",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.170166Z",
+    "kind": "PLAN_DEVIATION",
+    "detail": "[archive replay] CNRL Horizon upgrader (oil sands): PLAN_DEVIATION START_LATE \u2014 scheduled window opened 2026-09-08 (upgrader turnaround (planned, 35 days)) and no thermal down-transition has occurred \u2014 the plant is still running; barrels keep flowing past the scheduled start",
+    "asset": "horizon",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167765Z",
+    "kind": "PLAN_DEVIATION",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): PLAN_DEVIATION EXTENDED \u2014 window 2026-09-08->2026-10-13 (Base Plant fall turnaround (planned)) is still thermally DOWN past its scheduled end 2026-10-13 \u2014 extension in progress (sensor-estimated)",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167671Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): partial return failed: heat back at the floor; plant DOWN again",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167647Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): PARTIAL return signature (firms_day, confidence medium) \u2014 down since 2026-08-13, startup transient from 2026-08-21, returned 2026-08-25. heat sustained in the intermediate zone without reaching the operating band \u2014 staged/partial return (one train back)",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167632Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167617Z",
+    "kind": "UNPLANNED_DOWN",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): UNPLANNED_DOWN \u2014 thermal level at the turnaround floor for a sustained run \u2014 plant is DOWN (spike before the fall: yes) No scheduled window covers this date.",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167553Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): FULL return signature (firms_day, confidence high) \u2014 down since 2026-04-30, startup transient from 2026-06-28, returned 2026-06-29. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167536Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): heat left the floor (spike) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167452Z",
+    "kind": "UNPLANNED_DOWN",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): UNPLANNED_DOWN \u2014 thermal level at the turnaround floor for a sustained run \u2014 plant is DOWN (spike before the fall: no) No scheduled window covers this date.",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167420Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): FULL return signature (firms_day, confidence high) \u2014 down since 2026-01-28, startup transient from 2026-04-16, returned 2026-04-17. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167396Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): heat left the floor (spike) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.167294Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): machine initialized in the DOWN state (first profiled observation at the floor)",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.162129Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): heat left the floor (spike) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "syncrude",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.162047Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): partial return failed: heat back at the floor; plant DOWN again",
+    "asset": "syncrude",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.162024Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): PARTIAL return signature (firms_day, confidence medium) \u2014 down since 2026-08-11, startup transient from 2026-08-20, returned 2026-08-24. heat sustained in the intermediate zone without reaching the operating band \u2014 staged/partial return (one train back)",
+    "asset": "syncrude",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.162007Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "syncrude",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.161988Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): down-transition attributed to the scheduled window 2026-08-20->2026-10-16 (coker turnaround (planned, ~50 days))",
+    "asset": "syncrude",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.161918Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): FULL return signature (firms_day, confidence medium) \u2014 down since None, startup transient from 2026-06-23, returned 2026-06-30. partial return completed: sustained operating band reached",
+    "asset": "syncrude",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.161892Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): PARTIAL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-06-23, returned 2026-06-28. heat sustained in the intermediate zone without reaching the operating band \u2014 staged/partial return (one train back)",
+    "asset": "syncrude",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.161859Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): heat left the floor (spike) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "syncrude",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:24:52.161670Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): machine initialized in the DOWN state (first profiled observation at the floor)",
+    "asset": "syncrude",
+    "claim_id": null
+   },
    {
     "ts": "2026-10-17T03:04:21.636483Z",
     "kind": "PLAN_DEVIATION",
@@ -906,314 +1234,6 @@
     "ts": "2026-10-17T03:04:21.636265Z",
     "kind": "RESTART_STATE",
     "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636246Z",
-    "kind": "UNPLANNED_DOWN",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): UNPLANNED_DOWN \u2014 thermal level at the turnaround floor for a sustained run \u2014 plant is DOWN (spike before the fall: yes) No scheduled window covers this date.",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636192Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): FULL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-06-15, returned 2026-06-16. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636175Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636160Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): STARTUP_ABORTED: heat fell back to the floor \u2014 maintenance flaring without a return; still DOWN, not a return",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636146Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636133Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): partial return failed: heat back at the floor; plant DOWN again",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636123Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): PARTIAL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-05-26, returned 2026-06-01. heat sustained in the intermediate zone without reaching the operating band \u2014 staged/partial return (one train back)",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636098Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.635927Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): machine initialized in the DOWN state (first profiled observation at the floor)",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.628819Z",
-    "kind": "PLAN_DEVIATION",
-    "detail": "[archive replay] CNRL Horizon upgrader (oil sands): PLAN_DEVIATION START_LATE \u2014 scheduled window opened 2026-09-08 (upgrader turnaround (planned, 35 days)) and no thermal down-transition has occurred \u2014 the plant is still running; barrels keep flowing past the scheduled start",
-    "asset": "horizon",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626536Z",
-    "kind": "PLAN_DEVIATION",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): PLAN_DEVIATION EXTENDED \u2014 window 2026-09-08->2026-10-13 (Base Plant fall turnaround (planned)) is still thermally DOWN past its scheduled end 2026-10-13 \u2014 extension in progress (sensor-estimated)",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626423Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): partial return failed: heat back at the floor; plant DOWN again",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626400Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): PARTIAL return signature (firms_day, confidence medium) \u2014 down since 2026-08-13, startup transient from 2026-08-21, returned 2026-08-25. heat sustained in the intermediate zone without reaching the operating band \u2014 staged/partial return (one train back)",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626384Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626368Z",
-    "kind": "UNPLANNED_DOWN",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): UNPLANNED_DOWN \u2014 thermal level at the turnaround floor for a sustained run \u2014 plant is DOWN (spike before the fall: yes) No scheduled window covers this date.",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626305Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): FULL return signature (firms_day, confidence high) \u2014 down since 2026-04-30, startup transient from 2026-06-28, returned 2026-06-29. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626288Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): heat left the floor (spike) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626220Z",
-    "kind": "UNPLANNED_DOWN",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): UNPLANNED_DOWN \u2014 thermal level at the turnaround floor for a sustained run \u2014 plant is DOWN (spike before the fall: no) No scheduled window covers this date.",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626189Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): FULL return signature (firms_day, confidence high) \u2014 down since 2026-01-28, startup transient from 2026-04-16, returned 2026-04-17. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626165Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): heat left the floor (spike) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.626064Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Suncor Base Plant upgrader (oil sands): machine initialized in the DOWN state (first profiled observation at the floor)",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.620897Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): heat left the floor (spike) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.620845Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): partial return failed: heat back at the floor; plant DOWN again",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.620822Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): PARTIAL return signature (firms_day, confidence medium) \u2014 down since 2026-08-11, startup transient from 2026-08-20, returned 2026-08-24. heat sustained in the intermediate zone without reaching the operating band \u2014 staged/partial return (one train back)",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.620805Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.620787Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): down-transition attributed to the scheduled window 2026-08-20->2026-10-16 (coker turnaround (planned, ~50 days))",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.620715Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): FULL return signature (firms_day, confidence medium) \u2014 down since None, startup transient from 2026-06-23, returned 2026-06-30. partial return completed: sustained operating band reached",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.620690Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): PARTIAL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-06-23, returned 2026-06-28. heat sustained in the intermediate zone without reaching the operating band \u2014 staged/partial return (one train back)",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.620655Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): heat left the floor (spike) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.620442Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): machine initialized in the DOWN state (first profiled observation at the floor)",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T02:59:48.091399Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "westridge",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T02:59:48.091378Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "hormuz",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T02:29:18.135244Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 30 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "kearl",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T02:14:24.204526Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 39 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "kearl",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T02:14:24.204331Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 25 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "horizon",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T02:14:24.204304Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T01:59:11.273161Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "kearl",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T01:59:11.273151Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "horizon",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T01:59:11.273127Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T01:28:58.790762Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "westridge",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T01:28:58.790744Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "horizon",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T00:59:06.611688Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "westridge",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T00:44:23.469576Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "westridge",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T00:14:06.928761Z",
-    "kind": "PLAN_DEVIATION",
-    "detail": "Imperial Strathcona refinery (Edmonton): PLAN_DEVIATION EXTENDED \u2014 window 2026-09-08->2026-10-13 (Edmonton refinery fall turnaround (planned)) is still thermally DOWN past its scheduled end 2026-10-13 \u2014 extension in progress (sensor-estimated)",
     "asset": "strathcona",
     "claim_id": null
    }
