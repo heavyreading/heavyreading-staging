@@ -1,7 +1,7 @@
 {
- "vintage": "Sat Watch: Meteosat IODC geostationary hotspot polls (EUMETView public WMS, 15-min frames, styled-render palette-gray step detection) + NASA FIRMS rechecks, built 2026-10-17T03:28:37.186685Z",
+ "vintage": "Sat Watch: Meteosat IODC geostationary hotspot polls (EUMETView public WMS, 15-min frames, styled-render palette-gray step detection) + NASA FIRMS rechecks, built 2026-10-17T03:58:28.164415Z",
  "data": {
-  "updated_at": "2026-10-17T03:23:44.853639Z",
+  "updated_at": "2026-10-17T03:43:26.762321Z",
   "assets": [
    {
     "key": "yanbu",
@@ -12,22 +12,22 @@
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
     "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:45:00Z",
+    "status_reason": "sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:30:00Z",
     "thermal": {
-     "diff_p995": 9.0,
+     "diff_p995": 53.0,
      "baseline_diff_med": 9.0,
-     "delta_vs_baseline": 0.0,
+     "delta_vs_baseline": 44.0,
      "fire_px": 0,
-     "baseline_samples": 9
+     "baseline_samples": 11
     },
     "baseline": {
-     "looks_total": 35,
-     "looks_clear": 35,
+     "looks_total": 38,
+     "looks_clear": 38,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 5.2
+     "maturity_pct": 5.7
     },
     "firms": {
      "last_pass_utc": "2026-10-16T23:18:00Z",
@@ -63,22 +63,22 @@
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
     "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:45:00Z",
+    "status_reason": "sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:30:00Z",
     "thermal": {
-     "diff_p995": 8.0,
+     "diff_p995": 81.0,
      "baseline_diff_med": 9.0,
-     "delta_vs_baseline": -1.0,
+     "delta_vs_baseline": 72.0,
      "fire_px": 0,
-     "baseline_samples": 9
+     "baseline_samples": 10
     },
     "baseline": {
-     "looks_total": 36,
-     "looks_clear": 32,
+     "looks_total": 39,
+     "looks_clear": 35,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 4.8
+     "maturity_pct": 5.2
     },
     "firms": {
      "last_pass_utc": "2026-10-16T23:18:00Z",
@@ -113,23 +113,23 @@
     "region": "gulf",
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:45:00Z",
+    "status": "ANOMALY",
+    "status_reason": "IR fire-channel differential stepped +86.5 palette-gray levels vs baseline median 17.5",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:30:00Z",
     "thermal": {
-     "diff_p995": 26.0,
-     "baseline_diff_med": 9.0,
-     "delta_vs_baseline": 17.0,
+     "diff_p995": 104.0,
+     "baseline_diff_med": 17.5,
+     "delta_vs_baseline": 86.5,
      "fire_px": 0,
-     "baseline_samples": 9
+     "baseline_samples": 10
     },
     "baseline": {
-     "looks_total": 36,
-     "looks_clear": 36,
+     "looks_total": 39,
+     "looks_clear": 39,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 5.4
+     "maturity_pct": 5.8
     },
     "firms": {
      "last_pass_utc": "2026-10-16T23:16:00Z",
@@ -164,23 +164,23 @@
     "region": "gulf",
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:45:00Z",
+    "status": "ANOMALY",
+    "status_reason": "IR fire-channel differential stepped +96.0 palette-gray levels vs baseline median 9.0",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:30:00Z",
     "thermal": {
-     "diff_p995": 23.0,
-     "baseline_diff_med": 8.0,
-     "delta_vs_baseline": 15.0,
+     "diff_p995": 105.0,
+     "baseline_diff_med": 9.0,
+     "delta_vs_baseline": 96.0,
      "fire_px": 0,
-     "baseline_samples": 9
+     "baseline_samples": 11
     },
     "baseline": {
-     "looks_total": 36,
-     "looks_clear": 36,
+     "looks_total": 39,
+     "looks_clear": 39,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 5.4
+     "maturity_pct": 5.8
     },
     "firms": {
      "last_pass_utc": "2026-10-16T23:16:00Z",
@@ -215,23 +215,23 @@
     "region": "gulf",
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
-    "status": "BLIND_CLOUD",
-    "status_reason": "cloud fraction 0.77 >= 0.6 \u2014 IR blind this frame",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:45:00Z",
+    "status": "ANOMALY",
+    "status_reason": "IR fire-channel differential stepped +89.5 palette-gray levels vs baseline median 12.5",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:30:00Z",
     "thermal": {
-     "diff_p995": 67.0,
-     "baseline_diff_med": 8.0,
-     "delta_vs_baseline": null,
+     "diff_p995": 102.0,
+     "baseline_diff_med": 12.5,
+     "delta_vs_baseline": 89.5,
      "fire_px": 0,
      "baseline_samples": 8
     },
     "baseline": {
-     "looks_total": 36,
-     "looks_clear": 35,
+     "looks_total": 39,
+     "looks_clear": 36,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 5.2
+     "maturity_pct": 5.4
     },
     "firms": {
      "last_pass_utc": "2026-10-16T23:16:00Z",
@@ -268,21 +268,21 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:40:00Z",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:20:00Z",
     "thermal": {
-     "diff_p995": 153.0,
-     "baseline_diff_med": 193.83,
-     "delta_vs_baseline": -40.83,
+     "diff_p995": 170.0,
+     "baseline_diff_med": 193.67,
+     "delta_vs_baseline": -23.67,
      "fire_px": 0,
-     "baseline_samples": 22
+     "baseline_samples": 23
     },
     "baseline": {
-     "looks_total": 22,
-     "looks_clear": 22,
+     "looks_total": 23,
+     "looks_clear": 23,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.3
+     "maturity_pct": 3.4
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
@@ -372,21 +372,21 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:40:00Z",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:20:00Z",
     "thermal": {
-     "diff_p995": 191.0,
+     "diff_p995": 170.0,
      "baseline_diff_med": 170.0,
-     "delta_vs_baseline": 21.0,
+     "delta_vs_baseline": 0.0,
      "fire_px": 0,
      "baseline_samples": 9
     },
     "baseline": {
-     "looks_total": 25,
-     "looks_clear": 25,
+     "looks_total": 27,
+     "looks_clear": 27,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.7
+     "maturity_pct": 4.0
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
@@ -466,8 +466,8 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:40:00Z",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:20:00Z",
     "thermal": {
      "diff_p995": 170.0,
      "baseline_diff_med": 170.0,
@@ -476,11 +476,11 @@
      "baseline_samples": 8
     },
     "baseline": {
-     "looks_total": 26,
-     "looks_clear": 26,
+     "looks_total": 27,
+     "looks_clear": 27,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.9
+     "maturity_pct": 4.0
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
@@ -542,23 +542,23 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "BLIND_ERROR",
-    "status_reason": "geo fetch failed: ValueError",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "status": "NORMAL",
+    "status_reason": "no step change",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:20:00Z",
     "thermal": {
-     "diff_p995": 186.35,
+     "diff_p995": 170.0,
      "baseline_diff_med": 189.0,
-     "delta_vs_baseline": -2.65,
+     "delta_vs_baseline": -19.0,
      "fire_px": 0,
-     "baseline_samples": 10
+     "baseline_samples": 9
     },
     "baseline": {
-     "looks_total": 26,
-     "looks_clear": 26,
+     "looks_total": 28,
+     "looks_clear": 28,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.9
+     "maturity_pct": 4.2
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
@@ -607,21 +607,21 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:40:00Z",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:20:00Z",
     "thermal": {
-     "diff_p995": 195.0,
-     "baseline_diff_med": 195.0,
-     "delta_vs_baseline": 0.0,
+     "diff_p995": 196.33,
+     "baseline_diff_med": 195.5,
+     "delta_vs_baseline": 0.83,
      "fire_px": 0,
-     "baseline_samples": 21
+     "baseline_samples": 22
     },
     "baseline": {
-     "looks_total": 21,
-     "looks_clear": 21,
+     "looks_total": 22,
+     "looks_clear": 22,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.1
+     "maturity_pct": 3.3
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
@@ -647,12 +647,32 @@
      "presence_floor_per_week": 2.0
     },
     "restart": {
-     "state_firms_day": "PROFILE_LEARNING",
+     "state_firms_day": "DOWN",
      "state_goes_frame": "PROFILE_LEARNING",
-     "down_since": null,
+     "down_since": "2026-10-11",
      "transient_start": null,
-     "last_signature": null,
-     "profile_firms": null,
+     "last_signature": {
+      "asset_down_since": "2026-01-28",
+      "transient_start": "2026-04-17",
+      "returned_at": "2026-04-18",
+      "confidence": "medium",
+      "partial": false,
+      "granularity": "firms_day"
+     },
+     "profile_firms": {
+      "floor": 4.84,
+      "band_med": 51.97,
+      "band_lo": 28.75,
+      "band_hi": 73.3,
+      "n_down_days": 63,
+      "n_op_days": 182,
+      "n_op_trimmed": 63,
+      "learn_span": [
+       "2025-09-17",
+       "2026-09-16"
+      ],
+      "basis": "trailing-14d FRP sum; QUANTILE floor (no documented down window): floor = q25 of learning-span trailing sums, band from the trimmed sample above it; last 30 days held out so the current episode never trains its own floor"
+     },
      "profile_goes": null,
      "windows": [],
      "provisional": null,
@@ -668,23 +688,23 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "BLIND_ERROR",
-    "status_reason": "geo fetch failed: ValueError",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "status": "NORMAL",
+    "status_reason": "no step change",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:20:00Z",
     "thermal": {
-     "diff_p995": 193.0,
-     "baseline_diff_med": 193.0,
+     "diff_p995": 194.0,
+     "baseline_diff_med": 194.0,
      "delta_vs_baseline": 0.0,
      "fire_px": 0,
-     "baseline_samples": 23
+     "baseline_samples": 9
     },
     "baseline": {
-     "looks_total": 23,
-     "looks_clear": 23,
+     "looks_total": 26,
+     "looks_clear": 26,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.4
+     "maturity_pct": 3.9
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:53:00Z",
@@ -762,23 +782,23 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "BLIND_ERROR",
-    "status_reason": "geo fetch failed: ValueError",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "status": "LEARNING",
+    "status_reason": "baseline still accumulating (4/8 clear samples) \u2014 no step verdict yet",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:20:00Z",
     "thermal": {
-     "diff_p995": 157.0,
+     "diff_p995": 163.0,
      "baseline_diff_med": null,
      "delta_vs_baseline": null,
      "fire_px": 0,
      "baseline_samples": 0
     },
     "baseline": {
-     "looks_total": 1,
-     "looks_clear": 1,
+     "looks_total": 4,
+     "looks_clear": 4,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 0.1
+     "maturity_pct": 0.6
     },
     "firms": {
      "last_pass_utc": null,
@@ -822,23 +842,23 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "up",
-    "status": "BLIND_ERROR",
-    "status_reason": "geo fetch failed: ValueError",
-    "last_check_utc": "2026-10-17T03:23:44.853639Z",
-    "last_frame_utc": "2026-10-17T02:20:00Z",
+    "status": "NORMAL",
+    "status_reason": "sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "last_check_utc": "2026-10-17T03:43:26.762321Z",
+    "last_frame_utc": "2026-10-17T03:20:00Z",
     "thermal": {
-     "diff_p995": 197.0,
-     "baseline_diff_med": 157.0,
-     "delta_vs_baseline": 40.0,
+     "diff_p995": 196.0,
+     "baseline_diff_med": 161.0,
+     "delta_vs_baseline": 35.0,
      "fire_px": 0,
-     "baseline_samples": 22
+     "baseline_samples": 25
     },
     "baseline": {
-     "looks_total": 22,
-     "looks_clear": 22,
+     "looks_total": 25,
+     "looks_clear": 25,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 3.3
+     "maturity_pct": 3.7
     },
     "firms": {
      "last_pass_utc": "2026-10-16T21:50:00Z",
@@ -867,6 +887,132 @@
    }
   ],
   "event_log": [
+   {
+    "ts": "2026-10-17T03:59:55.413061Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "westridge",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:59:55.412893Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +89.5 palette-gray levels vs baseline median 12.5",
+    "asset": "hormuz",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:59:55.412882Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +96.0 palette-gray levels vs baseline median 9.0",
+    "asset": "kharg",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:59:55.412866Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +86.5 palette-gray levels vs baseline median 17.5",
+    "asset": "ras-tanura",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:59:55.412853Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "east-west",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:59:55.412454Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "yanbu",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:44:24.882678Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "westridge",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:44:24.882580Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +87.0 palette-gray levels vs baseline median 9.0",
+    "asset": "kharg",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:44:24.880425Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +90.0 palette-gray levels vs baseline median 9.0",
+    "asset": "ras-tanura",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:44:24.880407Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "east-west",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:56.524803Z",
+    "kind": "UNPLANNED_DOWN",
+    "detail": "[archive replay] Scotford upgrader (Shell, Fort Saskatchewan): UNPLANNED_DOWN \u2014 thermal level at the turnaround floor for a sustained run \u2014 plant is DOWN (spike before the fall: yes) No scheduled window covers this date.",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:56.524414Z",
+    "kind": "RESTART_SIGNATURE",
+    "detail": "[archive replay] Scotford upgrader (Shell, Fort Saskatchewan): FULL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-04-17, returned 2026-04-18. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:56.524377Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Scotford upgrader (Shell, Fort Saskatchewan): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:56.524220Z",
+    "kind": "RESTART_STATE",
+    "detail": "[archive replay] Scotford upgrader (Shell, Fort Saskatchewan): machine initialized in the DOWN state (first profiled observation at the floor)",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:54.691915Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "westridge",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:54.691905Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:54.691892Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "kharg",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-17T03:29:54.691874Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "ras-tanura",
+    "claim_id": null
+   },
    {
     "ts": "2026-10-17T03:24:52.177606Z",
     "kind": "PLAN_DEVIATION",
@@ -1090,137 +1236,14 @@
     "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): down-transition attributed to the scheduled window 2026-08-20->2026-10-16 (coker turnaround (planned, ~50 days))",
     "asset": "syncrude",
     "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:24:52.161918Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): FULL return signature (firms_day, confidence medium) \u2014 down since None, startup transient from 2026-06-23, returned 2026-06-30. partial return completed: sustained operating band reached",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:24:52.161892Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): PARTIAL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-06-23, returned 2026-06-28. heat sustained in the intermediate zone without reaching the operating band \u2014 staged/partial return (one train back)",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:24:52.161859Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): heat left the floor (spike) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:24:52.161670Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Syncrude Mildred Lake upgrader (oil sands): machine initialized in the DOWN state (first profiled observation at the floor)",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636483Z",
-    "kind": "PLAN_DEVIATION",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): PLAN_DEVIATION EXTENDED \u2014 window 2026-09-08->2026-10-13 (Edmonton refinery fall turnaround (planned)) is still thermally DOWN past its scheduled end 2026-10-13 \u2014 extension in progress (sensor-estimated)",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636387Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): STARTUP_ABORTED: heat fell back to the floor \u2014 maintenance flaring without a return; still DOWN, not a return",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636374Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636342Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): down-transition attributed to the scheduled window 2026-09-08->2026-10-13 (Edmonton refinery fall turnaround (planned))",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636301Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): FULL return signature (firms_day, confidence high) \u2014 down since 2026-07-18, startup transient from 2026-07-29, returned 2026-07-30. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636265Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636246Z",
-    "kind": "UNPLANNED_DOWN",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): UNPLANNED_DOWN \u2014 thermal level at the turnaround floor for a sustained run \u2014 plant is DOWN (spike before the fall: yes) No scheduled window covers this date.",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636192Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): FULL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-06-15, returned 2026-06-16. sustained return into the operating band (3 consecutive days) after the startup transient \u2014 plant has RETURNED",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636175Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636160Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): STARTUP_ABORTED: heat fell back to the floor \u2014 maintenance flaring without a return; still DOWN, not a return",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636146Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636133Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): partial return failed: heat back at the floor; plant DOWN again",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636123Z",
-    "kind": "RESTART_SIGNATURE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): PARTIAL return signature (firms_day, confidence medium) \u2014 down since 2026-01-28, startup transient from 2026-05-26, returned 2026-06-01. heat sustained in the intermediate zone without reaching the operating band \u2014 staged/partial return (one train back)",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-17T03:04:21.636098Z",
-    "kind": "RESTART_STATE",
-    "detail": "[archive replay] Imperial Strathcona refinery (Edmonton): heat left the floor (intermediate) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "strathcona",
-    "claim_id": null
    }
   ],
   "claims_open": [
    "claim-20261017T021324-sensor-horizon",
-   "claim-20261017T021324-sensor-kearl"
+   "claim-20261017T021324-sensor-kearl",
+   "claim-20261017T034326-sensor-ras-tanura",
+   "claim-20261017T034326-sensor-kharg",
+   "claim-20261017T035828-sensor-hormuz"
   ]
  },
  "meta": {

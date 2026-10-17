@@ -1,19 +1,24 @@
 {
  "page": "/sat-watch.html",
  "title": "Sat Watch",
- "dek": "Satellite sensor board for watched crude assets: Meteosat geostationary thermal step-change status and NASA FIRMS fire-detection pass coverage for Yanbu, the East-West pipeline, Ras Tanura, Kharg Island and the Strait of Hormuz.",
+ "dek": "Satellite sensor board for crude assets: NASA FIRMS thermal reads on the Canadian upgraders and Gulf terminals, per-plant signal quality grades, backtested hits and misses, and the live Scotford and Lloydminster cases.",
  "built_at": "2026-10-16",
  "generator": "heavyreading-manifest/1",
  "claims": [],
  "sources": [
+  {
+   "publisher": "NASA FIRMS (VIIRS and MODIS)",
+   "vintage": "near-real-time and archive active-fire feeds",
+   "url": ""
+  },
   {
    "publisher": "EUMETSAT EUMETView (Meteosat IODC)",
    "vintage": "15-minute frames, public WMS",
    "url": ""
   },
   {
-   "publisher": "NASA FIRMS (VIIRS and MODIS)",
-   "vintage": "near-real-time active-fire CSV feeds",
+   "publisher": "Alberta Energy Regulator (ST39)",
+   "vintage": "monthly upgrader production filings; the grading record",
    "url": ""
   }
  ]

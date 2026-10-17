@@ -10,12 +10,12 @@ if(t){document.documentElement.setAttribute('data-theme',t);}else if
 document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();
 </script>
 <title>Sat Watch | Heavy Reading</title>
-<meta name="description" content="Satellite sensor board for watched crude assets: Meteosat geostationary thermal step-change status and NASA FIRMS fire-detection pass coverage for Yanbu, the East-West pipeline, Ras Tanura, Kharg Island and the Strait of Hormuz.">
+<meta name="description" content="Satellite sensor board for crude assets: NASA FIRMS thermal reads on the Canadian upgraders and Gulf terminals, per-plant signal quality grades, backtested hits and misses, and the live Scotford and Lloydminster cases.">
 <link rel="canonical" href="https://heavyreading.ca/sat-watch.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Heavy Reading">
 <meta property="og:title" content="Sat Watch | Heavy Reading">
-<meta property="og:description" content="Satellite sensor board for watched crude assets: Meteosat geostationary thermal step-change status and NASA FIRMS fire-detection pass coverage for Yanbu, the East-West pipeline, Ras Tanura, Kharg Island and the Strait of Hormuz.">
+<meta property="og:description" content="Satellite sensor board for crude assets: NASA FIRMS thermal reads on the Canadian upgraders and Gulf terminals, per-plant signal quality grades, backtested hits and misses, and the live Scotford and Lloydminster cases.">
 <meta property="og:url" content="https://heavyreading.ca/sat-watch.html">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Crect x='1.5' y='1.5' width='41' height='41' rx='9' fill='%2317191d'/%3E%3Crect x='10' y='25' width='6.5' height='8' fill='%23f4f1e8'/%3E%3Crect x='18.75' y='18' width='6.5' height='15' fill='%23f4f1e8'/%3E%3Crect x='27.5' y='11' width='6.5' height='22' fill='%23a13c22'/%3E%3C/svg%3E">
@@ -653,159 +653,336 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   </header>
   <div class="crumb"><a href="index.html">Home</a> / Sat Watch</div>
   <h1>Sat Watch</h1>
-  <p class="sub">Satellite sensors on the watched energy assets: geostationary thermal status, FIRMS pass coverage, and the claim log.</p>
+  <p class="sub">Satellite heat sensors on the watched crude assets: the Canadian upgrader board, the Gulf claim board, backtested signal quality, and live cases.</p>
 
 <style>
-.sw-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem;margin:1.2rem 0}
-.sw-card{border:1px solid var(--line);border-radius:10px;padding:1rem 1.1rem}
-.sw-card h3{margin:.1rem 0 .5rem;font-size:1.02rem}
-.sw-chip{display:inline-block;font-size:.78rem;font-weight:600;letter-spacing:.04em;
-  padding:.14rem .55rem;border-radius:999px;border:1px solid var(--line)}
-.sw-NORMAL{color:var(--ok,#2e7d32)}
-.sw-ANOMALY{color:#b3261e;border-color:#b3261e}
-.sw-BLIND_CLOUD,.sw-BLIND_ERROR,.sw-LEARNING{color:var(--mut)}
-.sw-meta{color:var(--mut);font-size:.86rem;line-height:1.5}
+.sw-hero{border-top:3px solid var(--ink);border-bottom:1px solid var(--line);
+  padding:1.1rem 0 1.2rem;margin:1.4rem 0 0}
+.sw-hero .sw-kick{font-size:.78rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--acc);margin:0 0 .7rem}
+.sw-stats{display:flex;flex-wrap:wrap;gap:1.6rem 2.6rem;margin:.2rem 0 .9rem}
+.sw-stat .sw-n{font-family:var(--serif);font-size:2.3rem;line-height:1;
+  font-weight:600;font-variant-numeric:tabular-nums}
+.sw-stat .sw-l{font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--mut);margin-top:.3rem}
+.sw-lede{font-family:var(--serif);font-size:1.28rem;line-height:1.5;
+  max-width:44rem;margin:.4rem 0 .8rem}
+.sw-method{color:var(--mut);font-size:.9rem;line-height:1.55;max-width:44rem}
+.sw-upd{color:var(--faint);font-size:.82rem;margin-top:.6rem}
+.sw-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:1rem;margin:1.1rem 0}
+.sw-card{border:1px solid var(--line);border-radius:10px;
+  padding:1.05rem 1.15rem 1rem;background:var(--paper)}
+.sw-card h3{margin:.05rem 0 .15rem;font-size:1.04rem;line-height:1.3}
+.sw-op{color:var(--mut);font-size:.85rem;margin:0 0 .55rem}
+.sw-chip{display:inline-block;font-size:.74rem;font-weight:700;
+  letter-spacing:.05em;padding:.15rem .55rem;border-radius:999px;
+  border:1px solid var(--line);text-transform:uppercase}
+.sw-chip.sw-hot{color:var(--acc);border-color:var(--acc)}
+.sw-chip.sw-ret{color:var(--ch-steel);border-color:var(--ch-steel)}
+.sw-chip.sw-dim{color:var(--mut)}
+.sw-plain{font-size:.97rem;line-height:1.55;margin:.65rem 0 .5rem}
+.sw-meta{color:var(--mut);font-size:.85rem;line-height:1.55;margin:.3rem 0}
 .sw-num{font-variant-numeric:tabular-nums}
+.sw-grade{font-size:.85rem;margin:.45rem 0 .2rem}
+.sw-grade b{letter-spacing:.03em}
+.sw-spark{margin:.55rem 0 .1rem}
+.sw-spark svg{display:block;width:100%;height:38px}
+.sw-cap{color:var(--faint);font-size:.76rem;line-height:1.45}
+.sw-dimcard{opacity:.78}
 .sw-log{list-style:none;padding:0;margin:.6rem 0}
-.sw-log li{padding:.45rem 0;border-top:1px solid var(--line);font-size:.92rem;line-height:1.45}
+.sw-log li{padding:.45rem 0;border-top:1px solid var(--line);
+  font-size:.92rem;line-height:1.45}
 .sw-log .sw-kind{font-weight:600}
-.sw-err{color:#b3261e}
-.sw-region{font-size:1.05rem;margin:1.4rem 0 .2rem}
-.sw-bt{font-size:.92rem;line-height:1.5}
+.sw-err{color:var(--acc)}
+.sw-region{font-family:var(--serif);font-size:1.45rem;font-weight:600;
+  margin:1.8rem 0 .2rem}
+.sw-sec{font-family:var(--serif);font-size:1.45rem;font-weight:600;
+  margin:2.2rem 0 .4rem}
+.sw-bt{font-size:.95rem;line-height:1.6;max-width:46rem}
+.sw-score{display:flex;flex-wrap:wrap;gap:1.4rem 2.4rem;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:.9rem 0;margin:1rem 0}
+.sw-ev{list-style:none;padding:0;margin:.8rem 0;max-width:52rem}
+.sw-ev li{padding:.6rem 0;border-top:1px solid var(--line2);
+  font-size:.95rem;line-height:1.55}
+.sw-ev .sw-v{font-size:.72rem;font-weight:700;letter-spacing:.06em;
+  padding:.12rem .5rem;border-radius:999px;border:1px solid var(--line);
+  text-transform:uppercase;white-space:nowrap}
+.sw-v.sw-hit{color:var(--ink)}
+.sw-v.sw-miss{color:var(--acc);border-color:var(--acc)}
+.sw-v.sw-trap{color:var(--ch-steel);border-color:var(--ch-steel)}
+.sw-case{border-left:3px solid var(--acc);padding:.2rem 0 .2rem 1.1rem;
+  margin:1.2rem 0;max-width:46rem}
+.sw-case h3{font-family:var(--serif);font-size:1.2rem;margin:.1rem 0 .4rem}
+.sw-case p{font-size:.97rem;line-height:1.6}
+.sw-cant{border:1px solid var(--line);border-radius:10px;
+  padding:1rem 1.2rem;margin:1.4rem 0;max-width:52rem}
+.sw-cant h2{font-family:var(--serif);font-size:1.25rem;margin:.1rem 0 .5rem}
+.sw-cant ul{margin:.4rem 0 .2rem;padding-left:1.15rem}
+.sw-cant li{font-size:.95rem;line-height:1.6;margin:.25rem 0}
+.sw-beats{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:1.2rem 2rem;margin:1rem 0;max-width:64rem}
+.sw-beat h3{font-family:var(--serif);font-size:1.08rem;margin:.1rem 0 .35rem}
+.sw-beat p{font-size:.94rem;line-height:1.6;color:var(--ink)}
+.sw-beat .sw-bn{color:var(--acc);font-weight:700;font-size:.8rem;
+  letter-spacing:.1em}
 </style>
 
 <p class="kicker">Sat watch</p>
 <h1 class="arttitle">Sat Watch</h1>
-<p>Headlines can be wrong, late, or recycled. Physics is harder to fake. This board watches the energy assets that move crude prices with satellite sensors, so a claim about a strike or a fire can be checked against the ground before the wire copy settles: a geostationary satellite stares at each asset every 15 minutes, and polar-orbiting fire sensors provide the confirmation layer.</p>
-<section><h2>The board</h2>
-<p id="sw-updated" class="sw-meta">Loading the sensor board...</p>
-<div id="sw-board" class="sw-grid"></div></section>
-<section><h2>Event and anomaly log</h2>
+<p>Headlines can be wrong, late, or recycled. Physics is harder to fake. This board watches the plants and terminals that move crude prices with satellite heat sensors, and grades every read twice: once against the plant's own normal pattern, and again, after the fact, against what the plant actually produced.</p>
+<section class="sw-hero"><p class="sw-kick">The board tonight</p><div class="sw-stats" id="sw-stats"></div><p class="sw-lede" id="sw-lede">Loading the board...</p><p class="sw-method">Method: thermal detections from the Fire Information for Resource Management System (FIRMS), run by the National Aeronautics and Space Administration (NASA), watched against each plant's own baseline and graded after the fact against Alberta Energy Regulator (AER) production filings. Heat is not throughput: every card below says what the satellites saw, in plain language, and how much to lean on it.</p><p class="sw-upd" id="sw-upd"></p><div id="sw-board-err"></div></section>
+<section><h2 class="sw-region">Canada: the upgrader board</h2><p class="sw-bt">Seven plants, watched in both directions: a trip flares, then goes dark; a return flares, then sustains. Muted cards are sensor-poor plants, whose silence the board refuses to over-read.</p><div class="sw-grid" id="sw-canada"></div></section>
+<section><h2 class="sw-region">Gulf and Red Sea: the claim board</h2><p class="sw-bt">Terminals and pipelines under a geostationary stare. The job here is adjudication: when a claim says a facility was hit, the frames vote.</p><div class="sw-grid" id="sw-gulf"></div></section>
+<section><h2 class="sw-sec">Live cases</h2><p class="sw-bt">Two Canadian plants are dark tonight with no scheduled reason on file. Both cases are stated the way the board states everything: what the satellites saw, from when to when, and what would change the read.</p><div class="sw-case"><h3>Scotford upgrader (Shell, Fort Saskatchewan): dark since October 3</h3><p>Normally, the satellites see heat at the Scotford complex on about three days a week; August and September ran that way. On September 20 the complex flared hard, the biggest heat day in the stretch (74 megawatts in the core zone). Then it faded: last real heat September 28, one faint flicker on October 2, and from October 3 onward, nothing, on every pass, for two weeks. A plant about five kilometres north in the same satellite view kept showing heat on October 3, 6, 7, 8, 15 and 16, so the passes were looking; the silence is at the plant, not in the sky. The lifecycle machine has it DOWN since October 11 (it reads trailing heat, so it lags the first dark day). No fall turnaround was scheduled here, and no outage or flaring notice has been published.</p><p><b>What would refute it:</b> heat returning at September scale. <b>What would settle it:</b> a Shell or Canadian Natural Resources disclosure, or the October production filing (published about a month in arrears). The honest limit: the thermal zone overlaps the neighbouring refinery and chemicals footprint, so the board can say the complex core is dark; it cannot prove from orbit which unit inside the fence stopped.</p></div><div class="sw-case"><h3>Lloydminster upgrader (Cenovus): quiet since September 27, read gently</h3><p>Lloydminster is a faint plant: in September the satellites caught small heat on about a third of days, never big. Its last flicker was September 27 (0.6 megawatts), and there has been nothing since, 19 days by October 16. That is longer than any gap inside September itself, but this plant also went 12 days quiet inside September while running, and there is no neighbouring plant in its view to prove the passes were clean looks. Its planned maintenance this year was in the second quarter, not the fall. The board therefore carries it as a sign, not a verdict: profile still learning, signal quality weak, sensor-poor.</p><p><b>What would refute it:</b> heat at its normal small scale. <b>What would settle it:</b> a Cenovus disclosure or the October production filing. From orbit the upgrader also cannot be separated from the asphalt refinery beside it.</p></div></section>
+<section><h2 class="sw-sec">How good is this signal, actually?</h2><p class="sw-bt">A detection rate without a false-alarm rate is marketing. So both are printed here, and the misses stay in. Everything below was replayed at the same production thresholds the live board runs; nothing was tuned per event.</p><div class="sw-score"><div class="sw-stat"><div class="sw-n">177</div><div class="sw-l">quiet asset-days mined</div></div><div class="sw-stat"><div class="sw-n">2</div><div class="sw-l">false alarms (1.1%)</div></div><div class="sw-stat"><div class="sw-n">Day 0</div><div class="sw-l"><a class="plink" href="projects/syncrude.html">Syncrude</a> fire, Mar 14 2017; East-West east end, Sep 10 2026</div></div><div class="sw-stat"><div class="sw-n">0</div><div class="sw-l">false full-return calls in the lifecycle replay</div></div></div><ul class="sw-ev"><li><span class="sw-v sw-hit">Caught, +2 days</span> <b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, yanbu-end box): peak 53 fire pixels against a baseline of 14.</li><li><span class="sw-v sw-miss">Missed</span> <b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, mid-line segment): no detection at production thresholds. Reported as a miss; it caps what the board claims for that segment.</li><li><span class="sw-v sw-hit">Caught, day 0</span> <b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, east-end box): peak 82 fire pixels against a baseline of 15.</li><li><span class="sw-v sw-hit">Caught, day 0</span> <b>Khurais pumping station hit (AFP-reported, disputed)</b> (2026-10-05, khurais box): peak 66 fire pixels against a baseline of 18. Reporting at the time disputed whether flows were hit; the heat step itself was real and the detector caught it the same day.</li><li><span class="sw-v sw-hit">Caught, +2 days</span> <b>Yanbu port projectile incident</b> (2026-10-01, yanbu box): peak 100 fire pixels against a baseline of 28. A small, confirmed incident close to the detection floor; two days of latency is the honest price at this size.</li><li><span class="sw-v sw-hit">Caught, day 0</span> <b><a class="plink" href="projects/syncrude.html">Syncrude</a> Mildred Lake upgrader fire</b> (2017-03-14, syncrude box): peak 109 fire pixels against a baseline of 0.</li><li><span class="sw-v sw-trap">Trap avoided</span> <b>Fort McMurray wildfire</b> (May 3, 2016): the whole region burned, but the fire field was diffuse, not a point source at the facility. The detector read it as regional and did not call a plant event. A sensor that cannot pass this test cries wolf every fire season.</li></ul><h3 class="sw-region" style="font-size:1.15rem">The lifecycle machine, replayed</h3><p class="sw-bt">Documented maintenance windows (dates fixed from the published record before the thermal series was consulted) replayed through the same machine that runs the live board, on the keyed fire archive. Expect one to two weeks of structural lag on any call: the machine reads trailing heat, not press releases.</p><ul class="sw-ev"><li><span class="sw-v sw-miss">Missed</span> <b>R1 <a class="plink" href="projects/cnq_horizon.html">Horizon</a> return (35-day upgrader TAR)</b>: this plant's operating and turnaround heat do not separate in the archive, so the machine made no down or return call on a real, documented turnaround. The board labels it sensor-poor instead of guessing.</li><li><span class="sw-v sw-hit">Graded</span> <b>R2 <a class="plink" href="projects/su_base_plant.html">Suncor Base Plant</a> return (fall TAR)</b>: down-transition called 2026-09-05 (STARTED_EARLY); return signature not yet confirmed against documented completion 2026-10-13 (None); false return signatures before the real one: 0.</li><li><span class="sw-v sw-hit">Graded</span> <b>R3 Strathcona return (Edmonton refinery TAR)</b>: down-transition called 2026-09-10 (STARTED_ON_TIME); return signature not yet confirmed against documented completion 2026-10-13 (None); false return signatures before the real one: 0.</li><li><span class="sw-v sw-hit">Graded</span> <b>W1 <a class="plink" href="projects/syncrude.html">Syncrude</a> coker TAR window verification (live return day Oct 16 excluded by design)</b>: scheduled window 2026-08-20 to 2026-10-16; sensor-estimated start 2026-08-13 (STARTED_EARLY), end None (None); state at replay close STARTUP_TRANSIENT.</li><li><span class="sw-v sw-hit">Graded</span> <b>W2 <a class="plink" href="projects/syncrude.html">Syncrude</a> spring TAR window verification</b>: scheduled window 2026-03-15 to 2026-05-10; sensor-estimated start None (DOWN_AT_OPEN_START_NOT_WITNESSED), end None (None); state at replay close DOWN.</li><li><span class="sw-v sw-hit">Control</span> <b>U1 <a class="plink" href="projects/syncrude.html">Syncrude</a> pre-window control</b> (2026-01-15 to 2026-03-10): down-transitions: none; return signatures: 0. Record documents an UNPLANNED Coker 8-3 shutdown in Feb-Mar 2026: a DOWN transition here with no window join is the unplanned leg firing on a documented unplanned event (a positive control, not a false alarm).</li><li><span class="sw-v sw-hit">Control</span> <b>U2 Suncor pre-window control</b> (2026-01-15 to 2026-09-05): down-transitions: 2026-05-02 (UNPLANNED_DOWN); 2026-08-15 (UNPLANNED_DOWN); return signatures: 3. Record documents a <a class="plink" href="projects/su_base_plant.html">Base Plant</a> U2 coker turnaround completed in Q2 2026 (46 days, planned but not day-pinned): a DOWN transition here joins no day-precise window and classifies UNPLANNED_DOWN - a registry granularity gap, reported as such if it appears.</li></ul><p class="sw-bt"><b>What a catch proves, and what it does not.</b> The event replay tests sensitivity: when something big burns or stops, does the board see it, and how fast? The quiet controls test the other side: across 177 asset-days with nothing known to be wrong, the board cried wolf 2 times. A signal can be sensitive and useless if it fires on noise; this one is calibrated quiet, which is why a firing is worth a phone call.</p><p class="sw-bt"><b>What a dark plant proves, and what it does not.</b> A sustained silence at a plant that normally emits, on passes proven to have looked, is strong evidence the plant is not running normally. It is not evidence about which unit stopped, why, or at what rate the rest of the complex is running. Every thermal verdict is graded after the fact against the Alberta Energy Regulator (AER) monthly production filing for upgraders (ST39): the filings grade the satellite, never the reverse. Where the two have disagreed (a spring return the machine called weeks after the documented end date), the disagreement is queued for adjudication against the production data, not smoothed over.</p></section>
+<section><h2 class="sw-sec">How it works</h2><div class="sw-beats"><div class="sw-beat"><p class="sw-bn">ONE</p><h3>Heat, not headlines</h3><p>Polar-orbiting satellites carrying the Visible Infrared Imaging Radiometer Suite (VIIRS) pass over Alberta every few hours; at 57 degrees north the passes converge, so these plants get looked at far more often than a Gulf terminal at 24 degrees. A running plant has a thermal fingerprint: regular heat, in known cells, at a known strength. A stopped plant goes dark. A plant in trouble often flares first, then goes dark, which is why the board reads both directions: the spike and the silence after it.</p></div><div class="sw-beat"><p class="sw-bn">TWO</p><h3>A zero only counts when the satellite looked</h3><p>Every verdict on this board states its coverage window. A day with no pass, or a pass blinded by cloud, pauses the clock; it never counts as a clean look. The proof is built into the read: neighbouring plants in the same view keep appearing on the same passes. When a plant goes dark while its neighbours keep glowing on schedule, the silence belongs to the plant.</p></div><div class="sw-beat"><p class="sw-bn">THREE</p><h3>The filings grade the satellite</h3><p>Alberta publishes what every upgrader actually produced, monthly, in the AER ST39 filing. That is the arbiter. A thermal verdict is a fast hypothesis; the filing, a month later, is the grade. The board keeps score both ways, and the backtest above is that scorekeeping habit applied to history.</p></div></div><p class="sw-bt"><b>From signal to trade, the doctrine is two-key.</b> A thermal alert on its own is a hypothesis, and hypotheses do not get size. The market provides the second key: when a plant is truly down, its own producer still owes its customers barrels, and the fastest way to cover is to buy physical in the market. A dark plant plus its producer buying is two independent systems saying the same thing; that is when a position is earned. Either one alone is a reason to watch, not a reason to trade.</p><p class="sw-bt"><b>The lifecycle machine.</b> For the Canadian plants the board runs a state machine over the thermal series. A running plant sits in its operating band; a shutdown drops it to a floor learned from its own documented maintenance windows (or, where none exist, from the low end of its own history, labeled as such); a return has a shape: heat leaves the floor, flares through a startup transient, then sustains in the band. The same flare spike means a trip on the way down and a startup on the way up, so the machine reads direction from state, never from the spike alone. A drop with no scheduled window behind it is flagged as unplanned. Winter helps (hot plant, cold ground); summer wildfire smoke degrades the read, and the board says which regime applies.</p><p class="sw-bt"><b>The Gulf and Red Sea layer.</b> The Saudi and Iranian assets are watched by a geostationary satellite (Meteosat, parked over the Indian Ocean) staring every 15 minutes, with the fire satellites as the confirmation layer. Its job is different: not metering plants, but adjudicating claims. When a wire or a broadcaster says a terminal was hit, the frames either show the heat step or they do not, and evidence is only ever read from passes timestamped after the claim.</p></section>
+<section><div class="sw-cant"><h2>What this cannot see</h2><ul><li><b>Which unit stopped.</b> An upgrader, a refinery and a chemicals plant can share one thermal footprint (Scotford is the standing example). Heat locates a complex, not a unit.</li><li><b>Rates.</b> Heat says running or not running. It never says at what rate; a plant at half rate can glow normally. Throughput comes from the production filings, a month in arrears.</li><li><b><a class="plink" href="projects/imo_kearl.html">Kearl</a>.</b> The <a class="plink" href="projects/imo_kearl.html">Kearl</a> froth-treatment plant barely emits at fire-satellite scale and reads dark even when healthy. Its card is carried for completeness and graded sensor-poor; no verdict is ever drawn from its silence.</li><li><b>Faint plants.</b> <a class="plink" href="projects/cnq_horizon.html">Horizon</a> and Lloydminster emit weakly and intermittently even in normal operation. Their silence is a sign to weigh, not a verdict to trade, and their cards are visually muted to say so.</li><li><b>Cloud and smoke.</b> Infrared cannot see through cloud, and wildfire smoke attenuates the signal in summer. Blinded passes pause the clock rather than reading as silence.</li><li><b>Small fires.</b> The geostationary pixels are about three kilometres. The Gulf layer catches big events and grades claims; it does not see small ones, and a quiet frame is never proof that nothing happened below that scale.</li></ul></div></section>
+<section><h2 class="sw-sec">Event and anomaly log</h2>
 <ul id="sw-log" class="sw-log"></ul></section>
-<section><h2>Validation - replayed against the archive</h2><p class="sw-bt">Known events replayed against the daily satellite fire archive (National Aeronautics and Space Administration (NASA) Global Imagery Browse Services (GIBS) thermal-anomaly tiles; day granularity, no fire radiative power in this archive):</p><ul class="sw-bt"><li><b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, yanbu-end box): detected 2026-09-12, +2 d vs event date; peak 53 fire pixels vs baseline 14; extent: FACILITY (facility share 2.409).</li><li><b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, mid-line box): NOT detected; peak 0 fire pixels vs baseline 0; extent: REGIONAL (facility share 0.0).</li><li><b>East-West pipeline attack, 3 pumping stations</b> (2026-09-10, east-end box): detected 2026-09-10, +0 d vs event date; peak 82 fire pixels vs baseline 15; extent: FACILITY (facility share 0.2).</li><li><b>Khurais pumping station hit (AFP-reported, disputed)</b> (2026-10-05, khurais box): detected 2026-10-05, +0 d vs event date; peak 66 fire pixels vs baseline 18; extent: FACILITY (facility share 0.291).</li><li><b>Yanbu port projectile incident</b> (2026-10-01, yanbu box): detected 2026-10-03, +2 d vs event date; peak 100 fire pixels vs baseline 28; extent: FACILITY (facility share 1.389).</li><li><b><a class="plink" href="projects/syncrude.html">Syncrude</a> Mildred Lake upgrader fire</b> (2017-03-14, syncrude box): detected 2017-03-14, +0 d vs event date; peak 109 fire pixels vs baseline 0; extent: FACILITY (facility share 1.885).</li><li><b>Fort McMurray wildfire (CONFOUNDER)</b> (2016-05-03, syncrude box): NOT detected; peak 0 fire pixels vs baseline 0; extent: REGIONAL (facility share 0.0).</li></ul><p class="sw-bt">Quiet-period mining: 177 asset-days with no known events produced 2 false-alarm days at production thresholds. Misses and ambiguities are reported as measured, including the disputed Khurais case; the full method and pass-level caveats are in the build note.</p></section>
-<section><h2>Restart signatures - validation</h2><p class="sw-bt">Documented maintenance events (dates fixed from the published record before the thermal series was consulted) replayed through the production lifecycle machine against the keyed FIRMS archive (acquisition times and fire radiative power; day granularity, with pass-level brackets in the build note):</p><ul class="sw-bt"><li><b>R1 <a class="plink" href="projects/cnq_horizon.html">Horizon</a> return (35-day upgrader TAR)</b>: no FIRMS-day profile - this asset's operating and turnaround heat do not separate in the fire archive, so no thermal verdict is issued for it (its sensor on this board is the GOES-West frame read, still building history).</li><li><b>R2 <a class="plink" href="projects/su_base_plant.html">Suncor Base Plant</a> return (fall TAR)</b>: down-transition 2026-09-05 (STARTED_EARLY); return signature not yet confirmed vs documented completion 2026-10-13 (error None days, None); false signatures before the return: 0.</li><li><b>R3 Strathcona return (Edmonton refinery TAR)</b>: down-transition 2026-09-10 (STARTED_ON_TIME); return signature not yet confirmed vs documented completion 2026-10-13 (error None days, None); false signatures before the return: 0.</li><li><b>W1 <a class="plink" href="projects/syncrude.html">Syncrude</a> coker TAR window verification (live return day Oct 16 excluded by design)</b>: scheduled 2026-08-20 to 2026-10-16; sensor-estimated start 2026-08-13 (STARTED_EARLY), end None (None); state at replay close STARTUP_TRANSIENT.</li><li><b>W2 <a class="plink" href="projects/syncrude.html">Syncrude</a> spring TAR window verification</b>: scheduled 2026-03-15 to 2026-05-10; sensor-estimated start None (DOWN_AT_OPEN_START_NOT_WITNESSED), end None (None); state at replay close DOWN.</li><li><b>U1 <a class="plink" href="projects/syncrude.html">Syncrude</a> pre-window control</b> (2026-01-15 to 2026-03-10): down-transitions: none; return signatures: 0. Record documents an UNPLANNED Coker 8-3 shutdown in Feb-Mar 2026: a DOWN transition here with no window join is the unplanned leg firing on a documented unplanned event (a positive control, not a false alarm).</li><li><b>U2 Suncor pre-window control</b> (2026-01-15 to 2026-09-05): down-transitions: 2026-05-02 (UNPLANNED_DOWN); 2026-08-15 (UNPLANNED_DOWN); return signatures: 3. Record documents a <a class="plink" href="projects/su_base_plant.html">Base Plant</a> U2 coker turnaround completed in Q2 2026 (46 days, planned but not day-pinned): a DOWN transition here joins no day-precise window and classifies UNPLANNED_DOWN - a registry granularity gap, reported as such if it appears.</li></ul></section>
-<section><h2>How it works, and what it cannot see</h2>
-<p><b>Geostationary layer.</b> Meteosat Indian Ocean Data Coverage (IODC), the Meteosat-9 satellite parked over 45.5 degrees east, puts Saudi Arabia and the Gulf almost directly underneath. Frames arrive every 15 minutes through the public EUMETView map service. Each asset is compared against its own recent baseline: refineries flare constantly, so the signal is a step change in the fire channel (3.9 micrometres) against the thermal channel (10.8 micrometres), not the mere presence of heat. The published frames are styled renders, so readings are palette units used for step detection, not calibrated temperatures.</p>
-<p><b>Confirmation layer.</b> The Fire Information for Resource Management System (FIRMS), run by the National Aeronautics and Space Administration (NASA), distributes detections from the Visible Infrared Imaging Radiometer Suite (VIIRS) and the Moderate Resolution Imaging Spectroradiometer (MODIS) on polar orbiters. A pass over an asset either finds an anomalous fire against the asset flare baseline, or it does not; between passes the board says BLIND rather than guessing. Pass times here are inferred from regional detection clusters and are labeled as inferences.</p>
-<p><b>Baselines, and the cold start.</b> Step detection is only as good as the baseline behind it. Each asset baseline is its own, matched to the same hours of the day (a 03:00 flare is not a 15:00 flare), and the card shows how many clear looks it holds. A baseline counts as mature at about one week of looks (672 clear frames). Until then the board runs conservative: only large step changes alert, smaller deviations are logged silently, and the card carries a BASELINE BUILDING chip. Cloud cover and missed passes pause the count; a gap never masquerades as baseline data.</p>
-<p><b>Canada.</b> The Canadian facilities are watched by Geostationary Operational Environmental Satellite West (GOES-West) through the same NASA GIBS service, at an oblique angle from its slot over 137 degrees west: coarser effective pixels than Meteosat over Saudi Arabia, stated rather than hidden. The compensation is geometry: at 57 degrees north the polar orbiters pass far more often than at 24 degrees, so the FIRMS confirmation layer is dense (looks per day are measured per asset on each card, not assumed). Upgraders and refineries are scored in both directions: an unplanned trip first spikes the flare, then the plant goes abnormally quiet against its baseline. These sites are remote, with no social media crowd watching them: here the sensor layer is the detection itself, not just the adjudication of someone else's claim. Westridge is thermal only on this board; its vessel traffic is covered by the Narrows AIS stack.</p>
-<p><b>Maintenance lifecycle.</b> For the Canadian plants the board also runs a state machine over the thermal series. A running plant sits in its operating band; a turnaround drops it to a floor learned from its own documented maintenance windows (never a hardcoded number); a return has a signature shape: heat leaves the floor, flares in a startup transient, then sustains in the operating band. The same flare spike means the opposite on the way down (a trip), so the machine reads direction from state, not from the spike alone. A drop with no scheduled window behind it is an unplanned shutdown event. Each scheduled window is verified against the thermal record (started early, on time, or late; returned early, on time, or extended), and the sensor-estimated actual start and end are stored beside the scheduled ones. A partial return (one train back, heat sustained between floor and band) is reported as partial, and a flare that falls back to the floor is an aborted startup, not a return. Winter improves the Canadian read (hot plant, cold ground); summer wildfire smoke degrades it, and the cards say which regime applies.</p>
-<p><b>Limits, plainly.</b> The geostationary pixels are about 3 kilometres: this layer sees big fires, not small ones. Cloud blinds the infrared channels, and the status says so when it happens. There is no public vessel (Automatic Identification System, AIS) or aircraft (Automatic Dependent Surveillance - Broadcast, ADS-B) feed for the Gulf and Red Sea anchorages that can be read without credentials, so loadings are not tracked here rather than tracked badly.</p></section>
+<script>window.SW_SERIES = {"syncrude": {"start": "2026-01-15", "through": "2026-10-16", "vals": [2.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.8, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.4, 0.0, 0.0, 0.0, 0.0, 0.0, 3.6, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9, 3.7, 1.8, 0.0, 0.0, 0.0, 0.0, 2.3, 0.0, 0.0, 0.0, 0.0, 0.0, 4.4, 4.4, 11.0, 0.0, 0.0, 0.0, 0.0, 3.6, 3.4, 0.0, 5.4, 0.0, 6.4, 0.0, 4.5, 0.0, 0.0, 4.9, 5.3, 0.0, 0.0, 0.0, 0.0, 0.0, 3.7, 3.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.7, 0.0, 5.3, 0.0, 0.0, 4.2, 5.3, 4.6, 5.7, 0.0, 12.4, 30.9, 0.0, 6.9, 1.9, 1.9, 5.4, 30.1, 3.6, 1.1, 0.0, 8.7, 17.2, 5.1, 2.2, 19.7, 17.0, 17.2, 17.6, 2.8, 2.5, 23.7, 0.0, 4.5, 5.3, 3.8, 11.1, 5.8, 8.2, 0.0, 11.8, 6.4, 15.9, 7.6, 0.0, 0.0, 12.6, 0.0, 7.3, 6.5, 10.2, 0.0, 3.6, 5.0, 0.0, 0.0, 0.0, 9.2, 0.0, 0.0, 0.0, 5.8, 0.0, 0.0, 14.1, 4.4, 4.0, 6.1, 0.7, 7.9, 6.2, 10.9, 0.0, 0.0, 7.7, 8.7, 3.0, 1.2, 0.0, 2.9, 2.5, 7.2, 5.0, 0.0, 0.0, 0.0, 3.2, 0.0, 1.8, 7.0, 4.8, 0.0, 0.0, 0.0, 0.0, 2.5, 0.0, 2.6, 1.3, 1.5, 1.6, 10.6, 5.1, 7.3, 1.9, 0.0, 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.8, 0.0, 0.0, 32.2, 2.9]}, "suncor": {"start": "2026-01-15", "through": "2026-10-16", "vals": [4.8, 0.0, 0.0, 2.5, 0.0, 0.0, 0.0, 61.7, 0.0, 0.0, 0.0, 4.2, 0.0, 0.0, 0.0, 2.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.3, 26.4, 2.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.4, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.5, 37.4, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.8, 4.2, 2.7, 0.0, 0.0, 0.0, 5.8, 10.1, 0.0, 0.0, 1.8, 0.0, 0.0, 3.0, 0.0, 46.5, 20.1, 49.3, 44.6, 0.0, 7.1, 12.1, 10.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0, 0.0, 6.5, 0.0, 0.0, 2.8, 4.7, 1.3, 0.0, 2.6, 0.0, 5.8, 0.0, 5.5, 0.0, 0.0, 0.0, 3.6, 4.6, 4.7, 0.0, 2.2, 0.0, 10.2, 0.0, 5.1, 0.0, 0.0, 14.6, 11.7, 13.0, 0.0, 0.0, 0.0, 0.0, 3.3, 2.6, 0.0, 0.0, 0.0, 13.6, 0.0, 0.0, 2.9, 0.0, 5.8, 0.8, 0.0, 2.6, 0.0, 9.4, 8.4, 0.0, 5.1, 4.4, 7.9, 11.2, 29.6, 3.4, 57.5, 40.2, 40.8, 7.5, 6.2, 33.0, 28.0, 21.9, 41.8, 45.4, 21.6, 21.7, 68.2, 32.4, 26.3, 70.5, 58.0, 23.7, 3.9, 8.2, 9.6, 8.5, 6.5, 13.8, 18.5, 4.6, 7.0, 44.2, 0.0, 1.1, 12.8, 0.0, 71.1, 11.9, 13.5, 0.0, 14.3, 11.2, 4.6, 0.0, 0.0, 7.0, 0.0, 0.0, 12.0, 11.5, 0.0, 0.0, 35.8, 1.2, 7.3, 11.8, 1.1, 8.6, 14.8, 26.3, 11.2, 0.0, 13.3, 16.7, 9.4, 7.2, 0.0, 5.8, 5.1, 3.9, 19.5, 0.0, 0.0, 0.0, 7.8, 3.2, 6.4, 5.1, 7.6, 0.0, 0.0, 0.0, 0.0, 5.3, 4.0, 4.0, 1.9, 17.3, 3.0, 9.6, 5.0, 11.8, 15.9, 0.0, 0.0, 3.3, 6.4, 9.5, 0.0, 2.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.9, 6.6, 0.0, 3.8, 3.3]}, "horizon": {"start": "2026-01-15", "through": "2026-09-21", "vals": [0.8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.4, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.1, 0.0, 0.0, 0.0, 0.0, 0.8, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.1, 0.0, 0.0, 0.0, 1.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9, 1.6, 0.0, 2.8, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8, 0.0, 1.0, 0.0, 0.0, 0.4, 0.0, 1.3, 1.4, 0.0, 0.0, 0.0, 0.0, 4.4, 4.0, 5.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.5]}, "scotford": {"start": "2026-01-15", "through": "2026-10-16", "vals": [3.1, 0.0, 0.0, 3.3, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.5, 0.0, 1.2, 0.0, 1.9, 0.0, 2.9, 0.0, 4.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.0, 0.0, 0.0, 0.0, 1.2, 0.0, 0.4, 0.0, 0.0, 2.5, 0.0, 0.0, 24.6, 18.1, 3.9, 14.8, 22.4, 0.0, 12.8, 0.0, 0.0, 0.0, 10.9, 16.3, 35.8, 42.4, 15.3, 27.2, 0.0, 4.3, 5.0, 7.4, 4.5, 4.0, 0.0, 0.0, 16.9, 16.0, 5.5, 0.0, 0.0, 0.0, 1.8, 12.8, 4.5, 0.0, 7.8, 0.0, 12.6, 5.0, 1.3, 12.1, 4.0, 12.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.8, 30.3, 6.0, 126.4, 7.6, 0.0, 0.0, 0.0, 0.0, 0.0, 1.6, 0.7, 0.0, 0.0, 2.4, 0.0, 0.0, 0.0, 7.7, 16.4, 1.3, 0.0, 0.0, 0.0, 7.4, 9.1, 0.0, 0.0, 1.5, 3.8, 2.5, 2.3, 5.6, 0.6, 4.0, 0.0, 0.0, 0.7, 6.9, 0.0, 0.0, 8.3, 5.0, 3.9, 0.0, 0.0, 0.0, 2.5, 5.4, 4.5, 0.5, 1.6, 0.0, 1.3, 1.1, 0.0, 3.5, 1.0, 0.0, 0.5, 6.4, 3.3, 0.0, 2.1, 0.0, 1.0, 2.1, 7.3, 27.6, 0.0, 0.0, 1.8, 0.0, 0.0, 5.9, 3.8, 6.0, 0.7, 1.9, 0.8, 0.0, 11.2, 13.8, 10.9, 2.9, 0.8, 0.0, 7.2, 2.4, 3.4, 0.0, 0.0, 0.0, 0.0, 0.0, 24.9, 17.2, 0.0, 0.8, 1.2, 2.3, 0.0, 9.6, 5.4, 4.8, 1.0, 0.0, 1.3, 1.7, 0.0, 3.1, 0.0, 0.0, 0.0, 4.6, 13.6, 0.0, 1.8, 1.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.3, 1.1]}, "strathcona": {"start": "2026-01-15", "through": "2026-10-16", "vals": [0.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9, 0.0, 1.2, 1.7, 0.0, 0.0, 0.0, 1.1, 1.4, 1.5, 0.0, 0.5, 1.3, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.6, 0.0, 0.0, 0.0, 2.3, 0.0, 2.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.2, 0.0, 0.0, 0.0, 0.0, 1.8, 1.1, 1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.6, 0.0, 0.0, 0.8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.1, 0.0, 0.0, 0.0, 1.1, 0.0, 0.0, 1.3, 1.3, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 1.8, 0.0, 0.0, 0.0, 2.1, 0.0, 3.0, 0.9, 3.1, 0.0, 1.9, 0.0, 0.0, 6.9, 0.0, 5.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.4, 4.8, 0.0, 0.0, 5.6, 0.0, 0.5, 0.0, 0.0, 2.8, 4.7, 4.2, 0.0, 0.0, 5.1, 0.0, 0.0, 0.0, 3.0, 6.3, 4.3, 3.1, 0.0, 0.0, 2.0, 33.7, 5.8, 0.0, 0.0, 1.8, 1.0, 1.9, 2.9, 1.1, 1.7, 1.4, 0.0, 1.6, 2.2, 2.7, 0.4, 0.7, 0.0, 0.5, 0.0, 0.0, 0.0, 2.7, 1.9, 1.8, 2.8, 2.6, 0.0, 4.4, 4.3, 4.6, 11.2, 10.4, 0.0, 0.0, 2.4, 2.5, 0.0, 2.8, 4.4, 0.0, 0.0, 5.2, 3.1, 0.8, 0.0, 4.4, 0.7, 0.0, 0.0, 0.7, 8.1, 0.0, 4.2, 1.1, 0.0, 6.3, 3.3, 0.7, 3.0, 2.9, 0.0, 0.0, 3.4, 2.0, 0.0, 1.3, 0.0, 0.0, 0.0, 2.4, 2.7, 0.0, 0.0, 0.0, 0.9, 0.0, 1.5, 1.2, 2.2, 3.8, 4.0, 2.2, 0.0, 0.8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.3, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9, 0.0, 0.0, 1.7, 1.6]}, "westridge": {"start": "2026-03-26", "through": "2026-10-15", "vals": [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4, 0.0, 0.8, 0.0, 0.0, 0.0, 1.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 0.4, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4, 0.0, 0.0, 0.0, 0.0, 0.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.1, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9]}, "lloydminster": {"start": "2026-04-06", "through": "2026-09-27", "vals": [1.4, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.2, 0.0, 1.0, 0.0, 15.4, 11.6, 0.0, 0.0, 0.0, 3.3, 0.0, 0.0, 10.5, 0.0, 1.1, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.6, 0.0, 13.3, 0.0, 2.3, 0.0, 0.0, 0.8, 0.0, 2.1, 0.0, 0.0, 0.0, 3.1, 1.4, 3.1, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.4, 0.0, 0.0, 0.0, 0.0, 0.0, 1.4, 0.9, 0.0, 0.0, 0.6]}};</script>
 
 <script>
 (function(){
-  var el = document.getElementById('sw-board');
-  var log = document.getElementById('sw-log');
-  var upd = document.getElementById('sw-updated');
-  function fmt(ts){ if(!ts) return 'n/a';
-    var d = new Date(ts);
-    return d.toISOString().replace('T',' ').slice(0,16) + 'Z (' +
-      d.toLocaleString([], {hour:'2-digit', minute:'2-digit'}) + ' local)'; }
   function esc(s){ return String(s == null ? '' : s)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
-  function presenceHtml(a){
+  function fmt(ts){ if(!ts) return 'n/a';
+    var d = new Date(ts);
+    return d.toISOString().replace('T',' ').slice(0,16) + 'Z'; }
+  function daysSince(ds, ref){ if(!ds) return null;
+    var a = new Date(ds + 'T00:00:00Z'), b = new Date(ref);
+    return Math.max(0, Math.round((b - a) / 86400000)); }
+  function spark(key){
+    var s = (window.SW_SERIES || {})[key];
+    if (!s || !s.vals || !s.vals.length) return '';
+    var vals = s.vals, n = vals.length, mx = 0, mi = 0, i;
+    for (i = 0; i < n; i++){ if (vals[i] > mx){ mx = vals[i]; mi = i; } }
+    if (mx <= 0) return '<p class="sw-cap">No heat detections in the ' +
+      'archive window for this asset.</p>';
+    var W = 220, H = 38, bw = W / n, bars = '';
+    for (i = 0; i < n; i++){
+      var h = Math.max(vals[i] > 0 ? 1.5 : 0, vals[i] / mx * (H - 3));
+      var col = (i === mi) ? 'var(--acc)' : 'var(--ch-g2)';
+      bars += '<rect x="' + (i * bw).toFixed(1) + '" y="' +
+        (H - h).toFixed(1) + '" width="' + Math.max(bw - 0.4, 0.6) +
+        '" height="' + h.toFixed(1) + '" fill="' + col + '"/>';
+    }
+    return '<div class="sw-spark"><svg viewBox="0 0 ' + W + ' ' + H +
+      '" preserveAspectRatio="none" aria-hidden="true">' + bars +
+      '</svg></div><p class="sw-cap">Daily heat at this plant, ' +
+      'Jan 15 to ' + esc(s.through) + ' (archive days with no ' +
+      'detection read zero). Bars are summed fire radiative power ' +
+      'per day, megawatts; the oxide bar is the biggest day.</p>';
+  }
+  function grade(a){
     var p = a.thermal_presence;
     if (!p) return '';
-    var poor = p.sensor_poor
-      ? ' <b>SENSOR-POOR</b>: silence from this asset is weak ' +
-        'evidence in either direction - it must not be read as ' +
-        'the plant running normally, or as the plant being down.'
-      : '';
-    return '<p class="sw-meta">Thermal presence (standard fire ' +
-      'archive): ' + esc(p.det_days_per_week) + ' detection ' +
-      'days/week over ' + esc(p.span_days) + ' archive days, ' +
-      'median fire radiative power ' + esc(p.median_frp) +
-      ' MW.' + poor + '</p>';
+    var why = 'heat on about ' + p.det_days_per_week + ' days a week, ' +
+      'median flare ' + (p.median_frp == null ? 'n/a' : p.median_frp) +
+      ' MW, over ' + p.span_days + ' archive days';
+    if (p.sensor_poor)
+      return '<p class="sw-grade">Signal quality: <b>Weak, ' +
+        'sensor-poor</b>. <span class="sw-meta">This plant barely ' +
+        'glows even when it is healthy (' + why + '), so its silence ' +
+        'proves little in either direction.</span></p>';
+    if (p.det_days_per_week >= 3)
+      return '<p class="sw-grade">Signal quality: <b>Strong</b>. ' +
+        '<span class="sw-meta">A regular, readable emitter (' + why +
+        '); a sustained silence here means something.</span></p>';
+    if (p.det_days_per_week >= 2)
+      return '<p class="sw-grade">Signal quality: <b>Moderate</b>. ' +
+        '<span class="sw-meta">A regular emitter (' + why + '); ' +
+        'silence needs days, not hours, to grade.</span></p>';
+    return '<p class="sw-grade">Signal quality: <b>Weak</b>. ' +
+      '<span class="sw-meta">A faint, infrequent emitter (' + why +
+      '); do not lean on its silence.</span></p>';
   }
-  function restartHtml(a){
-    var r = a.restart;
-    if (!r) return '';
-    var wv = (r.windows || []).map(function(w){
-      return '<br>Scheduled window ' + esc(w.start) + ' to ' +
-        esc(w.end) + ' (' + esc(w.kind) + '): start ' +
-        esc(w.start_verdict || 'pending') +
-        (w.actual_start ? ' (sensor-estimated actual ' +
-          esc(w.actual_start) + ')' : '') + '; return ' +
-        esc(w.end_verdict || 'pending') +
-        (w.actual_end ? ' (sensor-estimated actual ' +
-          esc(w.actual_end) + ')' : '');
-    }).join('');
-    var sig = r.last_signature
-      ? '<br>Last return signature: ' + esc(r.last_signature.returned_at) +
-        ' (' + (r.last_signature.partial ? 'partial' : 'full') +
-        ' return, confidence ' + esc(r.last_signature.confidence) + ')'
-      : '';
-    var prov = r.provisional
-      ? '<br>Today, provisional (partial day): state ' +
-        esc(r.provisional.state) + ', zone ' + esc(r.provisional.zone) +
-        ', ' + esc(r.provisional.n_detections) +
-        ' archive detections so far'
-      : '';
-    var fa = a.firms_archive
-      ? '<br>Keyed FIRMS archive: ' + esc(a.firms_archive.rows) +
-        ' detections, ' + esc(a.firms_archive.first_day) + ' to ' +
-        esc(a.firms_archive.last_day)
-      : '';
-    return '<p class="sw-meta">Maintenance lifecycle (thermal state ' +
-      'machine): FIRMS-day state <b>' + esc(r.state_firms_day || 'n/a') +
-      '</b>; GOES-frame state <b>' + esc(r.state_goes_frame || 'n/a') +
-      '</b>' +
-      (r.down_since ? '<br>Down since (sensor-estimated): ' +
-        esc(r.down_since) : '') + sig + prov + wv + fa +
-      '<br>Thermal signal-to-noise: ' + esc(r.snr || '') + '</p>';
+  function caState(a){
+    var r = a.restart || {}, p = a.thermal_presence || {};
+    var st = r.state_firms_day;
+    if (p.sensor_poor && (!st || st === 'PROFILE_LEARNING'))
+      return { k: 'SENSOR-POOR', cls: 'sw-dim', raw: st };
+    if (st === 'DOWN') return { k: 'DOWN', cls: 'sw-hot', raw: st };
+    if (st === 'STARTUP_TRANSIENT')
+      return { k: 'RETURNING', cls: 'sw-ret', raw: st };
+    if (st === 'OPERATING') return { k: 'OPERATING', cls: '', raw: st };
+    if (st === 'PROFILE_LEARNING')
+      return { k: 'LEARNING', cls: 'sw-dim', raw: st };
+    if (!st) return { k: (a.status || 'n/a').replace(/_/g, ' '),
+      cls: a.status === 'NORMAL' ? '' : 'sw-dim', raw: null };
+    return { k: st.replace(/_/g, ' '), cls: '', raw: st };
   }
-  function card(a){
-    var t = a.thermal, f = a.firms, b = a.baseline || {};
-    var delta = (t.delta_vs_baseline == null) ? 'n/a'
-      : (t.delta_vs_baseline >= 0 ? '+' : '') + t.delta_vs_baseline;
-    var mat = b.mature
-      ? '<span class="sw-chip">BASELINE MATURE</span>'
-      : '<span class="sw-chip sw-BLIND_CLOUD">BASELINE BUILDING - ' +
-        esc(b.looks_clear) + ' of ' + esc(b.mature_looks) +
-        ' clear looks (' + esc(b.maturity_pct) + '%)</span>';
+  function plainLine(a, ref){
+    var p = a.thermal_presence || {}, r = a.restart || {};
+    var cs = caState(a), out = '';
+    if (p.det_days_per_week != null)
+      out += 'Normally shows heat on about ' + p.det_days_per_week +
+        ' days a week. ';
+    if (cs.raw === 'DOWN'){
+      var n = daysSince(r.down_since, ref);
+      out += 'It is dark now: the lifecycle machine has it down since ' +
+        esc(r.down_since || 'n/a') + (n != null ? ' (' + n +
+        ' days)' : '') + '.';
+      if (!(r.windows || []).length)
+        out += ' No scheduled maintenance window is on file for it.';
+    } else if (cs.raw === 'STARTUP_TRANSIENT'){
+      out += 'Heat is back after the shutdown: a startup transient ' +
+        'began ' + esc(r.transient_start || 'n/a') +
+        ', and the machine is watching for the heat to sustain in ' +
+        'the operating band.';
+    } else if (cs.raw === 'OPERATING'){
+      out += 'It is in its operating band now: running, thermally.';
+    } else if (cs.k === 'SENSOR-POOR'){
+      out += 'This plant is nearly invisible to the fire satellites ' +
+        'even when it runs, so the board makes no call from its heat.';
+    } else if (cs.raw === 'PROFILE_LEARNING'){
+      out += 'The board is still learning the normal pattern of ' +
+        'this plant; no verdict yet.';
+    } else {
+      out += esc(a.status_reason || '');
+    }
+    return out;
+  }
+  function windowsLine(a){
+    var r = a.restart || {}, w = (r.windows || [])[0];
+    if (!w) return '';
+    return '<p class="sw-meta">Scheduled window on file: ' + esc(w.start) +
+      ' to ' + esc(w.end) + ' (' + esc(w.kind) + '): start ' +
+      esc(w.start_verdict || 'pending') +
+      (w.actual_start ? ', sensor-estimated ' + esc(w.actual_start) : '') +
+      '; return ' + esc(w.end_verdict || 'pending') +
+      (w.actual_end ? ', sensor-estimated ' + esc(w.actual_end) : '') +
+      '.</p>';
+  }
+  function cardCanada(a, ref){
+    var cs = caState(a), p = a.thermal_presence || {};
+    var dim = (cs.k === 'SENSOR-POOR' || p.sensor_poor) ?
+      ' sw-dimcard' : '';
+    var fa = a.firms_archive ?
+      '<p class="sw-meta">Fire archive: ' + esc(a.firms_archive.rows) +
+      ' detections, ' + esc(a.firms_archive.first_day) + ' to ' +
+      esc(a.firms_archive.last_day) + '. Last satellite check ' +
+      fmt(a.last_check_utc) + '.</p>' : '';
+    return '<div class="sw-card' + dim + '"><h3>' + esc(a.label) +
+      '</h3><span class="sw-chip ' + cs.cls + '">' + esc(cs.k) +
+      '</span><p class="sw-plain">' + plainLine(a, ref) + '</p>' +
+      spark(a.key) + grade(a) + windowsLine(a) + fa + '</div>';
+  }
+  function cardGulf(a){
+    var t = a.thermal || {}, f = a.firms || {};
+    var cls = a.status === 'ANOMALY' ? 'sw-hot' :
+      (a.status === 'NORMAL' ? '' : 'sw-dim');
+    var delta = (t.delta_vs_baseline == null) ? 'n/a' :
+      (t.delta_vs_baseline >= 0 ? '+' : '') + t.delta_vs_baseline;
+    var pres = a.thermal_presence ?
+      '<p class="sw-meta">Fire archive presence: ' +
+      esc(a.thermal_presence.det_days_per_week) +
+      ' detection days/week, median ' +
+      esc(a.thermal_presence.median_frp) + ' MW.</p>' : '';
     return '<div class="sw-card"><h3>' + esc(a.label) + '</h3>' +
-      '<span class="sw-chip sw-' + esc(a.status) + '">' +
-        esc(a.status.replace(/_/g,' ')) + '</span> ' + mat +
-      '<p class="sw-meta">' + esc(a.status_reason) + '</p>' +
-      '<p class="sw-meta">Sensor layer: ' + esc(a.geo_source) +
-        (a.direction === 'both'
-          ? '; bidirectional (flare spike or abnormal quiet)' : '') +
-        '<br>Last sensor check: ' + fmt(a.last_check_utc) +
-        '<br>Latest satellite frame: ' + fmt(a.last_frame_utc) +
-        '<br>Thermal differential (fire channel minus thermal channel): ' +
-        '<span class="sw-num">' + esc(t.diff_p995) + '</span> vs baseline ' +
-        '<span class="sw-num">' + esc(t.baseline_diff_med) + '</span> ' +
-        '(step <span class="sw-num">' + delta + '</span>, ' +
-        esc(t.baseline_samples) + ' baseline frames)' +
-        '<br>Active-fire product pixels in box: ' + esc(t.fire_px) +
-        '<br>FIRMS last pass over the region: ' + fmt(f.last_pass_utc) +
-        '<br>FIRMS looks per day (measured, trailing 48 hours): ' +
-        esc(f.looks_per_day) +
-        '<br>Next expected FIRMS passes: ' +
-        esc((f.next_pass_windows || []).join('; ') || 'n/a') + '</p>' +
-      presenceHtml(a) + restartHtml(a) + '</div>';
+      '<span class="sw-chip ' + cls + '">' +
+      esc((a.status || '').replace(/_/g, ' ')) + '</span>' +
+      '<p class="sw-plain">' + esc(a.status_reason || '') + '</p>' +
+      '<p class="sw-meta">Thermal differential (fire channel minus ' +
+      'thermal channel): <span class="sw-num">' + esc(t.diff_p995) +
+      '</span> vs baseline <span class="sw-num">' +
+      esc(t.baseline_diff_med) + '</span> (step ' +
+      '<span class="sw-num">' + delta + '</span>). Active-fire ' +
+      'pixels in box: ' + esc(t.fire_px) + '.<br>Latest frame ' +
+      fmt(a.last_frame_utc) + '; last fire-satellite pass ' +
+      fmt(f.last_pass_utc) + '; looks per day (trailing 48 h): ' +
+      esc(f.looks_per_day) + '.</p>' + pres + '</div>';
+  }
+  function hero(d){
+    var can = d.assets.filter(function(a){ return a.region === 'canada'; });
+    var gulf = d.assets.filter(function(a){ return a.region !== 'canada'; });
+    var dark = [], returning = [], learning = 0, poor = 0, operating = 0;
+    can.forEach(function(a){
+      var cs = caState(a);
+      if (cs.k === 'DOWN') dark.push(a);
+      else if (cs.k === 'RETURNING') returning.push(a);
+      else if (cs.k === 'SENSOR-POOR') poor++;
+      else if (cs.k === 'LEARNING') learning++;
+      else if (cs.k === 'OPERATING') operating++;
+    });
+    var hot = gulf.filter(function(a){ return a.status === 'ANOMALY'; });
+    var gOk = gulf.filter(function(a){ return a.status === 'NORMAL'; }).length;
+    function nm(a){ return esc((a.label || '').split('(')[0]
+      .replace(/\s+\u2014.*$/, '').trim()); }
+    var stats =
+      '<div class="sw-stat"><div class="sw-n">' + d.assets.length +
+      '</div><div class="sw-l">assets watched</div></div>' +
+      '<div class="sw-stat"><div class="sw-n">' + dark.length +
+      '</div><div class="sw-l">Canadian plants dark</div></div>' +
+      '<div class="sw-stat"><div class="sw-n">' + returning.length +
+      '</div><div class="sw-l">returning from shutdown</div></div>' +
+      '<div class="sw-stat"><div class="sw-n">' + poor +
+      '</div><div class="sw-l">sensor-poor (read gently)</div></div>';
+    var lede = '';
+    if (dark.length){
+      dark.sort(function(x, y){
+        var xw = ((x.restart || {}).windows || []).length ? 1 : 0;
+        var yw = ((y.restart || {}).windows || []).length ? 1 : 0;
+        return xw - yw;
+      });
+      lede += 'Dark tonight: ' + dark.map(function(a){
+        var ds = (a.restart || {}).down_since || 'n/a';
+        if (((a.restart || {}).windows || []).length)
+          return nm(a) + ' (down since ' + esc(ds) +
+            ', inside its scheduled turnaround window)';
+        var n = daysSince((a.restart || {}).down_since, d.updated_at);
+        return nm(a) + ' (down since ' + esc(ds) +
+          (n != null ? ', ' + n + ' days' : '') +
+          ', with no scheduled window on file)';
+      }).join('; ') + '. ';
+    }
+    if (returning.length)
+      lede += returning.map(nm).join(', ') +
+        ' is coming back: heat returned after its shutdown and the ' +
+        'startup is under way. ';
+    if (operating)
+      lede += operating + ' Canadian plant' + (operating > 1 ? 's' : '') +
+        ' in its operating band. ';
+    if (hot.length)
+      lede += 'In the Gulf and Red Sea, heat steps are showing at ' +
+        hot.map(nm).join(' and ') +
+        ' on the geostationary layer tonight. ';
+    if (gOk)
+      lede += gOk + ' Gulf and Red Sea asset' + (gOk > 1 ? 's read' :
+        ' reads') + ' normal. ';
+    if (learning || poor)
+      lede += (learning + poor) + ' watched plants are still ' +
+        'learning their normal pattern or too faint to grade; the ' +
+        'board says so on their cards rather than guessing.';
+    document.getElementById('sw-stats').innerHTML = stats;
+    document.getElementById('sw-lede').textContent = lede ||
+      'The board is quiet tonight.';
+    document.getElementById('sw-upd').textContent =
+      'Board updated ' + fmt(d.updated_at) +
+      '. Open claims under adjudication: ' +
+      (d.claims_open.length ? d.claims_open.join(', ') : 'none') + '.';
   }
   fetch('api/satwatch.json').then(function(r){ return r.json(); })
   .then(function(doc){
-    var d = doc.data;
-    upd.textContent = 'Board updated ' + fmt(d.updated_at) +
-      '. Open claims under adjudication: ' +
-      (d.claims_open.length ? d.claims_open.join(', ') : 'none') + '.';
-    var gulf = d.assets.filter(function(a){ return a.region !== 'canada'; });
+    var d = doc.data, ref = d.updated_at;
+    hero(d);
     var can = d.assets.filter(function(a){ return a.region === 'canada'; });
-    el.innerHTML =
-      '<h2 class="sw-region">Gulf and Red Sea</h2><div class="sw-grid">' +
-      gulf.map(card).join('') + '</div>' +
-      '<h2 class="sw-region">Canada - oil sands and the coast</h2>' +
-      '<div class="sw-grid">' + can.map(card).join('') + '</div>';
-    log.innerHTML = d.event_log.map(function(e){
-      return '<li><span class="sw-kind">' + esc(e.kind) + '</span> ' +
-        fmt(e.ts) + (e.asset ? ' - ' + esc(e.asset) : '') +
-        '<br>' + esc(e.detail) + '</li>';
-    }).join('') || '<li>No events logged yet.</li>';
+    var gulf = d.assets.filter(function(a){ return a.region !== 'canada'; });
+    document.getElementById('sw-canada').innerHTML =
+      can.map(function(a){ return cardCanada(a, ref); }).join('');
+    document.getElementById('sw-gulf').innerHTML =
+      gulf.map(cardGulf).join('');
+    document.getElementById('sw-log').innerHTML =
+      d.event_log.map(function(e){
+        return '<li><span class="sw-kind">' + esc(e.kind) + '</span> ' +
+          fmt(e.ts) + (e.asset ? ' - ' + esc(e.asset) : '') +
+          '<br>' + esc(e.detail) + '</li>';
+      }).join('') || '<li>No events logged yet.</li>';
   }).catch(function(){
-    el.innerHTML = '<p class="sw-err">Sensor board unavailable: the ' +
-      'satwatch feed could not be loaded.</p>';
+    document.getElementById('sw-board-err').innerHTML =
+      '<p class="sw-err">Sensor board unavailable: the satwatch feed ' +
+      'could not be loaded.</p>';
   });
 })();
 </script>
