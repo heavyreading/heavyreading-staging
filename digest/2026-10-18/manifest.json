@@ -1,7 +1,7 @@
 {
  "page": "/digest/2026-10-18/",
  "title": "The Morning Digest: October 18, 2026",
- "dek": "Markets are closed for the weekend and Saturday produced no fresh attacks, statements, or flow updates, so Friday's settles remain the tape: Brent Dec26 at $109.86 and WTI Nov26 at $101.41. The refreshed validated crack history revises Friday's diesel crack close to $99.35, below $100, ending the streak above $100 at nine days; the figure printed in Saturday's edition ($104.35) came from that morning's data pull and is superseded. Friday's ICE file, which reached this run after Saturday's edition, puts WCS Dec26 at -$27.40 (ICE TMW settle, Oct 16), the widest print of the episode on thin volume, with the January to June tenors widening $1.05 to $1.20 on traded volume. SYN Nov26 settled at +$7.57 in the first session after the Syncrude coker window wrapped. Riyadh airport's resumption is unconfirmed hours after its closure notice expired, and the SPR 40 Mbbl award is twelve days pending.",
+ "dek": "Markets are closed for the weekend, so Friday's settles remain the tape: Brent Dec26 at $109.86 and WTI Nov26 at $101.41. The refreshed validated crack history revises Friday's diesel crack close to $99.35, below $100, ending the streak above $100 at nine days; the figure printed in Saturday's edition ($104.35) came from that morning's data pull and is superseded. Friday's ICE file, which reached this run after Saturday's edition, puts WCS Dec26 at -$27.40 (ICE TMW settle, Oct 16), the widest print of the episode on thin volume, with the January to June tenors widening $1.05 to $1.20 on traded volume. SYN Nov26 settled at +$7.57 in the first session after the Syncrude coker window wrapped. Saturday was active on the war wires: Saudi-led coalition intercepts over the kingdom on Saturday and early Sunday, fires at the St. Petersburg Oil Terminal after an overnight drone attack, an escalated and still unverified Iranian mine claim, and an Iranian seven-day plan conveyed via Qatar. Riyadh airport remained without flights after its closure notice expired. On the SPR, DOE published no award for the September round but on Oct 16 re-offered up to 17 Mbbl, the remainder of the 40 Mbbl batch, implying about 23 Mbbl was taken. (Corrected after first publication: the original version described Saturday as quiet and the SPR round as simply pending; both were superseded by Oct 16-17 reporting.)",
  "built_at": "2026-10-18",
  "generator": "heavyreading-manifest/1",
  "claims": [],
@@ -33,12 +33,22 @@
   },
   {
    "publisher": "DOE energy.gov, checked",
-   "vintage": "Oct 18, 2026 (no award announcement for the 40 Mbbl SPR exchange twelve days after the Oct 6 bid deadline; posted contracts unchanged at 133.56 Mbbl lent to 13 companies, Trafigura the largest borrower)",
+   "vintage": "Oct 18, 2026, and Reuters, Oct 16-17, 2026 (no DOE-published award for the Sep 29 40 Mbbl SPR round; DOE issued a new solicitation on Oct 16 for an exchange of up to 17 Mbbl, the remainder of the batch, implying about 23 Mbbl of the September round was taken per Energy Aspects; posted contracts on energy.gov still show 133.56 Mbbl lent to 13 companies in the earlier rounds, Trafigura the largest borrower)",
+   "url": ""
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "Oct 17, 2026 (Saudi-led coalition intercepted four drones over Riyadh and the eastern and southern regions and destroyed two ballistic missile launchers in Saada; Ryazan refinery suspended its CDU-6 crude distillation unit after the Oct 15 attack, other units operating)",
+   "url": ""
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "Oct 18, 2026 (overnight drone attack set fires at the St. Petersburg Oil Terminal and an oil depot; one killed and five injured per the city governor; terminal damage not yet established; Riyadh airport remained without flights with no reopening date given)",
    "url": ""
   },
   {
    "publisher": "Wire and official checks",
-   "vintage": "Oct 18, 2026 (no fresh Hormuz, Saudi, or Ukraine developments verified for Saturday Oct 17; Riyadh King Khalid airport resumption unconfirmed after the closure notice expired at 21:00 GMT Oct 17; Enbridge November apportionment notice not yet published, expected around Oct 19)",
+   "vintage": "Oct 18, 2026 (IRGC claim of two tankers striking mines on Oct 17 is unverified with no independent confirmation per Reuters; CENTCOM said 97 percent of vessels seeking Hormuz transit have passed safely; Iran conveyed a seven-day plan via Qatar per its foreign ministry; Enbridge November apportionment notice not yet published, expected around Oct 19)",
    "url": ""
   }
  ]
