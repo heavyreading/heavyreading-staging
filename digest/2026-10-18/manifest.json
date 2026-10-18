@@ -1,0 +1,45 @@
+{
+ "page": "/digest/2026-10-18/",
+ "title": "The Morning Digest: October 18, 2026",
+ "dek": "Markets are closed for the weekend and Saturday produced no fresh attacks, statements, or flow updates, so Friday's settles remain the tape: Brent Dec26 at $109.86 and WTI Nov26 at $101.41. The refreshed validated crack history revises Friday's diesel crack close to $99.35, below $100, ending the streak above $100 at nine days; the figure printed in Saturday's edition ($104.35) came from that morning's data pull and is superseded. Friday's ICE file, which reached this run after Saturday's edition, puts WCS Dec26 at -$27.40 (ICE TMW settle, Oct 16), the widest print of the episode on thin volume, with the January to June tenors widening $1.05 to $1.20 on traded volume. SYN Nov26 settled at +$7.57 in the first session after the Syncrude coker window wrapped. Riyadh airport's resumption is unconfirmed hours after its closure notice expired, and the SPR 40 Mbbl award is twelve days pending.",
+ "built_at": "2026-10-18",
+ "generator": "heavyreading-manifest/1",
+ "claims": [],
+ "sources": [
+  {
+   "publisher": "Reuters",
+   "vintage": "Oct 16, 2026 (Friday settles: Brent Dec26 $109.86, up $3.94 or 3.7 percent, highest since May 19, $110 touched intraday; WTI Nov26 $101.41, up $3.44 or 3.5 percent, highest since Sep 17; week WTI up 10.4 percent, Brent up 4.9 percent; Kpler Hormuz crude shipments 9.4 Mb/d for the week ended Wednesday, about 70 percent of the pre-war average; Ryazan primary distillation unit halted per industry sources; US retail diesel $6.33 per gallon per AAA)",
+   "url": ""
+  },
+  {
+   "publisher": "Validated crack history, refreshed",
+   "vintage": "Oct 18, 2026 (diesel crack $99.35 on the completed Oct 16 close, revising the $104.35 printed Oct 17 from that morning's refresh; streak above $100 ended at nine days, 37 total days above $100; maximum $117.92 Sep 16; 3-2-1 $55.15, maximum $75.31 Aug 28)",
+   "url": ""
+  },
+  {
+   "publisher": "ICE Report Center EOD",
+   "vintage": "Oct 16, 2026 (TMW Dec26 -$27.40, down $0.65 on 1 lot; Jan27 to Jun27 down $1.05 to $1.20, Apr to Jun on 150 lots each; ARV Dec26 -$18.55 on 670 lots; ARV-TMW December spread +$8.85; TMS Nov26 +$7.57 on zero volume; TMF Dec26 +$4.05; the file reached this run after the Oct 17 edition)",
+   "url": ""
+  },
+  {
+   "publisher": "CFTC and ICE COT, as of Oct 13, released",
+   "vintage": "Oct 16, 2026 (WTI managed-money net +40,574, about the 25th percentile of the 1-year range, shorts 131,399; Brent managed-money net +233,029, up 31,977, the first build in four weeks)",
+   "url": ""
+  },
+  {
+   "publisher": "AESO Current Supply Demand",
+   "vintage": "Oct 18, 2026 (all monitored SAGD cogen units at full maximum capability, no grid alerts)",
+   "url": ""
+  },
+  {
+   "publisher": "DOE energy.gov, checked",
+   "vintage": "Oct 18, 2026 (no award announcement for the 40 Mbbl SPR exchange twelve days after the Oct 6 bid deadline; posted contracts unchanged at 133.56 Mbbl lent to 13 companies, Trafigura the largest borrower)",
+   "url": ""
+  },
+  {
+   "publisher": "Wire and official checks",
+   "vintage": "Oct 18, 2026 (no fresh Hormuz, Saudi, or Ukraine developments verified for Saturday Oct 17; Riyadh King Khalid airport resumption unconfirmed after the closure notice expired at 21:00 GMT Oct 17; Enbridge November apportionment notice not yet published, expected around Oct 19)",
+   "url": ""
+  }
+ ]
+}
