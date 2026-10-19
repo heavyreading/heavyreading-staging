@@ -21,6 +21,10 @@
   .vintage { font-family: Helvetica, Arial, sans-serif; font-size: 8.5pt;
              color: #4d4d4d; text-align: right; }
   .cols { display: flex; gap: 7mm; margin-top: 5mm; }
+  .cols.stack { display: block; }
+  .cols.stack .map { width: 100%; }
+  .cols.stack .nums { margin-top: 5mm; columns: 2; column-gap: 8mm; }
+  .cols.stack .nums h2 { break-after: avoid; }
   .map { flex: 0 0 63%; }
   .nums { flex: 1; font-family: Helvetica, Arial, sans-serif; }
   .nums h2 { font-size: 9pt; letter-spacing: 1.6px; color: #4d4d4d;
@@ -61,7 +65,7 @@
 <text x="392.3" y="230.9" font-size="10" text-anchor="start" style="fill:#8c8c8c" font-weight="600" letter-spacing="1.6">ALBERTA</text>
 <polyline points="643.1,40.2 442.7,36.4 367.9,53.8" fill="none" stroke="#7c5c2e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" data-edge-id="trunk_edmonton_hinton" />
 <polygon points="483.6,37.1 493.5,33.0 493.3,41.7" fill="#7c5c2e" />
-<text x="524.3" y="31.8" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Trans Mountain system, 890 kb/d</text>
+<text x="512.3" y="31.8" font-size="10.5" text-anchor="end" style="fill:#191919" font-weight="600">Trans Mountain system, 890 kb/d</text>
 <polyline points="367.9,53.8 340.7,102.2 334.7,105.7" fill="none" stroke="#7c5c2e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" data-edge-id="trunk_hinton_jasper" />
 <polygon points="347.6,89.8 348.6,79.2 356.2,83.4" fill="#7c5c2e" />
 <polyline points="334.7,105.7 257.0,110.0 255.0,181.8 206.6,226.9 187.9,321.9" fill="none" stroke="#7c5c2e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" data-edge-id="trunk_jasper_kamloops" />
@@ -76,7 +80,7 @@
 <polygon points="19.3,458.4 29.9,460.2 25.1,467.4" fill="#7c5c2e" />
 <polyline points="33.3,467.6 47.1,476.5 65.2,478.8" fill="none" stroke="#5b6abf" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" data-edge-id="sumas_spur" />
 <polygon points="56.7,477.7 46.4,480.8 47.5,472.2" fill="#5b6abf" />
-<text x="54.0" y="470.6" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Sumas spur</text>
+<text x="54.0" y="398.6" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Sumas spur</text>
 <polyline points="17.6,459.9 16.3,457.7" fill="none" stroke="#8a4b7a" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" data-edge-id="westridge_dock" />
 <polygon points="13.5,452.6 22.1,459.0 14.5,463.3" fill="#8a4b7a" />
 <polyline points="65.2,478.8 61.1,486.1 51.0,487.3 46.8,499.6" fill="none" stroke="#3e7c6f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" data-edge-id="puget_sumas_laurel" />
@@ -89,8 +93,8 @@
 <polyline points="46.8,499.6 57.2,537.9 49.0,537.4 41.1,535.7" fill="none" stroke="#3e7c6f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" data-edge-id="puget_laurel_anacortes" />
 <polygon points="56.7,536.1 50.0,527.8 58.3,525.5" fill="#3e7c6f" />
 <circle cx="643.1" cy="40.2" r="5.2" fill="#191919" stroke="#ffffff" stroke-width="1.6" data-node-id="edmonton" />
-<text x="655.1" y="32.2" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Edmonton Terminal</text>
-<text x="655.1" y="47.2" font-size="10" text-anchor="start" style="fill:#4d4d4d">Receipt point, Sherwood Park</text>
+<text x="631.1" y="32.2" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Edmonton Terminal</text>
+<text x="631.1" y="47.2" font-size="10" text-anchor="end" style="fill:#4d4d4d">Receipt point, Sherwood Park</text>
 <circle cx="367.9" cy="53.8" r="2.6" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="hinton" />
 <text x="375.9" y="71.8" font-size="10" text-anchor="start" style="fill:#191919">Hinton</text>
 <text x="375.9" y="86.8" font-size="10" text-anchor="start" style="fill:#4d4d4d">Yellowhead corridor</text>
@@ -104,11 +108,11 @@
 <text x="149.6" y="367.1" font-size="10" text-anchor="end" style="fill:#191919">Merritt</text>
 <text x="149.6" y="382.1" font-size="10" text-anchor="end" style="fill:#4d4d4d">Coquihalla corridor</text>
 <circle cx="114.9" cy="448.7" r="2.6" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="hope" />
-<text x="122.9" y="468.7" font-size="10" text-anchor="start" style="fill:#191919">Hope</text>
-<text x="122.9" y="483.7" font-size="10" text-anchor="start" style="fill:#4d4d4d">Fraser Valley entry</text>
+<text x="122.9" y="400.7" font-size="10" text-anchor="start" style="fill:#191919">Hope</text>
+<text x="122.9" y="415.7" font-size="10" text-anchor="start" style="fill:#4d4d4d">Fraser Valley entry</text>
 <circle cx="33.3" cy="467.6" r="3.0" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="port_kells" />
-<text x="43.3" y="457.6" font-size="10" text-anchor="start" style="fill:#191919">Port Kells, Surrey</text>
-<text x="43.3" y="472.6" font-size="10" text-anchor="start" style="fill:#4d4d4d">Sumas spur junction</text>
+<text x="43.3" y="321.6" font-size="10" text-anchor="start" style="fill:#191919">Port Kells, Surrey</text>
+<text x="43.3" y="336.6" font-size="10" text-anchor="start" style="fill:#4d4d4d">Sumas spur junction</text>
 <circle cx="65.2" cy="478.8" r="4.0" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="sumas" />
 <text x="77.2" y="488.8" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Sumas Terminal (Abbotsford)</text>
 <text x="77.2" y="503.8" font-size="10" text-anchor="start" style="fill:#4d4d4d">Puget Sound connection</text>

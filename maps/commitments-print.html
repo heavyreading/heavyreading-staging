@@ -21,6 +21,10 @@
   .vintage { font-family: Helvetica, Arial, sans-serif; font-size: 8.5pt;
              color: #4d4d4d; text-align: right; }
   .cols { display: flex; gap: 7mm; margin-top: 5mm; }
+  .cols.stack { display: block; }
+  .cols.stack .map { width: 100%; }
+  .cols.stack .nums { margin-top: 5mm; columns: 2; column-gap: 8mm; }
+  .cols.stack .nums h2 { break-after: avoid; }
   .map { flex: 0 0 63%; }
   .nums { flex: 1; font-family: Helvetica, Arial, sans-serif; }
   .nums h2 { font-size: 9pt; letter-spacing: 1.6px; color: #4d4d4d;
@@ -72,10 +76,9 @@
 <polygon points="401.0,280.9 415.0,260.1 424.8,237.3 427.6,218.3 433.2,203.1 420.6,200.3 409.4,214.5 405.2,237.3 401.0,260.1" style="fill:#e9e5db" opacity="0.5" stroke="#dddddd" stroke-width="0.8" />
 <polygon points="447.3,237.3 478.1,252.5 487.9,229.7 476.7,214.5 455.7,201.2 447.3,197.4" style="fill:#e9e5db" opacity="0.5" stroke="#dddddd" stroke-width="0.8" />
 <polygon points="322.5,-51.3 399.6,-24.7 441.6,9.5 455.7,17.1 455.7,-51.3" style="fill:#e9e5db" opacity="0.5" stroke="#dddddd" stroke-width="0.8" />
-<text x="406.6" y="-1.9" font-size="9.5" text-anchor="start" style="fill:#8c8c8c">Hudson Bay</text>
 <line x1="0" y1="142.4" x2="298.6" y2="142.4" style="stroke:#8c8c8c" stroke-width="0.9" stroke-dasharray="5,4" opacity="0.75" />
 <text x="4.0" y="137.4" font-size="9.5" text-anchor="start" style="fill:#8c8c8c">Canada-United States border</text>
-<text x="112.2" y="13.3" font-size="10" text-anchor="start" style="fill:#8c8c8c" font-weight="600" letter-spacing="1.6">SASKATCHEWAN</text>
+<text x="112.2" y="29.3" font-size="10" text-anchor="start" style="fill:#8c8c8c" font-weight="600" letter-spacing="1.6">SASKATCHEWAN</text>
 <text x="251.0" y="55.1" font-size="10" text-anchor="start" style="fill:#8c8c8c" font-weight="600" letter-spacing="1.6">MANITOBA</text>
 <text x="433.2" y="89.2" font-size="10" text-anchor="start" style="fill:#8c8c8c" font-weight="600" letter-spacing="1.6">ONTARIO</text>
 <text x="218.7" y="205.0" font-size="10" text-anchor="start" style="fill:#8c8c8c" font-weight="600" letter-spacing="1.6">NORTH DAKOTA</text>
@@ -89,19 +92,19 @@
 <polygon points="293.9,433.2 299.5,442.4 290.9,443.5" fill="#b45309" />
 <polyline points="287.6,386.3 368.7,339.2 376.5,317.4 400.3,288.5" fill="none" stroke="#b45309" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" data-edge-id="explorer_tulsa_il" />
 <polygon points="367.1,340.2 360.8,348.9 356.4,341.3" fill="#b45309" />
-<text x="360.4" y="341.6" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Explorer: Item 118 program, 60 kb/d minimum committed</text>
+<text x="348.4" y="362.6" font-size="10.5" text-anchor="end" style="fill:#191919" font-weight="600">Explorer: Item 118 program, 60 kb/d minimum committed</text>
 <polyline points="400.3,288.5 385.6,284.7 368.9,278.1 320.8,283.0 288.8,225.9 245.4,170.8 215.4,147.7 180.9,125.3 138.8,113.9 103.2,87.1 68.7,68.3 44.2,54.5" fill="none" stroke="#0e7c3e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" data-edge-id="cochin" />
 <polygon points="215.0,147.4 225.4,150.0 220.1,156.8" fill="#0e7c3e" />
-<text x="207.9" y="133.0" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Cochin: 90 kb/d committed (Class A and B)</text>
+<text x="201.9" y="105.0" font-size="10.5" text-anchor="middle" style="fill:#191919" font-weight="600">Cochin: 90 kb/d committed (Class A and B)</text>
 <polyline points="400.3,288.5 380.0,244.9 342.2,185.7 304.2,182.2 273.0,163.1 265.7,142.4 271.4,125.3 210.3,117.7 166.6,114.8 122.0,91.1 79.9,71.2 44.2,54.5" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" data-edge-id="southern_lights" />
 <polygon points="236.6,121.0 246.8,117.9 245.7,126.5" fill="#1f6feb" />
-<text x="301.9" y="171.1" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Southern Lights: 165 kb/d committed through 2030</text>
+<text x="301.9" y="192.1" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Southern Lights: 165 kb/d committed through 2030</text>
 <polyline points="478.1,256.8 494.2,256.7 498.0,249.1 510.6,250.0" fill="none" stroke="#7c5c2e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" data-edge-id="line9_9a_sarnia_westover" />
 <polygon points="499.3,246.5 498.8,257.2 491.0,253.3" fill="#7c5c2e" />
-<text x="500.5" y="250.1" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Line 9A</text>
+<text x="500.5" y="271.1" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Line 9A</text>
 <polyline points="510.6,250.0 514.6,247.7 518.1,240.1" fill="none" stroke="#7c5c2e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" data-edge-id="line9_9b_westover_toronto" />
 <polygon points="518.6,239.1 518.4,249.8 510.5,246.1" fill="#7c5c2e" />
-<text x="521.4" y="240.0" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Line 9B</text>
+<text x="549.4" y="240.0" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Line 9B</text>
 <polyline points="518.1,240.1 527.7,239.2 548.5,234.3 561.0,232.9 585.6,217.9 603.0,206.2" fill="none" stroke="#7c5c2e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" data-edge-id="line9_9b_toronto_montreal" />
 <polygon points="573.6,225.2 567.5,234.0 563.0,226.6" fill="#7c5c2e" />
 <polyline points="603.0,206.2 602.6,206.2" fill="none" stroke="#7c5c2e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" data-edge-id="line9_suncor_feed" />
@@ -120,41 +123,41 @@
 <text x="312.1" y="509.1" font-size="10" text-anchor="start" style="fill:#191919">Mont Belvieu, TX</text>
 <text x="312.1" y="524.1" font-size="10" text-anchor="start" style="fill:#4d4d4d">Explorer origin</text>
 <circle cx="296.3" cy="507.6" r="3.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="houston" />
-<text x="305.3" y="510.6" font-size="10" text-anchor="start" style="fill:#191919">Houston (Pasadena), TX</text>
-<text x="305.3" y="525.6" font-size="10" text-anchor="start" style="fill:#4d4d4d">Explorer origin</text>
+<text x="305.3" y="476.6" font-size="10" text-anchor="start" style="fill:#191919">Houston (Pasadena), TX</text>
+<text x="305.3" y="491.6" font-size="10" text-anchor="start" style="fill:#4d4d4d">Explorer origin</text>
 <circle cx="316.4" cy="505.3" r="3.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="port_arthur" />
-<text x="325.4" y="508.3" font-size="10" text-anchor="start" style="fill:#191919">Port Arthur, TX</text>
-<text x="325.4" y="523.3" font-size="10" text-anchor="start" style="fill:#4d4d4d">Explorer origin</text>
+<text x="325.4" y="440.3" font-size="10" text-anchor="start" style="fill:#191919">Port Arthur, TX</text>
+<text x="325.4" y="455.3" font-size="10" text-anchor="start" style="fill:#4d4d4d">Explorer origin</text>
 <circle cx="287.6" cy="386.3" r="3.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="tulsa" />
 <text x="296.6" y="389.3" font-size="10" text-anchor="start" style="fill:#191919">Tulsa, OK</text>
 <text x="296.6" y="404.3" font-size="10" text-anchor="start" style="fill:#4d4d4d">Explorer origin and corridor point</text>
 <circle cx="368.9" cy="278.1" r="2.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="clinton" />
-<text x="377.9" y="281.1" font-size="10" text-anchor="start" style="fill:#191919">Clinton, IA</text>
+<text x="359.9" y="281.1" font-size="10" text-anchor="end" style="fill:#191919">Clinton, IA</text>
 <circle cx="215.4" cy="147.7" r="2.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="maxbass" />
 <text x="224.4" y="150.7" font-size="10" text-anchor="start" style="fill:#191919">Maxbass, ND</text>
 <circle cx="265.7" cy="142.4" r="3.0" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="border_sl" />
-<text x="274.7" y="145.4" font-size="10" text-anchor="start" style="fill:#191919">Neche, ND / Gretna, MB</text>
+<text x="300.7" y="145.4" font-size="10" text-anchor="start" style="fill:#191919">Neche, ND / Gretna, MB</text>
 <circle cx="166.6" cy="114.8" r="2.6" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="regina" />
 <text x="175.6" y="117.8" font-size="10" text-anchor="start" style="fill:#191919">Regina, SK</text>
 <circle cx="103.2" cy="87.1" r="2.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="kerrobert" />
 <text x="112.2" y="90.1" font-size="10" text-anchor="start" style="fill:#191919">Kerrobert, SK</text>
 <circle cx="478.1" cy="256.8" r="4.0" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="sarnia" />
-<text x="484.1" y="272.8" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Sarnia, ON</text>
-<text x="484.1" y="287.8" font-size="10" text-anchor="start" style="fill:#4d4d4d">Line 9 origin terminal</text>
+<text x="484.1" y="238.8" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Sarnia, ON</text>
+<text x="484.1" y="253.8" font-size="10" text-anchor="start" style="fill:#4d4d4d">Line 9 origin terminal</text>
 <circle cx="510.6" cy="250.0" r="4.0" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="westover" />
-<text x="516.6" y="268.0" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Westover (North Westover), ON</text>
-<text x="516.6" y="283.0" font-size="10" text-anchor="start" style="fill:#4d4d4d">Line 9A / 9B break, near Hamilton</text>
+<text x="504.6" y="336.0" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Westover (North Westover), ON</text>
+<text x="504.6" y="351.0" font-size="10" text-anchor="end" style="fill:#4d4d4d">Line 9A / 9B break, near Hamilton</text>
 <circle cx="518.1" cy="240.1" r="2.6" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="toronto_transit" />
-<text x="518.1" y="230.1" font-size="10" text-anchor="middle" style="fill:#191919">Toronto area (north GTA transit)</text>
+<text x="518.1" y="209.1" font-size="10" text-anchor="middle" style="fill:#191919">Toronto area (north GTA transit)</text>
 <circle cx="603.0" cy="206.2" r="4.0" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="montreal_east_terminal" />
-<text x="611.0" y="198.2" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Montreal East terminal</text>
-<text x="611.0" y="213.2" font-size="10" text-anchor="start" style="fill:#4d4d4d">Valero terminal; Line 9B delivery point</text>
+<text x="595.0" y="164.2" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Montreal East terminal</text>
+<text x="595.0" y="179.2" font-size="10" text-anchor="end" style="fill:#4d4d4d">Valero terminal; Line 9B delivery point</text>
 <circle cx="602.6" cy="206.2" r="4.2" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="suncor_montreal" />
-<text x="594.6" y="224.2" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Suncor Montreal refinery</text>
-<text x="594.6" y="239.2" font-size="10" text-anchor="end" style="fill:#4d4d4d">Runs 150-155 kb/d</text>
+<text x="594.6" y="122.2" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Suncor Montreal refinery</text>
+<text x="594.6" y="137.2" font-size="10" text-anchor="end" style="fill:#4d4d4d">Runs 150-155 kb/d</text>
 <circle cx="634.7" cy="184.7" r="4.2" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="valero_levis" />
-<text x="642.7" y="178.7" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Valero Levis (Jean Gaulin), St-Romuald</text>
-<text x="642.7" y="193.7" font-size="10" text-anchor="start" style="fill:#4d4d4d">Jean Gaulin refinery and St-Romuald berth</text>
+<text x="626.7" y="42.7" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Valero Levis (Jean Gaulin), St-Romuald</text>
+<text x="626.7" y="57.7" font-size="10" text-anchor="end" style="fill:#4d4d4d">Jean Gaulin refinery and St-Romuald berth</text>
 <text x="26.0" y="418.0" font-size="11" text-anchor="start" style="fill:#191919" font-weight="600">Lines</text>
 <line x1="26" y1="429" x2="48" y2="429" stroke="#b45309" stroke-width="2.4" />
 <text x="54.0" y="432.0" font-size="10" text-anchor="start" style="fill:#4d4d4d">Explorer (diluent lane, Item 118 committed program)</text>

@@ -21,6 +21,10 @@
   .vintage { font-family: Helvetica, Arial, sans-serif; font-size: 8.5pt;
              color: #4d4d4d; text-align: right; }
   .cols { display: flex; gap: 7mm; margin-top: 5mm; }
+  .cols.stack { display: block; }
+  .cols.stack .map { width: 100%; }
+  .cols.stack .nums { margin-top: 5mm; columns: 2; column-gap: 8mm; }
+  .cols.stack .nums h2 { break-after: avoid; }
   .map { flex: 0 0 63%; }
   .nums { flex: 1; font-family: Helvetica, Arial, sans-serif; }
   .nums h2 { font-size: 9pt; letter-spacing: 1.6px; color: #4d4d4d;
@@ -61,7 +65,7 @@
 <polygon points="483.0,409.1 475.2,405.9 480.2,401.2" fill="#94a3b8" />
 <polyline points="504.4,431.2 509.3,292.4" fill="none" stroke="#5b6abf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" data-edge-id="kindersley_to_kerrobert" />
 <polygon points="507.3,347.9 511.3,357.8 502.6,357.5" fill="#5b6abf" />
-<text x="512.8" y="355.8" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Mid-Saskatchewan Pipeline</text>
+<text x="512.8" y="400.8" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Mid-Saskatchewan Pipeline</text>
 <polyline points="173.6,124.4 318.3,248.9 509.3,292.4" fill="none" stroke="#3e7c6f" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" data-edge-id="bodo_cactus_to_kerrobert" />
 <polygon points="346.4,255.3 335.9,257.4 337.8,248.9" fill="#3e7c6f" />
 <text x="326.8" y="243.4" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Manito System (Plains)</text>
@@ -72,14 +76,14 @@
 <text x="494.4" y="451.2" font-size="10" text-anchor="end" style="fill:#191919">Kindersley area</text>
 <text x="494.4" y="466.2" font-size="10" text-anchor="end" style="fill:#4d4d4d">Mid-Saskatchewan receipts</text>
 <circle cx="173.6" cy="124.4" r="2.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="bodo_cactus" />
-<text x="163.6" y="114.4" font-size="10" text-anchor="end" style="fill:#191919">Bodo / Cactus Lake area</text>
-<text x="163.6" y="129.4" font-size="10" text-anchor="end" style="fill:#4d4d4d">Manito System receipts (incl. North Saskatchewan and Bodo / Cactus Lake pipelines)</text>
+<text x="183.6" y="114.4" font-size="10" text-anchor="start" style="fill:#191919">Bodo / Cactus Lake area</text>
+<text x="183.6" y="129.4" font-size="10" text-anchor="start" style="fill:#4d4d4d">Manito System receipts (incl. North Saskatchewan and Bodo / Cactus Lake pipelines)</text>
 <circle cx="509.3" cy="292.4" r="4.0" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="kerrobert" />
 <text x="499.3" y="284.4" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Kerrobert</text>
 <text x="499.3" y="299.4" font-size="10" text-anchor="end" style="fill:#4d4d4d">Mid-Saskatchewan delivery point; shared Kerrobert hub</text>
 <circle cx="533.9" cy="290.0" r="3.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="enbridge_kerrobert" />
-<text x="543.9" y="306.0" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Enbridge Mainline at Kerrobert</text>
-<text x="543.9" y="321.0" font-size="10" text-anchor="start" style="fill:#4d4d4d">Mainline pools at Kerrobert</text>
+<text x="523.9" y="340.0" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Enbridge Mainline at Kerrobert</text>
+<text x="523.9" y="355.0" font-size="10" text-anchor="end" style="fill:#4d4d4d">Mainline pools at Kerrobert</text>
 <text x="26.0" y="434.0" font-size="11" text-anchor="start" style="fill:#191919" font-weight="600">Lines</text>
 <line x1="26" y1="445" x2="48" y2="445" stroke="#94a3b8" stroke-width="2.4" stroke-dasharray="5,4" />
 <text x="54.0" y="448.0" font-size="10" text-anchor="start" style="fill:#4d4d4d">Field supply (schematic, inferred)</text>

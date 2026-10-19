@@ -21,6 +21,10 @@
   .vintage { font-family: Helvetica, Arial, sans-serif; font-size: 8.5pt;
              color: #4d4d4d; text-align: right; }
   .cols { display: flex; gap: 7mm; margin-top: 5mm; }
+  .cols.stack { display: block; }
+  .cols.stack .map { width: 100%; }
+  .cols.stack .nums { margin-top: 5mm; columns: 2; column-gap: 8mm; }
+  .cols.stack .nums h2 { break-after: avoid; }
   .map { flex: 0 0 63%; }
   .nums { flex: 1; font-family: Helvetica, Arial, sans-serif; }
   .nums h2 { font-size: 9pt; letter-spacing: 1.6px; color: #4d4d4d;
@@ -73,8 +77,8 @@
 <polyline points="500.9,224.4 554.3,135.6 595.1,102.4" fill="none" stroke="#3e7c6f" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" data-edge-id="delivery_calmar_north40" />
 <polygon points="548.8,144.8 547.5,155.4 540.0,150.9" fill="#3e7c6f" />
 <circle cx="292.6" cy="481.3" r="2.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="willesden_south" />
-<text x="284.6" y="501.3" font-size="10" text-anchor="end" style="fill:#191919">Willesden Green / Ferrier</text>
-<text x="284.6" y="516.3" font-size="10" text-anchor="end" style="fill:#4d4d4d">South laterals (southern 1-3)</text>
+<text x="300.6" y="501.3" font-size="10" text-anchor="start" style="fill:#191919">Willesden Green / Ferrier</text>
+<text x="300.6" y="516.3" font-size="10" text-anchor="start" style="fill:#4d4d4d">South laterals (southern 1-3)</text>
 <circle cx="364.1" cy="290.1" r="2.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="breton_east" />
 <text x="374.1" y="308.1" font-size="10" text-anchor="start" style="fill:#191919">Breton / Alsike</text>
 <text x="374.1" y="323.1" font-size="10" text-anchor="start" style="fill:#4d4d4d">Laterals 4-8</text>
@@ -82,8 +86,8 @@
 <text x="160.4" y="209.4" font-size="10" text-anchor="end" style="fill:#191919">Cynthia / Brazeau</text>
 <text x="160.4" y="224.4" font-size="10" text-anchor="end" style="fill:#4d4d4d">Lateral 9-10, White Products</text>
 <circle cx="65.9" cy="153.1" r="2.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="pembina_river_nw" />
-<text x="57.9" y="143.1" font-size="10" text-anchor="end" style="fill:#191919">Pembina River</text>
-<text x="57.9" y="158.1" font-size="10" text-anchor="end" style="fill:#4d4d4d">Pembina River 1, 2, 5, 6</text>
+<text x="73.9" y="143.1" font-size="10" text-anchor="start" style="fill:#191919">Pembina River</text>
+<text x="73.9" y="158.1" font-size="10" text-anchor="start" style="fill:#4d4d4d">Pembina River 1, 2, 5, 6</text>
 <circle cx="260.7" cy="246.3" r="5.2" fill="#191919" stroke="#ffffff" stroke-width="1.6" data-node-id="drayton_core" />
 <text x="274.7" y="240.3" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Drayton Valley</text>
 <text x="274.7" y="255.3" font-size="10" text-anchor="start" style="fill:#4d4d4d">BCO Trunk, Drayton Valley Laterals 1-3</text>
@@ -91,14 +95,14 @@
 <text x="510.9" y="242.4" font-size="10" text-anchor="start" style="fill:#191919">Calmar</text>
 <text x="510.9" y="257.4" font-size="10" text-anchor="start" style="fill:#4d4d4d">Calmar booster station</text>
 <circle cx="596.3" cy="104.6" r="3.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="enbridge_edmonton" />
-<text x="612.3" y="88.6" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Enbridge Edmonton Terminal</text>
-<text x="612.3" y="103.6" font-size="10" text-anchor="start" style="fill:#4d4d4d">Edmonton</text>
+<text x="580.3" y="88.6" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Enbridge Edmonton Terminal</text>
+<text x="580.3" y="103.6" font-size="10" text-anchor="end" style="fill:#4d4d4d">Edmonton</text>
 <circle cx="594.5" cy="104.6" r="3.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="trans_mountain_edmonton" />
 <text x="578.5" y="128.6" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Trans Mountain (Edmonton)</text>
 <text x="578.5" y="143.6" font-size="10" text-anchor="end" style="fill:#4d4d4d">Tariff name: Kinder Morgan Trans Mountain</text>
 <circle cx="595.1" cy="102.4" r="3.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="pkm_north40" />
-<text x="611.1" y="138.4" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">PKM North 40 Terminal</text>
-<text x="611.1" y="153.4" font-size="10" text-anchor="start" style="fill:#4d4d4d">Edmonton - sweet + condensate only</text>
+<text x="579.1" y="172.4" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">PKM North 40 Terminal</text>
+<text x="579.1" y="187.4" font-size="10" text-anchor="end" style="fill:#4d4d4d">Edmonton - sweet + condensate only</text>
 <text x="26.0" y="450.0" font-size="11" text-anchor="start" style="fill:#191919" font-weight="600">Lines</text>
 <line x1="26" y1="461" x2="48" y2="461" stroke="#64748b" stroke-width="2.4" />
 <text x="54.0" y="464.0" font-size="10" text-anchor="start" style="fill:#4d4d4d">Gathering laterals</text>

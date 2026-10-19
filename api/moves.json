@@ -1,5 +1,5 @@
 {
- "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-10-19T19:41:35.262558Z",
+ "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-10-19T21:09:21.114447Z",
  "data": {
   "updated_at": "2026-10-19T18:12:38.264603Z",
   "events": [
@@ -17,11 +17,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 88 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-19T17:34:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 175 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-19T17:34:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261019T181238-sensor-scotford",
-     "generated_at": "2026-10-19T19:40:53.934763Z",
+     "generated_at": "2026-10-19T21:07:55.167067Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -61,8 +61,8 @@
         {
          "asset": "scotford",
          "status": "NORMAL",
-         "last_frame_utc": "2026-10-19T19:10:00Z",
-         "delta_vs_baseline": 5.0,
+         "last_frame_utc": "2026-10-19T20:30:00Z",
+         "delta_vs_baseline": -2.0,
          "detail": "no step change"
         }
        ],
@@ -74,7 +74,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 88,
+      "minutes_since_claim": 175,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -94,7 +94,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 88 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-19T17:34:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 175 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-19T17:34:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {

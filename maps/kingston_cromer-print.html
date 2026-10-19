@@ -21,6 +21,10 @@
   .vintage { font-family: Helvetica, Arial, sans-serif; font-size: 8.5pt;
              color: #4d4d4d; text-align: right; }
   .cols { display: flex; gap: 7mm; margin-top: 5mm; }
+  .cols.stack { display: block; }
+  .cols.stack .map { width: 100%; }
+  .cols.stack .nums { margin-top: 5mm; columns: 2; column-gap: 8mm; }
+  .cols.stack .nums h2 { break-after: avoid; }
   .map { flex: 0 0 63%; }
   .nums { flex: 1; font-family: Helvetica, Arial, sans-serif; }
   .nums h2 { font-size: 9pt; letter-spacing: 1.6px; color: #4d4d4d;
@@ -73,7 +77,7 @@
 <text x="176.0" y="283.3" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Weyburn Pipeline</text>
 <polyline points="202.6,350.0 293.7,364.0 318.3,396.7" fill="none" stroke="#4a6b8a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" data-edge-id="westspur_midale_steelman" />
 <polygon points="281.8,362.2 271.5,365.0 272.8,356.4" fill="#4a6b8a" />
-<text x="267.8" y="353.1" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Westspur Pipeline</text>
+<text x="267.8" y="374.1" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Westspur Pipeline</text>
 <polyline points="318.3,396.7 424.3,357.9" fill="none" stroke="#4a6b8a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" data-edge-id="westspur_steelman_alida" />
 <polygon points="383.2,373.0 375.5,380.4 372.5,372.2" fill="#4a6b8a" />
 <polyline points="424.3,357.9 510.0,184.3" fill="none" stroke="#4a6b8a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" data-edge-id="westspur_alida_miw" />
@@ -84,13 +88,13 @@
 <text x="524.4" y="175.6" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">SES to LSB</text>
 <polyline points="510.0,184.3 520.1,192.3 515.8,186.7" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" data-edge-id="westspur_msm_miw_cromer" />
 <polygon points="524.1,195.4 513.8,192.8 519.1,186.0" fill="#b45309" />
-<text x="523.9" y="184.5" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">MSM to Midale</text>
+<text x="523.9" y="205.5" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">MSM to Midale</text>
 <polyline points="419.6,368.7 424.3,357.9" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-edge-id="alida_interconnection" />
 <polygon points="424.4,357.7 424.4,366.2 418.2,363.4" fill="#64748b" />
 <text x="428.0" y="357.3" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Alida Interconnection</text>
 <polyline points="559.9,140.0 515.8,186.7" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-edge-id="manitoba_gathering_virden_cromer" stroke-dasharray="5,4" />
 <polygon points="531.9,169.7 534.7,161.7 539.6,166.4" fill="#64748b" />
-<text x="546.1" y="155.0" font-size="10.5" text-anchor="start" style="fill:#191919" font-weight="600">Manitoba gathering</text>
+<text x="534.1" y="155.0" font-size="10.5" text-anchor="end" style="fill:#191919" font-weight="600">Manitoba gathering</text>
 <circle cx="137.4" cy="228.7" r="4.0" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="weyburn" />
 <text x="127.4" y="246.7" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Weyburn</text>
 <text x="127.4" y="261.7" font-size="10" text-anchor="end" style="fill:#4d4d4d">Westspur receipt terminal</text>
@@ -104,8 +108,8 @@
 <text x="414.3" y="379.9" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Alida</text>
 <text x="414.3" y="394.9" font-size="10" text-anchor="end" style="fill:#4d4d4d">Westspur receipt terminal</text>
 <circle cx="419.6" cy="368.7" r="4.0" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="secure_alida" />
-<text x="409.6" y="388.7" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Secure Alida Terminal</text>
-<text x="409.6" y="403.7" font-size="10" text-anchor="end" style="fill:#4d4d4d">Alida interconnection</text>
+<text x="429.6" y="388.7" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Secure Alida Terminal</text>
+<text x="429.6" y="403.7" font-size="10" text-anchor="start" style="fill:#4d4d4d">Alida interconnection</text>
 <circle cx="559.9" cy="140.0" r="2.4" fill="#ffffff" stroke="#191919" stroke-width="1.5" data-node-id="virden" />
 <text x="569.9" y="132.0" font-size="10" text-anchor="start" style="fill:#191919">Virden, MB</text>
 <text x="569.9" y="147.0" font-size="10" text-anchor="start" style="fill:#4d4d4d">Manitoba gathering hub</text>
@@ -113,8 +117,8 @@
 <text x="500.0" y="174.3" font-size="10" text-anchor="end" style="fill:#191919">Manitoba Interconnect (MIW)</text>
 <text x="500.0" y="189.3" font-size="10" text-anchor="end" style="fill:#4d4d4d">Butane blending point</text>
 <circle cx="515.8" cy="186.7" r="5.2" fill="#191919" stroke="#ffffff" stroke-width="1.6" data-node-id="cromer" />
-<text x="527.8" y="192.7" font-size="12" text-anchor="start" style="fill:#191919" font-weight="600">Cromer, MB</text>
-<text x="527.8" y="207.7" font-size="10" text-anchor="start" style="fill:#4d4d4d">Enbridge Mainline receipt; LSB and Midale commingling point</text>
+<text x="503.8" y="226.7" font-size="12" text-anchor="end" style="fill:#191919" font-weight="600">Cromer, MB</text>
+<text x="503.8" y="241.7" font-size="10" text-anchor="end" style="fill:#4d4d4d">Enbridge Mainline receipt; LSB and Midale commingling point</text>
 <text x="26.0" y="402.0" font-size="11" text-anchor="start" style="fill:#191919" font-weight="600">Lines</text>
 <line x1="26" y1="413" x2="48" y2="413" stroke="#94a3b8" stroke-width="2.4" stroke-dasharray="5,4" />
 <text x="54.0" y="416.0" font-size="10" text-anchor="start" style="fill:#4d4d4d">Field supply (schematic, inferred)</text>
