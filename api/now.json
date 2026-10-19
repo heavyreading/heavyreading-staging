@@ -135,13 +135,13 @@
   "balance_highlights": [
    {
     "month": "2026-11",
-    "requires_price_response_kbd": 52.2,
-    "pipe_spare_kbd": -52.2
+    "requires_price_response_kbd": 30.8,
+    "pipe_spare_kbd": -30.8
    },
    {
     "month": "2026-12",
-    "requires_price_response_kbd": 94.6,
-    "pipe_spare_kbd": -94.6
+    "requires_price_response_kbd": 73.7,
+    "pipe_spare_kbd": -73.7
    }
   ],
   "latest_digest": "2026-10-16"
