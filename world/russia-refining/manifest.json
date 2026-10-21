@@ -2,7 +2,7 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-10-20",
+ "built_at": "2026-10-21",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -40,6 +40,18 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "Russian diesel cargoes are returning to their main previous customers following the US-brokered lifting of Moscow's export ban, with at least two tankers signalling voyages to Turkey and Brazil in recent days, Reuters reported on Oct 20, citing shipping data from Kpler and LSEG. The tanker Leruo is signalling Manaus, Brazil, after departing the Baltic port of Primorsk on Oct 16, following the tanker Dolunay, which left Primorsk with a diesel cargo on Oct 14 bound for Alanya, Turkey. Turkey has received about 34 percent of Russian diesel loadings so far this year at 95,000 b/d and Brazil about 24 percent at 66,000 b/d, Kpler data show. Russia partially lifted the diesel export ban starting Oct 10; it had reduced exports over the summer before imposing the ban as it grappled with widespread Ukrainian attacks on its oil refineries.",
+   "vintage": "Oct 20, 2026",
+   "source": "Reuters (via Archyworldys)",
+   "source_url": "https://www.archyworldys.com/russian-diesel-returns-to-main-customers-after-export-ban-lift/"
+  },
+  {
+   "text": "Russia's crude oil production increased by 65,000 b/d in September to 8.43 million b/d, but remained about 870,000 b/d below a year ago, Reuters reported on Oct 20, citing the International Energy Agency's assessment published last week. The year-on-year shortfall sits alongside the refinery outage campaign and the diesel export disruption tracked on this page.",
+   "vintage": "Oct 20, 2026",
+   "source": "Reuters",
+   "source_url": "https://965wtou.com/2026/10/19/oil-eases-as-markets-assess-potential-waiver-on-russian-energy-middle-east-supply-risks/"
   },
   {
    "text": "Oil prices fell on Oct 19 as traders weighed possibly higher Russian supplies after US sanctions relief on Friday, Reuters reported, with Brent crude futures down $2.29, or 2.08 percent, to $107.57 a barrel and US West Texas Intermediate down $1.95, or 1.92 percent, to $99.46, both pulling back from five-month highs settled on Friday. The waiver follows the deal Trump struck with President Putin for Russia to export diesel to the United States and other countries, starting at about 2.3 million barrels this month before rising to about 7.6 million barrels monthly, Reuters said, adding that Zelenskiy said the US actions will hurt Ukraine and that analysts said mixed messaging on the waiver's details and duration has created uncertainty, so the market is unlikely to fully price in a sustained increase in supply.",
@@ -318,6 +330,16 @@
    "publisher": "Maritime Professional (citing traders)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "publisher": "Reuters (via Archyworldys)",
+   "vintage": "",
+   "url": "https://www.archyworldys.com/russian-diesel-returns-to-main-customers-after-export-ban-lift/"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://965wtou.com/2026/10/19/oil-eases-as-markets-assess-potential-waiver-on-russian-energy-middle-east-supply-risks/"
   },
   {
    "publisher": "Reuters",

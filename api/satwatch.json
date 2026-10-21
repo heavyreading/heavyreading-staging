@@ -1,7 +1,7 @@
 {
- "vintage": "Sat Watch: Meteosat IODC geostationary hotspot polls (EUMETView public WMS, 15-min frames, styled-render palette-gray step detection) + NASA FIRMS rechecks, built 2026-10-20T12:34:13.102715Z",
+ "vintage": "Sat Watch: Meteosat IODC geostationary hotspot polls (EUMETView public WMS, 15-min frames, styled-render palette-gray step detection) + NASA FIRMS rechecks, built 2026-10-21T08:15:24.060849Z",
  "data": {
-  "updated_at": "2026-10-20T12:19:12.886940Z",
+  "updated_at": "2026-10-21T08:00:23.084136Z",
   "assets": [
    {
     "key": "yanbu",
@@ -13,32 +13,32 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T10:00:00Z",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:45:00Z",
     "thermal": {
-     "diff_p995": 104.0,
+     "diff_p995": 103.0,
      "baseline_diff_med": 104.0,
-     "delta_vs_baseline": 0.0,
+     "delta_vs_baseline": -1.0,
      "fire_px": 0,
-     "baseline_samples": 40
+     "baseline_samples": 46
     },
     "baseline": {
-     "looks_total": 234,
-     "looks_clear": 234,
+     "looks_total": 293,
+     "looks_clear": 293,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 34.8
+     "maturity_pct": 43.6
     },
     "firms": {
-     "last_pass_utc": "2026-10-20T00:01:00Z",
+     "last_pass_utc": "2026-10-20T23:44:00Z",
      "next_pass_windows": [
-      "~2026-10-20T12:09:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T13:05:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:08:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:04:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 7.0
+     "looks_per_day": 6.5
     },
     "firms_archive": {
-     "rows": 586,
+     "rows": 590,
      "first_day": "2026-04-01",
      "last_day": "2026-10-20",
      "key_used": true
@@ -64,32 +64,32 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T10:00:00Z",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:45:00Z",
     "thermal": {
-     "diff_p995": 36.0,
-     "baseline_diff_med": 48.0,
-     "delta_vs_baseline": -12.0,
+     "diff_p995": 49.0,
+     "baseline_diff_med": 53.5,
+     "delta_vs_baseline": -4.5,
      "fire_px": 0,
-     "baseline_samples": 38
+     "baseline_samples": 46
     },
     "baseline": {
-     "looks_total": 238,
-     "looks_clear": 212,
+     "looks_total": 298,
+     "looks_clear": 265,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 31.5
+     "maturity_pct": 39.4
     },
     "firms": {
-     "last_pass_utc": "2026-10-20T00:01:00Z",
+     "last_pass_utc": "2026-10-20T23:41:00Z",
      "next_pass_windows": [
-      "~2026-10-20T12:09:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T13:05:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:14:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:11:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 9.0
+     "looks_per_day": 8.5
     },
     "firms_archive": {
-     "rows": 11868,
+     "rows": 11843,
      "first_day": "2026-04-01",
      "last_day": "2026-10-20",
      "key_used": true
@@ -115,34 +115,34 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T10:00:00Z",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:45:00Z",
     "thermal": {
-     "diff_p995": 100.0,
+     "diff_p995": 101.0,
      "baseline_diff_med": 100.0,
-     "delta_vs_baseline": 0.0,
+     "delta_vs_baseline": 1.0,
      "fire_px": 0,
-     "baseline_samples": 39
+     "baseline_samples": 48
     },
     "baseline": {
-     "looks_total": 234,
-     "looks_clear": 234,
+     "looks_total": 293,
+     "looks_clear": 293,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 34.8
+     "maturity_pct": 43.6
     },
     "firms": {
-     "last_pass_utc": "2026-10-19T23:03:00Z",
+     "last_pass_utc": "2026-10-20T23:41:00Z",
      "next_pass_windows": [
-      "~2026-10-20T12:07:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T13:03:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:51:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:46:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 7.0
+     "looks_per_day": 6.5
     },
     "firms_archive": {
-     "rows": 1568,
+     "rows": 1566,
      "first_day": "2026-04-01",
-     "last_day": "2026-10-19",
+     "last_day": "2026-10-20",
      "key_used": true
     },
     "thermal_presence": {
@@ -166,34 +166,34 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T10:00:00Z",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:45:00Z",
     "thermal": {
-     "diff_p995": 103.0,
-     "baseline_diff_med": 102.0,
-     "delta_vs_baseline": 1.0,
+     "diff_p995": 105.0,
+     "baseline_diff_med": 103.0,
+     "delta_vs_baseline": 2.0,
      "fire_px": 0,
-     "baseline_samples": 37
+     "baseline_samples": 46
     },
     "baseline": {
-     "looks_total": 237,
-     "looks_clear": 233,
+     "looks_total": 297,
+     "looks_clear": 292,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 34.7
+     "maturity_pct": 43.5
     },
     "firms": {
-     "last_pass_utc": "2026-10-19T23:03:00Z",
+     "last_pass_utc": "2026-10-20T23:41:00Z",
      "next_pass_windows": [
-      "~2026-10-20T12:14:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T13:10:30Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:51:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:46:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 6.5
     },
     "firms_archive": {
-     "rows": 547,
+     "rows": 543,
      "first_day": "2026-04-01",
-     "last_day": "2026-10-19",
+     "last_day": "2026-10-20",
      "key_used": true
     },
     "thermal_presence": {
@@ -217,34 +217,34 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T10:00:00Z",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:45:00Z",
     "thermal": {
-     "diff_p995": 107.0,
+     "diff_p995": 105.0,
      "baseline_diff_med": 105.0,
-     "delta_vs_baseline": 2.0,
+     "delta_vs_baseline": 0.0,
      "fire_px": 0,
-     "baseline_samples": 36
+     "baseline_samples": 46
     },
     "baseline": {
-     "looks_total": 238,
-     "looks_clear": 209,
+     "looks_total": 297,
+     "looks_clear": 268,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 31.1
+     "maturity_pct": 39.9
     },
     "firms": {
-     "last_pass_utc": "2026-10-19T23:03:00Z",
+     "last_pass_utc": "2026-10-21T05:50:00Z",
      "next_pass_windows": [
-      "~2026-10-20T12:07:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T13:03:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:41:00Z (\u00b10.8 h, region-cluster cadence 1.4 h)",
+      "~2026-10-21T10:06:30Z (\u00b10.8 h, region-cluster cadence 1.4 h)"
      ],
      "looks_per_day": 7.0
     },
     "firms_archive": {
      "rows": 151,
      "first_day": "2026-04-01",
-     "last_day": "2026-10-19",
+     "last_day": "2026-10-20",
      "key_used": true
     },
     "thermal_presence": {
@@ -268,34 +268,34 @@
     "direction": "both",
     "status": "BLIND_ERROR",
     "status_reason": "geo fetch failed: ValueError",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T11:40:00Z",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:10:00Z",
     "thermal": {
-     "diff_p995": 158.0,
-     "baseline_diff_med": 158.0,
-     "delta_vs_baseline": 0.0,
+     "diff_p995": 164.0,
+     "baseline_diff_med": 196.0,
+     "delta_vs_baseline": -32.0,
      "fire_px": 0,
-     "baseline_samples": 31
+     "baseline_samples": 38
     },
     "baseline": {
-     "looks_total": 161,
-     "looks_clear": 161,
+     "looks_total": 201,
+     "looks_clear": 201,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 24.0
+     "maturity_pct": 29.9
     },
     "firms": {
-     "last_pass_utc": "2026-10-20T09:05:00Z",
+     "last_pass_utc": "2026-10-20T22:20:00Z",
      "next_pass_windows": [
-      "~2026-10-20T12:55:00Z (\u00b10.8 h, region-cluster cadence 1.0 h)",
-      "~2026-10-20T13:52:30Z (\u00b10.8 h, region-cluster cadence 1.0 h)"
+      "~2026-10-21T08:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:32:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 10.0
+     "looks_per_day": 11.0
     },
     "firms_archive": {
-     "rows": 436,
+     "rows": 428,
      "first_day": "2026-01-15",
-     "last_day": "2026-10-19",
+     "last_day": "2026-10-20",
      "key_used": true
     },
     "thermal_presence": {
@@ -381,36 +381,36 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T12:00:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: ValueError",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:10:00Z",
     "thermal": {
-     "diff_p995": 159.0,
-     "baseline_diff_med": 159.0,
-     "delta_vs_baseline": 0.0,
+     "diff_p995": 148.0,
+     "baseline_diff_med": 195.5,
+     "delta_vs_baseline": -47.5,
      "fire_px": 0,
-     "baseline_samples": 31
+     "baseline_samples": 32
     },
     "baseline": {
-     "looks_total": 167,
-     "looks_clear": 167,
+     "looks_total": 205,
+     "looks_clear": 205,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 24.9
+     "maturity_pct": 30.5
     },
     "firms": {
-     "last_pass_utc": "2026-10-20T09:05:00Z",
+     "last_pass_utc": "2026-10-20T22:20:00Z",
      "next_pass_windows": [
-      "~2026-10-20T12:55:00Z (\u00b10.8 h, region-cluster cadence 1.0 h)",
-      "~2026-10-20T13:52:30Z (\u00b10.8 h, region-cluster cadence 1.0 h)"
+      "~2026-10-21T08:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:32:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 10.0
+     "looks_per_day": 11.0
     },
     "firms_archive": {
-     "rows": 588,
+     "rows": 585,
      "first_day": "2026-01-15",
-     "last_day": "2026-10-19",
+     "last_day": "2026-10-20",
      "key_used": true
     },
     "thermal_presence": {
@@ -478,34 +478,34 @@
     "direction": "both",
     "status": "BLIND_ERROR",
     "status_reason": "geo fetch failed: ValueError",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T11:40:00Z",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:30:00Z",
     "thermal": {
-     "diff_p995": 159.0,
-     "baseline_diff_med": 158.0,
-     "delta_vs_baseline": 1.0,
+     "diff_p995": 192.0,
+     "baseline_diff_med": 193.5,
+     "delta_vs_baseline": -1.5,
      "fire_px": 0,
-     "baseline_samples": 37
+     "baseline_samples": 36
     },
     "baseline": {
-     "looks_total": 158,
-     "looks_clear": 158,
+     "looks_total": 197,
+     "looks_clear": 197,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 23.5
+     "maturity_pct": 29.3
     },
     "firms": {
-     "last_pass_utc": "2026-10-19T21:53:00Z",
+     "last_pass_utc": "2026-10-20T22:20:00Z",
      "next_pass_windows": [
-      "~2026-10-20T11:38:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T12:33:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:32:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 10.0
+     "looks_per_day": 11.0
     },
     "firms_archive": {
-     "rows": 41,
+     "rows": 40,
      "first_day": "2026-01-15",
-     "last_day": "2026-10-18",
+     "last_day": "2026-09-21",
      "key_used": true
     },
     "thermal_presence": {
@@ -555,31 +555,31 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T12:00:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: ValueError",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T06:30:00Z",
     "thermal": {
-     "diff_p995": 161.0,
-     "baseline_diff_med": 161.0,
-     "delta_vs_baseline": 0.0,
+     "diff_p995": 144.0,
+     "baseline_diff_med": 196.0,
+     "delta_vs_baseline": -52.0,
      "fire_px": 0,
-     "baseline_samples": 29
+     "baseline_samples": 34
     },
     "baseline": {
-     "looks_total": 169,
-     "looks_clear": 169,
+     "looks_total": 204,
+     "looks_clear": 204,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 25.1
+     "maturity_pct": 30.4
     },
     "firms": {
-     "last_pass_utc": "2026-10-19T21:53:00Z",
+     "last_pass_utc": "2026-10-20T22:20:00Z",
      "next_pass_windows": [
-      "~2026-10-20T11:38:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T12:33:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:32:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 10.0
+     "looks_per_day": 11.0
     },
     "firms_archive": {
      "rows": 0,
@@ -618,36 +618,36 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T12:00:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: ValueError",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T06:30:00Z",
     "thermal": {
-     "diff_p995": 176.0,
-     "baseline_diff_med": 162.33,
-     "delta_vs_baseline": 13.67,
+     "diff_p995": 158.0,
+     "baseline_diff_med": 174.0,
+     "delta_vs_baseline": -16.0,
      "fire_px": 0,
-     "baseline_samples": 32
+     "baseline_samples": 31
     },
     "baseline": {
-     "looks_total": 168,
-     "looks_clear": 168,
+     "looks_total": 204,
+     "looks_clear": 204,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 25.0
+     "maturity_pct": 30.4
     },
     "firms": {
-     "last_pass_utc": "2026-10-19T21:53:00Z",
+     "last_pass_utc": "2026-10-20T22:18:00Z",
      "next_pass_windows": [
-      "~2026-10-20T11:38:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T12:33:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:23:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:18:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 11.0
     },
     "firms_archive": {
      "rows": 2148,
      "first_day": "2025-01-08",
-     "last_day": "2026-10-18",
+     "last_day": "2026-10-20",
      "key_used": true
     },
     "thermal_presence": {
@@ -701,36 +701,36 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T12:00:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: ValueError",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:10:00Z",
     "thermal": {
-     "diff_p995": 174.0,
-     "baseline_diff_med": 169.5,
-     "delta_vs_baseline": 4.5,
+     "diff_p995": 161.0,
+     "baseline_diff_med": 173.5,
+     "delta_vs_baseline": -12.5,
      "fire_px": 0,
-     "baseline_samples": 30
+     "baseline_samples": 38
     },
     "baseline": {
-     "looks_total": 159,
-     "looks_clear": 159,
+     "looks_total": 191,
+     "looks_clear": 191,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 23.7
+     "maturity_pct": 28.4
     },
     "firms": {
-     "last_pass_utc": "2026-10-19T21:53:00Z",
+     "last_pass_utc": "2026-10-20T22:18:00Z",
      "next_pass_windows": [
-      "~2026-10-20T11:38:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T12:33:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:23:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:18:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 11.0
     },
     "firms_archive": {
-     "rows": 292,
+     "rows": 293,
      "first_day": "2026-01-15",
-     "last_day": "2026-10-18",
+     "last_day": "2026-10-20",
      "key_used": true
     },
     "thermal_presence": {
@@ -780,36 +780,36 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "BLIND_ERROR",
-    "status_reason": "geo fetch failed: ValueError",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T11:40:00Z",
+    "status": "NORMAL",
+    "status_reason": "no step change",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:40:00Z",
     "thermal": {
-     "diff_p995": 192.0,
-     "baseline_diff_med": 189.0,
-     "delta_vs_baseline": 3.0,
+     "diff_p995": 166.0,
+     "baseline_diff_med": 190.0,
+     "delta_vs_baseline": -24.0,
      "fire_px": 0,
-     "baseline_samples": 31
+     "baseline_samples": 40
     },
     "baseline": {
-     "looks_total": 147,
-     "looks_clear": 147,
+     "looks_total": 189,
+     "looks_clear": 189,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 21.9
+     "maturity_pct": 28.1
     },
     "firms": {
-     "last_pass_utc": "2026-10-19T21:53:00Z",
+     "last_pass_utc": "2026-10-20T21:31:00Z",
      "next_pass_windows": [
-      "~2026-10-20T11:38:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T12:33:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:31:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:26:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 10.0
+     "looks_per_day": 11.0
     },
     "firms_archive": {
-     "rows": 43,
+     "rows": 44,
      "first_day": "2026-04-06",
-     "last_day": "2026-09-27",
+     "last_day": "2026-10-20",
      "key_used": true
     },
     "thermal_presence": {
@@ -843,36 +843,36 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "up",
-    "status": "BLIND_ERROR",
-    "status_reason": "geo fetch failed: ValueError",
-    "last_check_utc": "2026-10-20T12:19:12.886940Z",
-    "last_frame_utc": "2026-10-20T11:40:00Z",
+    "status": "NORMAL",
+    "status_reason": "no step change",
+    "last_check_utc": "2026-10-21T08:00:23.084136Z",
+    "last_frame_utc": "2026-10-21T07:40:00Z",
     "thermal": {
-     "diff_p995": 144.0,
-     "baseline_diff_med": 148.5,
-     "delta_vs_baseline": -4.5,
+     "diff_p995": 141.0,
+     "baseline_diff_med": 144.0,
+     "delta_vs_baseline": -3.0,
      "fire_px": 0,
-     "baseline_samples": 34
+     "baseline_samples": 40
     },
     "baseline": {
-     "looks_total": 168,
-     "looks_clear": 168,
+     "looks_total": 205,
+     "looks_clear": 205,
      "mature": false,
      "mature_looks": 672,
-     "maturity_pct": 25.0
+     "maturity_pct": 30.5
     },
     "firms": {
-     "last_pass_utc": "2026-10-19T22:37:00Z",
+     "last_pass_utc": "2026-10-20T22:18:00Z",
      "next_pass_windows": [
-      "~2026-10-20T11:27:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-10-20T12:22:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-10-21T08:34:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-10-21T09:30:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 9.5
     },
     "firms_archive": {
-     "rows": 28,
+     "rows": 27,
      "first_day": "2026-03-26",
-     "last_day": "2026-10-18",
+     "last_day": "2026-10-15",
      "key_used": true
     },
     "thermal_presence": {
@@ -889,353 +889,353 @@
   ],
   "event_log": [
    {
-    "ts": "2026-10-20T12:20:07.639082Z",
+    "ts": "2026-10-21T08:16:46.716379Z",
     "kind": "RESOLUTION",
-    "detail": "claim claim-20261020T070444-sensor-suncor resolved FALSE by FIRMS (suncor)",
-    "asset": "suncor",
-    "claim_id": "claim-20261020T070444-sensor-suncor"
-   },
-   {
-    "ts": "2026-10-20T12:20:07.635239Z",
-    "kind": "RESOLUTION",
-    "detail": "claim claim-20261020T070444-sensor-syncrude resolved FALSE by FIRMS (syncrude)",
-    "asset": "syncrude",
-    "claim_id": "claim-20261020T070444-sensor-syncrude"
-   },
-   {
-    "ts": "2026-10-20T11:11:29.356881Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T11:03:29.247730Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T10:50:28.726874Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T10:34:31.539805Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T08:27:41.777068Z",
-    "kind": "RESOLUTION",
-    "detail": "claim claim-20261020T032423-sensor-hormuz resolved FALSE by FIRMS (hormuz)",
+    "detail": "claim claim-20261021T031424-sensor-hormuz resolved FALSE by FIRMS (hormuz)",
     "asset": "hormuz",
-    "claim_id": "claim-20261020T032423-sensor-hormuz"
+    "claim_id": "claim-20261021T031424-sensor-hormuz"
    },
    {
-    "ts": "2026-10-20T07:43:07.575546Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 43 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T07:35:55.383033Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 43 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T07:21:04.986556Z",
-    "kind": "RESOLUTION",
-    "detail": "claim claim-20261019T230755-sensor-lloydminster resolved FALSE by FIRMS (lloydminster)",
-    "asset": "lloydminster",
-    "claim_id": "claim-20261019T230755-sensor-lloydminster"
-   },
-   {
-    "ts": "2026-10-20T07:05:49.116708Z",
-    "kind": "RESTART_STATE",
-    "detail": "Syncrude Mildred Lake upgrader (oil sands): heat left the floor (spike) \u2014 startup transient; a spike here is common to trips and restarts, state decides",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T07:05:46.440144Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 62 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T07:05:46.439926Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 29 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T06:50:40.725047Z",
-    "kind": "RESTART_STATE",
-    "detail": "Syncrude Mildred Lake upgrader (oil sands): STARTUP_ABORTED: heat fell back to the floor \u2014 maintenance flaring without a return; still DOWN, not a return",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T06:50:38.249975Z",
-    "kind": "RESOLUTION",
-    "detail": "claim claim-20261019T223754-sensor-suncor resolved FALSE by FIRMS (suncor)",
-    "asset": "suncor",
-    "claim_id": "claim-20261019T223754-sensor-suncor"
-   },
-   {
-    "ts": "2026-10-20T06:50:38.247743Z",
-    "kind": "RESOLUTION",
-    "detail": "claim claim-20261019T223754-sensor-syncrude resolved FALSE by FIRMS (syncrude)",
-    "asset": "syncrude",
-    "claim_id": "claim-20261019T223754-sensor-syncrude"
-   },
-   {
-    "ts": "2026-10-20T06:50:37.021317Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "scotford",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T06:50:37.021305Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T06:50:37.021249Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 48 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T06:35:35.786343Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T05:55:45.895848Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "scotford",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T05:25:59.941825Z",
+    "ts": "2026-10-21T05:37:11.284514Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
     "asset": "east-west",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T05:11:32.997572Z",
+    "ts": "2026-10-21T05:22:15.262178Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "east-west",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T05:07:00.892675Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "east-west",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:57:42.682635Z",
     "kind": "RESOLUTION",
-    "detail": "claim claim-20261019T235720-sensor-strathcona resolved FALSE by FIRMS (strathcona)",
-    "asset": "strathcona",
-    "claim_id": "claim-20261019T235720-sensor-strathcona"
+    "detail": "claim claim-20261021T013906-sensor-horizon resolved FALSE by FIRMS (horizon)",
+    "asset": "horizon",
+    "claim_id": "claim-20261021T013906-sensor-horizon"
    },
    {
-    "ts": "2026-10-20T04:46:32.536197Z",
+    "ts": "2026-10-21T04:57:42.680854Z",
     "kind": "RESOLUTION",
-    "detail": "claim claim-20261019T234220-sensor-scotford resolved FALSE by FIRMS (scotford)",
-    "asset": "scotford",
-    "claim_id": "claim-20261019T234220-sensor-scotford"
+    "detail": "claim claim-20261020T233903-sensor-kearl resolved FALSE by FIRMS (kearl)",
+    "asset": "kearl",
+    "claim_id": "claim-20261020T233903-sensor-kearl"
    },
    {
-    "ts": "2026-10-20T04:29:36.502151Z",
-    "kind": "POLL_BLIND",
-    "detail": "EUMETView capabilities unreachable: IncompleteRead",
-    "asset": null,
+    "ts": "2026-10-21T04:57:24.341637Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "east-west",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T04:14:38.707182Z",
-    "kind": "POLL_BLIND",
-    "detail": "EUMETView capabilities unreachable: IncompleteRead",
-    "asset": null,
+    "ts": "2026-10-21T04:37:18.873573Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "east-west",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T04:01:15.592778Z",
+    "ts": "2026-10-21T04:37:18.873554Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "yanbu",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:30:14.089740Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "east-west",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:30:14.089721Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "yanbu",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:15:23.017105Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "kharg",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:15:23.017097Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "ras-tanura",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:15:23.017085Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "east-west",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:15:23.017054Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "yanbu",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:00:20.040819Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "kharg",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:00:20.040805Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "ras-tanura",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:00:20.040786Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "east-west",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T04:00:20.040763Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "yanbu",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T03:45:09.374020Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
     "asset": "hormuz",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T03:55:13.855583Z",
+    "ts": "2026-10-21T03:45:09.374012Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "hormuz",
+    "asset": "kharg",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T03:40:08.146818Z",
+    "ts": "2026-10-21T03:45:09.374001Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "hormuz",
+    "asset": "ras-tanura",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T03:25:03.281193Z",
+    "ts": "2026-10-21T03:45:09.373970Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "east-west",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T03:31:25.306433Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +76.5 palette-gray levels vs baseline median 10.5",
+    "detail": "IR fire-channel differential stepped +92.0 palette-gray levels vs baseline median 13.0",
     "asset": "hormuz",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T03:10:32.563060Z",
+    "ts": "2026-10-21T03:31:25.306422Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "hormuz",
+    "asset": "kharg",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T02:56:26.918771Z",
-    "kind": "POLL_BLIND",
-    "detail": "EUMETView capabilities unreachable: IncompleteRead",
-    "asset": null,
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T02:41:26.360884Z",
-    "kind": "POLL_BLIND",
-    "detail": "EUMETView capabilities unreachable: IncompleteRead",
-    "asset": null,
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T02:26:26.767783Z",
-    "kind": "POLL_BLIND",
-    "detail": "EUMETView capabilities unreachable: IncompleteRead",
-    "asset": null,
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T01:36:41.442036Z",
+    "ts": "2026-10-21T03:31:25.306395Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "syncrude",
+    "asset": "ras-tanura",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T01:06:41.062567Z",
+    "ts": "2026-10-21T03:15:18.029226Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 51 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "scotford",
+    "detail": "IR fire-channel differential stepped +79.0 palette-gray levels vs baseline median 8.0",
+    "asset": "hormuz",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T01:06:41.062548Z",
+    "ts": "2026-10-21T03:15:18.029208Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "syncrude",
+    "asset": "ras-tanura",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T00:45:32.978761Z",
+    "ts": "2026-10-21T03:00:28.327260Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "scotford",
+    "asset": "hormuz",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T00:45:32.978742Z",
+    "ts": "2026-10-21T02:15:22.176015Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "abnormal QUIET: thermal level 39 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "kearl",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T01:59:58.370397Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "abnormal QUIET: thermal level 64 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "kearl",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T01:45:10.584315Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
     "asset": "kearl",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T00:30:25.772489Z",
+    "ts": "2026-10-21T01:45:10.584266Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 41 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "lloydminster",
+    "detail": "abnormal QUIET: thermal level 39 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "horizon",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T00:30:25.772473Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 29 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "strathcona",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T00:30:25.772418Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 47 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T00:15:34.609294Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 43 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "scotford",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-20T00:15:34.609257Z",
+    "ts": "2026-10-21T01:45:10.584257Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
     "asset": "suncor",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T00:12:40.991303Z",
-    "kind": "PLAN_DEVIATION",
-    "detail": "Syncrude Mildred Lake upgrader (oil sands): PLAN_DEVIATION EXTENDED \u2014 window 2026-08-20->2026-10-16 (coker turnaround (planned, ~50 days)) is still thermally DOWN past its scheduled end 2026-10-16 \u2014 extension in progress (sensor-estimated)",
+    "ts": "2026-10-21T01:45:10.584238Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
     "asset": "syncrude",
     "claim_id": null
    },
    {
-    "ts": "2026-10-20T00:12:23.642214Z",
+    "ts": "2026-10-21T01:39:45.059338Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "kearl",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T01:39:45.059119Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "abnormal QUIET: thermal level 39 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "horizon",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T01:39:45.059100Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T01:09:42.885855Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "horizon",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-21T00:25:22.844259Z",
+    "kind": "RESOLUTION",
+    "detail": "claim claim-20261020T190931-sensor-lloydminster resolved FALSE by FIRMS (lloydminster)",
+    "asset": "lloydminster",
+    "claim_id": "claim-20261020T190931-sensor-lloydminster"
+   },
+   {
+    "ts": "2026-10-20T23:39:42.358806Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "abnormal QUIET: thermal level 37 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "kearl",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-20T23:24:52.500382Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "kearl",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-20T23:19:27.807880Z",
+    "kind": "RESOLUTION",
+    "detail": "claim claim-20261020T200931-sensor-strathcona resolved FALSE by FIRMS (strathcona)",
+    "asset": "strathcona",
+    "claim_id": "claim-20261020T200931-sensor-strathcona"
+   },
+   {
+    "ts": "2026-10-20T23:19:27.805390Z",
+    "kind": "RESOLUTION",
+    "detail": "claim claim-20261020T200931-sensor-scotford resolved FALSE by FIRMS (scotford)",
+    "asset": "scotford",
+    "claim_id": "claim-20261020T200931-sensor-scotford"
+   },
+   {
+    "ts": "2026-10-20T23:19:10.670268Z",
     "kind": "POLL_BLIND",
     "detail": "EUMETView capabilities unreachable: IncompleteRead",
     "asset": null,
     "claim_id": null
    },
    {
-    "ts": "2026-10-19T23:58:21.574665Z",
+    "ts": "2026-10-20T23:04:10.563560Z",
+    "kind": "POLL_BLIND",
+    "detail": "EUMETView capabilities unreachable: IncompleteRead",
+    "asset": null,
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-20T22:50:28.924310Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 47 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "detail": "abnormal QUIET: thermal level 25 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "lloydminster",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-10-20T22:50:28.924296Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "abnormal QUIET: thermal level 29 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
     "asset": "strathcona",
     "claim_id": null
    },
    {
-    "ts": "2026-10-19T23:58:21.574579Z",
+    "ts": "2026-10-20T22:50:28.924245Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 60 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "detail": "abnormal QUIET: thermal level 25 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
     "asset": "scotford",
     "claim_id": null
    },
    {
-    "ts": "2026-10-19T23:43:38.062375Z",
+    "ts": "2026-10-20T22:50:28.924225Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "westridge",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-10-19T23:43:38.062176Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 61 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "scotford",
+    "asset": "suncor",
     "claim_id": null
    }
   ],
