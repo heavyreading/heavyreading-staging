@@ -2,7 +2,7 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-10-21",
+ "built_at": "2026-10-22",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -148,6 +148,18 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "A fire broke out at an oil pumping station near Michurinsk in Russia's Tambov Oblast after an overnight drone attack on Oct 20, according to Telegram monitoring channels reported by the Kyiv Independent via EuropeSays. Tambov Oblast Governor Yevgeny Pervyshov said a Ukrainian drone attack caused a fire on the territory of one of the enterprises in Michurinsky District without naming the facility, claimed four drones were shot down, and reported no casualties. Independent Russian outlet ASTRA said the fire likely started at the Nikolskoye-1 linear production and dispatch station near Novonikolskoye, a Transneft facility on the Druzhba pipeline network about 350 to 400 kilometres from the front line, which Ukraine previously attacked on Aug 18, 2025, when the strike halted Druzhba operation. Ukrainian authorities did not confirm the attack and the Kyiv Independent could not independently verify a fire at the station.",
+   "vintage": "Oct 20, 2026",
+   "source": "EuropeSays (citing Kyiv Independent)",
+   "source_url": "https://www.europesays.com/russia/78084/"
+  },
+  {
+   "text": "Reports on Oct 20 confirmed the damage from the Oct 17-18 Ukrainian drone attack on St. Petersburg, Tank Storage Magazine reported: at the St. Petersburg oil terminal, three storage tanks caught fire, with two damaged and one completely destroyed; at the Ruchyi oil depot, one vertical steel tank was destroyed and another damaged. A large scale fire at the Ozon logistics hub affected more than 10,000 square metres, and the Southern Fairway Bridge and the Finland Railway Bridge were both damaged. One person was confirmed killed and 15 others injured in the overall attack, which involved over 1,000 drones launched at the terminal, the depot, the logistics hub and the bridges.",
+   "vintage": "Oct 20, 2026",
+   "source": "Tank Storage Magazine",
+   "source_url": "https://tankstorage.com/news/ukrainian-drones-strike-st-petersburg-oil-terminal-and-other-infrastructure/"
   },
   {
    "text": "The St. Petersburg oil terminal struck on Oct 18 exports about 120,000 b/d of refined products, mostly fuel oil, according to data from Kpler cited by CNBC on Oct 19, and it is unclear how bad the damage at the facility is. Ukraine briefly paused strikes on Russian energy facilities after President Trump declared on Oct 11 that Kyiv and Moscow had agreed to a truce, but Russia continued to strike Ukrainian energy infrastructure after that announcement and President Zelenskiy said last week Kyiv would resume strikes on Russian facilities in retaliation.",
@@ -420,6 +432,16 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "EuropeSays (citing Kyiv Independent)",
+   "vintage": "",
+   "url": "https://www.europesays.com/russia/78084/"
+  },
+  {
+   "publisher": "Tank Storage Magazine",
+   "vintage": "",
+   "url": "https://tankstorage.com/news/ukrainian-drones-strike-st-petersburg-oil-terminal-and-other-infrastructure/"
   },
   {
    "publisher": "CNBC (via GhanaMMA)",
