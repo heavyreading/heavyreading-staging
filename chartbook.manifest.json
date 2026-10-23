@@ -2,7 +2,7 @@
  "page": "/chartbook.html",
  "title": "Chartbook",
  "dek": "Heavy Reading's standing chartbook: fund positioning, U.S. inventories in seasonal standard deviations, prices and the WCS differential, crack spreads, Alberta storage, egress, apportionment, and a rotating bench for whatever has gone extreme.",
- "built_at": "2026-10-22",
+ "built_at": "2026-10-23",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -48,8 +48,8 @@
    "source_url": ""
   },
   {
-   "text": "WTI front month closed at $99.88 on October 22, 2026, in the 94th percentile of daily closes since 2020 and +5.29 dollars over the last thirty days.",
-   "vintage": "Exchange front-month futures, via the daily crack file. Data through October 22, 2026.",
+   "text": "WTI front month closed at $100.77 on October 23, 2026, in the 94th percentile of daily closes since 2020 and +8.61 dollars over the last thirty days.",
+   "vintage": "Exchange front-month futures, via the daily crack file. Data through October 23, 2026.",
    "source": "Exchange futures (via crack_321 daily file)",
    "source_url": ""
   },
@@ -60,8 +60,8 @@
    "source_url": ""
   },
   {
-   "text": "The 3-2-1 crack spread printed $52.30 a barrel on October 22, 2026, in the 91st percentile of daily readings since 2020.",
-   "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through October 22, 2026.",
+   "text": "The 3-2-1 crack spread printed $53.23 a barrel on October 23, 2026, in the 92nd percentile of daily readings since 2020.",
+   "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through October 23, 2026.",
    "source": "Exchange futures (computed)",
    "source_url": ""
   },

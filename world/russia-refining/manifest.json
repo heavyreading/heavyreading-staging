@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "The first tanker loaded with Russian diesel is heading for New York after Moscow agreed to resume fuel exports under the arrangement between Russian President Vladimir Putin and US President Donald Trump, according to LSEG shipping data cited by Reuters on Oct 23 via EuropeSays. The medium-sized vessel Agioi Fanendes took on 40,000 metric tons of ultra-low sulfur diesel at Russia's Baltic port of Primorsk on Oct 22 and is expected to arrive in the United States on Nov 7. The US Treasury Department issued a sanctions waiver allowing the sale, delivery and import of diesel fuel, including into the United States, through April 7, 2027, and Russian Deputy Prime Minister Alexander Novak has indicated Russia could restore monthly diesel exports to between 3 million and 3.5 million tons by the end of the year. Russian diesel exports averaged around 345,000 b/d so far this year, down 41 percent from the previous year, according to shipping data cited by Reuters.",
+   "vintage": "Oct 23, 2026",
+   "source": "EuropeSays (citing Reuters)",
+   "source_url": "https://www.europesays.com/russia/79372/"
+  },
+  {
    "text": "Russia's Transport Ministry said naval drones struck the Liberian-flagged crude tanker Aframax Rio off the resort city of Sochi on Oct 6, with crude burning openly on the Black Sea; all 23 crew, all Indian nationals, were rescued with no reported injuries. Kyiv had listed the vessel as part of Russia's shadow fleet used to move Russian oil under Western sanctions.",
    "vintage": "Oct 6, 2026",
    "source": "IANS",
@@ -40,6 +46,12 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "Russia said on Oct 22 that it was ready to resume US-mediated talks with Ukraine next month, after President Vladimir Putin hosted US envoy Steve Witkoff for talks in St. Petersburg, Reuters reported on Oct 23. Ukrainian President Volodymyr Zelenskiy said he hoped negotiations, which would be the first since February, will take place early in November.",
+   "vintage": "Oct 22, 2026",
+   "source": "Reuters",
+   "source_url": "https://ksevradio.com/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia/"
   },
   {
    "text": "US Special Envoy Steve Witkoff urged Russian President Vladimir Putin on Oct 21 to consider resuming US-mediated peace talks with Ukraine and to review new ideas on ending the war, Reuters reported. The talks in St. Petersburg, the ninth time Witkoff has met Putin in person, began with Russia releasing Stephen Hubbard, a retired US school teacher held in Russia. Putin also offered to help US President Donald Trump in dealing with Iran, saying Russia had a decades-long relationship with Tehran which it has repeatedly offered to leverage to address US concerns about Iran's nuclear programme, and said Russia could also supply large quantities of fertiliser to the United States.",
@@ -160,6 +172,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Rosneft is deliberately slowing repairs at most of its damaged refineries, stretching work that could be completed in days into months, Bloomberg reported on Oct 22 via investingLive. Refineries that Rosneft restarted within weeks of an attack were hit again as repairs neared completion, wiping out the investment, and company officials have privately warned the costs cannot be sustained and that a few more months of war could inflict catastrophic and lasting damage across the business. Ukraine's defence ministry said earlier in October that strikes had knocked out about half of Russia's refining capacity, a figure it acknowledged could not be independently verified, and Goldman Sachs estimated Russian refinery outages are about 3 million b/d higher than a year ago. Bloomberg calculations based on Vortexa data showed Russia's seaborne fuel exports fell to about 980,000 b/d in the first 10 days of October before the government relaxed some export restrictions.",
+   "vintage": "Oct 22, 2026",
+   "source": "Bloomberg (via investingLive)",
+   "source_url": "https://investinglive.com/commodities/rosneft-stretches-refinery-repairs-from-days-to-months-as-ukraine-strikes-bite/"
   },
   {
    "text": "Drones launched a massive attack on the Moscow region overnight on Oct 22, with the 75 Arsenal military plant in Serpukhov among the targets, EuropeSays reported citing The Moscow Times via Ukrinform. Moscow Mayor Sergei Sobyanin said 630 drones had been heading toward Moscow since the evening of Oct 21, 163 of which were shot down during the attack on the city, and two people were injured in the area of the village of Voronovo. According to Astra, drones attacked the 75 Arsenal plant and footage recorded by eyewitnesses showed an explosion and fire at the facility following the drone strikes. No refinery hit was confirmed in this report.",
@@ -338,6 +356,11 @@
  ],
  "sources": [
   {
+   "publisher": "EuropeSays (citing Reuters)",
+   "vintage": "",
+   "url": "https://www.europesays.com/russia/79372/"
+  },
+  {
    "publisher": "IANS",
    "vintage": "",
    "url": "https://ianslive.in/ukrainian-drone-attack-sets-fire-to-oil-tanker-carrying-all-indian-crew-off-russian-coast--20261007074151"
@@ -366,6 +389,11 @@
    "publisher": "Maritime Professional (citing traders)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://ksevradio.com/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia/"
   },
   {
    "publisher": "Reuters",
@@ -466,6 +494,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Bloomberg (via investingLive)",
+   "vintage": "",
+   "url": "https://investinglive.com/commodities/rosneft-stretches-refinery-repairs-from-days-to-months-as-ukraine-strikes-bite/"
   },
   {
    "publisher": "EuropeSays (citing The Moscow Times via Ukrinform)",

@@ -6,6 +6,18 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Status check on Oct 23: proposals for the 17-million-barrel SPR exchange solicitation issued Oct 16 (FY27 SPR Oil Release No. 1) were due by 11:00 a.m. Central Time on Oct 21, 2026, and no DOE award announcement for the round had been published on energy.gov or on the SPR solicitation pages as of this check. The top Energy Security press release on energy.gov on Oct 22 was the Defense Production Act funding announcement below, not an SPR award. Bids for the separate 315,000-barrel Northeast Home Heating Oil Reserve exchange announced Oct 21 are due Oct 27, with deliveries to be completed by Nov 13.",
+   "vintage": "Oct 23, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.spr.doe.gov/doeec/ActiveDocs.htm?type=exchange"
+  },
+  {
+   "text": "President Donald J. Trump announced plans on Oct 22 to provide up to $150 million in Defense Production Act Title III funding to expand domestic petroleum production, storage, and logistics at refineries across the United States, the US Department of Energy said in a press release dated Oct 22, 2026 on energy.gov. The announcement was the newest Energy Security press release listed by DOE as of the Oct 23 check.",
+   "vintage": "Oct 22, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.energy.gov/collection/view?paragraph=797700"
+  },
+  {
    "text": "Status check on Oct 22: proposals for the 17-million-barrel SPR exchange solicitation issued Oct 16 (FY27 SPR Oil Release No. 1) were due by 11:00 a.m. Central Time on Oct 21, 2026, and no DOE award announcement for the round had been published on energy.gov as of this check. The same day, Oct 21, DOE opened a separate exchange for up to 315,000 barrels from the Northeast Home Heating Oil Reserve, reported separately in this section. An FXStreet analysis on Oct 21 noted that the earlier 40-million-barrel round offered Sep 29 also still carried no award on the department's exchange page after three weeks, while each earlier round had posted its award within two weeks, and that by May the department had placed 133 million barrels across four rounds. The award announcement for the 17-million-barrel round is the next dated event on the ledger.",
    "vintage": "Oct 22, 2026",
    "source": "U.S. Department of Energy",
@@ -166,6 +178,12 @@
    "vintage": "Oct 10, 2026",
    "source": "Bakken Wire (citing Rigzone)",
    "source_url": "https://bakkenwire.com/article/morning-take-energy-market-briefing-2026-10-10-g3d7g"
+  },
+  {
+   "text": "US President Donald Trump determined on Oct 22 that petroleum production, refining, and related activities are essential to national defense, a move that could open up US funding for fossil fuel projects, Reuters reported. In a presidential memo, Trump invoked part of the Cold War-era Defense Production Act, allowing him to provide financial incentives for oil-related activities, pipelines and storage of liquid fuels. The memo said that without the actions, the US is not able to provide enough of those energy services in a timely manner due to constrained financing, long lead times, permitting and infrastructure bottlenecks, and supply chain limitations, and it did not mention specific projects that could be funded. Trump signed legislation last year that included $1 billion in Defense Production Act funding for energy-related projects deemed critical to national security, and Vice President JD Vance said the previous week that the administration would use the act to expand capacity at a Texas refinery owned by Delek US Holdings.",
+   "vintage": "Oct 22, 2026",
+   "source": "Reuters",
+   "source_url": "https://katcountry989.com/2026/10/22/trump-invokes-cold-war-era-defense-production-act-for-oil-production-refining/"
   },
   {
    "text": "The US Energy Department will make up to 315,000 barrels of heating oil available from its Northeast emergency reserve, OilMonster reported on Oct 21. The volume equals 31.5 percent of the roughly 1-million-barrel Northeast Home Heating Oil Reserve, the fuel will be offered through an exchange rather than a permanent sale, and companies receiving fuel must return the same volume plus additional premium barrels, with deliveries scheduled to be completed by Nov 13. New England residential heating oil averaged about $6.11 a gallon for the week of Oct 19 in the same report.",
@@ -379,6 +397,11 @@
    "url": "https://www.spr.doe.gov/doeec/ActiveDocs.htm?type=exchange"
   },
   {
+   "publisher": "U.S. Department of Energy",
+   "vintage": "",
+   "url": "https://www.energy.gov/collection/view?paragraph=797700"
+  },
+  {
    "publisher": "Reuters",
    "vintage": "",
    "url": "https://northlandnewsradio.com/2026/10/21/exclusive-us-aims-to-loan-about-a-third-of-heating-oil-reserve-in-bid-to-tame-prices/"
@@ -467,6 +490,11 @@
    "publisher": "Bakken Wire (citing Rigzone)",
    "vintage": "",
    "url": "https://bakkenwire.com/article/morning-take-energy-market-briefing-2026-10-10-g3d7g"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://katcountry989.com/2026/10/22/trump-invokes-cold-war-era-defense-production-act-for-oil-production-refining/"
   },
   {
    "publisher": "OilMonster",

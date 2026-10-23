@@ -6,6 +6,24 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "An oil spill from a tanker was detected off the coast of Umm Al Quwain in the United Arab Emirates, prompting containment operations and environmental assessments, the UAE Ministry of Climate Change and Environment said on Oct 23, Reuters reported. All beaches and coastal areas in Umm Al Quwain were temporarily closed until technical teams completed their assessments, fishermen and other sea users were urged to avoid affected areas, and the ministry said odours reported by residents in Sharjah, Ajman and Umm Al Quwain posed no health risks. The ministry did not say what caused the spill, and authorities had not identified the tanker involved.",
+   "vintage": "Oct 23, 2026",
+   "source": "Reuters",
+   "source_url": "https://dukecountry.fm/2026/10/22/uae-says-tanker-oil-spill-affects-beaches-in-umm-al-quwain/"
+  },
+  {
+   "text": "All 14 Indian nationals on a yacht involved in an incident off Yemen's coast are reported safe and located around Hodeidah, the Indian embassy in Yemen said on Oct 23, Reuters reported. Yemen's Iran-aligned Houthis said on Oct 22 that they were rescuing a boat carrying 14 Indians that was attacked off Jabal Zuqar island near the Bab el-Mandeb strait, and blamed Saudi Arabia for the attack. Saudi authorities did not respond to a Reuters request for comment on Oct 22. The embassy said it would continue to work for the well-being of the nationals, and India's foreign ministry said on Oct 22 that it condemned the attacks on civilian and energy infrastructure in Saudi Arabia.",
+   "vintage": "Oct 23, 2026",
+   "source": "Reuters",
+   "source_url": "https://hot96.com/2026/10/23/all-14-indians-in-yacht-incident-off-yemen-coast-reported-safe-embassy-says/"
+  },
+  {
+   "text": "Saudi Aramco ordered the evacuation of its headquarters in Dhahran on Oct 22, six people with knowledge of the matter told Reuters, as fighting between Saudi Arabia and Yemen's Iran-aligned Houthis intensified. Staff were instructed to evacuate the building and work remotely, following a wave of Houthi attacks targeting the company and Saudi airports, in what would be the first headquarters evacuation since the start of the Iran war. The company did not immediately respond to a request for comment, the reason for the evacuation was unclear, and Saudi Arabia's benchmark index dropped 2.5 percent on Oct 22 following the news, according to LSEG data cited by Reuters. Houthi military spokesperson Yahya Saree said the group had launched attacks on Aramco facilities in Yanbu and the Saudi defence ministry in Riyadh, which Saudi authorities did not confirm, and the Saudi-led coalition said it had intercepted drones over Riyadh and Medina.",
+   "vintage": "Oct 22, 2026",
+   "source": "Reuters (via Devdiscourse)",
+   "source_url": "https://www.devdiscourse.com/article/international/3996438-saudi-aramco-tells-staff-to-evacuate-dhahran-as-clashes-with-yemens-houthis-continue?amp"
+  },
+  {
    "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Oct 22 that four vessels involved in illegal oil transfers in the northern Persian Gulf were simultaneously hit and caught fire after being tracked by its forces on Oct 21, and that three more vessels collided with mines west of the Strait of Hormuz, Reuters reported. The IRGC warned the US military that continued provocations could lead to a wider response against its regional bases. The claims had not been independently confirmed in the Reuters report.",
    "vintage": "Oct 22, 2026",
    "source": "Reuters",
@@ -190,6 +208,18 @@
    "vintage": "Oct 9, 2026",
    "source": "Reuters (via WABX)",
    "source_url": "https://wabx.net/2026/10/08/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns/"
+  },
+  {
+   "text": "Oil prices rose over 1 percent on Oct 23 after Houthi attacks in Saudi Arabia stoked concerns of further disruption to energy supplies from the Middle East, Reuters reported. Brent crude futures climbed $1.30, or 1.2 percent, to $114.47 a barrel as of 0639 GMT, and US West Texas Intermediate rose $1.37, or 1.4 percent, to $100.84. Brent, which settled at its highest since May 4 on Oct 22, was set to close higher for a third successive week. ING analysts said markets are increasingly worried about renewed escalation in the Persian Gulf, that re-escalation seems the most likely path, and that the mere possibility is likely to keep a sizeable geopolitical risk premium embedded in prices even if tensions do not re-escalate.",
+   "vintage": "Oct 23, 2026",
+   "source": "Reuters",
+   "source_url": "https://wnflsports.com/2026/10/22/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia/"
+  },
+  {
+   "text": "Brent crude settled at a five-month high on Oct 22, gaining $4.35, or 4.0 percent, to $113.17 a barrel, its highest close since May 4, while US West Texas Intermediate increased $2.32, or 2.4 percent, to $99.47, Reuters reporting via BizFocus said. Analysts at Ritterbusch and Associates attributed the rally to a renewed geopolitical risk premium following another Houthi attack on Saudi infrastructure, and PVM Oil analyst Tamas Varga said attacks on vessels in the Strait of Hormuz and strikes against Saudi Arabia's oil infrastructure were outweighing reports of stronger regional crude exports. Morgan Stanley estimated Middle Eastern crude exports reached approximately 17 million b/d last week, against Kpler data showing exports averaged around 18 million b/d in the 12 months before the Iran war.",
+   "vintage": "Oct 22, 2026",
+   "source": "Reuters (via BizFocus)",
+   "source_url": "https://bizfocus.lk/2026/10/23/brent-crude-hits-five-month-high-of-us113-17-as-houthi-attacks-raise-supply-fears/"
   },
   {
    "text": "Oil prices rallied over $2 a barrel on Oct 22 after more Houthi attacks in Saudi Arabia stoked concerns over a broader escalation, Reuters reported. Brent crude futures climbed $2.82, or 2.59 percent, to $111.64 a barrel at 0626 GMT, close to a five-month high, and US West Texas Intermediate gained $2.24, or 2.31 percent, to $99.39. ING analysts said oil prices remain well bid, with ICE Brent back above $110 a barrel following additional deadly attacks on Saudi Arabia. US crude stocks fell by 3.06 million barrels to 412.5 million barrels last week, the US Energy Information Administration said on Oct 21, compared with analysts expectations in a Reuters poll for an 820,000-barrel draw.",
@@ -406,6 +436,12 @@
    "vintage": "Sep 18, 2026; accessed 2026-09-23",
    "source": "GeoTrends (citing Baltic Exchange)",
    "source_url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
+  },
+  {
+   "text": "President Donald Trump accused Iran on Oct 22 of making up fake hits, mines, and everything else to drive up the price of oil before the US midterm elections, and said more oil is coming through the Strait of Hormuz than before the conflict began, the Associated Press reported via SBS News. Iran's Islamic Revolutionary Guard Corps had said four tankers were targeted while transferring oil and caught fire, and three others struck naval mines. The Associated Press said the parties' claims were not the same as a confirmed investigation into each vessel, and the number of ships affected, the cause of each incident, and the circumstances of any fires or mine strikes require further verification. No vessel names, flags, or casualty figures were provided in the Iranian statement.",
+   "vintage": "Oct 22, 2026",
+   "source": "Associated Press (via BoldVoices)",
+   "source_url": "https://boldvoices.in/iran-seven-oil-tankers-damaged-strait-hormuz-october-2026/"
   },
   {
    "text": "Washington widened its crackdown on Iran's shadow fleet on Oct 21, sanctioning Karnakis and Karnakis, a law firm based in Panama and Greece, shipping agents in Singapore and Dubai, and nine vessels, Splash247 reported. The US Treasury said the firm had established corporate structures for shipowners moving hundreds of millions of dollars worth of Iranian oil, liquefied petroleum gas, petrochemicals and steel, and five individuals linked to the practice were also designated. Singapore-based Amigoz Singapore was sanctioned for acting as port agent for a shipment of Iranian light crude and providing bunkering services to the shadow fleet tanker Zixuan, and Dubai-based Whales Shipping Line was designated for acting as shipping agent for a company accused of arranging Iranian petrochemical purchases. The action forms part of Operation Economic Outcast, launched in August.",
@@ -1336,6 +1372,21 @@
   {
    "publisher": "Reuters",
    "vintage": "",
+   "url": "https://dukecountry.fm/2026/10/22/uae-says-tanker-oil-spill-affects-beaches-in-umm-al-quwain/"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://hot96.com/2026/10/23/all-14-indians-in-yacht-incident-off-yemen-coast-reported-safe-embassy-says/"
+  },
+  {
+   "publisher": "Reuters (via Devdiscourse)",
+   "vintage": "",
+   "url": "https://www.devdiscourse.com/article/international/3996438-saudi-aramco-tells-staff-to-evacuate-dhahran-as-clashes-with-yemens-houthis-continue?amp"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
    "url": "https://985theriver.com/2026/10/21/oil-rises-as-us-orders-diplomats-to-leave-saudi-arabia-amid-escalating-tensions/"
   },
   {
@@ -1482,6 +1533,16 @@
    "publisher": "Reuters (via WABX)",
    "vintage": "",
    "url": "https://wabx.net/2026/10/08/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns/"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://wnflsports.com/2026/10/22/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia/"
+  },
+  {
+   "publisher": "Reuters (via BizFocus)",
+   "vintage": "",
+   "url": "https://bizfocus.lk/2026/10/23/brent-crude-hits-five-month-high-of-us113-17-as-houthi-attacks-raise-supply-fears/"
   },
   {
    "publisher": "Reuters",
@@ -1647,6 +1708,11 @@
    "publisher": "GeoTrends (citing Baltic Exchange)",
    "vintage": "",
    "url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
+  },
+  {
+   "publisher": "Associated Press (via BoldVoices)",
+   "vintage": "",
+   "url": "https://boldvoices.in/iran-seven-oil-tankers-damaged-strait-hormuz-october-2026/"
   },
   {
    "publisher": "Splash247",
