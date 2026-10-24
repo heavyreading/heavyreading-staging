@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Russian Deputy Prime Minister Alexander Novak said on Oct 23 that three tankers carrying Russian diesel are already heading toward North America, as part of a deal that could see Russia supply 500,000 metric tonnes of fuel to US and global markets in October, The Independent reported via BytesEU. Novak said the shipments have significant support from the Russian Direct Investment Fund (RDIF). Under the deal announced by US President Donald Trump this month, Washington temporarily lifted sanctions on Russian fuel in exchange for supplies aimed at lowering global fuel prices. The first of the tankers, the Agioi Fanendes, loaded 40,000 metric tons of ultra-low sulfur diesel at Primorsk on Oct 22 and is expected in New York on Nov 7, according to LSEG data cited by Reuters on Oct 23.",
+   "vintage": "Oct 23, 2026",
+   "source": "The Independent (via BytesEU)",
+   "source_url": "https://www.byteseu.com/2475091/"
+  },
+  {
    "text": "The first tanker loaded with Russian diesel is heading for New York after Moscow agreed to resume fuel exports under the arrangement between Russian President Vladimir Putin and US President Donald Trump, according to LSEG shipping data cited by Reuters on Oct 23 via EuropeSays. The medium-sized vessel Agioi Fanendes took on 40,000 metric tons of ultra-low sulfur diesel at Russia's Baltic port of Primorsk on Oct 22 and is expected to arrive in the United States on Nov 7. The US Treasury Department issued a sanctions waiver allowing the sale, delivery and import of diesel fuel, including into the United States, through April 7, 2027, and Russian Deputy Prime Minister Alexander Novak has indicated Russia could restore monthly diesel exports to between 3 million and 3.5 million tons by the end of the year. Russian diesel exports averaged around 345,000 b/d so far this year, down 41 percent from the previous year, according to shipping data cited by Reuters.",
    "vintage": "Oct 23, 2026",
    "source": "EuropeSays (citing Reuters)",
@@ -46,6 +52,12 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "Ukraine has not struck Russian oil refineries for more than a week, SFG Media reported on Oct 24. The last known refinery incident occurred overnight on Oct 16, when reports emerged of an attack on the Ryazan refinery. Kyiv resumed attacks on Russian oil-refining infrastructure on Oct 14, that day seeing strikes on two refineries for the first time after a prolonged lull, following talks between Ukrainian and American delegations in Miami on Oct 10 at which, according to media reports, Washington demanded that Kyiv halt attacks on Russian oil refineries as part of the diesel agreement between the United States and Russia. Reports of further refinery attacks ceased again two days after the apparent start of the new wave, SFG Media said. The Oct 24 strike on the Togliattikauchuk petrochemical plant in Togliatti was a petrochemical target, not a refinery.",
+   "vintage": "Oct 24, 2026",
+   "source": "SFG Media",
+   "source_url": "https://sfg.media/en/a/ukraine-russian-oil-refinery-strikes-pause-trump-diesel-deal/"
   },
   {
    "text": "Russia said on Oct 22 that it was ready to resume US-mediated talks with Ukraine next month, after President Vladimir Putin hosted US envoy Steve Witkoff for talks in St. Petersburg, Reuters reported on Oct 23. Ukrainian President Volodymyr Zelenskiy said he hoped negotiations, which would be the first since February, will take place early in November.",
@@ -172,6 +184,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Several industrial facilities were damaged in a drone attack on the Russian city of Togliatti on Oct 24, local authorities said, while Ukraine said it had struck a major petrochemical plant there, Reuters reported. Togliatti mayor Ilya Sukhikh said preliminary reports indicated no fatalities or injuries and did not specify which facilities had been hit. Ukraine's General Staff said it had struck the Togliattikauchuk petrochemical plant, one of Russia's largest producers of synthetic rubber, and also reported a strike on the Proton electronics plant in Russia's Oryol region, which Kyiv says manufactures components for cruise and ballistic missiles. Oryol regional governor Andrei Klychkov said three people were killed on Oct 23 in a Ukrainian missile strike on an unspecified civilian facility in the region. Ukraine's military also reported hitting an aircraft at the Yeysk airfield in southern Russia, where local authorities confirmed an attack but said it caused only minor damage to two apartment buildings. Russia's Defence Ministry said on Oct 24 that air defences had destroyed 1,297 drones, one French-made SCALP cruise missile and four Ukrainian Neptune missiles over the previous 24 hours.",
+   "vintage": "Oct 24, 2026",
+   "source": "Reuters (via Sowetan)",
+   "source_url": "https://www.sowetan.co.za/news/2026-10-24-russia-says-drone-attack-damages-togliatti-facilities-ukraine-says-petrochemical-plant-hit/"
   },
   {
    "text": "Rosneft is deliberately slowing repairs at most of its damaged refineries, stretching work that could be completed in days into months, Bloomberg reported on Oct 22 via investingLive. Refineries that Rosneft restarted within weeks of an attack were hit again as repairs neared completion, wiping out the investment, and company officials have privately warned the costs cannot be sustained and that a few more months of war could inflict catastrophic and lasting damage across the business. Ukraine's defence ministry said earlier in October that strikes had knocked out about half of Russia's refining capacity, a figure it acknowledged could not be independently verified, and Goldman Sachs estimated Russian refinery outages are about 3 million b/d higher than a year ago. Bloomberg calculations based on Vortexa data showed Russia's seaborne fuel exports fell to about 980,000 b/d in the first 10 days of October before the government relaxed some export restrictions.",
@@ -356,6 +374,11 @@
  ],
  "sources": [
   {
+   "publisher": "The Independent (via BytesEU)",
+   "vintage": "",
+   "url": "https://www.byteseu.com/2475091/"
+  },
+  {
    "publisher": "EuropeSays (citing Reuters)",
    "vintage": "",
    "url": "https://www.europesays.com/russia/79372/"
@@ -389,6 +412,11 @@
    "publisher": "Maritime Professional (citing traders)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "publisher": "SFG Media",
+   "vintage": "",
+   "url": "https://sfg.media/en/a/ukraine-russian-oil-refinery-strikes-pause-trump-diesel-deal/"
   },
   {
    "publisher": "Reuters",
@@ -494,6 +522,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Reuters (via Sowetan)",
+   "vintage": "",
+   "url": "https://www.sowetan.co.za/news/2026-10-24-russia-says-drone-attack-damages-togliatti-facilities-ukraine-says-petrochemical-plant-hit/"
   },
   {
    "publisher": "Bloomberg (via investingLive)",

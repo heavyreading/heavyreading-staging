@@ -1,5 +1,5 @@
 {
- "vintage": "COT through 2026-10-13; flags generated October 23, 2026",
+ "vintage": "COT through 2026-10-20; flags generated October 24, 2026",
  "data": {
   "read": [
    "Commercials sold 7,000 lots in WCS 1A - trimming length to +24,203 (from +31,203 last week)",
@@ -7,7 +7,7 @@
    "Funds covered 4,250 lots of their WCS 1A short - covering to -15,165 (from -19,415 last week)",
    "Funds bought 2,630 lots in WCS Houston - fresh buying to +14,550 (from +11,920 last week)",
    "Commercials sold 1,434 lots in SW 1A - trimming length to +4,967 (from +6,401 last week)",
-   "New probable-whale flags: 1 low-confidence.",
+   "New probable-whale flags: 1 high-confidence: funds bought 4,250 lots in WCS 1A.",
    "Commercials: +24,203 WCS 1A vs -21,826 the ICE ARV contract (Canadian heavy at the US Gulf Coast) (category nets on opposite sides; aggregate data do not show whether this is one spread book); cut it by 2,395 lots this week",
    "Funds: -15,165 WCS 1A vs +14,550 ARV (category nets on opposite sides; aggregate data do not show whether this is one spread book); cut it by 1,620 lots this week",
    "Outright crude: Commercials sold 23,183 lots of ICE Brent to -438,828 (from -415,645 last week); Commercials bought 12,725 lots of ICE WTI to +145,209 (from +132,484 last week)."
@@ -159,6 +159,18 @@
   ],
   "activity_vintage": "2026-09-25",
   "flags": [
+   {
+    "flag_id": "2026-10-20|ICE WCS 1A diff|cot_attribution|1|whale|weekly d(managed_money_net)=4250 lots (4w 4570), z=+3.3 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; whale-sized + single-week velocity + category confirmed (COT agrees with OI tripwire direction, or COT-only whale build with clean category)",
+    "date": "2026-10-20",
+    "market": "ICE WCS 1A diff",
+    "short": "WCS 1A",
+    "source": "CFTC",
+    "confidence": "high",
+    "category": "managed_money",
+    "direction": 1,
+    "d1_lots": 4250,
+    "attribution": "likely Citadel (probable fund-whale candidate - not confirmed)"
+   },
    {
     "flag_id": "2026-10-13|ICE WCS 1A diff|cot_attribution|1|sub_whale|weekly d(commercial_net)=850 lots (4w -8909), z=+0.5 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity multi_week; sub-whale accumulation (attribution withheld), OR OI spike with ambiguous direction (liquidation / position squaring)",
     "date": "2026-10-13",
@@ -626,23 +638,11 @@
     "direction": -1,
     "d1_lots": -5330,
     "attribution": "likely Citadel (probable fund-whale candidate - not confirmed)"
-   },
-   {
-    "flag_id": "2026-01-13|ICE Brent|cot_attribution|-1|whale|weekly d(commercial_net)=-80863 lots (4w -133874), z=-2.7 vs trailing 52w (|z|>=2.5 whale, >=2.0 watch); velocity single_week; whale-sized + single-week velocity + category confirmed (COT agrees with OI tripwire direction, or COT-only whale build with clean category)",
-    "date": "2026-01-13",
-    "market": "ICE Brent",
-    "short": "ICE Brent",
-    "source": "ICE direct",
-    "confidence": "high",
-    "category": "commercial",
-    "direction": -1,
-    "d1_lots": -80863,
-    "attribution": "likely Equinor or Exxon (BP/Suncor possible but less likely; possibly a combination) - probable commercial-whale candidates, not confirmed"
    }
   ],
   "counts": {
-   "total": 237,
-   "high": 83,
+   "total": 238,
+   "high": 84,
    "medium": 38,
    "low": 116
   }

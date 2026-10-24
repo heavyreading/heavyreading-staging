@@ -2,7 +2,7 @@
  "page": "/inner/trade-ideas/",
  "title": "Trade ideas",
  "dek": "Inner trade ideas: five trades on one freight regime, sized from a framework that requires 3 to 5 carrier trades a year, plus the bigger-trades candidate pipeline.",
- "built_at": "2026-10-23",
+ "built_at": "2026-10-24",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -24,7 +24,7 @@
    "source_url": ""
   },
   {
-   "text": "TMW December 2026 to January 2027 calendar spread on ICE settles: +0.95 on September 30, 2026, +0.85 on October 22, 2026 (full series printed on the page), against roughly $0.91/bbl of full carry. Synthetic crude minus WCS spread: +27.15 (September 30, 2026) to +32.57 (October 19, 2026) on ICE November settles; +30.30 (October 2, 2026) to +35.25 (October 22, 2026) on November CalRock marks.",
+   "text": "TMW December 2026 to January 2027 calendar spread on ICE settles: +0.95 on September 30, 2026, +0.85 on October 22, 2026 (full series printed on the page), against roughly $0.91/bbl of full carry. Synthetic crude minus WCS spread: +27.15 (September 30, 2026) to +32.57 (October 19, 2026) on ICE November settles; +30.30 (October 2, 2026) to +35.25 (October 23, 2026) on November CalRock marks.",
    "vintage": "ICE settlements and CalRock marks, September 30, 2026 to October 22, 2026",
    "source": "ICE Endex report center; CalRock broker marks (private)",
    "source_url": ""
@@ -74,7 +74,7 @@
   },
   {
    "publisher": "CalRock broker marks (private)",
-   "vintage": "marks, to October 22, 2026",
+   "vintage": "marks, to October 23, 2026",
    "url": ""
   },
   {

@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-10-23T07:45:34-06:00",
+ "built_at": "2026-10-24T07:46:52-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -11,15 +11,15 @@
    "source": "CFTC Commitments of Traders (legacy)",
    "pull": "wcsb-weekly-pull-friday (bin/pull_cftc_cot.py)",
    "cadence": "weekly",
-   "vintage": "CFTC legacy Commitments of Traders, NYMEX WTI futures. Data through October 13, 2026.",
+   "vintage": "CFTC legacy Commitments of Traders, NYMEX WTI futures. Data through October 20, 2026.",
    "stats": {
-    "level": 100343.0,
-    "percentile": 4.065040650406504,
+    "level": 89325.0,
+    "percentile": 3.409090909090909,
     "span_start": 2015,
-    "wow_change": 1283.0,
-    "date": "2026-10-13"
+    "wow_change": -11018.0,
+    "date": "2026-10-20"
    },
-   "narrative_text": "Noncommercial traders, the speculative category in the legacy Commitments of Traders report, hold a net long of 100,343 contracts in NYMEX WTI futures as of October 13, 2026, in the 4th percentile of weekly readings since 2015. The position grew by 1,283 contracts on the week. Positioning is the crowdedness gauge for the outright: a stretched net long is flush fuel on any bearish surprise, and a stretched net short is squeeze fuel the other way. A move back toward the middle of the range would stand this read down.",
+   "narrative_text": "Noncommercial traders, the speculative category in the legacy Commitments of Traders report, hold a net long of 89,325 contracts in NYMEX WTI futures as of October 20, 2026, in the 3rd percentile of weekly readings since 2015. The position shrank by 11,018 contracts on the week. Positioning is the crowdedness gauge for the outright: a stretched net long is flush fuel on any bearish surprise, and a stretched net short is squeeze fuel the other way. A move back toward the middle of the range would stand this read down.",
    "points": [
     [
      "2015-01-06",
@@ -1252,6 +1252,10 @@
     [
      "2026-10-13",
      100343.0
+    ],
+    [
+     "2026-10-20",
+     89325.0
     ]
    ]
   },
@@ -1263,14 +1267,14 @@
    "source": "ICE Futures Europe Commitments of Traders",
    "pull": "wcsb-weekly-pull-friday (bin/pull_ice_cot.py)",
    "cadence": "weekly",
-   "vintage": "ICE Futures Europe Commitments of Traders, Brent futures only. Data through October 13, 2026.",
+   "vintage": "ICE Futures Europe Commitments of Traders, Brent futures only. Data through October 20, 2026.",
    "stats": {
-    "level": 206930.0,
-    "percentile_since_2020": 55.11363636363637,
-    "wow_change": 20642.0,
-    "date": "2026-10-13"
+    "level": 221344.0,
+    "percentile_since_2020": 60.906515580736546,
+    "wow_change": 14414.0,
+    "date": "2026-10-20"
    },
-   "narrative_text": "Managed money holds a net long of 206,930 contracts in ICE Brent futures as of October 13, 2026, in the 55th percentile of weekly readings since 2020, up 20,642 contracts on the week. Brent positioning is the global book's tell: it moves the whole crude complex, including the differentials struck off it. A washout toward flat, or a build into crowded territory, would each change what this chart is saying.",
+   "narrative_text": "Managed money holds a net long of 221,344 contracts in ICE Brent futures as of October 20, 2026, in the 61st percentile of weekly readings since 2020, up 14,414 contracts on the week. Brent positioning is the global book's tell: it moves the whole crude complex, including the differentials struck off it. A washout toward flat, or a build into crowded territory, would each change what this chart is saying.",
    "points": [
     [
      "2020-01-14",
@@ -2679,6 +2683,10 @@
     [
      "2026-10-13",
      206930.0
+    ],
+    [
+     "2026-10-20",
+     221344.0
     ]
    ]
   },
@@ -8012,12 +8020,12 @@
    "cadence": "daily",
    "vintage": "Exchange front-month futures, via the daily crack file. Data through October 23, 2026.",
    "stats": {
-    "level": 100.77,
-    "percentile_since_2020": 93.87397899649942,
-    "chg_30d": 8.61,
+    "level": 103.27,
+    "percentile_since_2020": 95.39089848308052,
+    "chg_30d": 11.11,
     "date": "2026-10-23"
    },
-   "narrative_text": "WTI front month closed at $100.77 on October 23, 2026, in the 94th percentile of daily closes since 2020 and +8.61 dollars over the last thirty days. The outright is context rather than the trade: the differentials and calendar spreads this site follows are struck off this level, and its trend sets the tone they trade in. A sustained break of the recent range, either way, would reset that context.",
+   "narrative_text": "WTI front month closed at $103.27 on October 23, 2026, in the 95th percentile of daily closes since 2020 and +11.11 dollars over the last thirty days. The outright is context rather than the trade: the differentials and calendar spreads this site follows are struck off this level, and its trend sets the tone they trade in. A sustained break of the recent range, either way, would reset that context.",
    "points": [
     [
      "2023-10-23",
@@ -9533,7 +9541,7 @@
     ],
     [
      "2026-10-23",
-     100.77
+     103.27
     ]
    ]
   },
@@ -10864,13 +10872,13 @@
    "cadence": "daily",
    "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through October 23, 2026.",
    "stats": {
-    "level": 53.23,
-    "percentile_since_2020": 91.71528588098016,
+    "level": 56.4336,
+    "percentile_since_2020": 93.34889148191365,
     "series_high": 75.311,
     "series_high_date": "2026-08-28",
     "date": "2026-10-23"
    },
-   "narrative_text": "The 3-2-1 crack spread printed $53.23 a barrel on October 23, 2026, in the 92nd percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
+   "narrative_text": "The 3-2-1 crack spread printed $56.43 a barrel on October 23, 2026, in the 93rd percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
    "points": [
     [
      "2023-10-23",
@@ -12386,7 +12394,7 @@
     ],
     [
      "2026-10-23",
-     53.23
+     56.4336
     ]
    ]
   },
@@ -13312,15 +13320,15 @@
    "source": "CFTC Disaggregated Commitments of Traders",
    "pull": "trade-ideas-refresh step 0 (bin/pull_cftc_cot.py + bin/extract_cot_tmw.py)",
    "cadence": "weekly",
-   "vintage": "CFTC Disaggregated Commitments of Traders, ICE WCS 1A index future. Data through October 13, 2026.",
+   "vintage": "CFTC Disaggregated Commitments of Traders, ICE WCS 1A index future. Data through October 20, 2026.",
    "stats": {
-    "level": -19415.0,
-    "percentile_since_2024": 3.4246575342465753,
-    "wow_change": -995.0,
-    "mm_short_pct_of_oi": 24.98,
-    "date": "2026-10-13"
+    "level": -15165.0,
+    "percentile_since_2024": 7.482993197278912,
+    "wow_change": 4250.0,
+    "mm_short_pct_of_oi": 23.62,
+    "date": "2026-10-20"
    },
-   "narrative_text": "Managed money is net short 19,415 contracts in the ICE WCS 1A index future (TMW) as of October 13, 2026, in the 3rd percentile of weekly readings since 2024, with speculative shorts at 25.0 percent of open interest. This is the crowding gauge inside the differential itself: a heavily short speculative position is squeeze fuel if the diff tightens on apportionment, an outage, or a storage surprise. A cover back toward flat would remove the fuel, and a fresh build of shorts would add to it.",
+   "narrative_text": "Managed money is net short 15,165 contracts in the ICE WCS 1A index future (TMW) as of October 20, 2026, in the 7th percentile of weekly readings since 2024, with speculative shorts at 23.6 percent of open interest. This is the crowding gauge inside the differential itself: a heavily short speculative position is squeeze fuel if the diff tightens on apportionment, an outage, or a storage surprise. A cover back toward flat would remove the fuel, and a fresh build of shorts would add to it.",
    "points": [
     [
      "2024-01-02",
@@ -13905,6 +13913,10 @@
     [
      "2026-10-13",
      -19415.0
+    ],
+    [
+     "2026-10-20",
+     -15165.0
     ]
    ]
   },
@@ -13916,16 +13928,16 @@
    "source": "Baltic Exchange (via thedcn.com.au)",
    "pull": "freight-watch-weekly",
    "cadence": "weekly",
-   "vintage": "Baltic Exchange via freight pull. Data through October 09, 2026.",
+   "vintage": "Baltic Exchange via freight pull. Data through October 16, 2026.",
    "stats": {
-    "level": 1412594.0,
-    "percentile": 100.0,
-    "series_record": true,
-    "worldscale": 1318.75,
-    "trigger": "In rotation: TD3C earnings at a series record, $1,412,594 a day",
-    "date": "2026-10-09"
+    "level": 1370193.0,
+    "percentile": 97.43589743589743,
+    "series_record": false,
+    "worldscale": 1281.25,
+    "trigger": "In rotation: TD3C earnings in the 97th percentile of the series",
+    "date": "2026-10-16"
    },
-   "narrative_text": "Very large crude carrier (VLCC) earnings on the Middle East to China route, TD3C, printed $1,412,594 a day in the week of October 09, 2026 (Worldscale 1,319), in the 100th percentile of weekly readings since March 2024. Freight at this level is a tax on every long-haul barrel and reshuffles which grades can travel; the Freight Watch page tracks it route by route, including the Vancouver to Asia leg that prices TMX barrels. Four consecutive weeks back inside the normal band retires this chart to the archive below.",
+   "narrative_text": "Very large crude carrier (VLCC) earnings on the Middle East to China route, TD3C, printed $1,370,193 a day in the week of October 16, 2026 (Worldscale 1,281), in the 97th percentile of weekly readings since March 2024. Freight at this level is a tax on every long-haul barrel and reshuffles which grades can travel; the Freight Watch page tracks it route by route, including the Vancouver to Asia leg that prices TMX barrels. Four consecutive weeks back inside the normal band retires this chart to the archive below.",
    "points": [
     [
      "2025-07-04",
@@ -14078,6 +14090,10 @@
     [
      "2026-10-09",
      1412594.0
+    ],
+    [
+     "2026-10-16",
+     1370193.0
     ]
    ]
   }
