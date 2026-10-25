@@ -669,7 +669,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </div>
 <p>We price a grid of bad days through today's option prices. The worst one is <strong>fear falls 10 points: we lose $7,918</strong>. That number runs the book.</p>
 <p>A second yardstick assumes normal, small moves. It says $3,840 for one day. This market gaps. A normal-day yardstick cannot see a gap, so we size off the shock grid, not the yardstick. <span class="dim">(Technical name: Greeks-VaR, 1-day, 99%.)</span></p>
-<p>Drawdown so far: $0. The book's stop line is $1,500,000, inside a $2,500,000 budget. The cut rules are set now, not in the draw: at half a play's cap, new size halves. At the cap, the play goes flat and pauses. Every play is inside its cap today.</p>
+<p>Drawdown so far: $0. The book's stop line is $1,500,000, inside a $2,500,000 budget. The cut rules are set now, not in the draw, and they come in two kinds. Management lines are set in wiggles, not dollars (next section): review at 2 times a play's normal 10-day wiggle, halve at 3 times. Survival lines stay in dollars: at the cap, the play goes flat and pauses. Every play is inside its lines today.</p>
 <p><strong>Gross, offsets, net.</strong> Added up on their own, the plays' worst priced days come to $129,283. The book's worst priced day is $7,918. The $121,365 between them is not diversification. It is cancellation: the collar loses on the days the length wins, and wins on the days the length loses. One position on one length, counted as one position, below.</p>
 <p><strong>Cancellation check:</strong> not enough days yet (n=1). As daily marks build up, this page compares each pair of plays. If two plays' daily money moves against each other at -0.5 or stronger, it prints: "These two are mostly undoing each other. Check the pair is earning its keep." Weakly related is what we want. Opposite is just undoing our own trades.</p>
 <h3>One position: the length, its overwrite, and its insurance</h3>
@@ -679,6 +679,23 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <p><strong>If Brent rises $1:</strong> the position loses about $40. Its worst day on the shock grid is $7,918 (fear falls 10 points). Dressed this way the position leans modestly bearish: the insurance pays as price falls toward the lower strike, the most it can cost is the premium, and the length keeps its upside.</p>
 <p><strong>Insurance rent rule:</strong> the collar may cost at most what the overwrite collected in the same round. This round the collar cost $53,000 against $15,400 in: 344% of rent in, over the budget by $37,600. The reason prints, not smooths: the collar covers all 25 lots of length; the overwrite runs on 5.</p>
 <p><strong>Day one: 2026-10-23.</strong> One day of marks. Every number here answers one question: what happens if the bad day comes tomorrow? None of it proves a play works.</p>
+</section>
+<section id="noise">
+<h2>Noise bands: do not get stopped on a wiggle</h2>
+<p class="vintage"><em>Data dates: book marks 2026-10-23.</em></p>
+<p>Every position's marks move on days when nothing is wrong. Price wiggles, fear wiggles, and the marks follow. A cut rule that cannot tell a wiggle from a broken thesis will cut good trades on noise. So this book runs two kinds of lines.</p>
+<p><strong>Survival lines stay in dollars, hard.</strong> Each play's cap, and the book's $1,500,000 governor inside its $2,500,000 budget, are gap protection. They are never scaled to how jumpy the market feels.</p>
+<p><strong>Management lines are set in wiggles.</strong> Review at 2 times the play's normal 10-day wiggle. Halve at 3 times. Every line prints in dollars and in wiggles, so anyone can see how much of the room is just normal weather.</p>
+<h3>P1 Overwrite</h3>
+<p>Normal wiggle: about $14,759 in a day, $43,082 over 10 days. Worked from 60 days of futures moves and 60 days of vol moves, through this play's own price, fear and time numbers, with time accruing as the offset. <strong>Provisional:</strong> the book's own marks are 1 day(s) old, so the band is worked from other history until our own record grows.</p>
+<p>Lines for this play: review at $86,165 (2 times the wiggle). Halve at $129,247 (3 times). Flat at the survival cap $625,000 (14.5 times the wiggle: dollars, hard).</p>
+<p><strong>Watch it:</strong> the playbook's probation halve point for P1 is $62,500. That is 1.5 times this play's normal 10-day wiggle. <strong>This trigger sits inside normal noise. It will fire on wiggle, not on a broken thesis.</strong> The wiggle lines above are the ones that govern day to day.</p>
+<h3>P3 Collar the length</h3>
+<p>Normal wiggle: about $18,998 in a day, $66,509 over 10 days. Worked from 60 days of futures moves and 60 days of vol moves, through this play's own price, fear and time numbers, with time accruing as the offset. <strong>Provisional:</strong> the book's own marks are 1 day(s) old, so the band is worked from other history until our own record grows.</p>
+<p>Lines for this play: review at $133,019 (2 times the wiggle). Halve at $199,528 (3 times). Flat at the survival cap $625,000 (9.4 times the wiggle: dollars, hard).</p>
+<p><strong>Watch it:</strong> the playbook's probation halve point for P3 is $62,500. That is 0.9 times this play's normal 10-day wiggle. <strong>This trigger sits inside normal noise. It will fire on wiggle, not on a broken thesis.</strong> The wiggle lines above are the ones that govern day to day.</p>
+<p><strong>Marks are not money lost.</strong> Before any action, a drawdown gets split into price, fear, and time. A fear-spike drawdown on a play that is short fear decays back if price holds. A price loss through a wing does not. The first question is which one it is. The action question comes second.</p>
+<p><strong>Stress check, 2026-10-15 to 2026-10-23.</strong> That was an episode week, not a noise sample. Running its marks through this book at today's sizes: P1 dipped $8,000; P3 dipped $3,250; the book's worst dip was $9,950. The old dollar ladder (halve at $62,500, flat at $125,000 on the playbook's probation caps) would not have fired that week. The problem the bands fix is not that week. It is the quiet week, where a normal wiggle is the biggest move on the tape.</p>
 </section>
 <section id="league">
 <h2>The plays, one by one</h2>
@@ -699,7 +716,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <p><strong>What can hurt us.</strong> Brent rips through the sold call. Gains on the length stop at the strike.</p>
 <p><strong>Most we can lose.</strong> $52,747. The length covers the futures side; this is the option side's shock loss.</p>
 <p><strong>What would make us change our mind.</strong> If upside insurance gets cheap, the money no longer pays for capping the length.</p>
-<p><strong>P&amp;L so far:</strong> $0. Drawdown cap: $625,000.</p>
+<p><strong>P&amp;L so far:</strong> $0. Drawdown cap: $625,000 (14.5 times its normal 10-day wiggle; the management lines are in the noise section above).</p>
 </article>
 <article class="wing-card">
 <h3>P2 Fade the fear</h3>
@@ -723,7 +740,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <p><strong>What can hurt us.</strong> Brent rises. The put spread bleeds and time costs money every day.</p>
 <p><strong>Most we can lose.</strong> $53,000. That is the full amount paid for the spread.</p>
 <p><strong>What would make us change our mind.</strong> If the length goes, the collar goes with it.</p>
-<p><strong>P&amp;L so far:</strong> $0. Drawdown cap: $625,000.</p>
+<p><strong>P&amp;L so far:</strong> $0. Drawdown cap: $625,000 (9.4 times its normal 10-day wiggle; the management lines are in the noise section above).</p>
 </article>
 <article class="wing-card">
 <h3>P4 Roll harvest</h3>
