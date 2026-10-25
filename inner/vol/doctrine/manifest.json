@@ -1,0 +1,27 @@
+{
+ "page": "/inner/vol/doctrine/",
+ "title": "Doctrine: VaR budgeting",
+ "dek": "Inner reasoning wing: VaR budgeting and scenario-first sizing, with the book's live budgets, worst-scenario loss, and ladder states as the worked example.",
+ "built_at": "2026-10-25",
+ "generator": "heavyreading-manifest/1",
+ "claims": [
+  {
+   "text": "Corpus admission at the October 23, 2026 marks: all five plays PROBATION at 0.25R budgets ($62,500), P2 PAUSED by the episode breaker. Portfolio worst-scenario loss $7,918 against $129,283 summed standalone, a measured diversification benefit of $121,365; one-day 99 percent Greeks-VaR $3,840 printed as the cross-check.",
+   "vintage": "marks 2026-10-23",
+   "source": "Portfolio stacker risk file + corpus selection",
+   "source_url": ""
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Corpus playbook (Heavy Reading)",
+   "vintage": "pod rules, October 2026",
+   "url": ""
+  },
+  {
+   "publisher": "Portfolio stacker (Heavy Reading)",
+   "vintage": "risk file 2026-10-23",
+   "url": ""
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "page": "/inner/vol/checklist/",
+ "title": "Pre-trade checklist",
+ "dek": "Inner reasoning wing: the five-field pre-trade checklist (thesis, confirmation gauge, invalidation, scenario worst case, size derivation) with a worked example from the live Block Board record.",
+ "built_at": "2026-10-25",
+ "generator": "heavyreading-manifest/1",
+ "claims": [
+  {
+   "text": "Worked example FR-20261022-B-202703-P: probation budget 0.250R ($62,500) over a scenario loss of $669.57 per lot sized 93 lots of PUT VERTICAL ENVELOPE +P80; -P65; scenario worst case $62,270, structural bound the full $161,820 debit.",
+   "vintage": "entered 2026-10-23",
+   "source": "Flow Rank recs (flow_recs.csv)",
+   "source_url": ""
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Flow Rank (Heavy Reading)",
+   "vintage": "recs to 2026-10-23",
+   "url": ""
+  },
+  {
+   "publisher": "Skew pipeline (Heavy Reading)",
+   "vintage": "gauges to 2026-10-22",
+   "url": ""
+  }
+ ]
+}

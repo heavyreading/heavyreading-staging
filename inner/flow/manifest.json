@@ -1,0 +1,33 @@
+{
+ "page": "/inner/flow/",
+ "title": "The Block Board",
+ "dek": "Inner: The Block Board. Ranked ICE crude options block complexes with recommendation cards, the clone book, and the graded scoreboard, record first.",
+ "built_at": "2026-10-25",
+ "generator": "heavyreading-manifest/1",
+ "claims": [
+  {
+   "text": "Flow Rank record, 2026-10-15 to 2026-10-23 (7 boards, run run_20261025T143647Z_8baad471): 35 cards, 17 paper positions, hit rate 29 percent, paper P&L -$88,101, all in EPISODE regime; grind $0, episode -$88,101, never netted.",
+   "vintage": "marks to 2026-10-23",
+   "source": "Flow Rank scoreboard (flow_recs.csv)",
+   "source_url": ""
+  },
+  {
+   "text": "Clone book over the same window: 45 complexes detected, 17 clones taken on open-interest-confirmed openings, book P&L -$82,395 at the latest marks.",
+   "vintage": "marks to 2026-10-23",
+   "source": "Block Clone Book ledger (clones_ledger.csv)",
+   "source_url": ""
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "ICE Endex (Report Center report 166)",
+   "vintage": "options settlements to 2026-10-23",
+   "url": ""
+  },
+  {
+   "publisher": "Flow Rank (Heavy Reading)",
+   "vintage": "run run_20261025T143647Z_8baad471",
+   "url": ""
+  }
+ ]
+}
