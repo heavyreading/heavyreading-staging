@@ -652,76 +652,114 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p class="sub">The vol book stacked: risk first, then Greeks, P&L, rolls and the rules' own recommendations.</p>
 <section id="risk">
 <h2>Risk first</h2>
-<p>The binding risk number is the scenario grid, repriced through the 2026-10-23 inverted surface. Worst case on the grid: <strong>GAP_DN_20, $12,880 of loss</strong> on the current book. The parametric Greeks-VaR (1-day, 99%) is $5,249; it understates gap risk for short-premium structures, which is why the scenario number governs. Print both, trust the bigger one.</p>
+<p class="vintage"><em>Inputs as of: structure marks 2026-10-23; inverted surface 2026-10-23; episode flag from the barrels ledger visible layer as of 2026-10-18 (Hormuz 0.44 transits a day against a 36.98 pre-war baseline). Vintages print beside the numbers they feed: a dashboard that hid a stale input caused a real error today.</em></p>
+<p>The binding risk number is the scenario grid, repriced through the 2026-10-23 inverted surface. Worst case on the grid: <strong>VOL_DN_10, $7,918 of loss</strong> on the current book. The parametric Greeks-VaR (1-day, 99%) is $3,840; it understates gap risk for short-premium structures, which is why the scenario number governs. Print both, trust the bigger one.</p>
 <p>Drawdown: $0 from peak against the book governor line of $1,500,000 (inside the $2,500,000 drawdown budget, trade framework). Ladder states: P1 WITHIN (cap $625,000); P3 WITHIN (cap $625,000); portfolio WITHIN. Ladder rules: at 50% of a cap, size halves; at 100%, the play is flat and paused, and the stacker says so rather than carrying it.</p>
-<p>diversification benefit $6,107 = sum of standalone worst-scenario losses $18,987 minus portfolio worst-scenario loss $12,880, measured from the scenario repricing. Vol inputs: front-futures realised vol 50.8% annualised (WTI front continuous series on disk, trailing 60 sessions; the stack's proxy, as no Brent outright history is held), vol-of-vol 2.74 points a day (OVX daily changes, trailing 60 sessions).</p>
+<p>diversification benefit $121,365 = sum of standalone worst-scenario losses $129,283 minus portfolio worst-scenario loss $7,918, measured from the scenario repricing. Vol inputs: front-futures realised vol 50.8% annualised (WTI front continuous series on disk, trailing 60 sessions; the stack's proxy, as no Brent outright history is held), vol-of-vol 2.74 points a day (OVX daily changes, trailing 60 sessions).</p>
 <p><strong>Seed date 2026-10-23.</strong> One day of marks. Everything on this page is a structural number: what this book would make or lose if the scenario happened tomorrow. It is not a track record, and no figure here is evidence that a play works.</p>
+</section>
+<section id="league">
+<h2>League table: plays ranked on the selection currency</h2>
+<p class="vintage"><em>Inputs as of: corpus summary and risk file, 2026-10-23.</em></p>
+<table><tr><th>Play</th><th>Name</th><th>Expectancy per cycle</th><th>Marginal VaR</th><th>Expectancy per marginal VaR</th><th>Cum P&amp;L</th><th>Drawdown</th><th>Cap</th><th>Ladder</th></tr>
+<tr><td>P1</td><td>Overwrite</td><td>$15,400</td><td>$-35,017</td><td>diversifier</td><td>$0</td><td>$0</td><td>$625,000</td><td>WITHIN</td></tr>
+<tr><td>P3</td><td>Collar the length</td><td>$-53,000</td><td>$-78,430</td><td>diversifier</td><td>$0</td><td>$0</td><td>$625,000</td><td>WITHIN</td></tr>
+</table>
+<p>Expectancy is premium per cycle from the corpus summary; for P3 it is the collar's insurance cost, negative by construction. A play carries negative marginal VaR when removing it would leave the other play's worst scenario binding and larger: it is classed a diversifier and judged on hedge value, not on the ratio. P2, P4 and P5 hold no position on 2026-10-23 (skip rows in the corpus ledger), so they carry no marginal VaR and no ladder exposure yet.</p>
 </section>
 <section id="greeks">
 <h2>The stack: portfolio Greeks by play</h2>
-<p>Net book, 2026-10-23: delta +595 barrels equivalent; gamma -6.5 barrels per $1; theta $67 a day; vega $-60 per vol point. Day flag: EPISODE (barrels ledger visible layer). Per-play contributions:</p>
+<p class="vintage"><em>Inputs as of: structure marks 2026-10-23; corpus ledger to 2026-10-23.</em></p>
+<p>Net book, 2026-10-23: delta -40 barrels equivalent; gamma +124.5 barrels per $1; theta $-416 a day; vega $669 per vol point. Day flag: EPISODE (barrels ledger visible layer). Per-play contributions:</p>
 <h3>Delta, barrels equivalent</h3>
 <svg viewbox="0 0 640 86" width="100%" role="img">
 <line x1="320" y1="4" x2="320" y2="68" stroke="#999" stroke-width="1" />
 <text x="184" y="20" font-size="12.5" text-anchor="end">P1</text>
-<rect x="320" y="6" width="190" height="16" fill="#2e6b30" />
-<text x="516" y="19" font-size="12.5" text-anchor="start">+746</text>
+<rect x="320" y="6" width="188" height="16" fill="#2e6b30" />
+<text x="514" y="19" font-size="12.5" text-anchor="start">+3,730</text>
 <text x="184" y="46" font-size="12.5" text-anchor="end">P3</text>
-<rect x="282" y="32" width="38" height="16" fill="#a33327" />
-<text x="276" y="45" font-size="12.5" text-anchor="end">-151</text>
-<text x="326" y="82" font-size="12" fill="#555">net +595 bbl</text>
+<rect x="130" y="32" width="190" height="16" fill="#a33327" />
+<text x="124" y="45" font-size="12.5" text-anchor="end">-3,770</text>
+<text x="326" y="82" font-size="12" fill="#555">net -40 bbl</text>
 </svg>
 <h3>Gamma, barrels per $1</h3>
 <svg viewbox="0 0 640 86" width="100%" role="img">
 <line x1="320" y1="4" x2="320" y2="68" stroke="#999" stroke-width="1" />
 <text x="184" y="20" font-size="12.5" text-anchor="end">P1</text>
-<rect x="130" y="6" width="190" height="16" fill="#a33327" />
-<text x="124" y="19" font-size="12.5" text-anchor="end">-14</text>
+<rect x="250" y="6" width="70" height="16" fill="#a33327" />
+<text x="244" y="19" font-size="12.5" text-anchor="end">-72</text>
 <text x="184" y="46" font-size="12.5" text-anchor="end">P3</text>
-<rect x="320" y="32" width="104" height="16" fill="#2e6b30" />
-<text x="430" y="45" font-size="12.5" text-anchor="start">+8</text>
-<text x="326" y="82" font-size="12" fill="#555">net -7 bbl/$1</text>
+<rect x="320" y="32" width="190" height="16" fill="#2e6b30" />
+<text x="516" y="45" font-size="12.5" text-anchor="start">+197</text>
+<text x="326" y="82" font-size="12" fill="#555">net +125 bbl/$1</text>
 </svg>
 <h3>Theta, $ a day</h3>
 <svg viewbox="0 0 640 86" width="100%" role="img">
 <line x1="320" y1="4" x2="320" y2="68" stroke="#999" stroke-width="1" />
 <text x="184" y="20" font-size="12.5" text-anchor="end">P1</text>
-<rect x="320" y="6" width="190" height="16" fill="#2e6b30" />
-<text x="516" y="19" font-size="12.5" text-anchor="start">+105</text>
+<rect x="320" y="6" width="106" height="16" fill="#2e6b30" />
+<text x="432" y="19" font-size="12.5" text-anchor="start">+525</text>
 <text x="184" y="46" font-size="12.5" text-anchor="end">P3</text>
-<rect x="252" y="32" width="68" height="16" fill="#a33327" />
-<text x="246" y="45" font-size="12.5" text-anchor="end">-38</text>
-<text x="326" y="82" font-size="12" fill="#555">net +67 $/day</text>
+<rect x="130" y="32" width="190" height="16" fill="#a33327" />
+<text x="124" y="45" font-size="12.5" text-anchor="end">-941</text>
+<text x="326" y="82" font-size="12" fill="#555">net -416 $/day</text>
 </svg>
 <h3>Vega, $ per vol point</h3>
 <svg viewbox="0 0 640 86" width="100%" role="img">
 <line x1="320" y1="4" x2="320" y2="68" stroke="#999" stroke-width="1" />
 <text x="184" y="20" font-size="12.5" text-anchor="end">P1</text>
-<rect x="130" y="6" width="190" height="16" fill="#a33327" />
-<text x="124" y="19" font-size="12.5" text-anchor="end">-109</text>
+<rect x="235" y="6" width="85" height="16" fill="#a33327" />
+<text x="229" y="19" font-size="12.5" text-anchor="end">-545</text>
 <text x="184" y="46" font-size="12.5" text-anchor="end">P3</text>
-<rect x="320" y="32" width="85" height="16" fill="#2e6b30" />
-<text x="411" y="45" font-size="12.5" text-anchor="start">+49</text>
-<text x="326" y="82" font-size="12" fill="#555">net -60 $/pt</text>
+<rect x="320" y="32" width="190" height="16" fill="#2e6b30" />
+<text x="516" y="45" font-size="12.5" text-anchor="start">+1,214</text>
+<text x="326" y="82" font-size="12" fill="#555">net +669 $/pt</text>
 </svg>
 </section>
 <section id="pnl">
 <h2>P&amp;L</h2>
+<p class="vintage"><em>Inputs as of: structure marks 2026-10-23; episode split from the barrels ledger flag as of 2026-10-18.</em></p>
 <p>Cumulative $0; grind $0 and episode $0 kept apart, never netted into one flattering number.</p>
 <svg viewbox="0 0 640 180" width="100%" role="img"><line x1="50" y1="90" x2="620" y2="90" stroke="#999" /><circle cx="90" cy="90" r="4.5" fill="#2e6b30" /><text x="102" y="84" font-size="12.5">seed print, 2026-10-23: cumulative P&amp;L $0</text><text x="102" y="102" font-size="12" fill="#555">The series starts 2026-10-23. One print is a starting point, not a track record; the line draws itself as marks land.</text></svg>
 </section>
+<section id="replay">
+<h2>Historical replay: the rules over 7 marked days</h2>
+<p class="vintage"><em>Inputs as of: ICE surfaces 2026-10-15 to 2026-10-23; episode flag from the barrels ledger visible layer.</em></p>
+<p>Replay over 7 marked days, 2026-10-15 to 2026-10-23: a machinery check, not a track record. The corpus rules as written, run over every options surface in the archive, positions marked on each day's own settles. Sizes: P1 at the book's 5 lots, P3 at 25 lots, P4 at 1 lot (no sized P4 position exists yet).</p>
+<svg viewbox="0 0 720 190" width="100%" role="img"><line x1="36" y1="154" x2="684" y2="154" stroke="#999" /><polyline points="36,154 129,154 221,108 314,121 406,131 499,130 591,78 684,36" fill="none" stroke="#205090" stroke-width="2" /><g fill="#205090"><circle cx="36" cy="154" r="3" /><circle cx="129" cy="154" r="3" /><circle cx="221" cy="108" r="3" /><circle cx="314" cy="121" r="3" /><circle cx="406" cy="131" r="3" /><circle cx="499" cy="130" r="3" /><circle cx="591" cy="78" r="3" /><circle cx="684" cy="36" r="3" /></g><text x="36" y="182" font-size="11">start $0</text><text x="684" y="182" font-size="11" text-anchor="end">2026-10-23 $51,780</text><text x="36" y="14" font-size="11">peak $51,780</text></svg>
+<p>Hypothetical cumulative P&amp;L $51,780; deepest peak-to-trough drawdown on the path $9,950. At the end: P1 $39,200, P3 $11,250, P4 $1,330 (entered mid-window, spread above its trailing median, still open). P3 entered on the first day: RR25 printed +5.31 against the +5 trigger and stayed above it all week.</p>
+<p>P2 (fade the fear) never entered. The tail premium stayed rich, 7.3 to 8.5 points over ATM, but never printed a top-quartile spike against its own short expanding history, and the episode breaker was active on all 7 days, so a trigger would have been paused anyway. That is the breaker doing its job inside a live episode; it also means this window tests episode posture, not grind. Every day in the window carries the episode flag.</p>
+<p>P5 (Brent-WTI band) cannot run: the band needs 60 days of spread history and the archive holds 7. It stays dark until the history exists. No options surfaces exist in this stack before 2026-10-15; the archive starts there, and nothing before it is backfilled, estimated or drawn.</p>
+</section>
+<section id="watchlist">
+<h2>Block-clone watchlist</h2>
+<p class="vintage"><em>Inputs as of: block watch 2026-10-23 (ICE EOD reports 166 options and 142 futures); clone book summary same window.</em></p>
+<p>Standing example, 2026-10-23: a Brent January 2027 put complex. Eight flagged strikes from 65 to 100 printed 200,714 lots of block volume, 96 percent of those strikes' volume for the day. The core five strikes, each 99 to 100 percent block:</p>
+<table><tr><th>Strike</th><th>Block lots</th><th>Share of strike volume</th><th>Settle</th></tr>
+<tr><td>65.00</td><td>23,744</td><td>100%</td><td>0.09</td></tr>
+<tr><td>75.00</td><td>23,353</td><td>99%</td><td>0.23</td></tr>
+<tr><td>80.00</td><td>48,494</td><td>99%</td><td>0.37</td></tr>
+<tr><td>83.00</td><td>46,979</td><td>100%</td><td>0.51</td></tr>
+<tr><td>88.00</td><td>46,894</td><td>100%</td><td>0.86</td></tr>
+</table>
+<p>The core five carry about $89.7M of premium at settles. Half the complex's volume was booked as spread volume and the three biggest strikes are near-equal at about 48,000 lots each, which is why the clone book's working hypothesis is a defined-risk package (a vertical or ladder spread) rather than outright directional puts.</p>
+<p>Classification caveat: end-of-day block volume carries no print price, no timestamp and no direction; the figure never says whether the block was bought or sold. Open interest was blank on the block date's file (same-evening vintage; OI publishes a business day later), so direction is UNKNOWN and every direction-dependent reading is closed until an OI-populated file lands. The clone book's gate is shut on this complex: no clone taken.</p>
+<p>Clone book, window 2026-10-15 to 2026-10-23: 45 complexes detected, 17 clones taken (only on open-interest-confirmed openings, entered the next file day at settles with a 10 percent haircut). Book P&amp;L on taken clones marked to 2026-10-23: -$82,395 (calls +$151,474, puts -$233,869). Seven days of record inside one ripping episode: an anecdote with a ledger, not a grade. The scoreboard, not any single complex, decides whether this book ever earns capital.</p>
+</section>
 <section id="scenarios">
 <h2>Scenario grid, repriced</h2>
+<p class="vintage"><em>Inputs as of: inverted surface 2026-10-23.</em></p>
 <p>Price gaps hold each strike's implied vol (sticky strike); vol scenarios shift the whole surface in parallel. P&amp;L in dollars on the current size.</p>
 <table><tr><th>Book</th><th>GAP UP 10</th><th>GAP DN 10</th><th>GAP UP 20</th><th>GAP DN 20</th><th>VOL UP 10</th><th>VOL DN 10</th><th>EPISODE</th><th>UNWIND</th></tr>
-<tr><td>PORTFOLIO</td><td>$5,557</td><td>$-6,220</td><td>$10,104</td><td>$-12,880</td><td>$-687</td><td>$514</td><td>$8,210</td><td>$-9,176</td></tr>
-<tr><td>P1</td><td>$6,700</td><td>$-8,120</td><td>$11,821</td><td>$-17,270</td><td>$-1,135</td><td>$1,038</td><td>$9,451</td><td>$-12,009</td></tr>
-<tr><td>P3</td><td>$-1,143</td><td>$1,900</td><td>$-1,717</td><td>$4,390</td><td>$449</td><td>$-524</td><td>$-1,241</td><td>$2,834</td></tr>
+<tr><td>PORTFOLIO</td><td>$4,922</td><td>$6,893</td><td>$16,173</td><td>$23,402</td><td>$5,538</td><td>$-7,918</td><td>$16,232</td><td>$10,795</td></tr>
+<tr><td>P1</td><td>$33,500</td><td>$-40,599</td><td>$59,107</td><td>$-86,348</td><td>$-5,677</td><td>$5,189</td><td>$47,253</td><td>$-60,047</td></tr>
+<tr><td>P3</td><td>$-28,578</td><td>$47,492</td><td>$-42,935</td><td>$109,750</td><td>$11,215</td><td>$-13,107</td><td>$-31,020</td><td>$70,842</td></tr>
 </table>
-<p>Marginal VaR (worst-scenario loss added by the play): P1 $11,162, expectancy per marginal VaR 0.276; P3 $-4,390, diversifier (no marginal VaR). Expectancy is premium collected per cycle from the corpus summary; plays are ranked on expectancy per unit of marginal VaR.</p>
+<p>Marginal VaR (worst-scenario loss added by the play): P1 $-35,017, diversifier (no marginal VaR); P3 $-78,430, diversifier (no marginal VaR). Expectancy is premium collected per cycle from the corpus summary; plays are ranked on expectancy per unit of marginal VaR.</p>
 </section>
 <section id="rolls">
 <h2>Rolls</h2>
+<p class="vintage"><em>Inputs as of: book marks 2026-10-23.</em></p>
 <table><tr><th>Play</th><th>Structure</th><th>Expiry</th><th>Days</th><th>Action the rules imply</th></tr>
 <tr><td>P1</td><td>S5</td><td>2026-11-26</td><td>34</td><td>Hold: roll window opens 2026-11-21 (5 days to expiry)</td></tr>
 <tr><td>P3</td><td>COLLAR-PS</td><td>2026-11-26</td><td>34</td><td>Hold: roll window opens 2026-11-21 (5 days to expiry)</td></tr>
@@ -729,19 +767,21 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </section>
 <section id="recommendations">
 <h2>Management recommendations</h2>
+<p class="vintage"><em>Inputs as of: book marks 2026-10-23; barrels ledger visible layer as of 2026-10-18.</em></p>
 <ul>
 <li>Circuit breaker ACTIVE: pause P2 entries. The barrels ledger's visible layer confirms a physical break: Hormuz tanker transits 0.44/day as of 2026-10-18, 1.2% of the 36.98/day pre-war baseline (rule: below 25% = break confirmed); Kharg Island export capacity 0 DWT/day as of 2026-10-16. Open short-premium positions flagged for review: P1 (S5) (the P1 overwrite call is covered by its futures length; no naked fade is open).</li>
-<li>Concentration flag: P1 is 74% of portfolio theta. Rule: a single play above 60% of portfolio |theta| gets flagged. P1 theta is +105.00 of a 142.63 gross total; the book's theta exposure is effectively one play's decision until the corpus diversifies.</li>
-<li>Concentration flag: P1 is 69% of portfolio vega. Rule: a single play above 60% of portfolio |vega| gets flagged. P1 vega is -109.00 of a 157.54 gross total; the book's vega exposure is effectively one play's decision until the corpus diversifies.</li>
+<li>Concentration flag: P3 is 64% of portfolio theta. Rule: a single play above 60% of portfolio |theta| gets flagged. P3 theta is -940.68 of a 1465.68 gross total; the book's theta exposure is effectively one play's decision until the corpus diversifies.</li>
+<li>Concentration flag: P3 is 69% of portfolio vega. Rule: a single play above 60% of portfolio |vega| gets flagged. P3 vega is +1213.57 of a 1758.57 gross total; the book's vega exposure is effectively one play's decision until the corpus diversifies.</li>
 </ul>
 </section>
 <section id="positions">
 <h2>Open paper positions</h2>
+<p class="vintage"><em>Inputs as of: corpus ledger to 2026-10-23.</em></p>
 <table><tr><th>Play</th><th>Structure</th><th>Legs</th><th>Lots</th><th>Entry premium $/bbl</th></tr>
 <tr><td>P1</td><td>S5</td><td>+1 FUT 2027-01; -1 C130</td><td>5</td><td>3.0800</td></tr>
 <tr><td>P3</td><td>COLLAR-PS</td><td>LONG 1x P 101 @ 3.17 (IV 56.5); SHORT 1x P 90 @ 1.05 (IV 59.7)</td><td>25</td><td>-2.1200</td></tr>
 </table>
-<p>Paper book. One lot per play at seed size; the stack scales linearly. Real size is a decision the scored record has to earn.</p>
+<p>Paper book, sized by the corpus playbook's scenario budgets. Real size is a decision the scored record has to earn.</p>
 </section>
   <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../chartbook.html">Chartbook</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
 </div>

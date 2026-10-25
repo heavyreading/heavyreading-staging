@@ -6,7 +6,7 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
-   "text": "At the 2026-10-23 seed the paper vol book's worst scenario loss is the GAP_DN_20 print from the scenario grid, and its parametric Greeks-VaR sits below it, which is why the scenario number governs.",
+   "text": "At the 2026-10-23 marks the paper vol book's binding risk number is the worst loss on its repriced scenario grid, printed on the page beside its parametric Greeks-VaR; the scenario number governs.",
    "vintage": "Marks 2026-10-23",
    "source": "Portfolio stacker (portfolio/risk_2026-10-23.csv)",
    "source_url": ""

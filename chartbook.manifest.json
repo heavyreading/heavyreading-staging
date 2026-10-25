@@ -91,19 +91,19 @@
   },
   {
    "text": "Brent options price the upside tail, not the downside.",
-   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 23, 2026.",
+   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 15, 2026.",
    "source": "ICE Futures Europe options EOD (report 166)",
    "source_url": ""
   },
   {
-   "text": "Skew gauges on October 23, 2026, the first day of this series.",
-   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 23, 2026.",
+   "text": "Skew gauges through October 23, 2026.",
+   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 15, 2026.",
    "source": "ICE Futures Europe options EOD (report 166)",
    "source_url": ""
   },
   {
    "text": "The options market charges a spike premium the physical ledger only partly confirms.",
-   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 23, 2026.",
+   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 15, 2026.",
    "source": "ICE options EOD (report 166); global barrels ledger",
    "source_url": ""
   },

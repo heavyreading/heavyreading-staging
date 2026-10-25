@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-10-25T08:05:09-06:00",
+ "built_at": "2026-10-25T08:45:45-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -13928,7 +13928,7 @@
    "source": "ICE Futures Europe options EOD (report 166)",
    "pull": "broker-marks-pull (ICE options reports)",
    "cadence": "daily",
-   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 23, 2026.",
+   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 15, 2026.",
    "stats": {
     "futures_ref_far": 111.7,
     "futures_ref_near": 116.72,
@@ -13945,15 +13945,15 @@
    "source": "ICE Futures Europe options EOD (report 166)",
    "pull": "broker-marks-pull (ICE options reports)",
    "cadence": "daily",
-   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 23, 2026.",
+   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 15, 2026.",
    "stats": {
-    "dates": 1,
+    "dates": 7,
     "brent_rr25": 8.89,
     "brent_tail_prem": 8.02,
     "wti_rr25": 7.25,
     "date": "2026-10-23"
    },
-   "narrative_text": "Skew gauges on October 23, 2026, the first day of this series. The risk reversal (25-delta call minus 25-delta put implied volatility) is positive in Brent and WTI: the market pays for upside insurance, and the put wing prices at or below at the money. The tail premium (the twenty-percent out-of-the-money call minus at the money) shows the fear running furthest into the deep upside tail. With one day of history this prints as a snapshot, not a trend: the series starts October 23, 2026, and the shift in these gauges, not any single day's level, is the tradable read.",
+   "narrative_text": "Skew gauges through October 23, 2026. The risk reversal (25-delta call minus 25-delta put implied volatility) is positive in Brent and WTI: the market pays for upside insurance. The deep-tail premium (the twenty-percent out-of-the-money call minus at the money) tracks how far that fear runs into the far tail. The series starts October 15, 2026: the shift in these lines, not any single day's level, is the tradable read.",
    "points": []
   },
   {
@@ -13964,16 +13964,26 @@
    "source": "ICE options EOD (report 166); global barrels ledger",
    "pull": "broker-marks-pull; global-barrels-ledger crons",
    "cadence": "daily; weekly and monthly",
-   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 23, 2026.",
+   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 15, 2026.",
    "stats": {
     "live_episode": true,
     "brent_rr25_1m": 8.89,
     "brent_tail_premium_front": 43.62,
     "hormuz_transits_visible_per_day": 0.44,
     "hormuz_transits_prewar_per_day": 36.98,
-    "options_date": "2026-10-23"
+    "options_date": "2026-10-23",
+    "front_brent": 116.72,
+    "back_brent": 87.85,
+    "front_premium_usd": 28.870000000000005,
+    "implied_outage_e015_mbd": 5.077307911212295,
+    "implied_outage_e010_mbd": 3.3848719408081966,
+    "implied_outage_e020_mbd": 6.769743881616393,
+    "ledger_outage_mbd": 3.073170731707318,
+    "premium_gap_mbd": 2.004137179504977,
+    "front_move_pct_window": 10.196374622356497,
+    "back_move_pct_window": 3.255759285378468
    },
-   "narrative_text": "The options market charges a spike premium the physical ledger only partly confirms. The options market is pricing a violent, discontinuous jump. One month out, Brent's 25-delta call trades 8.9 points of implied volatility above the 25-delta put, and the call struck about twenty percent above the future trades at 67.2 percent. The front expiry is more extreme: the 141 call trades at 90.4 percent implied volatility, 43.6 points over at the money, while the put wing prices at or below at the money. There is no downside premium in this market; the fear is entirely upside. A single day's deep-strike read is approximate: it rests on one strike's settlement, and the gauges above carry the cleaner levels. The house physical read says the barrels mostly still move, just not where AIS can see them. Visible floor (AIS, IMF PortWatch): Hormuz tanker transits averaged 0.44 a day over the latest window (as of 2026-10-18), against a pre-war average of 36.98 a day. Kharg Island export capacity reads zero in the latest window (AIS-observed capacity, not cargo). Claimed totals (tracking houses, quoted as claims, never as measurement): Kpler puts Hormuz flows including Gulf of Oman ship-to-ship transfers at about 14 million barrels a day, roughly 82 percent of pre-war. The same house prints Middle East exports at 24.6 million barrels a day in the week to 2026-10-18. Derived gap (an estimate with both parents cited, never a count): about 29.9 transit-equivalents a day move outside AIS-visible Hormuz transits. Official hub print: Fujairah product stocks were 6.8 million barrels in the week ended 2026-10-12, against about 20.7 million before the war. Fujairah export tonnage runs at 72,586 deadweight tons a day, the bypass hub absorbing the rerouted flow. Fade the wing if the claim layer holds: convoys and the shuttle fleet keep claimed Hormuz flows near 82 percent of pre-war, Kharg loadings reappear on AIS, and Fujairah stocks rebuild off 6.8 million barrels toward pre-war. Every quiet week with barrels moving decays the tail premium the options market is charging. Own the tail if the claim layer breaks: the houses mark Middle East export claims down from 24.6 million barrels a day, AIS-visible Hormuz transits stay pinned near 0.44 a day with Kharg still at zero, and Fujairah stocks draw further. Claims rolling over is the confirmation the disruption is physical, and the wing re-prices faster than the flat price.",
+   "narrative_text": "The options market charges a spike premium the physical ledger only partly confirms. The options market is pricing a violent, discontinuous jump. One month out, Brent's 25-delta call trades 8.9 points of implied volatility above the 25-delta put, and the call struck about twenty percent above the future trades at 67.2 percent. The front expiry is more extreme: the 141 call trades at 90.4 percent implied volatility, 43.6 points over at the money, while the put wing prices at or below at the money. There is no downside premium in this market; the fear is entirely upside. A single day's deep-strike read is approximate: it rests on one strike's settlement, and the gauges above carry the cleaner levels. The house physical read says the barrels mostly still move, just not where AIS can see them. Visible floor (AIS, IMF PortWatch): Hormuz tanker transits averaged 0.44 a day over the latest window (as of 2026-10-18), against a pre-war average of 36.98 a day. Kharg Island export capacity reads zero in the latest window (AIS-observed capacity, not cargo). Claimed totals (tracking houses, quoted as claims, never as measurement): Kpler puts Hormuz flows including Gulf of Oman ship-to-ship transfers at about 14 million barrels a day, roughly 82 percent of pre-war. The same house prints Middle East exports at 24.6 million barrels a day in the week to 2026-10-18. Derived gap (an estimate with both parents cited, never a count): about 29.9 transit-equivalents a day move outside AIS-visible Hormuz transits. Official hub print: Fujairah product stocks were 6.8 million barrels in the week ended 2026-10-12, against about 20.7 million before the war. Fujairah export tonnage runs at 72,586 deadweight tons a day, the bypass hub absorbing the rerouted flow. Front Brent (December 2026) settled at $116.72 on October 23, 2026, $28.87 over the December 2027 contract at $87.85. On the decomposition Robin Brooks publishes (a stated short-run elasticity of 0.15), a 32.9 percent front premium prices a supply loss of about 5.1 million barrels a day. The sensitivity is printed, not hidden: 3.4 million at an elasticity of 0.10 and 6.8 million at 0.20, on about 103 million barrels a day of global supply. The ledger's best physical estimate is smaller: claimed Hormuz flows of about 14 million barrels a day are roughly 82 percent of pre-war (Kpler, claim tier), an outage of about 3.1 million barrels a day, and the AIS visible floor counts transits at 1.2 percent of the pre-war count. The gap between the price-implied outage and the ledger outage, about 2.0 million barrels a day at the central elasticity, is the claim and fear premium: barrels the price is paying for that the best physical evidence says are still moving. Front versus deferred over the window since October 15, 2026: the front moved +10.2 percent and the December 2027 contract +3.3 percent, a mixed curve move. Fade the wing if the claim layer holds: convoys and the shuttle fleet keep claimed Hormuz flows near 82 percent of pre-war, Kharg loadings reappear on AIS, and Fujairah stocks rebuild off 6.8 million barrels toward pre-war. Every quiet week with barrels moving decays the tail premium the options market is charging. Own the tail if the claim layer breaks: the houses mark Middle East export claims down from 24.6 million barrels a day, AIS-visible Hormuz transits stay pinned near 0.44 a day with Kharg still at zero, and Fujairah stocks draw further. Claims rolling over is the confirmation the disruption is physical, and the wing re-prices faster than the flat price.",
    "points": []
   },
   {
