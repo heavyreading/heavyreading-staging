@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-10-24T14:24:49-06:00",
+ "built_at": "2026-10-25T08:05:09-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -9559,10 +9559,10 @@
     "percentile_since_2021": 73.35398915569326,
     "date": "2026-08-31",
     "tmw_tenor": "2026-12",
-    "tmw_settle": -27.85,
-    "tmw_settle_date": "2026-10-22"
+    "tmw_settle": -28.5,
+    "tmw_settle_date": "2026-10-23"
    },
-   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$27.85 on October 22, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
+   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$28.50 on October 23, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
    "points": [
     [
      "2021-08-02",
@@ -10872,13 +10872,13 @@
    "cadence": "daily",
    "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through October 23, 2026.",
    "stats": {
-    "level": 56.4336,
-    "percentile_since_2020": 93.34889148191365,
+    "level": 51.3432,
+    "percentile_since_2020": 90.84014002333723,
     "series_high": 75.311,
     "series_high_date": "2026-08-28",
     "date": "2026-10-23"
    },
-   "narrative_text": "The 3-2-1 crack spread printed $56.43 a barrel on October 23, 2026, in the 93rd percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
+   "narrative_text": "The 3-2-1 crack spread printed $51.34 a barrel on October 23, 2026, in the 91st percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
    "points": [
     [
      "2023-10-23",
@@ -12394,7 +12394,7 @@
     ],
     [
      "2026-10-23",
-     56.4336
+     51.3432
     ]
    ]
   },
@@ -13919,6 +13919,62 @@
      -15165.0
     ]
    ]
+  },
+  {
+   "id": "brent_smile",
+   "title": "The Brent smile",
+   "section": "Volatility & skew",
+   "unit": "percent implied volatility",
+   "source": "ICE Futures Europe options EOD (report 166)",
+   "pull": "broker-marks-pull (ICE options reports)",
+   "cadence": "daily",
+   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 23, 2026.",
+   "stats": {
+    "futures_ref_far": 111.7,
+    "futures_ref_near": 116.72,
+    "date": "2026-10-23"
+   },
+   "narrative_text": "Brent options price the upside tail, not the downside. On October 23, 2026 the implied-volatility curve for the November 26 expiry bottoms near the futures price of $111.70 and climbs steeply to the right: calls struck far above the market carry much higher implied volatility than puts the same distance below it. The front expiry is more extreme still: the call struck about twenty percent above the future, at 141, trades at 90.4 percent implied volatility, 43.6 points over at the money. In equity markets the expensive wing is the put side, insurance against a crash. In crude during a supply scare it flips: supply can vanish overnight while demand only fades, so the market pays up for the right to buy barrels at a fixed price. The smile is that fear, drawn.",
+   "points": []
+  },
+  {
+   "id": "fear_gauges",
+   "title": "The fear gauges",
+   "section": "Volatility & skew",
+   "unit": "points of implied volatility",
+   "source": "ICE Futures Europe options EOD (report 166)",
+   "pull": "broker-marks-pull (ICE options reports)",
+   "cadence": "daily",
+   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 23, 2026.",
+   "stats": {
+    "dates": 1,
+    "brent_rr25": 8.89,
+    "brent_tail_prem": 8.02,
+    "wti_rr25": 7.25,
+    "date": "2026-10-23"
+   },
+   "narrative_text": "Skew gauges on October 23, 2026, the first day of this series. The risk reversal (25-delta call minus 25-delta put implied volatility) is positive in Brent and WTI: the market pays for upside insurance, and the put wing prices at or below at the money. The tail premium (the twenty-percent out-of-the-money call minus at the money) shows the fear running furthest into the deep upside tail. With one day of history this prints as a snapshot, not a trend: the series starts October 23, 2026, and the shift in these gauges, not any single day's level, is the tradable read.",
+   "points": []
+  },
+  {
+   "id": "episode_vol",
+   "title": "Buy it or fade it: the Hormuz episode",
+   "section": "Volatility & skew",
+   "unit": "",
+   "source": "ICE options EOD (report 166); global barrels ledger",
+   "pull": "broker-marks-pull; global-barrels-ledger crons",
+   "cadence": "daily; weekly and monthly",
+   "vintage": "ICE Futures Europe options end-of-day report (report 166), Black-76 inversion by this site. Data through October 23, 2026. Skew series starts October 23, 2026.",
+   "stats": {
+    "live_episode": true,
+    "brent_rr25_1m": 8.89,
+    "brent_tail_premium_front": 43.62,
+    "hormuz_transits_visible_per_day": 0.44,
+    "hormuz_transits_prewar_per_day": 36.98,
+    "options_date": "2026-10-23"
+   },
+   "narrative_text": "The options market charges a spike premium the physical ledger only partly confirms. The options market is pricing a violent, discontinuous jump. One month out, Brent's 25-delta call trades 8.9 points of implied volatility above the 25-delta put, and the call struck about twenty percent above the future trades at 67.2 percent. The front expiry is more extreme: the 141 call trades at 90.4 percent implied volatility, 43.6 points over at the money, while the put wing prices at or below at the money. There is no downside premium in this market; the fear is entirely upside. A single day's deep-strike read is approximate: it rests on one strike's settlement, and the gauges above carry the cleaner levels. The house physical read says the barrels mostly still move, just not where AIS can see them. Visible floor (AIS, IMF PortWatch): Hormuz tanker transits averaged 0.44 a day over the latest window (as of 2026-10-18), against a pre-war average of 36.98 a day. Kharg Island export capacity reads zero in the latest window (AIS-observed capacity, not cargo). Claimed totals (tracking houses, quoted as claims, never as measurement): Kpler puts Hormuz flows including Gulf of Oman ship-to-ship transfers at about 14 million barrels a day, roughly 82 percent of pre-war. The same house prints Middle East exports at 24.6 million barrels a day in the week to 2026-10-18. Derived gap (an estimate with both parents cited, never a count): about 29.9 transit-equivalents a day move outside AIS-visible Hormuz transits. Official hub print: Fujairah product stocks were 6.8 million barrels in the week ended 2026-10-12, against about 20.7 million before the war. Fujairah export tonnage runs at 72,586 deadweight tons a day, the bypass hub absorbing the rerouted flow. Fade the wing if the claim layer holds: convoys and the shuttle fleet keep claimed Hormuz flows near 82 percent of pre-war, Kharg loadings reappear on AIS, and Fujairah stocks rebuild off 6.8 million barrels toward pre-war. Every quiet week with barrels moving decays the tail premium the options market is charging. Own the tail if the claim layer breaks: the houses mark Middle East export claims down from 24.6 million barrels a day, AIS-visible Hormuz transits stay pinned near 0.44 a day with Kharg still at zero, and Fujairah stocks draw further. Claims rolling over is the confirmation the disruption is physical, and the wing re-prices faster than the flat price.",
+   "points": []
   },
   {
    "id": "td3c_freight",

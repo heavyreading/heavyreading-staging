@@ -1,0 +1,33 @@
+{
+ "page": "/inner/vol/",
+ "title": "Vol structures",
+ "dek": "Inner vol book: five standing Brent options structures (fade the wing, covered call, own the tail, call spread, risk reversal) with premiums, Greeks in plain labels, and cumulative P&L.",
+ "built_at": "2026-10-25",
+ "generator": "heavyreading-manifest/1",
+ "claims": [
+  {
+   "text": "At the October 23, 2026 ICE Brent settlements (January 2027 expiry, futures 111.70), the five standing vol structures mark: own the tail premium paid 2.41 per barrel, call spread paid 2.07, fade the wing collected 0.32, risk reversal collected 0.09, covered call collected 3.08. The covered call collects $105 per lot per day in rent (theta) at those marks.",
+   "vintage": "ICE settlements 2026-10-23",
+   "source": "Vol structures tracker (structure_marks.csv)",
+   "source_url": ""
+  },
+  {
+   "text": "Package Greeks at the same marks, per 1,000-barrel lot: covered call exposure 746 barrels, tail call fear sensitivity $97 per vol point, risk reversal exposure 506 barrels with fear sensitivity $1 per vol point.",
+   "vintage": "ICE settlements 2026-10-23",
+   "source": "Vol structures tracker (structure_marks.csv)",
+   "source_url": ""
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "ICE Endex (Report Center report 166)",
+   "vintage": "options settlements to 2026-10-23",
+   "url": ""
+  },
+  {
+   "publisher": "Vol structures tracker (Heavy Reading)",
+   "vintage": "seeded 2026-10-23",
+   "url": ""
+  }
+ ]
+}

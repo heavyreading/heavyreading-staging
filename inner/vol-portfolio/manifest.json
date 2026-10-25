@@ -1,0 +1,27 @@
+{
+ "page": "/inner/vol-portfolio/",
+ "title": "Vol portfolio",
+ "dek": "",
+ "built_at": "2026-10-25",
+ "generator": "heavyreading-manifest/1",
+ "claims": [
+  {
+   "text": "At the 2026-10-23 seed the paper vol book's worst scenario loss is the GAP_DN_20 print from the scenario grid, and its parametric Greeks-VaR sits below it, which is why the scenario number governs.",
+   "vintage": "Marks 2026-10-23",
+   "source": "Portfolio stacker (portfolio/risk_2026-10-23.csv)",
+   "source_url": ""
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "ICE Futures Europe options EOD (report 166), inverted in-stack",
+   "vintage": "settlements to 2026-10-23",
+   "url": ""
+  },
+  {
+   "publisher": "Global barrels ledger (IMF PortWatch visible layer)",
+   "vintage": "seeded 2026-10-25",
+   "url": ""
+  }
+ ]
+}

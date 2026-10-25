@@ -2,9 +2,15 @@
  "page": "/world/spr-storage/",
  "title": "US SPR & Storage Watch",
  "dek": "US Strategic Petroleum Reserve (SPR) and commercial crude stocks, SPR inventory, the 2026 exchange/refill mechanics, and Cushing.",
- "built_at": "2026-10-24",
+ "built_at": "2026-10-25",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Status check on Oct 25: no Department of Energy (DOE) award announcement for the 17-million-barrel SPR exchange solicitation issued Oct 16 (FY27 SPR Oil Release No. 1), whose proposals were due Oct 21, had been published on energy.gov as of this check, and no new SPR exchange or sale authorization had followed the Oct 23 emergency exchange of up to 400,000 barrels for the Phillips 66 Lake Charles refinery, which remains the newest SPR press release on energy.gov. The spr.doe.gov exchange pages returned no readable award listing on this check. Bids for the separate 315,000-barrel Northeast Home Heating Oil Reserve exchange announced Oct 21 remain due Oct 27, with deliveries to be completed by Nov 13.",
+   "vintage": "Oct 25, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.spr.doe.gov/doeec/ActiveDocs.htm?type=exchange"
+  },
   {
    "text": "The US Department of Energy (DOE) announced on Oct 23, 2026 the authorization of an emergency exchange of up to 400,000 barrels of crude oil from the Strategic Petroleum Reserve (SPR) to address a crude oil supply disruption affecting the Phillips 66 Lake Charles Refinery in Louisiana, DOE said in a press release on energy.gov. The Energy Department authorized the exchange from the West Hackberry SPR site for immediate delivery. Under the terms of the exchange, all borrowed crude oil will be returned with additional premium barrels, helping replenish and strengthen the SPR at no additional cost to taxpayers, DOE said. DOE Under Secretary of Energy Kyle Haustveit said the exchange helps alleviate supply disruption and requires Phillips 66 to return more barrels to the SPR than are currently being withdrawn. A Phillips 66 spokesperson confirmed the refinery will receive crude from the SPR and said the company does not anticipate impacts to Lake Charles operations, Reuters reported on Oct 23. The Lake Charles refinery can process about 264,000 b/d. DOE did not specify what caused the disruption, the final delivery volume, the premium amount, or a repayment deadline in the announcement.",
    "vintage": "Oct 23, 2026",
@@ -66,12 +72,6 @@
    "source_url": "https://live.euronext.com/en/financial-news/oil-slips-5-month-high-trumps-russia-sanctions-waiver-may-bring-more-supplies"
   },
   {
-   "text": "Status check on Oct 18: no DOE award announcement for the 17-million-barrel SPR exchange solicitation issued Oct 16 had been published, and no new SPR exchange or sale authorization had followed it. The round, FY27 SPR Oil Release No. 1, is still open, with proposals due by 11:00 a.m. Central Time on Oct 21, 2026. The earlier 40-million-barrel round, FY26 SPR Oil Release No. 4, whose bids closed Oct 6, also still shows no award information on DOE's exchange archive, unlike the three earlier FY26 rounds. The award announcements are the next dated events on the ledger.",
-   "vintage": "Oct 18, 2026",
-   "source": "U.S. Department of Energy",
-   "source_url": "https://www.spr.doe.gov/doeec/ActiveDocs.htm?type=exchange"
-  },
-  {
    "text": "The Department of Energy issued a request for proposals on Oct 16 for an exchange of up to 17 million barrels of crude oil from the Strategic Petroleum Reserve (SPR), Reuters reported. The round is a portion of the pending 40 million barrels that form the last batch of the US 172-million-barrel commitment under the March IEA coordinated release of 400 million barrels. The US has released about 132.5 million barrels from the SPR since the war began. DOE has not published awards from the late September re-offer of the 40 million barrels, but Friday's 17-million-barrel figure implies about 23 million barrels were awarded in that round, Energy Aspects wrote in a note cited by Reuters.",
    "vintage": "Oct 16, 2026",
    "source": "Reuters (via Devdiscourse)",
@@ -80,12 +80,6 @@
   {
    "text": "Status check on Oct 16: no DOE award announcement for the sixth and final 40-million-barrel SPR exchange had been published since bids closed Oct 6, and no new SPR exchange or sale authorization had followed the Oct 10 emergency 4-million-barrel Hurricane Isaias exchange. The ledger therefore still stands at up to 44 million barrels committed for November and December delivery, with returns plus premium barrels due from 2027.",
    "vintage": "Oct 16, 2026",
-   "source": "U.S. Department of Energy",
-   "source_url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply"
-  },
-  {
-   "text": "Status check on Oct 15: no DOE award announcement for the sixth and final 40-million-barrel SPR exchange had been published since bids closed Oct 6, and no new SPR exchange or sale authorization had followed the Oct 10 emergency 4-million-barrel Hurricane Isaias exchange. The ledger therefore still stands at up to 44 million barrels committed for November and December delivery, with returns plus premium barrels due from 2027.",
-   "vintage": "Oct 15, 2026",
    "source": "U.S. Department of Energy",
    "source_url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply"
   },
@@ -418,12 +412,12 @@
   {
    "publisher": "U.S. Department of Energy",
    "vintage": "",
-   "url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-support-fuel-supply"
+   "url": "https://www.spr.doe.gov/doeec/ActiveDocs.htm?type=exchange"
   },
   {
    "publisher": "U.S. Department of Energy",
    "vintage": "",
-   "url": "https://www.spr.doe.gov/doeec/ActiveDocs.htm?type=exchange"
+   "url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-support-fuel-supply"
   },
   {
    "publisher": "U.S. Department of Energy",
