@@ -649,29 +649,92 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   </header>
   <div class="crumb"><a href="../../index.html">Home</a> / <a href="../index.html">Inner</a> / Vol portfolio</div>
   <h1>Vol portfolio</h1>
-  <p class="sub">The vol book stacked: risk first, then Greeks, P&L, rolls and the rules' own recommendations.</p>
+  <p class="sub">The whole paper vol book on one page. Worst priced day first. Then each play in plain words. The detail sits below.</p>
+
+<style>
+.wing-card { border-top:1px solid var(--line); padding:16px 0 18px;
+  max-width:72ch; }
+.wing-card h3 { margin-top:0; }
+.wing-card p { margin:0 0 7px; }
+</style>
+
 <section id="risk">
 <h2>Risk first</h2>
-<p class="vintage"><em>Inputs as of: structure marks 2026-10-23; inverted surface 2026-10-23; episode flag from the barrels ledger visible layer as of 2026-10-18 (Hormuz 0.44 transits a day against a 36.98 pre-war baseline). Vintages print beside the numbers they feed: a dashboard that hid a stale input caused a real error today.</em></p>
-<p>The binding risk number is the scenario grid, repriced through the 2026-10-23 inverted surface. Worst case on the grid: <strong>VOL_DN_10, $7,918 of loss</strong> on the current book. The parametric Greeks-VaR (1-day, 99%) is $3,840; it understates gap risk for short-premium structures, which is why the scenario number governs. Print both, trust the bigger one.</p>
-<p>Drawdown: $0 from peak against the book governor line of $1,500,000 (inside the $2,500,000 drawdown budget, trade framework). Ladder states: P1 WITHIN (cap $625,000); P3 WITHIN (cap $625,000); portfolio WITHIN. Ladder rules: at 50% of a cap, size halves; at 100%, the play is flat and paused, and the stacker says so rather than carrying it.</p>
-<p>diversification benefit $121,365 = sum of standalone worst-scenario losses $129,283 minus portfolio worst-scenario loss $7,918, measured from the scenario repricing. Vol inputs: front-futures realised vol 50.8% annualised (WTI front continuous series on disk, trailing 60 sessions; the stack's proxy, as no Brent outright history is held), vol-of-vol 2.74 points a day (OVX daily changes, trailing 60 sessions).</p>
-<p><strong>Seed date 2026-10-23.</strong> One day of marks. Everything on this page is a structural number: what this book would make or lose if the scenario happened tomorrow. It is not a track record, and no figure here is evidence that a play works.</p>
+<p class="vintage"><em>Data dates: marks 2026-10-23; option prices 2026-10-23; supply-scare flag from the barrels ledger as of 2026-10-18. We print the data date beside the number. A page hid a stale input once. It caused a real error.</em></p>
+<div class="statgrid">
+<div class="stat"><div class="v">$7,918</div><div class="l">Worst priced day</div><div class="d">Loss if this happens: fear falls 10 points. This is the number size answers to.</div></div>
+<div class="stat"><div class="v">$-40</div><div class="l">If Brent rises $1</div><div class="d">What the whole book gains or loses on a $1 rise. A minus means it loses. (delta)</div></div>
+<div class="stat"><div class="v">$-416</div><div class="l">Time, each day</div><div class="d">What time passing does to the book each day. (theta)</div></div>
+<div class="stat"><div class="v">$669</div><div class="l">If fear rises one point</div><div class="d">What the book gains or loses if fear jumps, before Brent moves. (vega)</div></div>
+</div>
+<p>We price a grid of bad days through today's option prices. The worst one is <strong>fear falls 10 points: we lose $7,918</strong>. That number runs the book.</p>
+<p>A second yardstick assumes normal, small moves. It says $3,840 for one day. This market gaps. A normal-day yardstick cannot see a gap, so we size off the shock grid, not the yardstick. <span class="dim">(Technical name: Greeks-VaR, 1-day, 99%.)</span></p>
+<p>Drawdown so far: $0. The book's stop line is $1,500,000, inside a $2,500,000 budget. The cut rules are set now, not in the draw: at half a play's cap, new size halves. At the cap, the play goes flat and pauses. Every play is inside its cap today.</p>
+<p>The two open plays hedge each other. On their own, their worst priced days add to $129,283. Together, the book's worst priced day is $7,918. We only claim that because the shock prices say so. We do not trust a correlation guess.</p>
+<p><strong>Day one: 2026-10-23.</strong> One day of marks. Every number here answers one question: what happens if the bad day comes tomorrow? None of it proves a play works.</p>
 </section>
 <section id="league">
-<h2>League table: plays ranked on the selection currency</h2>
-<p class="vintage"><em>Inputs as of: corpus summary and risk file, 2026-10-23.</em></p>
-<table><tr><th>Play</th><th>Name</th><th>Expectancy per cycle</th><th>Marginal VaR</th><th>Expectancy per marginal VaR</th><th>Cum P&amp;L</th><th>Drawdown</th><th>Cap</th><th>Ladder</th></tr>
-<tr><td>P1</td><td>Overwrite</td><td>$15,400</td><td>$-35,017</td><td>diversifier</td><td>$0</td><td>$0</td><td>$625,000</td><td>WITHIN</td></tr>
-<tr><td>P3</td><td>Collar the length</td><td>$-53,000</td><td>$-78,430</td><td>diversifier</td><td>$0</td><td>$0</td><td>$625,000</td><td>WITHIN</td></tr>
-</table>
-<p>Expectancy is premium per cycle from the corpus summary; for P3 it is the collar's insurance cost, negative by construction. A play carries negative marginal VaR when removing it would leave the other play's worst scenario binding and larger: it is classed a diversifier and judged on hedge value, not on the ratio. P2, P4 and P5 hold no position on 2026-10-23 (skip rows in the corpus ledger), so they carry no marginal VaR and no ladder exposure yet.</p>
+<h2>The plays, one by one</h2>
+<p class="vintage"><em>Data dates: paper book and shock prices, 2026-10-23.</em></p>
+<p>Most we can lose means the book's own worst-case number for that play, printed with the trade. It is the number size answers to.</p>
+<article class="wing-card">
+<h3>P1 Overwrite</h3>
+<p><strong>On now:</strong> S5, +1 FUT 2027-01; -1 C130, 5 lots.</p>
+<p><strong>If Brent rises $1:</strong> this play gains about $3,730. <span class="dim">(delta)</span></p>
+<p><strong>Time passing:</strong> this play makes about $525 a day. <span class="dim">(theta)</span></p>
+<p><strong>If fear jumps one point:</strong> this play loses about $545. <span class="dim">(vega)</span></p>
+<p><strong>Money in:</strong> $15,400 collected for this round.</p>
+<p><strong>What it does for the book:</strong> take it out and the book's worst priced day gets $35,017 worse. It hedges the other play.</p>
+<p><strong>Why we like it.</strong> It sells rich upside calls against length we own. It is the grind engine.</p>
+<p><strong>What can hurt us.</strong> Brent rips through the sold call. Gains on the length stop at the strike.</p>
+<p><strong>Most we can lose.</strong> $52,747. The length covers the futures side; this is the option side's shock loss.</p>
+<p><strong>What would make us change our mind.</strong> If upside insurance gets cheap, the money no longer pays for capping the length.</p>
+<p><strong>P&amp;L so far:</strong> $0. Drawdown cap: $625,000.</p>
+</article>
+<article class="wing-card">
+<h3>P2 Fade the fear</h3>
+<p><strong>Not on.</strong> Paused. The book is in a supply scare. We do not sell insurance into it.</p>
+<p><strong>Why we like it.</strong> It sells spike insurance only when that insurance is far richer than usual and the physical record does not confirm missing barrels.</p>
+<p><strong>What can hurt us.</strong> A real supply break. That is why the trade is capped as a spread, and paused in a live scare.</p>
+<p><strong>Most we can lose.</strong> $0. No position is on.</p>
+<p><strong>What would make us change our mind.</strong> If the physical record confirms missing barrels, we do not fade the fear. Full stop.</p>
+</article>
+<article class="wing-card">
+<h3>P3 Collar the length</h3>
+<p><strong>On now:</strong> COLLAR-PS, LONG 1x P 101 @ 3.17 (IV 56.5); SHORT 1x P 90 @ 1.05 (IV 59.7), 25 lots.</p>
+<p><strong>If Brent rises $1:</strong> this play loses about $3,770. <span class="dim">(delta)</span></p>
+<p><strong>Time passing:</strong> this play loses about $941 a day. <span class="dim">(theta)</span></p>
+<p><strong>If fear jumps one point:</strong> this play gains about $1,214. <span class="dim">(vega)</span></p>
+<p><strong>Money in:</strong> $53,000 paid for protection. It is a cost, not income.</p>
+<p><strong>What it does for the book:</strong> take it out and the book's worst priced day gets $78,430 worse. It hedges the other play.</p>
+<p><strong>Why we like it.</strong> It protects the length. It costs money on purpose. The put spread pays if Brent falls.</p>
+<p><strong>What can hurt us.</strong> Brent rises. The put spread bleeds and time costs money every day.</p>
+<p><strong>Most we can lose.</strong> $53,000. That is the full amount paid for the spread.</p>
+<p><strong>What would make us change our mind.</strong> If the length goes, the collar goes with it.</p>
+<p><strong>P&amp;L so far:</strong> $0. Drawdown cap: $625,000.</p>
+</article>
+<article class="wing-card">
+<h3>P4 Roll harvest</h3>
+<p><strong>Not on.</strong> Flat. The roll paid about 4.49% for the month. We have no normal level to compare it with yet.</p>
+<p><strong>Why we like it.</strong> It takes the calendar roll when the roll pays more than it normally does.</p>
+<p><strong>What can hurt us.</strong> The roll snaps back before expiry and the extra pay vanishes.</p>
+<p><strong>Most we can lose.</strong> $0. No position is on.</p>
+<p><strong>What would make us change our mind.</strong> If the roll falls back to its normal level, there is no harvest left.</p>
+</article>
+<article class="wing-card">
+<h3>P5 Brent-WTI band</h3>
+<p><strong>Not on.</strong> Flat. The Brent-WTI gap printed $13.48. We need 60 days of history before we can call that wide.</p>
+<p><strong>Why we like it.</strong> It trades the Brent-WTI price gap only when the gap sits outside its normal band.</p>
+<p><strong>What can hurt us.</strong> The gap keeps widening for a real reason: one market is short barrels and the other is not.</p>
+<p><strong>Most we can lose.</strong> $0. No position is on.</p>
+<p><strong>What would make us change our mind.</strong> If the normal band itself moves, stop and measure the band again before trading it.</p>
+</article>
 </section>
 <section id="greeks">
-<h2>The stack: portfolio Greeks by play</h2>
-<p class="vintage"><em>Inputs as of: structure marks 2026-10-23; corpus ledger to 2026-10-23.</em></p>
-<p>Net book, 2026-10-23: delta -40 barrels equivalent; gamma +124.5 barrels per $1; theta $-416 a day; vega $669 per vol point. Day flag: EPISODE (barrels ledger visible layer). Per-play contributions:</p>
-<h3>Delta, barrels equivalent</h3>
+<h2>The book in four numbers</h2>
+<p class="vintage"><em>Data dates: marks 2026-10-23; paper book to 2026-10-23.</em></p>
+<p>Net book, 2026-10-23. If Brent rises $1, we loses about $40. Time costs us $416 a day. If fear rises one point, we gains about $669. The book is in a supply scare today. Each play's part:</p>
+<h3>If Brent rises $1, dollars (delta)</h3>
 <svg viewbox="0 0 640 86" width="100%" role="img">
 <line x1="320" y1="4" x2="320" y2="68" stroke="#999" stroke-width="1" />
 <text x="184" y="20" font-size="12.5" text-anchor="end">P1</text>
@@ -682,7 +745,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <text x="124" y="45" font-size="12.5" text-anchor="end">-3,770</text>
 <text x="326" y="82" font-size="12" fill="#555">net -40 bbl</text>
 </svg>
-<h3>Gamma, barrels per $1</h3>
+<h3>How fast the $1 number changes (gamma)</h3>
 <svg viewbox="0 0 640 86" width="100%" role="img">
 <line x1="320" y1="4" x2="320" y2="68" stroke="#999" stroke-width="1" />
 <text x="184" y="20" font-size="12.5" text-anchor="end">P1</text>
@@ -693,7 +756,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <text x="516" y="45" font-size="12.5" text-anchor="start">+197</text>
 <text x="326" y="82" font-size="12" fill="#555">net +125 bbl/$1</text>
 </svg>
-<h3>Theta, $ a day</h3>
+<h3>Time each day, dollars (theta)</h3>
 <svg viewbox="0 0 640 86" width="100%" role="img">
 <line x1="320" y1="4" x2="320" y2="68" stroke="#999" stroke-width="1" />
 <text x="184" y="20" font-size="12.5" text-anchor="end">P1</text>
@@ -704,7 +767,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <text x="124" y="45" font-size="12.5" text-anchor="end">-941</text>
 <text x="326" y="82" font-size="12" fill="#555">net -416 $/day</text>
 </svg>
-<h3>Vega, $ per vol point</h3>
+<h3>If fear rises one point, dollars (vega)</h3>
 <svg viewbox="0 0 640 86" width="100%" role="img">
 <line x1="320" y1="4" x2="320" y2="68" stroke="#999" stroke-width="1" />
 <text x="184" y="20" font-size="12.5" text-anchor="end">P1</text>
@@ -718,23 +781,23 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </section>
 <section id="pnl">
 <h2>P&amp;L</h2>
-<p class="vintage"><em>Inputs as of: structure marks 2026-10-23; episode split from the barrels ledger flag as of 2026-10-18.</em></p>
-<p>Cumulative $0; grind $0 and episode $0 kept apart, never netted into one flattering number.</p>
+<p class="vintage"><em>Data dates: structure marks 2026-10-23; episode split from the barrels ledger flag as of 2026-10-18.</em></p>
+<p>Total so far $0. Quiet-market money $0. Supply-scare money $0. We keep the two apart. Adding them into one flattering number would hide what actually paid.</p>
 <svg viewbox="0 0 640 180" width="100%" role="img"><line x1="50" y1="90" x2="620" y2="90" stroke="#999" /><circle cx="90" cy="90" r="4.5" fill="#2e6b30" /><text x="102" y="84" font-size="12.5">seed print, 2026-10-23: cumulative P&amp;L $0</text><text x="102" y="102" font-size="12" fill="#555">The series starts 2026-10-23. One print is a starting point, not a track record; the line draws itself as marks land.</text></svg>
 </section>
 <section id="replay">
-<h2>Historical replay: the rules over 7 marked days</h2>
-<p class="vintage"><em>Inputs as of: ICE surfaces 2026-10-15 to 2026-10-23; episode flag from the barrels ledger visible layer.</em></p>
-<p>Replay over 7 marked days, 2026-10-15 to 2026-10-23: a machinery check, not a track record. The corpus rules as written, run over every options surface in the archive, positions marked on each day's own settles. Sizes: P1 at the book's 5 lots, P3 at 25 lots, P4 at 1 lot (no sized P4 position exists yet).</p>
+<h2>Rule check: today's rules over 7 days of prices</h2>
+<p class="vintage"><em>Data dates: ICE option prices 2026-10-15 to 2026-10-23; supply-scare flag from the barrels ledger.</em></p>
+<p>We ran today's rules back over the 7 days of prices we have, 2026-10-15 to 2026-10-23. It is a machine check, not a track record. Seven days proves the machine runs. It does not prove the rules make money. Sizes: P1 at 5 lots, P3 at 25 lots, P4 at 1 lot.</p>
 <svg viewbox="0 0 720 190" width="100%" role="img"><line x1="36" y1="154" x2="684" y2="154" stroke="#999" /><polyline points="36,154 129,154 221,108 314,121 406,131 499,130 591,78 684,36" fill="none" stroke="#205090" stroke-width="2" /><g fill="#205090"><circle cx="36" cy="154" r="3" /><circle cx="129" cy="154" r="3" /><circle cx="221" cy="108" r="3" /><circle cx="314" cy="121" r="3" /><circle cx="406" cy="131" r="3" /><circle cx="499" cy="130" r="3" /><circle cx="591" cy="78" r="3" /><circle cx="684" cy="36" r="3" /></g><text x="36" y="182" font-size="11">start $0</text><text x="684" y="182" font-size="11" text-anchor="end">2026-10-23 $51,780</text><text x="36" y="14" font-size="11">peak $51,780</text></svg>
-<p>Hypothetical cumulative P&amp;L $51,780; deepest peak-to-trough drawdown on the path $9,950. At the end: P1 $39,200, P3 $11,250, P4 $1,330 (entered mid-window, spread above its trailing median, still open). P3 entered on the first day: RR25 printed +5.31 against the +5 trigger and stayed above it all week.</p>
-<p>P2 (fade the fear) never entered. The tail premium stayed rich, 7.3 to 8.5 points over ATM, but never printed a top-quartile spike against its own short expanding history, and the episode breaker was active on all 7 days, so a trigger would have been paused anyway. That is the breaker doing its job inside a live episode; it also means this window tests episode posture, not grind. Every day in the window carries the episode flag.</p>
-<p>P5 (Brent-WTI band) cannot run: the band needs 60 days of spread history and the archive holds 7. It stays dark until the history exists. No options surfaces exist in this stack before 2026-10-15; the archive starts there, and nothing before it is backfilled, estimated or drawn.</p>
+<p>Paper result over those days: $51,780. Worst fall along the way: $9,950. At the end: P1 $39,200, P3 $11,250, P4 $1,330. P3 went on the first day: traders were paying 5.31 points more for spike protection than crash protection. The trigger is 5 points. It stayed over the trigger all week.</p>
+<p>P2 never ran. Far-out spike insurance stayed rich, 7.3 to 8.5 points over the middle. But it never jumped far above its own short history. And the supply-scare pause was on all 7 days anyway. So this week tested scare posture, not quiet-market grind.</p>
+<p>P5 cannot run yet. It needs 60 days of Brent-WTI gap history. We have 7. Our option prices start October 15, 2026. Nothing before that is made up.</p>
 </section>
 <section id="watchlist">
-<h2>Block-clone watchlist</h2>
-<p class="vintage"><em>Inputs as of: block watch 2026-10-23 (ICE EOD reports 166 options and 142 futures); clone book summary same window.</em></p>
-<p>Standing example, 2026-10-23: a Brent January 2027 put complex. Eight flagged strikes from 65 to 100 printed 200,714 lots of block volume, 96 percent of those strikes' volume for the day. The core five strikes, each 99 to 100 percent block:</p>
+<h2>On the Block Board</h2>
+<p class="vintage"><em>Data dates: block trades 2026-10-23 (ICE end-of-day reports); first test clone book, same window.</em></p>
+<p>Biggest recent group, 2026-10-23: Brent January 2027 puts, $65 to $100. Eight strikes traded 200,714 contracts in blocks. That was 96% of all trading at those strikes that day. The five biggest strikes:</p>
 <table><tr><th>Strike</th><th>Block lots</th><th>Share of strike volume</th><th>Settle</th></tr>
 <tr><td>65.00</td><td>23,744</td><td>100%</td><td>0.09</td></tr>
 <tr><td>75.00</td><td>23,353</td><td>99%</td><td>0.23</td></tr>
@@ -742,48 +805,51 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <tr><td>83.00</td><td>46,979</td><td>100%</td><td>0.51</td></tr>
 <tr><td>88.00</td><td>46,894</td><td>100%</td><td>0.86</td></tr>
 </table>
-<p>The core five carry about $89.7M of premium at settles. Half the complex's volume was booked as spread volume and the three biggest strikes are near-equal at about 48,000 lots each, which is why the clone book's working hypothesis is a defined-risk package (a vertical or ladder spread) rather than outright directional puts.</p>
-<p>Classification caveat: end-of-day block volume carries no print price, no timestamp and no direction; the figure never says whether the block was bought or sold. Open interest was blank on the block date's file (same-evening vintage; OI publishes a business day later), so direction is UNKNOWN and every direction-dependent reading is closed until an OI-populated file lands. The clone book's gate is shut on this complex: no clone taken.</p>
-<p>Clone book, window 2026-10-15 to 2026-10-23: 45 complexes detected, 17 clones taken (only on open-interest-confirmed openings, entered the next file day at settles with a 10 percent haircut). Book P&amp;L on taken clones marked to 2026-10-23: -$82,395 (calls +$151,474, puts -$233,869). Seven days of record inside one ripping episode: an anecdote with a ledger, not a grade. The scoreboard, not any single complex, decides whether this book ever earns capital.</p>
+<p>The five biggest strikes carry about $89.7M of money involved, valued at that day's settlement prices. Half the trading was booked as spread trading. The three biggest strikes are near-equal at about 48,000 contracts each. That is why we read it as a package, not single bets.</p>
+<p>What we cannot say: who traded, at what price, or whether they bought or sold. Open interest had not published on that day's file. We wait until the next day, when open interest is published. Until then the job is not clear, and no copy was taken.</p>
+<p>First test clone book, October 15 to 23: 45 groups found, 17 copies taken. We copied every confirmed new position. That was too broad, so new copies under that rule stopped after October 23. P&amp;L on those copies to October 23: -$82,395 (calls +$151,474, puts -$233,869). Seven days inside one supply scare. A record, not a grade.</p>
 </section>
 <section id="scenarios">
-<h2>Scenario grid, repriced</h2>
-<p class="vintage"><em>Inputs as of: inverted surface 2026-10-23.</em></p>
-<p>Price gaps hold each strike's implied vol (sticky strike); vol scenarios shift the whole surface in parallel. P&amp;L in dollars on the current size.</p>
-<table><tr><th>Book</th><th>GAP UP 10</th><th>GAP DN 10</th><th>GAP UP 20</th><th>GAP DN 20</th><th>VOL UP 10</th><th>VOL DN 10</th><th>EPISODE</th><th>UNWIND</th></tr>
+<h2>The shock grid, in full</h2>
+<p class="vintage"><em>Data dates: option prices 2026-10-23.</em></p>
+<p>Every shock, repriced at today's size. Price shocks hold each option's fear level where it is. Fear shocks move the whole board at once.</p>
+<details><summary>Open the full shock grid</summary>
+<table><tr><th>Book</th><th>Brent gaps up $10</th><th>Brent gaps down $10</th><th>Brent gaps up $20</th><th>Brent gaps down $20</th><th>Fear rises 10 points</th><th>Fear falls 10 points</th><th>Brent up $20 and fear up 15 points</th><th>Brent down $15 and fear down 20 points</th></tr>
 <tr><td>PORTFOLIO</td><td>$4,922</td><td>$6,893</td><td>$16,173</td><td>$23,402</td><td>$5,538</td><td>$-7,918</td><td>$16,232</td><td>$10,795</td></tr>
 <tr><td>P1</td><td>$33,500</td><td>$-40,599</td><td>$59,107</td><td>$-86,348</td><td>$-5,677</td><td>$5,189</td><td>$47,253</td><td>$-60,047</td></tr>
 <tr><td>P3</td><td>$-28,578</td><td>$47,492</td><td>$-42,935</td><td>$109,750</td><td>$11,215</td><td>$-13,107</td><td>$-31,020</td><td>$70,842</td></tr>
 </table>
-<p>Marginal VaR (worst-scenario loss added by the play): P1 $-35,017, diversifier (no marginal VaR); P3 $-78,430, diversifier (no marginal VaR). Expectancy is premium collected per cycle from the corpus summary; plays are ranked on expectancy per unit of marginal VaR.</p>
+</details>
+<p>What each play does to the worst day: take P1 out and the worst priced day gets $35,017 worse; take P3 out and the worst priced day gets $78,430 worse. Both open plays hedge the book today. We judge them on that, not just on money in.</p>
 </section>
 <section id="rolls">
-<h2>Rolls</h2>
-<p class="vintage"><em>Inputs as of: book marks 2026-10-23.</em></p>
-<table><tr><th>Play</th><th>Structure</th><th>Expiry</th><th>Days</th><th>Action the rules imply</th></tr>
+<h2>Rolls: what happens next</h2>
+<p class="vintage"><em>Data dates: book marks 2026-10-23.</em></p>
+<p>Both open plays expire November 26. The roll window opens November 21, five days before expiry.</p>
+<table><tr><th>Play</th><th>Trade</th><th>Expiry</th><th>Days left</th><th>What the rules say</th></tr>
 <tr><td>P1</td><td>S5</td><td>2026-11-26</td><td>34</td><td>Hold: roll window opens 2026-11-21 (5 days to expiry)</td></tr>
 <tr><td>P3</td><td>COLLAR-PS</td><td>2026-11-26</td><td>34</td><td>Hold: roll window opens 2026-11-21 (5 days to expiry)</td></tr>
 </table>
 </section>
 <section id="recommendations">
-<h2>Management recommendations</h2>
-<p class="vintage"><em>Inputs as of: book marks 2026-10-23; barrels ledger visible layer as of 2026-10-18.</em></p>
+<h2>What the rules say to do</h2>
+<p class="vintage"><em>Data dates: book marks 2026-10-23; supply-scare flag as of 2026-10-18.</em></p>
 <ul>
-<li>Circuit breaker ACTIVE: pause P2 entries. The barrels ledger's visible layer confirms a physical break: Hormuz tanker transits 0.44/day as of 2026-10-18, 1.2% of the 36.98/day pre-war baseline (rule: below 25% = break confirmed); Kharg Island export capacity 0 DWT/day as of 2026-10-16. Open short-premium positions flagged for review: P1 (S5) (the P1 overwrite call is covered by its futures length; no naked fade is open).</li>
-<li>Concentration flag: P3 is 64% of portfolio theta. Rule: a single play above 60% of portfolio |theta| gets flagged. P3 theta is -940.68 of a 1465.68 gross total; the book's theta exposure is effectively one play's decision until the corpus diversifies.</li>
-<li>Concentration flag: P3 is 69% of portfolio vega. Rule: a single play above 60% of portfolio |vega| gets flagged. P3 vega is +1213.57 of a 1758.57 gross total; the book's vega exposure is effectively one play's decision until the corpus diversifies.</li>
+<li>Pause new P2 trades. The book is in a supply scare. We do not sell insurance into a live scare. P1 stays on: its sold call is covered by length, so nothing is naked.</li>
+<li>One trade carries the book. P3 is 64% of the book's daily time bleed. Until more plays run, the book's clock is one trade's decision.</li>
+<li>Same warning on fear. P3 is 69% of what the book gains or loses when fear moves. One trade should not carry the book.</li>
 </ul>
 </section>
 <section id="positions">
 <h2>Open paper positions</h2>
-<p class="vintage"><em>Inputs as of: corpus ledger to 2026-10-23.</em></p>
-<table><tr><th>Play</th><th>Structure</th><th>Legs</th><th>Lots</th><th>Entry premium $/bbl</th></tr>
+<p class="vintage"><em>Data dates: paper book to 2026-10-23.</em></p>
+<table><tr><th>Play</th><th>Trade</th><th>Legs</th><th>Lots</th><th>Entry price $/bbl, as booked</th></tr>
 <tr><td>P1</td><td>S5</td><td>+1 FUT 2027-01; -1 C130</td><td>5</td><td>3.0800</td></tr>
 <tr><td>P3</td><td>COLLAR-PS</td><td>LONG 1x P 101 @ 3.17 (IV 56.5); SHORT 1x P 90 @ 1.05 (IV 59.7)</td><td>25</td><td>-2.1200</td></tr>
 </table>
-<p>Paper book, sized by the corpus playbook's scenario budgets. Real size is a decision the scored record has to earn.</p>
+<p>Paper book. Size is set by the shock grid, not by hope. Real size is a decision the scored record has to earn.</p>
 </section>
-  <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../chartbook.html">Chartbook</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
+  <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../chartbook.html">Chartbook</a><a href="../../options/index.html">The Wing (options)</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
 </div>
 <script>
 (function(){

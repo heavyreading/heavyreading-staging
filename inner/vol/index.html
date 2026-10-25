@@ -13,12 +13,12 @@ document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="description" content="Inner vol book: five standing Brent options structures (fade the wing, covered call, own the tail, call spread, risk reversal) with premiums, Greeks in plain labels, and cumulative P&L.">
+<meta name="description" content="Inner vol book: five standing Brent options trades. For each one: what happens if Brent moves $1, what time passing does, what fear does, and the most it can lose.">
 <link rel="canonical" href="https://heavyreading.ca/inner/vol/index.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Heavy Reading">
 <meta property="og:title" content="Vol structures | Heavy Reading">
-<meta property="og:description" content="Inner vol book: five standing Brent options structures (fade the wing, covered call, own the tail, call spread, risk reversal) with premiums, Greeks in plain labels, and cumulative P&L.">
+<meta property="og:description" content="Inner vol book: five standing Brent options trades. For each one: what happens if Brent moves $1, what time passing does, what fear does, and the most it can lose.">
 <meta property="og:url" content="https://heavyreading.ca/inner/vol/index.html">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Crect x='1.5' y='1.5' width='41' height='41' rx='9' fill='%2317191d'/%3E%3Crect x='10' y='25' width='6.5' height='8' fill='%23f4f1e8'/%3E%3Crect x='18.75' y='18' width='6.5' height='15' fill='%23f4f1e8'/%3E%3Crect x='27.5' y='11' width='6.5' height='22' fill='%23a13c22'/%3E%3C/svg%3E">
@@ -657,47 +657,128 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   </header>
   <div class="crumb"><a href="../../index.html">Home</a> / <a href="../index.html">Inner</a> / Vol structures</div>
   <h1>Volatility structures</h1>
-  <p class="sub">Five standing Brent options structures: harvest against ownership, marked daily with their Greeks.</p>
+  <p class="sub">Five standing Brent trades. Each one says what happens if Brent moves $1, what time does to it, and the most it can lose.</p>
+
+<style>
+.wing-card { border-top:1px solid var(--line); padding:16px 0 18px;
+  max-width:72ch; }
+.wing-card h3 { margin-top:0; }
+.wing-card p { margin:0 0 7px; }
+</style>
+
 <section id="top">
-<p>The vol book exists to manufacture base P&amp;L in grind years. Five standing Brent options structures, re-struck monthly at the then-current delta points so the book means the same thing every month, marked daily off ICE (Intercontinental Exchange) end-of-day settlements and carried with their Greeks. Two families: <strong>harvest</strong> structures earn when nothing happens; <strong>ownership</strong> structures pay rent to own the break. One lot is 1,000 barrels. Premiums are net per barrel: paid is a debit, collected is a credit.</p>
-<p>Latest marks: ICE settlements of October 23, 2026. The series starts October 23, 2026 and earns its length day by day; there is no backfilled history. Grind behaviour (premium earned in flat tape) and episode behaviour (what harvest paid away into a spike) are scored separately and never netted into one number.</p>
+<p>Five standing Brent trades. Two make money when nothing happens. Three pay to own a jump. One lot is 1,000 barrels.</p>
+<p>Latest marks: October 23, 2026. The record starts October 23, 2026. No made-up history. Quiet-market money and supply-scare money are scored apart.</p>
+<div class="statgrid">
+<div class="stat"><div class="v">$105/day</div><div class="l">Covered call time money</div><div class="d">Per lot, just from time passing (theta).</div></div>
+<div class="stat"><div class="v">$2,410</div><div class="l">Tail ticket max loss</div><div class="d">Per lot. That is the whole risk on the jump ticket.</div></div>
+<div class="stat"><div class="v">5</div><div class="l">Standing trades</div><div class="d">Two earn in quiet tape. Three own the jump.</div></div>
+<div class="stat"><div class="v">October 23, 2026</div><div class="l">Data date</div><div class="d">ICE end-of-day settlements.</div></div>
+</div>
 <p class="wingnav"><strong>The Wing, inner tier:</strong> <a href="../../options/index.html">The Wing (public hub)</a> &middot; <strong>Vol structures</strong> &middot; <a href="../vol-portfolio/index.html">Vol portfolio</a> &middot; <a href="../flow/index.html">The Block Board</a> &middot; <a href="doctrine/index.html">Doctrine</a> &middot; <a href="checklist/index.html">Pre-trade checklist</a></p>
 </section>
 <section id="harvest">
-<p><strong>The grind meter:</strong> at the latest marks the covered call collects $105 per lot per day in rent, about $3,570 per lot over the 34 days left to its expiry, while still acting like 746 barrels long per lot.</p>
+<p><strong>The grind meter:</strong> the covered call makes $105 per lot a day just from time passing. Over the 34 days left, that is about $3,570 per lot if nothing moves. If Brent rises $1, it gains about $746 per lot.</p>
 <h2>Harvest: earn when nothing happens</h2>
-<p>Short premium against known risk. These structures are the base-P&amp;L engine in quiet tape, and the first place an episode sends the bill.</p>
-<div class="tblwrap"><table class="data">
-<thead><tr><th>Structure</th><th>Legs</th><th>Expiry</th><th>Premium ($/bbl)</th><th>Exposure (bbl/lot)</th><th>Acceleration (per $1)</th><th>Rent per day</th><th>Fear sensitivity ($/vol pt)</th><th>Cum P&amp;L ($/lot)</th></tr></thead><tbody>
-<tr><td><strong>S3 FADE THE WING</strong><br>Short the call struck about 20 percent above the market, long the next strike up as the disaster cap. Collects the fear premium; the worst case is fixed on day one.</td><td>-1 C135; +1 C138</td><td>2027-01 (34 d)</td><td>collected 0.32</td><td>-24</td><td>-1.1</td><td>collects $6/day</td><td>-$7</td><td>$0</td></tr>
-<tr><td><strong>S5 COVERED CALL</strong><br>Long the futures, short the 25-delta call against it. The grind engine: sells the upside above the strike and keeps the rent either way.</td><td>+1 FUT 2027-01; -1 C130</td><td>2027-01 (34 d)</td><td>collected 3.08</td><td>746</td><td>-14.4</td><td>collects $105/day</td><td>-$109</td><td>$0</td></tr>
-</tbody></table></div>
+<p>These trades sell insurance. They make the base money in quiet tape. They are also the first place a jump sends the bill.</p>
+<article class="wing-card">
+<h3>S3 Fade The Wing</h3>
+<p>Short the call struck about 20 percent above the market, long the next strike up as the disaster cap. Collects the fear premium; the worst case is fixed on day one.</p>
+<p><strong>Trade:</strong> -1 C135; +1 C138. Expiry 2027-01 (34 days). Premium: collected 0.32 per barrel.</p>
+<p><strong>If Brent rises $1:</strong> this trade loses about $24 per lot. <span class="dim">(delta)</span></p>
+<p><strong>If Brent falls $1:</strong> this trade gains about $24 per lot.</p>
+<p><strong>Time passing:</strong> this trade makes about $6 a day just from time passing. <span class="dim">(theta)</span></p>
+<p><strong>If fear jumps one point:</strong> this trade loses about $7 per lot, before Brent moves. <span class="dim">(vega)</span></p>
+<p><strong>Speed:</strong> the payoff speeds up or slows down as price moves. A $1 rise changes the $1-move gain by about -$1. <span class="dim">(gamma)</span></p>
+<p><strong>Why we like it.</strong> Fear is rich. We collect the money and cap the loss with the higher call.</p>
+<p><strong>What can hurt us.</strong> A real jump through the lower strike. After the higher strike, the loss is fixed.</p>
+<p><strong>Most we can lose.</strong> $2,680 per lot.</p>
+<p><strong>What would make us change our mind.</strong> If fear collapses, or Brent runs at the lower strike, the rent left is not worth the jump risk.</p>
+<p><strong>P&amp;L so far:</strong> $0 per lot.</p>
+</article>
+<article class="wing-card">
+<h3>S5 Covered Call</h3>
+<p>Long the futures, short the 25-delta call against it. The grind engine: sells the upside above the strike and keeps the rent either way.</p>
+<p><strong>Trade:</strong> +1 FUT 2027-01; -1 C130. Expiry 2027-01 (34 days). Premium: collected 3.08 per barrel.</p>
+<p><strong>If Brent rises $1:</strong> this trade gains about $746 per lot. <span class="dim">(delta)</span></p>
+<p><strong>If Brent falls $1:</strong> this trade loses about $746 per lot.</p>
+<p><strong>Time passing:</strong> this trade makes about $105 a day just from time passing. <span class="dim">(theta)</span></p>
+<p><strong>If fear jumps one point:</strong> this trade loses about $109 per lot, before Brent moves. <span class="dim">(vega)</span></p>
+<p><strong>Speed:</strong> the payoff speeds up or slows down as price moves. A $1 rise changes the $1-move gain by about -$14. <span class="dim">(gamma)</span></p>
+<p><strong>Why we like it.</strong> We own Brent and sell the upside above the strike. The call money is the grind income.</p>
+<p><strong>What can hurt us.</strong> Brent falls. The call money helps a little. The futures loss is the trade.</p>
+<p><strong>Most we can lose.</strong> $108,620 per lot.</p>
+<p><strong>What would make us change our mind.</strong> If we no longer want the length, this trade has no job.</p>
+<p><strong>P&amp;L so far:</strong> $0 per lot.</p>
+</article>
 </section>
 <section id="ownership">
-<h2>Ownership: pay rent to own the break</h2>
-<p>Long convexity, in three shapes: the full ticket, the capped ticket, and the skew itself. The rent is the carrying cost of being right early.</p>
-<div class="tblwrap"><table class="data">
-<thead><tr><th>Structure</th><th>Legs</th><th>Expiry</th><th>Premium ($/bbl)</th><th>Exposure (bbl/lot)</th><th>Acceleration (per $1)</th><th>Rent per day</th><th>Fear sensitivity ($/vol pt)</th><th>Cum P&amp;L ($/lot)</th></tr></thead><tbody>
-<tr><td><strong>S1 OWN THE TAIL</strong><br>Long the call struck about 20 percent above the market, outright. The full lottery ticket on a supply break, no cap.</td><td>+1 C135</td><td>2027-01 (34 d)</td><td>paid 2.41</td><td>206</td><td>12.4</td><td>pays $96/day</td><td>$97</td><td>$0</td></tr>
-<tr><td><strong>S2 CALL SPREAD</strong><br>Long the 25-delta call, short the 10-delta call. Cheaper rent than the tail; gives back everything above the short strike in a true gap.</td><td>+1 C130; -1 C155</td><td>2027-01 (34 d)</td><td>paid 2.07</td><td>161</td><td>7.9</td><td>pays $43/day</td><td>$53</td><td>$0</td></tr>
-<tr><td><strong>S4 RISK REVERSAL</strong><br>Long the 25-delta call, short the 25-delta put. Owns the skew itself: acts long in barrels with almost no vega, and pays if fear rotates further into the upside wing.</td><td>+1 C130; -1 P101</td><td>2027-01 (34 d)</td><td>collected 0.09</td><td>506</td><td>-2.1</td><td>pays $15/day</td><td>$1</td><td>$0</td></tr>
-</tbody></table></div>
+<h2>Ownership: pay to own the jump</h2>
+<p>These trades buy insurance. The cost is time. The point is being on when Brent gaps.</p>
+<article class="wing-card">
+<h3>S1 Own The Tail</h3>
+<p>Long the call struck about 20 percent above the market, outright. The full lottery ticket on a supply break, no cap.</p>
+<p><strong>Trade:</strong> +1 C135. Expiry 2027-01 (34 days). Premium: paid 2.41 per barrel.</p>
+<p><strong>If Brent rises $1:</strong> this trade gains about $206 per lot. <span class="dim">(delta)</span></p>
+<p><strong>If Brent falls $1:</strong> this trade loses about $206 per lot.</p>
+<p><strong>Time passing:</strong> this trade loses about $96 a day just from time passing. <span class="dim">(theta)</span></p>
+<p><strong>If fear jumps one point:</strong> this trade gains about $97 per lot, before Brent moves. <span class="dim">(vega)</span></p>
+<p><strong>Speed:</strong> the payoff speeds up or slows down as price moves. A $1 rise changes the $1-move gain by about $12. <span class="dim">(gamma)</span></p>
+<p><strong>Why we like it.</strong> It is the clean ticket on a violent jump. The most we can lose is the ticket price.</p>
+<p><strong>What can hurt us.</strong> Time. If nothing happens, it bleeds every day.</p>
+<p><strong>Most we can lose.</strong> $2,410 per lot.</p>
+<p><strong>What would make us change our mind.</strong> If spike insurance gets much richer, sell the ticket instead of holding it to expiry.</p>
+<p><strong>P&amp;L so far:</strong> $0 per lot.</p>
+</article>
+<article class="wing-card">
+<h3>S2 Call Spread</h3>
+<p>Long the 25-delta call, short the 10-delta call. Cheaper rent than the tail; gives back everything above the short strike in a true gap.</p>
+<p><strong>Trade:</strong> +1 C130; -1 C155. Expiry 2027-01 (34 days). Premium: paid 2.07 per barrel.</p>
+<p><strong>If Brent rises $1:</strong> this trade gains about $161 per lot. <span class="dim">(delta)</span></p>
+<p><strong>If Brent falls $1:</strong> this trade loses about $161 per lot.</p>
+<p><strong>Time passing:</strong> this trade loses about $43 a day just from time passing. <span class="dim">(theta)</span></p>
+<p><strong>If fear jumps one point:</strong> this trade gains about $53 per lot, before Brent moves. <span class="dim">(vega)</span></p>
+<p><strong>Speed:</strong> the payoff speeds up or slows down as price moves. A $1 rise changes the $1-move gain by about $8. <span class="dim">(gamma)</span></p>
+<p><strong>Why we like it.</strong> It owns the jump between the two strikes for less rent than the outright tail call.</p>
+<p><strong>What can hurt us.</strong> A slow grind, or time passing. Above the top strike we make no more.</p>
+<p><strong>Most we can lose.</strong> $2,070 per lot.</p>
+<p><strong>What would make us change our mind.</strong> If Brent runs through the lower strike fast, decide: take the spread value, or hold for the top strike.</p>
+<p><strong>P&amp;L so far:</strong> $0 per lot.</p>
+</article>
+<article class="wing-card">
+<h3>S4 Risk Reversal</h3>
+<p>Long the 25-delta call, short the 25-delta put. Owns the skew itself: acts long in barrels with almost no vega, and pays if fear rotates further into the upside wing.</p>
+<p><strong>Trade:</strong> +1 C130; -1 P101. Expiry 2027-01 (34 days). Premium: collected 0.09 per barrel.</p>
+<p><strong>If Brent rises $1:</strong> this trade gains about $506 per lot. <span class="dim">(delta)</span></p>
+<p><strong>If Brent falls $1:</strong> this trade loses about $506 per lot.</p>
+<p><strong>Time passing:</strong> this trade loses about $15 a day just from time passing. <span class="dim">(theta)</span></p>
+<p><strong>If fear jumps one point:</strong> this trade gains about $1 per lot, before Brent moves. <span class="dim">(vega)</span></p>
+<p><strong>Speed:</strong> the payoff speeds up or slows down as price moves. A $1 rise changes the $1-move gain by about -$2. <span class="dim">(gamma)</span></p>
+<p><strong>Why we like it.</strong> It shows the skew trade in one line: long spike calls, short crash puts. We track it. We do not run it in the corpus.</p>
+<p><strong>What can hurt us.</strong> A crash. The short put is the risk, and it is not capped the way a spread is.</p>
+<p><strong>Most we can lose.</strong> $100,910 per lot.</p>
+<p><strong>What would make us change our mind.</strong> Nothing changes the rule: it breaks the limited-loss law, so it stays a tracker only.</p>
+<p><strong>P&amp;L so far:</strong> $0 per lot.</p>
+</article>
 </section>
 <section id="greeks">
-<h2>How to read the Greeks</h2>
-<p><strong>Exposure</strong> (delta): how many barrels the position acts like, per lot. <strong>Acceleration</strong> (gamma): how many barrels that exposure gains or loses per $1 move; it is why a cheap tail call becomes a real position as price runs, and why a short wing gets longer against you. <strong>Rent per day</strong> (theta): the decay meter; every vol position either collects rent or pays it, daily. <strong>Fear sensitivity</strong> (vega): what a one-point move in implied volatility does to the position, before price moves at all.</p>
+<h2>The Greek names, in plain words</h2>
+<p><strong>Delta:</strong> if Brent rises $1, this is about how many dollars the trade gains or loses.</p>
+<p><strong>Gamma:</strong> the payoff speeds up or slows down as price moves. A far-out call can look small today and matter fast when Brent runs.</p>
+<p><strong>Theta:</strong> time passing makes or loses money every day, even when Brent does nothing.</p>
+<p><strong>Vega:</strong> if fear jumps one point, the trade gains or loses this much before Brent moves.</p>
 </section>
 <section id="path">
-<h2>Cumulative P&amp;L path</h2>
-<p>Per lot, versus each structure's entry, including P&amp;L realized at monthly re-strikes. The seed row is the open: zero by construction.</p>
+<h2>P&amp;L path</h2>
+<p>Per lot, from each trade's start. It includes money made or lost when a trade is re-struck each month. Day one is zero because that is the start line.</p>
 <div class="tblwrap"><table class="data">
 <thead><tr><th>Date</th><th>S3</th><th>S5</th><th>S1</th><th>S2</th><th>S4</th></tr></thead><tbody>
 <tr><td>October 23, 2026</td><td>$0</td><td>$0</td><td>$0</td><td>$0</td><td>$0</td></tr>
 </tbody></table></div>
 </section>
 <section id="pending">
-<h2>Pending extension</h2>
-<p>Arb-option structures (a Brent-WTI diff option and Brent/WTI calendar spread options) are reserved as S6 and S7. They carry no marks until real strike-level settlements for them exist in the source files; nothing here is interpolated into existence.</p>
+<h2>Not built yet</h2>
+<p>Two more trades are named S6 and S7: a Brent-WTI price-gap option and calendar spread options. They get no marks until real settlement prices for them land. We do not make up a price.</p>
 </section>
   <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../chartbook.html">Chartbook</a><a href="../../options/index.html">The Wing (options)</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
 </div>

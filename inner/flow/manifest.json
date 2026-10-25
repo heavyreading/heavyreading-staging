@@ -1,20 +1,20 @@
 {
  "page": "/inner/flow/",
  "title": "The Block Board",
- "dek": "Inner: The Block Board. Ranked ICE crude options block complexes with recommendation cards, the clone book, and the graded scoreboard, record first.",
+ "dek": "Inner: The Block Board. Big ICE crude options trades ranked by money, counted by new positions, with one selective follow rule and the first test record kept separate.",
  "built_at": "2026-10-25",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
-   "text": "Flow Rank record, 2026-10-15 to 2026-10-23 (7 boards, run run_20261025T143647Z_8baad471): 35 cards, 17 paper positions, hit rate 29 percent, paper P&L -$88,101, all in EPISODE regime; grind $0, episode -$88,101, never netted.",
+   "text": "Block Board v2, 2026-10-15 to 2026-10-23 (7 sessions): last-week counted new money was calls $132,919,820 and puts $390,843,570 of $523,763,390 counted. Seed test would have picked CX-20261020-B-202612-P. Official v2 follows: 0.",
    "vintage": "marks to 2026-10-23",
-   "source": "Flow Rank scoreboard (flow_recs.csv)",
+   "source": "Flow Rank v2 tallies and signals",
    "source_url": ""
   },
   {
-   "text": "Clone book over the same window: 45 complexes detected, 17 clones taken on open-interest-confirmed openings, book P&L -$82,395 at the latest marks.",
+   "text": "First test record, kept separate: 35 cards, 17 paper positions, paper P&L -$88,101. First test - broad cloning. We cloned every confirmed new position. That was too broad, so new trades under that rule stopped after Oct 23, 2026.",
    "vintage": "marks to 2026-10-23",
-   "source": "Block Clone Book ledger (clones_ledger.csv)",
+   "source": "Flow Rank v1 scoreboard (flow_recs.csv)",
    "source_url": ""
   }
  ],
@@ -26,7 +26,7 @@
   },
   {
    "publisher": "Flow Rank (Heavy Reading)",
-   "vintage": "run run_20261025T143647Z_8baad471",
+   "vintage": "run run_20261025T190848Z_8baad471",
    "url": ""
   }
  ]

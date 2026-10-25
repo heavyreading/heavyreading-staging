@@ -13,12 +13,12 @@ document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="description" content="Inner: The Block Board. Ranked ICE crude options block complexes with recommendation cards, the clone book, and the graded scoreboard, record first.">
+<meta name="description" content="Inner: The Block Board. Big ICE crude options trades ranked by money, counted by new positions, with one selective follow rule and the first test record kept separate.">
 <link rel="canonical" href="https://heavyreading.ca/inner/flow/index.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Heavy Reading">
 <meta property="og:title" content="The Block Board | Heavy Reading">
-<meta property="og:description" content="Inner: The Block Board. Ranked ICE crude options block complexes with recommendation cards, the clone book, and the graded scoreboard, record first.">
+<meta property="og:description" content="Inner: The Block Board. Big ICE crude options trades ranked by money, counted by new positions, with one selective follow rule and the first test record kept separate.">
 <meta property="og:url" content="https://heavyreading.ca/inner/flow/index.html">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Crect x='1.5' y='1.5' width='41' height='41' rx='9' fill='%2317191d'/%3E%3Crect x='10' y='25' width='6.5' height='8' fill='%23f4f1e8'/%3E%3Crect x='18.75' y='18' width='6.5' height='15' fill='%23f4f1e8'/%3E%3Crect x='27.5' y='11' width='6.5' height='22' fill='%23a13c22'/%3E%3C/svg%3E">
@@ -657,124 +657,642 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   </header>
   <div class="crumb"><a href="../../index.html">Home</a> / <a href="../index.html">Inner</a> / The Block Board</div>
   <h1>The Block Board</h1>
-  <p class="sub">Ranked crude options block flow, direction from open interest only, and the graded record.</p>
+  <p class="sub">Big options trades, ranked by money. We count only new positions. Then we follow at most one theme.</p>
+
+<style>
+.wing-answer { font-size:1.45rem; line-height:1.35; font-weight:700;
+  max-width:34ch; margin:18px 0 6px; }
+.wing-status { color:var(--mut); font-size:.92rem; margin:0 0 8px; }
+.wing-card { border-top:1px solid var(--line); padding:16px 0 18px;
+  max-width:72ch; }
+.wing-cardhead { display:flex; gap:12px; align-items:flex-start; }
+.wing-rank { flex:none; min-width:46px; text-align:center; font-weight:800;
+  font-size:1.15rem; border:1px solid var(--ink); padding:5px 6px; }
+.wing-card h3 { margin:0 0 4px; padding:0; }
+.wing-card p { margin:0 0 7px; }
+.wing-badge { display:inline-block; font-size:.78rem; font-weight:800;
+  letter-spacing:.04em; text-transform:uppercase; border:1px solid var(--ink);
+  padding:2px 8px; margin-top:2px; }
+.wing-badge.watch { border-color:var(--acc); color:var(--acc-deep); }
+.wing-badge.no { color:var(--mut); border-color:var(--line); }
+.wing-facts { display:flex; flex-wrap:wrap; gap:4px 16px; font-size:.95rem; }
+.wing-facts b { font-variant-numeric:tabular-nums; }
+.wing-bar-row { display:grid; grid-template-columns:150px 1fr 92px;
+  gap:10px; align-items:center; margin:8px 0; max-width:760px; }
+.wing-bar-track { height:16px; background:var(--line2); position:relative; }
+.wing-bar-fill { height:16px; background:var(--acc); }
+.wing-bar-fill.blue { background:var(--ch-blue); }
+.wing-bar-num { font-weight:700; font-variant-numeric:tabular-nums; }
+.wing-details { border-top:1px solid var(--line); padding:10px 0;
+  max-width:72ch; }
+.wing-details summary { cursor:pointer; font-weight:700; }
+.wing-chain { border-left:2px solid var(--acc); padding:2px 0 2px 14px;
+  margin:10px 0 4px; }
+.wing-chain p { margin:0 0 5px; }
+.wing-small { font-size:.86rem; color:var(--mut); }
+.wing-decision td { min-width:150px; }
+@media (max-width:520px) {
+  .wing-bar-row { grid-template-columns:1fr; gap:3px; }
+  .wing-cardhead { gap:9px; }
+  .wing-rank { min-width:40px; font-size:1rem; }
+  .wing-answer { font-size:1.28rem; }
+}
+</style>
+
 <section id="top">
 <p class="wingnav"><strong>The Wing, inner tier:</strong> <a href="../../options/index.html">The Wing (public hub)</a> &middot; <a href="../vol/index.html">Vol structures</a> &middot; <a href="../vol-portfolio/index.html">Vol portfolio</a> &middot; <a href="../vol/doctrine/index.html">Doctrine</a> &middot; <a href="../vol/checklist/index.html">Pre-trade checklist</a> &middot; <strong>The Block Board</strong></p>
-<p>The day's large crude options block complexes, ranked the simple way: premium at settles first, then block lots, then block share of the strikes' volume. A block print shows size at a strike on a day. It never shows who traded, at what price, or whether the position was bought or sold. Direction on this page comes from open-interest change only, with its provenance printed on every card, and the top complexes get a recommendation card on a fixed skeleton. A card can say NO TRADE, and standing aside carries no P&amp;L.</p>
+<p class="wing-answer">Big new money is focused mainly on lower prices.</p>
+<p class="wing-status">Data date: October 23, 2026. Board window: October 15, 2026 to October 23, 2026, 7 sessions. Open interest for the last day has not published yet, so that day's trades are not clear yet.</p>
+<div class="statgrid">
+<div class="stat"><div class="v">$149,135,100</div><div class="l">Biggest trade</div><div class="d">#1 last week: Brent December 2026 puts, $70-$101, 430,148 contracts</div></div>
+<div class="stat"><div class="v">$132.9M</div><div class="l">Higher-price money</div><div class="d">25% of counted new money last week</div></div>
+<div class="stat"><div class="v">$390.8M</div><div class="l">Lower-price money</div><div class="d">75% of counted new money last week</div></div>
+<div class="stat"><div class="v">Nothing official</div><div class="l">What we are following</div><div class="d">Seed test only below. The official v2 record starts with the first qualifying trade after Oct 23, 2026.</div></div>
+</div>
+<p>We rank big crude options trades by money. Then we count only the trades where open interest proves new positions opened. We follow at most one package in the leading theme. We do not copy everything.</p>
+</section>
+<section id="tally">
+<h2>Where the big new money went</h2>
+<h3>Last 5 sessions</h3>
+<div class="wing-bar-row">
+<div><strong>Lower-price trades (puts)</strong><br><span class="wing-small">11 trades</span></div>
+<div class="wing-bar-track"><div class="wing-bar-fill" style="width:74.6%"></div></div>
+<div class="wing-bar-num">$390.8M<br><span class="wing-small">75%</span></div>
+</div>
+<p>Lower-price trades (puts): $390,843,570 counted. Packages: $380,443,570 in 9 trades. Biggest: Brent December 2026 puts, $70-$101 at $149,135,100.</p>
+<p>These trades gain from, or protect against, a sharp fall in crude. The buyer might be betting on a drop or protecting a business that gets hurt when crude falls.</p>
+<div class="wing-bar-row">
+<div><strong>Higher-price trades (calls)</strong><br><span class="wing-small">4 trades</span></div>
+<div class="wing-bar-track"><div class="wing-bar-fill blue" style="width:25.4%"></div></div>
+<div class="wing-bar-num">$132.9M<br><span class="wing-small">25%</span></div>
+</div>
+<p>Higher-price trades (calls): $132,919,820 counted. Packages: $124,499,820 in 3 trades. Biggest: Brent January 2027 calls, $105-$116 at $52,006,320.</p>
+<p>These trades gain from, or protect against, a sharp rise in crude. The buyer might be betting on a jump or protecting a business that gets hurt when crude jumps.</p>
+<p><strong>Not counted:</strong> 19 trades, $809,371,370. Position closed, split, or not clear yet.</p>
+<p class="wing-small">Counted new money in this window: $523,763,390.</p>
+<h3>Last 20 sessions - only 7 available</h3>
+<div class="wing-bar-row">
+<div><strong>Lower-price trades (puts)</strong><br><span class="wing-small">13 trades</span></div>
+<div class="wing-bar-track"><div class="wing-bar-fill" style="width:70.6%"></div></div>
+<div class="wing-bar-num">$391.4M<br><span class="wing-small">71%</span></div>
+</div>
+<p>Lower-price trades (puts): $391,438,570 counted. Packages: $380,443,570 in 9 trades. Biggest: Brent December 2026 puts, $70-$101 at $149,135,100.</p>
+<p>These trades gain from, or protect against, a sharp fall in crude. The buyer might be betting on a drop or protecting a business that gets hurt when crude falls.</p>
+<div class="wing-bar-row">
+<div><strong>Higher-price trades (calls)</strong><br><span class="wing-small">7 trades</span></div>
+<div class="wing-bar-track"><div class="wing-bar-fill blue" style="width:29.4%"></div></div>
+<div class="wing-bar-num">$163.2M<br><span class="wing-small">29%</span></div>
+</div>
+<p>Higher-price trades (calls): $163,155,260 counted. Packages: $138,139,260 in 4 trades. Biggest: Brent January 2027 calls, $105-$116 at $52,006,320.</p>
+<p>These trades gain from, or protect against, a sharp rise in crude. The buyer might be betting on a jump or protecting a business that gets hurt when crude jumps.</p>
+<p><strong>Not counted:</strong> 25 trades, $908,334,970. Position closed, split, or not clear yet.</p>
+<p class="wing-small">Counted new money in this window: $554,593,830.</p>
+</section>
+<section id="decision">
+<h2>From flow to a trade</h2>
+<p>Lower-price trades had the most big new money last week, $390,843,570 of $523,763,390 counted. We think most of it was crash protection. Copying the biggest package could make about $4,339,236 if Brent falls to $70 by expiry; the likely drawdown estimate is $62,092 and the most we can lose is $62,764. Stress test: Brent jumps $20 instead and the trade is worth -$62,092 if fear rises.</p>
+<p><strong>Officially, we are following nothing.</strong> No block date after Oct 23, 2026 is in the archive yet. The official v2 record starts with the first qualifying trade after adoption.</p>
+<div class="tblwrap"><table class="data wing-decision">
+<thead><tr><th>What the big money did</th><th>What we think they were doing</th><th>What we would copy</th><th>What we could make</th><th>Likely risk and drawdown</th><th>Stress test</th><th>Most we can lose</th></tr></thead><tbody><tr>
+<td>Last week: lower-price trades counted $390,843,570 of $523,763,390 counted (75%). Last month window: $391,438,570 of $554,593,830 (71%). Biggest package: Brent December 2026 puts, $70-$101 at $149,135,100.</td>
+<td>Most of it looks like crash protection. Main alternative: the big trader sold puts to collect money. Open interest cannot tell bought from sold.</td>
+<td>Seed test copy: PUT VERTICAL SPREAD COPY, +P101; -P70, 142 lots. Entered October 21, 2026 at $0.44 per barrel. Paid $62,764. Test only. Not an official v2 follow.</td>
+<td>$4,339,236 if Brent is at or below $70 at expiry on October 28, 2026.</td>
+<td>Estimate: $62,092 on the book's shock test. Same copy in the first test has seen a worst drawdown of $47,144 so far.</td>
+<td>Brent up $20, fear up: -$62,092<br>Brent up $20, fear down: -$62,764<br>Brent down $20, fear up: $1,616,577<br>Brent down $20, fear down: $1,642,386</td>
+<td>$62,764</td>
+</tr></tbody></table></div>
+<p>No naked calls here. Every read has to end in a copy, a make number, a risk number, a stress number, and a hard max loss. If it cannot, we do not follow it.</p>
+</section>
+<section id="ranked">
+<h2>Biggest trades: last week</h2>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#1</div>
+<div>
+<h3>Brent December 2026 puts, $70-$101</h3>
+<p>October 20, 2026. 430,148 contracts traded in blocks across 10 strikes. That was 90% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$149,135,100</b></span>
+<span>Status <b>New position</b></span>
+<span>Likely job <b>Downside package - limited-risk protection against a price fall</b></span>
+</div>
+<span class="wing-badge watch">Watch</span>
+<p>Seed test only: this is the trade the new rule would have picked. It is not an official v2 follow.</p>
+</div></div>
+<div class="wing-chain">
+<p><strong>What the big money did.</strong> This lower-price trade involved $149,135,100 and 430,148 contracts.</p>
+<p><strong>What we think they were doing.</strong> Downside package - limited-risk protection against a price fall. Main alternative: the big trader sold puts to collect money. Open interest cannot tell bought from sold.</p>
+<p><strong>What we would copy.</strong> PUT VERTICAL SPREAD COPY: +P101; -P70, 142 lots. Seed test only. Not an official follow.</p>
+<p><strong>What we could make.</strong> $4,339,236 if Brent reaches $70 by expiry.</p>
+<p><strong>Likely risk and drawdown.</strong> Estimate: $62,092 on the book's shock test.</p>
+<p><strong>Stress test.</strong> Brent up $20: -$62,092 if fear rises, -$62,764 if fear falls. Brent down $20: $1,616,577 if fear rises, $1,642,386 if fear falls.</p>
+<p><strong>Most we can lose.</strong> $62,764.</p>
+</div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 70;78;85;88;95;96;98;99;100;101. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 88880. Across the group: 167907.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#2</div>
+<div>
+<h3>Brent January 2027 calls, $100-$150</h3>
+<p>October 22, 2026. 31,800 contracts traded in blocks across 8 strikes. That was 66% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$146,792,500</b></span>
+<span>Status <b>Split - not clear</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 100;105;110;115;125;130;140;150. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 341. Across the group: 6078.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#3</div>
+<div>
+<h3>Brent January 2027 calls, $110-$125</h3>
+<p>October 23, 2026. 16,092 contracts traded in blocks across 2 strikes. That was 62% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$115,620,660</b></span>
+<span>Status <b>Not clear yet</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>No open-interest read is available for this date yet. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 110;125. Direction read: NONE. Open-interest change at the biggest strike: not available. Across the group: not available.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#4</div>
+<div>
+<h3>Brent February 2027 puts, $65-$84</h3>
+<p>October 20, 2026. 162,750 contracts traded in blocks across 5 strikes. That was 98% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$113,110,000</b></span>
+<span>Status <b>New position</b></span>
+<span>Likely job <b>Downside package - limited-risk protection against a price fall</b></span>
+</div>
+<span class="wing-badge watch">Watch</span>
+<p>New package, but its side does not pass every v2 follow condition.</p>
+</div></div>
+<div class="wing-chain">
+<p><strong>What the big money did.</strong> This lower-price trade involved $113,110,000 and 162,750 contracts.</p>
+<p><strong>What we think they were doing.</strong> Downside package - limited-risk protection against a price fall. Main alternative: the big trader sold puts to collect money. Open interest cannot tell bought from sold.</p>
+<p><strong>What we would copy.</strong> No copy yet. Watch means the trade matters, not that we follow it.</p>
+<p><strong>What we could make.</strong> Not sized yet.</p>
+<p><strong>Likely risk and drawdown.</strong> No copy, so no trade risk yet.</p>
+<p><strong>Stress test.</strong> No copy to stress yet.</p>
+<p><strong>Most we can lose.</strong> $0. We have no follow on.</p>
+</div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 65;66;79;80;84. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 40831. Across the group: 66026.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#5</div>
+<div>
+<h3>Brent January 2027 puts, $65-$100</h3>
+<p>October 23, 2026. 200,714 contracts traded in blocks across 8 strikes. That was 96% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$109,577,560</b></span>
+<span>Status <b>Not clear yet</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>No open-interest read is available for this date yet. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 65;75;80;83;88;90;95;100. Direction read: NONE. Open-interest change at the biggest strike: not available. Across the group: not available.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#6</div>
+<div>
+<h3>Brent February 2027 puts, $69-$90</h3>
+<p>October 21, 2026. 115,460 contracts traded in blocks across 7 strikes. That was 99% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$94,703,800</b></span>
+<span>Status <b>Split - not clear</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 69;71;75;76;78;82;90. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: -12740. Across the group: 12087.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#7</div>
+<div>
+<h3>Brent December 2026 calls, $103-$113</h3>
+<p>October 23, 2026. 7,631 contracts traded in blocks across 3 strikes. That was 82% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$70,091,970</b></span>
+<span>Status <b>Not clear yet</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>No open-interest read is available for this date yet. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 103;105;113. Direction read: NONE. Open-interest change at the biggest strike: not available. Across the group: not available.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#8</div>
+<div>
+<h3>Brent March 2027 calls, $100-$115</h3>
+<p>October 22, 2026. 8,571 contracts traded in blocks across 3 strikes. That was 72% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$62,064,960</b></span>
+<span>Status <b>Split - not clear</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 100;110;115. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 1728. Across the group: -154.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#9</div>
+<div>
+<h3>Brent January 2027 calls, $105-$116</h3>
+<p>October 21, 2026. 11,572 contracts traded in blocks across 4 strikes. That was 69% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$52,006,320</b></span>
+<span>Status <b>New position</b></span>
+<span>Likely job <b>Upside package - limited-risk exposure to a price jump</b></span>
+</div>
+<span class="wing-badge watch">Watch</span>
+<p>New package, but its side does not pass every v2 follow condition.</p>
+</div></div>
+<div class="wing-chain">
+<p><strong>What the big money did.</strong> This higher-price trade involved $52,006,320 and 11,572 contracts.</p>
+<p><strong>What we think they were doing.</strong> Upside package - limited-risk exposure to a price jump. Main alternative: the big trader sold calls to collect money. Open interest cannot tell bought from sold.</p>
+<p><strong>What we would copy.</strong> No copy yet. Watch means the trade matters, not that we follow it.</p>
+<p><strong>What we could make.</strong> Not sized yet.</p>
+<p><strong>Likely risk and drawdown.</strong> No copy, so no trade risk yet.</p>
+<p><strong>Stress test.</strong> No copy to stress yet.</p>
+<p><strong>Most we can lose.</strong> $0. We have no follow on.</p>
+</div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 105;110;115;116. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 2605. Across the group: 8110.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#10</div>
+<div>
+<h3>Brent January 2027 calls, $110-$130</h3>
+<p>October 19, 2026. 20,450 contracts traded in blocks across 3 strikes. That was 72% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$51,271,000</b></span>
+<span>Status <b>New position</b></span>
+<span>Likely job <b>Upside package - limited-risk exposure to a price jump</b></span>
+</div>
+<span class="wing-badge watch">Watch</span>
+<p>New package, but its side does not pass every v2 follow condition.</p>
+</div></div>
+<div class="wing-chain">
+<p><strong>What the big money did.</strong> This higher-price trade involved $51,271,000 and 20,450 contracts.</p>
+<p><strong>What we think they were doing.</strong> Upside package - limited-risk exposure to a price jump. Main alternative: the big trader sold calls to collect money. Open interest cannot tell bought from sold.</p>
+<p><strong>What we would copy.</strong> No copy yet. Watch means the trade matters, not that we follow it.</p>
+<p><strong>What we could make.</strong> Not sized yet.</p>
+<p><strong>Likely risk and drawdown.</strong> No copy, so no trade risk yet.</p>
+<p><strong>Stress test.</strong> No copy to stress yet.</p>
+<p><strong>Most we can lose.</strong> $0. We have no follow on.</p>
+</div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 110;120;130. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 7043. Across the group: 15499.</p>
+</details>
+</article>
+<h2>Biggest trades: last month window</h2>
+<p>Last 20 sessions - only 7 available. The archive has 7 sessions, so this is not a full month.</p>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#1</div>
+<div>
+<h3>Brent December 2026 puts, $70-$101</h3>
+<p>October 20, 2026. 430,148 contracts traded in blocks across 10 strikes. That was 90% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$149,135,100</b></span>
+<span>Status <b>New position</b></span>
+<span>Likely job <b>Downside package - limited-risk protection against a price fall</b></span>
+</div>
+<span class="wing-badge watch">Watch</span>
+<p>Seed test only: this is the trade the new rule would have picked. It is not an official v2 follow.</p>
+</div></div>
+<div class="wing-chain">
+<p><strong>What the big money did.</strong> This lower-price trade involved $149,135,100 and 430,148 contracts.</p>
+<p><strong>What we think they were doing.</strong> Downside package - limited-risk protection against a price fall. Main alternative: the big trader sold puts to collect money. Open interest cannot tell bought from sold.</p>
+<p><strong>What we would copy.</strong> PUT VERTICAL SPREAD COPY: +P101; -P70, 142 lots. Seed test only. Not an official follow.</p>
+<p><strong>What we could make.</strong> $4,339,236 if Brent reaches $70 by expiry.</p>
+<p><strong>Likely risk and drawdown.</strong> Estimate: $62,092 on the book's shock test.</p>
+<p><strong>Stress test.</strong> Brent up $20: -$62,092 if fear rises, -$62,764 if fear falls. Brent down $20: $1,616,577 if fear rises, $1,642,386 if fear falls.</p>
+<p><strong>Most we can lose.</strong> $62,764.</p>
+</div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 70;78;85;88;95;96;98;99;100;101. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 88880. Across the group: 167907.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#2</div>
+<div>
+<h3>Brent January 2027 calls, $100-$150</h3>
+<p>October 22, 2026. 31,800 contracts traded in blocks across 8 strikes. That was 66% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$146,792,500</b></span>
+<span>Status <b>Split - not clear</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 100;105;110;115;125;130;140;150. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 341. Across the group: 6078.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#3</div>
+<div>
+<h3>Brent January 2027 calls, $110-$125</h3>
+<p>October 23, 2026. 16,092 contracts traded in blocks across 2 strikes. That was 62% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$115,620,660</b></span>
+<span>Status <b>Not clear yet</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>No open-interest read is available for this date yet. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 110;125. Direction read: NONE. Open-interest change at the biggest strike: not available. Across the group: not available.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#4</div>
+<div>
+<h3>Brent February 2027 puts, $65-$84</h3>
+<p>October 20, 2026. 162,750 contracts traded in blocks across 5 strikes. That was 98% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$113,110,000</b></span>
+<span>Status <b>New position</b></span>
+<span>Likely job <b>Downside package - limited-risk protection against a price fall</b></span>
+</div>
+<span class="wing-badge watch">Watch</span>
+<p>New package, but its side does not pass every v2 follow condition.</p>
+</div></div>
+<div class="wing-chain">
+<p><strong>What the big money did.</strong> This lower-price trade involved $113,110,000 and 162,750 contracts.</p>
+<p><strong>What we think they were doing.</strong> Downside package - limited-risk protection against a price fall. Main alternative: the big trader sold puts to collect money. Open interest cannot tell bought from sold.</p>
+<p><strong>What we would copy.</strong> No copy yet. Watch means the trade matters, not that we follow it.</p>
+<p><strong>What we could make.</strong> Not sized yet.</p>
+<p><strong>Likely risk and drawdown.</strong> No copy, so no trade risk yet.</p>
+<p><strong>Stress test.</strong> No copy to stress yet.</p>
+<p><strong>Most we can lose.</strong> $0. We have no follow on.</p>
+</div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 65;66;79;80;84. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 40831. Across the group: 66026.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#5</div>
+<div>
+<h3>Brent January 2027 puts, $65-$100</h3>
+<p>October 23, 2026. 200,714 contracts traded in blocks across 8 strikes. That was 96% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$109,577,560</b></span>
+<span>Status <b>Not clear yet</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>No open-interest read is available for this date yet. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 65;75;80;83;88;90;95;100. Direction read: NONE. Open-interest change at the biggest strike: not available. Across the group: not available.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#6</div>
+<div>
+<h3>Brent February 2027 puts, $69-$90</h3>
+<p>October 21, 2026. 115,460 contracts traded in blocks across 7 strikes. That was 99% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$94,703,800</b></span>
+<span>Status <b>Split - not clear</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 69;71;75;76;78;82;90. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: -12740. Across the group: 12087.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#7</div>
+<div>
+<h3>Brent December 2026 calls, $103-$113</h3>
+<p>October 23, 2026. 7,631 contracts traded in blocks across 3 strikes. That was 82% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$70,091,970</b></span>
+<span>Status <b>Not clear yet</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>No open-interest read is available for this date yet. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 103;105;113. Direction read: NONE. Open-interest change at the biggest strike: not available. Across the group: not available.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#8</div>
+<div>
+<h3>Brent March 2027 calls, $100-$115</h3>
+<p>October 22, 2026. 8,571 contracts traded in blocks across 3 strikes. That was 72% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$62,064,960</b></span>
+<span>Status <b>Split - not clear</b></span>
+<span>Likely job <b>We cannot tell yet</b></span>
+</div>
+<span class="wing-badge no">Not following</span>
+<p>We cannot count it as new money yet: the position closed, split, or is not clear yet.</p>
+</div></div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 100;110;115. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 1728. Across the group: -154.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#9</div>
+<div>
+<h3>Brent January 2027 calls, $105-$116</h3>
+<p>October 21, 2026. 11,572 contracts traded in blocks across 4 strikes. That was 69% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$52,006,320</b></span>
+<span>Status <b>New position</b></span>
+<span>Likely job <b>Upside package - limited-risk exposure to a price jump</b></span>
+</div>
+<span class="wing-badge watch">Watch</span>
+<p>New package, but its side does not pass every v2 follow condition.</p>
+</div></div>
+<div class="wing-chain">
+<p><strong>What the big money did.</strong> This higher-price trade involved $52,006,320 and 11,572 contracts.</p>
+<p><strong>What we think they were doing.</strong> Upside package - limited-risk exposure to a price jump. Main alternative: the big trader sold calls to collect money. Open interest cannot tell bought from sold.</p>
+<p><strong>What we would copy.</strong> No copy yet. Watch means the trade matters, not that we follow it.</p>
+<p><strong>What we could make.</strong> Not sized yet.</p>
+<p><strong>Likely risk and drawdown.</strong> No copy, so no trade risk yet.</p>
+<p><strong>Stress test.</strong> No copy to stress yet.</p>
+<p><strong>Most we can lose.</strong> $0. We have no follow on.</p>
+</div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 105;110;115;116. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 2605. Across the group: 8110.</p>
+</details>
+</article>
+<article class="wing-card">
+<div class="wing-cardhead">
+<div class="wing-rank">#10</div>
+<div>
+<h3>Brent January 2027 calls, $110-$130</h3>
+<p>October 19, 2026. 20,450 contracts traded in blocks across 3 strikes. That was 72% of all trading at those strikes.</p>
+<div class="wing-facts">
+<span>Money involved <b>$51,271,000</b></span>
+<span>Status <b>New position</b></span>
+<span>Likely job <b>Upside package - limited-risk exposure to a price jump</b></span>
+</div>
+<span class="wing-badge watch">Watch</span>
+<p>New package, but its side does not pass every v2 follow condition.</p>
+</div></div>
+<div class="wing-chain">
+<p><strong>What the big money did.</strong> This higher-price trade involved $51,271,000 and 20,450 contracts.</p>
+<p><strong>What we think they were doing.</strong> Upside package - limited-risk exposure to a price jump. Main alternative: the big trader sold calls to collect money. Open interest cannot tell bought from sold.</p>
+<p><strong>What we would copy.</strong> No copy yet. Watch means the trade matters, not that we follow it.</p>
+<p><strong>What we could make.</strong> Not sized yet.</p>
+<p><strong>Likely risk and drawdown.</strong> No copy, so no trade risk yet.</p>
+<p><strong>Stress test.</strong> No copy to stress yet.</p>
+<p><strong>Most we can lose.</strong> $0. We have no follow on.</p>
+</div>
+<details class="wing-details"><summary>How we know</summary>
+<p>We compared open interest in two daily files. Open interest proves new positions existed. It does not prove the big trader bought rather than sold.</p>
+<p class="wing-small">Strikes: 110;120;130. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 7043. Across the group: 15499.</p>
+</details>
+</article>
+</section>
+<section id="how">
+<h2>How we know</h2>
+<p>We wait until the next day, when open interest is published. If open interest rose enough at the biggest strike, new positions opened. If it fell the same way, positions closed. If the strikes disagree, we say split.</p>
+<p>Open interest does not say bought or sold. A new long and a new short both raise open interest. That limit stays on the page.</p>
+<p>A trade counts as a package when more than one strike in the same contract and month traded big on the same day. A package is clearer than one strike. One strike can be one leg of something we cannot see.</p>
 </section>
 <section id="record">
-<h2>The record</h2>
-<p><strong>Regime: EPISODE.</strong> Every card on this board was born in that regime; no confidence level here rises until cards have scored in a second regime. Window: October 15, 2026 to October 23, 2026, 7 boards, n = 35 cards (17 paper positions, 18 NO TRADE). Paper P&amp;L to the October 23, 2026 marks: <strong>-$88,101</strong>, hit rate 29 percent. Split by regime and never netted into a claim: grind $0, episode -$88,101. At this n the scoreboard is a ledger, not a verdict; it exists so the record accumulates honestly from day one.</p>
+<h2>First test record</h2>
+<p><strong>First test - broad cloning. We cloned every confirmed new position. That was too broad, so new trades under that rule stopped after Oct 23, 2026.</strong></p>
+<p>Window: October 15, 2026 to October 23, 2026. Cards: 35. Paper positions: 17. No trade cards: 18. Paper P&amp;L to October 23, 2026: <strong>-$88,101</strong>. Hit rate: 29%. Market backdrop on every card: supply scare. Normal-market P&amp;L: $0. Supply-scare P&amp;L: -$88,101. We keep the two apart. At this size, this is a record, not a verdict.</p>
+<details class="wing-details"><summary>See the first test positions</summary>
 <div class="tblwrap"><table class="data">
-<thead><tr><th>Rec</th><th>Blocked</th><th>Entered</th><th>Structure</th><th>Lots</th><th>Premium</th><th>Worst case</th><th>P&amp;L</th><th>Status</th></tr></thead><tbody>
-<tr><td>FR-20261015-B-202701-C</td><td>2026-10-15</td><td>2026-10-16</td><td>CALL VERTICAL ENVELOPE +C105; -C130</td><td>11</td><td>$75,933</td><td>$59,296</td><td>$14,487</td><td>open (marked 2026-10-23, 5 d held)</td></tr>
-<tr><td>FR-20261015-T-202702-P</td><td>2026-10-15</td><td>2026-10-16</td><td>LONG OUTRIGHT +P55</td><td>1,262</td><td>$249,876</td><td>$12,474</td><td>-$10,096</td><td>open (marked 2026-10-22, 4 d held)</td></tr>
-<tr><td>FR-20261015-T-202612-P</td><td>2026-10-15</td><td>2026-10-16</td><td>LONG OUTRIGHT +P60</td><td>1,871</td><td>$123,486</td><td>$62,485</td><td>-$29,936</td><td>open (marked 2026-10-22, 4 d held)</td></tr>
-<tr><td>FR-20261016-B-202702-C</td><td>2026-10-16</td><td>2026-10-19</td><td>LONG OUTRIGHT +C120</td><td>25</td><td>$91,025</td><td>$60,466</td><td>$55,225</td><td>open (marked 2026-10-23, 4 d held)</td></tr>
-<tr><td>FR-20261016-B-202701-C</td><td>2026-10-16</td><td>2026-10-19</td><td>LONG OUTRIGHT +C117</td><td>23</td><td>$78,683</td><td>$62,287</td><td>$59,777</td><td>open (marked 2026-10-23, 4 d held)</td></tr>
-<tr><td>FR-20261019-B-202701-C</td><td>2026-10-19</td><td>2026-10-20</td><td>CALL VERTICAL ENVELOPE +C110; -C130</td><td>19</td><td>$74,100</td><td>$60,857</td><td>$32,490</td><td>open (marked 2026-10-23, 3 d held)</td></tr>
-<tr><td>FR-20261019-B-202704-P</td><td>2026-10-19</td><td>2026-10-20</td><td>PUT VERTICAL ENVELOPE +P80; -P65</td><td>65</td><td>$155,155</td><td>$62,274</td><td>-$19,955</td><td>open (marked 2026-10-23, 3 d held)</td></tr>
-<tr><td>FR-20261019-B-202703-P</td><td>2026-10-19</td><td>2026-10-20</td><td>PUT VERTICAL ENVELOPE +P85; -P65</td><td>47</td><td>$139,590</td><td>$62,203</td><td>-$19,740</td><td>open (marked 2026-10-23, 3 d held)</td></tr>
-<tr><td>FR-20261019-B-202612-P</td><td>2026-10-19</td><td>2026-10-20</td><td>PUT VERTICAL ENVELOPE +P108; -P96</td><td>29</td><td>$61,799</td><td>$60,685</td><td>-$53,389</td><td>open (marked 2026-10-23, 3 d held)</td></tr>
-<tr><td>FR-20261020-B-202612-P</td><td>2026-10-20</td><td>2026-10-21</td><td>PUT VERTICAL ENVELOPE +P101; -P70</td><td>142</td><td>$62,764</td><td>$62,092</td><td>-$47,144</td><td>open (marked 2026-10-23, 2 d held)</td></tr>
-<tr><td>FR-20261020-B-202702-P</td><td>2026-10-20</td><td>2026-10-21</td><td>PUT VERTICAL ENVELOPE +P84; -P65</td><td>70</td><td>$122,570</td><td>$62,306</td><td>-$24,570</td><td>open (marked 2026-10-22, 1 d held)</td></tr>
-<tr><td>FR-20261020-B-202702-C</td><td>2026-10-20</td><td>2026-10-21</td><td>CALL VERTICAL ENVELOPE +C140; -C150</td><td>123</td><td>$80,442</td><td>$62,232</td><td>$16,728</td><td>open (marked 2026-10-23, 2 d held)</td></tr>
-<tr><td>FR-20261020-B-202703-P</td><td>2026-10-20</td><td>2026-10-21</td><td>PUT VERTICAL ENVELOPE +P85; -P65</td><td>44</td><td>$138,512</td><td>$61,514</td><td>-$26,312</td><td>open (marked 2026-10-23, 2 d held)</td></tr>
-<tr><td>FR-20261021-B-202701-C</td><td>2026-10-21</td><td>2026-10-22</td><td>CALL VERTICAL ENVELOPE +C105; -C116</td><td>14</td><td>$78,260</td><td>$61,784</td><td>-$8,820</td><td>open (marked 2026-10-23, 1 d held)</td></tr>
-<tr><td>FR-20261021-B-202703-P</td><td>2026-10-21</td><td>2026-10-22</td><td>PUT VERTICAL ENVELOPE +P90; -P65</td><td>30</td><td>$142,020</td><td>$61,276</td><td>-$22,920</td><td>open (marked 2026-10-23, 1 d held)</td></tr>
-<tr><td>FR-20261021-T-202709-C</td><td>2026-10-21</td><td>2026-10-22</td><td>LONG OUTRIGHT +C100</td><td>26</td><td>$126,126</td><td>$60,282</td><td>-$3,926</td><td>open (marked 2026-10-23, 1 d held)</td></tr>
-<tr><td>FR-20261022-B-202703-P</td><td>2026-10-22</td><td>2026-10-23</td><td>PUT VERTICAL ENVELOPE +P80; -P65</td><td>93</td><td>$161,820</td><td>$62,270</td><td>$0</td><td>open (marked 2026-10-23, 0 d held)</td></tr>
-</tbody></table></div>
+<thead><tr><th>Rec</th><th>Blocked</th><th>Entered</th><th>Copy</th><th>Lots</th><th>Paid</th><th>Shock loss</th><th>P&amp;L</th><th>Status</th></tr></thead><tbody>
+<tr><td>FR-20261015-B-202701-C</td><td>2026-10-15</td><td>2026-10-16</td><td>CALL VERTICAL SPREAD COPY +C105; -C130</td><td>11</td><td>$75,933</td><td>$59,296</td><td>$14,487</td><td>open (marked 2026-10-23, 5 d held)</td></tr>
+<tr><td>FR-20261015-T-202702-P</td><td>2026-10-15</td><td>2026-10-16</td><td>SINGLE OPTION +P55</td><td>1,262</td><td>$249,876</td><td>$12,474</td><td>-$10,096</td><td>open (marked 2026-10-22, 4 d held)</td></tr>
+<tr><td>FR-20261015-T-202612-P</td><td>2026-10-15</td><td>2026-10-16</td><td>SINGLE OPTION +P60</td><td>1,871</td><td>$123,486</td><td>$62,485</td><td>-$29,936</td><td>open (marked 2026-10-22, 4 d held)</td></tr>
+<tr><td>FR-20261016-B-202702-C</td><td>2026-10-16</td><td>2026-10-19</td><td>SINGLE OPTION +C120</td><td>25</td><td>$91,025</td><td>$60,466</td><td>$55,225</td><td>open (marked 2026-10-23, 4 d held)</td></tr>
+<tr><td>FR-20261016-B-202701-C</td><td>2026-10-16</td><td>2026-10-19</td><td>SINGLE OPTION +C117</td><td>23</td><td>$78,683</td><td>$62,287</td><td>$59,777</td><td>open (marked 2026-10-23, 4 d held)</td></tr>
+<tr><td>FR-20261019-B-202701-C</td><td>2026-10-19</td><td>2026-10-20</td><td>CALL VERTICAL SPREAD COPY +C110; -C130</td><td>19</td><td>$74,100</td><td>$60,857</td><td>$32,490</td><td>open (marked 2026-10-23, 3 d held)</td></tr>
+<tr><td>FR-20261019-B-202704-P</td><td>2026-10-19</td><td>2026-10-20</td><td>PUT VERTICAL SPREAD COPY +P80; -P65</td><td>65</td><td>$155,155</td><td>$62,274</td><td>-$19,955</td><td>open (marked 2026-10-23, 3 d held)</td></tr>
+<tr><td>FR-20261019-B-202703-P</td><td>2026-10-19</td><td>2026-10-20</td><td>PUT VERTICAL SPREAD COPY +P85; -P65</td><td>47</td><td>$139,590</td><td>$62,203</td><td>-$19,740</td><td>open (marked 2026-10-23, 3 d held)</td></tr>
+<tr><td>FR-20261019-B-202612-P</td><td>2026-10-19</td><td>2026-10-20</td><td>PUT VERTICAL SPREAD COPY +P108; -P96</td><td>29</td><td>$61,799</td><td>$60,685</td><td>-$53,389</td><td>open (marked 2026-10-23, 3 d held)</td></tr>
+<tr><td>FR-20261020-B-202612-P</td><td>2026-10-20</td><td>2026-10-21</td><td>PUT VERTICAL SPREAD COPY +P101; -P70</td><td>142</td><td>$62,764</td><td>$62,092</td><td>-$47,144</td><td>open (marked 2026-10-23, 2 d held)</td></tr>
+<tr><td>FR-20261020-B-202702-P</td><td>2026-10-20</td><td>2026-10-21</td><td>PUT VERTICAL SPREAD COPY +P84; -P65</td><td>70</td><td>$122,570</td><td>$62,306</td><td>-$24,570</td><td>open (marked 2026-10-22, 1 d held)</td></tr>
+<tr><td>FR-20261020-B-202702-C</td><td>2026-10-20</td><td>2026-10-21</td><td>CALL VERTICAL SPREAD COPY +C140; -C150</td><td>123</td><td>$80,442</td><td>$62,232</td><td>$16,728</td><td>open (marked 2026-10-23, 2 d held)</td></tr>
+<tr><td>FR-20261020-B-202703-P</td><td>2026-10-20</td><td>2026-10-21</td><td>PUT VERTICAL SPREAD COPY +P85; -P65</td><td>44</td><td>$138,512</td><td>$61,514</td><td>-$26,312</td><td>open (marked 2026-10-23, 2 d held)</td></tr>
+<tr><td>FR-20261021-B-202701-C</td><td>2026-10-21</td><td>2026-10-22</td><td>CALL VERTICAL SPREAD COPY +C105; -C116</td><td>14</td><td>$78,260</td><td>$61,784</td><td>-$8,820</td><td>open (marked 2026-10-23, 1 d held)</td></tr>
+<tr><td>FR-20261021-B-202703-P</td><td>2026-10-21</td><td>2026-10-22</td><td>PUT VERTICAL SPREAD COPY +P90; -P65</td><td>30</td><td>$142,020</td><td>$61,276</td><td>-$22,920</td><td>open (marked 2026-10-23, 1 d held)</td></tr>
+<tr><td>FR-20261021-T-202709-C</td><td>2026-10-21</td><td>2026-10-22</td><td>SINGLE OPTION +C100</td><td>26</td><td>$126,126</td><td>$60,282</td><td>-$3,926</td><td>open (marked 2026-10-23, 1 d held)</td></tr>
+<tr><td>FR-20261022-B-202703-P</td><td>2026-10-22</td><td>2026-10-23</td><td>PUT VERTICAL SPREAD COPY +P80; -P65</td><td>93</td><td>$161,820</td><td>$62,270</td><td>$0</td><td>open (marked 2026-10-23, 0 d held)</td></tr>
+</tbody></table></div></details>
 </section>
-<section id="board">
-<h2>The board: October 23, 2026</h2>
-<p>The day, in one-liners, ranked:</p><ul>
-<li>Brent 2027-01 calls (strikes 110-125): 16,092 lots, $115,620,660 premium (94th pct of 45 prints), 62% of the strikes' volume -- direction PENDING -- OI lands the next file day</li>
-<li>Brent 2027-01 puts (strikes 65-100): 200,714 lots, $109,577,560 premium (90th pct of 45 prints), 96% of the strikes' volume -- direction PENDING -- OI lands the next file day</li>
-<li>Brent 2026-12 calls (strikes 103-113): 7,631 lots, $70,091,970 premium (86th pct of 45 prints), 82% of the strikes' volume -- direction PENDING -- OI lands the next file day</li>
-<li>Brent 2027-02 calls (strikes 115-140): 10,680 lots, $48,418,200 premium (77th pct of 45 prints), 73% of the strikes' volume -- direction PENDING -- OI lands the next file day</li>
-<li>Brent 2027-02 puts (strikes 75-90): 15,550 lots, $23,121,500 premium (61st pct of 45 prints), 80% of the strikes' volume -- direction PENDING -- OI lands the next file day</li>
-<li>Brent 2026-12 puts (strikes 95-113): 9,231 lots, $4,729,650 premium (21st pct of 45 prints), 66% of the strikes' volume -- direction PENDING -- OI lands the next file day</li>
-</ul>
+<section id="clones">
+<h2>First test clone book</h2>
+<p>First test - broad cloning. We cloned every confirmed new position. That was too broad, so new trades under that rule stopped after Oct 23, 2026.</p>
+<p>Trades found: 45. Copies taken: 17. Book P&amp;L at the latest marks: <strong>-$82,395</strong>. All of it came in a supply scare. This record stays separate from Flow Rank v2. We never add the two P&amp;L numbers together.</p>
+<details class="wing-details"><summary>See the first test clone table</summary>
 <div class="tblwrap"><table class="data">
-<thead><tr><th>#</th><th>Complex</th><th>Strikes</th><th>Block lots</th><th>Premium at settles</th><th>Block share</th><th>Direction</th><th>Card</th></tr></thead><tbody>
-<tr><td>1</td><td>CX-20261023-B-202701-C</td><td>110C; 125C</td><td>16,092</td><td>$115,620,660</td><td>62%</td><td>UNKNOWN</td><td>NO TRADE</td></tr>
-<tr><td>2</td><td>CX-20261023-B-202701-P</td><td>65P; 75P; 80P; 83P; 88P; 90P; 95P; 100P</td><td>200,714</td><td>$109,577,560</td><td>96%</td><td>UNKNOWN</td><td>NO TRADE</td></tr>
-<tr><td>3</td><td>CX-20261023-B-202612-C</td><td>103C; 105C; 113C</td><td>7,631</td><td>$70,091,970</td><td>82%</td><td>UNKNOWN</td><td>NO TRADE</td></tr>
-<tr><td>4</td><td>CX-20261023-B-202702-C</td><td>115C; 125C; 140C</td><td>10,680</td><td>$48,418,200</td><td>73%</td><td>UNKNOWN</td><td>NO TRADE</td></tr>
-<tr><td>5</td><td>CX-20261023-B-202702-P</td><td>75P; 80P; 85P; 90P</td><td>15,550</td><td>$23,121,500</td><td>80%</td><td>UNKNOWN</td><td>NO TRADE</td></tr>
-<tr><td>6</td><td>CX-20261023-B-202612-P</td><td>95P; 103P; 113P</td><td>9,231</td><td>$4,729,650</td><td>66%</td><td>UNKNOWN</td><td>no card</td></tr>
-</tbody></table></div>
-<h3>Recommendation cards</h3>
-<div class="card">
-<h4>FR-20261023-B-202701-C: rank #1, NO TRADE</h4>
-<p><strong>Fact.</strong> Brent 2027-01 calls (strikes 110-125): 16,092 lots, $115,620,660 premium (94th pct of 45 prints), 62% of the strikes' volume -- direction PENDING -- OI lands the next file day</p>
-<p><strong>Direction.</strong> UNKNOWN, read from none. Bought vs sold is not claimed: open-interest change separates opening from closing and nothing more.</p>
-<p><strong>Why no trade.</strong> direction unreadable: open interest for the block date has not published (same-evening vintage), and every expression of this footprint needs a direction. The card re-opens only if a later OI-populated vintage reclassifies the complex -- on that day's re-run, never backfilled</p>
-</div>
-<div class="card">
-<h4>FR-20261023-B-202701-P: rank #2, NO TRADE</h4>
-<p><strong>Fact.</strong> Brent 2027-01 puts (strikes 65-100): 200,714 lots, $109,577,560 premium (90th pct of 45 prints), 96% of the strikes' volume -- direction PENDING -- OI lands the next file day</p>
-<p><strong>Direction.</strong> UNKNOWN, read from none. Bought vs sold is not claimed: open-interest change separates opening from closing and nothing more.</p>
-<p><strong>Why no trade.</strong> direction unreadable: open interest for the block date has not published (same-evening vintage), and every expression of this footprint needs a direction. The card re-opens only if a later OI-populated vintage reclassifies the complex -- on that day's re-run, never backfilled</p>
-</div>
-<div class="card">
-<h4>FR-20261023-B-202612-C: rank #3, NO TRADE</h4>
-<p><strong>Fact.</strong> Brent 2026-12 calls (strikes 103-113): 7,631 lots, $70,091,970 premium (86th pct of 45 prints), 82% of the strikes' volume -- direction PENDING -- OI lands the next file day</p>
-<p><strong>Direction.</strong> UNKNOWN, read from none. Bought vs sold is not claimed: open-interest change separates opening from closing and nothing more.</p>
-<p><strong>Why no trade.</strong> direction unreadable: open interest for the block date has not published (same-evening vintage), and every expression of this footprint needs a direction. The card re-opens only if a later OI-populated vintage reclassifies the complex -- on that day's re-run, never backfilled</p>
-</div>
-<div class="card">
-<h4>FR-20261023-B-202702-C: rank #4, NO TRADE</h4>
-<p><strong>Fact.</strong> Brent 2027-02 calls (strikes 115-140): 10,680 lots, $48,418,200 premium (77th pct of 45 prints), 73% of the strikes' volume -- direction PENDING -- OI lands the next file day</p>
-<p><strong>Direction.</strong> UNKNOWN, read from none. Bought vs sold is not claimed: open-interest change separates opening from closing and nothing more.</p>
-<p><strong>Why no trade.</strong> direction unreadable: open interest for the block date has not published (same-evening vintage), and every expression of this footprint needs a direction. The card re-opens only if a later OI-populated vintage reclassifies the complex -- on that day's re-run, never backfilled</p>
-</div>
-<div class="card">
-<h4>FR-20261023-B-202702-P: rank #5, NO TRADE</h4>
-<p><strong>Fact.</strong> Brent 2027-02 puts (strikes 75-90): 15,550 lots, $23,121,500 premium (61st pct of 45 prints), 80% of the strikes' volume -- direction PENDING -- OI lands the next file day</p>
-<p><strong>Direction.</strong> UNKNOWN, read from none. Bought vs sold is not claimed: open-interest change separates opening from closing and nothing more.</p>
-<p><strong>Why no trade.</strong> direction unreadable: open interest for the block date has not published (same-evening vintage), and every expression of this footprint needs a direction. The card re-opens only if a later OI-populated vintage reclassifies the complex -- on that day's re-run, never backfilled</p>
-</div>
+<thead><tr><th>Clone</th><th>Entered</th><th>Copy</th><th>Legs</th><th>Lots</th><th>Paid</th><th>Shock loss</th><th>P&amp;L</th></tr></thead><tbody>
+<tr><td>CL-20261016-B-202701-C</td><td>2026-10-19</td><td>SINGLE OPTION</td><td>+C117</td><td>23</td><td>$78,683</td><td>$62,287</td><td>$59,777</td></tr>
+<tr><td>CL-20261016-B-202702-C</td><td>2026-10-19</td><td>SINGLE OPTION</td><td>+C120</td><td>25</td><td>$91,025</td><td>$60,466</td><td>$55,225</td></tr>
+<tr><td>CL-20261019-B-202612-P</td><td>2026-10-20</td><td>PUT VERTICAL SPREAD COPY</td><td>+P108; -P96</td><td>29</td><td>$61,799</td><td>$60,685</td><td>-$53,389</td></tr>
+<tr><td>CL-20261019-B-202701-C</td><td>2026-10-20</td><td>CALL VERTICAL SPREAD COPY</td><td>+C110; -C130</td><td>19</td><td>$74,100</td><td>$60,857</td><td>$32,490</td></tr>
+<tr><td>CL-20261019-B-202703-P</td><td>2026-10-20</td><td>PUT VERTICAL SPREAD COPY</td><td>+P85; -P65</td><td>47</td><td>$139,590</td><td>$62,203</td><td>-$19,740</td></tr>
+<tr><td>CL-20261019-B-202704-P</td><td>2026-10-20</td><td>PUT VERTICAL SPREAD COPY</td><td>+P80; -P65</td><td>65</td><td>$155,155</td><td>$62,274</td><td>-$19,955</td></tr>
+<tr><td>CL-20261020-B-202612-P</td><td>2026-10-21</td><td>PUT VERTICAL SPREAD COPY</td><td>+P101; -P70</td><td>142</td><td>$62,764</td><td>$62,092</td><td>-$47,144</td></tr>
+<tr><td>CL-20261020-B-202702-C</td><td>2026-10-21</td><td>CALL VERTICAL SPREAD COPY</td><td>+C140; -C150</td><td>123</td><td>$80,442</td><td>$62,232</td><td>$16,728</td></tr>
+<tr><td>CL-20261020-B-202702-P</td><td>2026-10-21</td><td>PUT VERTICAL SPREAD COPY</td><td>+P84; -P65</td><td>70</td><td>$122,570</td><td>$62,306</td><td>-$24,570</td></tr>
+<tr><td>CL-20261020-B-202703-P</td><td>2026-10-21</td><td>PUT VERTICAL SPREAD COPY</td><td>+P85; -P65</td><td>44</td><td>$138,512</td><td>$61,514</td><td>-$26,312</td></tr>
+<tr><td>CL-20261021-B-202701-C</td><td>2026-10-22</td><td>CALL VERTICAL SPREAD COPY</td><td>+C105; -C116</td><td>14</td><td>$78,260</td><td>$61,784</td><td>-$8,820</td></tr>
+<tr><td>CL-20261021-B-202701-P</td><td>2026-10-22</td><td>SINGLE OPTION</td><td>+P82</td><td>201</td><td>$110,550</td><td>$62,460</td><td>$0</td></tr>
+<tr><td>CL-20261021-B-202703-P</td><td>2026-10-22</td><td>PUT VERTICAL SPREAD COPY</td><td>+P90; -P65</td><td>30</td><td>$142,020</td><td>$61,276</td><td>-$22,920</td></tr>
+<tr><td>CL-20261021-T-202709-C</td><td>2026-10-22</td><td>SINGLE OPTION</td><td>+C100</td><td>26</td><td>$126,126</td><td>$60,282</td><td>-$3,926</td></tr>
+<tr><td>CL-20261021-T-202709-P</td><td>2026-10-22</td><td>SINGLE OPTION</td><td>+P70</td><td>51</td><td>$246,279</td><td>$36,819</td><td>-$19,839</td></tr>
+<tr><td>CL-20261022-B-202703-P</td><td>2026-10-23</td><td>PUT VERTICAL SPREAD COPY</td><td>+P80; -P65</td><td>93</td><td>$161,820</td><td>$62,270</td><td>$0</td></tr>
+<tr><td>CL-20261022-B-202704-P</td><td>2026-10-23</td><td>PUT VERTICAL SPREAD COPY</td><td>+P80; -P65</td><td>71</td><td>$172,388</td><td>$62,454</td><td>$0</td></tr>
+</tbody></table></div></details>
 </section>
 <section id="archive">
 <h2>Board archive</h2>
+<details class="wing-details"><summary>See past boards</summary>
 <div class="tblwrap"><table class="data">
-<thead><tr><th>Date</th><th>Complexes</th><th>Cards</th><th>Top complex</th><th>Premium</th><th>Direction</th></tr></thead><tbody>
-<tr><td>October 23, 2026</td><td>6</td><td>5</td><td>CX-20261023-B-202701-C</td><td>$115,620,660</td><td>UNKNOWN</td></tr>
-<tr><td>October 22, 2026</td><td>7</td><td>5</td><td>CX-20261022-B-202701-C</td><td>$146,792,500</td><td>MIXED</td></tr>
-<tr><td>October 21, 2026</td><td>9</td><td>5</td><td>CX-20261021-B-202702-P</td><td>$94,703,800</td><td>MIXED</td></tr>
-<tr><td>October 20, 2026</td><td>5</td><td>5</td><td>CX-20261020-B-202612-P</td><td>$149,135,100</td><td>OPENING</td></tr>
-<tr><td>October 19, 2026</td><td>7</td><td>5</td><td>CX-20261019-B-202701-C</td><td>$51,271,000</td><td>OPENING</td></tr>
-<tr><td>October 16, 2026</td><td>6</td><td>5</td><td>CX-20261016-B-202701-P</td><td>$22,720,800</td><td>MIXED</td></tr>
-<tr><td>October 15, 2026</td><td>5</td><td>5</td><td>CX-20261015-B-202702-P</td><td>$30,625,300</td><td>CLOSING</td></tr>
-</tbody></table></div>
-<p>Weekly graded recaps on disk: 2026-W42 (October 15 to 16) and 2026-W43 (October 19 to 23), in the flow dataset beside the boards. NO TRADE cards are ungraded by rule: standing aside is the rec, and it carries no P&amp;L by construction.</p>
-</section>
-<section id="clones">
-<h2>The clone book</h2>
-<p>This book follows footprints; it does not read minds. Where the board above ranks the day and cards the top five, the clone book takes every open-interest-confirmed opening complex that fits a defined-risk envelope, entered at next-file-day settles with the same 10 percent haircut. Window on disk: October 15, 2026 to October 23, 2026. Complexes detected: 45. Clones taken: 17. Book P&amp;L at the latest marks: <strong>-$82,395</strong>, all of it episode regime. The two books are two views of one paper experiment; their P&amp;L is never summed.</p>
-<div class="tblwrap"><table class="data">
-<thead><tr><th>Clone</th><th>Entered</th><th>Structure</th><th>Legs</th><th>Lots</th><th>Premium paid</th><th>Worst case</th><th>P&amp;L</th><th>Grind</th><th>Episode</th></tr></thead><tbody>
-<tr><td>CL-20261016-B-202701-C</td><td>2026-10-19</td><td>LONG OUTRIGHT</td><td>+C117</td><td>23</td><td>$78,683</td><td>$62,287</td><td>$59,777</td><td>$0</td><td>$35,420</td></tr>
-<tr><td>CL-20261016-B-202702-C</td><td>2026-10-19</td><td>LONG OUTRIGHT</td><td>+C120</td><td>25</td><td>$91,025</td><td>$60,466</td><td>$55,225</td><td>$0</td><td>$35,250</td></tr>
-<tr><td>CL-20261019-B-202612-P</td><td>2026-10-20</td><td>PUT VERTICAL ENVELOPE</td><td>+P108; -P96</td><td>29</td><td>$61,799</td><td>$60,685</td><td>-$53,389</td><td>$0</td><td>-$7,830</td></tr>
-<tr><td>CL-20261019-B-202701-C</td><td>2026-10-20</td><td>CALL VERTICAL ENVELOPE</td><td>+C110; -C130</td><td>19</td><td>$74,100</td><td>$60,857</td><td>$32,490</td><td>$0</td><td>$20,520</td></tr>
-<tr><td>CL-20261019-B-202703-P</td><td>2026-10-20</td><td>PUT VERTICAL ENVELOPE</td><td>+P85; -P65</td><td>47</td><td>$139,590</td><td>$62,203</td><td>-$19,740</td><td>$0</td><td>-$6,580</td></tr>
-<tr><td>CL-20261019-B-202704-P</td><td>2026-10-20</td><td>PUT VERTICAL ENVELOPE</td><td>+P80; -P65</td><td>65</td><td>$155,155</td><td>$62,274</td><td>-$19,955</td><td>$0</td><td>-$6,500</td></tr>
-<tr><td>CL-20261020-B-202612-P</td><td>2026-10-21</td><td>PUT VERTICAL ENVELOPE</td><td>+P101; -P70</td><td>142</td><td>$62,764</td><td>$62,092</td><td>-$47,144</td><td>$0</td><td>-$9,940</td></tr>
-<tr><td>CL-20261020-B-202702-C</td><td>2026-10-21</td><td>CALL VERTICAL ENVELOPE</td><td>+C140; -C150</td><td>123</td><td>$80,442</td><td>$62,232</td><td>$16,728</td><td>$0</td><td>$24,600</td></tr>
-<tr><td>CL-20261020-B-202702-P</td><td>2026-10-21</td><td>PUT VERTICAL ENVELOPE</td><td>+P84; -P65</td><td>70</td><td>$122,570</td><td>$62,306</td><td>-$24,570</td><td>$0</td><td>-$24,570</td></tr>
-<tr><td>CL-20261020-B-202703-P</td><td>2026-10-21</td><td>PUT VERTICAL ENVELOPE</td><td>+P85; -P65</td><td>44</td><td>$138,512</td><td>$61,514</td><td>-$26,312</td><td>$0</td><td>-$6,160</td></tr>
-<tr><td>CL-20261021-B-202701-C</td><td>2026-10-22</td><td>CALL VERTICAL ENVELOPE</td><td>+C105; -C116</td><td>14</td><td>$78,260</td><td>$61,784</td><td>-$8,820</td><td>$0</td><td>-$8,820</td></tr>
-<tr><td>CL-20261021-B-202701-P</td><td>2026-10-22</td><td>LONG OUTRIGHT</td><td>+P82</td><td>201</td><td>$110,550</td><td>$62,460</td><td>$0</td><td>$0</td><td>$0</td></tr>
-<tr><td>CL-20261021-B-202703-P</td><td>2026-10-22</td><td>PUT VERTICAL ENVELOPE</td><td>+P90; -P65</td><td>30</td><td>$142,020</td><td>$61,276</td><td>-$22,920</td><td>$0</td><td>-$22,920</td></tr>
-<tr><td>CL-20261021-T-202709-C</td><td>2026-10-22</td><td>LONG OUTRIGHT</td><td>+C100</td><td>26</td><td>$126,126</td><td>$60,282</td><td>-$3,926</td><td>$0</td><td>-$3,926</td></tr>
-<tr><td>CL-20261021-T-202709-P</td><td>2026-10-22</td><td>LONG OUTRIGHT</td><td>+P70</td><td>51</td><td>$246,279</td><td>$36,819</td><td>-$19,839</td><td>$0</td><td>-$19,839</td></tr>
-<tr><td>CL-20261022-B-202703-P</td><td>2026-10-23</td><td>PUT VERTICAL ENVELOPE</td><td>+P80; -P65</td><td>93</td><td>$161,820</td><td>$62,270</td><td>$0</td><td>$0</td><td>$0</td></tr>
-<tr><td>CL-20261022-B-202704-P</td><td>2026-10-23</td><td>PUT VERTICAL ENVELOPE</td><td>+P80; -P65</td><td>71</td><td>$172,388</td><td>$62,454</td><td>$0</td><td>$0</td><td>$0</td></tr>
-</tbody></table></div>
-<p>Standing caveats. The window is days long and one episode deep; no number here generalizes. The clone direction (long the envelope) bets that opening block flow is predominantly bought premium; if it is predominantly sold, the record will show a slow bleed and the sleeve retires by the same admission ladder as the corpus plays. Direction UNKNOWN or not OPENING complexes are never cloned.</p>
+<thead><tr><th>Date</th><th>Trades</th><th>Cards</th><th>Top trade</th><th>Money</th><th>Status</th></tr></thead><tbody>
+<tr><td>October 23, 2026</td><td>6</td><td>5</td><td>Brent January 2027 calls, $110-$125</td><td>$115,620,660</td><td>Not clear yet</td></tr>
+<tr><td>October 22, 2026</td><td>7</td><td>5</td><td>Brent January 2027 calls, $100-$150</td><td>$146,792,500</td><td>Split - not clear</td></tr>
+<tr><td>October 21, 2026</td><td>9</td><td>5</td><td>Brent February 2027 puts, $69-$90</td><td>$94,703,800</td><td>Split - not clear</td></tr>
+<tr><td>October 20, 2026</td><td>5</td><td>5</td><td>Brent December 2026 puts, $70-$101</td><td>$149,135,100</td><td>New position</td></tr>
+<tr><td>October 19, 2026</td><td>7</td><td>5</td><td>Brent January 2027 calls, $110-$130</td><td>$51,271,000</td><td>New position</td></tr>
+<tr><td>October 16, 2026</td><td>6</td><td>5</td><td>Brent January 2027 puts, $60-$83</td><td>$22,720,800</td><td>Split - not clear</td></tr>
+<tr><td>October 15, 2026</td><td>5</td><td>5</td><td>Brent February 2027 puts, $65-$75</td><td>$30,625,300</td><td>Position closed or moved</td></tr>
+</tbody></table></div></details>
+<p>Weekly recaps sit in the flow data beside the boards. They lead with the biggest trades, the counted tally, and follows. No trade cards carry no grade.</p>
 </section>
   <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../chartbook.html">Chartbook</a><a href="../../options/index.html">The Wing (options)</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
 </div>

@@ -1,7 +1,7 @@
 {
  "page": "/inner/vol/",
  "title": "Vol structures",
- "dek": "Inner vol book: five standing Brent options structures (fade the wing, covered call, own the tail, call spread, risk reversal) with premiums, Greeks in plain labels, and cumulative P&L.",
+ "dek": "Inner vol book: five standing Brent options trades. For each one: what happens if Brent moves $1, what time passing does, what fear does, and the most it can lose.",
  "built_at": "2026-10-25",
  "generator": "heavyreading-manifest/1",
  "claims": [
@@ -12,7 +12,7 @@
    "source_url": ""
   },
   {
-   "text": "Package Greeks at the same marks, per 1,000-barrel lot: covered call exposure 746 barrels, tail call fear sensitivity $97 per vol point, risk reversal exposure 506 barrels with fear sensitivity $1 per vol point.",
+   "text": "What a $1 Brent rise does at the same marks, per 1,000-barrel lot: covered call gains about $746, tail call gains about $206, risk reversal gains about $506. If fear jumps one point, the tail call gains about $97.",
    "vintage": "ICE settlements 2026-10-23",
    "source": "Vol structures tracker (structure_marks.csv)",
    "source_url": ""
