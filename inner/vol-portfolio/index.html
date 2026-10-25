@@ -670,22 +670,32 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <p>We price a grid of bad days through today's option prices. The worst one is <strong>fear falls 10 points: we lose $7,918</strong>. That number runs the book.</p>
 <p>A second yardstick assumes normal, small moves. It says $3,840 for one day. This market gaps. A normal-day yardstick cannot see a gap, so we size off the shock grid, not the yardstick. <span class="dim">(Technical name: Greeks-VaR, 1-day, 99%.)</span></p>
 <p>Drawdown so far: $0. The book's stop line is $1,500,000, inside a $2,500,000 budget. The cut rules are set now, not in the draw: at half a play's cap, new size halves. At the cap, the play goes flat and pauses. Every play is inside its cap today.</p>
-<p>The two open plays hedge each other. On their own, their worst priced days add to $129,283. Together, the book's worst priced day is $7,918. We only claim that because the shock prices say so. We do not trust a correlation guess.</p>
+<p><strong>Gross, offsets, net.</strong> Added up on their own, the plays' worst priced days come to $129,283. The book's worst priced day is $7,918. The $121,365 between them is not diversification. It is cancellation: the collar loses on the days the length wins, and wins on the days the length loses. One position on one length, counted as one position, below.</p>
+<p><strong>Cancellation check:</strong> not enough days yet (n=1). As daily marks build up, this page compares each pair of plays. If two plays' daily money moves against each other at -0.5 or stronger, it prints: "These two are mostly undoing each other. Check the pair is earning its keep." Weakly related is what we want. Opposite is just undoing our own trades.</p>
+<h3>One position: the length, its overwrite, and its insurance</h3>
+<p>The book carries 25 lots of length. The overwrite runs on 5 of them. The collar insures all 25. They are one position, so here it is as one position.</p>
+<p><strong>Rent in:</strong> the overwrite makes about $525 a day from time passing, and collected $15,400 this round. <strong>Rent out:</strong> the collar costs about $941 a day in time decay, and cost $53,000 this round.</p>
+<p><strong>Net carry:</strong> the position loses about $416 a day, about $8,729 a month, before price moves. Net premium this round: $-37,600.</p>
+<p><strong>If Brent rises $1:</strong> the position loses about $40. Its worst day on the shock grid is $7,918 (fear falls 10 points). Dressed this way the position leans modestly bearish: the insurance pays as price falls toward the lower strike, the most it can cost is the premium, and the length keeps its upside.</p>
+<p><strong>Insurance rent rule:</strong> the collar may cost at most what the overwrite collected in the same round. This round the collar cost $53,000 against $15,400 in: 344% of rent in, over the budget by $37,600. The reason prints, not smooths: the collar covers all 25 lots of length; the overwrite runs on 5.</p>
 <p><strong>Day one: 2026-10-23.</strong> One day of marks. Every number here answers one question: what happens if the bad day comes tomorrow? None of it proves a play works.</p>
 </section>
 <section id="league">
 <h2>The plays, one by one</h2>
 <p class="vintage"><em>Data dates: paper book and shock prices, 2026-10-23.</em></p>
 <p>Most we can lose means the book's own worst-case number for that play, printed with the trade. It is the number size answers to.</p>
+<p>Each earner card names what the play earns from (its driver). No two earners share a driver. One card is not an earner: P3 is the length's insurance. It is judged on its rent, below the earners, never ranked with them.</p>
 <article class="wing-card">
 <h3>P1 Overwrite</h3>
+<p><strong>What it earns from:</strong> vol premium (rich upside calls sold against the length).</p>
 <p><strong>On now:</strong> S5, +1 FUT 2027-01; -1 C130, 5 lots.</p>
+<p><strong>Use when:</strong> we hold length we would keep anyway and are fine owning it lower. This is a neutral-to-bullish structure. It is not a bearish trade and not the default grinder. The play is conditional, not always-on: no length we want, no overwrite. This position opened October 23, 2026 under the old always-on rule; the record stands as it was.</p>
 <p><strong>If Brent rises $1:</strong> this play gains about $3,730. <span class="dim">(delta)</span></p>
 <p><strong>Time passing:</strong> this play makes about $525 a day. <span class="dim">(theta)</span></p>
 <p><strong>If fear jumps one point:</strong> this play loses about $545. <span class="dim">(vega)</span></p>
-<p><strong>Money in:</strong> $15,400 collected for this round.</p>
-<p><strong>What it does for the book:</strong> take it out and the book's worst priced day gets $35,017 worse. It hedges the other play.</p>
-<p><strong>Why we like it.</strong> It sells rich upside calls against length we own. It is the grind engine.</p>
+<p><strong>Rent in:</strong> $15,400 collected for this round.</p>
+<p><strong>What it does for the book:</strong> take it out and the book's worst priced day gets $35,017 worse. Part of that is this play cancelling against the position it sits on. The offset is counted once, at the top of this page, as cancellation.</p>
+<p><strong>Why we like it.</strong> It sells rich upside calls against length we own and would keep anyway. The premium is income on length we already want to hold.</p>
 <p><strong>What can hurt us.</strong> Brent rips through the sold call. Gains on the length stop at the strike.</p>
 <p><strong>Most we can lose.</strong> $52,747. The length covers the futures side; this is the option side's shock loss.</p>
 <p><strong>What would make us change our mind.</strong> If upside insurance gets cheap, the money no longer pays for capping the length.</p>
@@ -693,6 +703,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </article>
 <article class="wing-card">
 <h3>P2 Fade the fear</h3>
+<p><strong>What it earns from:</strong> tail convexity (far-wing fear premium).</p>
 <p><strong>Not on.</strong> Paused. The book is in a supply scare. We do not sell insurance into it.</p>
 <p><strong>Why we like it.</strong> It sells spike insurance only when that insurance is far richer than usual and the physical record does not confirm missing barrels.</p>
 <p><strong>What can hurt us.</strong> A real supply break. That is why the trade is capped as a spread, and paused in a live scare.</p>
@@ -701,12 +712,13 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </article>
 <article class="wing-card">
 <h3>P3 Collar the length</h3>
+<p><strong>Role:</strong> insurance on the length. Not a return stream. It earns nothing on purpose: it is a cost we pay so the length can fall without hurting as much.</p>
 <p><strong>On now:</strong> COLLAR-PS, LONG 1x P 101 @ 3.17 (IV 56.5); SHORT 1x P 90 @ 1.05 (IV 59.7), 25 lots.</p>
 <p><strong>If Brent rises $1:</strong> this play loses about $3,770. <span class="dim">(delta)</span></p>
 <p><strong>Time passing:</strong> this play loses about $941 a day. <span class="dim">(theta)</span></p>
 <p><strong>If fear jumps one point:</strong> this play gains about $1,214. <span class="dim">(vega)</span></p>
-<p><strong>Money in:</strong> $53,000 paid for protection. It is a cost, not income.</p>
-<p><strong>What it does for the book:</strong> take it out and the book's worst priced day gets $78,430 worse. It hedges the other play.</p>
+<p><strong>Rent out:</strong> $53,000 paid this round for the length's insurance. It is a cost, not income. The rent rule and the budget check are in the one-position line at the top of this page.</p>
+<p><strong>What it does for the book:</strong> it is the length's insurance. Take it out and the length stands bare: on the shock grid the worst priced day gets $78,430 worse. That is the rent doing its job, not an edge.</p>
 <p><strong>Why we like it.</strong> It protects the length. It costs money on purpose. The put spread pays if Brent falls.</p>
 <p><strong>What can hurt us.</strong> Brent rises. The put spread bleeds and time costs money every day.</p>
 <p><strong>Most we can lose.</strong> $53,000. That is the full amount paid for the spread.</p>
@@ -715,6 +727,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </article>
 <article class="wing-card">
 <h3>P4 Roll harvest</h3>
+<p><strong>What it earns from:</strong> curve shape (calendar roll yield).</p>
 <p><strong>Not on.</strong> Flat. The roll paid about 4.49% for the month. We have no normal level to compare it with yet.</p>
 <p><strong>Why we like it.</strong> It takes the calendar roll when the roll pays more than it normally does.</p>
 <p><strong>What can hurt us.</strong> The roll snaps back before expiry and the extra pay vanishes.</p>
@@ -723,12 +736,34 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </article>
 <article class="wing-card">
 <h3>P5 Brent-WTI band</h3>
+<p><strong>What it earns from:</strong> cross-market spread (Brent-WTI band).</p>
 <p><strong>Not on.</strong> Flat. The Brent-WTI gap printed $13.48. We need 60 days of history before we can call that wide.</p>
 <p><strong>Why we like it.</strong> It trades the Brent-WTI price gap only when the gap sits outside its normal band.</p>
 <p><strong>What can hurt us.</strong> The gap keeps widening for a real reason: one market is short barrels and the other is not.</p>
 <p><strong>Most we can lose.</strong> $0. No position is on.</p>
 <p><strong>What would make us change our mind.</strong> If the normal band itself moves, stop and measure the band again before trading it.</p>
 </article>
+</section>
+<section id="bogey">
+<h2>The bogey bridge: what grind carries of the $500,000 a month</h2>
+<p>The book's target is $500,000 a month of base money. This panel prices that target against today's marks: for each grinder row, the rent one lot collects, the lots the risk budget allows, and the gross rent a month would carry if the round repeated at these prices. Marks: 2026-10-23.</p>
+<table><tr><th>Row</th><th>Rent collected, per lot</th><th>Worst shock day, per lot</th><th>Lots the budget allows</th><th>Gross rent a month</th></tr>
+<tr><td>S3 fade the wing (the grinder)</td><td>$320</td><td>$684 (brent up $20 and fear up 15 points)</td><td>93</td><td>$29,760</td></tr>
+<tr><td>S5 covered call (conditional overwrite)</td><td>$3,080</td><td>$10,549 (brent up $20 and fear up 15 points)</td><td>11</td><td>$33,880</td></tr>
+<tr><td>S6 lopsided condor (candidate)</td><td>$3,560</td><td>$2,679 (brent gaps down $20)</td><td>21</td><td>$74,760</td></tr>
+<tr><td>S8 capped straddle (candidate)</td><td>$10,560</td><td>$2,558 (brent gaps down $20)</td><td>42</td><td>$443,520</td></tr>
+<tr><td><strong>Grinder rows together</strong></td><td></td><td></td><td></td><td><strong>$581,920</strong></td></tr>
+</table>
+<p><strong>Sizing basis, every row:</strong> lots are set so the worst day on the book's shock grid costs the active budget, 0.5R = $125,000, and then cut again so the absolute worst case stays inside the 1R play cap, $250,000. The overwrite sizes on its option leg only and caps at the paper length. Each row is sized as if it alone carried the budget; the rows together still have to fit inside the book's 4R complex cap.</p>
+<p class="dim">S3 fade the wing (the grinder): sized on the 1R worst-case cap, which binds before the 0.5R budget. Most it can lose: $2,680 per lot.</p>
+<p class="dim">S5 covered call (conditional overwrite): sized on option leg only, in the episode shock (Brent +$20, fear +15); the futures side is the length itself; capped at the 25-lot paper length. Most it can lose: $108,620 per lot.</p>
+<p class="dim">S6 lopsided condor (candidate): sized on the 1R worst-case cap, which binds before the 0.5R budget. Most it can lose: $11,440 per lot.</p>
+<p class="dim">S8 capped straddle (candidate): sized on the 1R worst-case cap, which binds before the 0.5R budget. Most it can lose: $5,940 per lot.</p>
+<p><strong>Not counted:</strong> the capped risk reversal (S7, candidate) collects no rent: it pays $960 a lot to own the reversal with its crash capped at $11,960 a lot. Its pay is a move, not a grind, so it does not carry the bogey. P4 (roll harvest) and P5 (Brent-WTI band) carry no option rent line either: both run futures-expressed today and earn from price, not premium.</p>
+<p>The lopsided cut of the straddle (S8L) collects $10,410 a lot against the even cut's $10,560, with a wider worst case of $9,340 a lot: the lean costs a little rent and widens the downside loss. It is an alternative cut of the same row. The bridge counts the straddle once.</p>
+<h3>The verdict, at these marks</h3>
+<p>At today's marks and our risk caps, the grinder rows carry about $581,920 of the $500,000 bogey in gross rent, 116 percent of it, more than the whole target. Read that the way this book reads everything: today is a supply-scare day, and rent is priced off fear. The straddle row alone is $443,520 of it. At normal fear these same rows pay a fraction of this, and what they carry in a real grind month is the number that decides the book's size. That number is not measured yet: the record is 1 marked day long. So the bogey does not rest on the grind rows alone. The rest has to come from episode months, from the size ladder ratcheting as plays earn bigger budgets, and from more uncorrelated families joining the book. Grind at normal fear, at these caps, is a smaller book than scare prices flatter it to be.</p>
+<p><strong>Honesty line:</strong> every rent figure here is GROSS. It assumes the round runs its course and price stays inside the trade. A condor or straddle that hits its cap keeps the capped loss instead. Expected rent is gross rent times the share of months that stay inside, minus the losses in the months that do not. Our own record for that share is 1 marked day; the share is unmeasured, so no expected-rent number prints. Anyone quoting one off this page is inventing it.</p>
 </section>
 <section id="greeks">
 <h2>The book in four numbers</h2>
@@ -788,9 +823,9 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <section id="replay">
 <h2>Rule check: today's rules over 7 days of prices</h2>
 <p class="vintage"><em>Data dates: ICE option prices 2026-10-15 to 2026-10-23; supply-scare flag from the barrels ledger.</em></p>
-<p>We ran today's rules back over the 7 days of prices we have, 2026-10-15 to 2026-10-23. It is a machine check, not a track record. Seven days proves the machine runs. It does not prove the rules make money. Sizes: P1 at 5 lots, P3 at 25 lots, P4 at 1 lot.</p>
+<p>We ran today's rules back over the 7 days of prices we have, 2026-10-15 to 2026-10-23. It is a machine check, not a track record. Seven days proves the machine runs. It does not prove the rules make money. Sizes: P1 at 5 lots, the collar (P3) at 25 lots, P4 at 1 lot.</p>
 <svg viewbox="0 0 720 190" width="100%" role="img"><line x1="36" y1="154" x2="684" y2="154" stroke="#999" /><polyline points="36,154 129,154 221,108 314,121 406,131 499,130 591,78 684,36" fill="none" stroke="#205090" stroke-width="2" /><g fill="#205090"><circle cx="36" cy="154" r="3" /><circle cx="129" cy="154" r="3" /><circle cx="221" cy="108" r="3" /><circle cx="314" cy="121" r="3" /><circle cx="406" cy="131" r="3" /><circle cx="499" cy="130" r="3" /><circle cx="591" cy="78" r="3" /><circle cx="684" cy="36" r="3" /></g><text x="36" y="182" font-size="11">start $0</text><text x="684" y="182" font-size="11" text-anchor="end">2026-10-23 $51,780</text><text x="36" y="14" font-size="11">peak $51,780</text></svg>
-<p>Paper result over those days: $51,780. Worst fall along the way: $9,950. At the end: P1 $39,200, P3 $11,250, P4 $1,330. P3 went on the first day: traders were paying 5.31 points more for spike protection than crash protection. The trigger is 5 points. It stayed over the trigger all week.</p>
+<p>Paper result over those days: $51,780. Worst fall along the way: $9,950. At the end: P1 $39,200, the collar $11,250, P4 $1,330. The collar went on the first day: traders were paying 5.31 points more for spike protection than crash protection. The trigger is 5 points. It stayed over the trigger all week.</p>
 <p>P2 never ran. Far-out spike insurance stayed rich, 7.3 to 8.5 points over the middle. But it never jumped far above its own short history. And the supply-scare pause was on all 7 days anyway. So this week tested scare posture, not quiet-market grind.</p>
 <p>P5 cannot run yet. It needs 60 days of Brent-WTI gap history. We have 7. Our option prices start October 15, 2026. Nothing before that is made up.</p>
 </section>
@@ -820,7 +855,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <tr><td>P3</td><td>$-28,578</td><td>$47,492</td><td>$-42,935</td><td>$109,750</td><td>$11,215</td><td>$-13,107</td><td>$-31,020</td><td>$70,842</td></tr>
 </table>
 </details>
-<p>What each play does to the worst day: take P1 out and the worst priced day gets $35,017 worse; take P3 out and the worst priced day gets $78,430 worse. Both open plays hedge the book today. We judge them on that, not just on money in.</p>
+<p>What each play does to the worst day: take P1 out and the worst priced day gets $35,017 worse (it cancels against the position it sits on; the offset is counted once, at the top of this page, as cancellation); P3 is insurance: take it out and the length stands bare, $78,430 worse on the worst day. That is the rent doing its job.</p>
 </section>
 <section id="rolls">
 <h2>Rolls: what happens next</h2>
