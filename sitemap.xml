@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://heavyreading.ca/about/index.html</loc></url>
   <url><loc>https://heavyreading.ca/apportionment/index.html</loc></url>
+  <url><loc>https://heavyreading.ca/apportionment/print.html</loc></url>
   <url><loc>https://heavyreading.ca/arb-demo.html</loc></url>
   <url><loc>https://heavyreading.ca/arb-watch/index.html</loc></url>
   <url><loc>https://heavyreading.ca/barrels/index.html</loc></url>
+  <url><loc>https://heavyreading.ca/barrels/print.html</loc></url>
   <url><loc>https://heavyreading.ca/chartbook.html</loc></url>
   <url><loc>https://heavyreading.ca/charts/apportionment.html</loc></url>
   <url><loc>https://heavyreading.ca/charts/index.html</loc></url>
   <url><loc>https://heavyreading.ca/charts/padd2-stocks.html</loc></url>
   <url><loc>https://heavyreading.ca/charts/positioning.html</loc></url>
+  <url><loc>https://heavyreading.ca/charts/print.html</loc></url>
   <url><loc>https://heavyreading.ca/charts/production.html</loc></url>
   <url><loc>https://heavyreading.ca/cogen-watch.html</loc></url>
   <url><loc>https://heavyreading.ca/commitments/index.html</loc></url>
@@ -96,6 +99,7 @@
   <url><loc>https://heavyreading.ca/growth/index.html</loc></url>
   <url><loc>https://heavyreading.ca/index.html</loc></url>
   <url><loc>https://heavyreading.ca/maintenance/index.html</loc></url>
+  <url><loc>https://heavyreading.ca/maintenance/print.html</loc></url>
   <url><loc>https://heavyreading.ca/maps/commitments-print.html</loc></url>
   <url><loc>https://heavyreading.ca/maps/commitments.html</loc></url>
   <url><loc>https://heavyreading.ca/maps/conventional_heavy-print.html</loc></url>
@@ -188,6 +192,7 @@
   <url><loc>https://heavyreading.ca/projects/syncrude.html</loc></url>
   <url><loc>https://heavyreading.ca/projects/xom_joliet.html</loc></url>
   <url><loc>https://heavyreading.ca/quotes/index.html</loc></url>
+  <url><loc>https://heavyreading.ca/quotes/print.html</loc></url>
   <url><loc>https://heavyreading.ca/reference/index.html</loc></url>
   <url><loc>https://heavyreading.ca/reports/egress-watch/egress-watch_2026-09-22.html</loc></url>
   <url><loc>https://heavyreading.ca/reports/guidance-digest/guidance-digest_2026-09-22.html</loc></url>
@@ -198,6 +203,7 @@
   <url><loc>https://heavyreading.ca/sources/index.html</loc></url>
   <url><loc>https://heavyreading.ca/tank-watch.html</loc></url>
   <url><loc>https://heavyreading.ca/tolls/index.html</loc></url>
+  <url><loc>https://heavyreading.ca/tolls/print.html</loc></url>
   <url><loc>https://heavyreading.ca/trade-calls/index.html</loc></url>
   <url><loc>https://heavyreading.ca/trade-calls/machine/brief/index.html</loc></url>
   <url><loc>https://heavyreading.ca/trade-calls/machine/calls/index.html</loc></url>
