@@ -1,7 +1,7 @@
 {
  "page": "/chartbook.html",
  "title": "Chartbook",
- "dek": "Heavy Reading's standing chartbook: fund positioning, U.S. inventories in seasonal standard deviations, prices and the WCS differential, crack spreads, crude options skew, Alberta storage, egress, apportionment, and a rotating bench for whatever has gone extreme.",
+ "dek": "Heavy Reading's standing chartbook: fund positioning, U.S. inventories in seasonal standard deviations, prices and the WCS differential, crack spreads, Alberta storage, egress, apportionment, and a rotating bench for whatever has gone extreme. The options charts live in The Wing.",
  "built_at": "2026-10-26",
  "generator": "heavyreading-manifest/1",
  "claims": [
@@ -87,24 +87,6 @@
    "text": "Managed money is net short 15,165 contracts in the ICE WCS 1A index future (TMW) as of October 20, 2026, in the 7th percentile of weekly readings since 2024, with speculative shorts at 23.6 percent of open interest.",
    "vintage": "CFTC Disaggregated Commitments of Traders, ICE WCS 1A index future. Data through October 20, 2026.",
    "source": "CFTC Disaggregated Commitments of Traders",
-   "source_url": ""
-  },
-  {
-   "text": "Brent options charge for a price spike, not a crash.",
-   "vintage": "ICE Futures Europe options end-of-day report (report 166), turned into fear prices by this site. Data through October 23, 2026. Series starts October 15, 2026.",
-   "source": "ICE Futures Europe options EOD (report 166)",
-   "source_url": ""
-  },
-  {
-   "text": "The fear gauges through October 23, 2026.",
-   "vintage": "ICE Futures Europe options end-of-day report (report 166), turned into fear prices by this site. Data through October 23, 2026. Series starts October 15, 2026.",
-   "source": "ICE Futures Europe options EOD (report 166)",
-   "source_url": ""
-  },
-  {
-   "text": "The options market charges for a price spike.",
-   "vintage": "ICE Futures Europe options end-of-day report (report 166), turned into fear prices by this site. Data through October 23, 2026. Series starts October 15, 2026.",
-   "source": "ICE options EOD (report 166); global barrels ledger",
    "source_url": ""
   },
   {
