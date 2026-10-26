@@ -666,6 +666,115 @@ tr.floorrow td { border-top:2px solid #a33327;
 
 <p class="booknav"><strong>The Book</strong> · <a href="../trade-ideas/">Trade ideas</a> · <a href="../trade-log/">Trade log</a> · <a href="../vol-portfolio/">Vol portfolio</a> · <a href="../vol/">Vol structures</a> · <a href="../flow/">The Block Board</a> · <a href="../../options/">The Wing (public)</a></p>
 <p>Two paper books have been running side by side: the diff trades (TMW, TMR, SYN) and the Wing options plays. This page is the one account for both: what the whole book is making, what its worst day costs, how its size climbs toward a pro book, and how much of every limit it is using. The family pages stay as the drill-downs; nothing on them is the book total.</p>
+<h2>Boss questions: the book's Greeks</h2>
+<p>The four numbers a boss asks for, on the booked positions (the Wing's two plays; the diffs are linear and carry delta only, tabled below). Marks: October 23, 2026. The strip refreshes nightly with the marks run (bin/book_greeks.py, chained from the stacker).</p>
+<div class="statgrid"><div class="stat"><div class="v">-41 bbl</div><div class="l">Book delta (Brent)</div><div class="d">flat for practical purposes: a $1 Brent move changes the book by about $41. The diffs run on their own spreads; their deltas are in the table below.</div></div><div class="stat"><div class="v">+125 bbl per $1</div><div class="l">Book gamma</div><div class="d">the bend: at Brent $10 lower the book's delta is -1,314 bbl; at $10 higher, +920 bbl.</div></div><div class="stat"><div class="v">-$416 a day</div><div class="l">Book theta</div><div class="d">pays $416 a day if nothing moves. This is the rent meter.</div></div><div class="stat"><div class="v">+$667 per vol point</div><div class="l">Book vega</div><div class="d">a 10-point fall in fear costs about $6,672.</div></div></div>
+<p>If the question is the length dressed (the 25-lot paper length wearing the overwrite and the collar): delta +19,959 bbl, gamma +125 bbl per $1, theta -$416 a day, vega +$667 per vol point. The difference from the booked book is the length itself.</p>
+<h3>The Wing book, stacked on the one Brent axis</h3>
+<svg viewbox="0 0 680 300" width="100%" role="img" aria-label="The Wing book, as booked (P1 + P3)">
+<line x1="68" y1="164" x2="664" y2="164" stroke="#999" stroke-width="1" />
+<text x="68" y="286" font-size="11" text-anchor="middle" fill="#555">$60</text>
+<text x="187" y="286" font-size="11" text-anchor="middle" fill="#555">$80</text>
+<text x="306" y="286" font-size="11" text-anchor="middle" fill="#555">$100</text>
+<text x="426" y="286" font-size="11" text-anchor="middle" fill="#555">$120</text>
+<text x="545" y="286" font-size="11" text-anchor="middle" fill="#555">$140</text>
+<text x="664" y="286" font-size="11" text-anchor="middle" fill="#555">$160</text>
+<text x="62" y="257" font-size="11" text-anchor="end" fill="#555">$-91k</text>
+<text x="62" y="168" font-size="11" text-anchor="end" fill="#555">$0</text>
+<text x="62" y="43" font-size="11" text-anchor="end" fill="#555">$129k</text>
+<polyline points="68,186 74,182 80,177 86,173 92,169 98,165 104,161 110,157 116,154 122,151 128,148 134,145 140,142 145,140 151,138 157,136 163,134 169,133 175,132 181,131 187,131 193,131 199,131 205,131 211,132 217,133 223,134 229,135 235,136 241,137 247,139 253,140 259,142 265,144 271,146 277,147 283,149 289,151 294,152 300,154 306,155 312,157 318,158 324,159 330,160 336,161 342,162 348,163 354,163 360,164 366,164 372,164 378,164 384,164 390,164 396,164 402,163 408,163 414,162 420,162 426,161 432,160 438,159 443,158 449,157 455,156 461,155 467,154 473,153 479,152 485,151 491,149 497,148 503,147 509,146 515,145 521,144 527,142 533,141 539,140 545,139 551,138 557,137 563,136 569,135 575,134 581,133 587,132 592,131 598,130 604,129 610,128 616,127 622,127 628,126 634,125 640,125 646,124 652,123 658,123 664,122" fill="none" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="5 4" />
+<polyline points="68,185 74,180 80,175 86,170 92,165 98,161 104,156 110,151 116,146 122,141 128,136 134,131 140,127 145,122 151,117 157,112 163,107 169,102 175,97 181,92 187,88 193,83 199,78 205,73 211,68 217,63 223,58 229,54 235,49 241,44 247,39 253,58 259,78 265,97 271,117 277,136 283,156 289,175 294,195 300,214 306,234 312,253 318,248 324,243 330,238 336,234 342,229 348,224 354,219 360,214 366,209 372,204 378,200 384,195 390,190 396,185 402,180 408,175 414,170 420,165 426,161 432,156 438,151 443,146 449,141 455,136 461,131 467,127 473,122 479,117 485,112 491,112 497,112 503,112 509,112 515,112 521,112 527,112 533,112 539,112 545,112 551,112 557,112 563,112 569,112 575,112 581,112 587,112 592,112 598,112 604,112 610,112 616,112 622,112 628,112 634,112 640,112 646,112 652,112 658,112 664,112" fill="none" stroke="#205090" stroke-width="2.2" />
+<line x1="376" y1="24" x2="376" y2="268" stroke="#a33327" stroke-width="1.2" stroke-dasharray="3 3" />
+<circle cx="376" cy="164" r="4" fill="#a33327" />
+<text x="382" y="34" font-size="11.5" fill="#a33327">Brent today $111.70</text>
+<text x="68" y="14" font-size="11.5" fill="#205090">at expiry</text>
+<text x="142" y="14" font-size="11.5" fill="#8a8a8a">worth today (dashed)</text>
+</svg><p>At expiry (November 26, 2026): worst on this chart -$91,100 (at Brent $101); best +$128,900 (at Brent $90); breakevens $64.22, $96.44, $119.22. The payoff stops moving (every leg capped or flat) on the upside: flat at +$53,900 for Brent at or above $130. <strong>This chart is the Greeks drawn: the slope is delta, the bend is gamma.</strong></p>
+<h3>The full book on the Brent axis</h3>
+<svg viewbox="0 0 680 300" width="100%" role="img" aria-label="The full book">
+<line x1="68" y1="253" x2="664" y2="253" stroke="#999" stroke-width="1" />
+<text x="68" y="286" font-size="11" text-anchor="middle" fill="#555">$60</text>
+<text x="187" y="286" font-size="11" text-anchor="middle" fill="#555">$80</text>
+<text x="306" y="286" font-size="11" text-anchor="middle" fill="#555">$100</text>
+<text x="426" y="286" font-size="11" text-anchor="middle" fill="#555">$120</text>
+<text x="545" y="286" font-size="11" text-anchor="middle" fill="#555">$140</text>
+<text x="664" y="286" font-size="11" text-anchor="middle" fill="#555">$160</text>
+<text x="62" y="257" font-size="11" text-anchor="end" fill="#555">$0</text>
+<text x="62" y="257" font-size="11" text-anchor="end" fill="#555">$0</text>
+<text x="62" y="43" font-size="11" text-anchor="end" fill="#555">$390k</text>
+<polyline points="68,122 74,119 80,117 86,115 92,112 98,110 104,108 110,106 116,104 122,102 128,100 134,99 140,97 145,96 151,95 157,94 163,93 169,92 175,91 181,91 187,91 193,91 199,91 205,91 211,91 217,92 223,92 229,93 235,94 241,94 247,95 253,96 259,97 265,98 271,99 277,100 283,101 289,102 294,103 300,104 306,105 312,105 318,106 324,107 330,107 336,108 342,108 348,109 354,109 360,109 366,110 372,110 378,110 384,110 390,110 396,109 402,109 408,109 414,109 420,108 426,108 432,107 438,107 443,106 449,106 455,105 461,105 467,104 473,103 479,103 485,102 491,101 497,101 503,100 509,99 515,99 521,98 527,97 533,97 539,96 545,95 551,95 557,94 563,93 569,93 575,92 581,92 587,91 592,91 598,90 604,90 610,89 616,89 622,88 628,88 634,88 640,87 646,87 652,87 658,86 664,86" fill="none" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="5 4" />
+<polyline points="68,121 74,118 80,116 86,113 92,110 98,108 104,105 110,102 116,99 122,97 128,94 134,91 140,88 145,86 151,83 157,80 163,77 169,75 175,72 181,69 187,66 193,64 199,61 205,58 211,55 217,53 223,50 229,47 235,44 241,42 247,39 253,50 259,61 265,72 271,83 277,94 283,105 289,116 294,127 300,138 306,149 312,160 318,157 324,154 330,151 336,149 342,146 348,143 354,140 360,138 366,135 372,132 378,129 384,127 390,124 396,121 402,118 408,116 414,113 420,110 426,108 432,105 438,102 443,99 449,97 455,94 461,91 467,88 473,86 479,83 485,80 491,80 497,80 503,80 509,80 515,80 521,80 527,80 533,80 539,80 545,80 551,80 557,80 563,80 569,80 575,80 581,80 587,80 592,80 598,80 604,80 610,80 616,80 622,80 628,80 634,80 640,80 646,80 652,80 658,80 664,80" fill="none" stroke="#205090" stroke-width="2.2" />
+<line x1="376" y1="24" x2="376" y2="268" stroke="#a33327" stroke-width="1.2" stroke-dasharray="3 3" />
+<circle cx="376" cy="110" r="4" fill="#a33327" />
+<text x="382" y="34" font-size="11.5" fill="#a33327">Brent today $111.70</text>
+<text x="68" y="14" font-size="11.5" fill="#205090">at expiry</text>
+<text x="142" y="14" font-size="11.5" fill="#8a8a8a">worth today (dashed)</text>
+</svg>
+<p>The same Brent curves with the diffs added the only honest way they can be added to a Brent picture: the diffs are held at their 2026-10-23 marks (+$261,500 across the active diff trades) and added flat: they move with their own spreads, not with Brent outright, so in this picture they do not bend with the Brent axis (+$261,500). At expiry the combined picture's worst point on this chart is +$170,400 (at Brent $101) and its best is +$390,400 (at Brent $90): the diffs' banked marks doing that lifting, which is exactly why the caption matters.</p>
+<h3>The diffs, each on its own axis</h3>
+<p>A diff does not live on the Brent axis. Each trade below is drawn against its own contract's price, with the entry, target and stop from its card. The lines are straight because a spread is linear: no bend, no cap, the stop is a decision, not a shape.</p>
+<p><strong>T1 TMW Dec-26</strong> (short, active, 75 lots)</p>
+<svg viewbox="0 0 680 200" width="100%" role="img" aria-label="T1 profit chart">
+<line x1="68" y1="93" x2="664" y2="93" stroke="#999" stroke-width="1" />
+<text x="68" y="186" font-size="11" text-anchor="middle" fill="#555">$-32.50</text>
+<text x="664" y="186" font-size="11" text-anchor="middle" fill="#555">$-18.00</text>
+<text x="62" y="162" font-size="11" text-anchor="end" fill="#555">$-570k</text>
+<text x="62" y="38" font-size="11" text-anchor="end" fill="#555">$518k</text>
+<polyline points="68,34 78,36 89,38 99,40 109,42 119,45 130,47 140,49 150,51 160,53 171,55 181,57 191,60 202,62 212,64 222,66 232,68 243,70 253,72 263,75 274,77 284,79 294,81 304,83 315,85 325,87 335,90 345,92 356,94 366,96 376,98 387,100 397,102 407,105 417,107 428,109 438,111 448,113 458,115 469,117 479,120 489,122 500,124 510,126 520,128 530,130 541,132 551,135 561,137 572,139 582,141 592,143 602,145 613,147 623,150 633,152 643,154 654,156 664,158" fill="none" stroke="#205090" stroke-width="2.2" />
+<line x1="352" y1="24" x2="352" y2="168" stroke="#666" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="356" y="164" font-size="11" fill="#666">in $-25.60</text>
+<line x1="232" y1="24" x2="232" y2="168" stroke="#2e6b30" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="236" y="164" font-size="11" fill="#2e6b30">target $-28.50</text>
+<line x1="506" y1="24" x2="506" y2="168" stroke="#a33327" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="510" y="164" font-size="11" fill="#a33327">stop $-21.85</text>
+<circle cx="232" cy="68" r="4.5" fill="#205090" />
+<text x="238" y="60" font-size="11.5" fill="#205090">mark $-28.50: $217k</text>
+</svg>
+<p class="basis">marked on its own tenor.</p>
+<p><strong>T2 TMR Dec-26</strong> (long, active, 80 lots)</p>
+<svg viewbox="0 0 680 200" width="100%" role="img" aria-label="T2 profit chart">
+<line x1="68" y1="96" x2="664" y2="96" stroke="#999" stroke-width="1" />
+<text x="68" y="186" font-size="11" text-anchor="middle" fill="#555">$-9.00</text>
+<text x="664" y="186" font-size="11" text-anchor="middle" fill="#555">$4.00</text>
+<text x="62" y="162" font-size="11" text-anchor="end" fill="#555">$-520k</text>
+<text x="62" y="38" font-size="11" text-anchor="end" fill="#555">$520k</text>
+<polyline points="68,158 79,156 91,153 102,151 114,149 125,146 137,144 148,141 160,139 171,137 183,134 194,132 206,129 217,127 228,125 240,122 251,120 263,117 274,115 286,113 297,110 309,108 320,106 332,103 343,101 355,98 366,96 377,94 389,91 400,89 412,86 423,84 435,82 446,79 458,77 469,75 481,72 492,70 504,67 515,65 526,63 538,60 549,58 561,55 572,53 584,51 595,48 607,46 618,43 630,41 641,39 653,36 664,34" fill="none" stroke="#205090" stroke-width="2.2" />
+<line x1="366" y1="24" x2="366" y2="168" stroke="#666" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="370" y="164" font-size="11" fill="#666">in $-2.50</text>
+<line x1="481" y1="24" x2="481" y2="168" stroke="#2e6b30" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="485" y="164" font-size="11" fill="#2e6b30">target $0.00</text>
+<line x1="251" y1="24" x2="251" y2="168" stroke="#a33327" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="255" y="164" font-size="11" fill="#a33327">stop $-5.00</text>
+<circle cx="391" cy="91" r="4.5" fill="#205090" />
+<text x="397" y="83" font-size="11.5" fill="#205090">mark $-1.95: $44k</text>
+</svg>
+<p class="basis">the book marks the strip on its December reference; the line runs at the booked starter size.</p>
+<p><strong>T3 TMS Dec-26</strong> (long, sequenced, 35 lots, sequenced: booked, not yet riding)</p>
+<svg viewbox="0 0 680 200" width="100%" role="img" aria-label="T3 profit chart">
+<line x1="68" y1="92" x2="664" y2="92" stroke="#999" stroke-width="1" />
+<text x="68" y="186" font-size="11" text-anchor="middle" fill="#555">$-2.10</text>
+<text x="664" y="186" font-size="11" text-anchor="middle" fill="#555">$10.65</text>
+<text x="62" y="162" font-size="11" text-anchor="end" fill="#555">$-236k</text>
+<text x="62" y="38" font-size="11" text-anchor="end" fill="#555">$210k</text>
+<polyline points="68,158 80,156 91,153 103,151 115,148 126,146 138,143 150,141 161,139 173,136 185,134 197,131 208,129 220,126 232,124 243,122 255,119 267,117 278,114 290,112 302,109 313,107 325,105 337,102 348,100 360,97 372,95 384,92 395,90 407,87 419,85 430,83 442,80 454,78 465,75 477,73 489,70 500,68 512,66 524,63 535,61 547,58 559,56 571,53 582,51 594,49 606,46 617,44 629,41 641,39 652,36 664,34" fill="none" stroke="#205090" stroke-width="2.2" />
+<line x1="384" y1="24" x2="384" y2="168" stroke="#666" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="388" y="164" font-size="11" fill="#666">in $4.65</text>
+<line x1="477" y1="24" x2="477" y2="168" stroke="#2e6b30" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="481" y="164" font-size="11" fill="#2e6b30">target $6.65</text>
+<line x1="255" y1="24" x2="255" y2="168" stroke="#a33327" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="259" y="164" font-size="11" fill="#a33327">stop $1.90</text>
+<circle cx="433" cy="82" r="4.5" fill="#205090" />
+<text x="439" y="74" font-size="11.5" fill="#205090">mark $5.70: $37k</text>
+</svg>
+<p class="basis">marked on its own tenor.</p>
+<h2>The Greeks, every position</h2>
+<p>Delta in barrels (and, the same number, dollars of P&amp;L per $1 move). Gamma is how much the delta moves per $1: the delta columns at Brent $10 either side say it without the word. Theta is dollars per day; vega is dollars per point of implied vol. Rho is not printed: at these tenors it does not move the book. The diffs are linear, so their gamma, theta and vega carry no number: the delta is the same at every price and time alone does not move them. (The cells read "linear: none" for the same reason.)</p>
+<table class="booktab"><tr><th>Position</th><th>Delta (bbl)</th><th>Gamma (bbl per $1)</th><th>Delta at Brent −$10</th><th>Delta at Brent +$10</th><th>Theta ($/day)</th><th>Vega ($/pt)</th></tr><tr><td><strong>P1 S5: the overwrite</strong><br><span class="basis">return stream: vol premium</span></td><td>+3,729</td><td>-71.99</td><td>+4,356</td><td>+2,958</td><td>+524.66</td><td>-546.36</td></tr><tr><td><strong>P3 COLLAR-PS: the collar (INSURANCE)</strong><br><span class="basis">insurance on the length: a cost line, governed by its rent budget, never ranked as a return stream</span></td><td>-3,770</td><td>+196.53</td><td>-5,670</td><td>-2,038</td><td>-940.68</td><td>+1,213.57</td></tr><tr><td><strong>The Wing book, as booked (P1 + P3)</strong><br><span class="basis">the open positions as the corpus carries them; length beyond the overwrite's own futures leg is inventory, excluded</span></td><td>-41</td><td>+124.54</td><td>-1,314</td><td>+920</td><td>-416.02</td><td>+667.21</td></tr><tr><td><strong>The length dressed: 25 lots wearing the overwrite and the collar</strong><br><span class="basis">the stacker's combined package: the paper length counted once, wearing the overwrite and the collar</span></td><td>+19,959</td><td>+124.54</td><td>+18,686</td><td>+20,920</td><td>-416.02</td><td>+667.21</td></tr><tr><td><strong>T1 TMW Dec-26</strong><br><span class="basis">the whole booked size sits in this tenor</span></td><td>-75,000</td><td>linear: none</td><td>-75,000</td><td>-75,000</td><td>linear: none</td><td>linear: none</td></tr><tr><td><strong>T2 TMR Dec-26</strong><br><span class="basis">starter pace: 25% of the full-pace strip (40 of 160 lots in Dec)</span></td><td>+20,000</td><td>linear: none</td><td>+20,000</td><td>+20,000</td><td>linear: none</td><td>linear: none</td></tr><tr><td><strong>T2 TMR Jan-27</strong><br><span class="basis">starter pace: 38% of the full-pace strip (60 of 160 lots in Jan)</span></td><td>+30,000</td><td>linear: none</td><td>+30,000</td><td>+30,000</td><td>linear: none</td><td>linear: none</td></tr><tr><td><strong>T2 TMR Feb-27</strong><br><span class="basis">starter pace: 38% of the full-pace strip (60 of 160 lots in Feb)</span></td><td>+30,000</td><td>linear: none</td><td>+30,000</td><td>+30,000</td><td>linear: none</td><td>linear: none</td></tr><tr><td><strong>T3 TMS Dec-26 (sequenced)</strong><br><span class="basis">the whole booked size sits in this tenor</span></td><td>+35,000</td><td>linear: none</td><td>+35,000</td><td>+35,000</td><td>linear: none</td><td>linear: none</td></tr></table>
+<p><strong>The Wing book, as booked (P1 + P3).</strong> Delta -41 bbl: flat for practical purposes. A $1 move in Brent changes the booked Wing book by about $41 either way; the position is not a price bet. Gamma +125 bbl per $1 is the bend: at Brent $10 lower the booked Wing book's delta is -1,314 bbl, at $10 higher it is +920 bbl: delta drops as price falls, so the position gets shorter into a falling market. The bend comes mostly from the collar's long $101 put. Theta -$416 a day: if nothing moves, the booked Wing book pays $416 a day standing still. This is the rent meter, running out. Split: the overwrite collects +$525 a day, the insurance charges -$941 a day. Vega +$667 per vol point: a 10-point fall in fear costs the booked Wing book about $6,672; a 10-point rise pays it. That is the loss shape the Monte Carlo found in this book: the worst worlds were quiet ones, fear deflating at flat prices, not crashes.</p>
+<p><strong>The length dressed: 25 lots wearing the overwrite and the collar.</strong> Delta +19,959 bbl: a $1 rise in Brent adds about $19,959; a $1 fall does the reverse. Gamma +125 bbl per $1 is the bend: at Brent $10 lower the dressed length's delta is +18,686 bbl, at $10 higher it is +20,920 bbl: delta drops as price falls, so the position gets shorter into a falling market. The bend comes mostly from the collar's long $101 put. Theta -$416 a day: if nothing moves, the dressed length pays $416 a day standing still. This is the rent meter, running out. Split: the overwrite collects +$525 a day, the insurance charges -$941 a day. Vega +$667 per vol point: a 10-point fall in fear costs the dressed length about $6,672; a 10-point rise pays it. That is the loss shape the Monte Carlo found in this book: the worst worlds were quiet ones, fear deflating at flat prices, not crashes.</p>
+<p><strong>T1.</strong> Delta -75,000 bbl in TMW Dec-26: every $1 this spread rises costs $75,000; every $1 it falls pays $75,000. These barrels belong to TMW's own spread, not to Brent outright.</p>
+<p><strong>T2.</strong> Delta +20,000 bbl in TMR Dec-26: every $1 this spread rises pays $20,000; every $1 it falls costs $20,000. These barrels belong to TMR's own spread, not to Brent outright.</p>
+<p><strong>T3.</strong> Delta +35,000 bbl in TMS Dec-26: every $1 this spread rises pays $35,000; every $1 it falls costs $35,000. These barrels belong to TMS's own spread, not to Brent outright.</p>
 <div class="statgrid"><div class="stat"><div class="v">+$261,500</div><div class="l">Book P&amp;L so far</div><div class="d">Diffs, at the October 23, 2026 marks. The Wing opened October 23 (entry day, no marks yet). Episodes and grind print separately in their own books and are never netted here.</div></div><div class="stat"><div class="v">$610,283</div><div class="l">Worst priced day, whole book</div><div class="d">Every running position's own worst day, added with no offsets between families. Counting the sequenced T3 as well: $706,283.</div></div><div class="stat"><div class="v">$255,677 band, 5.9x under the governor</div><div class="l">Noise vs the governor</div><div class="d">The book's 10-day swing band, worst bracket (both families moving together). The standing rule: the governor stays at least 4x the band.</div></div><div class="stat"><div class="v">$0 of $2,500,000 used</div><div class="l">Drawdown vs budget</div><div class="d">The book is up on its marks; nothing drawn. The governor (all new risk halves) sits at minus $1,500,000.</div></div><div class="stat"><div class="v">344%</div><div class="l">Most-used limit</div><div class="d">P3 insurance rent vs its rent budget (rent out no more than the overwrite collected, per cycle). The only limit over its line on the page; the full hierarchy is below.</div></div><div class="stat"><div class="v">about 1/5 to 1/10</div><div class="l">Book VaR (1-in-20 day) vs pro scale</div><div class="d">1-day VaR95 $105,589-$148,569 against the $0.8-1.1M a $10-15M normal year carries. That gap is the size ladder, in VaR units.</div></div></div>
 <h2>Every position, one table</h2>
 <p>How the shares are dealt out: each trade is charged its own worst day, the diffs at the adverse move booked when the trade was put on, the Wing at its worst shock-grid day, and the running shares are scaled to add up to the book total. No offset is taken between the two families: a day that hurts both at once is the case the total is built for. Inside the Wing the two plays cancel hard (their net worst day is $7,918, not $129,283 gross); the table charges them gross, because cancellation is not diversification.</p>
