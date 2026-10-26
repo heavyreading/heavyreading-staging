@@ -621,7 +621,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <div class="wrap">
   <header class="masthead">
     <button class="themetoggle" id="themetoggle" type="button" aria-label="Toggle dark mode">Dark</button>
-    <div class="brandlock"><a class="brandlink" href="../../index.html" aria-label="Heavy Reading: home"><svg class="mark" viewBox="0 0 44 44" aria-hidden="true" focusable="false"><rect x="1.5" y="1.5" width="41" height="41" rx="9" fill="#17191d"/><rect x="10" y="25" width="6.5" height="8" fill="#f4f1e8"/><rect x="18.75" y="18" width="6.5" height="15" fill="#f4f1e8"/><rect x="27.5" y="11" width="6.5" height="22" fill="#a13c22"/></svg><span class="wordstack"><span class="wordmark">Heavy Reading</span><span class="wordsub">The WCSB supply letter</span></span></a></div>
+    <div class="brandlock"><a class="brandlink" href="../../index.html" aria-label="Heavy Reading: home"><svg class="mark" viewbox="0 0 44 44" aria-hidden="true" focusable="false"><rect x="1.5" y="1.5" width="41" height="41" rx="9" fill="#17191d" /><rect x="10" y="25" width="6.5" height="8" fill="#f4f1e8" /><rect x="18.75" y="18" width="6.5" height="15" fill="#f4f1e8" /><rect x="27.5" y="11" width="6.5" height="22" fill="#a13c22" /></svg><span class="wordstack"><span class="wordmark">Heavy Reading</span><span class="wordsub">The WCSB supply letter</span></span></a></div>
     <details class="mnav">
       <summary class="navburger" aria-label="Sections menu"><span class="nb-ic" aria-hidden="true"><span></span><span></span><span></span></span><span class="nb-tx">Sections</span></summary>
       <nav class="sitenav" aria-label="Sections">
@@ -651,7 +651,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   </header>
   <div class="crumb"><a href="../../index.html">Home</a> / <a href="../index.html">Inner</a> / Vol portfolio</div>
   <h1>Vol portfolio</h1>
-  <p class="sub">The proposed Wing book on one page: view first, flow second, positions third, risk always. PROPOSED, not booked, pending Blaine's ruling.</p>
+  <p class="sub">The proposed Wing book on one page: view first, flow second, positions third, risk always. PROPOSED, not booked, pending a ruling.</p>
 
 <style>
 .wing-card { border-top:1px solid var(--line); padding:16px 0 18px;
@@ -663,10 +663,10 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 .proposal-badge strong { color:#a33327; }
 </style>
 
-<div class="proposal-badge"><p><strong>PROPOSED BOOK: NOT BOOKED.</strong> Built from the house view on 2026-10-26, pending Blaine's ruling. The old paper book's scoring record was killed the same day; nothing carries forward. When this book is booked, its record starts at zero.</p></div>
+<div class="proposal-badge"><p><strong>PROPOSED BOOK: NOT BOOKED.</strong> Built from the house view on 2026-10-26, pending a ruling. The old paper book's scoring record was killed the same day; nothing carries forward. When this book is booked, its record starts at zero.</p></div>
 <section id="design">
 <h2>The design</h2>
-<p>Blaine, 2026-10-26: bearish or neutral; the flow is bearish or slightly wingy; sell volatility at the wings with losses capped by bought wings; slightly short delta; collect theta; target close to $500,000 a month of net collection; size inside the VaR and drawdown law.</p>
+<p>The standing line, 2026-10-26: bearish or neutral; the flow is bearish or slightly wingy; sell volatility at the wings with losses capped by bought wings; slightly short delta; collect theta; target close to $500,000 a month of net collection; size inside the VaR and drawdown law.</p>
 <p>The priority order: <strong>(1)</strong> the book cannot blow up: every position is defined-risk and the worst case is a fixed printed number. <strong>(2)</strong> inside the VaR and drawdown law. <strong>(3)</strong> only then maximize collection toward the target. If a stress result breaches a cap, sizes come down. The target yields; survival does not.</p>
 </section>
 <section id="view">
@@ -695,7 +695,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <div class="stat"><div class="v">+$3,427 / day</div><div class="l">Theta</div><div class="d">time pays the book; the old book bled $416 a day</div></div>
 <div class="stat"><div class="v">-$4,486 / pt</div><div class="l">Fear (vega)</div><div class="d">every point the fear deflates is worth about this much</div></div>
 </div>
-<p>The length's own delta is not netted into the book lines: the 25-lot paper length is the desk's stance. Dressed (length plus the 2-lot overwrite, no collar) it prints +24,492 barrels and collects +$210 a day, where the old dressed package lost $416 a day. Gamma on the book is -738 barrels per $1 further move.</p>
+<p>The length's own delta is not netted into the book lines: the 25-lot paper length is the stance itself. Dressed (length plus the 2-lot overwrite, no collar) it prints +24,492 barrels and collects +$210 a day, where the old dressed package lost $416 a day. Gamma on the book is -738 barrels per $1 further move.</p>
 </section>
 <section id="target">
 <h2>The target math</h2>
@@ -719,9 +719,54 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </table>
 <p>The managing number is the episode pool's 10-day VaR95: <strong>$213,182</strong>, inside one R ($250,000), 14% of the $1,500,000 governor line and 9% of the $2,500,000 drawdown budget. The summed hard worst case, $780,559, is 52% of the governor. In the grind pool the 1-in-20 ten-day outcome is still a gain: the theta outearns the wiggles.</p>
 </section>
+<section id="works">
+<h2>The works: noise stops, risk factors, and who carries the loss</h2>
+<p>A noise band is how far a position's marks normally wander on price and volatility wiggle alone, with the theta it collects netted against the wander. A stop placed inside that band is not a stop, it is a coin flip: ordinary wiggle triggers it with the thesis untouched. So every position below carries its band, its exit rule placed outside the band, and the distance to that exit in band multiples. Bands key off the last 60 sessions (the same basis the booked book's printed triggers use; that window is itself an episode window, OVX 60.02 at the marks date). The grind band and the full-history episode band print beside it. Price wiggle is measured on the stack's standing proxy, WTI front dollars; vol wiggle on OVX point changes. Computed by bin/proposed_works.py from the stack's own noise and Monte Carlo machinery.</p>
+<table><tr><th>Position</th><th>10-day band, managing</th><th>Grind band</th><th>Episode-history band</th><th>Collected</th><th>Hard worst</th></tr>
+<tr><td>N1 Capped straddle (S8)</td><td>$28,842</td><td>$4,233</td><td>$77,710</td><td>+$443,520</td><td>$249,480 (8.65x band)</td></tr>
+<tr><td>N2 Lopsided condor (S6)</td><td>$12,178</td><td>$0</td><td>$37,985</td><td>+$74,760</td><td>$240,240 (19.73x band)</td></tr>
+<tr><td>N3 Fade the wing (S3)</td><td>$27,357</td><td>$11,975</td><td>$46,865</td><td>+$29,760</td><td>$249,240 (9.11x band)</td></tr>
+<tr><td>N4 Wingy put spread (unnumbered candidate)</td><td>$42,037</td><td>$26,144</td><td>$65,326</td><td>-$20,500</td><td>$20,500 (0.49x band)</td></tr>
+<tr><td>N5 Overwrite on the paper length (S5, conditional)</td><td>$17,233</td><td>$8,296</td><td>$27,089</td><td>+$6,160</td><td>$21,099 (1.22x band)</td></tr>
+</table>
+<p>Exit rules: review a position at an adverse mark of twice its managing band, halve it at three times, and exit on the thesis stop regardless of marks. Applied position by position:</p>
+<p><strong>N1 Capped straddle (S8).</strong> SOUND: the review trigger (2x band) is $57,685 of adverse mark and the halve trigger (3x) $86,527, against $443,520 collected and a $249,480 hard worst case (8.6 band multiples away). Ordinary noise does not reach either trigger.</p>
+<p>Thesis stop: Exit if the fear the straddle sells comes back as fact: barrels stop (the visible floor falls, loadings stop, the escort system fails): the view break the Strike Plan's checklist names. Short of that, the band triggers manage the marks.</p>
+<p><strong>N2 Lopsided condor (S6).</strong> SOUND: the review trigger (2x band) is $24,355 of adverse mark and the halve trigger (3x) $36,533, against $74,760 collected and a $240,240 hard worst case (19.7 band multiples away). Ordinary noise does not reach either trigger.</p>
+<p>Thesis stop: Same family break as N1, plus its own: exit if the smile un-riches the other way: spike insurance goes cheap (front risk reversal back through zero and falling) while price pins a wing the condor is short.</p>
+<p><strong>N3 Fade the wing (S3).</strong> <strong>DEFECT, stated as one.</strong> DEFECT under the generic band rule: one ordinary 10-day noise band ($27,357, managing basis) is 92% of everything this position collected ($29,760): the 2x review and 3x halve triggers sit at $54,713 / $82,070 of adverse mark, distances ordinary wiggle covers without the thesis changing at all (on the full-history episode band, $46,865, it is worse). A mark-based stop would shake this position out on noise. Restated rule: thesis-only exit (below); the band is printed as information, never as a trigger. The size does not change: the hard worst case is set by the structure's width and already sits at its cap.</p>
+<p>Thesis stop: Thesis-only exit (see the defect note): the wing premium it sold stops existing: front risk reversal back through zero, spike insurance no longer the richest part of the board, or the view flips. No mark-based stop inside the cycle; the position is the expiry print or it is nothing.</p>
+<p><strong>N4 Wingy put spread (unnumbered candidate).</strong> PROPERTY: defined-risk debit: the 10-day noise band on the managing basis is 2.1x the position's whole risk, so no mark-based stop can work on it and none is set. Its stop is the debit, already paid in full; it cannot be shaken out because there is nothing left to lose.</p>
+<p>Thesis stop: Exit if its driver dies: products stop softening and the front firms back through the strip (the drag it bets on is gone). Otherwise hold to expiry, or harvest if the spread is worth twice the debit paid.</p>
+<p><strong>N5 Overwrite on the paper length (S5, conditional).</strong> RULE STATED: no mark trigger applies: the overwrite rides the length package's exit rules, so there is no mark-based exit rule on the option to be shaken out. Its band is printed both ways below: the package band (dominated by the futures leg: the length's own wiggle, inventory by the book's convention) and the option leg alone, whose 10-day band is about the premium it collected, which is what an overwrite premium is: one band of wiggle, rented out on length the book keeps anyway.</p>
+<p>Thesis stop: The overwrite rides the length package's own exit rules; the option leg is reviewed on the dressed package, never on its own marks. Close the call only with the length, or if the house view on the length flips bearish (the ruled condition for holding an overwrite at all).</p>
+<p>The option leg alone, without the futures leg: 10-day managing band $6,122 against $6,160 collected.</p>
+<h3>Risk factors, per position</h3>
+<p>What each position actually is, factor by factor. The plus/minus $10 lines are full reprices with volatility held flat, so the smile factor (gamma, how fast the flat-price exposure bends) is inside them.</p>
+<table><tr><th>Position</th><th>Flat price (delta, bbl)</th><th>At +$10, vol flat</th><th>At -$10, vol flat</th><th>Vol level (vega/pt)</th><th>Wing/smile (gamma)</th><th>Time (theta/day)</th></tr>
+<tr><td>N1</td><td>+1,302</td><td>-$10,260</td><td>-$37,015</td><td>-$2,982</td><td>-500</td><td>+$2,184</td></tr>
+<tr><td>N2</td><td>+483</td><td>-$7,613</td><td>-$17,837</td><td>-$1,659</td><td>-265</td><td>+$1,302</td></tr>
+<tr><td>N3</td><td>-2,232</td><td>-$27,522</td><td>+$17,453</td><td>-$651</td><td>-102</td><td>+$558</td></tr>
+<tr><td>N4</td><td>-1,920</td><td>-$12,861</td><td>+$28,835</td><td>+$1,024</td><td>+158</td><td>-$827</td></tr>
+<tr><td>N5</td><td>+1,492</td><td>+$13,400</td><td>-$16,240</td><td>-$218</td><td>-29</td><td>+$210</td></tr>
+</table>
+<h3>Who carries the 1-in-20 loss</h3>
+<p>Marginal VaR: the book's episode 10-day VaR95 minus the VaR95 of the book with that one position removed, same Monte Carlo, same seeds. The column foots to the book total; the remainder line is what the parts owe to each other on the VaR measure.</p>
+<table><tr><th>Position</th><th>Marginal VaR95</th></tr>
+<tr><td>N1 Capped straddle (S8)</td><td>+$92,414</td></tr>
+<tr><td>N2 Lopsided condor (S6)</td><td>+$70,236</td></tr>
+<tr><td>N3 Fade the wing (S3)</td><td>+$66,758</td></tr>
+<tr><td>N4 Wingy put spread (unnumbered candidate)</td><td>-$6,036</td></tr>
+<tr><td>N5 Overwrite on the paper length (S5, conditional)</td><td>-$6,386</td></tr>
+<tr><td>Diversification remainder</td><td>-$3,804</td></tr>
+<tr><td><strong>Book VaR95 (episode, 10-day)</strong></td><td><strong>$213,182</strong></td></tr>
+</table>
+<p>On the shock grid the same split reads: gross risk (each position's own worst, added up) $319,806, book worst $251,160, the gap being positions cancelling each other. Grid marginals: N1 +$96,971; N2 +$73,463; N3 +$91,404; N4 +$12,570; N5 -$23,247.</p>
+<p>Drawdown and governor status: WITHIN: no drawdown yet. The book is proposed, not booked; the governor and the drawdown budget bind from the first booked mark. VaR95 stands at 14.2% of the governor and 8.5% of the drawdown budget; the summed hard worst is 78.1% of the complex cap.</p>
+</section>
 <section id="fullsim">
 <h2>Full Simulation Stress on History</h2>
-<p>Blaine's Suncor method: take every historical day we hold, the price move and the volatility move paired as they actually happened, and revalue the whole portfolio (the Wing, the 25-lot length, the diffs trades) as if it had been held that day. Full repricing, no sampling. The shock grid below is what sizing runs off; this is a readout beside it.</p>
+<p>The Suncor method: take every historical day we hold, the price move and the volatility move paired as they actually happened, and revalue the whole portfolio (the Wing, the 25-lot length, the diffs trades) as if it had been held that day. Full repricing, no sampling. The shock grid below is what sizing runs off; this is a readout beside it.</p>
 <p>Pool on hand: 504 joint days, 2024-09-23 to 2026-09-25 (WTI front closes for price, the OVX index for volatility). <strong>On 5% of days in history, this portfolio would have lost $78,634 or more.</strong> The average of that worst 5% is -$157,443. Its worst single day: -$566,313, 23% of the $2,500,000 drawdown budget.</p>
 <p>Its five worst days in the pool:</p>
 <table><tr><th>Date</th><th>Price move</th><th>Vol move</th><th>Portfolio that day</th><th>The day</th></tr>
@@ -738,8 +783,8 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <section id="payoff">
 <h2>The payoff proof: old book against proposed</h2>
 <p>Expiry payoff on the one Brent axis. The proposed book is drawn; both books are tabled below it in numbers.</p>
-<svg viewBox="0 0 680 300" width="100%" role="img" aria-label="Proposed book, expiry payoff">
-<line x1="68" y1="128" x2="664" y2="128" stroke="#999" stroke-width="1"/>
+<svg viewbox="0 0 680 300" width="100%" role="img" aria-label="Proposed book, expiry payoff">
+<line x1="68" y1="128" x2="664" y2="128" stroke="#999" stroke-width="1" />
 <text x="68" y="286" font-size="11" text-anchor="middle" fill="#555">$60</text>
 <text x="187" y="286" font-size="11" text-anchor="middle" fill="#555">$80</text>
 <text x="306" y="286" font-size="11" text-anchor="middle" fill="#555">$100</text>
@@ -749,8 +794,8 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <text x="62" y="257" font-size="11" text-anchor="end" fill="#555">$-717k</text>
 <text x="62" y="132" font-size="11" text-anchor="end" fill="#555">$0</text>
 <text x="62" y="43" font-size="11" text-anchor="end" fill="#555">$513k</text>
-<polyline points="68,140 74,139 80,139 86,139 92,138 98,138 104,138 110,137 116,137 122,137 128,136 134,136 140,136 145,135 151,135 157,135 163,139 169,143 175,147 181,151 187,155 193,159 199,163 205,167 211,171 217,175 223,179 229,183 235,187 241,191 247,195 253,194 259,190 265,186 271,182 277,178 283,172 289,161 294,150 300,139 306,127 312,116 318,108 324,101 330,93 336,85 342,78 348,70 354,62 360,55 366,47 372,39 378,39 384,46 390,53 396,60 402,67 408,74 414,81 420,88 426,95 432,102 438,109 443,116 449,123 455,129 461,136 467,143 473,150 479,150 485,150 491,153 497,157 503,161 509,164 515,168 521,188 527,208 533,227 539,231 545,235 551,238 557,242 563,246 569,249 575,253 581,253 587,253 592,253 598,253 604,253 610,253 616,253 622,253 628,253 634,253 640,253 646,253 652,253 658,253 664,253" fill="none" stroke="#205090" stroke-width="2.2"/>
-<line x1="376" y1="24" x2="376" y2="268" stroke="#a33327" stroke-width="1.2" stroke-dasharray="3 3"/>
+<polyline points="68,140 74,139 80,139 86,139 92,138 98,138 104,138 110,137 116,137 122,137 128,136 134,136 140,136 145,135 151,135 157,135 163,139 169,143 175,147 181,151 187,155 193,159 199,163 205,167 211,171 217,175 223,179 229,183 235,187 241,191 247,195 253,194 259,190 265,186 271,182 277,178 283,172 289,161 294,150 300,139 306,127 312,116 318,108 324,101 330,93 336,85 342,78 348,70 354,62 360,55 366,47 372,39 378,39 384,46 390,53 396,60 402,67 408,74 414,81 420,88 426,95 432,102 438,109 443,116 449,123 455,129 461,136 467,143 473,150 479,150 485,150 491,153 497,157 503,161 509,164 515,168 521,188 527,208 533,227 539,231 545,235 551,238 557,242 563,246 569,249 575,253 581,253 587,253 592,253 598,253 604,253 610,253 616,253 622,253 628,253 634,253 640,253 646,253 652,253 658,253 664,253" fill="none" stroke="#205090" stroke-width="2.2" />
+<line x1="376" y1="24" x2="376" y2="268" stroke="#a33327" stroke-width="1.2" stroke-dasharray="3 3" />
 <text x="382" y="34" font-size="11.5" fill="#a33327">Brent today $111.70</text>
 <text x="68" y="14" font-size="11.5" fill="#205090">at expiry</text>
 </svg>
@@ -777,7 +822,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </section>
 <section id="record">
 <h2>The record</h2>
-<p>There is none, on purpose. The Wing's scoring record to October 26, 2026 was killed on Blaine's ruling: no one had read it, and the book it graded was built before the view existed. The lessons survive as rules (score the wings separately, never pooled; insurance rent may not exceed the overwrite's collection). This book's record starts at zero on the day it is booked. Full construction memo: BOOK_BUILD_2026-10-26.md in the portfolio dataset.</p>
+<p>There is none, on purpose. The Wing's scoring record to October 26, 2026 was killed on the standing ruling: no one had read it, and the book it graded was built before the view existed. The lessons survive as rules (score the wings separately, never pooled; insurance rent may not exceed the overwrite's collection). This book's record starts at zero on the day it is booked. Full construction memo: BOOK_BUILD_2026-10-26.md in the portfolio dataset.</p>
 </section>
   <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../chartbook.html">Chartbook</a><a href="../../options/index.html">The Wing (options)</a><a href="../../options/charts/index.html">The Wing charts</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
 </div>
