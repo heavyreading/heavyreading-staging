@@ -2,9 +2,21 @@
  "page": "/world/middle-east/",
  "title": "Middle East watch",
  "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
- "built_at": "2026-10-25",
+ "built_at": "2026-10-26",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Yemen's Iran-aligned Houthis said on Oct 26 that they had attacked Saudi Arabia's East-West crude oil pumping stations and Riyadh airport, Reuters reported. The Saudi-led coalition in Yemen said earlier it had destroyed two ballistic missile launchers in the capital Sanaa, including one used to fire a missile towards Riyadh that the coalition said it had intercepted. There was no immediate Saudi confirmation of the Houthi attacks. The Houthis also said they had struck Riyadh's King Khalid International Airport, which resumed operations at two terminals on Sunday after an attack claimed by the group earlier this month killed 13 people. The Houthis also said on Saturday they had targeted the East-West pipeline, crude oil pumping stations, an Aramco facility in Yanbu and the Rabigh refinery, and there was no Saudi confirmation of those claims either. The Saudi coalition said on Monday it had also carried out a military operation against Houthi targets in Yemen, destroying five tunnels used to store ballistic missiles, four ballistic missile launchers and a missile storage facility.",
+   "vintage": "Oct 26, 2026",
+   "source": "Reuters (via SRN News)",
+   "source_url": "https://srnnews.com/houthis-say-they-attacked-east-west-oil-pumping-stations-no-saudi-confirmation/"
+  },
+  {
+   "text": "US Central Command (CENTCOM) said on Oct 25 that in recent months over 95 percent of ships navigating the Strait of Hormuz have sailed through safely despite aggression by Iran's Islamic Revolutionary Guard Corps (IRGC), Anadolu Agency reported via MCI Group. CENTCOM said American troops had reached the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer, and that American forces have assisted more than 3,000 merchant vessels in navigating the chokepoint over the past six months, noting that momentum expanded after the US dismantled naval mines deployed across international sea lanes by the IRGC. CENTCOM commander Admiral Brad Cooper visited the waterway on Oct 25, flying over the strait.",
+   "vintage": "Oct 25, 2026",
+   "source": "MCI Group (citing CENTCOM via Anadolu Agency)",
+   "source_url": "https://mcigroup.my/world-news/more-than-95-pct-of-ships-navigate-strait-of-hormuz-safely-despite-iranian-aggression-us-military/"
+  },
   {
    "text": "Yemen's Iran-aligned Houthis said on Oct 24 that they had launched attacks on Saudi oil facilities and airports, and the Saudi-led coalition said it had downed two missiles, Reuters reported. Houthi military spokesperson Yahya Saree said the group targeted King Khalid International Airport in Riyadh, an Aramco facility in Yanbu, the Rabigh oil refinery, crude oil pumping stations and the East-West Pipeline, as well as King Fahd International Airport in Dammam, an airport in Najran and an airbase in Khamis Mushait. The Saudi-led coalition said it destroyed two ballistic missiles fired towards Yanbu and Taif, and Saudi Civil Defense said debris from intercepted missiles fell in the Mecca and Medina regions and in areas in Jeddah, Taif and Rabigh. Saudi authorities did not comment directly on the Houthi claims, and it was not immediately clear whether any of the reported attacks had hit their targets or had been intercepted. Yemen's Saudi-backed government said the Houthis also fired three ballistic missiles at coast guard sites in the southern port city of Aden.",
    "vintage": "Oct 24, 2026",
@@ -220,6 +232,18 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil prices fell on Oct 26 after surging last week to near six-month highs, amid hopes of easing hostilities between the United States and Iran, although persistent attacks on key producer Saudi Arabia kept investors wary, Reuters reported. Brent crude futures were down $1.49, or 1.28 percent, at $115.23 a barrel by 0744 GMT, and US West Texas Intermediate crude futures were down $1.76, or 1.7 percent, at $101.51 a barrel. On Sunday, Qatari mediators traveled to Tehran as part of an effort to de-escalate regional tensions in coordination with the United States, an official briefed on the situation said, and top officials from the Mecca Pact countries Saudi Arabia, Turkey and Pakistan were set to meet Iran's leaders in Tehran on Monday. Vandana Hari, founder of Vanda Insights, said concerns over renewed military hostilities had eased that morning but the reprieve may prove temporary, and that volatility was expected to remain elevated with risks still skewed to the upside. The head of the International Energy Agency, Fatih Birol, said at an industry event in Singapore on Monday that he does not expect energy markets in 2027 to return to where they were before the Iran war. Reuters also reported that Saudi Aramco will start storing crude oil in Singapore from the second half of 2027, according to the energy ministers of Saudi Arabia and Singapore.",
+   "vintage": "Oct 26, 2026",
+   "source": "Reuters",
+   "source_url": "https://q106fm.com/2026/10/25/oil-prices-down-almost-1-in-early-trading/"
+  },
+  {
+   "text": "Attacks on commercial vessels continue across the Gulf region, while traffic through the US-facilitated southern route in the Strait of Hormuz is averaging more than 30 transits per day, according to INTERTANKO's latest weekly security update, reported by SAFETY4SEA on Oct 26. Tankers account for approximately 90 percent of these movements. INTERTANKO said no credible evidence had emerged to support Iranian claims that vessels had struck mines laid in regional waters, and questioned Iranian claims concerning the number of ships attacked. In the Red Sea region, INTERTANKO reported that the Houthis have not conducted maritime operations for some time and that renewed attacks against shipping are not expected in the immediate future, although the group retains considerable capabilities to target maritime traffic; Houthi activity is currently focused on fighting Yemen's internationally recognised government and conducting long-range attacks against infrastructure in Saudi Arabia.",
+   "vintage": "Oct 26, 2026",
+   "source": "SAFETY4SEA (citing INTERTANKO)",
+   "source_url": "https://safety4sea.com/intertanko-gulf-ship-attacks-continue-as-hormuz-transits-exceed-30-per-day/"
   },
   {
    "text": "Gulf countries exported 24.6 million b/d in the week ending Oct 18, surpassing pre-war levels of 23.3 million b/d, according to data compiled by energy analytics firm Kpler and reported on Oct 22. The recovery excludes Iranian exports, which remain constrained by the US blockade, and rests on rerouting: about 40 percent of regional crude exports bypassed the Strait of Hormuz in September, up from 17 percent before the war, with Saudi and UAE pipelines redirecting supplies to Red Sea and Gulf of Oman terminals and more than 70 percent of crude crossing Hormuz in August changing tankers offshore near Fujairah or Sohar. Tanker charter rates and war-risk insurance premiums have surged, making the alternative routes expensive.",
@@ -466,6 +490,12 @@
    "vintage": "Sep 18, 2026; accessed 2026-09-23",
    "source": "GeoTrends (citing Baltic Exchange)",
    "source_url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
+  },
+  {
+   "text": "TradeWinds reported on Oct 26 that Iran disabled a tanker in the Strait of Hormuz in an incident on Friday, Oct 23, with the report only surfacing days later. TradeWinds said the delayed report from the Friday incident shows a widening time gap between actual incidents and verified reporting. No vessel name, damage assessment or casualty detail was available in the portion of the report open to non-subscribers, so the incident is logged here on the headline facts only.",
+   "vintage": "Oct 23, 2026",
+   "source": "TradeWinds",
+   "source_url": "https://www.tradewindsnews.com/casualties/iran-disables-tanker-as-us-commander-flies-victory-lap-over-strait-of-hormuz/2-1-2063918?zephr_sso_ott=YVWBPb"
   },
   {
    "text": "US President Donald Trump said on Oct 23 that the war with Iran could end quickly, while suggesting that Washington might allow the conflict to gradually wind down, Reuters reported. The comment followed his Oct 22 accusation that Iran was making up fake hits and mines to drive up the price of oil before the US midterm elections, and a rally remark in Fort Myers, Florida on Oct 23 that the US may do another little Epic Fury, the name of the US military campaign against Iran that began on Feb 28, France 24 reported via NewsPlainly.",
@@ -1406,6 +1436,16 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via SRN News)",
+   "vintage": "",
+   "url": "https://srnnews.com/houthis-say-they-attacked-east-west-oil-pumping-stations-no-saudi-confirmation/"
+  },
+  {
+   "publisher": "MCI Group (citing CENTCOM via Anadolu Agency)",
+   "vintage": "",
+   "url": "https://mcigroup.my/world-news/more-than-95-pct-of-ships-navigate-strait-of-hormuz-safely-despite-iranian-aggression-us-military/"
+  },
+  {
    "publisher": "Reuters",
    "vintage": "",
    "url": "https://wdsm710.com/2026/10/24/houthis-say-they-attacked-saudi-oil-sites-strikes-reported-on-yemens-aden/"
@@ -1579,6 +1619,16 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://q106fm.com/2026/10/25/oil-prices-down-almost-1-in-early-trading/"
+  },
+  {
+   "publisher": "SAFETY4SEA (citing INTERTANKO)",
+   "vintage": "",
+   "url": "https://safety4sea.com/intertanko-gulf-ship-attacks-continue-as-hormuz-transits-exceed-30-per-day/"
   },
   {
    "publisher": "EuropeSays (citing Kpler)",
@@ -1764,6 +1814,11 @@
    "publisher": "GeoTrends (citing Baltic Exchange)",
    "vintage": "",
    "url": "https://geo-trends.eu/sea/maritime-industry/soaring-freight-turns-older-vlccs-into-hot-assets/"
+  },
+  {
+   "publisher": "TradeWinds",
+   "vintage": "",
+   "url": "https://www.tradewindsnews.com/casualties/iran-disables-tanker-as-us-commander-flies-victory-lap-over-strait-of-hormuz/2-1-2063918?zephr_sso_ott=YVWBPb"
   },
   {
    "publisher": "Associated Press (via BoldVoices)",

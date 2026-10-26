@@ -2,9 +2,15 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-10-25",
+ "built_at": "2026-10-26",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "TankerTrackers.com has identified three tankers carrying Russian diesel to the United States, all loaded at petroleum berths in Russia and declaring the USA as their destination, Robban Assafina reported on Oct 26, noting that diesel is the only known hydrocarbon that the US Office of Foreign Assets Control (OFAC) currently permits imports of from Russia. The first cargo, on the Malta-flagged product tanker Agioi Fanendes, loaded 298,000 barrels of diesel, approximately 40,000 metric tons, at Primorsk and sailed on Oct 23; its AIS signal briefly showed New York as its destination before changing to for orders, and reported arrival dates vary between Nov 7 and Nov 10. LSEG and Kpler data show Russia has broadly resumed exports after an approximately six-week ban due to the impact of Ukraine's strikes on Russian refineries, with cargoes also departed for Turkey and Brazil. Deputy Prime Minister Alexander Novak has indicated that, without further strikes, Russia would be able to resume full production by the end of the year, and diesel exports are expected to resume at a rate of 3 to 3.5 million tons per month.",
+   "vintage": "Oct 26, 2026",
+   "source": "Robban Assafina",
+   "source_url": "https://www.assafinaonline.com/en/article/First-Russian-Diesel-Cargo-Heads-to-U-S-Aboard-Greek-Tanker"
+  },
   {
    "text": "Russian Deputy Prime Minister Alexander Novak said on Oct 23 that three tankers carrying Russian diesel are already heading toward North America, as part of a deal that could see Russia supply 500,000 metric tonnes of fuel to US and global markets in October, The Independent reported via BytesEU. Novak said the shipments have significant support from the Russian Direct Investment Fund (RDIF). Under the deal announced by US President Donald Trump this month, Washington temporarily lifted sanctions on Russian fuel in exchange for supplies aimed at lowering global fuel prices. The first of the tankers, the Agioi Fanendes, loaded 40,000 metric tons of ultra-low sulfur diesel at Primorsk on Oct 22 and is expected in New York on Nov 7, according to LSEG data cited by Reuters on Oct 23.",
    "vintage": "Oct 23, 2026",
@@ -52,6 +58,12 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "Ukrainian President Volodymyr Zelensky said Ukraine is ready to stop strikes on Russian oil refining infrastructure if Russia refrains from attacking Ukraine's power grid, in an interview with Alla Mazur of TSN.Tyzhden reported by Ukrinform via EuropeSays on Oct 26. Zelensky said he had proposed the energy ceasefire approach to international partners, and that Ukraine is responding to Russian strikes on its energy infrastructure because Russia must also feel the consequences of its attacks. He also said Ukraine, the United States and Russia have agreed to hold a trilateral meeting at the level of negotiating teams in the first half of November.",
+   "vintage": "Oct 26, 2026",
+   "source": "EuropeSays (citing Ukrinform)",
+   "source_url": "https://www.europesays.com/ukraine/60685/"
   },
   {
    "text": "Ukrainian President Volodymyr Zelensky confirmed on Oct 24 that negotiating teams from Ukraine, Russia and the United States may meet in Abu Dhabi in the United Arab Emirates in November, EA WorldView reported. Zelensky told the Hudson Institute in a video call, after speaking with US envoys Steve Witkoff and Jared Kushner, that the plan is to meet in the first half of November and as early as possible, that technical-level talks would come first and a leaders summit would follow if they prove productive, and that it all depends on the Russians, noting an expected October meeting did not happen. The update follows Witkoff's meetings with Zelensky and European leaders in Oslo and with President Vladimir Putin in St. Petersburg earlier in the week.",
@@ -184,6 +196,18 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "A drone attack in Russia's Voronezh region killed two men and injured 17 people, including a child, regional governor Alexander Gusev said on Oct 26, Reuters reported. Air defence systems had destroyed 113 drones over the region, Gusev wrote on the MAX messaging app. Fires also broke out at several industrial sites, Gusev said. A passenger train bound for Moscow from Anapa was also damaged and five passengers injured, Russian Railways said, and train services through Voronezh have been suspended. Reuters could not independently verify the report. No refinery was named among the targets in the Reuters reporting.",
+   "vintage": "Oct 26, 2026",
+   "source": "Reuters",
+   "source_url": "https://mix929.com/2026/10/26/drone-attack-on-russias-voronezh-region-kills-two-men-governor-says/"
+  },
+  {
+   "text": "A chemical plant producing dual-use goods in Voronezh was likely hit in the Oct 26 Ukrainian drone attack, independent Russian media outlet Astra said, in reporting by the Kyiv Independent via EuropeSays. Astra cited videos taken by local residents showing black smoke rising over the territory of the plant, known as Voronezhsintezkauchuk, owned by Russia's largest petrochemical company, Sibur; the plant produces over 385,000 metric tons of synthetic rubbers and thermoplastic elastomers per year. Governor Gusev said fires broke out at several unspecified industrial facilities without serious consequences. Neither Ukrainian nor Russian officials have confirmed the attack on Voronezhsintezkauchuk, Ukrainian defence company Fire Point claimed its FP-1 deep-strike drones had been used, and the Kyiv Independent could not independently verify the claim. The target is a petrochemical plant, not an oil refinery.",
+   "vintage": "Oct 26, 2026",
+   "source": "EuropeSays (citing The Kyiv Independent)",
+   "source_url": "https://www.europesays.com/russia/80297/"
   },
   {
    "text": "Ukrainian long-range drones struck the Omsky Kauchuk petrochemical plant and an Ozon logistics warehouse in Omsk on Oct 24, more than 2,500 kilometres from the Ukrainian border, UNITED24 Media reported via EuropeSays. Omsky Kauchuk, part of the Titan Group, is one of Russia's largest producers of synthetic rubber and also makes methyl tert-butyl ether (MTBE), a gasoline additive, as well as phenol and acetone, and Ukrainian reporting links the plant to the supply chain for rocket fuel including for the Iskander ballistic missile. Footage circulated by the monitoring community Exilenova+ showed a large fire at the plant, Omsk regional governor Vitaly Khotsenko confirmed drones had reached the city's northern industrial district and that a logistics hub was attacked with personnel evacuated, and the extent of damage and any impact on production had not been independently verified. The Omsk target is a petrochemical plant, not the Gazprom Neft Omsk refinery struck on Oct 8.",
@@ -374,6 +398,11 @@
  ],
  "sources": [
   {
+   "publisher": "Robban Assafina",
+   "vintage": "",
+   "url": "https://www.assafinaonline.com/en/article/First-Russian-Diesel-Cargo-Heads-to-U-S-Aboard-Greek-Tanker"
+  },
+  {
    "publisher": "The Independent (via BytesEU)",
    "vintage": "",
    "url": "https://www.byteseu.com/2475091/"
@@ -412,6 +441,11 @@
    "publisher": "Maritime Professional (citing traders)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "publisher": "EuropeSays (citing Ukrinform)",
+   "vintage": "",
+   "url": "https://www.europesays.com/ukraine/60685/"
   },
   {
    "publisher": "EA WorldView",
@@ -522,6 +556,16 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://mix929.com/2026/10/26/drone-attack-on-russias-voronezh-region-kills-two-men-governor-says/"
+  },
+  {
+   "publisher": "EuropeSays (citing The Kyiv Independent)",
+   "vintage": "",
+   "url": "https://www.europesays.com/russia/80297/"
   },
   {
    "publisher": "EuropeSays (citing UNITED24 Media)",
