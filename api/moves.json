@@ -1,5 +1,5 @@
 {
- "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-10-25T22:52:25.715238Z",
+ "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-10-25T23:36:19.033273Z",
  "data": {
   "updated_at": "2026-10-25T22:15:25.263537Z",
   "events": [
@@ -17,11 +17,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 35 min after the claim with no confirmation on any channel. no post-claim FIRMS pass yet. Geostationary layer: anomaly.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 80 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-25T19:57:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261025T221525-sensor-lloydminster",
-     "generated_at": "2026-10-25T22:51:14.736341Z",
+     "generated_at": "2026-10-25T23:36:09.513267Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -49,8 +49,8 @@
        "detail": "verified/geolocated footage is an agent-verification step on wake"
       },
       "firms": {
-       "verdict": "PENDING",
-       "coverage_end_at_claim": null,
+       "verdict": "STILL_BLIND",
+       "coverage_end_at_claim": "2026-10-25T19:57:00Z",
        "claim_window_covered": false,
        "first_post_claim_pass": null,
        "anomalous": []
@@ -74,7 +74,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 35,
+      "minutes_since_claim": 80,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -86,10 +86,15 @@
         "ts": "2026-10-25T22:30:25.263537Z",
         "price": 101.79,
         "pct_vs_claim": -1.43
+       },
+       "+60": {
+        "ts": "2026-10-25T23:15:25.263537Z",
+        "price": 102.29,
+        "pct_vs_claim": -0.95
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 35 min after the claim with no confirmation on any channel. no post-claim FIRMS pass yet. Geostationary layer: anomaly."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 80 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-25T19:57:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly."
     }
    },
    {
