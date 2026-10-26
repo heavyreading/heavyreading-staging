@@ -714,6 +714,19 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </table></div>
 <p>The marked series has 10 date(s). It is shown as a table, not a curve: a drawdown chart on this little history would be decoration, not information.
 </section>
+<section id="process-grades">
+<h2>Process grades: the traders, not the trades</h2>
+<p>The scoreboard above grades trades. This panel grades decisions, against what the cards said at the time: exits against the printed stop, size against the framework, conviction against outcomes, and the house view against its own printed triggers. Several cells are empty today, and the emptiness is the finding: the book has not yet frozen the entry data these grades need. Definitions and blind spots live in docs/PROCESS_GRADES.md; the engine is bin/process_grades.py, over the ledger, the marks history, and the view file's git history.</p>
+<div class="tblwrap"><table class="data">
+<thead><tr><th>Grade</th><th>Graded</th><th>The grade</th></tr></thead>
+<tbody>
+<tr><td><strong>Stop discipline</strong></td><td>0 exits, 2 running</td><td>No exit has been graded: no trade has closed. The 2 running trades have used at most 1.3 percent of their printed stop distance (T1 the deepest); no stop has been crossed, and none has been tested where it counts, at an exit.</td></tr>
+<tr><td><strong>Size discipline</strong></td><td>0 of 5 measurable</td><td>Not gradable yet: all 5 trades were booked before the sizing rule existed (the rule dates from October 25, 2026), and no entry since has frozen a framework size to grade against. The measured fractions in the detail are context, not failures.</td></tr>
+<tr><td><strong>Conviction calibration</strong></td><td>n = 0 declared</td><td>No trade has ever declared a conviction tier (n = 0 of 5 booked). The four buckets are built and empty; calibration starts with the first entry that declares one, and the ledger's risk column is booked risk, not a declaration.</td></tr>
+<tr><td><strong>View discipline</strong></td><td>1 edit, 2 versions</td><td>The house view is dated 2026-10-25 and has 1 edit(s) in its git history; the edit on record is an evidence upgrade, not a change of mind: the view date and the change-mind section never moved. Whether a printed trigger fired first is a manual grade, and the change is listed in the detail for one.</td></tr>
+</tbody>
+</table></div>
+</section>
 <section id="targeting">
 <h2>Targeting: the fixed target, solved</h2>
 <p>The profit target is fixed at $15 to $20M. What flexes is the trade count and the size, solved from the book's expectancy per trade inside the risk budgets: a single idea capped near 2.5R, the complex at 4R, plus one gated episodic allowance at 4R. The book calibrates its hit rate, average win, and average loss from closed trades over time. Until 25 trades have closed, the box prints both bases side by side: the plan-case line from the framework assumptions, and the measured line from the closes so far, which carries wide uncertainty at this sample size. The verdict is keyed to the plan-case line until 25 trades have closed, and to the measured line from then on; the two bases are never blended. The lever order is count first, up to the realistic flow of about 20 trades a year, then size within the caps toward mechanisms with measured expectancy, then an honest restatement of the range.</p>
