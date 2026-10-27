@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Globe Demo | Heavy Reading</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cesium@1.124.0/Build/Cesium/Widgets/widgets.css">
 <style>
   :root{
     --ink:#eef2f5; --mut:#9fb0ba; --faint:#6d808c;
@@ -196,7 +197,7 @@
 <script src="https://cdn.jsdelivr.net/npm/satellite.js@5.0.0/dist/satellite.min.js"></script>
 <script>
 "use strict";
-const BUILT_AT = "2026-10-27T05:19:07Z";
+const BUILT_AT = "2026-10-27T13:28:53Z";
 const $ = s => document.querySelector(s);
 const AMBER = "#ffb03a", TEAL = "#3fd2dc", RED = "#ff5147",
       GREY = "#8fa5b0", WHITE = "#eef2f5", PURPLE = "#c9a0dc", GREEN = "#57e389";
@@ -207,7 +208,21 @@ const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({"&":"&amp;
 
 /* ---------------- viewer: dark treated earth, atmosphere, bloom -------- */
 Cesium.Ion.defaultAccessToken = "";
+const esri = new Cesium.UrlTemplateImageryProvider({
+  url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+  credit: "Imagery © Esri, Maxar, Earthstar Geographics",
+  maximumLevel: 18,
+});
+/* The base layer is built as an ImageryLayer and passed in whole:
+   the Viewer's imageryProvider option converts asynchronously in
+   this Cesium version, so imageryLayers.get(0) is still undefined
+   right after construction and the treatment below would throw. */
+const baseLayer = new Cesium.ImageryLayer(esri);
+baseLayer.brightness = 0.52; baseLayer.contrast = 1.12;
+baseLayer.saturation = 0.62; baseLayer.gamma = 0.92;
 const viewer = new Cesium.Viewer("globe", {
+  baseLayer,
+  terrainProvider: new Cesium.EllipsoidTerrainProvider(),
   animation: false, timeline: false, baseLayerPicker: false, geocoder: false,
   homeButton: false, sceneModePicker: false, navigationHelpButton: false,
   fullscreenButton: false, infoBox: false, selectionIndicator: false,
@@ -222,14 +237,13 @@ if (viewer.scene.skyAtmosphere) {
   viewer.scene.skyAtmosphere.saturationShift = -0.25;
   viewer.scene.skyAtmosphere.brightnessShift = 0.12;
 }
-const esri = new Cesium.UrlTemplateImageryProvider({
-  url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-  credit: "Imagery © Esri, Maxar, Earthstar Geographics",
-  maximumLevel: 18,
-});
-const baseLayer = viewer.imageryLayers.addImageryProvider(esri, 0);
-baseLayer.brightness = 0.52; baseLayer.contrast = 1.12;
-baseLayer.saturation = 0.62; baseLayer.gamma = 0.92;
+/* Sizing: widgets.css carries the 100% width/height chain for the
+   viewer and its canvas; resize explicitly as well, once layout has
+   settled and on every window resize, so the canvas fills the stage
+   at phone and desktop sizes alike. */
+function fitGlobe() { try { viewer.resize(); } catch (e) { /* CSS sizing stands */ } }
+window.addEventListener("resize", fitGlobe);
+requestAnimationFrame(fitGlobe);
 try {
   const bloom = viewer.scene.postProcessStages.bloom;
   bloom.enabled = true;
