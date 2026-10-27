@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Status check on Oct 27: no Department of Energy (DOE) award announcement for the 17-million-barrel SPR exchange solicitation issued Oct 16 (FY27 SPR Oil Release No. 1), whose proposals were due Oct 21, had been published on energy.gov as of this check. The newest SPR press release on energy.gov remains the Oct 23 emergency exchange of up to 400,000 barrels for the Phillips 66 Lake Charles refinery. Bids for the separate 315,000-barrel Northeast Home Heating Oil Reserve exchange announced Oct 21 are due today, Oct 27, no later than 11:00 AM Central Time, with fuel transfers or deliveries to be completed by Nov 13, 2026, DOE said.",
+   "vintage": "Oct 27, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.energy.gov/articles/energy-department-authorizes-exchange-northeast-home-heating-oil-reserve"
+  },
+  {
    "text": "Status check on Oct 26: no Department of Energy (DOE) award announcement for the 17-million-barrel SPR exchange solicitation issued Oct 16 (FY27 SPR Oil Release No. 1), whose proposals were due Oct 21, had been published on energy.gov as of this check. The newest SPR press release on energy.gov remains the Oct 23 emergency exchange of up to 400,000 barrels for the Phillips 66 Lake Charles refinery. Bids for the separate 315,000-barrel Northeast Home Heating Oil Reserve exchange announced Oct 21 are due Oct 27, with deliveries to be completed by Nov 13.",
    "vintage": "Oct 26, 2026",
    "source": "U.S. Department of Energy",
@@ -336,6 +342,12 @@
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Taps-Strategic-Oil-Reserve-Again-as-Diesel-Tops-6.html"
   },
   {
+   "text": "Stocks of crude oil in the US Strategic Petroleum Reserve (SPR) fell to 282.6 million barrels last week, the lowest level since October 1982, according to data from the Department of Energy, Reuters reported on Oct 26. The level is down from 282.7 million barrels for the week ending Oct 16, 2026. The recent drawdowns have been part of a US agreement to release 172 million barrels from the facility, Reuters said.",
+   "vintage": "Oct 26, 2026",
+   "source": "Reuters (via OilMonster)",
+   "source_url": "https://www.oilmonster.com/article/oil-stocks-in-us-strategic-petroleum-reserve-fall-to-lowest-level-since-1982/8726"
+  },
+  {
    "text": "US Energy Information Administration data released on Oct 21 put the Strategic Petroleum Reserve at about 282.7 million barrels for the week ending Oct 16, 2026, down 0.3 million barrels on the week and its lowest level since October 1982, Global Energy Flow reported citing the EIA release. That is roughly 40 percent of the reserve's 714-million-barrel capacity and about 431 million barrels below maximum capacity. Including the SPR, total US crude stocks were about 699 million barrels.",
    "vintage": "Oct 21, 2026",
    "source": "Global Energy Flow (citing EIA)",
@@ -415,6 +427,11 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "U.S. Department of Energy",
+   "vintage": "",
+   "url": "https://www.energy.gov/articles/energy-department-authorizes-exchange-northeast-home-heating-oil-reserve"
+  },
   {
    "publisher": "U.S. Department of Energy",
    "vintage": "",
@@ -619,6 +636,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Taps-Strategic-Oil-Reserve-Again-as-Diesel-Tops-6.html"
+  },
+  {
+   "publisher": "Reuters (via OilMonster)",
+   "vintage": "",
+   "url": "https://www.oilmonster.com/article/oil-stocks-in-us-strategic-petroleum-reserve-fall-to-lowest-level-since-1982/8726"
   },
   {
    "publisher": "Global Energy Flow (citing EIA)",

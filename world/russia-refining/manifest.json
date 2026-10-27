@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Russian refiners have raised diesel output for October after Moscow issued export quotas under the Kremlin's supply agreement with the United States, two industry sources told Reuters on Oct 26, in reporting by OilPrice.com. Daily production fell to about 160,000 metric tons in the first half of the month, from 175,000 tons in September, and began climbing toward 180,000 tons a day once the quotas arrived in mid-October. Russia's domestic diesel consumption typically drops to about 140,000 tons a day in October, after the grain harvest and the summer driving season end, leaving at least 40,000 tons a day, more than 1 million tons a month, available for export, according to the sources; between 200,000 and 300,000 tons of that is likely to go to neighbouring countries under intergovernmental agreements. Moscow is expected to keep its diesel export ban, which took effect in August, in place and to use quotas to control how much leaves the country. Kremlin spokesman Dmitry Peskov said shipments to the United States would continue regularly, and at least two other tankers carrying Russian diesel have signaled destinations in Turkey and Brazil. Standard Chartered has warned that Russia will struggle to raise diesel output in the near term because Ukrainian drone strikes have damaged its refineries, which will take months to repair, and that barrels redirected to US buyers come out of supply to Russia's existing customers. Kyiv resumed refinery strikes on October 15 after a three-day pause, which puts the October recovery at risk.",
+   "vintage": "Oct 26, 2026",
+   "source": "OilPrice.com (citing Reuters)",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Refiners-Ramp-Up-Diesel-Output-to-Supply-Trump-Deal.amp.html"
+  },
+  {
    "text": "TankerTrackers.com has identified three tankers carrying Russian diesel to the United States, all loaded at petroleum berths in Russia and declaring the USA as their destination, Robban Assafina reported on Oct 26, noting that diesel is the only known hydrocarbon that the US Office of Foreign Assets Control (OFAC) currently permits imports of from Russia. The first cargo, on the Malta-flagged product tanker Agioi Fanendes, loaded 298,000 barrels of diesel, approximately 40,000 metric tons, at Primorsk and sailed on Oct 23; its AIS signal briefly showed New York as its destination before changing to for orders, and reported arrival dates vary between Nov 7 and Nov 10. LSEG and Kpler data show Russia has broadly resumed exports after an approximately six-week ban due to the impact of Ukraine's strikes on Russian refineries, with cargoes also departed for Turkey and Brazil. Deputy Prime Minister Alexander Novak has indicated that, without further strikes, Russia would be able to resume full production by the end of the year, and diesel exports are expected to resume at a rate of 3 to 3.5 million tons per month.",
    "vintage": "Oct 26, 2026",
    "source": "Robban Assafina",
@@ -397,6 +403,11 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "OilPrice.com (citing Reuters)",
+   "vintage": "",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Refiners-Ramp-Up-Diesel-Output-to-Supply-Trump-Deal.amp.html"
+  },
   {
    "publisher": "Robban Assafina",
    "vintage": "",
