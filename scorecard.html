@@ -1024,11 +1024,11 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p class="tblnote">Status: no backtest yet; flags logged, scoring rule defined, awaiting real prices.</p>
   <h3>Sat Watch sensor claims</h3>
   <p><b>What it scores.</b> The Sat Watch board claims a plant's heat changed: a QUIET claim says the heat fell well below the plant's own normal, a HEAT claim says it stepped up. Every claim is then adjudicated against the NASA Fire Information for Resource Management System (FIRMS) fire archive: when a satellite pass actually covers the plant after the claim, its detections settle the claim. A covered pass showing the claimed change is a <b>hit</b>; a covered pass showing normal heat makes it a <b>false alarm</b>. When two or more plants claim in the same polling window, the window is also checked for a <b>common-mode artifact</b>: one shared sensor cause, such as a bad frame or a cloud field, moving every plant at once. That class is assigned only by a written adjudication, never inferred from the coincidence alone. A claim whose rechecks never get a covered look inside 24 hours closes <b>unresolved</b>.</p>
-  <p><b>The record.</b> 114 claims scored: 0 hits, 104 false alarms, 5 common-mode artifacts, 1 unresolved, 4 still open. Median time to adjudication: 5.2 hours. 16 coincident windows (two or more plants claiming in one polling window) are flagged in the table.</p>
+  <p><b>The record.</b> 114 claims scored: 0 hits, 105 false alarms, 5 common-mode artifacts, 1 unresolved, 3 still open. Median time to adjudication: 5.2 hours. 16 coincident windows (two or more plants claiming in one polling window) are flagged in the table.</p>
   <p><b>By claim kind.</b> No kind has produced a hit. QUIET claims (heat fell) and HEAT claims (heat stepped up) fail alike, so the failure is in the step detector itself, not in one direction of it.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Claim kind</th><th>Claims</th><th>Hits</th><th>False alarms</th><th>Common-mode</th><th>Unresolved</th><th>Open</th></tr>
-  <tr><td>QUIET</td><td class="num">94</td><td class="num">0</td><td class="num">85</td><td class="num">5</td><td class="num">0</td><td class="num">4</td></tr>
+  <tr><td>QUIET</td><td class="num">94</td><td class="num">0</td><td class="num">86</td><td class="num">5</td><td class="num">0</td><td class="num">3</td></tr>
   <tr><td>HEAT</td><td class="num">19</td><td class="num">0</td><td class="num">19</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
   <tr><td>HEADLINE</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td class="num">0</td></tr>
   </table></div>
@@ -1039,7 +1039,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <tr><td>2026-10-27 13:18</td><td>Scotford upgrader</td><td>QUIET</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">0.80</td></tr>
   <tr><td>2026-10-27 13:03</td><td><a class="plink" href="projects/syncrude.html">Syncrude</a> Mildred Lake upgrader</td><td>QUIET</td><td>Open</td><td class="num">-</td><td>joint</td><td class="num">0.78</td></tr>
   <tr><td>2026-10-27 13:03</td><td>Imperial Strathcona refinery</td><td>QUIET</td><td>Open</td><td class="num">-</td><td>joint</td><td class="num">0.77</td></tr>
-  <tr><td>2026-10-27 11:48</td><td><a class="plink" href="projects/su_base_plant.html">Suncor Base Plant</a> upgrader</td><td>QUIET</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">0.78</td></tr>
+  <tr><td>2026-10-27 11:48</td><td><a class="plink" href="projects/su_base_plant.html">Suncor Base Plant</a> upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">3.2 h</td><td>-</td><td class="num">0.78</td></tr>
   <tr><td>2026-10-27 05:02</td><td>Scotford upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">8.0 h</td><td>-</td><td class="num">0.77</td></tr>
   <tr><td>2026-10-27 04:47</td><td>Imperial Strathcona refinery</td><td>QUIET</td><td>False alarm</td><td class="num">8.0 h</td><td>-</td><td class="num">0.73</td></tr>
   <tr><td>2026-10-26 13:17</td><td>Ras Tanura / Ju&#x27;aymah</td><td>HEAT</td><td>False alarm</td><td class="num">5.2 h</td><td>-</td><td class="num">0.93</td></tr>
