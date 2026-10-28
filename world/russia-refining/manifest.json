@@ -2,9 +2,15 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-10-27",
+ "built_at": "2026-10-28",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Russian oil refineries increased crude processing by 25 percent in the second half of October compared with the beginning of the month, to around 5 million barrels per day, after persistent drone attacks on the plants ceased, three industry sources told Reuters on Oct 27. The sources estimated diesel production rose by at least 50,000 metric tons per day in October to 225,000 tons per day, about 1.7 million barrels per day, with about 80,000 tons per day available for export. Russian authorities said some of the last refinery attacks this month were the mid-October strikes at Ryazan and Surgut, with no further refinery strikes after October 16. The halt followed Washington's efforts to revive peace talks between Moscow and Kyiv while securing a diesel supply deal with Russia, days after which President Trump announced an energy ceasefire on October 11. Deputy Prime Minister Alexander Novak said refineries have been swiftly bringing units back online because almost all of the required oil and gas equipment is manufactured domestically. Separately, traders told Reuters on Oct 28 that crude oil exports from Russia's Baltic and Black Sea ports could fall next month as domestic refiners increase diesel output following the deal with Washington.",
+   "vintage": "Oct 27, 2026",
+   "source": "Reuters (via Global Banking & Finance)",
+   "source_url": "https://www.globalbankingandfinance.com/russian-oil-refineries-boost-output-drone-attacks-halt/"
+  },
   {
    "text": "Russian refiners have raised diesel output for October after Moscow issued export quotas under the Kremlin's supply agreement with the United States, two industry sources told Reuters on Oct 26, in reporting by OilPrice.com. Daily production fell to about 160,000 metric tons in the first half of the month, from 175,000 tons in September, and began climbing toward 180,000 tons a day once the quotas arrived in mid-October. Russia's domestic diesel consumption typically drops to about 140,000 tons a day in October, after the grain harvest and the summer driving season end, leaving at least 40,000 tons a day, more than 1 million tons a month, available for export, according to the sources; between 200,000 and 300,000 tons of that is likely to go to neighbouring countries under intergovernmental agreements. Moscow is expected to keep its diesel export ban, which took effect in August, in place and to use quotas to control how much leaves the country. Kremlin spokesman Dmitry Peskov said shipments to the United States would continue regularly, and at least two other tankers carrying Russian diesel have signaled destinations in Turkey and Brazil. Standard Chartered has warned that Russia will struggle to raise diesel output in the near term because Ukrainian drone strikes have damaged its refineries, which will take months to repair, and that barrels redirected to US buyers come out of supply to Russia's existing customers. Kyiv resumed refinery strikes on October 15 after a three-day pause, which puts the October recovery at risk.",
    "vintage": "Oct 26, 2026",
@@ -202,6 +208,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Fires were reported overnight on Oct 27-28 at the Novolipetsk Steel Plant (NLMK), Russia's largest steel producer, and at the Azot chemical plant in Novomoskovsk in the Tula region, following a large wave of Ukrainian drone attacks, EuropeSays reported citing the Kyiv Post. Lipetsk governor Igor Artamonov said 45 drones were shot down over the region and that reports of a major fire at an industrial facility were not true, saying drone debris fell in a wooded area and sparked a contained fire. Tula governor Dmitry Milyaev said drone debris in Novomoskovsk damaged an apartment building, private homes and infrastructure in the adjacent industrial zone, without identifying the facility targeted; the monitoring channel Exilenova+ and the Russian outlet Astra identified the target as the EuroChem Azot plant, one of Russia's largest nitrogen fertiliser producers. Moscow said air defences intercepted and destroyed 531 Ukrainian drones overnight, a figure not independently verified, and Kyiv had not commented on the attacks. Neither target is an oil refinery.",
+   "vintage": "Oct 27-28, 2026",
+   "source": "EuropeSays (citing The Kyiv Post)",
+   "source_url": "https://www.europesays.com/ukraine/61871/"
   },
   {
    "text": "A drone attack in Russia's Voronezh region killed two men and injured 17 people, including a child, regional governor Alexander Gusev said on Oct 26, Reuters reported. Air defence systems had destroyed 113 drones over the region, Gusev wrote on the MAX messaging app. Fires also broke out at several industrial sites, Gusev said. A passenger train bound for Moscow from Anapa was also damaged and five passengers injured, Russian Railways said, and train services through Voronezh have been suspended. Reuters could not independently verify the report. No refinery was named among the targets in the Reuters reporting.",
@@ -404,6 +416,11 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via Global Banking & Finance)",
+   "vintage": "",
+   "url": "https://www.globalbankingandfinance.com/russian-oil-refineries-boost-output-drone-attacks-halt/"
+  },
+  {
    "publisher": "OilPrice.com (citing Reuters)",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Refiners-Ramp-Up-Diesel-Output-to-Supply-Trump-Deal.amp.html"
@@ -567,6 +584,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "EuropeSays (citing The Kyiv Post)",
+   "vintage": "",
+   "url": "https://www.europesays.com/ukraine/61871/"
   },
   {
    "publisher": "Reuters",
