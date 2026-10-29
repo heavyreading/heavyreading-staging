@@ -2,9 +2,33 @@
  "page": "/world/middle-east/",
  "title": "Middle East watch",
  "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
- "built_at": "2026-10-28",
+ "built_at": "2026-10-29",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) said on Oct 29 that three oil tankers exploded and caught fire after hitting sea mines while attempting to cross an unauthorised route south of the Strait of Hormuz over the past 24 hours, in a statement shared by state media, Reuters reported. The tankers had switched off their radar and navigation systems and ignored warnings from the Guards' navy, which said the vessels had been abandoned on the southern shores of the strait. No vessel names, flags or casualty details were given, and the claim had not been independently confirmed.",
+   "vintage": "Oct 29, 2026",
+   "source": "Reuters (via Hatha Alyoum)",
+   "source_url": "https://en.hathalyoum.net/articles/303938"
+  },
+  {
+   "text": "UK Maritime Trade Operations (UKMTO) said on Oct 29 that it had received a report of an incident in the Strait of Hormuz, 9 nautical miles north of Khasab, Oman, where the master of a third-party vessel reported sighting another vessel on fire. The status of the crew is unknown, and there is no damage assessment or environmental impact report at present, UKMTO said. UKMTO advised vessels transiting the area to proceed with caution and report any suspicious activity. Whether the burning vessel is one of the three tankers in the IRGC mine claim reported the same day had not been established.",
+   "vintage": "Oct 29, 2026",
+   "source": "UKMTO (via LatestLY)",
+   "source_url": "https://www.latestly.com/agency-news/world-news-ukmto-says-ship-seen-ablaze-in-strait-of-hormuz-off-oman-coast-7660596.html"
+  },
+  {
+   "text": "The Saudi-led coalition fighting Yemen's Houthis said it destroyed a ballistic missile fired by the group towards the kingdom's eastern region early on Oct 29, Reuters reported, as hostilities between the two sides showed no signs of abating. Yemeni government forces said the Houthis attacked Aden airport on Oct 28. The attacks came a day after the Houthis said they had hit Saudi Arabia's biggest oil refinery, Ras Tanura, with a missile, a strike Saudi authorities did not immediately confirm.",
+   "vintage": "Oct 29, 2026",
+   "source": "Reuters (via WDSM)",
+   "source_url": "https://wdsm710.com/2026/10/28/us-oil-prices-fall-as-investors-gauge-risks-to-mideast-supply/"
+  },
+  {
+   "text": "Qatari mediators have presented Iran with a new draft deal to end the war with the US and Israel, an official briefed on the negotiations told Reuters on Oct 28, but a senior Iranian official said Doha had only put forward unacceptable ideas that did not amount to an offer. The proposal sets a seven-day timeline addressing both Tehran's and Washington's concerns, laying out daily confidence-building steps each side must take, and the timeline could begin early next week with several countries acting as guarantors, the briefed official said. The senior Iranian official said Tehran's policy on showing no flexibility over the nuclear issue remained unchanged. Washington wants Iran's nuclear programme to be part of negotiations from the outset, while Iran says its conditions, which include an end to the US blockade of Iranian ports and the lifting of sanctions on Iranian oil exports, must be met first.",
+   "vintage": "Oct 28, 2026",
+   "source": "Reuters",
+   "source_url": "https://965wtou.com/2026/10/28/qatari-mediators-present-iran-with-new-deal-to-end-the-war-official-says/"
+  },
   {
    "text": "Yemen's Iran-aligned Houthis said on Oct 27 that they had hit Saudi Arabia's Ras Tanura oil refinery, the biggest in the kingdom, with a ballistic missile, Reuters reported. Houthi military spokesperson Yahya Saree said the strike caused a fire at the complex, which also includes a shipping terminal and sits on the Gulf west of the Strait of Hormuz, and Bloomberg News cited a person familiar with the matter as saying Saudi Arabia had contained a fire near Ras Tanura's terminal. Saudi authorities did not immediately confirm the strike. Ras Tanura has a capacity of 550,000 barrels per day and was shut for a period in the early months of the Iran war as a precautionary measure. The Houthis also said they had attacked two military transport jets at Najran Airport and an airbase in Khamis Mushait, and had repelled an advance by Saudi-backed forces near the Bab el-Mandeb Strait, with no immediate Saudi confirmation of those attacks either. The Saudi-led coalition said it had intercepted and destroyed two ballistic missiles launched by the Houthis towards Riyadh, and civil defence authorities briefly issued an air raid alert in the capital on Tuesday afternoon.",
    "vintage": "Oct 27, 2026",
@@ -262,6 +286,12 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil prices fell on Oct 29, paring gains made a day earlier, as hopes for peace talks took the edge off renewed concerns over Middle East supply disruptions, Reuters reported. Brent crude futures declined $1.22, or 1.1 percent, to $114.10 a barrel at 0351 GMT, and US West Texas Intermediate crude futures were down $1.33, or 1.3 percent, at $101.45. Brent rose 1.3 percent and WTI gained 3 percent on Oct 28. US Vice President JD Vance sought to revive peace negotiations by sending a letter to Iranian Security Council chief Mohsen Rezaei, the Wall Street Journal said on Oct 28, citing US officials and people familiar with the matter. Yuki Takashima, an economist at Nomura Securities, said selling pressure was prevailing amid expectations that peace talks may resume, but the decline remained limited due to concerns over intensified Houthi attacks and fears the US may launch an attack on Iran following its midterm elections on November 3. Iran's foreign minister said on Oct 28 that Tehran continued to give diplomacy a chance to succeed.",
+   "vintage": "Oct 29, 2026",
+   "source": "Reuters (via WDSM)",
+   "source_url": "https://wdsm710.com/2026/10/28/us-oil-prices-fall-as-investors-gauge-risks-to-mideast-supply/"
   },
   {
    "text": "Oil prices rose by more than $2 on Oct 28 after an attack on a refinery in Saudi Arabia, the world's top crude exporter, renewed concerns about supply risks, Reuters reported. Brent crude futures rose $2.02, or 1.8 percent, to $115.90 a barrel as of 0735 GMT, and US West Texas Intermediate crude gained $2.01, or 2.0 percent, at $101.91. Yemen's Iran-aligned Houthis said on Tuesday they had hit Saudi Arabia's biggest oil refinery with a missile, and Saudi authorities did not immediately confirm the strike on the 550,000 barrel-per-day facility. Prices had dropped nearly $2 on Tuesday before swinging higher. ING commodity strategists said the market is still pricing in a greater likelihood of re-escalation, that oil prices remain elevated as the market waits for greater clarity on President Trump's next move toward Iran, and that if the market gets past the US elections without renewed strikes on Iran, that might be enough for the risk premium to start eroding.",
@@ -1483,6 +1513,26 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "Reuters (via Hatha Alyoum)",
+   "vintage": "",
+   "url": "https://en.hathalyoum.net/articles/303938"
+  },
+  {
+   "publisher": "UKMTO (via LatestLY)",
+   "vintage": "",
+   "url": "https://www.latestly.com/agency-news/world-news-ukmto-says-ship-seen-ablaze-in-strait-of-hormuz-off-oman-coast-7660596.html"
+  },
+  {
+   "publisher": "Reuters (via WDSM)",
+   "vintage": "",
+   "url": "https://wdsm710.com/2026/10/28/us-oil-prices-fall-as-investors-gauge-risks-to-mideast-supply/"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://965wtou.com/2026/10/28/qatari-mediators-present-iran-with-new-deal-to-end-the-war-official-says/"
+  },
   {
    "publisher": "Reuters (via 94.7 The Beast)",
    "vintage": "",
