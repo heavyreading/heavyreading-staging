@@ -1,5 +1,5 @@
 {
- "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-10-29T05:26:24.479142Z",
+ "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-10-29T05:34:28.995464Z",
  "data": {
   "updated_at": "2026-10-29T04:09:42.291089Z",
   "events": [
@@ -17,11 +17,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 75 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-29T00:35:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 82 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-29T00:35:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261029T040942-sensor-yanbu",
-     "generated_at": "2026-10-29T05:24:44.252476Z",
+     "generated_at": "2026-10-29T05:32:34.954978Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -74,7 +74,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 75,
+      "minutes_since_claim": 82,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -94,7 +94,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 75 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-29T00:35:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 82 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-29T00:35:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {
@@ -111,11 +111,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 149 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:46:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 157 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:46:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261029T025444-sensor-hormuz",
-     "generated_at": "2026-10-29T05:24:44.252476Z",
+     "generated_at": "2026-10-29T05:32:34.954978Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -168,7 +168,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 149,
+      "minutes_since_claim": 157,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -188,7 +188,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 149 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:46:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 157 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:46:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {
@@ -205,11 +205,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 205 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 213 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261029T015929-sensor-strathcona",
-     "generated_at": "2026-10-29T05:24:44.252476Z",
+     "generated_at": "2026-10-29T05:32:34.954978Z",
      "claims": [
       {
        "source": "SENSOR (GOES-West)",
@@ -262,7 +262,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 205,
+      "minutes_since_claim": 213,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -282,7 +282,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 205 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 213 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {
@@ -299,11 +299,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 205 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 213 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261029T015929-sensor-scotford",
-     "generated_at": "2026-10-29T05:24:44.252476Z",
+     "generated_at": "2026-10-29T05:32:34.954978Z",
      "claims": [
       {
        "source": "SENSOR (GOES-West)",
@@ -356,7 +356,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 205,
+      "minutes_since_claim": 213,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -376,7 +376,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 205 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 213 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T23:16:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {
@@ -393,11 +393,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 325 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T21:27:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 333 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T21:27:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261028T235926-sensor-suncor",
-     "generated_at": "2026-10-29T05:24:44.252476Z",
+     "generated_at": "2026-10-29T05:32:34.954978Z",
      "claims": [
       {
        "source": "SENSOR (GOES-West)",
@@ -450,7 +450,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 325,
+      "minutes_since_claim": 333,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -475,7 +475,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 325 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T21:27:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 333 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T21:27:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly."
     }
    },
    {
@@ -492,11 +492,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 325 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T21:27:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 333 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T21:27:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261028T235926-sensor-syncrude",
-     "generated_at": "2026-10-29T05:24:44.252476Z",
+     "generated_at": "2026-10-29T05:32:34.954978Z",
      "claims": [
       {
        "source": "SENSOR (GOES-West)",
@@ -549,7 +549,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 325,
+      "minutes_since_claim": 333,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -574,7 +574,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 325 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T21:27:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 333 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-10-28T21:27:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: anomaly."
     }
    },
    {
