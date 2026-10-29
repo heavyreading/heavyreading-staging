@@ -2,7 +2,7 @@
  "schema": "micro-balance/1",
  "region": "bakken",
  "title": "Bakken micro-balance",
- "built": "2026-10-28",
+ "built": "2026-10-29",
  "as_of": "August 2026",
  "as_of_note": "Production Aug 2026 (ND DMR). Rail Jul 2026 (EIA). Dakota Access flow is the CY2024 Form 6 average. Capacities as of Oct 2026.",
  "units": "kb/d unless a field name says otherwise",

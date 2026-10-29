@@ -1024,18 +1024,20 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p class="tblnote">Status: no backtest yet; flags logged, scoring rule defined, awaiting real prices.</p>
   <h3>Sat Watch sensor claims</h3>
   <p><b>What it scores.</b> The Sat Watch board claims a plant's heat changed: a QUIET claim says the heat fell well below the plant's own normal, a HEAT claim says it stepped up. Every claim is then adjudicated against the NASA Fire Information for Resource Management System (FIRMS) fire archive: when a satellite pass actually covers the plant after the claim, its detections settle the claim. A covered pass showing the claimed change is a <b>hit</b>; a covered pass showing normal heat makes it a <b>false alarm</b>. When two or more plants claim in the same polling window, the window is also checked for a <b>common-mode artifact</b>: one shared sensor cause, such as a bad frame or a cloud field, moving every plant at once. That class is assigned only by a written adjudication, never inferred from the coincidence alone. A claim whose rechecks never get a covered look inside 24 hours closes <b>unresolved</b>.</p>
-  <p><b>The record.</b> 126 claims scored: 0 hits, 116 false alarms, 5 common-mode artifacts, 1 unresolved, 4 still open. Median time to adjudication: 5.2 hours. 18 coincident windows (two or more plants claiming in one polling window) are flagged in the table.</p>
+  <p><b>The record.</b> 128 claims scored: 0 hits, 116 false alarms, 5 common-mode artifacts, 1 unresolved, 6 still open. Median time to adjudication: 5.2 hours. 18 coincident windows (two or more plants claiming in one polling window) are flagged in the table.</p>
   <p><b>By claim kind.</b> No kind has produced a hit. QUIET claims (heat fell) and HEAT claims (heat stepped up) fail alike, so the failure is in the step detector itself, not in one direction of it.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Claim kind</th><th>Claims</th><th>Hits</th><th>False alarms</th><th>Common-mode</th><th>Unresolved</th><th>Open</th></tr>
   <tr><td>QUIET</td><td class="num">102</td><td class="num">0</td><td class="num">93</td><td class="num">5</td><td class="num">0</td><td class="num">4</td></tr>
-  <tr><td>HEAT</td><td class="num">22</td><td class="num">0</td><td class="num">22</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+  <tr><td>HEAT</td><td class="num">24</td><td class="num">0</td><td class="num">22</td><td class="num">0</td><td class="num">0</td><td class="num">2</td></tr>
   <tr><td>HEADLINE</td><td class="num">2</td><td class="num">0</td><td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">0</td></tr>
   </table></div>
-  <p><b>By firing hour (UTC).</b> Claims are not spread evenly across the day: the 03:00 to 05:59 block holds 31 of 126 claims, against an even share of 16 per 3-hour block. A firing rate that clusters by time of day points at the baseline (what the sensor calls normal at that hour), not at the plants. The full split: 00h 12, 03h 31, 06h 12, 09h 12, 12h 17, 15h 4, 18h 20, 21h 18.</p>
-  <p><b>Baseline weight check.</b> 29 claims carry a logged weight (HEADLINE average 1.00 over 1 claims; HEAT average 0.86 over 8 claims; QUIET average 0.75 over 20 claims). The highest weight on record, 1.00 (HEAT on Yanbu), is classed False alarm. So far the weight tracks baseline maturity only; it has not sorted a true claim from a false one, because there has been no true claim to sort.</p>
+  <p><b>By firing hour (UTC).</b> Claims are not spread evenly across the day: the 03:00 to 05:59 block holds 32 of 128 claims, against an even share of 16 per 3-hour block. A firing rate that clusters by time of day points at the baseline (what the sensor calls normal at that hour), not at the plants. The full split: 00h 13, 03h 32, 06h 12, 09h 12, 12h 17, 15h 4, 18h 20, 21h 18.</p>
+  <p><b>Baseline weight check.</b> 31 claims carry a logged weight (HEADLINE average 1.00 over 1 claims; HEAT average 0.89 over 10 claims; QUIET average 0.75 over 20 claims). The highest weight on record, 1.00 (HEAT on Yanbu), is classed Open. So far the weight tracks baseline maturity only; it has not sorted a true claim from a false one, because there has been no true claim to sort.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Opened (UTC)</th><th>Plant</th><th>Claim</th><th>Class</th><th>Settled in</th><th>Window</th><th>Baseline weight</th></tr>
+  <tr><td>2026-10-29 04:09</td><td>Yanbu</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">1.00</td></tr>
+  <tr><td>2026-10-29 02:54</td><td>Strait of Hormuz</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">1.00</td></tr>
   <tr><td>2026-10-29 01:59</td><td>Scotford upgrader</td><td>QUIET</td><td>Open</td><td class="num">-</td><td>joint</td><td class="num">0.89</td></tr>
   <tr><td>2026-10-29 01:59</td><td>Imperial Strathcona refinery</td><td>QUIET</td><td>Open</td><td class="num">-</td><td>joint</td><td class="num">0.85</td></tr>
   <tr><td>2026-10-28 23:59</td><td><a class="plink" href="projects/syncrude.html">Syncrude</a> Mildred Lake upgrader</td><td>QUIET</td><td>Open</td><td class="num">-</td><td>joint</td><td class="num">0.85</td></tr>
@@ -1046,8 +1048,6 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <tr><td>2026-10-28 03:51</td><td><a class="plink" href="projects/su_base_plant.html">Suncor Base Plant</a> upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">15.8 h</td><td>-</td><td class="num">0.84</td></tr>
   <tr><td>2026-10-28 03:21</td><td>Kharg Island</td><td>HEAT</td><td>False alarm</td><td class="num">16.3 h</td><td>-</td><td class="num">1.00</td></tr>
   <tr><td>2026-10-27 17:48</td><td>Strait of Hormuz</td><td>HEAT</td><td>False alarm</td><td class="num">25.8 h</td><td>-</td><td class="num">1.00</td></tr>
-  <tr><td>2026-10-27 15:12</td><td><a class="plink" href="projects/su_base_plant.html">Suncor Base Plant</a> upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">12.1 h</td><td>-</td><td class="num">0.79</td></tr>
-  <tr><td>2026-10-27 13:18</td><td>Scotford upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">30.3 h</td><td>-</td><td class="num">0.80</td></tr>
   </table></div>
   <p class="tblnote">Baseline weight is the claim's confidence weight from its plant's baseline maturity, logged with the claim record from 2026-10-24 on: a claim on a young baseline carries less weight than one on a mature baseline. Claims opened earlier carry no weight and show a dash.</p>
   <h3>Trading signals</h3>

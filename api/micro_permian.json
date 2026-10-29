@@ -2,7 +2,7 @@
  "schema": "micro-balance/1",
  "region": "permian",
  "title": "Permian micro-balance",
- "built": "2026-10-28",
+ "built": "2026-10-29",
  "as_of": "October 2026",
  "as_of_note": "Current frame on the EIA October 2026 STEO path. Items carry their own vintages; the production split items are older or unmeasured, and say so on the item.",
  "units": "kb/d unless a field name says otherwise",
