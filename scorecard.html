@@ -1023,13 +1023,14 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <tr><td>Depth: within this, 75% of the time</td><td class="num">&plusmn;0.14 pts</td><td class="num">&plusmn;0.13 pts</td></tr>
   <tr><td>Depth: within this, 90% of the time</td><td class="num">&plusmn;0.23 pts</td><td class="num">&plusmn;0.18 pts</td></tr>
   </table></div>
-  <p><b>Two separate verdicts.</b> Calling whether apportionment happens and calling how deep it runs are different skills, and this backtest scores them differently. On incidence, the model is ahead of repeat-last-month on every corridor below. On depth, repeat-last-month is ahead on every corridor below. Read the two columns as two records.</p>
+  <p><b>Two separate verdicts.</b> Calling whether apportionment happens and calling how deep it runs are different skills, and this backtest scores them differently. On incidence, the model point estimate sits ahead of repeat-last-month on every corridor below, but the 95% uncertainty bands printed in the table overlap on every corridor, so no corridor incidence edge is established yet. On depth, repeat-last-month is ahead on every corridor below. Read the two columns as two records.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Corridor</th><th>Forecasts</th><th>Incidence: model vs naive</th><th>Depth miss: model vs naive</th><th>Verdicts</th></tr>
-  <tr><td>Kerrobert, Line 4/67 (heavy service)</td><td class="num">79</td><td class="num">97.5% vs 96.2% <span class="tblnote">(+1.3 pts)</span></td><td class="num">0.07 vs 0.06 pts</td><td>Incidence: model ahead. Depth: naive ahead.</td></tr>
-  <tr><td>Kerrobert heavies</td><td class="num">52</td><td class="num">98.1% vs 94.2% <span class="tblnote">(+3.8 pts)</span></td><td class="num">0.10 vs 0.07 pts</td><td>Incidence: model ahead. Depth: naive ahead.</td></tr>
-  <tr><td>Superior, Line 6/61 <span class="tblnote">(small sample)</span></td><td class="num">5</td><td class="num">100.0% vs 80.0% <span class="tblnote">(+20.0 pts)</span></td><td class="num">0.11 vs 0.07 pts</td><td>Incidence: model ahead. Depth: naive ahead.</td></tr>
+  <tr><td>Kerrobert, Line 4/67 (heavy service)</td><td class="num">79</td><td class="num">97.5% vs 96.2% <span class="tblnote">(+1.3 pts)</span> <span class="tblnote">(95% CI 91.2%-99.3% vs 89.4%-98.7%)</span></td><td class="num">0.07 vs 0.06 pts</td><td>Incidence: not established (bands overlap). Depth: naive ahead.</td></tr>
+  <tr><td>Kerrobert heavies</td><td class="num">52</td><td class="num">98.1% vs 94.2% <span class="tblnote">(+3.8 pts)</span> <span class="tblnote">(95% CI 89.9%-99.7% vs 84.4%-98.0%)</span></td><td class="num">0.10 vs 0.07 pts</td><td>Incidence: not established (bands overlap). Depth: naive ahead.</td></tr>
+  <tr><td>Superior, Line 6/61 <span class="tblnote">(small sample)</span></td><td class="num">5</td><td class="num">100.0% vs 80.0% <span class="tblnote">(+20.0 pts)</span> <span class="tblnote">(95% CI 56.5%-100.0% vs 37.5%-96.4%)</span></td><td class="num">0.11 vs 0.07 pts</td><td>Incidence: not established (bands overlap). Depth: naive ahead.</td></tr>
   </table></div>
+  <p class="tblnote">Smallest sample: Superior, Line 6/61 rests on 5 forecasts. Its incidence line reads 100.0% for the model (95% CI 56.5%-100.0%) against 80.0% for the naive rule (95% CI 37.5%-96.4%). A point-estimate edge inside bands that wide is not an established edge; the row earns a verdict when its count and its bands separate.</p>
   <p class="tblnote">The live November 2026 judgment call is a separate record of one month: judgment depth miss 4.0 points against persistence at 7.0 points. One live month sits beside the backtest; it does not replace it.</p>
   <p><b>Plain English.</b> The model calls apportionment on or off correctly 95.8% of the time, but the naive rule (just repeat last month) is right 93.1% of the time, and the uncertainty bands overlap: we do not claim the model beats it. On depth (how much gets apportioned), the model misses by 0.10 points on average and lands within &plusmn;0.23 points 90% of the time; the naive rule misses by less (0.08). That is why the live nowcast below is the naive baseline, not the model: if it has no predictive power we do not use it.</p>
   <p><b>On the clock.</b> November 2026 nowcast: November announced Oct 20, 2026: 19% lights / 7% heavies at Kerrobert (plus 13% lights at Cromer, 16% heavies at Superior). scored Oct 20, 2026: persistence (8% / 4%) depth error 11 points light, 3 heavy (MAE 7.0); the registered judgment call (12% / 8%) error 7 light, 1 heavy (MAE 4.0), direction deeper on both classes correct; the judgment call beat the baseline on both segments.</p>
@@ -1066,28 +1067,29 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p class="tblnote">Status: no backtest yet; flags logged, scoring rule defined, awaiting real prices.</p>
   <h3>Sat Watch sensor claims</h3>
   <p><b>What it scores.</b> The Sat Watch board claims a plant's heat changed: a QUIET claim says the heat fell well below the plant's own normal, a HEAT claim says it stepped up. Every claim is then adjudicated against the NASA Fire Information for Resource Management System (FIRMS) fire archive: when a satellite pass actually covers the plant after the claim, its detections settle the claim. A covered pass showing the claimed change is a <b>hit</b>; a covered pass showing normal heat makes it a <b>false alarm</b>. When two or more plants claim in the same polling window, the window is also checked for a <b>common-mode artifact</b>: one shared sensor cause, such as a bad frame or a cloud field, moving every plant at once. That class is assigned only by a written adjudication, never inferred from the coincidence alone. A claim whose rechecks never get a covered look inside 24 hours closes <b>unresolved</b>.</p>
-  <p><b>The record.</b> 132 claims scored: 0 hits, 123 false alarms, 5 common-mode artifacts, 1 unresolved, 3 still open. Median time to adjudication: 5.2 hours. 18 coincident windows (two or more plants claiming in one polling window) are flagged in the table.</p>
-  <p><b>Claims pause, status.</b> The claims arm was paused on 26 October 2026: no new claim was to be presented as a finding until its gates were proven. The sensor engine has kept logging in the background, and 29 claims have been logged since the pause (17 on the Canada board, 12 on the Gulf board). Those claims are graded here like the rest of the record. The pause covers presentation, not logging, and this line keeps the two from being confused.</p>
+  <p><b>The record.</b> 133 claims scored: 0 hits, 126 false alarms, 5 common-mode artifacts, 1 unresolved, 1 still open. Median time to adjudication: 5.2 hours. 18 coincident windows (two or more plants claiming in one polling window) are flagged in the table.</p>
+  <p><b>Claims pause, status.</b> The claims arm was paused on 26 October 2026: no new claim was to be presented as a finding until its gates were proven. The sensor engine has kept logging in the background, and 30 claims have been logged since the pause (17 on the Canada board, 13 on the Gulf board). Those claims are graded here like the rest of the record. The pause covers presentation, not logging, and this line keeps the two from being confused.</p>
   <p><b>By board.</b> Two boards, two instruments. The Canada board watches upgraders and refineries for QUIET steps, a plant going quiet. The Gulf board watches terminals and the Strait of Hormuz for HEAT steps, heat appearing where it was not. Neither board has produced a hit, and the split shows the failure is not confined to one board or one direction.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Board</th><th>Claims</th><th>Hits</th><th>False alarms</th><th>Common-mode</th><th>Unresolved</th><th>Open</th></tr>
   <tr><td>Canada (QUIET arm)</td><td class="num">105</td><td class="num">0</td><td class="num">100</td><td class="num">5</td><td class="num">0</td><td class="num">0</td></tr>
-  <tr><td>Gulf (HEAT arm)</td><td class="num">27</td><td class="num">0</td><td class="num">23</td><td class="num">0</td><td class="num">1</td><td class="num">3</td></tr>
+  <tr><td>Gulf (HEAT arm)</td><td class="num">28</td><td class="num">0</td><td class="num">26</td><td class="num">0</td><td class="num">1</td><td class="num">1</td></tr>
   </table></div>
   <p><b>By claim kind.</b> No kind has produced a hit. QUIET claims (heat fell) and HEAT claims (heat stepped up) fail alike, so the failure is in the step detector itself, not in one direction of it.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Claim kind</th><th>Claims</th><th>Hits</th><th>False alarms</th><th>Common-mode</th><th>Unresolved</th><th>Open</th></tr>
   <tr><td>QUIET</td><td class="num">102</td><td class="num">0</td><td class="num">97</td><td class="num">5</td><td class="num">0</td><td class="num">0</td></tr>
-  <tr><td>HEAT</td><td class="num">27</td><td class="num">0</td><td class="num">24</td><td class="num">0</td><td class="num">0</td><td class="num">3</td></tr>
+  <tr><td>HEAT</td><td class="num">28</td><td class="num">0</td><td class="num">27</td><td class="num">0</td><td class="num">0</td><td class="num">1</td></tr>
   <tr><td>HEADLINE</td><td class="num">3</td><td class="num">0</td><td class="num">2</td><td class="num">0</td><td class="num">1</td><td class="num">0</td></tr>
   </table></div>
-  <p><b>By firing hour (UTC).</b> Claims are not spread evenly across the day: the 03:00 to 05:59 block holds 35 of 132 claims, against an even share of 16 per 3-hour block. A firing rate that clusters by time of day points at the baseline (what the sensor calls normal at that hour), not at the plants. The full split: 00h 13, 03h 35, 06h 12, 09h 13, 12h 17, 15h 4, 18h 20, 21h 18.</p>
-  <p><b>Baseline weight check.</b> 35 claims carry a logged weight (HEADLINE average 1.00 over 2 claims; HEAT average 0.92 over 13 claims; QUIET average 0.75 over 20 claims). The highest weight on record, 1.00 (HEAT on Yanbu), is classed Open. So far the weight tracks baseline maturity only; it has not sorted a true claim from a false one, because there has been no true claim to sort.</p>
+  <p><b>By firing hour (UTC).</b> Claims are not spread evenly across the day: the 03:00 to 05:59 block holds 35 of 133 claims, against an even share of 17 per 3-hour block. A firing rate that clusters by time of day points at the baseline (what the sensor calls normal at that hour), not at the plants. The full split: 00h 13, 03h 35, 06h 12, 09h 13, 12h 18, 15h 4, 18h 20, 21h 18.</p>
+  <p><b>Baseline weight check.</b> 36 claims carry a logged weight (HEADLINE average 1.00 over 2 claims; HEAT average 0.92 over 14 claims; QUIET average 0.75 over 20 claims). The highest weight on record, 1.00 (HEAT on Kharg Island), is classed Open. So far the weight tracks baseline maturity only; it has not sorted a true claim from a false one, because there has been no true claim to sort.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Opened (UTC)</th><th>Plant</th><th>Claim</th><th>Class</th><th>Settled in</th><th>Window</th><th>Baseline weight</th></tr>
-  <tr><td>2026-10-30 04:19</td><td>Yanbu</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">1.00</td></tr>
-  <tr><td>2026-10-30 03:30</td><td>Kharg Island</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">1.00</td></tr>
-  <tr><td>2026-10-30 03:15</td><td>Strait of Hormuz</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">1.00</td></tr>
+  <tr><td>2026-10-30 14:02</td><td>Kharg Island</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">1.00</td></tr>
+  <tr><td>2026-10-30 04:19</td><td>Yanbu</td><td>HEAT</td><td>False alarm</td><td class="num">9.5 h</td><td>-</td><td class="num">1.00</td></tr>
+  <tr><td>2026-10-30 03:30</td><td>Kharg Island</td><td>HEAT</td><td>False alarm</td><td class="num">10.3 h</td><td>-</td><td class="num">1.00</td></tr>
+  <tr><td>2026-10-30 03:15</td><td>Strait of Hormuz</td><td>HEAT</td><td>False alarm</td><td class="num">10.5 h</td><td>-</td><td class="num">1.00</td></tr>
   <tr><td>2026-10-29 11:43</td><td>Strait of Hormuz</td><td>HEADLINE</td><td>False alarm</td><td class="num">11.4 h</td><td>-</td><td class="num">1.00</td></tr>
   <tr><td>2026-10-29 04:09</td><td>Yanbu</td><td>HEAT</td><td>False alarm</td><td class="num">18.9 h</td><td>-</td><td class="num">1.00</td></tr>
   <tr><td>2026-10-29 02:54</td><td>Strait of Hormuz</td><td>HEAT</td><td>False alarm</td><td class="num">3.1 h</td><td>-</td><td class="num">1.00</td></tr>
@@ -1096,7 +1098,6 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <tr><td>2026-10-28 23:59</td><td><a class="plink" href="projects/syncrude.html">Syncrude</a> Mildred Lake upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">23.1 h</td><td>joint</td><td class="num">0.85</td></tr>
   <tr><td>2026-10-28 23:59</td><td><a class="plink" href="projects/su_base_plant.html">Suncor Base Plant</a> upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">23.1 h</td><td>joint</td><td class="num">0.86</td></tr>
   <tr><td>2026-10-28 20:21</td><td>Imperial Strathcona refinery</td><td>QUIET</td><td>False alarm</td><td class="num">5.1 h</td><td>-</td><td class="num">0.83</td></tr>
-  <tr><td>2026-10-28 19:52</td><td>Scotford upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">5.1 h</td><td>-</td><td class="num">0.87</td></tr>
   </table></div>
   <p class="tblnote">Baseline weight is the claim's confidence weight from its plant's baseline maturity, logged with the claim record from 2026-10-24 on: a claim on a young baseline carries less weight than one on a mature baseline. Claims opened earlier carry no weight and show a dash.</p>
   <h3>Trading signals</h3>
@@ -1204,6 +1205,8 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   });
 })();
 </script>
+
+
 <script id="chg-visit">
 (function(){try{
   var KEY='hr-last-visit', SKEY='hr-visit-since';
