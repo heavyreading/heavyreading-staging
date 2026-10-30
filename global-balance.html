@@ -839,6 +839,31 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   var meta=document.querySelector('meta[name="hr-page-key"]');
   var page=meta?meta.getAttribute('content'):'';
   if(!page){ return; }
+  function markBox(el){
+    var sec=el.closest('section');
+    if(sec){ sec.classList.add('chg-since-sec'); return; }
+    var h2=el.closest('h2');
+    if(h2&&h2.parentNode){
+      // Bare-heading pages (the world watches): the section is an
+      // <h2> plus sibling content with no <section> wrapper, so
+      // painting the heading alone leaves the section body plain
+      // and reads as no highlight at all. Wrap the heading and its
+      // following siblings, up to the next <h2>, in a <section> so
+      // the whole section body carries the treatment.
+      var wrap=document.createElement('section');
+      wrap.className='chg-since-sec';
+      h2.parentNode.insertBefore(wrap,h2);
+      var node=h2;
+      while(node){
+        var next=node.nextSibling;
+        wrap.appendChild(node);
+        if(next&&next.nodeType===1&&next.tagName==='H2'){ break; }
+        node=next;
+      }
+      return;
+    }
+    if(el.parentElement){ el.parentElement.classList.add('chg-since-sec'); }
+  }
   function apply(prev){
     if(!prev){ return; }
     var sd=String(prev).slice(0,10);
@@ -846,8 +871,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
       if(el.getAttribute('data-chg')>sd){
         el.classList.add('chg-since');
         el.title=el.title+' (since your last visit to this page)';
-        var box=el.closest('section')||el.closest('h2')||el.parentElement;
-        if(box){ box.classList.add('chg-since-sec'); }
+        markBox(el);
       }
     });
   }

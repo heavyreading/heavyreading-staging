@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-10-30T09:17:11-06:00",
+ "built_at": "2026-10-30T11:53:11-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -13928,16 +13928,16 @@
    "source": "Baltic Exchange (via thedcn.com.au)",
    "pull": "freight-watch-weekly",
    "cadence": "weekly",
-   "vintage": "Baltic Exchange via freight pull. Data through October 16, 2026.",
+   "vintage": "Baltic Exchange via freight pull. Data through October 23, 2026.",
    "stats": {
-    "level": 1370193.0,
-    "percentile": 97.43589743589743,
+    "level": 1287851.0,
+    "percentile": 95.0,
     "series_record": false,
-    "worldscale": 1281.25,
-    "trigger": "In rotation: TD3C earnings in the 97th percentile of the series",
-    "date": "2026-10-16"
+    "worldscale": 1208.13,
+    "trigger": "In rotation: TD3C earnings in the 95th percentile of the series",
+    "date": "2026-10-23"
    },
-   "narrative_text": "Very large crude carrier (VLCC) earnings on the Middle East to China route, TD3C, printed $1,370,193 a day in the week of October 16, 2026 (Worldscale 1,281), in the 97th percentile of weekly readings since March 2024. Freight at this level is a tax on every long-haul barrel and reshuffles which grades can travel; the Freight Watch page tracks it route by route, including the Vancouver to Asia leg that prices TMX barrels. Four consecutive weeks back inside the normal band retires this chart to the archive below.",
+   "narrative_text": "Very large crude carrier (VLCC) earnings on the Middle East to China route, TD3C, printed $1,287,851 a day in the week of October 23, 2026 (Worldscale 1,208), in the 95th percentile of weekly readings since March 2024. Freight at this level is a tax on every long-haul barrel and reshuffles which grades can travel; the Freight Watch page tracks it route by route, including the Vancouver to Asia leg that prices TMX barrels. Four consecutive weeks back inside the normal band retires this chart to the archive below.",
    "points": [
     [
      "2025-07-04",
@@ -14094,6 +14094,10 @@
     [
      "2026-10-16",
      1370193.0
+    ],
+    [
+     "2026-10-23",
+     1287851.0
     ]
    ]
   }

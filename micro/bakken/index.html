@@ -708,7 +708,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   </header>
   <div class="crumb"><a href="../">Micro-balances</a> / Bakken</div>
   <h1>The Bakken balance, cut to pipes and plants</h1>
-  <p class="sub">The Williston Basin balance, cut to pipes and plants. <span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></p>
+  <p class="sub">The Williston Basin balance, cut to pipes and plants.<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></p>
 
 <style>
 .mb-panel{border:1px solid var(--line);border-radius:12px;padding:16px 18px 10px;margin:20px 0 6px}
@@ -1035,6 +1035,31 @@ details.mb-more p{font-size:13.5px;line-height:1.6;margin:8px 0}
   var meta=document.querySelector('meta[name="hr-page-key"]');
   var page=meta?meta.getAttribute('content'):'';
   if(!page){ return; }
+  function markBox(el){
+    var sec=el.closest('section');
+    if(sec){ sec.classList.add('chg-since-sec'); return; }
+    var h2=el.closest('h2');
+    if(h2&&h2.parentNode){
+      // Bare-heading pages (the world watches): the section is an
+      // <h2> plus sibling content with no <section> wrapper, so
+      // painting the heading alone leaves the section body plain
+      // and reads as no highlight at all. Wrap the heading and its
+      // following siblings, up to the next <h2>, in a <section> so
+      // the whole section body carries the treatment.
+      var wrap=document.createElement('section');
+      wrap.className='chg-since-sec';
+      h2.parentNode.insertBefore(wrap,h2);
+      var node=h2;
+      while(node){
+        var next=node.nextSibling;
+        wrap.appendChild(node);
+        if(next&&next.nodeType===1&&next.tagName==='H2'){ break; }
+        node=next;
+      }
+      return;
+    }
+    if(el.parentElement){ el.parentElement.classList.add('chg-since-sec'); }
+  }
   function apply(prev){
     if(!prev){ return; }
     var sd=String(prev).slice(0,10);
@@ -1042,8 +1067,7 @@ details.mb-more p{font-size:13.5px;line-height:1.6;margin:8px 0}
       if(el.getAttribute('data-chg')>sd){
         el.classList.add('chg-since');
         el.title=el.title+' (since your last visit to this page)';
-        var box=el.closest('section')||el.closest('h2')||el.parentElement;
-        if(box){ box.classList.add('chg-since-sec'); }
+        markBox(el);
       }
     });
   }
