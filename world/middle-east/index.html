@@ -620,6 +620,48 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   padding:14px 18px; margin:22px 0; }
 .takeaway h2 { margin:0 0 8px; font-size:17px; }
 .takeaway p.note { margin-bottom:0; }
+
+/* What's Changed layer (2026-10-30): computed section stamps, the nav
+   badge, the since-last-visit treatment, and the changes river. Quiet by
+   design: whisper type, hairlines, the oxide accent only on fresh
+   changes. Stamps are computed by build_changes.py from section content
+   hashes, never hand-written, and never advance on a republication. */
+.chg-stamp { display:inline-block; margin-left:10px; font-family:var(--sans);
+  font-size:11px; font-weight:500; letter-spacing:.02em; color:var(--faint);
+  vertical-align:middle; white-space:nowrap; }
+.chg-stamp::before { content:""; display:inline-block; width:6px; height:6px;
+  border-radius:50%; background:var(--line); margin-right:5px;
+  vertical-align:1px; }
+.chg-stamp.chg-week { color:var(--mut); }
+.chg-stamp.chg-week::before { background:var(--faint); }
+.chg-stamp.chg-new { color:var(--acc-deep); font-weight:600; }
+.chg-stamp.chg-new::before { background:var(--acc); }
+.chg-stamp.chg-since { color:var(--acc-deep); font-weight:600;
+  text-decoration:underline; text-decoration-color:var(--acc);
+  text-underline-offset:3px; }
+.chg-stamp.chg-since::before { background:var(--acc);
+  box-shadow:0 0 0 3px var(--ch-wash-acc); }
+.chg-badge { display:inline-flex; align-items:center; gap:6px;
+  font-family:var(--sans); font-size:12px; font-weight:600;
+  color:var(--acc-deep); text-decoration:none; padding:4px 0 4px 14px;
+  white-space:nowrap; }
+.chg-badge::before { content:""; width:7px; height:7px; border-radius:50%;
+  background:var(--acc); }
+.chg-badge:hover { text-decoration:underline; text-underline-offset:3px; }
+.chg-river { border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line); padding:16px 0 8px; margin:20px 0 28px; }
+.chg-river .chg-river-head { display:flex; justify-content:space-between;
+  align-items:baseline; gap:12px; }
+.chg-river h2.chg-river-title { font-size:19px; margin:0 0 4px; }
+.chg-river .chg-more { font-size:12.5px; color:var(--mut); white-space:nowrap; }
+.chg-day { font-family:var(--serif); font-size:19px; margin:28px 0 4px; }
+.chg-list { list-style:none; margin:0; padding:0; }
+.chg-list li { padding:7px 0; border-bottom:1px solid var(--line2);
+  font-size:14.5px; line-height:1.45; }
+.chg-list .chg-sec { color:var(--mut); }
+.chg-list .chg-note { display:block; color:var(--ink); }
+.chg-list a { color:var(--ink); font-weight:600; text-decoration:none; }
+.chg-list a:hover { text-decoration:underline; text-underline-offset:3px; }
 </style>
 </head>
 <body>
@@ -649,7 +691,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
       <div class="mnav-sec"><p class="mnav-label">The Wing</p><a class="mg-link" href="../../options/index.html">The Wing (options)</a><a class="mg-link" href="../../options/charts/index.html">The Wing charts</a></div>
       <div class="mnav-sec"><p class="mnav-label">Reference</p><a class="mg-link" href="../../fieldguide/index.html">Field guide</a><a class="mg-link" href="../../global-balance.html">Global balance</a><a class="mg-link" href="../../quotes/index.html">Quotes</a><a class="mg-link" href="../../tolls/index.html">Toll search</a><a class="mg-link" href="../../commitments/index.html">Commitments grid</a><a class="mg-link" href="../../freight-watch.html">Freight watch</a><a class="mg-link" href="../../sat-watch.html">Sat watch</a><a class="mg-link" href="../../globe.html">Globe</a><a class="mg-link" href="../../maps/index.html">Maps</a><a class="mg-link" href="../../chartbook.html">Chartbook</a><a class="mg-link" href="../../arb-watch/index.html">Arb watch</a><a class="mg-link" href="../../data/index.html">Data downloads</a><a class="mg-link" href="../../sources/index.html">Sources</a><a class="mg-link" href="../../methodology/index.html">Methodology</a><a class="mg-link" href="../../about/index.html">About</a></div>
       </div>
-      </nav>
+      <a class="chg-badge" href="../../changes/index.html">401 changed today</a></nav>
       </details>
     <div class="searchbox" role="search"><input type="search" id="sitesearch" placeholder="Search Heavy Reading" aria-label="Search Heavy Reading" autocomplete="off" data-index="../../search-index.json"><div class="searchres" id="searchres" hidden></div></div>
   </header>
@@ -757,7 +799,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
     <figcaption><b>Middle East crude exports vs pre-war baseline (million barrels per day)</b><br><span class="vintage-inline">Published Sep 2026; accessed 2026-09-29. Seven Gulf producers: Saudi Arabia, Iraq, Iran, Kuwait, Oman, UAE, Qatar. TankerTrackers</span></figcaption>
   </figure>
   <details class="note"><summary>Chart data</summary><div class="tblwrap"><table class="data"><tr><th></th><th>Crude exports</th></tr><tr><th>Jan-Feb 2026 baseline</th><td>18.5</td></tr><tr><th>May 2026 (trough)</th><td>6.1</td></tr><tr><th>Aug 2026</th><td>11.3</td></tr></table></div></details>
-  <h2>Now vs normal, at a glance</h2>
+  <h2>Now vs normal, at a glance<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <div class="tblwrap"><table class="data">
     <tr><th>Flow</th><th>Normal (pre-conflict)</th><th>Now (latest)</th><th>Source</th></tr>
     <tr><td>Oil transit through Hormuz</td><td>21.6 million b/d (Q4 2025)</td><td>4.9 million b/d (Q2 2026); ≈6.5–7.4 million b/d in Sep (Kpler)</td><td>EIA / Kpler</td></tr>
@@ -993,12 +1035,12 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <li>Flows through Saudi Arabia's East-West pipeline have climbed to almost 6 million barrels per day, close to June-July levels, with about 4.5 million b/d available for Red Sea exports, restoring Saudi Arabia's Hormuz bypass despite continued Houthi strikes.<br><span class="vintage-inline">Oct 2, 2026 <a href="https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html">OilPrice.com</a> <span class="age-chip age-stale">&middot; stale</span></span></li>
   </ul>
   </details>
-  <h2>Where sources disagree</h2>
+  <h2>Where sources disagree<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <ul class="ev">
   <li><b>Iranian floating storage</b>: Kpler (via Wall Street Journal, Sep 8, 2026) vs Vortexa (via National Security Journal, ~Sep 2, 2026). Kpler put Iranian floating crude at about 29 million barrels on September 8, down from about 90 million in mid-July, while Vortexa's broader measure, all Iranian crude stored aboard tankers, was about 107 million barrels on August 26. Different scopes and different dates: the two measures are not directly comparable, a definitional difference rather than a data conflict.</li>
   </ul>
   <p class="lede">For the WCSB book, watch the floating storage drawdown and the blockade line for how much Iranian sour is coming, vessel counts and the EIA quarterly series for whether Hormuz is loosening before the price does, and Bab el-Mandeb transit counts plus Yanbu loading resumption for the earliest sign Gulf sour is reaching Europe normally again. The moment Gulf sour flows freely on all three fronts, expect the bid under Canadian heavies to fade with it.</p>
-  <h2>What this watch tracks</h2>
+  <h2>What this watch tracks<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <p class="sub">Updated daily.</p>
   <ul class="ev">
   <li>Monthly UANI Tanker Tracker export totals and ghost-armada additions</li>
@@ -1027,7 +1069,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <li>East-West Pipeline pumping rates and Yanbu crude loading resumption (Reuters / Kpler).</li>
   <li>Houthi attack claims on Saudi-linked tankers vs Bahri, UK Maritime Trade Operations (UKMTO), and Joint Maritime Information Center (JMIC) confirmation.</li>
   </ul>
-  <h2>What public data cannot verify</h2>
+  <h2>What public data cannot verify<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <ul class="ev">
   <li>Kpler and Vortexa publish different floating-storage scopes (Kpler ~29M bbl of floating crude Sep 8 vs Vortexa ~107M bbl of crude aboard tankers Aug 26); the two are not directly comparable, definitional difference, not a data conflict.</li>
   <li>Iranian state media claimed August 2026 exports above $3B, a two-year high, while Vortexa/Kpler tracked only ~220-255 kb/d loaded that month, claimed vs tracked, unresolved.</li>
@@ -1047,7 +1089,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <li>Repair timeline for the East-West Pipeline pumping stations is unverified; estimates range from weeks to six-plus weeks and the effective restart rate is unknown.</li>
   <li>No public breakdown of where Saudi Gulf-terminal loadings went during the Petroline outage, limiting the Europe-vs-Asia crude split read.</li>
   </ul>
-  <h2>Sources</h2>
+  <h2>Sources<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <div class="tblwrap"><table class="data">
     <tr><th>Publisher</th><th>Link</th></tr>
     <tr><td>Reuters (via Hatha Alyoum)</td><td><a href="https://en.hathalyoum.net/articles/303938">link</a></td></tr>
@@ -1279,7 +1321,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
     <tr><td>TradeWinds (citing Kpler)</td><td><a href="https://www.tradewindsnews.com/tankers/iran-tanker-loadings-plunge-to-zero-for-first-time-in-war-as-us-blockade-strangles-kharg-island-exports/2-1-2052866">link</a></td></tr>
     <tr><td>Splash247</td><td><a href="https://splash247.com/fresh-attacks-hit-hormuz-tanker-and-saudi-oil-gateway/">link</a></td></tr>
   </table></div>
-  <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../maps/index.html">Maps</a><a href="../../chartbook.html">Chartbook</a><a href="../../options/index.html">The Wing (options)</a><a href="../../options/charts/index.html">The Wing charts</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
+  <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a><a href="../../changes/index.html">What&apos;s changed</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../maps/index.html">Maps</a><a href="../../chartbook.html">Chartbook</a><a href="../../options/index.html">The Wing (options)</a><a href="../../options/charts/index.html">The Wing charts</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
 </div>
 <script>
 (function(){
@@ -1380,5 +1422,26 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 })();
 </script>
 
+
+<script id="chg-visit">
+(function(){try{
+  var KEY='hr-last-visit', SKEY='hr-visit-since';
+  var since=sessionStorage.getItem(SKEY);
+  if(!since){
+    var prev=localStorage.getItem(KEY);
+    if(prev){ since=prev; sessionStorage.setItem(SKEY,prev); }
+    localStorage.setItem(KEY,new Date().toISOString());
+  }
+  if(since){
+    var sd=since.slice(0,10);
+    document.querySelectorAll('.chg-stamp[data-chg]').forEach(function(el){
+      if(el.getAttribute('data-chg')>sd){
+        el.classList.add('chg-since');
+        el.title=el.title+' (since your last visit)';
+      }
+    });
+  }
+}catch(e){}})();
+</script>
 </body>
 </html>

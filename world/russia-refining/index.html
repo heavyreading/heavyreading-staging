@@ -620,6 +620,48 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   padding:14px 18px; margin:22px 0; }
 .takeaway h2 { margin:0 0 8px; font-size:17px; }
 .takeaway p.note { margin-bottom:0; }
+
+/* What's Changed layer (2026-10-30): computed section stamps, the nav
+   badge, the since-last-visit treatment, and the changes river. Quiet by
+   design: whisper type, hairlines, the oxide accent only on fresh
+   changes. Stamps are computed by build_changes.py from section content
+   hashes, never hand-written, and never advance on a republication. */
+.chg-stamp { display:inline-block; margin-left:10px; font-family:var(--sans);
+  font-size:11px; font-weight:500; letter-spacing:.02em; color:var(--faint);
+  vertical-align:middle; white-space:nowrap; }
+.chg-stamp::before { content:""; display:inline-block; width:6px; height:6px;
+  border-radius:50%; background:var(--line); margin-right:5px;
+  vertical-align:1px; }
+.chg-stamp.chg-week { color:var(--mut); }
+.chg-stamp.chg-week::before { background:var(--faint); }
+.chg-stamp.chg-new { color:var(--acc-deep); font-weight:600; }
+.chg-stamp.chg-new::before { background:var(--acc); }
+.chg-stamp.chg-since { color:var(--acc-deep); font-weight:600;
+  text-decoration:underline; text-decoration-color:var(--acc);
+  text-underline-offset:3px; }
+.chg-stamp.chg-since::before { background:var(--acc);
+  box-shadow:0 0 0 3px var(--ch-wash-acc); }
+.chg-badge { display:inline-flex; align-items:center; gap:6px;
+  font-family:var(--sans); font-size:12px; font-weight:600;
+  color:var(--acc-deep); text-decoration:none; padding:4px 0 4px 14px;
+  white-space:nowrap; }
+.chg-badge::before { content:""; width:7px; height:7px; border-radius:50%;
+  background:var(--acc); }
+.chg-badge:hover { text-decoration:underline; text-underline-offset:3px; }
+.chg-river { border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line); padding:16px 0 8px; margin:20px 0 28px; }
+.chg-river .chg-river-head { display:flex; justify-content:space-between;
+  align-items:baseline; gap:12px; }
+.chg-river h2.chg-river-title { font-size:19px; margin:0 0 4px; }
+.chg-river .chg-more { font-size:12.5px; color:var(--mut); white-space:nowrap; }
+.chg-day { font-family:var(--serif); font-size:19px; margin:28px 0 4px; }
+.chg-list { list-style:none; margin:0; padding:0; }
+.chg-list li { padding:7px 0; border-bottom:1px solid var(--line2);
+  font-size:14.5px; line-height:1.45; }
+.chg-list .chg-sec { color:var(--mut); }
+.chg-list .chg-note { display:block; color:var(--ink); }
+.chg-list a { color:var(--ink); font-weight:600; text-decoration:none; }
+.chg-list a:hover { text-decoration:underline; text-underline-offset:3px; }
 </style>
 </head>
 <body>
@@ -649,7 +691,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
       <div class="mnav-sec"><p class="mnav-label">The Wing</p><a class="mg-link" href="../../options/index.html">The Wing (options)</a><a class="mg-link" href="../../options/charts/index.html">The Wing charts</a></div>
       <div class="mnav-sec"><p class="mnav-label">Reference</p><a class="mg-link" href="../../fieldguide/index.html">Field guide</a><a class="mg-link" href="../../global-balance.html">Global balance</a><a class="mg-link" href="../../quotes/index.html">Quotes</a><a class="mg-link" href="../../tolls/index.html">Toll search</a><a class="mg-link" href="../../commitments/index.html">Commitments grid</a><a class="mg-link" href="../../freight-watch.html">Freight watch</a><a class="mg-link" href="../../sat-watch.html">Sat watch</a><a class="mg-link" href="../../globe.html">Globe</a><a class="mg-link" href="../../maps/index.html">Maps</a><a class="mg-link" href="../../chartbook.html">Chartbook</a><a class="mg-link" href="../../arb-watch/index.html">Arb watch</a><a class="mg-link" href="../../data/index.html">Data downloads</a><a class="mg-link" href="../../sources/index.html">Sources</a><a class="mg-link" href="../../methodology/index.html">Methodology</a><a class="mg-link" href="../../about/index.html">About</a></div>
       </div>
-      </nav>
+      <a class="chg-badge" href="../../changes/index.html">401 changed today</a></nav>
       </details>
     <div class="searchbox" role="search"><input type="search" id="sitesearch" placeholder="Search Heavy Reading" aria-label="Search Heavy Reading" autocomplete="off" data-index="../../search-index.json"><div class="searchres" id="searchres" hidden></div></div>
   </header>
@@ -659,7 +701,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p class="note">Read this page as the diesel side of the crude market: Ukrainian strikes on Russian refineries remove products, not crude, so the read is crack spreads and export curbs rather than wellhead output. Ukrainian claims are carried as claims. Strike dates are approximate and every bullet is dated and sourced.</p>
   <p class="lede">Russian refinery outages tighten global diesel, and record diesel cracks keep US and Asian refiners running at maximum to capture them, which is the demand-side bid under heavy sour barrels including Western Canadian Select (WCS). At the same time, crude displaced from downed Russian refineries has pushed seaborne Russian exports to 16-month highs, capping how much support the tight product market can pass back to sour crude prices. The net effect for WCS is constructive while diesel cracks stay extreme: refineries run hard and bid for every discounted heavy barrel they can crack.</p>
   <p class="note freshness">Updated October 29, 2026 &middot; refreshes weekly</p>
-  <h2>Crude export redirection</h2>
+  <h2>Crude export redirection<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <ul class="ev">
   <li>Russia's crude exports from its western ports could fall by as much as 200,000 barrels per day in November as refiners increase diesel production under Moscow's new agreement with Washington, according to preliminary loading schedules cited by Reuters on Oct 27 and reported by OilPrice.com on Oct 28. Two traders expect shipments from Russia's Baltic and Black Sea ports to decline by 100,000 to 200,000 b/d from October; the estimates include Kazakh crude transported through Russian pipelines. Russian refineries have increased processing since the October 9 diesel agreement, helped by the return of facilities from maintenance, and Moscow has issued new diesel export quotas after restricting shipments earlier this year, while Washington has eased sanctions on Russian fuel exports. Russia's seaborne crude exports averaged 3.59 million b/d in the four weeks through October 18, down 110,000 b/d from the previous period, and weekly exports fell to 3.13 million b/d, their lowest since March, following a temporary suspension of loading at Primorsk. At Novorossiysk, crude loadings are facing delays of nearly three weeks, the traders said.<br><span class="vintage-inline">Oct 28, 2026 <a href="https://oilprice.com/Latest-Energy-News/World-News/Russias-Crude-Exports-Set-to-Fall-as-Diesel-Production-Rises.html">OilPrice.com (citing Reuters)</a></span></li>
   <li>Russian oil refineries increased crude processing by 25 percent in the second half of October compared with the beginning of the month, to around 5 million barrels per day, after persistent drone attacks on the plants ceased, three industry sources told Reuters on Oct 27. The sources estimated diesel production rose by at least 50,000 metric tons per day in October to 225,000 tons per day, about 1.7 million barrels per day, with about 80,000 tons per day available for export. Russian authorities said some of the last refinery attacks this month were the mid-October strikes at Ryazan and Surgut, with no further refinery strikes after October 16. The halt followed Washington's efforts to revive peace talks between Moscow and Kyiv while securing a diesel supply deal with Russia, days after which President Trump announced an energy ceasefire on October 11. Deputy Prime Minister Alexander Novak said refineries have been swiftly bringing units back online because almost all of the required oil and gas equipment is manufactured domestically. Separately, traders told Reuters on Oct 28 that crude oil exports from Russia's Baltic and Black Sea ports could fall next month as domestic refiners increase diesel output following the deal with Washington.<br><span class="vintage-inline">Oct 27, 2026 <a href="https://www.globalbankingandfinance.com/russian-oil-refineries-boost-output-drone-attacks-halt/">Reuters (via Global Banking &amp; Finance)</a> <span class="age-chip">&middot; 3d old</span></span></li>
@@ -674,7 +716,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <li>Bloomberg tanker-tracking data cited by OilPrice.com show Russia's seaborne crude exports averaged 3.62 million barrels per day in the four weeks to September 28, the highest since May 2024, a sign that neither India nor other major buyers have reduced purchases despite US pressure. Russia's oil and gas revenues were nevertheless expected to plunge 23 percent year on year in September on lower crude prices and a stronger ruble, per Reuters calculations cited in the piece.<br><span class="vintage-inline">Data: four weeks ending Sep 28, 2026; accessed 2026-09-24 <a href="https://oilprice.com/Latest-Energy-News/World-News/Russian-Crude-Shipments-Hit-16-Month-High-Despite-US-Sanctions.html">OilPrice.com (citing Bloomberg tanker-tracking)</a> <span class="age-chip age-stale">&middot; stale</span></span></li>
   <li>The Black Sea port of Novorossiysk, the main western outlet for displaced crude, is itself constrained: trader data show exports and transit volumes more than halved from July to August, from 800,000 barrels per day to less than 355,000, after repeated drone strikes collapsed loadings and thinned tanker availability. Chartering a Suezmax tanker to India from Novorossiysk cost about $20 million by the end of August, versus about $13 million a month earlier.<br><span class="vintage-inline">Data: July-Aug 2026; accessed 2026-09-24 <a href="https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september">Maritime Professional (citing traders)</a> <span class="age-chip">&middot; reference</span></span></li>
   </ul>
-  <h2>Market effects and negotiation backdrop</h2>
+  <h2>Market effects and negotiation backdrop<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <ul class="ev">
   <li>JPMorgan analysts said in a note cited by Reuters on Oct 29 that since the October 15 strike on the Ryazan refinery, there have been no further confirmed attacks on Russian refining infrastructure, and that the silence has allowed Russian refinery runs to rebound by 350,000 b/d last week to 4 million b/d. Higher runs would also allow Russia to lift crude production by a broadly comparable amount, reversing part of the recent decline that pushed output to 8.4 million b/d, its lowest level since 2003, the analysts said, but higher crude production would not necessarily translate into higher crude exports. The JPMorgan run figure uses a different basis from the roughly 5 million b/d for the second half of October reported by Reuters industry sources on Oct 27, and the two are not directly comparable.<br><span class="vintage-inline">Oct 29, 2026 <a href="https://wdsm710.com/2026/10/28/us-oil-prices-fall-as-investors-gauge-risks-to-mideast-supply/">Reuters (via WDSM, citing JPMorgan)</a></span></li>
   <li>Ukrainian President Volodymyr Zelensky said Ukraine is ready to stop strikes on Russian oil refining infrastructure if Russia refrains from attacking Ukraine's power grid, in an interview with Alla Mazur of TSN.Tyzhden reported by Ukrinform via EuropeSays on Oct 26. Zelensky said he had proposed the energy ceasefire approach to international partners, and that Ukraine is responding to Russian strikes on its energy infrastructure because Russia must also feel the consequences of its attacks. He also said Ukraine, the United States and Russia have agreed to hold a trilateral meeting at the level of negotiating teams in the first half of November.<br><span class="vintage-inline">Oct 26, 2026 <a href="https://www.europesays.com/ukraine/60685/">EuropeSays (citing Ukrinform)</a> <span class="age-chip">&middot; 4d old</span></span></li>
@@ -701,7 +743,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <li>Russia's State Duma budget and tax committee backed draft Tax Code amendments extending an existing fuel-import subsidy to large-scale seaborne gasoline imports from India, with the subsidy calculated off an indicative Indian gasoline price plus shipping costs. Operating refineries are producing about 85,000 tonnes of gasoline per day against demand of around 111,000 tonnes, leaving a structural shortfall near 25,000 tonnes a day, roughly 20% of consumption.<br><span class="vintage-inline">Oct 7, 2026 <a href="https://investmentguruindia.com/newsdetail/russia-eyes-gasoline-imports-from-india-amid-refinery-disruptions240491">Investment Guru India (via Kyiv Post, citing RBC)</a> <span class="age-chip age-stale">&middot; stale</span></span></li>
   <li>In a rare acknowledgment at the Oct 1 Valdai Club session, Putin said Ukrainian strikes on Russian refineries had cost Russia roughly 1% of GDP and conceded Kyiv had partially achieved its goal of damaging the economy, while offering no ceasefire and saying Russia would prefer talks.<br><span class="vintage-inline">Oct 1, 2026 <a href="https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity">Associated Press (via AAP)</a> <span class="age-chip age-stale">&middot; stale</span></span></li>
   </ul>
-  <h2>Named hits and outages</h2>
+  <h2>Named hits and outages<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <ul class="ev">
   <li>A Ukrainian drone attack reportedly struck the Bashkir Soda Company chemical plant in Sterlitamak, in Russia's Republic of Bashkortostan, on the morning of Oct 29, with thick white smoke seen rising from the facility, UNITED24 Media reported via EuropeSays, citing Russian media outlet ASTRA. Russian authorities acknowledged damage at an industrial plant after eight drones attacked the city, and open-source geolocation placed the smoke inside the Bashkir Soda complex. The plant is one of Russia's largest chemical complexes, producing soda ash, polyvinyl chloride and other industrial chemicals, and is reportedly the only Russian producer of terephthaloyl chloride, a compound used in high-strength aramid fibres for ballistic protection. The target is a chemical plant, not an oil refinery.<br><span class="vintage-inline">Oct 29, 2026 <a href="https://www.europesays.com/russia/81854/">EuropeSays (citing UNITED24 Media)</a></span></li>
   <li>A Ukrainian open-source intelligence assessment published on Oct 28 gave updated battle damage assessments for Ukraine's Oct 24 strikes in Omsk, EuropeSays reported. The assessment confirmed damage to gas separation and final production units at the Omskiy Kauchuk chemical plant, to finished product lines and pipelines at the Poliom polypropylene plant, and to two sections of an Ozon warehouse facility in Omsk, roughly 2,500 kilometres from the Ukrainian border. The targets are petrochemical and logistics facilities, not the Gazprom Neft Omsk refinery.<br><span class="vintage-inline">Oct 28, 2026 <a href="https://www.europesays.com/ukraine/62283/">EuropeSays</a></span></li>
@@ -736,7 +778,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <li>Ukraine's General Staff confirmed the October 1-2 strikes on the Lukoil-Volgogradneftepererabotka refinery, one of Russia's largest at about 15 million tons per year, and on Transneft's Samara tank farm plus the Samara-1 and Samara-2 pumping stations; analysts described the Samara facility as Europe's largest tank farm. Russia's defense ministry claimed to have intercepted 646 drones in the same overnight wave.<br><span class="vintage-inline">Oct 1-2, 2026 <a href="https://app.osnt.in/brief/2026-10-03">OSNT.IN</a> <span class="age-chip age-stale">&middot; stale</span></span></li>
   <li>Russia's second-largest refinery, Kirishi, halted processing on September 29 after Ukrainian drone attacks damaged three of its four crude distillation units, two industry sources told Reuters.<br><span class="vintage-inline">Sep 29, 2026 <a href="https://www.infomarine.net/en/global-shipping-news/19-world-maritime-news/75426-major-russian-oil-refinery-knocked-offline-by-ukrainian-drone-strike.html">Reuters (via Infomarine)</a> <span class="age-chip age-stale">&middot; stale</span></span></li>
   </ul>
-  <h2>2026 strike campaign: offline capacity estimates</h2>
+  <h2>2026 strike campaign: offline capacity estimates<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <ul class="ev">
   <li>Russia raised its expected idle primary refining capacity for October by 67% versus the earlier plan to 4.0 million tons, per Reuters industry-source estimates, after postponed maintenance at Rosneft's Novokuibyshevsk refinery and a unit of Lukoil's NORSI; Rosneft's Tuapse refinery also reportedly halted crude processing on Oct 1 on low margins. More than half of October's idle capacity is expected to return in November, with November idle at 1.2 to 1.8 million tons.<br><span class="vintage-inline">Oct 7, 2026 <a href="https://oilprice.com/Energy/Energy-General/Russias-Planned-Idle-Refining-Capacity-Raised-by-67-for-October.html">OilPrice.com</a> <span class="age-chip age-stale">&middot; stale</span></span></li>
   <li>The Associated Press reported on Oct 4 that the International Energy Agency estimates a Russian refinery has been successfully struck by a drone roughly once every three days in recent months. The cadence is consistent with a sustained attrition campaign but is not an independent confirmation of Ukraine's claim, which AP noted it could not verify, that 51% of Russian refining capacity is out of action.<br><span class="vintage-inline">Oct 4, 2026 <a href="https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity">Associated Press (via AAP)</a> <span class="age-chip age-stale">&middot; stale</span></span></li>
@@ -744,7 +786,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <li>Ukraine's Defense Intelligence representative Andrii Yusov said Ukrainian forces have conducted 64 targeted strikes on Russian fuel infrastructure facilities this year, destroying or damaging about one-third of the targeted refineries and storage facilities, and said the strikes compound Western sanctions that restrict imports of repair equipment. The agency framed the disruption as long-term pressure on Russian military logistics. This is a Ukrainian claim, not independently verified.<br><span class="vintage-inline">Reported ~Sep 2026; accessed 2026-09-24 <a href="https://en.defence-ua.com/industries/the_defense_intelligence_of_ukraine_reveals_the_number_of_strikes_on_russias_fuel_infrastructure_facilities-12801.html">Defense Express</a> <span class="age-chip">&middot; reference</span></span></li>
   </ul>
   <p class="lede">For the WCSB book, watch the diesel crack, not the strike count: it is the margin that decides how hard refiners run and how much they pay for heavy barrels. If an energy ceasefire returns Russian refineries and the diesel crack compresses, runs fall and discounted heavies strand first. Until then, the tight product market is the best demand cover WCS has.</p>
-  <h2>What this watch tracks</h2>
+  <h2>What this watch tracks<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <p class="sub">Updated daily.</p>
   <ul class="ev">
   <li>Ukrainian strike announcements and Russian regional damage reports</li>
@@ -757,7 +799,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <li>Russian seaborne crude export volumes and Baltic/Black Sea tanker rates as the relief valve for lost refining (Bloomberg vessel-tracking, JPMorgan estimates).</li>
   <li>IEA October Oil Market Report for an updated Russian throughput series beyond June.</li>
   </ul>
-  <h2>What public data cannot verify</h2>
+  <h2>What public data cannot verify<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <ul class="ev">
   <li>Russian government has not published confirmed damage figures; offline estimates are Western/industry estimates or Ukrainian claims.</li>
   <li>Repair timelines reported by sources (weeks to months) are not independently verifiable.</li>
@@ -767,7 +809,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <li>No public data on how much crude displaced from downed refineries is being rerouted to export terminals versus going into storage, or whether port and shadow-fleet tanker capacity cap the redirection.</li>
   <li>Whether market talk of possible U.S. diesel export restrictions (flagged in commentary around September 23) reflects real policy discussion could not be verified from an official source.</li>
   </ul>
-  <h2>Sources</h2>
+  <h2>Sources<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
   <div class="tblwrap"><table class="data">
     <tr><th>Publisher</th><th>Link</th></tr>
     <tr><td>OilPrice.com (citing Reuters)</td><td><a href="https://oilprice.com/Latest-Energy-News/World-News/Russias-Crude-Exports-Set-to-Fall-as-Diesel-Production-Rises.html">link</a></td></tr>
@@ -842,7 +884,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
     <tr><td>The Pink Un (AP wire)</td><td><a href="https://www.pinkun.com/news/national/26606911.ukraine-claims-taken-half-russian-oil-refining-capacity/">link</a></td></tr>
     <tr><td>Defense Express</td><td><a href="https://en.defence-ua.com/industries/the_defense_intelligence_of_ukraine_reveals_the_number_of_strikes_on_russias_fuel_infrastructure_facilities-12801.html">link</a></td></tr>
   </table></div>
-  <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../maps/index.html">Maps</a><a href="../../chartbook.html">Chartbook</a><a href="../../options/index.html">The Wing (options)</a><a href="../../options/charts/index.html">The Wing charts</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
+  <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a><a href="../../changes/index.html">What&apos;s changed</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../maps/index.html">Maps</a><a href="../../chartbook.html">Chartbook</a><a href="../../options/index.html">The Wing (options)</a><a href="../../options/charts/index.html">The Wing charts</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
 </div>
 <script>
 (function(){
@@ -943,5 +985,26 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 })();
 </script>
 
+
+<script id="chg-visit">
+(function(){try{
+  var KEY='hr-last-visit', SKEY='hr-visit-since';
+  var since=sessionStorage.getItem(SKEY);
+  if(!since){
+    var prev=localStorage.getItem(KEY);
+    if(prev){ since=prev; sessionStorage.setItem(SKEY,prev); }
+    localStorage.setItem(KEY,new Date().toISOString());
+  }
+  if(since){
+    var sd=since.slice(0,10);
+    document.querySelectorAll('.chg-stamp[data-chg]').forEach(function(el){
+      if(el.getAttribute('data-chg')>sd){
+        el.classList.add('chg-since');
+        el.title=el.title+' (since your last visit)';
+      }
+    });
+  }
+}catch(e){}})();
+</script>
 </body>
 </html>

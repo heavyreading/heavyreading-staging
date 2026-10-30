@@ -620,6 +620,48 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   padding:14px 18px; margin:22px 0; }
 .takeaway h2 { margin:0 0 8px; font-size:17px; }
 .takeaway p.note { margin-bottom:0; }
+
+/* What's Changed layer (2026-10-30): computed section stamps, the nav
+   badge, the since-last-visit treatment, and the changes river. Quiet by
+   design: whisper type, hairlines, the oxide accent only on fresh
+   changes. Stamps are computed by build_changes.py from section content
+   hashes, never hand-written, and never advance on a republication. */
+.chg-stamp { display:inline-block; margin-left:10px; font-family:var(--sans);
+  font-size:11px; font-weight:500; letter-spacing:.02em; color:var(--faint);
+  vertical-align:middle; white-space:nowrap; }
+.chg-stamp::before { content:""; display:inline-block; width:6px; height:6px;
+  border-radius:50%; background:var(--line); margin-right:5px;
+  vertical-align:1px; }
+.chg-stamp.chg-week { color:var(--mut); }
+.chg-stamp.chg-week::before { background:var(--faint); }
+.chg-stamp.chg-new { color:var(--acc-deep); font-weight:600; }
+.chg-stamp.chg-new::before { background:var(--acc); }
+.chg-stamp.chg-since { color:var(--acc-deep); font-weight:600;
+  text-decoration:underline; text-decoration-color:var(--acc);
+  text-underline-offset:3px; }
+.chg-stamp.chg-since::before { background:var(--acc);
+  box-shadow:0 0 0 3px var(--ch-wash-acc); }
+.chg-badge { display:inline-flex; align-items:center; gap:6px;
+  font-family:var(--sans); font-size:12px; font-weight:600;
+  color:var(--acc-deep); text-decoration:none; padding:4px 0 4px 14px;
+  white-space:nowrap; }
+.chg-badge::before { content:""; width:7px; height:7px; border-radius:50%;
+  background:var(--acc); }
+.chg-badge:hover { text-decoration:underline; text-underline-offset:3px; }
+.chg-river { border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line); padding:16px 0 8px; margin:20px 0 28px; }
+.chg-river .chg-river-head { display:flex; justify-content:space-between;
+  align-items:baseline; gap:12px; }
+.chg-river h2.chg-river-title { font-size:19px; margin:0 0 4px; }
+.chg-river .chg-more { font-size:12.5px; color:var(--mut); white-space:nowrap; }
+.chg-day { font-family:var(--serif); font-size:19px; margin:28px 0 4px; }
+.chg-list { list-style:none; margin:0; padding:0; }
+.chg-list li { padding:7px 0; border-bottom:1px solid var(--line2);
+  font-size:14.5px; line-height:1.45; }
+.chg-list .chg-sec { color:var(--mut); }
+.chg-list .chg-note { display:block; color:var(--ink); }
+.chg-list a { color:var(--ink); font-weight:600; text-decoration:none; }
+.chg-list a:hover { text-decoration:underline; text-underline-offset:3px; }
 </style>
 </head>
 <body>
@@ -649,7 +691,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
       <div class="mnav-sec"><p class="mnav-label">The Wing</p><a class="mg-link" href="options/index.html">The Wing (options)</a><a class="mg-link" href="options/charts/index.html">The Wing charts</a></div>
       <div class="mnav-sec"><p class="mnav-label">Reference</p><a class="mg-link" href="fieldguide/index.html">Field guide</a><a class="mg-link" href="global-balance.html">Global balance</a><a class="mg-link" href="quotes/index.html">Quotes</a><a class="mg-link" href="tolls/index.html">Toll search</a><a class="mg-link" href="commitments/index.html">Commitments grid</a><a class="mg-link" href="freight-watch.html">Freight watch</a><a class="mg-link" href="sat-watch.html">Sat watch</a><a class="mg-link" href="globe.html">Globe</a><a class="mg-link" href="maps/index.html">Maps</a><a class="mg-link" href="chartbook.html">Chartbook</a><a class="mg-link" href="arb-watch/index.html">Arb watch</a><a class="mg-link" href="data/index.html">Data downloads</a><a class="mg-link" href="sources/index.html">Sources</a><a class="mg-link" href="methodology/index.html">Methodology</a><a class="mg-link" href="about/index.html">About</a></div>
       </div>
-      </nav>
+      <a class="chg-badge" href="changes/index.html">401 changed today</a></nav>
       </details>
     <div class="searchbox" role="search"><input type="search" id="sitesearch" placeholder="Search Heavy Reading" aria-label="Search Heavy Reading" autocomplete="off" data-index="search-index.json"><div class="searchres" id="searchres" hidden></div></div>
   </header>
@@ -727,7 +769,7 @@ details.now-det summary{cursor:pointer;color:var(--mut);font-size:.88rem;
 </style>
 
 
-<section class="now-call" aria-label="The call">
+<div class="chg-river" data-chg-river="1"><div class="chg-river-head"><h2 class="chg-river-title">What changed on the site</h2><a class="chg-more" href="changes/index.html">Full list</a></div><ul class="chg-list"><li><a href="world/trump/index.html">Trump watch</a> <span class="chg-sec">Latest energy posts</span></li><li><a href="weekly/index.html">The Letter</a> <span class="chg-sec">Page lead</span></li><li><a href="sources/index.html">Sources</a> <span class="chg-sec">Page lead</span></li><li><a href="open-calls/index.html">Open Calls</a> <span class="chg-sec">Page lead</span></li><li><a href="micro/wcsb/index.html">WCSB Micro-Balance</a> <span class="chg-sec">How the balance closes, kb/d</span></li></ul></div><section class="now-call" aria-label="The call">
 <p class="kicker">Now: the WCSB balance</p>
 <p class="call-text">Thursday's settles were Brent Dec26 $114.88 (down $0.44) and WTI Dec26 $102.00 (down $0.78). Asia reversed the decline overnight, Brent $116.08 and WTI $103.37 at 0323 GMT (Reuters, Oct 30), after a small boat attached explosive devices to an outbound tanker's hull in the Strait of Hormuz, a second tanker took a projectile, and the Houthis claimed a six target wave against Saudi Arabia including a second strike claim on Ras Tanura, still unconfirmed on day three. The Energy Department announced awards of more than 40 million barrels of reserve crude on Oct 29, completing its 172 million barrel release commitment. December WCS at -$30.50 (ICE TMW settle, Oct 29) on 1 lot, after Wednesday's -$31.10 traded 200 lots. The diesel crack fell to $90.42. Imperial Oil reports today.</p>
 <div class="chips"><span class="chip">as of Fri Oct 30, 02:40 MDT</span>
@@ -738,7 +780,7 @@ details.now-det summary{cursor:pointer;color:var(--mut);font-size:.88rem;
 <details class="start-here"><summary>New here? How to read this site</summary><p class="sub">Three ways in, depending on how much time you have:</p><ul class="ev"><li><b><a href="digest/index.html">Give me 5 minutes</a></b>: the daily digest, what changed and what it means.</li><li><b><a href="world/index.html">Something is moving</a></b>: the watches, one page per risk (Trump, Middle East, refineries). Each opens with what changed, then what is coming. The plants get one of their own: <a href="sat-watch.html">Sat Watch</a>, satellite heat over the oil sands facilities.</li><li><b><a href="weekly/index.html">Give me the month</a></b>: the letter, the longer game plan in plain words.</li></ul><p class="sub">Every number is dated. How each figure was built is on the <a href="methodology/index.html">methodology</a> page.</p></details>
 
 <section class="now-sec" aria-label="Overnight changes">
-<h2>Overnight changes, ranked by balance impact</h2>
+<h2>Overnight changes, ranked by balance impact<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <p class="sec-sub">Ranked by estimated balance impact times confirmation
 confidence on the Western Canadian Sedimentary Basin (WCSB) supply/demand
 balance, not by how dramatic the news reads: a big but unverified item ranks
@@ -785,7 +827,7 @@ one paywalled source, no public confirmation yet; <b>rumor</b> = unverified.</p>
 </section>
 
 <section class="now-sec" aria-label="Egress watch">
-<h2>Egress watch: how much room is left</h2>
+<h2>Egress watch: how much room is left<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <p class="sec-sub">Three independent reads on spare export capacity out of the
 Western Canadian Sedimentary Basin (WCSB): what the regulator measured, what
 the model says about right now, and what the forward model says. Every figure
@@ -855,7 +897,7 @@ three.</p>
 </section>
 
 <section class="now-sec" aria-label="Flags">
-<h2>Flags: what's forming</h2>
+<h2>Flags: what's forming<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <p class="sec-sub">Not changes yet, but they could become some. Each flag ends
 one of three ways: it becomes a ranked change, it resolves, or it expires.
 Stale flags are removed.</p>
@@ -893,7 +935,7 @@ Stale flags are removed.</p>
 </section>
 
 <section class="now-sec" aria-label="Forward calendar">
-<h2>Forward calendar: what hits when</h2>
+<h2>Forward calendar: what hits when<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <p class="sec-sub">Roughly the next 90 days. Every event shows its estimated
 impact on the balance in kb/d, or says plainly when it cannot be
 quantified.</p>
@@ -931,7 +973,7 @@ quantified.</p>
 </section>
 
 <section class="now-sec" aria-label="Levels at a glance">
-<h2>Levels at a glance</h2>
+<h2>Levels at a glance<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <p class="sec-sub">Context only: the changes above are changes <i>against</i>
 these. Four figures, never more. Charts live on the reference pages.</p>
 <ul class="levels">
@@ -954,7 +996,7 @@ these. Four figures, never more. Charts live on the reference pages.</p>
 </ul>
 </section>
 <p class="now-foot sub">Every number on this page comes from public sources (AER filings, CER data, EIA releases, company disclosures, CFTC positioning), run through the WCSB supply/demand model. How each figure was built is on the <a href="methodology/index.html">methodology</a> page; where every fact came from is documented on the <a href="sources/index.html">sources</a> page. The full edition archive lives under <a href="digest/index.html">Digest</a>.</p>
-  <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="barrels/index.html#disposition">S&amp;D balance</a><a href="barrels/index.html#st3-table">Projected ST3</a><a href="scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="barrels/index.html">Supply hub</a><a href="projects/index.html">All projects</a><a href="apportionment/index.html">Apportionment</a><a href="barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="maintenance/index.html">Maintenance</a><a href="growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="world/middle-east/index.html">Middle East watch</a><a href="world/russia-refining/index.html">Russian refineries</a><a href="world/china-imports/index.html">China imports</a><a href="world/spr-storage/index.html">SPR & storage</a><a href="world/sour/index.html">The global sour barrel</a><a href="venezuela/index.html">Venezuela watch</a><a href="world/trump/index.html">Trump watch</a><a href="world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="digest/index.html">Latest digest</a><a href="digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="fieldguide/index.html">Field guide</a><a href="global-balance.html">Global balance</a><a href="tolls/index.html">Toll search</a><a href="commitments/index.html">Commitments</a><a href="sat-watch.html">Sat watch</a><a href="maps/index.html">Maps</a><a href="chartbook.html">Chartbook</a><a href="options/index.html">The Wing (options)</a><a href="options/charts/index.html">The Wing charts</a><a href="data/index.html">Data downloads</a><a href="sources/index.html">Sources</a><a href="methodology/index.html">Methodology</a><a href="about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="methodology/index.html">methodology</a> page; where every fact came from is in <a href="sources/index.html">sources</a>.</p></footer>
+  <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="barrels/index.html#disposition">S&amp;D balance</a><a href="barrels/index.html#st3-table">Projected ST3</a><a href="scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="barrels/index.html">Supply hub</a><a href="projects/index.html">All projects</a><a href="apportionment/index.html">Apportionment</a><a href="barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="maintenance/index.html">Maintenance</a><a href="growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="world/middle-east/index.html">Middle East watch</a><a href="world/russia-refining/index.html">Russian refineries</a><a href="world/china-imports/index.html">China imports</a><a href="world/spr-storage/index.html">SPR & storage</a><a href="world/sour/index.html">The global sour barrel</a><a href="venezuela/index.html">Venezuela watch</a><a href="world/trump/index.html">Trump watch</a><a href="world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="digest/index.html">Latest digest</a><a href="digest/index.html">Edition archive</a><a href="changes/index.html">What&apos;s changed</a></div><div class="fcol"><h4>Reference</h4><a href="fieldguide/index.html">Field guide</a><a href="global-balance.html">Global balance</a><a href="tolls/index.html">Toll search</a><a href="commitments/index.html">Commitments</a><a href="sat-watch.html">Sat watch</a><a href="maps/index.html">Maps</a><a href="chartbook.html">Chartbook</a><a href="options/index.html">The Wing (options)</a><a href="options/charts/index.html">The Wing charts</a><a href="data/index.html">Data downloads</a><a href="sources/index.html">Sources</a><a href="methodology/index.html">Methodology</a><a href="about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="methodology/index.html">methodology</a> page; where every fact came from is in <a href="sources/index.html">sources</a>.</p></footer>
 </div>
 <script>
 (function(){
@@ -1055,5 +1097,26 @@ these. Four figures, never more. Charts live on the reference pages.</p>
 })();
 </script>
 
+
+<script id="chg-visit">
+(function(){try{
+  var KEY='hr-last-visit', SKEY='hr-visit-since';
+  var since=sessionStorage.getItem(SKEY);
+  if(!since){
+    var prev=localStorage.getItem(KEY);
+    if(prev){ since=prev; sessionStorage.setItem(SKEY,prev); }
+    localStorage.setItem(KEY,new Date().toISOString());
+  }
+  if(since){
+    var sd=since.slice(0,10);
+    document.querySelectorAll('.chg-stamp[data-chg]').forEach(function(el){
+      if(el.getAttribute('data-chg')>sd){
+        el.classList.add('chg-since');
+        el.title=el.title+' (since your last visit)';
+      }
+    });
+  }
+}catch(e){}})();
+</script>
 </body>
 </html>

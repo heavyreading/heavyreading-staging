@@ -623,6 +623,48 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   padding:14px 18px; margin:22px 0; }
 .takeaway h2 { margin:0 0 8px; font-size:17px; }
 .takeaway p.note { margin-bottom:0; }
+
+/* What's Changed layer (2026-10-30): computed section stamps, the nav
+   badge, the since-last-visit treatment, and the changes river. Quiet by
+   design: whisper type, hairlines, the oxide accent only on fresh
+   changes. Stamps are computed by build_changes.py from section content
+   hashes, never hand-written, and never advance on a republication. */
+.chg-stamp { display:inline-block; margin-left:10px; font-family:var(--sans);
+  font-size:11px; font-weight:500; letter-spacing:.02em; color:var(--faint);
+  vertical-align:middle; white-space:nowrap; }
+.chg-stamp::before { content:""; display:inline-block; width:6px; height:6px;
+  border-radius:50%; background:var(--line); margin-right:5px;
+  vertical-align:1px; }
+.chg-stamp.chg-week { color:var(--mut); }
+.chg-stamp.chg-week::before { background:var(--faint); }
+.chg-stamp.chg-new { color:var(--acc-deep); font-weight:600; }
+.chg-stamp.chg-new::before { background:var(--acc); }
+.chg-stamp.chg-since { color:var(--acc-deep); font-weight:600;
+  text-decoration:underline; text-decoration-color:var(--acc);
+  text-underline-offset:3px; }
+.chg-stamp.chg-since::before { background:var(--acc);
+  box-shadow:0 0 0 3px var(--ch-wash-acc); }
+.chg-badge { display:inline-flex; align-items:center; gap:6px;
+  font-family:var(--sans); font-size:12px; font-weight:600;
+  color:var(--acc-deep); text-decoration:none; padding:4px 0 4px 14px;
+  white-space:nowrap; }
+.chg-badge::before { content:""; width:7px; height:7px; border-radius:50%;
+  background:var(--acc); }
+.chg-badge:hover { text-decoration:underline; text-underline-offset:3px; }
+.chg-river { border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line); padding:16px 0 8px; margin:20px 0 28px; }
+.chg-river .chg-river-head { display:flex; justify-content:space-between;
+  align-items:baseline; gap:12px; }
+.chg-river h2.chg-river-title { font-size:19px; margin:0 0 4px; }
+.chg-river .chg-more { font-size:12.5px; color:var(--mut); white-space:nowrap; }
+.chg-day { font-family:var(--serif); font-size:19px; margin:28px 0 4px; }
+.chg-list { list-style:none; margin:0; padding:0; }
+.chg-list li { padding:7px 0; border-bottom:1px solid var(--line2);
+  font-size:14.5px; line-height:1.45; }
+.chg-list .chg-sec { color:var(--mut); }
+.chg-list .chg-note { display:block; color:var(--ink); }
+.chg-list a { color:var(--ink); font-weight:600; text-decoration:none; }
+.chg-list a:hover { text-decoration:underline; text-underline-offset:3px; }
 </style>
 </head>
 <body>
@@ -653,7 +695,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
       <div class="mnav-sec"><p class="mnav-label">The whole book</p><a class="mg-link" href="../../inner/book/index.html">The Book</a><a class="mg-link" href="../../inner/trade-ideas/index.html">Trade ideas</a><a class="mg-link" href="../../inner/vol-portfolio/index.html">Vol portfolio</a><a class="mg-link" href="../../inner/trade-log/index.html">Trade log</a></div>
       <div class="mnav-sec"><p class="mnav-label">Reference</p><a class="mg-link" href="../../fieldguide/index.html">Field guide</a><a class="mg-link" href="../../global-balance.html">Global balance</a><a class="mg-link" href="../../quotes/index.html">Quotes</a><a class="mg-link" href="../../tolls/index.html">Toll search</a><a class="mg-link" href="../../commitments/index.html">Commitments grid</a><a class="mg-link" href="../../freight-watch.html">Freight watch</a><a class="mg-link" href="../../sat-watch.html">Sat watch</a><a class="mg-link" href="../../globe.html">Globe</a><a class="mg-link" href="../../maps/index.html">Maps</a><a class="mg-link" href="../../chartbook.html">Chartbook</a><a class="mg-link" href="../../arb-watch/index.html">Arb watch</a><a class="mg-link" href="../../data/index.html">Data downloads</a><a class="mg-link" href="../../sources/index.html">Sources</a><a class="mg-link" href="../../methodology/index.html">Methodology</a><a class="mg-link" href="../../about/index.html">About</a></div>
       </div>
-      </nav>
+      <a class="chg-badge" href="../../changes/index.html">401 changed today</a></nav>
       </details>
     <div class="searchbox" role="search"><input type="search" id="sitesearch" placeholder="Search Heavy Reading" aria-label="Search Heavy Reading" autocomplete="off" data-index="../../search-index.json"><div class="searchres" id="searchres" hidden></div></div>
   </header>
@@ -714,7 +756,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <p>We rank big crude options trades by money. Then we count only the trades where open interest proves new positions opened. We follow at most one package in the leading theme. We do not copy everything.</p>
 </section>
 <section id="tally">
-<h2>Where the big new money went</h2>
+<h2>Where the big new money went<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <h3>Last 5 sessions</h3>
 <div class="wing-bar-row">
 <div><strong>Lower-price trades (puts)</strong><br><span class="wing-small">14 trades</span></div>
@@ -751,7 +793,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <p class="wing-small">Counted new money in this window: $740,440,740.</p>
 </section>
 <section id="decision">
-<h2>From flow to a trade</h2>
+<h2>From flow to a trade<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <p>Lower-price trades had the most big new money last week, $528,272,280 of $709,610,300 counted. We think most of it was crash protection. Copying the biggest package could make about $4,339,236 if Brent falls to $70 by expiry; the likely drawdown estimate is $62,092 and the most we can lose is $62,764. Stress test: Brent jumps $20 instead and the trade is worth -$62,092 if fear rises.</p>
 <p><strong>Officially, we are following nothing.</strong> No block date after Oct 23, 2026 is in the archive yet. The official v2 record starts with the first qualifying trade after adoption.</p>
 <div class="tblwrap"><table class="data wing-decision">
@@ -767,7 +809,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <p>No naked calls here. Every read has to end in a copy, a make number, a risk number, a stress number, and a hard max loss. If it cannot, we do not follow it.</p>
 </section>
 <section id="ranked">
-<h2>Biggest trades: last week</h2>
+<h2>Biggest trades: last week<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <article class="wing-card">
 <div class="wing-cardhead">
 <div class="wing-rank">#1</div>
@@ -1003,7 +1045,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 <p class="wing-small">Strikes: 110;120;130. Direction read: CROSS_FILE_DOI. Open-interest change at the biggest strike: 7043. Across the group: 15499.</p>
 </details>
 </article>
-<h2>Biggest trades: last month window</h2>
+<h2>Biggest trades: last month window<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <p>Last 20 sessions - only 7 available. The archive has 7 sessions, so this is not a full month.</p>
 <article class="wing-card">
 <div class="wing-cardhead">
@@ -1242,21 +1284,21 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </article>
 </section>
 <section id="how">
-<h2>How we know</h2>
+<h2>How we know<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <p>We wait until the next day, when open interest is published. If open interest rose enough at the biggest strike, new positions opened. If it fell the same way, positions closed. If the strikes disagree, we say split.</p>
 <p>Open interest does not say bought or sold. A new long and a new short both raise open interest. That limit stays on the page.</p>
 <p>A trade counts as a package when more than one strike in the same contract and month traded big on the same day. A package is clearer than one strike. One strike can be one leg of something we cannot see.</p>
 </section>
 <section id="record">
-<h2>The record</h2>
+<h2>The record<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <p>There is none, on purpose. The Wing's scoring record to October 26, 2026 (the Flow Rank first test and the clone book) was killed on the standing ruling: no one had read it. The lessons survive as rules in the method docs (score the call wing and the put wing separately, never pooled). The record restarts at zero with the rebuilt book.</p>
 </section>
 <section id="clones">
-<h2>The clone book</h2>
+<h2>The clone book<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <p>The first-test clone book was deleted with the rest of the Wing's scoring record on October 26, 2026. No clone P&amp;L carries forward. The clone method survives as doctrine in docs/BLOCK_CLONE_BOOK.md; official v2 follows are what the decision table above tracks, and there are none yet.</p>
 </section>
 <section id="archive">
-<h2>Board archive</h2>
+<h2>Board archive<span class="chg-stamp chg-new" data-chg="2026-10-30" title="This section last changed October 30, 2026">changed Oct 30</span></h2>
 <details class="wing-details"><summary>See past boards</summary>
 <div class="tblwrap"><table class="data">
 <thead><tr><th>Date</th><th>Trades</th><th>Top trade</th><th>Money</th><th>Status</th></tr></thead><tbody>
@@ -1270,7 +1312,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 </tbody></table></div></details>
 <p>Weekly recaps sit in the flow data beside the boards. They lead with the biggest trades, the counted tally, and follows.</p>
 </section>
-  <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../maps/index.html">Maps</a><a href="../../chartbook.html">Chartbook</a><a href="../../options/index.html">The Wing (options)</a><a href="../../options/charts/index.html">The Wing charts</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
+  <footer class="sitefoot"><div class="fcols"><div class="fcol"><h4>The Letter</h4><a href="../../weekly/index.html">Edition archive</a></div><div class="fcol"><h4>S&D Balance</h4><a href="../../barrels/index.html#disposition">S&amp;D balance</a><a href="../../barrels/index.html#st3-table">Projected ST3</a><a href="../../scorecard.html">Scorecard</a></div><div class="fcol"><h4>Supply</h4><a href="../../barrels/index.html">Supply hub</a><a href="../../projects/index.html">All projects</a><a href="../../apportionment/index.html">Apportionment</a><a href="../../barrels/index.html#disposition">Egress</a></div><div class="fcol"><h4>Maintenance</h4><a href="../../maintenance/index.html">Maintenance</a><a href="../../growth/index.html">Production growth</a></div><div class="fcol"><h4>World</h4><a href="../../world/middle-east/index.html">Middle East watch</a><a href="../../world/russia-refining/index.html">Russian refineries</a><a href="../../world/china-imports/index.html">China imports</a><a href="../../world/spr-storage/index.html">SPR & storage</a><a href="../../world/sour/index.html">The global sour barrel</a><a href="../../venezuela/index.html">Venezuela watch</a><a href="../../world/trump/index.html">Trump watch</a><a href="../../world/index.html">World</a></div><div class="fcol"><h4>The Digest</h4><a href="../../digest/index.html">Latest digest</a><a href="../../digest/index.html">Edition archive</a><a href="../../changes/index.html">What&apos;s changed</a></div><div class="fcol"><h4>Reference</h4><a href="../../fieldguide/index.html">Field guide</a><a href="../../global-balance.html">Global balance</a><a href="../../tolls/index.html">Toll search</a><a href="../../commitments/index.html">Commitments</a><a href="../../sat-watch.html">Sat watch</a><a href="../../maps/index.html">Maps</a><a href="../../chartbook.html">Chartbook</a><a href="../../options/index.html">The Wing (options)</a><a href="../../options/charts/index.html">The Wing charts</a><a href="../../data/index.html">Data downloads</a><a href="../../sources/index.html">Sources</a><a href="../../methodology/index.html">Methodology</a><a href="../../about/index.html">About</a></div></div><p class="fcolophon"><b>Heavy Reading</b>: the WCSB supply letter. Every number on this site comes from public sources: AER filings, CER data, and company disclosures, run through the WCSB S&amp;D model. How each figure was built is on the <a href="../../methodology/index.html">methodology</a> page; where every fact came from is in <a href="../../sources/index.html">sources</a>.</p></footer>
 </div>
 <script>
 (function(){
@@ -1371,5 +1413,26 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 })();
 </script>
 
+
+<script id="chg-visit">
+(function(){try{
+  var KEY='hr-last-visit', SKEY='hr-visit-since';
+  var since=sessionStorage.getItem(SKEY);
+  if(!since){
+    var prev=localStorage.getItem(KEY);
+    if(prev){ since=prev; sessionStorage.setItem(SKEY,prev); }
+    localStorage.setItem(KEY,new Date().toISOString());
+  }
+  if(since){
+    var sd=since.slice(0,10);
+    document.querySelectorAll('.chg-stamp[data-chg]').forEach(function(el){
+      if(el.getAttribute('data-chg')>sd){
+        el.classList.add('chg-since');
+        el.title=el.title+' (since your last visit)';
+      }
+    });
+  }
+}catch(e){}})();
+</script>
 </body>
 </html>
