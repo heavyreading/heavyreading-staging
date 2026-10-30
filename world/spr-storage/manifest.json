@@ -6,6 +6,18 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "The U.S. Department of Energy (DOE) announced on Oct 29 contract awards for an exchange of more than 40 million barrels of crude oil from the Strategic Petroleum Reserve (SPR), including volumes offered through previous solicitations. The awards are part of DOE's execution of President Trump's 172-million-barrel release, which contributes to a coordinated 400-million-barrel action by International Energy Agency (IEA) member nations' strategic reserves. DOE Under Secretary Kyle Haustveit said the latest awards of more than 40 million barrels complete the US commitment to release 172 million barrels from the Strategic Petroleum Reserve, and that DOE has secured the return of more than 216 million barrels to the reserve beginning early next year, including 44 million additional premium barrels, with a value of more than $4 billion, at no additional cost to taxpayers. Crude oil under the awarded contracts will be supplied from the SPR's Big Hill and Bryan Mound storage sites, and DOE will coordinate with awardees, pipelines, terminals and refining partners on the movement of the crude. The award resolves the open 17-million-barrel solicitation issued Oct 16, whose proposals were due Oct 21 and which the status checks on this page had found still unawarded as of the morning of Oct 29; the announcement was published on energy.gov on the afternoon of Oct 29.",
+   "vintage": "Oct 29, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.energy.gov/hgeo/opr/articles/energy-department-awards-contracts-strategic-petroleum-reserve-part-president"
+  },
+  {
+   "text": "OilPrice.com reported on Oct 30 that the United States completed the last major portion of its contribution to the broader International Energy Agency release agreement this week: the Energy Department said companies agreed to borrow about 40 million barrels from the Strategic Petroleum Reserve, awarding nearly 16.8 million barrels on Oct 28 after awarding 23.8 million barrels earlier in October. Crude oil gave back ground on Oct 29 as traders weighed the emergency supply against tentative efforts to reopen talks with Iran, OilPrice.com said, with December WTI futures trading at $102.77, down $0.67, at 0005 GMT on Oct 30 and Brent settling Oct 29 at $114.88 a barrel, down $0.44 on the day. The reserve is delivering barrels but remains near its lowest level since 1982, and no agreement has been reached in the renewed diplomatic contact between Washington, Tehran and Qatar, the report said.",
+   "vintage": "Oct 30, 2026",
+   "source": "OilPrice.com",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Oil-Markets-Caught-Between-Iran-War-Risks-and-Emergency-SPR-Releases.html"
+  },
+  {
    "text": "Status check on Oct 29: no Department of Energy (DOE) award announcement for the 17-million-barrel SPR exchange solicitation issued Oct 16 (FY27 SPR Oil Release No. 1), whose proposals were due Oct 21, had been published on energy.gov as of this check. The DOE newsroom search checked directly on Oct 29 lists the newest SPR press release as the Oct 23 emergency exchange of up to 400,000 barrels for the Phillips 66 Lake Charles refinery, with no SPR release dated Oct 24-29. No award for the separate 315,000-barrel Northeast Home Heating Oil Reserve exchange announced Oct 21, whose bids were due Oct 27, had been published on energy.gov as of this check either.",
    "vintage": "Oct 29, 2026",
    "source": "U.S. Department of Energy",
@@ -457,6 +469,16 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "U.S. Department of Energy",
+   "vintage": "",
+   "url": "https://www.energy.gov/hgeo/opr/articles/energy-department-awards-contracts-strategic-petroleum-reserve-part-president"
+  },
+  {
+   "publisher": "OilPrice.com",
+   "vintage": "",
+   "url": "https://oilprice.com/Energy/Energy-General/Oil-Markets-Caught-Between-Iran-War-Risks-and-Emergency-SPR-Releases.html"
+  },
   {
    "publisher": "U.S. Department of Energy",
    "vintage": "",

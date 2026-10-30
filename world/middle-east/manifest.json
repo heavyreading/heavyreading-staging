@@ -6,6 +6,18 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Iran's Revolutionary Guards Navy said on Oct 30 that two oil tankers were involved in incidents and stopped in waters south of the Strait of Hormuz, after ignoring radio warnings and attempting to use what it described as an unauthorized route through the strategic waterway, Reuters reported. Iran also said on Oct 30 that it destroyed a US unmanned vessel in the eastern Strait of Hormuz. There was no immediate confirmation from the US military.",
+   "vintage": "Oct 30, 2026",
+   "source": "Reuters (via Duke FM)",
+   "source_url": "https://duke.fm/2026/10/30/irans-irgc-navy-says-two-tankers-stopped-south-of-hormuz-after-incidents/"
+  },
+  {
+   "text": "A small boat attached two limpet mines to the hull of a tanker in the Strait of Hormuz on Oct 29, causing a fire in its engine room and temporarily disabling the vessel, in the first successful use of such explosives in the waterway since the US war with Iran began in February, maritime sources told Reuters on Oct 30. The tanker was the Panama-flagged Louise 1, according to assessments from three maritime security sources. The crew was safe, there was no environmental impact and the fire had been extinguished, the United Kingdom Maritime Trade Operations (UKMTO) said, adding that the vessel, which it did not name, was continuing to its next port of call. The incident occurred 25 nautical miles northeast of Khasab, Oman, UKMTO said, and it was not immediately clear who was behind the attack. Greece-based maritime risk group Marisks said the apparent ability of a small craft to approach a transiting tanker, deploy explosive devices and withdraw presents a significant security concern, particularly in the strait's congested shipping lanes. Ukrainian forces also hit the Louise 1 in July with naval drones in the Black Sea over what Ukraine's SBU security service said was its role in transporting Russian oil as part of the shadow fleet.",
+   "vintage": "Oct 29, 2026",
+   "source": "Reuters (via gCaptain)",
+   "source_url": "https://gcaptain.com/tanker-in-strait-of-hormuz-hit-by-limpet-mines-security-sources-say/"
+  },
+  {
    "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) said on Oct 29 that three oil tankers exploded and caught fire after hitting sea mines while attempting to cross an unauthorised route south of the Strait of Hormuz over the past 24 hours, in a statement shared by state media, Reuters reported. The tankers had switched off their radar and navigation systems and ignored warnings from the Guards' navy, which said the vessels had been abandoned on the southern shores of the strait. No vessel names, flags or casualty details were given, and the claim had not been independently confirmed.",
    "vintage": "Oct 29, 2026",
    "source": "Reuters (via Hatha Alyoum)",
@@ -286,6 +298,12 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil prices rose on Oct 30 and were on track for a fourth monthly gain as traders braced for a potential escalation in the US-Iran conflict after the US midterm elections, with an attack on a tanker in the Strait of Hormuz highlighting supply risks from the war, Reuters reported. Brent crude futures for December, which expire on Oct 30, were up $2.74, or 2.4 percent, at $117.62 a barrel as of 1045 GMT, and US West Texas Intermediate crude climbed $2.18, or 2.1 percent, to $104.18; for the month, Brent was on course to finish close to 14 percent higher and WTI about 15 percent higher. Qatari mediators returned to Tehran on Oct 30 as part of coordinated efforts to reach a deal between the US and Iran, an official briefed on the talks told Reuters. On Oct 29, Yemen's Iran-backed Houthis said they had attacked several sites in Saudi Arabia, including its largest oil refinery, Ras Tanura, the Rabigh refinery and a production facility in Abqaiq owned by Saudi Aramco, and a Saudi-led coalition said it had intercepted a cruise missile launched by the Houthis towards the kingdom's western region. President Trump said on Oct 29 that Vice President JD Vance had reached out to Iran to help the country get medical supplies, after US media reported Vance had written to Tehran's top security official to revive peace talks; Iran has received the letter but has not responded yet, the semi-official Tasnim news agency reported. ExxonMobil and Chevron have cancelled plans for their executives to travel to the United Arab Emirates' biggest oil show next week, two sources told Reuters.",
+   "vintage": "Oct 30, 2026",
+   "source": "Reuters (via LSE)",
+   "source_url": "https://www.lse.co.uk/news/oil-set-for-fourth-monthly-gain-as-hormuz-tanker-attack-highlights-supply-risks-glra4l8ri0f0pe9.html"
   },
   {
    "text": "Oil prices fell on Oct 29, paring gains made a day earlier, as hopes for peace talks took the edge off renewed concerns over Middle East supply disruptions, Reuters reported. Brent crude futures declined $1.22, or 1.1 percent, to $114.10 a barrel at 0351 GMT, and US West Texas Intermediate crude futures were down $1.33, or 1.3 percent, at $101.45. Brent rose 1.3 percent and WTI gained 3 percent on Oct 28. US Vice President JD Vance sought to revive peace negotiations by sending a letter to Iranian Security Council chief Mohsen Rezaei, the Wall Street Journal said on Oct 28, citing US officials and people familiar with the matter. Yuki Takashima, an economist at Nomura Securities, said selling pressure was prevailing amid expectations that peace talks may resume, but the decline remained limited due to concerns over intensified Houthi attacks and fears the US may launch an attack on Iran following its midterm elections on November 3. Iran's foreign minister said on Oct 28 that Tehran continued to give diplomacy a chance to succeed.",
@@ -1514,6 +1532,16 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via Duke FM)",
+   "vintage": "",
+   "url": "https://duke.fm/2026/10/30/irans-irgc-navy-says-two-tankers-stopped-south-of-hormuz-after-incidents/"
+  },
+  {
+   "publisher": "Reuters (via gCaptain)",
+   "vintage": "",
+   "url": "https://gcaptain.com/tanker-in-strait-of-hormuz-hit-by-limpet-mines-security-sources-say/"
+  },
+  {
    "publisher": "Reuters (via Hatha Alyoum)",
    "vintage": "",
    "url": "https://en.hathalyoum.net/articles/303938"
@@ -1742,6 +1770,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters (via LSE)",
+   "vintage": "",
+   "url": "https://www.lse.co.uk/news/oil-set-for-fourth-monthly-gain-as-hormuz-tanker-attack-highlights-supply-risks-glra4l8ri0f0pe9.html"
   },
   {
    "publisher": "Reuters (via KRRO)",
