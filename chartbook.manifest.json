@@ -6,14 +6,14 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
-   "text": "Noncommercial traders, the speculative category in the legacy Commitments of Traders report, hold a net long of 89,325 contracts in NYMEX WTI futures as of October 20, 2026, in the 3rd percentile of weekly readings since 2015.",
-   "vintage": "CFTC legacy Commitments of Traders, NYMEX WTI futures. Data through October 20, 2026.",
+   "text": "Noncommercial traders, the speculative category in the legacy Commitments of Traders report, hold a net long of 74,343 contracts in NYMEX WTI futures as of October 27, 2026, in the 3rd percentile of weekly readings since 2015.",
+   "vintage": "CFTC legacy Commitments of Traders, NYMEX WTI futures. Data through October 27, 2026.",
    "source": "CFTC Commitments of Traders (legacy)",
    "source_url": ""
   },
   {
-   "text": "Managed money holds a net long of 221,344 contracts in ICE Brent futures as of October 20, 2026, in the 61st percentile of weekly readings since 2020, up 14,414 contracts on the week.",
-   "vintage": "ICE Futures Europe Commitments of Traders, Brent futures only. Data through October 20, 2026.",
+   "text": "Managed money holds a net long of 220,069 contracts in ICE Brent futures as of October 27, 2026, in the 60th percentile of weekly readings since 2020, down 1,275 contracts on the week.",
+   "vintage": "ICE Futures Europe Commitments of Traders, Brent futures only. Data through October 27, 2026.",
    "source": "ICE Futures Europe Commitments of Traders",
    "source_url": ""
   },

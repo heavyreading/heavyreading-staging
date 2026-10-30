@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-10-30T11:53:11-06:00",
+ "built_at": "2026-10-30T15:50:01-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -11,15 +11,15 @@
    "source": "CFTC Commitments of Traders (legacy)",
    "pull": "wcsb-weekly-pull-friday (bin/pull_cftc_cot.py)",
    "cadence": "weekly",
-   "vintage": "CFTC legacy Commitments of Traders, NYMEX WTI futures. Data through October 20, 2026.",
+   "vintage": "CFTC legacy Commitments of Traders, NYMEX WTI futures. Data through October 27, 2026.",
    "stats": {
-    "level": 89325.0,
-    "percentile": 3.409090909090909,
+    "level": 74343.0,
+    "percentile": 2.593192868719611,
     "span_start": 2015,
-    "wow_change": -11018.0,
-    "date": "2026-10-20"
+    "wow_change": -14982.0,
+    "date": "2026-10-27"
    },
-   "narrative_text": "Noncommercial traders, the speculative category in the legacy Commitments of Traders report, hold a net long of 89,325 contracts in NYMEX WTI futures as of October 20, 2026, in the 3rd percentile of weekly readings since 2015. The position shrank by 11,018 contracts on the week. Positioning is the crowdedness gauge for the outright: a stretched net long is flush fuel on any bearish surprise, and a stretched net short is squeeze fuel the other way. A move back toward the middle of the range would stand this read down.",
+   "narrative_text": "Noncommercial traders, the speculative category in the legacy Commitments of Traders report, hold a net long of 74,343 contracts in NYMEX WTI futures as of October 27, 2026, in the 3rd percentile of weekly readings since 2015. The position shrank by 14,982 contracts on the week. Positioning is the crowdedness gauge for the outright: a stretched net long is flush fuel on any bearish surprise, and a stretched net short is squeeze fuel the other way. A move back toward the middle of the range would stand this read down.",
    "points": [
     [
      "2015-01-06",
@@ -1254,8 +1254,8 @@
      100343.0
     ],
     [
-     "2026-10-20",
-     89325.0
+     "2026-10-27",
+     74343.0
     ]
    ]
   },
@@ -1267,14 +1267,14 @@
    "source": "ICE Futures Europe Commitments of Traders",
    "pull": "wcsb-weekly-pull-friday (bin/pull_ice_cot.py)",
    "cadence": "weekly",
-   "vintage": "ICE Futures Europe Commitments of Traders, Brent futures only. Data through October 20, 2026.",
+   "vintage": "ICE Futures Europe Commitments of Traders, Brent futures only. Data through October 27, 2026.",
    "stats": {
-    "level": 221344.0,
-    "percentile_since_2020": 60.906515580736546,
-    "wow_change": 14414.0,
-    "date": "2026-10-20"
+    "level": 220069.0,
+    "percentile_since_2020": 60.451977401129945,
+    "wow_change": -1275.0,
+    "date": "2026-10-27"
    },
-   "narrative_text": "Managed money holds a net long of 221,344 contracts in ICE Brent futures as of October 20, 2026, in the 61st percentile of weekly readings since 2020, up 14,414 contracts on the week. Brent positioning is the global book's tell: it moves the whole crude complex, including the differentials struck off it. A washout toward flat, or a build into crowded territory, would each change what this chart is saying.",
+   "narrative_text": "Managed money holds a net long of 220,069 contracts in ICE Brent futures as of October 27, 2026, in the 60th percentile of weekly readings since 2020, down 1,275 contracts on the week. Brent positioning is the global book's tell: it moves the whole crude complex, including the differentials struck off it. A washout toward flat, or a build into crowded territory, would each change what this chart is saying.",
    "points": [
     [
      "2020-01-14",
@@ -2687,6 +2687,10 @@
     [
      "2026-10-20",
      221344.0
+    ],
+    [
+     "2026-10-27",
+     220069.0
     ]
    ]
   },
