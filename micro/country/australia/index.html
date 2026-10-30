@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="hr-page-key" content="micro/country/australia/index.html">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
@@ -641,6 +642,16 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   text-underline-offset:3px; }
 .chg-stamp.chg-since::before { background:var(--acc);
   box-shadow:0 0 0 3px var(--ch-wash-acc); }
+/* since-last-visit section treatment (v2, 2026-10-30): the section
+   container a fresh stamp belongs to gets a 1px inset ring in the
+   rust accent at low opacity plus a very slight warm tint. Inset
+   shadow and background only: zero layout shift, no animation. A
+   gentle highlight, not an alert. Light values first, dark lifted. */
+.chg-since-sec { box-shadow:inset 0 0 0 1px rgba(161,60,34,.35);
+  background:rgba(161,60,34,.045); }
+[data-theme="dark"] .chg-since-sec {
+  box-shadow:inset 0 0 0 1px rgba(207,113,80,.40);
+  background:rgba(207,113,80,.07); }
 .chg-badge { display:inline-flex; align-items:center; gap:6px;
   font-family:var(--sans); font-size:12px; font-weight:600;
   color:var(--acc-deep); text-decoration:none; padding:4px 0 4px 14px;
@@ -990,22 +1001,47 @@ conversion to kb/d only at exact volumetrics.</p>
 
 <script id="chg-visit">
 (function(){try{
-  var KEY='hr-last-visit', SKEY='hr-visit-since';
-  var since=sessionStorage.getItem(SKEY);
-  if(!since){
-    var prev=localStorage.getItem(KEY);
-    if(prev){ since=prev; sessionStorage.setItem(SKEY,prev); }
-    localStorage.setItem(KEY,new Date().toISOString());
-  }
-  if(since){
-    var sd=since.slice(0,10);
+  var meta=document.querySelector('meta[name="hr-page-key"]');
+  var page=meta?meta.getAttribute('content'):'';
+  if(!page){ return; }
+  function apply(prev){
+    if(!prev){ return; }
+    var sd=String(prev).slice(0,10);
     document.querySelectorAll('.chg-stamp[data-chg]').forEach(function(el){
       if(el.getAttribute('data-chg')>sd){
         el.classList.add('chg-since');
-        el.title=el.title+' (since your last visit)';
+        el.title=el.title+' (since your last visit to this page)';
+        var box=el.closest('section')||el.closest('h2')||el.parentElement;
+        if(box){ box.classList.add('chg-since-sec'); }
       }
     });
   }
+  function fallback(){
+    try{
+      var KEY='hr-last-visit:'+page, SKEY='hr-visit-since:'+page;
+      var since=sessionStorage.getItem(SKEY);
+      if(since===null){
+        var prev=localStorage.getItem(KEY);
+        sessionStorage.setItem(SKEY,prev||'');
+        localStorage.setItem(KEY,new Date().toISOString());
+        since=prev;
+      }
+      if(since){ apply(since); }
+    }catch(e){}
+  }
+  var settled=false;
+  fetch('/api/visit?page='+encodeURIComponent(page),
+        {credentials:'same-origin',headers:{'Accept':'application/json'}})
+    .then(function(r){
+      if(!r.ok){ throw new Error('visit '+r.status); }
+      return r.json();
+    })
+    .then(function(j){
+      settled=true;
+      if(j&&('prevVisitEnd' in j)){ apply(j.prevVisitEnd); }
+      else{ fallback(); }
+    })
+    .catch(function(){ if(!settled){ fallback(); } });
 }catch(e){}})();
 </script>
 </body>
