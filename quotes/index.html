@@ -702,7 +702,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
       <div class="mnav-sec"><p class="mnav-label">The Wing</p><a class="mg-link" href="../options/index.html">The Wing (options)</a><a class="mg-link" href="../options/charts/index.html">The Wing charts</a></div>
       <div class="mnav-sec"><p class="mnav-label">Reference</p><a class="mg-link" href="../fieldguide/index.html">Field guide</a><a class="mg-link" href="../global-balance.html">Global balance</a><a class="mg-link" href="../quotes/index.html" aria-current="page">Quotes</a><a class="mg-link" href="../tolls/index.html">Toll search</a><a class="mg-link" href="../commitments/index.html">Commitments grid</a><a class="mg-link" href="../freight-watch.html">Freight watch</a><a class="mg-link" href="../sat-watch.html">Sat watch</a><a class="mg-link" href="../globe.html">Globe</a><a class="mg-link" href="../maps/index.html">Maps</a><a class="mg-link" href="../chartbook.html">Chartbook</a><a class="mg-link" href="../arb-watch/index.html">Arb watch</a><a class="mg-link" href="../data/index.html">Data downloads</a><a class="mg-link" href="../sources/index.html">Sources</a><a class="mg-link" href="../methodology/index.html">Methodology</a><a class="mg-link" href="../about/index.html">About</a></div>
       </div>
-      <a class="chg-badge" href="../changes/index.html">29 changed today</a></nav>
+      <a class="chg-badge" href="../changes/index.html">30 changed today</a></nav>
       </details>
     <div class="searchbox" role="search"><input type="search" id="sitesearch" placeholder="Search Heavy Reading" aria-label="Search Heavy Reading" autocomplete="off" data-index="../search-index.json"><div class="searchres" id="searchres" hidden></div></div>
   </header>
@@ -728,6 +728,11 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 .q-exp{display:inline-block;font-size:10px;font-weight:400;color:var(--mut);
   border:1px solid var(--line);border-radius:999px;padding:0 7px;margin-left:7px;
   white-space:nowrap;vertical-align:1px}
+.q-untraded{color:var(--mut)}
+.q-volflag{display:inline-block;font-size:10px;font-weight:700;color:var(--ch-red);
+  border:1px solid var(--ch-red);border-radius:999px;padding:0 7px;margin-left:7px;
+  white-space:nowrap;vertical-align:1px}
+.q-volflag.thin{color:var(--mut);border-color:var(--line);font-weight:400}
 .up{color:var(--ch-acc)} .dn{color:var(--ch-blue)}
 .q-note{font-size:12px;color:var(--mut);margin:0 0 18px}
 #crack-row .q-card td{font-size:15px}
@@ -777,12 +782,27 @@ function stripCard(title,src,contracts,dec){
       +'</td><td>'+chg(c.change,dec)+'</td></tr>';});
   return h+'</table></div>';
 }
+function volCell(r){
+  // Thin-print rule (daily ideas 2026-10-31): volume is an integer lot
+  // count from bin/pull_quotes.py. Zero is a real value, not missing
+  // data: the old (r.volume||"-") test rendered every untraded settle
+  // as a dash, identical to a traded one. A settle on zero lots is an
+  // untraded mark and says so; under 25 lots is thin and says so.
+  var v=r.volume;
+  if(v==null||isNaN(v)) return "—";
+  v=Number(v);
+  if(v===0) return '0 <span class="q-volflag">untraded mark</span>';
+  if(v<25) return v+' <span class="q-volflag thin">thin</span>';
+  return String(v);
+}
 function diffCard(code,rows){
   var h='<div class="q-card"><h3>'+esc(code)+'</h3><div class="src">ICE EOD settle</div>';
   h+='<table><tr><th>Tenor</th><th>Settle</th><th>Chg</th><th style="text-align:right">Vol</th></tr>';
   rows.forEach(function(r){
-    h+='<tr><td class="cname">'+esc(r.label)+expChip(r)+'</td><td>'+fmt(r.settle)
-      +'</td><td>'+chg(r.change)+'</td><td>'+(r.volume||"—")+'</td></tr>';});
+    var untraded=(r.volume!=null&&!isNaN(r.volume)&&Number(r.volume)===0);
+    h+='<tr><td class="cname">'+esc(r.label)+expChip(r)+'</td><td'
+      +(untraded?' class="q-untraded"':'')+'>'+fmt(r.settle)
+      +'</td><td>'+chg(r.change)+'</td><td>'+volCell(r)+'</td></tr>';});
   return h+'</table></div>';
 }
 fetch(URL,{cache:"no-store"}).then(function(r){
@@ -817,7 +837,8 @@ fetch(URL,{cache:"no-store"}).then(function(r){
     +'<tr><td class="cname">Heating oil crack</td><td>'+fmt(c.ho_crack.value)+'</td><td>—</td></tr>'
     +'</table></div>';
   h+='</div>';
-  h+='<h2 style="font-family:var(--serif);font-size:20px;margin:6px 0 12px">ICE diffs <span style="font-size:13px;color:var(--mut);font-family:var(--sans)">EOD settles '+esc(d.ice_diffs.settle_date)+'</span><span class="chg-stamp chg-week" data-chg="2026-10-29" title="This section last changed October 29, 2026">changed Oct 29</span></h2>';
+  h+='<h2 style="font-family:var(--serif);font-size:20px;margin:6px 0 12px">ICE diffs <span style="font-size:13px;color:var(--mut);font-family:var(--sans)">EOD settles '+esc(d.ice_diffs.settle_date)+'</span><span class="chg-stamp chg-new" data-chg="2026-10-31" title="This section last changed October 31, 2026">changed Oct 31</span></h2>';
+  h+='<p class="q-note">Volume is lots traded on the settle date. A settle printed on zero lots is an untraded mark: the exchange carried the price, no trade set it. Under 25 lots is flagged thin.</p>';
   h+='<div class="q-grid">';
   ["TMW","ARV","TMS","TMR","TMF"].forEach(function(code){
     if(d.ice_diffs.contracts[code]) h+=diffCard(code,d.ice_diffs.contracts[code]);});
