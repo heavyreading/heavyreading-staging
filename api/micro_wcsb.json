@@ -21,8 +21,8 @@
   "2027-12"
  ],
  "prices": {
-  "asof": "Oct 30, 2026 9:06 PM MDT",
-  "settle_date": "2026-10-29",
+  "asof": "Oct 31, 2026 2:21 AM MDT",
+  "settle_date": "2026-10-30",
   "rows": [
    {
     "label": "WTI, Dec 26",
@@ -36,17 +36,17 @@
    },
    {
     "label": "WCS Hardisty diff (TMW), Dec 26",
-    "value": -30.5,
+    "value": -29.75,
     "basis": "ICE end-of-day settle"
    },
    {
     "label": "WCS Hardisty diff (TMW), Jan 27",
-    "value": -28.75,
+    "value": -28.05,
     "basis": "ICE end-of-day settle"
    },
    {
     "label": "WCS Houston diff (ARV), Dec 26",
-    "value": -22.973,
+    "value": -22.76,
     "basis": "ICE end-of-day settle"
    },
    {
