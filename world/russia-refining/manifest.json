@@ -228,6 +228,18 @@
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
   },
   {
+   "text": "Drones struck Rosneft's Novokuybyshevsk oil refinery in Russia's Samara region early on Oct 30, setting off a large fire, SOFX reported, a day after the Wall Street Journal reported Kyiv had agreed to halt attacks on Russian refineries under pressure from President Donald Trump. Ukrainian drone maker Fire Point said its FP-1 long-range drones scored numerous hits across the plant, including on a unit that removes sulfur from diesel fuel, and the Telegram monitoring channel Exilenova+ counted at least 11 separate fires. Samara governor Vyacheslav Fedorishchev said Kyiv had launched a record number of drones, that no one was hurt, and asked residents not to reveal what had been hit; Russia's Defence Ministry said air defences shot down 1,043 drones across 19 regions, Samara among them, during the night. The strike was the first reported on a Russian refinery in nearly two weeks; the last documented attacks on Russia's oil sector before it hit the Ryazan refinery on Oct 15 and an industrial site in Surgut on Oct 16. The Novokuybyshevsk refinery, owned by Rosneft since 2007, refines roughly 8.8 million metric tons of crude a year and makes diesel, gasoline and jet fuel for Russia's Aerospace Forces; Ukrainian drones struck it on Aug 22 and on Apr 18, when damage forced both of its main crude-processing units offline.",
+   "vintage": "Oct 30, 2026",
+   "source": "SOFX",
+   "source_url": "https://www.sofx.com/drones-set-russian-oil-refinery-on-fire-a-day-after-ukraine-reportedly-paused-strikes/"
+  },
+  {
+   "text": "The same overnight wave on Oct 29-30 also hit a food production plant in Russia's Bryansk region that supplies canned rations to Russian forces, and prompted temporary flight restrictions at all four major Moscow airports, SOFX reported. Moscow mayor Sergei Sobyanin said 862 drones had flown toward the Moscow region, with 170 downed as they neared the capital. Neither the Bryansk plant nor the airport closures is a refinery target.",
+   "vintage": "Oct 30, 2026",
+   "source": "SOFX",
+   "source_url": "https://www.sofx.com/drones-set-russian-oil-refinery-on-fire-a-day-after-ukraine-reportedly-paused-strikes/"
+  },
+  {
    "text": "A major fire reportedly broke out at the Novokuybyshevsk oil refinery in Russia's Samara region on Oct 30 following a drone attack, Euronews reported. Russian Telegram channels said a blaze had started at the refinery after a drone warning and a series of explosions, and images and video footage circulating on social media appeared to show multiple columns of black smoke over the complex. The reported strike is the first on a Russian oil refinery in nearly two weeks, landing a day after the Wall Street Journal reported that Ukraine had paused refinery strikes amid pressure from Washington, with the pause expected to last until after the US midterm elections on Nov 3. The Novokuybyshevsk refinery, owned by Rosneft since 2007, can process around 8.8 million tonnes of crude oil per year and is involved in the production of jet fuel. Euronews described the story as developing, with the extent of any damage not yet established.",
    "vintage": "Oct 30, 2026",
    "source": "Euronews",
@@ -635,6 +647,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "SOFX",
+   "vintage": "",
+   "url": "https://www.sofx.com/drones-set-russian-oil-refinery-on-fire-a-day-after-ukraine-reportedly-paused-strikes/"
   },
   {
    "publisher": "Euronews",

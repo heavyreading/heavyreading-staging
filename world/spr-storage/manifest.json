@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Status check on Oct 31: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE newsroom search checked directly on Oct 31 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels; no SPR press release dated Oct 30 or Oct 31 appears. The spr.doe.gov exchange pages returned no readable award listing on this check. The Oct 29 awards therefore remain the latest SPR action, with returns of more than 216 million barrels, including 44 million premium barrels, secured to begin early next year.",
+   "vintage": "Oct 31, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
+  },
+  {
    "text": "The U.S. Department of Energy (DOE) announced on Oct 29 contract awards for an exchange of more than 40 million barrels of crude oil from the Strategic Petroleum Reserve (SPR), including volumes offered through previous solicitations. The awards are part of DOE's execution of President Trump's 172-million-barrel release, which contributes to a coordinated 400-million-barrel action by International Energy Agency (IEA) member nations' strategic reserves. DOE Under Secretary Kyle Haustveit said the latest awards of more than 40 million barrels complete the US commitment to release 172 million barrels from the Strategic Petroleum Reserve, and that DOE has secured the return of more than 216 million barrels to the reserve beginning early next year, including 44 million additional premium barrels, with a value of more than $4 billion, at no additional cost to taxpayers. Crude oil under the awarded contracts will be supplied from the SPR's Big Hill and Bryan Mound storage sites, and DOE will coordinate with awardees, pipelines, terminals and refining partners on the movement of the crude. The award resolves the open 17-million-barrel solicitation issued Oct 16, whose proposals were due Oct 21 and which the status checks on this page had found still unawarded as of the morning of Oct 29; the announcement was published on energy.gov on the afternoon of Oct 29.",
    "vintage": "Oct 29, 2026",
    "source": "U.S. Department of Energy",
@@ -472,17 +478,17 @@
   {
    "publisher": "U.S. Department of Energy",
    "vintage": "",
+   "url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
+  },
+  {
+   "publisher": "U.S. Department of Energy",
+   "vintage": "",
    "url": "https://www.energy.gov/hgeo/opr/articles/energy-department-awards-contracts-strategic-petroleum-reserve-part-president"
   },
   {
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Energy/Energy-General/Oil-Markets-Caught-Between-Iran-War-Risks-and-Emergency-SPR-Releases.html"
-  },
-  {
-   "publisher": "U.S. Department of Energy",
-   "vintage": "",
-   "url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
   },
   {
    "publisher": "U.S. Department of Energy",

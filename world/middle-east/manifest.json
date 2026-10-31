@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Iran's Revolutionary Guards Navy said on Oct 30 that four oil tankers had caught fire and exploded in the Strait of Hormuz while attempting to use what it described as unauthorised routes, Iranian state media reported, Reuters reported. In its latest statement the Guards said a fourth vessel, a tanker carrying more than 2 million barrels of crude oil, had hit a mine, suffered a powerful explosion and was burning; an earlier statement the same day said another tanker, also carrying 2 million barrels of crude oil, had hit a naval mine. Reuters was unable to immediately verify the statement, and no vessel names were given. Separately, UK Maritime Trade Operations (UKMTO) said a verified source told it that a crude oil tanker was struck by an unknown projectile while completing an outbound transit of the waterway, and UKMTO earlier said a vessel was hit by an unknown projectile on its port side about 40 nautical miles south of Iran's Lavan Island, causing a fire on board, with the crew reported safe and no environmental impact reported. It was not immediately clear whether the vessels cited by UKMTO were among the four tankers referred to by the Guards. State media also said Iranian forces downed and captured an MQM-170 US drone over Qeshm island near the strait, a claim Reuters could not independently verify and on which the US military had not immediately reacted. Iran also said it had destroyed an unmanned US vessel in the eastern Strait of Hormuz; US Central Command (CENTCOM) denied that claim, saying on X that all US military unmanned surface vessels in the Middle East are accounted for, including a squadron of advanced sea drones on patrol in the Strait of Hormuz.",
+   "vintage": "Oct 30, 2026",
+   "source": "Reuters (via LA Post)",
+   "source_url": "https://www.lapost.com/content/iran-s-irgc-navy-says-three-tankers-catch-fire-in-strait-of-hormuz"
+  },
+  {
    "text": "Iran's Revolutionary Guards Navy said on Oct 30 that two oil tankers were involved in incidents and stopped in waters south of the Strait of Hormuz, after ignoring radio warnings and attempting to use what it described as an unauthorized route through the strategic waterway, Reuters reported. Iran also said on Oct 30 that it destroyed a US unmanned vessel in the eastern Strait of Hormuz. There was no immediate confirmation from the US military.",
    "vintage": "Oct 30, 2026",
    "source": "Reuters (via Duke FM)",
@@ -298,6 +304,12 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil prices jumped more than 2 percent on Oct 30 and settled at their highest levels since the end of April, as traders braced for a potential escalation in the Iran war after the US midterm elections on Nov 3, with the limpet-mine attack on a tanker in the Strait of Hormuz highlighting supply risks, Reuters reported. Brent crude futures for December, which expired on Oct 30, settled up $2.76, or 2.4 percent, at $117.64 a barrel after touching a high of $118, and the more active January contract gained $2.63 to $113.43; US West Texas Intermediate crude settled $2.12, or 2.08 percent, higher at $104.12. For October, Brent finished 13.6 percent higher and WTI rose 15.2 percent, a fourth straight monthly gain for both benchmarks. Saudi Arabia's crude exports rose in October from September, two of three ship-tracking companies said, despite Iranian attacks on shipping in the Gulf and Houthi claims of attacks on Saudi oil facilities. The US oil rig count rose by two in the week, and the US Energy Information Administration (EIA) said in its Petroleum Supply Monthly report on Oct 30 that US crude oil output increased in August while demand for crude oil and petroleum products declined.",
+   "vintage": "Oct 30, 2026",
+   "source": "Reuters (via Global Banking & Finance)",
+   "source_url": "https://www.globalbankingandfinance.com/oil-rises-supply-concerns-houthis-attack-saudi-arabia/"
   },
   {
    "text": "Oil prices rose on Oct 30 and were on track for a fourth monthly gain as traders braced for a potential escalation in the US-Iran conflict after the US midterm elections, with an attack on a tanker in the Strait of Hormuz highlighting supply risks from the war, Reuters reported. Brent crude futures for December, which expire on Oct 30, were up $2.74, or 2.4 percent, at $117.62 a barrel as of 1045 GMT, and US West Texas Intermediate crude climbed $2.18, or 2.1 percent, to $104.18; for the month, Brent was on course to finish close to 14 percent higher and WTI about 15 percent higher. Qatari mediators returned to Tehran on Oct 30 as part of coordinated efforts to reach a deal between the US and Iran, an official briefed on the talks told Reuters. On Oct 29, Yemen's Iran-backed Houthis said they had attacked several sites in Saudi Arabia, including its largest oil refinery, Ras Tanura, the Rabigh refinery and a production facility in Abqaiq owned by Saudi Aramco, and a Saudi-led coalition said it had intercepted a cruise missile launched by the Houthis towards the kingdom's western region. President Trump said on Oct 29 that Vice President JD Vance had reached out to Iran to help the country get medical supplies, after US media reported Vance had written to Tehran's top security official to revive peace talks; Iran has received the letter but has not responded yet, the semi-official Tasnim news agency reported. ExxonMobil and Chevron have cancelled plans for their executives to travel to the United Arab Emirates' biggest oil show next week, two sources told Reuters.",
@@ -1532,6 +1544,11 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via LA Post)",
+   "vintage": "",
+   "url": "https://www.lapost.com/content/iran-s-irgc-navy-says-three-tankers-catch-fire-in-strait-of-hormuz"
+  },
+  {
    "publisher": "Reuters (via Duke FM)",
    "vintage": "",
    "url": "https://duke.fm/2026/10/30/irans-irgc-navy-says-two-tankers-stopped-south-of-hormuz-after-incidents/"
@@ -1770,6 +1787,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters (via Global Banking & Finance)",
+   "vintage": "",
+   "url": "https://www.globalbankingandfinance.com/oil-rises-supply-concerns-houthis-attack-saudi-arabia/"
   },
   {
    "publisher": "Reuters (via LSE)",
