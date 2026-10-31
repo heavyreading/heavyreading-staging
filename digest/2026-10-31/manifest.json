@@ -1,7 +1,7 @@
 {
  "page": "/digest/2026-10-31/",
  "title": "The Morning Digest: October 31, 2026",
- "dek": "Friday's settles were WTI Dec26 $104.12 (up $2.12) and Brent Dec26 $117.64 (up $2.76) on its expiry day, both the highest closes since end April, with Brent Jan27 at $113.43 as the new front contract and a $4.21 roll gap into Monday. December WCS at -$29.75 (ICE TMW settle, Oct 30) on 990 lots, the first volume backed tightening of the week, with the Houston spread at +$6.99. The Energy Department's award sheets name the reserve buyers, including 16.75 million barrels in one sale and 23.8 million in another, correcting the record carried here on Oct 30. Imperial Oil's third quarter ran Kearl at 282 kb/d gross through full outage days while its full year Kearl guide was trimmed. Cenovus reported Saturday morning with fourth quarter refinery downtime disclosed. The diesel crack is $97.08.",
+ "dek": "Friday's settles were WTI Dec26 $104.12 (up $2.12) and Brent Dec26 $117.64 (up $2.76) on its expiry day, both the highest closes since end April, with Brent Jan27 at $113.43 as the new front contract and a $4.21 roll gap into Monday. December WCS at -$29.75 (ICE TMW settle, Oct 30) on 990 lots, the first volume backed tightening of the week, with the Houston spread at +$6.99. The Energy Department's award sheets name the reserve buyers, including 16.75 million barrels in one sale and 23.8 million in another, correcting the record carried here on Oct 30. Imperial Oil's third quarter ran Kearl at 282 kb/d gross through full outage days while its full year Kearl guide was trimmed. Cenovus reports Wednesday Nov 4. The diesel crack is $97.08.",
  "built_at": "2026-10-31",
  "generator": "heavyreading-manifest/1",
  "claims": [],
@@ -42,17 +42,17 @@
    "url": ""
   },
   {
-   "publisher": "Imperial Oil third quarter release",
-   "vintage": "Oct 30, 2026 (net income C$2,454 million; upstream production 478,000 boe/d, the best third quarter in over 20 years; Kearl 282,000 bbl/d gross and 268 net in a quarter including full pipeline outage shutdown days; Cold Lake 155,000 bbl/d; Syncrude share 82,000 bbl/d net on 274,000 gross; full year production guidance raised to the upper half of 465,000 to 475,000 boe/d; Kearl full year average now guided below the prior 280 to 290 kb/d range; capital spending cut by about C$200 million to about C$1.8 billion)",
+   "publisher": "Imperial Oil third quarter release and earnings call",
+   "vintage": "Oct 30, 2026 (record net income C$2,454 million, C$5.11 a share; upstream production 418,000 boe/d; Kearl 282,000 bbl/d gross and 200,000 share in a quarter hit by third party pipeline outages including a full shutdown for multiple days; Cold Lake 139,000 bbl/d with the Mahihkan turnaround completed in October ahead of schedule; Syncrude share 70,000 bbl/d with the Coker 8-2 turnaround confirmed complete; Kearl 2026 target cut to 280,000 bbl/d gross, below the original 285,000 to 295,000 range; downstream income a record C$1,555 million on throughput of 381,000 bbl/d at 88 percent utilization)",
    "url": ""
   },
   {
-   "publisher": "Cenovus Energy third quarter release",
-   "vintage": "Oct 31, 2026 (total production 832,500 boe/d; upstream 799,500 boe/d; oil sands 642,700 bbl/d; US refining crude runs 442,400 bbl/d at 88.4 percent utilization, Toledo 96.5 percent, Borger 96.5 percent, Lima 90.5 percent, Wood River 83.3 percent; a fourth quarter turnaround at WRB and a planned Wood River event disclosed; adjusted funds flow C$2.9 billion; net earnings C$105 million after C$1.5 billion of impairments)",
+   "publisher": "Cenovus Energy results notice, GlobeNewswire",
+   "vintage": "Oct 28, 2026, and BOE Report earnings calendar, Oct 30, 2026 (Cenovus releases third quarter results Wednesday Nov 4, 2026, call 08:30 ET; it did not report on Oct 30 or 31; MEG Energy has been a Cenovus subsidiary since Nov 13, 2025, and has no standalone report)",
    "url": ""
   },
   {
-   "publisher": "Company investor calendars and exchange notices, checked Oct 30 to 31, 2026 (Suncor reports Nov 3 after market close, webcast Nov 4; MEG Energy files Nov 6 after close, webcast Nov 7; Enbridge reports Nov 6 before open; EIA weekly report Wednesday Nov 4 at 10:30 a.m. ET in the standard slot)",
+   "publisher": "Company investor calendars and exchange notices, checked Oct 30 to 31, 2026 (Gibson Energy reports Nov 2 after market close; Suncor reports Nov 3 after market close, webcast Nov 4; Cenovus reports Nov 4; Enbridge reports Nov 6 before open; EIA weekly report Wednesday Nov 4 at 10:30 a.m. ET in the standard slot)",
    "vintage": "unknown",
    "url": ""
   },
