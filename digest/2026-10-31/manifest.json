@@ -1,13 +1,13 @@
 {
  "page": "/digest/2026-10-31/",
  "title": "The Morning Digest: October 31, 2026",
- "dek": "Friday's settles were WTI Dec26 $102.08 (up $0.08) and Brent Jan27 $110.68 (down $0.88), the new front contract after Brent December expired at $111.56. December WCS at -$29.75 (ICE TMW settle, Oct 30) on 990 lots, the first volume backed tightening of the week, with the Houston spread at +$6.99. The Energy Department's award sheets name the reserve buyers, including 16.75 million barrels in one sale and 23.8 million in another, correcting the record carried here on Oct 30. Imperial Oil's third quarter ran Kearl at 282 kb/d gross through full outage days while its full year Kearl guide was trimmed. Cenovus reported Saturday morning with fourth quarter refinery downtime disclosed. The diesel crack is $97.08.",
+ "dek": "Friday's settles were WTI Dec26 $104.12 (up $2.12) and Brent Dec26 $117.64 (up $2.76) on its expiry day, both the highest closes since end April, with Brent Jan27 at $113.43 as the new front contract and a $4.21 roll gap into Monday. December WCS at -$29.75 (ICE TMW settle, Oct 30) on 990 lots, the first volume backed tightening of the week, with the Houston spread at +$6.99. The Energy Department's award sheets name the reserve buyers, including 16.75 million barrels in one sale and 23.8 million in another, correcting the record carried here on Oct 30. Imperial Oil's third quarter ran Kearl at 282 kb/d gross through full outage days while its full year Kearl guide was trimmed. Cenovus reported Saturday morning with fourth quarter refinery downtime disclosed. The diesel crack is $97.08.",
  "built_at": "2026-10-31",
  "generator": "heavyreading-manifest/1",
  "claims": [],
  "sources": [
   {
-   "publisher": "Reuters, Oct 30 to 31, 2026 (Friday settles: WTI Dec26 $102.08, up $0.08; Brent Jan27 $110.68, down $0.88; Brent Dec26 final settle $111.56, down $3.32 on its expiry day; Brent December expired Oct 30 and January is the front contract from Monday; Saturday preview coverage of the Sunday OPEC+ meeting: delegates expect an extension of the pause on output hikes through the first quarter of 2027, with about 4.95 million barrels a day of planned increases already paused; Iran's president conditioned any closure of the strait on being attacked, via a TASS carry of Oct 30 to 31)",
+   "publisher": "Reuters, Oct 30 to 31, 2026 (Friday settles: WTI Dec26 $104.12, up $2.12; Brent Dec26 final settle $117.64, up $2.76 on its expiry day, intraday high $118; Brent Jan27 $113.43, up $2.63, front contract from Monday; both benchmarks at their highest closes since end April; October monthly gains Brent +13.6 percent and WTI +15.2 percent, a fourth straight monthly gain; post settlement trade pared gains after the President said peace talks are taking place, via Bloomberg on Oct 30; Saturday preview coverage of the Sunday OPEC+ meeting: delegates expect an extension of the pause on output hikes through the first quarter of 2027, with about 4.95 million barrels a day of planned increases already paused; Iran's president conditioned any closure of the strait on being attacked, via a TASS carry of Oct 30 to 31)",
    "vintage": "unknown",
    "url": ""
   },
@@ -33,7 +33,7 @@
   },
   {
    "publisher": "ICE Report Center EOD",
-   "vintage": "Oct 30, 2026 (TMW Dec26 -$29.75 on 990 lots; Jan27 -$28.05; Feb27 -$26.85; Mar27 -$24.85; ARV Dec26 -$22.76 on 130 lots; Jan27 -$20.75 on 40 lots; ARV to TMW spread +$6.99 in December and +$7.30 in January; TMS Dec26 +$5.95 on zero lots; TMF Dec26 +$6.95; TMR Dec26 -$1.00 on 90 lots; TMU Dec26 +$3.15; December WCS outright $72.33 on Friday's WTI settle)",
+   "vintage": "Oct 30, 2026 (TMW Dec26 -$29.75 on 990 lots; Jan27 -$28.05; Feb27 -$26.85; Mar27 -$24.85; ARV Dec26 -$22.76 on 130 lots; Jan27 -$20.75 on 40 lots; ARV to TMW spread +$6.99 in December and +$7.30 in January; TMS Dec26 +$5.95 on zero lots; TMF Dec26 +$6.95; TMR Dec26 -$1.00 on 90 lots; TMU Dec26 +$3.15; December WCS outright $74.37 on Friday's WTI settle)",
    "url": ""
   },
   {
