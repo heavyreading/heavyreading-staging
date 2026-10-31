@@ -1,40 +1,6 @@
 {
  "edition": "2026-10-30",
- "generated_at": "2026-10-30T21:51:50",
+ "generated_at": "2026-10-31T00:45:45",
  "generator": "change_engine v1",
- "changes": [
-  {
-   "title": "Project update: Long Lake Upgrader",
-   "delta": "note changed",
-   "body": "Long Lake Upgrader: note changed from \"HISTORICAL — idled indefinitely Jul 2016 after Jan 2016 hydrocracker explosion; never restarted. Site is SAGD-only (raw bitumen/dilbit). US$1.6B impairment. ST53 tracks SAGD bitumen.\" to \"HISTORICAL: idled indefinitely Jul 2016 after Jan 2016 hydrocracker explosion; never restarted. Site is SAGD-only (raw bitumen/dilbit). US$1.6B impairment. ST53 tracks SAGD bitumen.\".",
-   "balance": "Reference update; no direct balance read.",
-   "vintage": "Project roster",
-   "source": "Project roster (AER ST3/ST53 mapping)",
-   "confirmation": "confirmed",
-   "dedup_key": "project-field-cnooc_long_lake_upgrader-note-HISTORICAL: idled indefinitely Jul 2016 after Jan 2016 hydrocracker explosion; never restarted. Site is SAGD-only (raw bitumen/dilbit). US$1.6B impairment. ST53 tracks SAGD bitumen.",
-   "auto_detected": true
-  },
-  {
-   "title": "Project update: Strathcona Refinery",
-   "delta": "note changed",
-   "body": "Strathcona Refinery: note changed from \"197 kb/d nameplate. CDU/VDU/FCC/reformer/hydrotreaters — no coker, no hydrocracker. Runs heavy/Cold Lake + dilbit. 20 kb/d renewable diesel since Aug 2025.\" to \"197 kb/d nameplate. CDU/VDU/FCC/reformer/hydrotreaters: no coker, no hydrocracker. Runs heavy/Cold Lake + dilbit. 20 kb/d renewable diesel since Aug 2025.\".",
-   "balance": "Reference update; no direct balance read.",
-   "vintage": "Project roster",
-   "source": "Project roster (AER ST3/ST53 mapping)",
-   "confirmation": "confirmed",
-   "dedup_key": "project-field-imo_strathcona-note-197 kb/d nameplate. CDU/VDU/FCC/reformer/hydrotreaters: no coker, no hydrocracker. Runs heavy/Cold Lake + dilbit. 20 kb/d renewable diesel since Aug 2025.",
-   "auto_detected": true
-  },
-  {
-   "title": "Project update: Scotford Refinery",
-   "delta": "note changed",
-   "body": "Scotford Refinery: note changed from \"Nameplate cited 100-114 kb/d (sources differ). CDU ~100, hydrocracker ~76-83 — no coker/FCC. Runs heavy Canadian + SCO. Separate refinery adjacent to the upgrader.\" to \"Nameplate cited 100-114 kb/d (sources differ). CDU ~100, hydrocracker ~76-83: no coker/FCC. Runs heavy Canadian + SCO. Separate refinery adjacent to the upgrader.\".",
-   "balance": "Reference update; no direct balance read.",
-   "vintage": "Project roster",
-   "source": "Project roster (AER ST3/ST53 mapping)",
-   "confirmation": "confirmed",
-   "dedup_key": "project-field-shell_scotford_refinery-note-Nameplate cited 100-114 kb/d (sources differ). CDU ~100, hydrocracker ~76-83: no coker/FCC. Runs heavy Canadian + SCO. Separate refinery adjacent to the upgrader.",
-   "auto_detected": true
-  }
- ]
+ "changes": []
 }
