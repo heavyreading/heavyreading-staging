@@ -2,7 +2,7 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-10-31",
+ "built_at": "2026-11-01",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -76,6 +76,12 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "Three strikes in three days, Novokuibyshevsk on Oct 30, Ufa on Oct 31 and Kstovo overnight into Nov 1, look like a resumed campaign against Russian refining after a lull from mid-October, the Baltic Security Monitor reported on Nov 1. The fire at the Bashneft-Novoil refinery in Ufa is now backed by geolocated footage, not just eyewitnesses, and Ukraine's Strategic Communications Center named Bashneft-Novoil and Bashneft-Ufaneftekhim as targets. The monitor noted that the gap between visible fire and lost refining capacity remains open: damage to the L-35 unit is known only from visual analysis and is unverified, and involvement of the second Ufa plant has no geolocated evidence.",
+   "vintage": "Nov 1, 2026",
+   "source": "Baltic Security Monitor",
+   "source_url": "https://osint-baltic.com/ufa-kstovo-refinery-strikes-en/"
   },
   {
    "text": "Ukraine's military has paused its strikes on Russian oil refineries after pressure from US President Donald Trump, the Wall Street Journal reported on Oct 29, citing people with knowledge of the operations, Reuters reported. Ukrainian units carrying out long-range strikes were told in mid-October that the campaign against refineries was effectively on hold once missions already in motion were completed, the Journal reported. The unofficial pause is expected to last until after the US midterm elections and potentially deeper into November, it added. Reuters could not immediately verify the report. The pause report landed a day before a reported fire at the Novokuybyshevsk refinery in the Samara region on Oct 30, the first reported refinery strike since mid-October.",
@@ -226,6 +232,18 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "A major Russian oil refinery in Kstovo, in the Nizhny Novgorod region, was reportedly targeted in a drone attack overnight into Nov 1, Euronews reported. Regional governor Gleb Nikitin said in a post on Telegram that a massive UAV attack had resulted in significant damage to an industrial facility in the Kstovsky district, that more than 100 drones had been destroyed, and that early information suggested there had been no casualties, with emergency crews working at the scene. Nikitin said that while restoration work is underway there may be temporary power cuts and reduced hot water and heating supplies in parts of the local utility networks. Telegram war monitoring channels said the attack targeted the Kstovo oil refinery, also known as the Lukoil-Nizhegorodnefteorgsintez refinery, thought to be one of Russia's largest such facilities; according to Lukoil, the site produces diesel and aviation fuel, among other products. The reported strike is the third on a Russian refinery in three days, after Novokuibyshevsk on Oct 30 and Ufa on Oct 31.",
+   "vintage": "Nov 1, 2026",
+   "source": "Euronews",
+   "source_url": "https://app.ekkow.com/1489527945008677779"
+  },
+  {
+   "text": "The Bashneft-Novoil oil refinery in Ufa, in central Russia, caught fire on Oct 31 after a reported Ukrainian drone attack, the Kyiv Independent reported, citing Russian outlet ASTRA's open-source analysis of eyewitness photos, a day after Ukraine resumed strikes on Russian refineries following a two-week pause. A key catalytic reforming unit, the L-35, was likely burning, ASTRA's analyst said; the unit produces reformate, a high-octane gasoline component, and hydrogen needed to refine motor fuels. Residents reported several explosions on the morning of Oct 31, a column of smoke and internet disruptions after a drone alert overnight, and residents claimed two plants were hit, with Telegram channel Exilenova+ reporting fires at two of the three refineries in Ufa's northern industrial zone. Rosneft-owned Bashneft operates three adjacent refineries in Ufa, Bashneft-Ufaneftekhim, Bashneft-Novoil and Bashneft-UNPZ, forming one of Russia's largest refining complexes, with a combined capacity of 23.5 million tons of crude a year, according to ASTRA. Bashneft-Novoil produces Euro-6 gasoline, diesel, jet fuel and industrial oils.",
+   "vintage": "Oct 31, 2026",
+   "source": "Kyiv Independent (via EuropeSays)",
+   "source_url": "https://www.europesays.com/ukraine/63537/"
   },
   {
    "text": "Drones struck Rosneft's Novokuybyshevsk oil refinery in Russia's Samara region early on Oct 30, setting off a large fire, SOFX reported, a day after the Wall Street Journal reported Kyiv had agreed to halt attacks on Russian refineries under pressure from President Donald Trump. Ukrainian drone maker Fire Point said its FP-1 long-range drones scored numerous hits across the plant, including on a unit that removes sulfur from diesel fuel, and the Telegram monitoring channel Exilenova+ counted at least 11 separate fires. Samara governor Vyacheslav Fedorishchev said Kyiv had launched a record number of drones, that no one was hurt, and asked residents not to reveal what had been hit; Russia's Defence Ministry said air defences shot down 1,043 drones across 19 regions, Samara among them, during the night. The strike was the first reported on a Russian refinery in nearly two weeks; the last documented attacks on Russia's oil sector before it hit the Ryazan refinery on Oct 15 and an industrial site in Surgut on Oct 16. The Novokuybyshevsk refinery, owned by Rosneft since 2007, refines roughly 8.8 million metric tons of crude a year and makes diesel, gasoline and jet fuel for Russia's Aerospace Forces; Ukrainian drones struck it on Aug 22 and on Apr 18, when damage forced both of its main crude-processing units offline.",
@@ -524,6 +542,11 @@
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "publisher": "Baltic Security Monitor",
+   "vintage": "",
+   "url": "https://osint-baltic.com/ufa-kstovo-refinery-strikes-en/"
+  },
+  {
    "publisher": "Reuters (via Global Banking & Finance)",
    "vintage": "",
    "url": "https://www.globalbankingandfinance.com/ukraine-pauses-strikes-russian-refineries-pressure-trump-wsj/"
@@ -647,6 +670,16 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Euronews",
+   "vintage": "",
+   "url": "https://app.ekkow.com/1489527945008677779"
+  },
+  {
+   "publisher": "Kyiv Independent (via EuropeSays)",
+   "vintage": "",
+   "url": "https://www.europesays.com/ukraine/63537/"
   },
   {
    "publisher": "SOFX",
