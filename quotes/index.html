@@ -735,6 +735,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 .q-volflag.thin{color:var(--mut);border-color:var(--line);font-weight:400}
 .up{color:var(--ch-acc)} .dn{color:var(--ch-blue)}
 .q-note{font-size:12px;color:var(--mut);margin:0 0 18px}
+.q-centre{font-size:14px;margin:0 0 14px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--paper)}
 #crack-row .q-card td{font-size:15px}
 #q-error{display:none;border:1px solid var(--ch-red);border-radius:10px;padding:14px;
   margin-bottom:18px;font-size:14px}
@@ -795,6 +796,34 @@ function volCell(r){
   if(v<25) return v+' <span class="q-volflag thin">thin</span>';
   return String(v);
 }
+function tradedCentre(contracts){
+  // Traded-centre line (daily ideas 2026-11-01): the row flags built
+  // 2026-10-31 say which settles traded, one row at a time. This line
+  // says it once, at the size a reader takes in before the tables:
+  // how many of the diff contracts on the page traded at 25 lots or
+  // more, how many were thin, and how many are untraded marks, with
+  // the traded contracts named. Same thresholds as volCell: zero is
+  // an untraded mark, under 25 lots is thin, 25 or more is traded.
+  var traded=[],thin=0,marks=0,total=0;
+  Object.keys(contracts||{}).forEach(function(code){
+    (contracts[code]||[]).forEach(function(r){
+      if(r.volume==null||isNaN(r.volume)) return;
+      total++;
+      var v=Number(r.volume);
+      if(v===0) marks++;
+      else if(v<25) thin++;
+      else traded.push(code+" "+r.label+" "+v+" lots");
+    });});
+  if(!total) return "";
+  var s="Traded centre: "+traded.length+" of "+total
+    +" diff contracts traded at 25 lots or more";
+  if(thin) s+=", "+thin+" thin";
+  if(marks) s+=", "+marks+" untraded marks";
+  s+=".";
+  if(traded.length) s+=" Traded: "+traded.join("; ")+".";
+  else s+=" No diff contract traded at 25 lots or more: every settle on this page is a thin print or a carried mark.";
+  return '<p class="q-centre">'+esc(s)+'</p>';
+}
 function diffCard(code,rows){
   var h='<div class="q-card"><h3>'+esc(code)+'</h3><div class="src">ICE EOD settle</div>';
   h+='<table><tr><th>Tenor</th><th>Settle</th><th>Chg</th><th style="text-align:right">Vol</th></tr>';
@@ -837,8 +866,9 @@ fetch(URL,{cache:"no-store"}).then(function(r){
     +'<tr><td class="cname">Heating oil crack</td><td>'+fmt(c.ho_crack.value)+'</td><td>—</td></tr>'
     +'</table></div>';
   h+='</div>';
-  h+='<h2 style="font-family:var(--serif);font-size:20px;margin:6px 0 12px">ICE diffs <span style="font-size:13px;color:var(--mut);font-family:var(--sans)">EOD settles '+esc(d.ice_diffs.settle_date)+'</span><span class="chg-stamp chg-week" data-chg="2026-10-31" title="This section last changed October 31, 2026">changed Oct 31</span></h2>';
+  h+='<h2 style="font-family:var(--serif);font-size:20px;margin:6px 0 12px">ICE diffs <span style="font-size:13px;color:var(--mut);font-family:var(--sans)">EOD settles '+esc(d.ice_diffs.settle_date)+'</span><span class="chg-stamp chg-new" data-chg="2026-11-01" title="This section last changed November 1, 2026">changed Nov 1</span></h2>';
   h+='<p class="q-note">Volume is lots traded on the settle date. A settle printed on zero lots is an untraded mark: the exchange carried the price, no trade set it. Under 25 lots is flagged thin.</p>';
+  h+=tradedCentre(d.ice_diffs.contracts);
   h+='<div class="q-grid">';
   ["TMW","ARV","TMS","TMR","TMF"].forEach(function(code){
     if(d.ice_diffs.contracts[code]) h+=diffCard(code,d.ice_diffs.contracts[code]);});
