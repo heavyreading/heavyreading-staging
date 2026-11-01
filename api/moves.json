@@ -1,5 +1,5 @@
 {
- "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-11-01T15:48:45.419215Z",
+ "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-11-01T17:19:35.395570Z",
  "data": {
   "updated_at": "2026-11-01T14:02:28.419492Z",
   "events": [
@@ -17,11 +17,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 104 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-11-01T12:36:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: blind_cloud.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 194 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-11-01T12:36:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261101T140228-sensor-kharg",
-     "generated_at": "2026-11-01T15:47:28.409196Z",
+     "generated_at": "2026-11-01T17:17:28.272911Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -56,14 +56,14 @@
        "anomalous": []
       },
       "geostationary": {
-       "status": "BLIND_CLOUD",
+       "status": "NORMAL",
        "per_asset": [
         {
          "asset": "kharg",
-         "status": "BLIND_CLOUD",
-         "last_frame_utc": "2026-11-01T15:15:00Z",
+         "status": "BLIND_ERROR",
+         "last_frame_utc": "2026-11-01T16:30:00Z",
          "delta_vs_baseline": null,
-         "detail": "cloud fraction 0.83 >= 0.6 \u2014 IR blind this frame"
+         "detail": "cloud fraction 0.71 >= 0.6 \u2014 IR blind this frame"
         }
        ],
        "note": "Meteosat IODC via EUMETView WMS, 15-min frames, styled-render palette-gray metrics"
@@ -74,7 +74,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 104,
+      "minutes_since_claim": 194,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -94,7 +94,7 @@
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 104 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-11-01T12:36:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: blind_cloud."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 194 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-11-01T12:36:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {
