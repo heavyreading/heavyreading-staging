@@ -4,7 +4,7 @@
  "title": "Bakken micro-balance",
  "built": "2026-11-02",
  "as_of": "August 2026",
- "as_of_note": "Production Aug 2026 (ND DMR). Montana Bakken Jul 2026 (state board well-grain rollup). Saskatchewan Viewfield Jul 2026 (pool file). Rail Aug 2026 (EIA). Dakota Access flow is the CY2025 Form 6 average. Refining per EIA-820, Jan 1 2026. Capacities as of Oct 2026.",
+ "as_of_note": "Production Aug 2026 (ND DMR). Montana Bakken Jul 2026 (state board well-grain rollup). Saskatchewan Viewfield Jul 2026 (pool file). Rail Aug 2026 (EIA). Pipe flows are CY2025 Form 6 (Dakota Access deliveries; Enbridge ND Clearbrook leg from the Schedule 600 destination-state split). The disposition closes on CY2025. Refining per EIA-820, Jan 1 2026. Capacities as of Oct 2026.",
  "units": "kb/d unless a field name says otherwise",
  "cards": {
   "nameplate_kbd": 1259.0,
@@ -153,17 +153,17 @@
    "group": "clearbrook_mainline",
    "dest": "Clearbrook, Minnesota",
    "kind": "pipeline",
-   "value_kbd": null,
+   "value_kbd": 219.1,
    "nameplate_kbd": 214.0,
-   "effective_kbd": null,
-   "util_pct": null,
-   "state": "capacity_only",
+   "effective_kbd": 214.0,
+   "util_pct": 102.4,
+   "state": "value",
    "range_kbd": null,
    "memo": false,
-   "source": "Enbridge factsheets (Line 81 average annual capacity); carrier Form 6 system totals parsed (held, micro_balances/sources/ferc_form6/bakken_form6_actuals.csv)",
-   "vintage": "2026",
-   "basis": "capacity",
-   "note": "The original egress, operating since the 1950s-60s. Historically ran near full before Dakota Access. The carrier's Form 6 system total (CY2025 deliveries 267 kb/d) mixes connecting-carrier receipts and intermediate deliveries, so it is not the Clearbrook segment flow and no segment flow is printed. Nameplate is the Line 81 average annual figure."
+   "source": "FERC Form 6 Schedule 600 destination-state detail, North Dakota Pipeline Company LLC filing (held, micro_balances/sources/ferc_form6/bakken_point_delivery_ledger.csv); nameplate from Enbridge factsheets (Line 81 average annual capacity)",
+   "vintage": "CY2025",
+   "basis": "measured",
+   "note": "The original egress, operating since the 1950s-60s. The carrier's Form 6 detail splits its CY2025 deliveries by destination state: 79,973,055 barrels (219.1 kb/d) filed under Minnesota, the Clearbrook hand-off, and 17,369,245 barrels (47.6 kb/d) filed under North Dakota, the Berthold interconnects to Dakota Access and Bakken North. The disposition counts only the Clearbrook leg; the Berthold barrels exit inside the Dakota Access and Bakken North lines. The system total (266.7 kb/d) is never added to the Clearbrook figure. Filed Clearbrook deliveries run above the 214 Line 81 legacy nameplate: the system has grown by looping since that figure was set. Receipts include 41.7 MMbbl from connecting carriers, so a share of the Clearbrook deliveries is transit barrels gathered by other systems; the share is not filed."
   },
   {
    "id": "bakken_north_cromer",
@@ -171,17 +171,35 @@
    "group": "clearbrook_mainline",
    "dest": "Cromer, Manitoba",
    "kind": "pipeline",
-   "value_kbd": null,
+   "value_kbd": 25.0,
    "nameplate_kbd": 145.0,
-   "effective_kbd": null,
-   "util_pct": null,
-   "state": "capacity_only",
+   "effective_kbd": 145.0,
+   "util_pct": 17.2,
+   "state": "value",
    "range_kbd": null,
    "memo": false,
-   "source": "CER pipeline profile; East Daley Crude Oil Edge (utilization)",
-   "vintage": "CY2025 Form 6 (US leg); capacity as of 2026",
-   "basis": "capacity",
-   "note": "Reversed in 2013 to carry Bakken crude north into the Mainline at Cromer. CER prints 145 kb/d, East Daley 149. The US leg's Form 6 prints 30.9 kb/d delivered in CY2025 (21% of nameplate); East Daley's model read is about 25 kb/d, and the spread is unreconciled. Utilization ran about 7-26% in 2023: it is the relief valve and the most expensive routine option (about $6/bbl toll versus about $2.56 on the Enbridge ND system, East Daley tariff comparison), so its utilization is a clean tightness gauge for the northern light complex."
+   "source": "House estimate of 2025 deliveries into Cromer from CER and Enbridge prints; US-leg Form 6 Schedule 600 (held, micro_balances/sources/ferc_form6/bakken_point_delivery_ledger.csv); filed nameplate per CER pipeline profile (CER No. 52)",
+   "vintage": "CY2025",
+   "basis": "estimated",
+   "note": "145 kb/d is filed nameplate, not a take. Actual 2025 flow is about 25 kb/d, our estimate from CER and Enbridge prints of deliveries into Cromer (about 30 kb/d committed out of the May 2024 open season); the US leg's Form 6 prints 30.9 kb/d delivered to the border in CY2025, and the spread between the two segments' reads is printed, not resolved. Reversed in 2013 to carry Bakken crude north into the Mainline at Cromer. Utilization ran about 7-26% in 2023: it is the relief valve and the most expensive routine option (about $4.64/bbl on the spot stack via Cromer versus about $2.56 on the Enbridge ND system direct to Clearbrook, filed tariffs), so its utilization is a clean tightness gauge for the northern light complex."
+  },
+  {
+   "id": "sk_bakken_westspur",
+   "label": "Saskatchewan Bakken via Westspur to Cromer",
+   "group": "clearbrook_mainline",
+   "dest": "Cromer, Manitoba",
+   "kind": "pipeline",
+   "value_kbd": 20.5,
+   "nameplate_kbd": null,
+   "effective_kbd": null,
+   "util_pct": null,
+   "state": "value",
+   "range_kbd": null,
+   "memo": false,
+   "source": "Attributed by identity: Saskatchewan Viewfield production (pool file, held) inside the measured Westspur flow (CER pipeline profile)",
+   "vintage": "CY2025",
+   "basis": "estimated",
+   "note": "The Saskatchewan Bakken's exit: Viewfield barrels gather on SaskOil and Westspur into Cromer and enter the Enbridge Mainline pool. The flow is attributed at the pool's own production (CY2025 average 20.5 kb/d) inside Westspur's measured 152 kb/d flow (2025), which is mostly Saskatchewan conventional crude and is not basin supply. No separate Form 6 or CER line isolates the Bakken share."
   },
   {
    "id": "high_plains_mandan",
@@ -217,7 +235,25 @@
    "source": "ND PSC filing (Bentek study); Bridger Pipeline LLC Form 6 system totals parsed (held, micro_balances/sources/ferc_form6/bakken_form6_actuals.csv)",
    "vintage": "2026",
    "basis": "capacity",
-   "note": "The only southbound pipe out of the Montana side, expanded to 150 kb/d in 2011. Carries Montana Bakken and North Dakota barrels gathered to Baker. Flows are not published. Capacity evidence has widened since the 2011 figure: the North Dakota Pipeline Authority's 2024 annual report states the Butte system at 275 kb/d to Guernsey, and East Daley (May 2026, from FERC filings) cites a 285 kb/d nameplate with actual shipments of about 317 kb/d in Q3 2025 and about 340 kb/d in Q4 2025, after Double H left crude service (drag-reducing agents are East Daley's inferred mechanism). The 150 kb/d carried here is the filed 2011 expansion nameplate; the spread between filed nameplate and demonstrated throughput is printed, not resolved."
+   "note": "The only southbound pipe out of the Montana side, expanded to 150 kb/d in 2011. Carries Montana Bakken and North Dakota barrels gathered to Baker. Flows are not published. Capacity evidence has widened since the 2011 figure: the North Dakota Pipeline Authority's 2024 annual report states the Butte system at 275 kb/d to Guernsey, and Bridger Pipeline's Form 6 system totals (Butte has run inside Bridger's system under master lease since January 1, 2022) show Wyoming deliveries of 317.3 kb/d in CY2024 rising to 395.6 kb/d in CY2025 across all Wyoming destinations, after Double H left crude service. The 150 kb/d carried here is the filed 2011 expansion nameplate; the spread between filed nameplate and demonstrated throughput is printed, not resolved."
+  },
+  {
+   "id": "guernsey_bakken_exit",
+   "label": "Bakken barrels delivered at Guernsey (Butte and Bridger systems, basin-attributed)",
+   "group": "guernsey_sink",
+   "dest": "Guernsey, Wyoming",
+   "kind": "pipeline",
+   "value_kbd": 215.0,
+   "nameplate_kbd": null,
+   "effective_kbd": null,
+   "util_pct": null,
+   "state": "value",
+   "range_kbd": null,
+   "memo": false,
+   "source": "Attributed from FERC Form 6 Schedule 600 detail (held, micro_balances/sources/ferc_form6/bakken_point_delivery_ledger.csv and bakken_point_delivery_notes.md)",
+   "vintage": "CY2025",
+   "basis": "estimated",
+   "note": "No filing isolates basin barrels delivered at Guernsey. The filed anchors (CY2025): Bridger-system deliveries in Wyoming 395.6 kb/d across all Wyoming destinations; Pony Express took in 267.4 kb/d of Wyoming receipts at Guernsey from all suppliers. No filing prints a quarterly Butte-segment rate. The printed 215 is the Pony Express Guernsey uplift attributed to the Butte and Bridger systems, net of Platte's Guernsey hand-off, less the Montana conventional content of those systems' gathering (Montana non-Bakken production in the Williston counties was 11.1 kb/d in CY2025 and is not in this balance's supply). Stated range 200 to 250 kb/d. This is the one modelled line in the closed disposition."
   },
   {
    "id": "rail_west_coast",
@@ -293,7 +329,7 @@
   },
   {
    "id": "storage_change",
-   "label": "Storage change (balancing line)",
+   "label": "Stock change and measurement difference (residual)",
    "group": null,
    "dest": "Clearbrook and Berthold tankage",
    "kind": "plug",
@@ -304,10 +340,10 @@
    "state": "missing",
    "range_kbd": null,
    "memo": false,
-   "source": "Computed residual in the house balance build; shell bounds from Enbridge factsheets",
-   "vintage": "n/a",
+   "source": "Computed residual of the closed calendar-2025 disposition in the house balance build; shell bounds from Enbridge factsheets",
+   "vintage": "CY2025",
    "basis": "modelled",
-   "note": "Storage is the printed balancing line of this balance, computed as the residual when the balance is run; it is never a measured input. Sanity bound: Clearbrook shell about 1.3 MMbbl plus Berthold about 0.7 MMbbl. No public Bakken stock series exists; PADD 2 stocks are the closest held aggregate."
+   "note": "The residual is renamed: on the closed calendar-2025 disposition it is about +22 kb/d (1.7% of supply), and it is not storage. Its composition: refining printed at capacity overstates the sink (Mandan runs are not published); the Guernsey attribution carries a range of about plus or minus 30; the Enbridge ND Clearbrook line includes connecting-carrier transit barrels of unfiled size; true stock change is bounded by about 2.0 MMbbl of northern-hub shell (Clearbrook about 1.3 MMbbl plus Berthold about 0.7), about 65 kb/d for one month and near zero on an annual average; and lease-meter to pipeline-meter differences sit inside the published series. No public Bakken stock series exists; PADD 2 stocks are the closest held aggregate."
   }
  ],
  "groups": [
@@ -329,12 +365,13 @@
    "label": "Guernsey sink",
    "value_kbd": null,
    "members": [
-    "butte_guernsey"
+    "butte_guernsey",
+    "guernsey_bakken_exit"
    ],
-   "source": "Dossier sections 4-5; Kinder Morgan conversion record (Oct 2026 sweep)",
-   "vintage": "2026",
-   "basis": "capacity",
-   "note": "The southern optionality view: Butte inbound, Pony Express (about 460, to about 515 in late 2027) and Platte (145 to Wood River) outbound. Space is contested with Powder River, DJ and Canadian Express barrels. Double H no longer belongs in this group: Kinder Morgan took it out of crude service in early Q3 2025 for the Hiland Express NGL conversion (NGL service from Apr 29, 2026), and its crude barrels moved to Butte. Butte publishes no flows, so the group carries no value."
+   "source": "Dossier sections 4-5; Kinder Morgan conversion record (Oct 2026 sweep); Form 6 point-delivery ledger",
+   "vintage": "CY2025",
+   "basis": "estimated",
+   "note": "The southern optionality view: Butte inbound, Pony Express (about 460, to about 515 in late 2027) and Platte (145 to Wood River) outbound. Space is contested with Powder River, DJ and Canadian Express barrels. Double H no longer belongs in this group: Kinder Morgan took it out of crude service in early Q3 2025 for the Hiland Express NGL conversion (NGL service from Apr 29, 2026), and its crude barrels moved to Butte. Butte publishes no segment flow; the group carries the basin-attributed Guernsey exit (215 kb/d, CY2025) built from the Form 6 anchors, with the Butte nameplate printed as a ceiling only."
   },
   {
    "id": "clearbrook_mainline",
@@ -343,6 +380,7 @@
    "members": [
     "enbridge_nd_clearbrook",
     "bakken_north_cromer",
+    "sk_bakken_westspur",
     "sk_bakken_memo",
     "mb_bakken_memo"
    ],
@@ -457,8 +495,8 @@
   }
  ],
  "notes": [
-  "Demand in this feed is CLEARED demand, not wants: the demand card equals supply less storage change by the house convention. East Daley's template prints wants (their Canada demand exceeded both supply and effective capacity); we do not copy that. Nominations are carried only where a source publishes them.",
-  "The demand card (1,233) does not foot to the valued demand items (787: Dakota Access 536 plus rail 251) because only Dakota Access and the rail lanes publish flows. The remaining roughly 446 kb/d clears on Enbridge ND, Bakken North, Butte and the Mandan refinery, whose monthly flows are not published by anyone. That is a publication gap, not a balance gap, and it is the normal state of this basin: Form 6 is annual and filer-level, so monthly pipe flows are modelled in every public treatment, including East Daley's.",
+  "Demand in this feed is CLEARED demand, not wants: the demand card equals supply less storage change by the house convention. A wants-based template prints demand above both supply and effective capacity; we do not copy that. Nominations are carried only where a source publishes them.",
+  "The demand card (1,233) does not foot to the valued demand items (787: Dakota Access 536 plus rail 251) because only Dakota Access and the rail lanes publish flows. The remaining roughly 446 kb/d clears on Enbridge ND, Bakken North, Butte and the Mandan refinery, whose monthly flows are not published by anyone. That is a publication gap, not a balance gap, and it is the normal state of this basin: Form 6 is annual and filer-level, so monthly pipe flows are modelled in every public treatment.",
   "Effective capacity (1,205) is an explicit estimate: nameplate (1,259) less the same roughly 4% routine maintenance and derate haircut applied in the October 2026 feed. No carrier publishes an effective figure for the system; the dossier flags it as an estimate to be replaced by shipper-notice history.",
   "Utilization card is null: the only hard utilization is Dakota Access at 72% (CY2025 Form 6). A system figure would be an estimate (the dossier's range is roughly 75-85%) and is not printed as a card.",
   "Exports card is null: exports equal cleared demand minus in-region refining (about 1,161 on this frame), but the dossier does not print that split as a card and the feed does not derive one silently.",
@@ -476,21 +514,21 @@
   },
   {
    "item": "enbridge_nd_clearbrook",
-   "state": "capacity_only",
-   "reason": "Carrier publishes capacity; its Form 6 files a system total only, which mixes connecting-carrier receipts and intermediate deliveries, so the Clearbrook segment flow cannot be separated from the filing.",
-   "route": "Form 6 parse landed (bakken_form6_actuals.csv, CY2021-2025); the remaining gap is segment-level deliveries, which Form 6 does not file. East Daley's modelled read is the standing substitute."
+   "state": "value",
+   "reason": "Segment split landed: the Form 6 Schedule 600 destination-state detail separates Clearbrook deliveries (219.1 kb/d, CY2025) from the Berthold interconnect legs (47.6). The remaining gap is the connecting-carrier transit share inside the Clearbrook figure, which the filing does not split.",
+   "route": "Point-delivery ledger landed (bakken_point_delivery_ledger.csv, CY2024-2025); the transit share would need carrier segment reporting that Form 6 does not file."
   },
   {
    "item": "bakken_north_cromer",
-   "state": "capacity_only",
-   "reason": "US-leg Form 6 prints 30.9 kb/d delivered in CY2025 against East Daley's modelled read of about 25 kb/d; the spread is unreconciled and the Canada segment files no public throughput series.",
-   "route": "Form 6 parse landed (bakken_form6_actuals.csv); CER throughput products for the Canada segment remain the open pull."
+   "state": "value",
+   "reason": "US-leg Form 6 prints 30.9 kb/d delivered to the border in CY2025 against our estimate of about 25 kb/d delivered into Cromer from CER and Enbridge prints; both print, the spread is the two segments' timing and linefill, and the Canada segment files no public throughput series.",
+   "route": "Point-delivery ledger landed (bakken_point_delivery_ledger.csv); CER throughput products for the Canada segment remain the open pull."
   },
   {
    "item": "butte_guernsey",
    "state": "capacity_only",
-   "reason": "Segment flows not published; the carrier's Form 6 files gathering-inclusive system totals only.",
-   "route": "Bridger Form 6 parse landed (system totals, CY2021-2025); the Guernsey segment flow is not filed separately, so East Daley's FERC-based read (about 317-340 kb/d demonstrated, Q3-Q4 2025) is the carried figure."
+   "reason": "Segment flows not published; the carrier's Form 6 files gathering-inclusive system totals only. The balance carries a basin-attributed Guernsey exit (215 kb/d, CY2025, range 200-250) built from the Form 6 anchors; the attribution method is in bakken_point_delivery_notes.md.",
+   "route": "Bridger Form 6 parse landed (system totals and destination-state detail, CY2021-2025); the Guernsey segment flow is not filed separately, so the attributed line is the carried figure."
   },
   {
    "item": "mt_williston",
