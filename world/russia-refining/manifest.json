@@ -78,6 +78,18 @@
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "text": "The brief respite Russian refiners received from Ukraine appears to have ended, ING reported on Nov 2. Attacks on Russian refiners resumed towards the end of last week after a roughly two-week pause, during which the ICE gasoil crack fell below $70 a barrel and traded to its lowest level since early October. ING said further attacks would likely provide a floor to the crack, with strikes casting doubt over how much diesel Russia will export. Russia's deputy prime minister said Russia plans to export 2.15 million tonnes of diesel in November, up from a little more than 500,000 tonnes in October. ING also noted vessels have faced a growing number of attacks in recent weeks, yet this coincides with signs that more traffic is flowing through the Strait of Hormuz, and that OPEC+ members decided over the weekend to keep December output targets unchanged, with most members producing well below target given disruptions in the Persian Gulf.",
+   "vintage": "Nov 2, 2026",
+   "source": "ING",
+   "source_url": "https://think.ing.com/articles/the-commodities-feed-post-midterms-key-for-the-oil-market021126/"
+  },
+  {
+   "text": "Ukrainian drone strikes targeted three major Russian oil refineries over three consecutive nights, hitting facilities that together account for approximately 10 percent of Russia's total oil refining capacity, UNITED24 Media reported on Nov 1, citing Ukrainian monitoring group Dnipro Osint. The attacks targeted the Novokuibyshevsk refinery in the Samara region overnight on Oct 30, the Bashneft-Novoil facility in Ufa on Oct 31, and the Lukoil refinery in Kstovo, in the Nizhny Novgorod region, overnight into Nov 1, with a combined annual processing capacity of approximately 33 million metric tons of crude oil. The figure represents the share of capacity targeted, rather than independently confirmed production losses, and the full extent of damage has not been independently verified. Ukrainian defence manufacturer Fire Point confirmed its involvement in the strikes on the Kstovo and Novokuibyshevsk refineries, saying Ukrainian forces used FP-1 drones to target Novokuibyshevsk, striking multiple locations including a diesel hydrotreating unit. The renewed attacks followed a reported two-week pause in Ukrainian strikes against Russian oil refineries.",
+   "vintage": "Nov 1, 2026",
+   "source": "UNITED24 Media (via EuropeSays)",
+   "source_url": "https://www.europesays.com/russia/83368/"
+  },
+  {
    "text": "Three strikes in three days, Novokuibyshevsk on Oct 30, Ufa on Oct 31 and Kstovo overnight into Nov 1, look like a resumed campaign against Russian refining after a lull from mid-October, the Baltic Security Monitor reported on Nov 1. The fire at the Bashneft-Novoil refinery in Ufa is now backed by geolocated footage, not just eyewitnesses, and Ukraine's Strategic Communications Center named Bashneft-Novoil and Bashneft-Ufaneftekhim as targets. The monitor noted that the gap between visible fire and lost refining capacity remains open: damage to the L-35 unit is known only from visual analysis and is unverified, and involvement of the second Ufa plant has no geolocated evidence.",
    "vintage": "Nov 1, 2026",
    "source": "Baltic Security Monitor",
@@ -232,6 +244,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Follow-up on Nov 1: Nizhny Novgorod governor Gleb Nikitin has admitted significant damage to an industrial enterprise in the Kstovo district without naming it, the Baltic Security Monitor reported in a Nov 1 update, upgrading the overnight incident to material status on official acknowledgement carried by Reuters and AFP. The monitor said the identification of the Lukoil-Nizhegorodnefteorgsintez (NORSI) refinery remains provisional and lost output is not established, with no Lukoil statement, no independent satellite imagery and no data on unit operations. After an emergency operational meeting, regional authorities urged drivers to refuel only as needed and not to stockpile; Nizhny Novgorod petrol stations were reported running an odd-even scheme based on the last digit of the licence plate, with queues at many chain stations and a fuel-availability service showing some stations low or out of petrol at 13:22 on Nov 1, while officials insisted stocks are sufficient. The monitor noted Kstovo is the third refinery hit within days, after Novokuibyshevsk and Ufa, and cited Russian outlet Agentstvo estimating the three plants together account for about 10 percent of Russian refining and more than 10 percent of its diesel, with its method not disclosed, so the figure is a guide rather than a measurement.",
+   "vintage": "Nov 1, 2026",
+   "source": "Baltic Security Monitor",
+   "source_url": "https://osint-baltic.com/kstovo-fuel-queues-en/"
   },
   {
    "text": "A major Russian oil refinery in Kstovo, in the Nizhny Novgorod region, was reportedly targeted in a drone attack overnight into Nov 1, Euronews reported. Regional governor Gleb Nikitin said in a post on Telegram that a massive UAV attack had resulted in significant damage to an industrial facility in the Kstovsky district, that more than 100 drones had been destroyed, and that early information suggested there had been no casualties, with emergency crews working at the scene. Nikitin said that while restoration work is underway there may be temporary power cuts and reduced hot water and heating supplies in parts of the local utility networks. Telegram war monitoring channels said the attack targeted the Kstovo oil refinery, also known as the Lukoil-Nizhegorodnefteorgsintez refinery, thought to be one of Russia's largest such facilities; according to Lukoil, the site produces diesel and aviation fuel, among other products. The reported strike is the third on a Russian refinery in three days, after Novokuibyshevsk on Oct 30 and Ufa on Oct 31.",
@@ -542,6 +560,16 @@
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "publisher": "ING",
+   "vintage": "",
+   "url": "https://think.ing.com/articles/the-commodities-feed-post-midterms-key-for-the-oil-market021126/"
+  },
+  {
+   "publisher": "UNITED24 Media (via EuropeSays)",
+   "vintage": "",
+   "url": "https://www.europesays.com/russia/83368/"
+  },
+  {
    "publisher": "Baltic Security Monitor",
    "vintage": "",
    "url": "https://osint-baltic.com/ufa-kstovo-refinery-strikes-en/"
@@ -670,6 +698,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Baltic Security Monitor",
+   "vintage": "",
+   "url": "https://osint-baltic.com/kstovo-fuel-queues-en/"
   },
   {
    "publisher": "Euronews",

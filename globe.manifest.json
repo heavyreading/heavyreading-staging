@@ -8,7 +8,7 @@
  "sources": [
   {
    "publisher": "aisstream.io (The Narrows collector)",
-   "vintage": "fix snapshot 2026-11-02T09:24:05.556550+00:00",
+   "vintage": "fix snapshot 2026-11-02T16:26:39.603407+00:00",
    "url": ""
   },
   {
@@ -28,7 +28,7 @@
   },
   {
    "publisher": "Heavy Reading egress allocation (model)",
-   "vintage": "CER open data pulled 2026-09-22; AER ST3 thru 2026-07; model build 2026-09-27; feed built 2026-11-01",
+   "vintage": "CER open data pulled 2026-09-22; AER ST3 thru 2026-07; model build 2026-09-27; feed built 2026-11-02",
    "url": ""
   },
   {

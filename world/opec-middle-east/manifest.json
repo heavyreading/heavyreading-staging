@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Reuters reported on Nov 1 that seven core OPEC+ members, Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman, kept December production targets steady, the third straight monthly hold since the group completed rolling back the 1.65 million barrel per day cut in September. A separate layer of cuts of about 2 million barrels per day still covers most members through the end of 2026, and all 21 members meet on November 29 to decide 2027 quotas, after a fourth-quarter review of members' production capacity sets the baselines.",
+   "vintage": "Published Nov 1, 2026; accessed 2026-11-02",
+   "source": "Reuters",
+   "source_url": "https://985theriver.com/2026/11/01/opec-set-to-keep-oil-output-targets-steady-sources-say/"
+  },
+  {
    "text": "Nigeria met its OPEC crude oil production quota for a fifth consecutive month in September, averaging 1.53 million barrels per day against its 1.5 million barrels per day allocation, or 102 percent, according to data released by the Nigerian Upstream Petroleum Regulatory Commission (NUPRC) on Oct 13. Combined crude and condensate output averaged 1,717,030 barrels per day, up 2.34 percent from August, and the regulator attributed the performance to stable operations across most producing assets and the absence of major pipeline outages.",
    "vintage": "Data: Sep 2026; published Oct 13, 2026; accessed 2026-10-19",
    "source": "ThinkBusiness Africa (reporting NUPRC data)",
@@ -42,10 +48,10 @@
    "source_url": "https://www.rigzone.com/news/opec_7_reveal_october_output_plan-07-sep-2026-184549-article/"
   },
   {
-   "text": "Reuters sources said on July 28, 2026 that OPEC+ was likely to keep production increases on hold after September, noting that most of the announced hikes existed only on paper because the Iran war forced Middle East export cuts, and that the group was not expected to change policy until year-end, with 2027 quotas to be set after a capacity review.",
-   "vintage": "2026-07-28",
-   "source": "Reuters via Energy News (OE Digital)",
-   "source_url": "https://energynews.oedigital.com/fossil-fuels/2026/07/28/sources-say-that-opec-is-likely-to-halt-oil-production-increases-after-september"
+   "text": "Reuters columnist Clyde Russell wrote on Nov 2, citing Kpler data, that Asia's crude imports sourced through the Strait of Hormuz rose to 7.42 million barrels per day in October, up 366 percent from the 1.59 million low in April but still well below the 13.06 million average of the three months before the war. Middle East exporters are running tanker transits through the contested strait despite missile and drone attack risk, Russell wrote, drawn by high prices.",
+   "vintage": "Published Nov 2, 2026; accessed 2026-11-02",
+   "source": "Reuters (via BOE Report)",
+   "source_url": "https://boereport.com/2026/11/01/asias-crude-oil-imports-back-to-pre-war-levels-but-refined-fuels-lag-russell/amp/"
   },
   {
    "text": "OilPrice.com reported on Oct 25, citing Kpler figures reported by Reuters, that October flows out of the Strait of Hormuz averaged 11.7 million barrels per day, up from 9.8 million in September and close to the pre-war average of 14.5 million in February, even as at least 25 ships were reported hit in Hormuz in the first 20 days of October.",
@@ -114,6 +120,12 @@
    "source_url": "https://www.ogj.com/general-interest/economics-markets/news/55404072/eia-sees-brent-near-90-bbl-in-second-half-2026-amid-middle-east-disruptions"
   },
   {
+   "text": "IndexBox reported on Oct 31, citing Investing.com reporting of European Union Sentinel satellite imagery, that nine very large crude carriers loaded at Saudi Arabia's Persian Gulf export terminals on Wednesday, October 28, the busiest loading day since hostilities began at the end of February, with combined capacity of roughly 18 million barrels. The report cautioned that a single day of loadings does not by itself establish a sustained rise in Saudi exports.",
+   "vintage": "Published Oct 31, 2026; accessed 2026-11-02",
+   "source": "IndexBox (citing Investing.com and Sentinel satellite imagery)",
+   "source_url": "https://www.indexbox.io/blog/saudi-gulf-oil-loadings-hit-highest-level-since-february-hostilities/"
+  },
+  {
    "text": "Reuters columnist Ron Bousso wrote on Oct 22, citing Kpler data, that Middle East oil exports averaged 17.3 million barrels per day so far in October, up from 16.4 million in September and above the 16.9 million average in the two months before the Feb 28 strikes. Flows through the Strait of Hormuz hit 11.7 million barrels per day in October, up from 9.75 million in September, at about 82 percent of pre-war levels.",
    "vintage": "Published Oct 22, 2026; accessed 2026-10-26",
    "source": "Reuters (via BOE Report)",
@@ -180,10 +192,10 @@
    "source_url": "https://roydadnaft.ir/English/18774/"
   },
   {
-   "text": "Kpler data cited September 22, 2026 put Asia's crude imports at 23.96 million barrels per day in September, the highest since February and up from 23.38 million in August, though still 13 percent below pre-conflict levels; US Energy Secretary Chris Wright said on September 21 that as much as 15 million barrels per day was still leaving the Middle East, while tanker-tracking services put observed exports lower.",
-   "vintage": "2026-09-22",
-   "source": "Maritime Professional",
-   "source_url": "https://logistics.maritimeprofessional.com/transportation/2026/09/22/saudi-arabia-increases-gulf-oil-exports-following-pipeline-attack"
+   "text": "OilPrice.com reported on Oct 27, citing Bloomberg, that Saudi Aramco offered European refiners spot cargoes for late October and November loading at a discount to its official selling prices, loading from Yanbu on the Red Sea or Sidi Kerir in Egypt, weeks after cancelling October term cargoes when an attack shut the East-West pipeline. Aramco also told European refiners they will receive their full contracted November allocations, and traders said the added Saudi supply had already pushed down prices for some crude grades in Europe.",
+   "vintage": "Published Oct 27, 2026; accessed 2026-11-02",
+   "source": "OilPrice.com (citing Bloomberg)",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Offers-Discounted-Oil-to-Europe-as-Exports-Recover.html"
   },
   {
    "text": "Reuters columnist Ron Bousso wrote on Oct 22 that benchmark tanker rates for a 2 million barrel cargo from the Middle East to China remain near an all-time high of about $1.4 million a day, more than 12 times pre-war levels, and tanker insurance has risen to about 10 percent of cargo value from about 3 percent before the war. Saudi Aramco and Abu Dhabi National Oil Co have responded with large discounts and some delivered-basis sales to secure buyers in China and India.",
@@ -208,12 +220,6 @@
    "vintage": "Published Oct 5, 2026; accessed 2026-10-05",
    "source": "Reuters",
    "source_url": "https://gcaptain.com/saudi-arabia-unexpectedly-cuts-oil-prices-to-asia/"
-  },
-  {
-   "text": "Aramco cut its July 2026 Arab Light official selling price (OSP) for Asia by $11 per barrel to $1.50 below the Oman/Dubai benchmark, the largest single-month reduction in more than two decades; traders said Asian buyers, already satisfied with their crude slate, were unlikely to be swayed, with renewed Iranian competition for Asian buyers cited as a factor in the cut.",
-   "vintage": "2026-07-07",
-   "source": "Energy News (OE Digital)",
-   "source_url": "https://energynews.oedigital.com/crude-oil/2026/07/07/saudi-oil-price-reduction-unlikely-to-convince-asia-buyers-who-are-already-satisfied-traders-say"
   },
   {
    "text": "OPEC lowered its forecast for 2026 oil demand growth for a sixth straight month in its October Monthly Oil Market Report, to 180,000 barrels per day from 380,000, putting world demand at 105.72 million barrels per day, Reuters reported on Oct 13. The group raised its 2027 forecast to growth of 2.55 million barrels per day, to an average of 108.3 million barrels per day, assuming demand softens this year as expected and is then bolstered by the need to replenish inventories depleted by the Iran war.",
@@ -241,6 +247,11 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://985theriver.com/2026/11/01/opec-set-to-keep-oil-output-targets-steady-sources-say/"
+  },
   {
    "publisher": "ThinkBusiness Africa (reporting NUPRC data)",
    "vintage": "",
@@ -272,9 +283,9 @@
    "url": "https://www.rigzone.com/news/opec_7_reveal_october_output_plan-07-sep-2026-184549-article/"
   },
   {
-   "publisher": "Reuters via Energy News (OE Digital)",
+   "publisher": "Reuters (via BOE Report)",
    "vintage": "",
-   "url": "https://energynews.oedigital.com/fossil-fuels/2026/07/28/sources-say-that-opec-is-likely-to-halt-oil-production-increases-after-september"
+   "url": "https://boereport.com/2026/11/01/asias-crude-oil-imports-back-to-pre-war-levels-but-refined-fuels-lag-russell/amp/"
   },
   {
    "publisher": "OilPrice.com",
@@ -325,6 +336,11 @@
    "publisher": "US Energy Information Administration (EIA) Short-Term Energy Outlook, via Oil and Gas Journal summary",
    "vintage": "",
    "url": "https://www.ogj.com/general-interest/economics-markets/news/55404072/eia-sees-brent-near-90-bbl-in-second-half-2026-amid-middle-east-disruptions"
+  },
+  {
+   "publisher": "IndexBox (citing Investing.com and Sentinel satellite imagery)",
+   "vintage": "",
+   "url": "https://www.indexbox.io/blog/saudi-gulf-oil-loadings-hit-highest-level-since-february-hostilities/"
   },
   {
    "publisher": "Reuters (via BOE Report)",
@@ -382,9 +398,9 @@
    "url": "https://roydadnaft.ir/English/18774/"
   },
   {
-   "publisher": "Maritime Professional",
+   "publisher": "OilPrice.com (citing Bloomberg)",
    "vintage": "",
-   "url": "https://logistics.maritimeprofessional.com/transportation/2026/09/22/saudi-arabia-increases-gulf-oil-exports-following-pipeline-attack"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Offers-Discounted-Oil-to-Europe-as-Exports-Recover.html"
   },
   {
    "publisher": "Reuters (via Baird Maritime)",
@@ -400,11 +416,6 @@
    "publisher": "Reuters",
    "vintage": "",
    "url": "https://gcaptain.com/saudi-arabia-unexpectedly-cuts-oil-prices-to-asia/"
-  },
-  {
-   "publisher": "Energy News (OE Digital)",
-   "vintage": "",
-   "url": "https://energynews.oedigital.com/crude-oil/2026/07/07/saudi-oil-price-reduction-unlikely-to-convince-asia-buyers-who-are-already-satisfied-traders-say"
   },
   {
    "publisher": "Associated Press (via Transport Topics)",

@@ -30,6 +30,24 @@
    "source_url": "https://boereport.com/2026/07/16/us-refiner-margins-hit-new-records-as-fuel-shortage-concerns-grow/"
   },
   {
+   "text": "Reuters columnist Clyde Russell wrote on Nov 2 that Singapore gasoil, the building block for diesel, ended Oct 30 at $168.62 a barrel, down from the record $199.89 of March 30 but still 84 percent above the $91.42 of February 27, before the war, while Singapore gasoline ended at $127.64, up 61 percent from its pre-war level. Asia's imports of light and middle distillates were 6.15 million barrels per day in October, still 10 percent below the pre-war average, Russell wrote, citing Kpler data.",
+   "vintage": "Published Nov 2, 2026; accessed 2026-11-02",
+   "source": "Reuters (via BOE Report)",
+   "source_url": "https://boereport.com/2026/11/01/asias-crude-oil-imports-back-to-pre-war-levels-but-refined-fuels-lag-russell/amp/"
+  },
+  {
+   "text": "Reuters reported on Oct 28 that Phillips 66 posted a record quarterly profit for the third quarter, with net income of $5.62 billion and adjusted earnings of $14.08 a share against an $11.73 analyst average, powered by refining margins on fuel supply disruptions from the Iran and Ukraine wars. Realized refining margin was $38 a barrel, up from $24.08 in the second quarter, with a record distillate yield of 41 percent; Reuters said peers Valero Energy and HF Sinclair also posted record third-quarter profits.",
+   "vintage": "Published Oct 28, 2026; accessed 2026-11-02",
+   "source": "Reuters",
+   "source_url": "https://941theduke.com/2026/10/28/phillips-66-posts-record-quarterly-profit-on-refining-strength/"
+  },
+  {
+   "text": "Reuters reported on Oct 29 that northwest European gasoline refining margins fell by more than $3 a barrel on the day to hover near their lowest level since March, as gasoline stocks rose in both Europe and Singapore. The move marks cooling at the gasoline end of the barrel even while diesel and gasoil prices stay far above pre-war levels.",
+   "vintage": "Published Oct 29, 2026; accessed 2026-11-02",
+   "source": "Reuters (via TradingView)",
+   "source_url": "https://in.tradingview.com/news/reuters.com,2026:newsml_L6N46F15D:0-gasoline-refining-margins-fall-to-near-march-lows/"
+  },
+  {
    "text": "Sky Quarry, in a GlobeNewswire release carried Oct 23, calculated that Salt Lake City diesel rack prices indicated a crack spread of about $133 to $136 a barrel on Oct 21, 2026, compared with about $33 a barrel in January 2026. The release noted the US Energy Information Administration (EIA) expects low distillate inventories to keep diesel crack spreads elevated through 2027.",
    "vintage": "Published Oct 23, 2026; accessed 2026-10-26",
    "source": "Sky Quarry (GlobeNewswire, via FinancialContent)",
@@ -108,16 +126,16 @@
    "source_url": "https://boereport.com/2026/07/16/us-refiner-margins-hit-new-records-as-fuel-shortage-concerns-grow/"
   },
   {
-   "text": "The West Texas Intermediate (WTI) 3-2-1 crack spread hit $59 per barrel in August 2026, nearly triple its January level and the highest since the 2020 pandemic crash. The 2010 to 2021 average was about $19 per barrel. The six-month forward curve was pricing about $44, still 35% above the long-run average.",
-   "vintage": "Aug 2026; accessed 2026-09-24",
-   "source": "AINvest (market commentary)",
-   "source_url": "https://www.ainvest.com/news/epa-biofuel-waivers-don-matter-refiner-profits-2609/"
+   "text": "Reuters reported on Oct 28 that US refinery crude runs fell by 123,000 barrels per day in the week ended Oct 23 and national utilization fell 0.6 percentage points to 92.8 percent, per EIA data. US gasoline stocks rose 3.9 million barrels to 209.2 million even as Midwest gasoline stockpiles hit record lows, and distillate stocks fell 1.5 million barrels to 102.8 million, about 10 percent below the five-year average.",
+   "vintage": "Published Oct 28, 2026; accessed 2026-11-02",
+   "source": "Reuters (reporting EIA data)",
+   "source_url": "https://northlandnewsradio.com/2026/10/28/us-crude-and-distillate-inventories-fall-gasoline-stocks-rise-eia-says/"
   },
   {
-   "text": "The diesel crack crossed $100 per barrel in August. Gasoline refining margins were $45 to $50 per barrel and jet kerosene $70 to $75, per BloombergNEF data. Diesel effectively left its historical range.",
-   "vintage": "Aug 22, 2026; accessed 2026-09-24",
-   "source": "Seven Gates Research (citing BloombergNEF)",
-   "source_url": "https://github.com/oged/sevengatesresearch.com/blob/HEAD/content/research/the-middle-of-the-barrel-has-taken-hostages.md"
+   "text": "US Energy Information Administration (EIA) weekly data released Oct 28 showed Midwest (PADD 2) refinery utilization at 88.1 percent for the week ending Oct 23, down from 90.2 percent the week before, with crude oil inputs of 3.77 million barrels per day, down from 3.86 million, against operable capacity of 4.28 million barrels per day.",
+   "vintage": "Week ending Oct 23, 2026; released Oct 28, 2026; accessed 2026-11-02",
+   "source": "US Energy Information Administration (EIA)",
+   "source_url": "https://www.eia.gov/dnav/pet/pet_pnp_wiup_dcu_r20_w.htm"
   },
   {
    "text": "Reuters reported on Oct 21, citing US Energy Information Administration (EIA) data for the week ended Oct 16, that US refinery crude runs rose by 34,000 barrels per day and refinery utilization fell by 0.1 percentage points to 93.4 percent. Crude inventories fell by 3.06 million barrels to 412.5 million barrels, gasoline stocks fell by 2.95 million barrels to 205.3 million, and distillate stocks rose by 1.68 million barrels to 104.3 million.",
@@ -154,12 +172,6 @@
    "vintage": "Aug 22, 2026; accessed 2026-09-24",
    "source": "Seven Gates Research (citing EIA and BloombergNEF)",
    "source_url": "https://github.com/oged/sevengatesresearch.com/blob/HEAD/content/research/the-middle-of-the-barrel-has-taken-hostages.md"
-  },
-  {
-   "text": "For the week ending September 18, 2026, US refiners processed less crude, and it was not seasonal maintenance: Exxon's Joliet refinery had been mostly offline since the prior Sunday after a power outage, with floodwater also an issue. The plant accounts for 6 to 8% of regional refining capacity, and the PADD 2 utilization drop pressured an already tight Midwest product market.",
-   "vintage": "Week ending Sep 18, 2026; accessed 2026-09-24",
-   "source": "Tim Dallinger (EIA Weekly Petroleum Status Report summary)",
-   "source_url": "https://timdallinger.substack.com/p/eia-wpsr-summary-for-week-ending-b3c"
   },
   {
    "text": "That same week, US gasoline inventories were about 6% below the five-year seasonal average and distillate about 12% below. Simple cracks moved back toward record high rates.",
@@ -216,12 +228,6 @@
    "source_url": "https://www.ogj.com/home/article/17241730/guide-to-world-crudes-assays-of-two-venezuelan-crudes-differ-significantly"
   },
   {
-   "text": "The displacement is showing up in US import data: US imports of Venezuelan crude ran 583,000 to 782,000 barrels a day in the two weeks to September 18, landing directly into PADD 3. One syndicated market report put the WCS Houston discount more than $3 a barrel wider since the January announcement as refiners opted for cheaper Venezuelan barrels. Treat that figure as reported, not verified; the checkable version is the ICE ARV - TMW spread.",
-   "vintage": "Sep 2026; accessed 2026-09-28",
-   "source": "EIA WPSR Table 8 (via local pipeline); marketminute syndicated report Jan 22, 2026 (secondary)",
-   "source_url": "https://markets.financialcontent.com/postgazette/article/marketminute-2026-1-22-the-heavy-oil-renaissance-venezuelan-merey-returns-to-us-shores-at-steep-discounts"
-  },
-  {
    "text": "Russia is set to extend its ban on most diesel exports beyond the end of September as Ukrainian drone attacks on Russian refineries continue, with an extension of a month or more under consideration, according to people familiar with the matter. The move is cross-verified: the Russian business daily Vedomosti reported on Sep 16 that the ban would run to October 31, citing delayed refinery maintenance and the need to rebuild winter fuel reserves, and Energy Intelligence reported on Sep 18 that an October extension was likely.",
    "vintage": "Reported Sep 21, 2026; published Sep 21, 2026; accessed 2026-09-28",
    "source": "Bloomberg Markets (via Headlines Briefing)",
@@ -238,12 +244,6 @@
    "vintage": "Jul 17, 2026; accessed 2026-09-24",
    "source": "Reuters (via Pipeline and Gas Journal)",
    "source_url": "https://pgjonline.com/news/2026/july/irving-oils-saint-john-refinery-to-begin-fall-turnaround-in-september"
-  },
-  {
-   "text": "US refinery maintenance typically peaks in October, but shipbroker Gibson reported very little confirmed for autumn 2026 because robust margins kept refiners from taking units offline. US utilization was 97.4%, the highest since 2018. The only confirmed PADD 3 turnaround was Exxon's Beaumont fluid catalytic cracker (FCC) and hydrotreaters for about 45 days from early December to mid-January.",
-   "vintage": "Aug 31, 2026; accessed 2026-09-24",
-   "source": "Hellenic Shipping News (citing shipbroker Gibson)",
-   "source_url": "https://www.hellenicshippingnews.com/tanker-market-unplanned-us-refinery-outages-could-impact-freight-trade/"
   }
  ],
  "sources": [
@@ -256,6 +256,21 @@
    "publisher": "Reuters (via BOE Report)",
    "vintage": "",
    "url": "https://boereport.com/2026/07/16/us-refiner-margins-hit-new-records-as-fuel-shortage-concerns-grow/"
+  },
+  {
+   "publisher": "Reuters (via BOE Report)",
+   "vintage": "",
+   "url": "https://boereport.com/2026/11/01/asias-crude-oil-imports-back-to-pre-war-levels-but-refined-fuels-lag-russell/amp/"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://941theduke.com/2026/10/28/phillips-66-posts-record-quarterly-profit-on-refining-strength/"
+  },
+  {
+   "publisher": "Reuters (via TradingView)",
+   "vintage": "",
+   "url": "https://in.tradingview.com/news/reuters.com,2026:newsml_L6N46F15D:0-gasoline-refining-margins-fall-to-near-march-lows/"
   },
   {
    "publisher": "Sky Quarry (GlobeNewswire, via FinancialContent)",
@@ -318,14 +333,14 @@
    "url": "https://www.thetrading.tools/crack-spread"
   },
   {
-   "publisher": "AINvest (market commentary)",
+   "publisher": "Reuters (reporting EIA data)",
    "vintage": "",
-   "url": "https://www.ainvest.com/news/epa-biofuel-waivers-don-matter-refiner-profits-2609/"
+   "url": "https://northlandnewsradio.com/2026/10/28/us-crude-and-distillate-inventories-fall-gasoline-stocks-rise-eia-says/"
   },
   {
-   "publisher": "Seven Gates Research (citing BloombergNEF)",
+   "publisher": "US Energy Information Administration (EIA)",
    "vintage": "",
-   "url": "https://github.com/oged/sevengatesresearch.com/blob/HEAD/content/research/the-middle-of-the-barrel-has-taken-hostages.md"
+   "url": "https://www.eia.gov/dnav/pet/pet_pnp_wiup_dcu_r20_w.htm"
   },
   {
    "publisher": "Reuters (via BOE Report)",
@@ -398,11 +413,6 @@
    "url": "https://www.ogj.com/home/article/17241730/guide-to-world-crudes-assays-of-two-venezuelan-crudes-differ-significantly"
   },
   {
-   "publisher": "EIA WPSR Table 8 (via local pipeline); marketminute syndicated report Jan 22, 2026 (secondary)",
-   "vintage": "",
-   "url": "https://markets.financialcontent.com/postgazette/article/marketminute-2026-1-22-the-heavy-oil-renaissance-venezuelan-merey-returns-to-us-shores-at-steep-discounts"
-  },
-  {
    "publisher": "Bloomberg Markets (via Headlines Briefing)",
    "vintage": "",
    "url": "https://headlinesbriefing.com/market/bloomberg-markets/russia-extends-diesel-export-ban-5c54b69e"
@@ -416,11 +426,6 @@
    "publisher": "Reuters (via Pipeline and Gas Journal)",
    "vintage": "",
    "url": "https://pgjonline.com/news/2026/july/irving-oils-saint-john-refinery-to-begin-fall-turnaround-in-september"
-  },
-  {
-   "publisher": "Hellenic Shipping News (citing shipbroker Gibson)",
-   "vintage": "",
-   "url": "https://www.hellenicshippingnews.com/tanker-market-unplanned-us-refinery-outages-could-impact-freight-trade/"
   }
  ]
 }

@@ -6,6 +6,18 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Two commercial vessels were struck in separate attacks across the Arabian Gulf on Nov 1, widening the maritime security threat beyond the Strait of Hormuz, ShipUniverse reported on Nov 2, citing United Kingdom Maritime Trade Operations (UKMTO) warnings 191-26 and 192-26. At 23:47 UTC on Nov 1, a tanker sailing southeast about 72 nautical miles east of Ras Al Khafji, Saudi Arabia, was hit by two unidentified projectiles on its port side; all crew were accounted for and no pollution was reported. Earlier, at 15:09 UTC, another vessel was struck in the Strait of Hormuz after a Mayday call was relayed by a passing merchant ship. Security firm Vanguard Tech identified that vessel as the Panama-flagged offshore tug SELAT STORM and reported it partially sinking, with the crew condition unconfirmed, and identified the northern Gulf tanker as LARGO ATOM; UKMTO has not confirmed either vessel identity, and no attacker or weapon type has been officially established for either incident.",
+   "vintage": "Nov 1, 2026",
+   "source": "ShipUniverse (citing UKMTO)",
+   "source_url": "https://www.shipuniverse.com/news/two-ships-struck-hours-apart-as-gulf-attacks-spread-beyond-hormuz-offshore-tug-reportedly-sinking/"
+  },
+  {
+   "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) navy said on Nov 1 that two oil tankers, including a supertanker, exploded and were stopped after hitting naval mines in the Strait of Hormuz, Xinhua reported, in a statement published on Sepah News, the IRGC official news outlet. The navy said the tankers were transiting an unauthorised route with their navigation and identification systems switched off, and that the supertanker suffered a massive explosion and was burning. The statement did not name the vessels, say who laid the mines, or report crew casualties, and the claim has not been independently verified; it is not clear whether the claimed mine incidents overlap the UKMTO projectile reports from the same day. IRGC spokesperson Hossein Mohebbi said separately on Nov 1 that Iranian forces are prepared to respond to the enemy without geographical limitations.",
+   "vintage": "Nov 1, 2026",
+   "source": "Xinhua (via New Kerala)",
+   "source_url": "https://www.newkerala.com/news/a/iran-says-violating-oil-tankers-exploded-after-hitting-675.htm"
+  },
+  {
    "text": "Qatar Gas Transport Company (Nakilat) said on Nov 1 that its liquefied natural gas (LNG) carrier Al Mayeda was hit by unidentified objects while transiting the Arabian Gulf on the evening of Oct 30, the Qatar News Agency (QNA) reported. None of the crew members on board were injured and there was no impact on the environment, the company said in a statement published by the Qatar Stock Exchange. The vessel is in a safe condition and operational, the impact of the incident is being assessed, and Nakilat said it remains in direct coordination with the vessel, its crew and the relevant maritime security authorities in the region. The disclosure names the vessel that the United Kingdom Maritime Trade Operations (UKMTO) had reported on Oct 30 as struck by an unknown projectile about 40 nautical miles south of Iran's Lavan Island.",
    "vintage": "Oct 30, 2026",
    "source": "Qatar News Agency (via Fana News)",
@@ -316,6 +328,18 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil fell more than 4 percent on Nov 2 as talks between Iranian and Qatari officials on a deal to end the US-Israeli war on Iran raised hopes that Middle East supply disruptions could ease, Reuters reported. Brent crude futures fell $4.79, or 4.2 percent, to $108.64 a barrel by 1020 GMT, while US West Texas Intermediate crude traded at $99.71, down $4.41, or 4.2 percent. Brent had ended October at its highest in six months amid concern the conflict could escalate again after Tuesday's US midterm elections. An official briefed on the talks said Iranian negotiators have left talks with Qatari mediators and a draft proposal is being circulated, with a follow-up meeting possible; Foreign Minister Abbas Araghchi said on Nov 1 the talks were ongoing and progressing and Tehran was prepared for both defence and diplomacy. Reuters noted the talks follow a recent increase in attacks on oil tankers transiting the Strait of Hormuz, while Saudi Arabia increased crude exports in October versus September despite Houthi attacks on its energy infrastructure, two of three ship-tracking companies said. The chief executive of Abu Dhabi National Oil Company (ADNOC) said the world has drained nearly 1 billion barrels from inventories since the war disrupted Hormuz shipping. Goldman Sachs raised its oil price forecasts on Nov 1 and said Brent could jump to $140 in 2027 if Gulf oil output stays 3.5 million barrels per day below its 2025 average.",
+   "vintage": "Nov 2, 2026",
+   "source": "Reuters (via Kitco News)",
+   "source_url": "https://www.kitco.com/news/off-the-wire/2026-11-02/oil-drops-over-4-hopes-progress-talks-ending-us-iran-war"
+  },
+  {
+   "text": "Asia's imports of crude oil recovered in October to match levels prior to the Iran conflict, but imports of refined fuels such as diesel and gasoline remained soft, Reuters columnist Clyde Russell reported on Nov 2, citing Kpler data. The region saw crude arrivals of 26.39 million barrels per day in October, up from 24.24 million b/d in September, just shy of the 27.0 million b/d average in the three months leading up to the Feb 28 attack, and up 39 percent from the 18.93 million b/d post-conflict low in April. Asia's crude imports via the Strait of Hormuz rose to 7.42 million b/d in October, still down from the 13.06 million b/d average in the three months to the end of February, but up from the 1.59 million b/d low in April. Imports from Russia rose to 3.50 million b/d in October. Light and middle distillate imports were 6.15 million b/d in October, up from 5.88 million b/d in September but still 10 percent below the pre-war average of 6.85 million b/d. Singapore gasoil ended Oct 30 at $168.62 a barrel, down from the record $199.89 on Mar 30 but still 84 percent higher than the $91.42 on Feb 27.",
+   "vintage": "Nov 2, 2026",
+   "source": "Reuters (via BOE Report)",
+   "source_url": "https://boereport.com/2026/11/01/asias-crude-oil-imports-back-to-pre-war-levels-but-refined-fuels-lag-russell/amp/"
   },
   {
    "text": "OPEC+ oil-producing countries kept December production targets steady on Nov 1, confirming expectations that more policy adjustments will not occur until next year, as the group continues to struggle with export disruptions from the Iran war, Reuters reported. Seven core OPEC+ members, Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman, made the decision in an online meeting on Sunday, OPEC said in a statement. While Gulf members have been boosting exports that have been disrupted for months by the conflict, most are still pumping well below their targets. All members of the 21-country group are due to meet on Nov 29, when analysts expect it will decide 2027 quotas. Oil prices jumped more than 2 percent on Oct 30, with Brent crude settling at almost $118 a barrel, the highest since April, as traders braced for a potential escalation in the Iran war after the US midterm elections. The International Energy Agency and other forecasters have warned of excess supply in 2027 should Gulf flows return to normal.",
@@ -1568,6 +1592,16 @@
  ],
  "sources": [
   {
+   "publisher": "ShipUniverse (citing UKMTO)",
+   "vintage": "",
+   "url": "https://www.shipuniverse.com/news/two-ships-struck-hours-apart-as-gulf-attacks-spread-beyond-hormuz-offshore-tug-reportedly-sinking/"
+  },
+  {
+   "publisher": "Xinhua (via New Kerala)",
+   "vintage": "",
+   "url": "https://www.newkerala.com/news/a/iran-says-violating-oil-tankers-exploded-after-hitting-675.htm"
+  },
+  {
    "publisher": "Qatar News Agency (via Fana News)",
    "vintage": "",
    "url": "https://www.fananews.com/language/en/qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf/"
@@ -1821,6 +1855,16 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters (via Kitco News)",
+   "vintage": "",
+   "url": "https://www.kitco.com/news/off-the-wire/2026-11-02/oil-drops-over-4-hopes-progress-talks-ending-us-iran-war"
+  },
+  {
+   "publisher": "Reuters (via BOE Report)",
+   "vintage": "",
+   "url": "https://boereport.com/2026/11/01/asias-crude-oil-imports-back-to-pre-war-levels-but-refined-fuels-lag-russell/amp/"
   },
   {
    "publisher": "Reuters (via Global Banking & Finance)",
