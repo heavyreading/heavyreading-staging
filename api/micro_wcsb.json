@@ -21,17 +21,17 @@
   "2027-12"
  ],
  "prices": {
-  "asof": "Nov 4, 2026 11:21 AM MDT",
+  "asof": "Nov 4, 2026 11:51 AM MDT",
   "settle_date": "2026-11-03",
   "rows": [
    {
     "label": "WTI, Dec 26",
-    "value": 88.76,
+    "value": 87.6,
     "basis": "intraday quote"
    },
    {
     "label": "Brent, Jan 27",
-    "value": 94.98,
+    "value": 93.98,
     "basis": "intraday quote"
    },
    {
@@ -159,7 +159,7 @@
     "other": 89.6
    },
    "grades": {
-    "total": 4155.9,
+    "total": 4011.7,
     "items": [
      {
       "id": "grade_conv_light",
@@ -184,13 +184,13 @@
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 2280.1
+      "value": 2135.9
      }
     ],
     "sco": 1203.5,
-    "mined_dashboard": 1693.5,
+    "mined_dashboard": 1549.3,
     "mined_to_upgrader": 1471.1,
-    "mined_to_market": 222.4
+    "mined_to_market": 78.2
    },
    "detail": {
     "sagd": [
@@ -307,10 +307,6 @@
     ],
     "mined": [
      {
-      "label": "Horizon (CNRL)",
-      "value": 306.0
-     },
-     {
       "label": "Kearl (Imperial)",
       "value": 280.3
      },
@@ -323,16 +319,20 @@
       "value": 214.9
      },
      {
+      "label": "Horizon (CNRL)",
+      "value": 188.4
+     },
+     {
       "label": "Fort Hills",
       "value": 179.1
      },
      {
-      "label": "Syncrude Mildred Lake",
-      "value": 168.8
-     },
-     {
       "label": "Syncrude Aurora",
       "value": 167.1
+     },
+     {
+      "label": "Syncrude Mildred Lake",
+      "value": 142.2
      },
      {
       "label": "Jackpine (CNRL)",
