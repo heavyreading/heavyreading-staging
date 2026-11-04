@@ -84,6 +84,12 @@
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "text": "On Nov 4 the European Commission hosts a meeting in Brussels of European Union (EU), US and Ukrainian representatives at national security adviser level, joined by France, Germany, Britain, the North Atlantic Treaty Organization (NATO) and the World Bank, the Baltic Security Monitor reported. US Special Envoy Steve Witkoff set out the agenda as security guarantees for Ukraine, Europe's post-war security architecture and economic opportunities in reconstruction, building on earlier rounds in Miami and Oslo. Separately, Witkoff announced US-mediated working-level talks between Ukraine and Russia in Abu Dhabi on Nov 10 and 11. The monitor said the meeting is confirmed by the Commission and NATO, with no outcomes available at snapshot time. A scheduled meeting is not a commitment or a deployment, and only signed documents and concrete decisions settle what it produces.",
+   "vintage": "Nov 4, 2026",
+   "source": "Baltic Security Monitor",
+   "source_url": "https://osint-baltic.com/grey-zone-flank-en/"
+  },
+  {
    "text": "The United States will bring together delegations from Ukraine and Russia in Abu Dhabi on Nov 10 and 11 to discuss ending Moscow's war against Ukraine, post-war security agreements and de-escalation, Reuters reported on Nov 3. The planned talks sit alongside the resumed Ukrainian strike campaign on Russian refining: Reuters noted the same day that a Ukrainian drone attack damaged an oil refinery in the Russian city of Yaroslavl, while Russia launched a massive overnight strike on Ukrainian energy facilities in the Vinnytsia, Dnipropetrovsk and Kharkiv regions, according to Interfax, citing the Russian defence ministry.",
    "vintage": "Nov 3, 2026",
    "source": "Reuters (via WDSM)",
@@ -256,6 +262,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Follow-up on Nov 4: the Baltic Security Monitor, in its Nov 4 security watch, said the independent channel Astra counted at least seven fire sites at the Slavneft-YANOS refinery in Yaroslavl after the overnight strike into Nov 3, and that Governor Mikhail Yevrayev confirmed damage to plant infrastructure and two injured workers, while claiming 124 drones shot down, a figure the monitor said is unverified. The monitor said Russia's Defence Ministry claimed 709 Ukrainian drones intercepted overnight, also without independent confirmation; that total differs from the 856 figure carried in Reuters reporting of the same night, and neither total is independently confirmed. The YANOS strike is confirmed by Russian regional authorities, the monitor said; production losses have not been established, and measured refining impact and satellite imagery are the next checks. YANOS is Russia's fifth-largest refinery, with capacity of up to 15 million tonnes of crude a year, about 250 kilometres from Moscow.",
+   "vintage": "Nov 4, 2026",
+   "source": "Baltic Security Monitor",
+   "source_url": "https://osint-baltic.com/grey-zone-flank-en/"
   },
   {
    "text": "Ukraine set fire to a major oil refinery in the Russian city of Yaroslavl in an overnight drone attack into Nov 3, Reuters reported, citing regional governor Mikhail Yevrayev. The Slavneft Yaroslavnefteorgsintez (YANOS) refinery, which Ukraine has struck at least twice before, disrupting production, is located some 250 kilometres northeast of Moscow and has a processing capacity of around 15 million tons of crude oil per year, producing gasoline, diesel and fuel oil. Yevrayev said air defence forces had repelled an attack on the refinery involving 124 drones and that two employees had been injured, adding that there has been damage to the refinery's infrastructure and that emergency services were working to extinguish a fire. Russia's military said it had downed 856 enemy drones across the country overnight. Unverified footage posted on social media showed big flames rising into a darkened sky and what appeared to be two smaller fires, and there was no immediate comment from Ukraine. Reuters noted that Ukraine had paused its strikes on Russian refineries after pressure from US President Donald Trump, according to the Wall Street Journal, but that a Russian official said on Friday that Ukraine had resumed strikes with attacks on three oil refineries and one gas-chemical complex in the Samara region.",
@@ -593,6 +605,11 @@
    "publisher": "Maritime Professional (citing traders)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "publisher": "Baltic Security Monitor",
+   "vintage": "",
+   "url": "https://osint-baltic.com/grey-zone-flank-en/"
   },
   {
    "publisher": "Reuters (via WDSM)",

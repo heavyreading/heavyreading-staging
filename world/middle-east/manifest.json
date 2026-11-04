@@ -6,6 +6,24 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Iran's Revolutionary Guard said on Nov 4 that four oil tankers were destroyed after striking naval mines while trying to traverse a route described as prohibited south of the Strait of Hormuz, Reuters reported. In a statement, the Guard said the tankers were still ablaze and that two other vessels had been seized. The statement gave no vessel names, flags, owners or crew details, and the claim had not been independently verified. The claim is the latest in a series of Iranian mine claims through October and early November, several of which maritime authorities found no substantiation for.",
+   "vintage": "Nov 4, 2026",
+   "source": "Reuters (via 98.5 The River)",
+   "source_url": "https://985theriver.com/2026/11/03/irans-irgc-says-four-tankers-ablaze-after-hitting-mines-near-strait-of-hormuz/"
+  },
+  {
+   "text": "A tanker was struck by two unidentified projectiles in its engine room on Nov 3 at about 1900 UTC, about 14 nautical miles northeast of Lima, Oman, near the Strait of Hormuz, United Kingdom Maritime Trade Operations (UKMTO) said in Warning 195-26, SAFETY4SEA reported on Nov 4. The vessel's Company Security Officer reported the hits; UKMTO said there were no reported casualties or environmental impacts at the time of its warning and that authorities are investigating. Shipping reports identified the tanker as the Barbados-flagged very large crude carrier (VLCC) Grit, which security firm Vanguard reported had been placed on an Iranian blacklist earlier in the week; UKMTO did not name the vessel, and who carried out the attack has not been independently established.",
+   "vintage": "Nov 3, 2026",
+   "source": "SAFETY4SEA (citing UKMTO)",
+   "source_url": "https://safety4sea.com/tanker-struck-near-oman-as-iran-claims-four-vessels-destroyed-by-naval-mines/"
+  },
+  {
+   "text": "Two further incidents were recorded near Limah, Oman, on Nov 2. United Kingdom Maritime Trade Operations (UKMTO) Warning 193-26 recorded a projectile strike about nine nautical miles northeast of Limah, with the master reporting a hole in the vessel's starboard side and the crew safe, The DeepDraft reported on Nov 4. Separately, India's Ministry of External Affairs confirmed on Nov 3 that the Indian-crewed dhow MSV AL JUSUFI was attacked near Limah on the evening of Nov 2 while sailing outbound through the Strait of Hormuz; 14 Indian nationals were aboard, one seafarer died from injuries, and the remaining 13 were rescued by the Royal Navy of Oman, with the vessel's subsequent condition unknown, UKMTO Warning 194-26 said.",
+   "vintage": "Nov 2, 2026",
+   "source": "The DeepDraft (citing UKMTO and India Ministry of External Affairs)",
+   "source_url": "https://thedeepdraft.com/2026/11/04/tanker-engine-room-struck-hormuz-oman/"
+  },
+  {
    "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Nov 3 that three oil tankers struck naval mines and caught fire in the early hours of Tuesday while navigating what it called unauthorized routes through the Strait of Hormuz, EuropeSays reported, citing a statement carried by the Tasnim News Agency. The IRGC said the tankers had switched off their navigation and identification systems, that the fires lit up the eastern section of the strait through the night, and that the vessels had been abandoned near the southern shores of the strait and remained engulfed in flames. The statement warned that ships disregarding Iranian navigation regulations and cooperating with the US military to cross unauthorized routes could face similar incidents, and it rejected US Central Command (CENTCOM) claims about conditions in the strait. The IRGC did not identify the tankers or provide details about their crews, casualties, or the extent of the damage, and there was no immediate independent confirmation of the reported incidents. The statement followed a separate Iranian Navy announcement on Nov 2 that an oil tanker had struck a naval mine and caught fire in an area described as prohibited and unsafe east of the Strait of Hormuz.",
    "vintage": "Nov 3, 2026",
    "source": "EuropeSays (citing Tasnim News Agency)",
@@ -340,6 +358,18 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Gulf oil exports dipped in October from September levels that were the highest since the Iran war started, data from two ship-tracking companies showed, Reuters reported on Nov 3. Flows of crude, condensate and refined products, excluding liquefied petroleum gas (LPG), averaged 17.1 million barrels per day (b/d) in October, according to Vortexa, down from 18.9 million b/d in September and still roughly three quarters of pre-war levels. Crude and condensate exports averaged 14.0 million b/d, about 86 percent of pre-war levels, while refined product exports averaged 3.1 million b/d, just over half of normal volumes. Kpler put crude and condensate flows through the Strait of Hormuz, the Red Sea and the Gulf of Oman at about 16.1 million b/d in October, down from 17.09 million b/d in September. Both trackers said the October figures could be revised upwards, because many shuttle tankers switch off tracking signals as a safety measure as attacks around Hormuz reached a record in October, and both figures exclude Iran, which is not exporting due to the US blockade. Saudi Arabia's exports were steady against September, while the United Arab Emirates recorded the largest decline, and Iraq, Oman and Kuwait all exported less.",
+   "vintage": "Nov 3, 2026",
+   "source": "Reuters (via Global Banking & Finance)",
+   "source_url": "https://www.globalbankingandfinance.com/gulf-oil-flows-dip-october-post-iran-war-high-data-shows/"
+  },
+  {
+   "text": "Oil prices rose on Nov 4 in a volatile session as investors awaited Washington's next move in the US-Israeli war on Iran after Democrats captured control of Congress from President Donald Trump's Republicans in the midterm elections, Reuters reported. Brent futures rose 76 cents, or 0.7 percent, to $104.36 a barrel and US West Texas Intermediate (WTI) futures gained 63 cents, or 0.7 percent, to $96.72 by 0730 GMT, reversing earlier declines, after Brent had settled at its lowest in nearly four weeks in the previous session. A US official said on Nov 3 that the United States had carried out defensive strikes on Iran's Qeshm Island targeting surface-to-air missiles used against US assets, and another official said the strikes appeared limited and did not signal a return to major combat operations. A senior Iranian official told Reuters on Nov 3 that Iran and the United States remain far from a deal to end the war, Qatar stepped up mediation to avert an escalation after the elections, and President Trump told the Financial Times on Nov 3 that the United States had no immediate plans to strike Iran. An unexpected draw in US crude inventories also offered support, Phillip Nova's Priyanka Sachdeva told Reuters, while noting that the underlying supply disruption risks around the Strait of Hormuz have not disappeared.",
+   "vintage": "Nov 4, 2026",
+   "source": "Reuters (via KTWB)",
+   "source_url": "https://ktwb.com/2026/11/03/oil-edges-down-as-investors-await-us-midterm-election-results/"
   },
   {
    "text": "Oil prices rose more than $1 on Nov 3 as peace prospects dimmed after the United States struck Iran's Qeshm Island and a senior Iranian official said a deal to end the war was far off, Reuters reported. US West Texas Intermediate crude was up $1.60, or 1.66 percent, at $98.06 a barrel, while Brent crude futures rose $1.84, or 1.76 percent, to $106.61 a barrel by 0744 GMT. Both benchmarks had dropped more than 7 percent on Nov 2 as talks between Iranian and Qatari officials lifted hopes for an end to the US-Israeli war with Iran. A US official said on Nov 2 that the US had struck Qeshm Island, with some officials describing the assaults as defensive and aimed at preventing Iran from attacking commercial ships in the Strait of Hormuz. On Nov 3, a senior Iranian official told Reuters that both countries were far from reaching a deal to end the war and that Tehran would not accept Washington's excessive demands; parliament speaker Qalibaf said Tehran had given Washington a strong and rational response and that the ball is in the US court, according to state media. Brent ended October at its highest in six months on concern the conflict could escalate again after the US midterm elections.",
@@ -1610,6 +1640,21 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via 98.5 The River)",
+   "vintage": "",
+   "url": "https://985theriver.com/2026/11/03/irans-irgc-says-four-tankers-ablaze-after-hitting-mines-near-strait-of-hormuz/"
+  },
+  {
+   "publisher": "SAFETY4SEA (citing UKMTO)",
+   "vintage": "",
+   "url": "https://safety4sea.com/tanker-struck-near-oman-as-iran-claims-four-vessels-destroyed-by-naval-mines/"
+  },
+  {
+   "publisher": "The DeepDraft (citing UKMTO and India Ministry of External Affairs)",
+   "vintage": "",
+   "url": "https://thedeepdraft.com/2026/11/04/tanker-engine-room-struck-hormuz-oman/"
+  },
+  {
    "publisher": "EuropeSays (citing Tasnim News Agency)",
    "vintage": "",
    "url": "https://www.europesays.com/3350212/"
@@ -1883,6 +1928,16 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters (via Global Banking & Finance)",
+   "vintage": "",
+   "url": "https://www.globalbankingandfinance.com/gulf-oil-flows-dip-october-post-iran-war-high-data-shows/"
+  },
+  {
+   "publisher": "Reuters (via KTWB)",
+   "vintage": "",
+   "url": "https://ktwb.com/2026/11/03/oil-edges-down-as-investors-await-us-midterm-election-results/"
   },
   {
    "publisher": "Reuters (via WDSM)",
