@@ -1,5 +1,5 @@
 {
- "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-11-04T17:49:25.587882Z",
+ "vintage": "Big-move events from bin/move_watch.py + sensor adjudications from bin/sensor_watch.py; built 2026-11-04T21:07:49.555075Z",
  "data": {
   "updated_at": "2026-11-04T13:47:37.655916Z",
   "events": [
@@ -17,11 +17,11 @@
     "to_price": null,
     "move_usd": null,
     "move_pct": null,
-    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 239 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-11-04T12:53:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
+    "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 299 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-11-04T12:53:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal.",
     "headlines": [],
     "adjudication": {
      "claim_id": "claim-20261104T134737-sensor-east-west",
-     "generated_at": "2026-11-04T17:47:37.404682Z",
+     "generated_at": "2026-11-04T18:47:36.966079Z",
      "claims": [
       {
        "source": "SENSOR (Meteosat IODC)",
@@ -61,8 +61,8 @@
         {
          "asset": "east-west",
          "status": "NORMAL",
-         "last_frame_utc": "2026-11-04T17:15:00Z",
-         "delta_vs_baseline": 1.0,
+         "last_frame_utc": "2026-11-04T18:15:00Z",
+         "delta_vs_baseline": 0.0,
          "detail": "no step change"
         }
        ],
@@ -74,7 +74,7 @@
       }
      },
      "silence": {
-      "minutes_since_claim": 239,
+      "minutes_since_claim": 299,
       "confirmations": 0,
       "half_life_note": "Every confirmed hit on these assets this war drew official and wire confirmation within about an hour. On a hyper-watched asset, silence past that window is evidence, weighted accordingly \u2014 it is not proof."
      },
@@ -91,10 +91,15 @@
         "ts": "2026-11-04T14:47:37.655916Z",
         "price": 100.8,
         "pct_vs_claim": -0.31
+       },
+       "+240": {
+        "ts": "2026-11-04T17:47:37.655916Z",
+        "price": 94.27,
+        "pct_vs_claim": -6.76
        }
       }
      },
-     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 239 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-11-04T12:53:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
+     "verdict": "CLAIM ONLY \u2014 UNCONFIRMED 299 min after the claim with no confirmation on any channel. FIRMS coverage of the claim window ends 2026-11-04T12:53:00Z \u2014 BEFORE the claim; satellites were blind at claim time, not contradicting. Geostationary layer: normal."
     }
    },
    {

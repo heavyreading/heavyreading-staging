@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-11-04T11:58:05-06:00",
+ "built_at": "2026-11-04T13:07:07-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -4830,20 +4830,16 @@
    "source": "U.S. Energy Information Administration",
    "pull": "build_chartbook EIA products step (bin/eia_api.py, same connector as the Wednesday WPSR pull)",
    "cadence": "weekly",
-   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through October 23, 2026.",
+   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through October 30, 2026.",
    "stats": {
-    "level": 209.18,
-    "seasonal_mean": 217.7013,
-    "z": -1.1565768682404909,
-    "seasonal_pct": 30.0,
-    "date": "2026-10-23"
+    "level": 208.958,
+    "seasonal_mean": 216.07036666666667,
+    "z": -0.9457752428169001,
+    "seasonal_pct": 34.0,
+    "date": "2026-10-30"
    },
-   "narrative_text": "U.S. gasoline inventories stand at 209.2 million barrels, 8.5 million barrels (3.9 percent) below the ten-year seasonal average, a gap of 1.2 standard deviations, and in the 30th percentile of readings for this part of the year since 2010. Stocks built 3.9 million barrels on the week. Gasoline stocks set the summer crack tone and, into the autumn shoulder, the pace at which refiners can ease runs: a low seasonal percentile is refinery-margin support. A seasonal build through the shoulder months would close the tightness case.",
+   "narrative_text": "U.S. gasoline inventories stand at 209.0 million barrels, 7.1 million barrels (3.3 percent) below the ten-year seasonal average, a gap of 0.9 standard deviations, and in the 34th percentile of readings for this part of the year since 2010. Stocks drew 0.2 million barrels on the week. Gasoline stocks set the summer crack tone and, into the autumn shoulder, the pace at which refiners can ease runs: a low seasonal percentile is refinery-margin support. A seasonal build through the shoulder months would close the tightness case.",
    "points": [
-    [
-     "2021-10-29",
-     214.258
-    ],
     [
      "2021-11-05",
      212.703
@@ -5883,6 +5879,10 @@
     [
      "2026-10-23",
      209.18
+    ],
+    [
+     "2026-10-30",
+     208.958
     ]
    ]
   },
@@ -5894,20 +5894,16 @@
    "source": "U.S. Energy Information Administration",
    "pull": "build_chartbook EIA products step (bin/eia_api.py, same connector as the Wednesday WPSR pull)",
    "cadence": "weekly",
-   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through October 23, 2026.",
+   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through October 30, 2026.",
    "stats": {
-    "level": 102.824,
-    "seasonal_mean": 125.17493333333333,
-    "z": -1.371094164989134,
+    "level": 99.259,
+    "seasonal_mean": 123.69366666666666,
+    "z": -1.5655660052284752,
     "seasonal_pct": 2.0,
-    "date": "2026-10-23"
+    "date": "2026-10-30"
    },
-   "narrative_text": "U.S. distillate inventories stand at 102.8 million barrels, 22.4 million barrels (17.9 percent) below the ten-year seasonal average, a gap of 1.4 standard deviations, and in the 2nd percentile of readings for this part of the year since 2010. Stocks drew 1.5 million barrels on the week. Distillate is the winter product and the freight economy's fuel: low stocks into winter are heating-season upside for cracks and a squeeze risk in the heating oil leg. A mild winter, or a demand miss that rebuilds stocks, would unwind the tightness.",
+   "narrative_text": "U.S. distillate inventories stand at 99.3 million barrels, 24.4 million barrels (19.8 percent) below the ten-year seasonal average, a gap of 1.6 standard deviations, and in the 2nd percentile of readings for this part of the year since 2010. Stocks drew 3.6 million barrels on the week. Distillate is the winter product and the freight economy's fuel: low stocks into winter are heating-season upside for cracks and a squeeze risk in the heating oil leg. A mild winter, or a demand miss that rebuilds stocks, would unwind the tightness.",
    "points": [
-    [
-     "2021-10-29",
-     127.122
-    ],
     [
      "2021-11-05",
      124.509
@@ -6947,6 +6943,10 @@
     [
      "2026-10-23",
      102.824
+    ],
+    [
+     "2026-10-30",
+     99.259
     ]
    ]
   },
@@ -6958,20 +6958,16 @@
    "source": "U.S. Energy Information Administration",
    "pull": "build_chartbook EIA products step (bin/eia_api.py, same connector as the Wednesday WPSR pull)",
    "cadence": "weekly",
-   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through October 23, 2026.",
+   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through October 30, 2026.",
    "stats": {
-    "level": 105.735,
-    "seasonal_mean": 91.45396666666667,
-    "z": 1.3265220764125842,
-    "seasonal_pct": 96.0,
-    "date": "2026-10-23"
+    "level": 104.108,
+    "seasonal_mean": 91.0462,
+    "z": 1.2116121592310882,
+    "seasonal_pct": 92.0,
+    "date": "2026-10-30"
    },
-   "narrative_text": "U.S. propane inventories stand at 105.7 million barrels, 14.3 million barrels (15.6 percent) above the ten-year seasonal average, a gap of 1.3 standard deviations, and in the 96th percentile of readings for this part of the year since 2010. Stocks drew 0.1 million barrels on the week. Propane is a heating fuel and a Canadian export staple: U.S. stocks against the seasonal average frame the winter pull on western Canadian supply. A warm winter that leaves stocks high into spring would change the read.",
+   "narrative_text": "U.S. propane inventories stand at 104.1 million barrels, 13.1 million barrels (14.3 percent) above the ten-year seasonal average, a gap of 1.2 standard deviations, and in the 92nd percentile of readings for this part of the year since 2010. Stocks drew 1.6 million barrels on the week. Propane is a heating fuel and a Canadian export staple: U.S. stocks against the seasonal average frame the winter pull on western Canadian supply. A warm winter that leaves stocks high into spring would change the read.",
    "points": [
-    [
-     "2021-10-29",
-     76.098
-    ],
     [
      "2021-11-05",
      74.757
@@ -8011,6 +8007,10 @@
     [
      "2026-10-23",
      105.735
+    ],
+    [
+     "2026-10-30",
+     104.108
     ]
    ]
   },

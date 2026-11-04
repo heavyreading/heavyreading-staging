@@ -1,7 +1,7 @@
 {
- "vintage": "Sat Watch: geostationary hotspot polls \u2014 Meteosat IODC (EUMETView public WMS, 15-min frames) on the Gulf board, GOES-West (NASA GIBS) on the Canadian board; styled-render palette-gray step detection + NASA FIRMS rechecks, built 2026-11-04T17:47:37.404682Z",
+ "vintage": "Sat Watch: geostationary hotspot polls \u2014 Meteosat IODC (EUMETView public WMS, 15-min frames) on the Gulf board, GOES-West (NASA GIBS) on the Canadian board; styled-render palette-gray step detection + NASA FIRMS rechecks, built 2026-11-04T21:02:37.383437Z",
  "data": {
-  "updated_at": "2026-11-04T17:32:37.065103Z",
+  "updated_at": "2026-11-04T20:32:38.919294Z",
   "assets": [
    {
     "key": "yanbu",
@@ -11,29 +11,29 @@
     "region": "gulf",
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:15:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: RuntimeError",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:00:00Z",
     "thermal": {
-     "diff_p995": 11.0,
-     "baseline_diff_med": 11.0,
+     "diff_p995": 9.0,
+     "baseline_diff_med": 9.0,
      "delta_vs_baseline": 0.0,
      "fire_px": 0,
-     "baseline_samples": 20
+     "baseline_samples": 27
     },
     "baseline": {
-     "looks_total": 1230,
-     "looks_clear": 1166,
+     "looks_total": 1240,
+     "looks_clear": 1176,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 173.5
+     "maturity_pct": 175.0
     },
     "firms": {
      "last_pass_utc": "2026-11-04T11:36:00Z",
      "next_pass_windows": [
-      "~2026-11-04T17:18:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T18:15:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T20:51:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T21:46:30Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 8.0
     },
@@ -62,29 +62,29 @@
     "region": "gulf",
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:15:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: RuntimeError",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:00:00Z",
     "thermal": {
      "diff_p995": 10.0,
-     "baseline_diff_med": 9.0,
-     "delta_vs_baseline": 1.0,
+     "baseline_diff_med": 10.0,
+     "delta_vs_baseline": 0.0,
      "fire_px": 0,
-     "baseline_samples": 11
+     "baseline_samples": 28
     },
     "baseline": {
-     "looks_total": 1254,
-     "looks_clear": 953,
+     "looks_total": 1265,
+     "looks_clear": 964,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 141.8
+     "maturity_pct": 143.5
     },
     "firms": {
-     "last_pass_utc": "2026-11-04T12:53:00Z",
+     "last_pass_utc": "2026-11-04T11:36:00Z",
      "next_pass_windows": [
-      "~2026-11-04T17:28:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T18:23:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T20:46:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T21:41:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 11.5
     },
@@ -113,29 +113,29 @@
     "region": "gulf",
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:15:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: RuntimeError",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:00:00Z",
     "thermal": {
      "diff_p995": 8.0,
      "baseline_diff_med": 8.0,
      "delta_vs_baseline": 0.0,
      "fire_px": 0,
-     "baseline_samples": 20
+     "baseline_samples": 29
     },
     "baseline": {
-     "looks_total": 1254,
-     "looks_clear": 1126,
+     "looks_total": 1265,
+     "looks_clear": 1137,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 167.6
+     "maturity_pct": 169.2
     },
     "firms": {
      "last_pass_utc": "2026-11-04T10:40:00Z",
      "next_pass_windows": [
-      "~2026-11-04T16:37:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
-      "~2026-11-04T17:28:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
+      "~2026-11-04T20:52:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
+      "~2026-11-04T21:43:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
      ],
      "looks_per_day": 9.0
     },
@@ -164,29 +164,29 @@
     "region": "gulf",
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:15:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: RuntimeError",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:00:00Z",
     "thermal": {
-     "diff_p995": 4.0,
-     "baseline_diff_med": 55.0,
-     "delta_vs_baseline": -51.0,
+     "diff_p995": 6.0,
+     "baseline_diff_med": 7.0,
+     "delta_vs_baseline": -1.0,
      "fire_px": 0,
-     "baseline_samples": 94
+     "baseline_samples": 21
     },
     "baseline": {
-     "looks_total": 1264,
-     "looks_clear": 970,
+     "looks_total": 1275,
+     "looks_clear": 981,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 144.3
+     "maturity_pct": 146.0
     },
     "firms": {
      "last_pass_utc": "2026-11-04T10:40:00Z",
      "next_pass_windows": [
-      "~2026-11-04T16:22:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T17:19:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T21:07:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T22:04:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 8.5
     },
@@ -215,29 +215,29 @@
     "region": "gulf",
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:15:00Z",
+    "status": "BLIND_ERROR",
+    "status_reason": "geo fetch failed: RuntimeError",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:00:00Z",
     "thermal": {
-     "diff_p995": 8.0,
-     "baseline_diff_med": 8.0,
-     "delta_vs_baseline": 0.0,
+     "diff_p995": 6.0,
+     "baseline_diff_med": 7.0,
+     "delta_vs_baseline": -1.0,
      "fire_px": 0,
-     "baseline_samples": 18
+     "baseline_samples": 29
     },
     "baseline": {
-     "looks_total": 1272,
-     "looks_clear": 1117,
+     "looks_total": 1283,
+     "looks_clear": 1128,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 166.2
+     "maturity_pct": 167.9
     },
     "firms": {
      "last_pass_utc": "2026-11-04T10:40:00Z",
      "next_pass_windows": [
-      "~2026-11-04T17:12:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T18:08:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T20:56:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T21:52:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 8.0
     },
@@ -268,27 +268,27 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:00:00Z",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:30:00Z",
     "thermal": {
-     "diff_p995": 159.0,
-     "baseline_diff_med": 169.0,
-     "delta_vs_baseline": -10.0,
+     "diff_p995": 149.0,
+     "baseline_diff_med": 152.0,
+     "delta_vs_baseline": -3.0,
      "fire_px": 0,
-     "baseline_samples": 34
+     "baseline_samples": 40
     },
     "baseline": {
-     "looks_total": 910,
-     "looks_clear": 910,
+     "looks_total": 918,
+     "looks_clear": 918,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 135.4
+     "maturity_pct": 136.6
     },
     "firms": {
      "last_pass_utc": "2026-11-04T12:01:00Z",
      "next_pass_windows": [
-      "~2026-11-04T16:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T17:31:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T21:11:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T22:06:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 12.5
     },
@@ -393,27 +393,27 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:00:00Z",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:30:00Z",
     "thermal": {
-     "diff_p995": 160.0,
-     "baseline_diff_med": 174.0,
-     "delta_vs_baseline": -14.0,
+     "diff_p995": 148.0,
+     "baseline_diff_med": 154.0,
+     "delta_vs_baseline": -6.0,
      "fire_px": 0,
-     "baseline_samples": 33
+     "baseline_samples": 43
     },
     "baseline": {
-     "looks_total": 910,
-     "looks_clear": 910,
+     "looks_total": 919,
+     "looks_clear": 919,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 135.4
+     "maturity_pct": 136.8
     },
     "firms": {
      "last_pass_utc": "2026-11-04T12:01:00Z",
      "next_pass_windows": [
-      "~2026-11-04T16:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T17:31:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T21:11:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T22:06:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 12.5
     },
@@ -499,27 +499,27 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:00:00Z",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:30:00Z",
     "thermal": {
-     "diff_p995": 159.0,
-     "baseline_diff_med": 169.0,
-     "delta_vs_baseline": -10.0,
+     "diff_p995": 150.0,
+     "baseline_diff_med": 153.0,
+     "delta_vs_baseline": -3.0,
      "fire_px": 0,
-     "baseline_samples": 33
+     "baseline_samples": 44
     },
     "baseline": {
-     "looks_total": 907,
-     "looks_clear": 907,
+     "looks_total": 917,
+     "looks_clear": 917,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 135.0
+     "maturity_pct": 136.5
     },
     "firms": {
      "last_pass_utc": "2026-11-04T12:01:00Z",
      "next_pass_windows": [
-      "~2026-11-04T16:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T17:31:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T21:11:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T22:06:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 12.5
     },
@@ -578,27 +578,27 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:00:00Z",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:30:00Z",
     "thermal": {
-     "diff_p995": 162.0,
-     "baseline_diff_med": 179.0,
-     "delta_vs_baseline": -17.0,
+     "diff_p995": 144.0,
+     "baseline_diff_med": 153.0,
+     "delta_vs_baseline": -9.0,
      "fire_px": 0,
-     "baseline_samples": 29
+     "baseline_samples": 39
     },
     "baseline": {
-     "looks_total": 908,
-     "looks_clear": 908,
+     "looks_total": 915,
+     "looks_clear": 915,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 135.1
+     "maturity_pct": 136.2
     },
     "firms": {
      "last_pass_utc": "2026-11-04T12:01:00Z",
      "next_pass_windows": [
-      "~2026-11-04T16:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T17:31:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T21:11:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T22:06:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 12.5
     },
@@ -641,27 +641,27 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:00:00Z",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:30:00Z",
     "thermal": {
-     "diff_p995": 174.0,
-     "baseline_diff_med": 176.5,
-     "delta_vs_baseline": -2.5,
+     "diff_p995": 144.0,
+     "baseline_diff_med": 159.0,
+     "delta_vs_baseline": -15.0,
      "fire_px": 0,
-     "baseline_samples": 30
+     "baseline_samples": 39
     },
     "baseline": {
-     "looks_total": 928,
-     "looks_clear": 928,
+     "looks_total": 937,
+     "looks_clear": 937,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 138.1
+     "maturity_pct": 139.4
     },
     "firms": {
      "last_pass_utc": "2026-11-04T12:01:00Z",
      "next_pass_windows": [
-      "~2026-11-04T16:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T17:31:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T21:11:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T22:06:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 13.0
     },
@@ -724,27 +724,27 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:00:00Z",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:30:00Z",
     "thermal": {
-     "diff_p995": 159.0,
-     "baseline_diff_med": 175.0,
-     "delta_vs_baseline": -16.0,
+     "diff_p995": 143.0,
+     "baseline_diff_med": 169.0,
+     "delta_vs_baseline": -26.0,
      "fire_px": 0,
-     "baseline_samples": 33
+     "baseline_samples": 43
     },
     "baseline": {
-     "looks_total": 897,
-     "looks_clear": 897,
+     "looks_total": 906,
+     "looks_clear": 906,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 133.5
+     "maturity_pct": 134.8
     },
     "firms": {
      "last_pass_utc": "2026-11-04T12:01:00Z",
      "next_pass_windows": [
-      "~2026-11-04T16:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T17:31:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T21:11:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T22:06:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 13.0
     },
@@ -801,29 +801,29 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "ANOMALY",
-    "status_reason": "IR fire-channel differential stepped +30.0 palette-gray levels vs baseline median 167.0",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:00:00Z",
+    "status": "NORMAL",
+    "status_reason": "sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:30:00Z",
     "thermal": {
-     "diff_p995": 197.0,
-     "baseline_diff_med": 167.0,
-     "delta_vs_baseline": 30.0,
+     "diff_p995": 162.0,
+     "baseline_diff_med": 170.0,
+     "delta_vs_baseline": -8.0,
      "fire_px": 0,
-     "baseline_samples": 37
+     "baseline_samples": 39
     },
     "baseline": {
-     "looks_total": 915,
-     "looks_clear": 915,
+     "looks_total": 921,
+     "looks_clear": 921,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 136.2
+     "maturity_pct": 137.1
     },
     "firms": {
      "last_pass_utc": "2026-11-04T12:01:00Z",
      "next_pass_windows": [
-      "~2026-11-04T16:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T17:31:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T21:11:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T22:06:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 13.0
     },
@@ -866,27 +866,27 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-04T17:32:37.065103Z",
-    "last_frame_utc": "2026-11-04T17:00:00Z",
+    "last_check_utc": "2026-11-04T20:32:38.919294Z",
+    "last_frame_utc": "2026-11-04T20:30:00Z",
     "thermal": {
-     "diff_p995": 156.0,
+     "diff_p995": 147.0,
      "baseline_diff_med": 196.0,
-     "delta_vs_baseline": -40.0,
+     "delta_vs_baseline": -49.0,
      "fire_px": 0,
-     "baseline_samples": 34
+     "baseline_samples": 42
     },
     "baseline": {
-     "looks_total": 922,
-     "looks_clear": 922,
+     "looks_total": 931,
+     "looks_clear": 931,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 137.2
+     "maturity_pct": 138.5
     },
     "firms": {
      "last_pass_utc": "2026-11-04T12:04:00Z",
      "next_pass_windows": [
-      "~2026-11-04T16:49:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-04T17:46:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-04T20:37:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-04T21:34:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
      "looks_per_day": 11.5
     },
@@ -909,6 +909,20 @@
    }
   ],
   "event_log": [
+   {
+    "ts": "2026-11-04T21:07:48.357055Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "lloydminster",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-04T19:04:00.899789Z",
+    "kind": "RESOLUTION",
+    "detail": "claim claim-20261104T134737-sensor-east-west resolved FALSE by FIRMS (east-west)",
+    "asset": "east-west",
+    "claim_id": "claim-20261104T134737-sensor-east-west"
+   },
    {
     "ts": "2026-11-04T16:49:16.861973Z",
     "kind": "RESOLUTION",
@@ -1244,32 +1258,9 @@
     "detail": "IR fire-channel differential stepped +34.5 palette-gray levels vs baseline median 59.5",
     "asset": "east-west",
     "claim_id": null
-   },
-   {
-    "ts": "2026-11-04T05:18:44.099470Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +42.0 palette-gray levels vs baseline median 61.0",
-    "asset": "yanbu",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-04T05:03:34.648292Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 41 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "strathcona",
-    "claim_id": null
    }
   ],
   "claims_open": [
-   {
-    "id": "claim-20261104T134737-sensor-east-west",
-    "assets": [
-     "east-west"
-    ],
-    "opened_utc": "2026-11-04T13:47:37.655916Z",
-    "kind": "HEAT",
-    "window_utc": null
-   },
    {
     "id": "claim-20261104T150742-yanbu",
     "assets": [
