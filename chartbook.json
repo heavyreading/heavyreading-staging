@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-11-04T08:51:45-06:00",
+ "built_at": "2026-11-04T10:42:33-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -12402,20 +12402,16 @@
    "source": "Alberta Energy Regulator (ST3)",
    "pull": "aer-st3-refresh (monthly, into the repo duckdb)",
    "cadence": "monthly",
-   "vintage": "AER ST3, Alberta crude closing inventories. Data through August 2026.",
+   "vintage": "AER ST3, Alberta crude closing inventories. Data through September 2026.",
    "stats": {
-    "level": 60.03783406174001,
-    "seasonal_mean": 63.40250638593216,
-    "z": -0.48989608612599356,
-    "seasonal_pct": 62.0,
-    "date": "2026-08-01"
+    "level": 61.721418698706,
+    "seasonal_mean": 64.1018705694925,
+    "z": -0.32628563170522557,
+    "seasonal_pct": 68.0,
+    "date": "2026-09-01"
    },
-   "narrative_text": "Alberta crude inventories stand at 60.0 million barrels, 3.4 million barrels (5.3 percent) below the ten-year seasonal average, a gap of 0.5 standard deviations, and in the 62nd percentile of readings for this part of the year since 2010. Stocks built 1.3 million barrels on the month. This is the basin's buffer, and the earliest physical read on whether egress is keeping up with supply: what cannot leave accumulates here. It is also the print the satellite shadow read on Tank Watch is scored against, two months before ST3 publishes. A draw back to the seasonal average over the next two prints would retire the build story.",
+   "narrative_text": "Alberta crude inventories stand at 61.7 million barrels, 2.4 million barrels (3.7 percent) below the ten-year seasonal average, a gap of 0.3 standard deviations, and in the 68th percentile of readings for this part of the year since 2010. Stocks built 1.7 million barrels on the month. This is the basin's buffer, and the earliest physical read on whether egress is keeping up with supply: what cannot leave accumulates here. It is also the print the satellite shadow read on Tank Watch is scored against, two months before ST3 publishes. A draw back to the seasonal average over the next two prints would retire the build story.",
    "points": [
-    [
-     "2016-08-01",
-     53.6753
-    ],
     [
      "2016-09-01",
      55.0494
@@ -12866,35 +12862,39 @@
     ],
     [
      "2026-01-01",
-     65.4733
+     65.4772
     ],
     [
      "2026-02-01",
-     64.6958
+     64.6999
     ],
     [
      "2026-03-01",
-     62.9933
+     62.9967
     ],
     [
      "2026-04-01",
-     62.8172
+     62.822
     ],
     [
      "2026-05-01",
-     57.957
+     57.9615
     ],
     [
      "2026-06-01",
-     59.2861
+     59.2905
     ],
     [
      "2026-07-01",
-     58.7215
+     58.7246
     ],
     [
      "2026-08-01",
-     60.0378
+     60.0416
+    ],
+    [
+     "2026-09-01",
+     61.7214
     ]
    ]
   },
