@@ -1,6 +1,29 @@
 {
  "edition": "2026-11-04",
- "generated_at": "2026-11-04T16:45:42",
+ "generated_at": "2026-11-04T17:43:00",
  "generator": "change_engine v1",
- "changes": []
+ "changes": [
+  {
+   "title": "Mined bitumen forecast revised down for Oct 2026",
+   "delta": "-144 kb/d",
+   "body": "Mined bitumen for Oct 2026 moved from 1,694 to 1,549 kb/d in the latest ST3 dashboard build.",
+   "balance": "Tighter: less supply against fixed egress.",
+   "vintage": "AER ST3 thru 2026-07; dashboard artifact built 2026-11-04; feed built 2026-11-04",
+   "source": "WCSB supply/demand model (ST3 dashboard)",
+   "confirmation": "confirmed",
+   "dedup_key": "supply-mined-2026-10-1,549",
+   "auto_detected": true
+  },
+  {
+   "title": "Total WCSB crude supply forecast revised down for Oct 2026",
+   "delta": "-144 kb/d",
+   "body": "Total WCSB crude supply for Oct 2026 moved from 4,156 to 4,012 kb/d in the latest ST3 dashboard build.",
+   "balance": "Tighter: less supply against fixed egress.",
+   "vintage": "AER ST3 thru 2026-07; dashboard artifact built 2026-11-04; feed built 2026-11-04",
+   "source": "WCSB supply/demand model (ST3 dashboard)",
+   "confirmation": "confirmed",
+   "dedup_key": "supply-supply_total-2026-10-4,012",
+   "auto_detected": true
+  }
+ ]
 }

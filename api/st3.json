@@ -45,7 +45,7 @@
     "kind": "agg",
     "license": "public",
     "values": {
-     "2026-10": 4155.9,
+     "2026-10": 4011.7,
      "2026-11": 4416.3,
      "2026-12": 4453.1,
      "2027-01": 4262.8,
@@ -1465,7 +1465,7 @@
      "2026-07": 1896.3,
      "2026-08": 1749.6,
      "2026-09": 1509.8,
-     "2026-10": 1693.5,
+     "2026-10": 1549.3,
      "2026-11": 1887.8,
      "2026-12": 1913.8,
      "2027-01": 1737.5,
@@ -1553,7 +1553,7 @@
      "2026-07": null,
      "2026-08": null,
      "2026-09": null,
-     "2026-10": 306.0,
+     "2026-10": 188.4,
      "2026-11": 321.2,
      "2026-12": 321.1,
      "2027-01": 298.1,
@@ -1572,8 +1572,8 @@
     "detail": {
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-11-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-11-04",
-     "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line.",
-     "why": "Canadian Natural Resources Limited facility. Actuals through 2026-06; Jul 2026, Aug 2026, Sep 2026 blank until AER publishes.  nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total.",
+     "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line. Confirmed maintenance is reflected in this row after the baseline (see Why).",
+     "why": "Canadian Natural Resources Limited facility. Actuals through 2026-06; Jul 2026, Aug 2026, Sep 2026 blank until AER publishes.  nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Production view: Horizon 35-day whole-site turnaround, mined face. A whole-site outage idles the mine with the upgrader: Oct 2026 -117.6 kb/d (13 outage days at the measured September per-day mine loss of 280.4 kb/d, 0.87 of the mined run rate). The September mine loss (about 215 kb/d) sits in the published actuals. The tradable balance books this event at the SCO leaf only (ruling 2026-09-24); this production view books both faces. The paired upgrader row carries the SCO cut (Oct 2026 -119 kb/d).",
      "extra": "",
      "nowcast": "Sep nowcast is this plant's seasonal baseline minus the Sep 8 turnaround's -230 kb/d September impact, reflected at this plant (see the maintenance note in Why)."
     }
@@ -1685,7 +1685,7 @@
      "2026-07": null,
      "2026-08": null,
      "2026-09": null,
-     "2026-10": 168.8,
+     "2026-10": 142.2,
      "2026-11": 199.4,
      "2026-12": 206.0,
      "2027-01": 177.2,
@@ -1705,7 +1705,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-11-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-11-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 mined bitumen line. Confirmed maintenance is reflected in this row after the baseline (see Why).",
-     "why": "Syncrude Canada Ltd. facility. Actuals through 2026-06; Jul 2026, Aug 2026, Sep 2026 blank until AER publishes.  nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Context only: Syncrude Coker 8-2 mine dial-back, Aug 2026 -35.4, Sep 2026 -91.4, Oct 2026 -26.6 kb/d bitumen (full bitumen-equivalent of the coker rate at the observed 0.843 Syncrude yield: the mine plan is set months ahead to match reduced upgrader demand). This does NOT reduce this row: the Coker 8-2 market impact is on synthetic crude only (Sep 2026 -77.0 kb/d gross coker rate, no redirect between plants); heavy-market impact is zero. The paired upgrader row carries the SCO cut.",
+     "why": "Syncrude Canada Ltd. facility. Actuals through 2026-06; Jul 2026, Aug 2026, Sep 2026 blank until AER publishes.  nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Production view: Syncrude Coker 8-2 mine dial-back, Aug 2026 -35.4, Sep 2026 -91.4, Oct 2026 -26.6 kb/d bitumen (full bitumen-equivalent of the coker rate at the observed 0.843 Syncrude yield: the mine plan is set months ahead to match reduced upgrader demand). In this production view the dial-back reduces this row in forecast months (October 2026 -26.6 kb/d): the mine physically slows, and this page grades physical production. The tradable balance keeps the market accounting (ruling 2026-09-24): the Coker 8-2 market impact sits on synthetic crude only (Sep 2026 -77.0 kb/d gross coker rate, no redirect between plants); heavy-market impact is zero. The paired upgrader row carries the SCO cut in both views.",
      "extra": "",
      "nowcast": "Coker 8-2 mine dial-back (Aug -35.4, Sep -91.4, Oct -26.6 kb/d bitumen, full bitumen-equivalent of the coker rate at the observed 0.843 Syncrude yield) is shown on this mined-bitumen row for context only and does not reduce the forecast (zero heavy-market impact)."
     }
@@ -1937,7 +1937,7 @@
     "kind": "line",
     "license": "public",
     "values": {
-     "2026-10": 222.4,
+     "2026-10": 78.2,
      "2026-11": 189.5,
      "2026-12": 222.4,
      "2027-01": 131.4,
@@ -2101,7 +2101,7 @@
      "source": "AER ST39, oil-sands plant data (mined bitumen and SCO by facility)",
      "vintage": "AER ST39 actuals through 2026-06 (repo duckdb); forecast seasonal baseline forecast, built 2026-11-04; nowcast (seasonal baseline + confirmed maintenance), built 2026-11-04",
      "method": "actuals: ST39 plant reported. forecast: seasonal baseline, scaled proportionally so the plants sum to the ST3 upgraded production (SCO) line. Confirmed maintenance is reflected in this row after the baseline (see Why).",
-     "why": "Syncrude Canada Ltd. facility. Actuals through 2026-06; Jul 2026, Aug 2026, Sep 2026 blank until AER publishes.  nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Maintenance at this plant: Syncrude Coker 8-2 turnaround (planned start Aug 20 2026, about 50 days). Aug 2026 -29.8 kb/d (Aug 20-31, 12 of 31 days at the 77 kb/d rate), Sep 2026 -77.0 kb/d (full month), Oct 2026 -22.4 kb/d (Oct 1-9 tail, 9 of 31 days). Source: Suncor Q2 2026 management discussion and analysis (2026-08-04), Q1 2026 investor presentation. The paired mine dial-back (Aug -35.4, Sep -91.4, Oct -26.6 kb/d bitumen) is shown for context only and does not reduce the forecast (planned turnaround: the mine plan is set months ahead, so no redirect to other plants is assumed; zero heavy-market impact). The SCO market impact is the gross coker rate: Sep 2026 -77.0 kb/d.",
+     "why": "Syncrude Canada Ltd. facility. Actuals through 2026-06; Jul 2026, Aug 2026, Sep 2026 blank until AER publishes.  nowcast estimated. The forecast repeats this plant's own seasonality; the scaling only changes the level so the plant rows sum to the ST3 total. Maintenance at this plant: Syncrude Coker 8-2 turnaround (planned start Aug 20 2026, about 50 days). Aug 2026 -29.8 kb/d (Aug 20-31, 12 of 31 days at the 77 kb/d rate), Sep 2026 -77.0 kb/d (full month), Oct 2026 -22.4 kb/d (Oct 1-9 tail, 9 of 31 days). Source: Suncor Q2 2026 management discussion and analysis (2026-08-04), Q1 2026 investor presentation. The paired mine dial-back (Aug -35.4, Sep -91.4, Oct -26.6 kb/d bitumen) is booked at the mined plant row in this production view (the October tail, -26.6 kb/d, is a forecast deduction here); the tradable balance carries the dial-back as a memo under its market accounting (planned turnaround: the mine plan is set months ahead, so no redirect to other plants is assumed; zero heavy-market impact). The SCO market impact is the gross coker rate: Sep 2026 -77.0 kb/d.",
      "extra": "",
      "nowcast": "Coker 8-2 SCO impacts (Aug -29.8, Sep -77.0 kb/d) sit on this upgrader row, not carried separately."
     }
@@ -2741,7 +2741,7 @@
      "2026-07": 2307.1,
      "2026-08": 2281.6,
      "2026-09": 2340.1,
-     "2026-10": 2280.1,
+     "2026-10": 2135.9,
      "2026-11": 2295.2,
      "2026-12": 2334.4,
      "2027-01": 2249.3,
@@ -2785,7 +2785,7 @@
      "2026-07": 4409.3,
      "2026-08": 4303.0,
      "2026-09": 4053.7,
-     "2026-10": 4155.9,
+     "2026-10": 4011.7,
      "2026-11": 4416.3,
      "2026-12": 4453.1,
      "2027-01": 4262.8,
