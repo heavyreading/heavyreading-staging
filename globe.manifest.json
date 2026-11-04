@@ -2,13 +2,13 @@
  "page": "/globe.html",
  "title": "The Globe",
  "dek": "Heavy Reading's live globe for oil traders: AIS tanker tracking at Westridge and the discharge docks, Alberta storage from the model balance, the Hardisty cavern pond gauge, live satellite passes over the hubs, Sat Watch plant state, the pipeline network with flows, apportionment and filed tolls, refineries, freight arcs and PortWatch chokepoints.",
- "built_at": "2026-11-03",
+ "built_at": "2026-11-04",
  "generator": "heavyreading-manifest/1",
  "claims": [],
  "sources": [
   {
    "publisher": "aisstream.io (The Narrows collector)",
-   "vintage": "fix snapshot 2026-11-04T02:10:09.965944+00:00",
+   "vintage": "fix snapshot 2026-11-04T09:24:50.333240+00:00",
    "url": ""
   },
   {
