@@ -2,9 +2,21 @@
  "page": "/world/middle-east/",
  "title": "Middle East watch",
  "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
- "built_at": "2026-11-02",
+ "built_at": "2026-11-03",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Nov 3 that three oil tankers struck naval mines and caught fire in the early hours of Tuesday while navigating what it called unauthorized routes through the Strait of Hormuz, EuropeSays reported, citing a statement carried by the Tasnim News Agency. The IRGC said the tankers had switched off their navigation and identification systems, that the fires lit up the eastern section of the strait through the night, and that the vessels had been abandoned near the southern shores of the strait and remained engulfed in flames. The statement warned that ships disregarding Iranian navigation regulations and cooperating with the US military to cross unauthorized routes could face similar incidents, and it rejected US Central Command (CENTCOM) claims about conditions in the strait. The IRGC did not identify the tankers or provide details about their crews, casualties, or the extent of the damage, and there was no immediate independent confirmation of the reported incidents. The statement followed a separate Iranian Navy announcement on Nov 2 that an oil tanker had struck a naval mine and caught fire in an area described as prohibited and unsafe east of the Strait of Hormuz.",
+   "vintage": "Nov 3, 2026",
+   "source": "EuropeSays (citing Tasnim News Agency)",
+   "source_url": "https://www.europesays.com/3350212/"
+  },
+  {
+   "text": "Yemen's Houthi group said airstrikes struck Ras Isa port, a key oil terminal on the Red Sea coast in Hodeidah province, hitting a port berth and a commercial vessel docked there, Xinhua reported via New Kerala on Nov 2. Houthi-run al-Masirah TV reported the strikes on Sunday evening, Nov 1, local time, and attributed them to what the group described as Saudi aggression; the channel gave no immediate information on casualties or on the extent of damage to the port or the vessel, and later reported another airstrike on a telecommunications facility southeast of Saada city, also attributed to Saudi warplanes, with no casualties immediately reported. Houthi military spokesman Yahya Sarea said 75 air and missile strikes had hit eight provinces over the past 24 hours and claimed the attacks caused civilian casualties, figures that could not be independently verified. The Saudi-led coalition separately said on Nov 1 that it had intercepted and destroyed a drone and a ballistic missile launched by the Houthis toward the kingdom's southern region.",
+   "vintage": "Nov 1, 2026",
+   "source": "Xinhua (via New Kerala)",
+   "source_url": "https://www.newkerala.com/news/a/houthis-report-airstrikes-red-sea-oil-port-telecom-257.htm"
+  },
   {
    "text": "Two commercial vessels were struck in separate attacks across the Arabian Gulf on Nov 1, widening the maritime security threat beyond the Strait of Hormuz, ShipUniverse reported on Nov 2, citing United Kingdom Maritime Trade Operations (UKMTO) warnings 191-26 and 192-26. At 23:47 UTC on Nov 1, a tanker sailing southeast about 72 nautical miles east of Ras Al Khafji, Saudi Arabia, was hit by two unidentified projectiles on its port side; all crew were accounted for and no pollution was reported. Earlier, at 15:09 UTC, another vessel was struck in the Strait of Hormuz after a Mayday call was relayed by a passing merchant ship. Security firm Vanguard Tech identified that vessel as the Panama-flagged offshore tug SELAT STORM and reported it partially sinking, with the crew condition unconfirmed, and identified the northern Gulf tanker as LARGO ATOM; UKMTO has not confirmed either vessel identity, and no attacker or weapon type has been officially established for either incident.",
    "vintage": "Nov 1, 2026",
@@ -328,6 +340,12 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil prices rose more than $1 on Nov 3 as peace prospects dimmed after the United States struck Iran's Qeshm Island and a senior Iranian official said a deal to end the war was far off, Reuters reported. US West Texas Intermediate crude was up $1.60, or 1.66 percent, at $98.06 a barrel, while Brent crude futures rose $1.84, or 1.76 percent, to $106.61 a barrel by 0744 GMT. Both benchmarks had dropped more than 7 percent on Nov 2 as talks between Iranian and Qatari officials lifted hopes for an end to the US-Israeli war with Iran. A US official said on Nov 2 that the US had struck Qeshm Island, with some officials describing the assaults as defensive and aimed at preventing Iran from attacking commercial ships in the Strait of Hormuz. On Nov 3, a senior Iranian official told Reuters that both countries were far from reaching a deal to end the war and that Tehran would not accept Washington's excessive demands; parliament speaker Qalibaf said Tehran had given Washington a strong and rational response and that the ball is in the US court, according to state media. Brent ended October at its highest in six months on concern the conflict could escalate again after the US midterm elections.",
+   "vintage": "Nov 3, 2026",
+   "source": "Reuters (via WDSM)",
+   "source_url": "https://wdsm710.com/2026/11/02/oil-rises-after-report-of-us-strike-on-irans-qeshm-island/"
   },
   {
    "text": "Oil fell more than 4 percent on Nov 2 as talks between Iranian and Qatari officials on a deal to end the US-Israeli war on Iran raised hopes that Middle East supply disruptions could ease, Reuters reported. Brent crude futures fell $4.79, or 4.2 percent, to $108.64 a barrel by 1020 GMT, while US West Texas Intermediate crude traded at $99.71, down $4.41, or 4.2 percent. Brent had ended October at its highest in six months amid concern the conflict could escalate again after Tuesday's US midterm elections. An official briefed on the talks said Iranian negotiators have left talks with Qatari mediators and a draft proposal is being circulated, with a follow-up meeting possible; Foreign Minister Abbas Araghchi said on Nov 1 the talks were ongoing and progressing and Tehran was prepared for both defence and diplomacy. Reuters noted the talks follow a recent increase in attacks on oil tankers transiting the Strait of Hormuz, while Saudi Arabia increased crude exports in October versus September despite Houthi attacks on its energy infrastructure, two of three ship-tracking companies said. The chief executive of Abu Dhabi National Oil Company (ADNOC) said the world has drained nearly 1 billion barrels from inventories since the war disrupted Hormuz shipping. Goldman Sachs raised its oil price forecasts on Nov 1 and said Brent could jump to $140 in 2027 if Gulf oil output stays 3.5 million barrels per day below its 2025 average.",
@@ -1592,6 +1610,16 @@
  ],
  "sources": [
   {
+   "publisher": "EuropeSays (citing Tasnim News Agency)",
+   "vintage": "",
+   "url": "https://www.europesays.com/3350212/"
+  },
+  {
+   "publisher": "Xinhua (via New Kerala)",
+   "vintage": "",
+   "url": "https://www.newkerala.com/news/a/houthis-report-airstrikes-red-sea-oil-port-telecom-257.htm"
+  },
+  {
    "publisher": "ShipUniverse (citing UKMTO)",
    "vintage": "",
    "url": "https://www.shipuniverse.com/news/two-ships-struck-hours-apart-as-gulf-attacks-spread-beyond-hormuz-offshore-tug-reportedly-sinking/"
@@ -1855,6 +1883,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters (via WDSM)",
+   "vintage": "",
+   "url": "https://wdsm710.com/2026/11/02/oil-rises-after-report-of-us-strike-on-irans-qeshm-island/"
   },
   {
    "publisher": "Reuters (via Kitco News)",
