@@ -2,9 +2,27 @@
  "page": "/world/middle-east/",
  "title": "Middle East watch",
  "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
- "built_at": "2026-11-04",
+ "built_at": "2026-11-05",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) said on Nov 5 that two oil tankers and a tugboat had caught fire in separate incidents after attempting to use unauthorised routes through the Strait of Hormuz, Reuters reported. One tanker struck a mine while attempting to cross a passage south of the strait, while another supertanker caught fire while exiting the route in the eastern part of the waterway, the IRGC said. A tugboat that approached the second vessel to help extinguish the fire also caught fire. The IRGC gave no vessel names, flags or crew details, and the claim had not been independently verified.",
+   "vintage": "Nov 5, 2026",
+   "source": "Reuters (via 98.5 The River)",
+   "source_url": "https://985theriver.com/2026/11/04/irans-irgc-says-two-tankers-and-tugboat-caught-fire-in-strait-of-hormuz/"
+  },
+  {
+   "text": "United Kingdom Maritime Trade Operations (UKMTO) Warning 196-26 said a tanker was struck by two unidentified projectiles at 2320 UTC on Nov 4, about 50 nautical miles north of Madinat ash Shamal, Qatar, US News Pulse reported on Nov 5, citing the warning. UKMTO said the status of the crew, the damage assessment and any environmental impact were unconfirmed at the time of the warning, and advised vessels to transit with caution and report any suspicious activity while authorities investigate. UKMTO did not name the tanker or its flag, and no group has claimed the attack and no government has publicly attributed it. The incident is separate from the Nov 3 engine room strike northeast of Limah, Oman, and from the Oct 30 hit on the Qatari liquefied natural gas (LNG) carrier Al Mayeda.",
+   "vintage": "Nov 4, 2026",
+   "source": "US News Pulse (citing UKMTO)",
+   "source_url": "https://usnewspulse.com/world/tanker-struck-north-of-qatar-in-two-projectile-attack-as-gulf-shipping-raids-continue"
+  },
+  {
+   "text": "Oil edged up on Nov 5 after a fall of more than 8 percent in the previous session, as investors weighed the future course of the US-Israeli war with Iran after President Donald Trump's Republican Party suffered heavy losses in the US midterm elections, Reuters reported. Brent crude futures were up 78 cents, or 0.8 percent, at $95.40 a barrel as of 0900 GMT on Nov 5, while US West Texas Intermediate (WTI) crude futures rose 11 cents, or 0.1 percent, to $88.23; both benchmarks had tumbled in the previous session to settle at their lowest since Aug 31. Sparta Commodities senior oil analyst June Goh said markets are pricing in more likelihood for the war to end, while Eurasia Group lowered its estimate for the chance of renewed US strikes on Iran to 60 percent from 65 percent, cut the probability of a deal to 10 percent from 20 percent, and raised the likelihood of a continued standoff to 30 percent from 15 percent; Eurasia said escalation is likely to produce a sharper increase into a band of $110 to $125 a barrel for Brent. JPMorgan said the resumption of Gulf supply has pushed the global oil market back into surplus, estimating a surplus of 1.1 million barrels per day in September widening to 1.4 million barrels per day in October, and analysts cited by Reuters said crude shipments through the Strait of Hormuz have recovered to close to pre-war levels, though at a higher cost.",
+   "vintage": "Nov 5, 2026",
+   "source": "Reuters (via MyMixFM)",
+   "source_url": "https://mymixfm.com/2026/11/04/oil-falls-for-a-fourth-day-on-expectations-for-lower-risk-of-iran-war-escalation/"
+  },
   {
    "text": "Iran's Revolutionary Guard said on Nov 4 that four oil tankers were destroyed after striking naval mines while trying to traverse a route described as prohibited south of the Strait of Hormuz, Reuters reported. In a statement, the Guard said the tankers were still ablaze and that two other vessels had been seized. The statement gave no vessel names, flags, owners or crew details, and the claim had not been independently verified. The claim is the latest in a series of Iranian mine claims through October and early November, several of which maritime authorities found no substantiation for.",
    "vintage": "Nov 4, 2026",
@@ -1639,6 +1657,21 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "Reuters (via 98.5 The River)",
+   "vintage": "",
+   "url": "https://985theriver.com/2026/11/04/irans-irgc-says-two-tankers-and-tugboat-caught-fire-in-strait-of-hormuz/"
+  },
+  {
+   "publisher": "US News Pulse (citing UKMTO)",
+   "vintage": "",
+   "url": "https://usnewspulse.com/world/tanker-struck-north-of-qatar-in-two-projectile-attack-as-gulf-shipping-raids-continue"
+  },
+  {
+   "publisher": "Reuters (via MyMixFM)",
+   "vintage": "",
+   "url": "https://mymixfm.com/2026/11/04/oil-falls-for-a-fourth-day-on-expectations-for-lower-risk-of-iran-war-escalation/"
+  },
   {
    "publisher": "Reuters (via 98.5 The River)",
    "vintage": "",

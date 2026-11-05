@@ -2,9 +2,15 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-11-04",
+ "built_at": "2026-11-05",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Russia's government has extended a general ban on diesel exports by producers until the end of January 2027 while still allowing some volumes to flow to the global market, Bloomberg reported on Oct 31 via gCaptain. The decision was taken to maintain stability in the domestic fuel market, according to a government statement announcing the signing of the relevant decree, which Bloomberg said had not yet been published. Deputy Prime Minister Alexander Novak said on Oct 30 that alongside the extension the government is preparing exemptions for certain suppliers to ship diesel to global markets, with similar exemptions introduced in October and planned for November. In November, Russia plans to export about 2.15 million tons of diesel after shipping about 510,000 tons in October, according to Novak, who said later that regular attacks on the nation's refineries by Ukraine may lead to a reduction in export volumes but that it would not be significant. As of late October, a total of four tankers had departed Baltic ports with Russian diesel, according to Novak.",
+   "vintage": "Oct 31, 2026",
+   "source": "Bloomberg (via gCaptain)",
+   "source_url": "https://gcaptain.com/russia-extends-ban-on-most-diesel-exports-through-january/"
+  },
   {
    "text": "Kazakhstan resumed oil shipments through the Atyrau-Samara pipeline on Nov 3, a day after a drone attack on the Samara Production and Dispatch Centre in Russia forced pumping to stop, the Times of Central Asia reported. Oil transportation stopped at 6:09 a.m. Astana time on Nov 2; Kazakhstan Energy Ministry spokesperson Assel Serikpayeva said that as of Nov 3 transportation through the Atyrau-Samara trunk pipeline is operating normally, after pumping resumed following a technical inspection, and the ministry reported no injuries. Atyrau-Samara is Kazakhstan's second-largest oil export route by volume, after the Caspian Pipeline Consortium (CPC), connecting western Kazakhstan to Russia's Transneft network for onward delivery to international markets; Kazakhstan exported about 9.2 million metric tons through the route in 2025, and shipments totalled 7.573 million metric tons in the first nine months of 2026, according to KazTransOil data. The Samara hub had already come under attack, with Ukraine's General Staff saying its forces struck the pumping complex on Oct 2.",
    "vintage": "Nov 3, 2026",
@@ -262,6 +268,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Ukrainian drones struck the Ryazan refinery overnight into Nov 5, the fifth hit on Russian oil refining in seven days, the Baltic Security Monitor reported on Nov 5. Ryazan governor Pavel Malkov said more than 200 drones targeted the region; debris damaged power lines, cutting electricity to parts of the city, fires broke out at industrial sites and one person was injured. Russian media reported a blaze at the Ryazan refinery, and the independent outlet Astra reported a strike on a large Wildberries logistics centre. The governor did not name the facilities hit, and neither Rosneft nor Wildberries has commented. The Ryazan refinery belongs to Rosneft, processes more than 17 million tonnes of crude a year, and supplies petrol, diesel and jet fuel to Moscow and central Russia; one of its primary crude units was shut down after a strike on Oct 15. Russia's Defence Ministry said it downed 496 Ukrainian drones over 13 regions, Crimea and the Black and Azov Seas, a figure the monitor said has not been independently verified. The monitor's week in sequence is Novokuibyshevsk on Oct 30, Ufa on Oct 31, Kstovo overnight into Nov 1, Yaroslavl on Nov 3 and Ryazan on Nov 5, and it cautioned that without satellite imagery or operator data the scale of damage at Ryazan cannot be assessed.",
+   "vintage": "Nov 5, 2026",
+   "source": "Baltic Security Monitor",
+   "source_url": "https://osint-baltic.com/five-refineries-italy-package-en/"
   },
   {
    "text": "Follow-up on Nov 4: the Baltic Security Monitor, in its Nov 4 security watch, said the independent channel Astra counted at least seven fire sites at the Slavneft-YANOS refinery in Yaroslavl after the overnight strike into Nov 3, and that Governor Mikhail Yevrayev confirmed damage to plant infrastructure and two injured workers, while claiming 124 drones shot down, a figure the monitor said is unverified. The monitor said Russia's Defence Ministry claimed 709 Ukrainian drones intercepted overnight, also without independent confirmation; that total differs from the 856 figure carried in Reuters reporting of the same night, and neither total is independently confirmed. The YANOS strike is confirmed by Russian regional authorities, the monitor said; production losses have not been established, and measured refining impact and satellite imagery are the next checks. YANOS is Russia's fifth-largest refinery, with capacity of up to 15 million tonnes of crude a year, about 250 kilometres from Moscow.",
@@ -542,6 +554,11 @@
  ],
  "sources": [
   {
+   "publisher": "Bloomberg (via gCaptain)",
+   "vintage": "",
+   "url": "https://gcaptain.com/russia-extends-ban-on-most-diesel-exports-through-january/"
+  },
+  {
    "publisher": "The Times of Central Asia",
    "vintage": "",
    "url": "https://timesca.com/kazakhstan-resumes-oil-exports-through-russian-pipeline-after-drone-attack/"
@@ -755,6 +772,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Baltic Security Monitor",
+   "vintage": "",
+   "url": "https://osint-baltic.com/five-refineries-italy-package-en/"
   },
   {
    "publisher": "Reuters (via Froggy 99.9 KVOX)",

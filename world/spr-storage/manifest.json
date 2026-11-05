@@ -2,9 +2,15 @@
  "page": "/world/spr-storage/",
  "title": "US SPR & Storage Watch",
  "dek": "US Strategic Petroleum Reserve (SPR) and commercial crude stocks, SPR inventory, the 2026 exchange/refill mechanics, and Cushing.",
- "built_at": "2026-11-04",
+ "built_at": "2026-11-05",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Status check on Nov 5: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE newsroom search checked directly on Nov 5 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels; the next SPR item below it is dated Oct 23. No SPR press release dated Oct 30, Oct 31, Nov 1, Nov 2, Nov 3, Nov 4 or Nov 5 appears. The official Energy Information Administration (EIA) Weekly Petroleum Status Report for the week ending Oct 30 was published on Nov 4 and put the reserve at 282.2 million barrels, down 399,000 barrels on the week; that EIA figure is reported in the stocks section of this page. Deliveries under the Oct 29 awards are scheduled from the Big Hill and Bryan Mound storage sites, with returns of more than 216 million barrels, including 44 million premium barrels, secured by DOE to begin early next year.",
+   "vintage": "Nov 5, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
+  },
   {
    "text": "Status check on Nov 4: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE newsroom search checked directly on Nov 4 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels; the next SPR item below it is dated Oct 23. No SPR press release dated Oct 30, Oct 31, Nov 1, Nov 2, Nov 3 or Nov 4 appears, and the SPR exchange solicitation pages returned no new award listing on this check. The official Energy Information Administration (EIA) Weekly Petroleum Status Report for the week ending Oct 30 is due at 10:30 a.m. Eastern Time on Nov 4, after this check; the last published EIA figure put the reserve at 282.6 million barrels in the week ending Oct 23, 2026. Deliveries under the Oct 29 awards are scheduled from the Big Hill and Bryan Mound storage sites, with returns of more than 216 million barrels, including 44 million premium barrels, secured by DOE to begin early next year.",
    "vintage": "Nov 4, 2026",
@@ -196,6 +202,12 @@
    "vintage": "Reported Sep 11, 2026; accessed 2026-09-28",
    "source": "Reuters (via Permian Basin Oil and Gas Magazine); US Department of Energy (energy.gov)",
    "source_url": "https://pboilandgasmagazine.com/oil-in-strategic-petroleum-reserve-falls-to-lowest-level-in-more-than-40-years/"
+  },
+  {
+   "text": "US crude oil inventories fell for a fifth consecutive week while distillate stocks fell to their lowest level in more than two decades, the US Energy Information Administration (EIA) said on Nov 4, Dow Jones Newswires reported via Morningstar. Commercial crude oil stocks excluding the Strategic Petroleum Reserve (SPR) fell by 865,000 barrels to 409.8 million barrels in the week ended Oct 30 and were 4 percent below the five-year average for the time of year; crude stocks had been expected to slip by 200,000 barrels in a Wall Street Journal survey of analysts. Oil stored in the SPR fell by 399,000 barrels to 282.2 million barrels. Crude stocks at Cushing, Oklahoma, the New York Mercantile Exchange (Nymex) delivery hub, increased by 280,000 barrels to 27.3 million barrels. Gasoline inventories declined by 222,000 barrels to 209 million barrels and were 2 percent below the five-year average, while distillate fuel stocks fell by 3.6 million barrels to 99.3 million barrels, their lowest level since May 2003 and 13 percent below the five-year average, against an expected fall of 1 million barrels. Refinery capacity use rose to 94.5 percent from 92.8 percent the week before, with crude input to refineries up by 199,000 barrels a day to 16.7 million barrels a day. The EIA estimated US crude oil production at 14 million barrels a day, up by 11,000 barrels a day from the previous week; crude imports held steady at 6.4 million barrels a day, while exports fell by 1.2 million barrels a day to 3.7 million barrels a day.",
+   "vintage": "Nov 4, 2026",
+   "source": "Dow Jones Newswires (via Morningstar, citing EIA)",
+   "source_url": "https://www.morningstar.com/news/dow-jones/2026110410540/us-crude-oil-stockpiles-post-fifth-straight-weekly-drop"
   },
   {
    "text": "The American Petroleum Institute (API) estimated on Nov 3 that US crude oil inventories fell by 5.267 million barrels in the week ending Oct 30, after a 2.031-million-barrel fall in the prior week, OilPrice.com reported. Gasoline inventories rose by 1.427 million barrels, after rising by 2.39 million barrels the prior week, and distillate inventories fell by 270,000 barrels, after gaining 380,000 barrels the prior week, with distillate stocks already 10 percent below the five-year average heading into the period on the latest Energy Information Administration (EIA) data. Cushing inventories gained 511,000 barrels, after losing 453,000 barrels the previous week. Commercial crude inventories excluding the Strategic Petroleum Reserve (SPR) have lost more than 64 million barrels over the last 29 weeks on API data. For the week ending Oct 30, 400,000 barrels of crude left the SPR, bringing the reserve down to 282.2 million barrels, 432 million barrels below maximum capacity, API data reported by OilPrice.com said. Market sources cited by Reuters on Nov 4 put the same API crude draw at 5.27 million barrels against a Reuters poll expectation for a rise of about 880,000 barrels, and put the distillate change at a fall of 1.19 million barrels, a different product figure from the OilPrice.com report of the API release; the official EIA report for the week is due Nov 4.",
@@ -595,6 +607,11 @@
    "publisher": "Reuters (via Permian Basin Oil and Gas Magazine); US Department of Energy (energy.gov)",
    "vintage": "",
    "url": "https://pboilandgasmagazine.com/oil-in-strategic-petroleum-reserve-falls-to-lowest-level-in-more-than-40-years/"
+  },
+  {
+   "publisher": "Dow Jones Newswires (via Morningstar, citing EIA)",
+   "vintage": "",
+   "url": "https://www.morningstar.com/news/dow-jones/2026110410540/us-crude-oil-stockpiles-post-fifth-straight-weekly-drop"
   },
   {
    "publisher": "OilPrice.com (citing API)",

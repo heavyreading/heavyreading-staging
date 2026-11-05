@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-11-04T13:07:07-06:00",
+ "built_at": "2026-11-05T08:51:52-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -2702,20 +2702,16 @@
    "source": "U.S. Energy Information Administration",
    "pull": "wcsb-weekly-pull-wednesday (bin/pull_eia_wpsr.py)",
    "cadence": "weekly",
-   "vintage": "EIA Weekly Petroleum Status Report. Data through October 23, 2026.",
+   "vintage": "EIA Weekly Petroleum Status Report. Data through October 30, 2026.",
    "stats": {
-    "level": 410.625,
-    "seasonal_mean": 443.4978333333333,
-    "z": -1.4259083652134974,
+    "level": 409.76,
+    "seasonal_mean": 446.2917,
+    "z": -1.575727798564549,
     "seasonal_pct": 32.0,
-    "date": "2026-10-23"
+    "date": "2026-10-30"
    },
-   "narrative_text": "U.S. crude oil inventories stand at 410.6 million barrels, 32.9 million barrels (7.4 percent) below the ten-year seasonal average, a gap of 1.4 standard deviations, and in the 32nd percentile of readings for this part of the year since 2010. Stocks drew 1.9 million barrels on the week. Crude is the master stock: sustained draws against the seasonal average are the tightening signal the whole complex prices off, and the level behind every prompt spread. Two or three weekly builds back toward the average would retire the tightening read.",
+   "narrative_text": "U.S. crude oil inventories stand at 409.8 million barrels, 36.5 million barrels (8.2 percent) below the ten-year seasonal average, a gap of 1.6 standard deviations, and in the 32nd percentile of readings for this part of the year since 2010. Stocks drew 0.9 million barrels on the week. Crude is the master stock: sustained draws against the seasonal average are the tightening signal the whole complex prices off, and the level behind every prompt spread. Two or three weekly builds back toward the average would retire the tightening read.",
    "points": [
-    [
-     "2021-10-29",
-     434.102
-    ],
     [
      "2021-11-05",
      435.104
@@ -3755,6 +3751,10 @@
     [
      "2026-10-23",
      410.625
+    ],
+    [
+     "2026-10-30",
+     409.76
     ]
    ]
   },
@@ -3766,20 +3766,16 @@
    "source": "U.S. Energy Information Administration",
    "pull": "wcsb-weekly-pull-wednesday (bin/pull_eia_wpsr.py)",
    "cadence": "weekly",
-   "vintage": "EIA Weekly Petroleum Status Report. Data through October 23, 2026.",
+   "vintage": "EIA Weekly Petroleum Status Report. Data through October 30, 2026.",
    "stats": {
-    "level": 26.97,
-    "seasonal_mean": 38.466766666666665,
-    "z": -0.699314395692573,
-    "seasonal_pct": 32.0,
-    "date": "2026-10-23"
+    "level": 27.25,
+    "seasonal_mean": 38.84023333333333,
+    "z": -0.7125238066688996,
+    "seasonal_pct": 38.0,
+    "date": "2026-10-30"
    },
-   "narrative_text": "Cushing inventories stand at 27.0 million barrels, 11.5 million barrels (29.9 percent) below the ten-year seasonal average, a gap of 0.7 standard deviations, and in the 32nd percentile of readings for this part of the year since 2010. Stocks drew 0.6 million barrels on the week. Cushing, Oklahoma is the WTI delivery point: its level against the seasonal average is the prompt WTI spread story in one number, and it caps how bearish the outright can trade. A rebuild toward the seasonal average would ease the prompt tightness a low reading implies.",
+   "narrative_text": "Cushing inventories stand at 27.2 million barrels, 11.6 million barrels (29.8 percent) below the ten-year seasonal average, a gap of 0.7 standard deviations, and in the 38th percentile of readings for this part of the year since 2010. Stocks built 0.3 million barrels on the week. Cushing, Oklahoma is the WTI delivery point: its level against the seasonal average is the prompt WTI spread story in one number, and it caps how bearish the outright can trade. A rebuild toward the seasonal average would ease the prompt tightness a low reading implies.",
    "points": [
-    [
-     "2021-10-29",
-     26.416
-    ],
     [
      "2021-11-05",
      26.382
@@ -4819,6 +4815,10 @@
     [
      "2026-10-23",
      26.97
+    ],
+    [
+     "2026-10-30",
+     27.25
     ]
    ]
   },
@@ -8022,14 +8022,14 @@
    "source": "Exchange futures (via crack_321 daily file)",
    "pull": "crude-oil-morning-digest (src/ingest/build_crack_321.py)",
    "cadence": "daily",
-   "vintage": "Exchange front-month futures, via the daily crack file. Data through November 04, 2026.",
+   "vintage": "Exchange front-month futures, via the daily crack file. Data through November 05, 2026.",
    "stats": {
-    "level": 96.5,
-    "percentile_since_2020": 91.869918699187,
-    "chg_30d": 7.069999999999993,
-    "date": "2026-11-04"
+    "level": 88.04,
+    "percentile_since_2020": 83.11085316308764,
+    "chg_30d": -1.3999999999999915,
+    "date": "2026-11-05"
    },
-   "narrative_text": "WTI front month closed at $96.50 on November 04, 2026, in the 92nd percentile of daily closes since 2020 and +7.07 dollars over the last thirty days. The outright is context rather than the trade: the differentials and calendar spreads this site follows are struck off this level, and its trend sets the tone they trade in. A sustained break of the recent range, either way, would reset that context.",
+   "narrative_text": "WTI front month closed at $88.04 on November 05, 2026, in the 83rd percentile of daily closes since 2020 and -1.40 dollars over the last thirty days. The outright is context rather than the trade: the differentials and calendar spreads this site follows are struck off this level, and its trend sets the tone they trade in. A sustained break of the recent range, either way, would reset that context.",
    "points": [
     [
      "2023-11-06",
@@ -9540,8 +9540,8 @@
      96.09
     ],
     [
-     "2026-11-04",
-     96.5
+     "2026-11-05",
+     88.04
     ]
    ]
   },
@@ -9559,10 +9559,10 @@
     "percentile_since_2021": 73.35398915569326,
     "date": "2026-08-31",
     "tmw_tenor": "2026-12",
-    "tmw_settle": -31.2526,
-    "tmw_settle_date": "2026-11-03"
+    "tmw_settle": -31.0831,
+    "tmw_settle_date": "2026-11-04"
    },
-   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$31.25 on November 03, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
+   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$31.08 on November 04, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
    "points": [
     [
      "2021-08-02",
@@ -10870,15 +10870,15 @@
    "source": "Exchange futures (computed)",
    "pull": "crude-oil-morning-digest (src/ingest/build_crack_321.py)",
    "cadence": "daily",
-   "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through November 04, 2026.",
+   "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through November 05, 2026.",
    "stats": {
-    "level": 48.337,
-    "percentile_since_2020": 89.02439024390245,
+    "level": 47.459,
+    "percentile_since_2020": 88.50841555426581,
     "series_high": 75.311,
     "series_high_date": "2026-08-28",
-    "date": "2026-11-04"
+    "date": "2026-11-05"
    },
-   "narrative_text": "The 3-2-1 crack spread printed $48.34 a barrel on November 04, 2026, in the 89th percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
+   "narrative_text": "The 3-2-1 crack spread printed $47.46 a barrel on November 05, 2026, in the 89th percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
    "points": [
     [
      "2023-11-06",
@@ -12389,8 +12389,8 @@
      49.5324
     ],
     [
-     "2026-11-04",
-     48.337
+     "2026-11-05",
+     47.459
     ]
    ]
   },
