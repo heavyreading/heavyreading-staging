@@ -1,7 +1,7 @@
 {
  "title": "WCSB micro-balance",
  "built": "2026-11-04",
- "dashboard_built": "2026-11-05",
+ "dashboard_built": "2026-11-06",
  "default_month": "2026-11",
  "months": [
   "2026-10",
@@ -21,37 +21,37 @@
   "2027-12"
  ],
  "prices": {
-  "asof": "Nov 5, 2026 11:06 AM MDT",
-  "settle_date": "2026-11-04",
+  "asof": "Nov 6, 2026 3:22 AM MDT",
+  "settle_date": "2026-11-05",
   "rows": [
    {
     "label": "WTI, Dec 26",
-    "value": 90.13,
+    "value": 89.85,
     "basis": "intraday quote"
    },
    {
     "label": "Brent, Jan 27",
-    "value": 96.85,
+    "value": 97.64,
     "basis": "intraday quote"
    },
    {
     "label": "WCS Hardisty diff (TMW), Dec 26",
-    "value": -31.0831,
+    "value": -30.1467,
     "basis": "ICE end-of-day settle"
    },
    {
     "label": "WCS Hardisty diff (TMW), Jan 27",
-    "value": -26.6,
+    "value": -25.0,
     "basis": "ICE end-of-day settle"
    },
    {
     "label": "WCS Houston diff (ARV), Dec 26",
-    "value": -21.225,
+    "value": -20.271,
     "basis": "ICE end-of-day settle"
    },
    {
     "label": "Synthetic diff (TMS), Dec 26",
-    "value": 7.6941,
+    "value": 8.2019,
     "basis": "ICE end-of-day settle"
    }
   ]
