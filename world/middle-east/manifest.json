@@ -6,6 +6,24 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) navy said on Nov 6 that two more oil tankers caught fire after hitting naval mines while trying to exit the Strait of Hormuz through what it called an unauthorised route, IANS reported, citing a statement on the IRGC's Sepah News outlet carried by Xinhua. The IRGC said both vessels had turned off their navigation and identification systems and were transiting with United States military support, and it stressed that the strait remains closed unless the United States meets Iran's seven conditions. The statement named no vessels, flags, owners or casualties, and the claim had not been independently verified. It follows the IRGC's Nov 5 claims, which Iranian statements expanded during that day from two tankers and a tugboat to five tankers and a tugboat in total.",
+   "vintage": "Nov 6, 2026",
+   "source": "IANS (via asiaPOST, citing Xinhua)",
+   "source_url": "https://asiapost.in/two-oil-tankers-caught-fire-while-seeking-to-cross-unauthorised-route-of-hormuz-irgc/"
+  },
+  {
+   "text": "The tanker struck by two unidentified projectiles about 50 nautical miles north of Madinat ash Shamal, Qatar, at 2320 UTC on Nov 4 has been identified as the Marshall Islands-flagged, 74,998-dwt product tanker Velos Sapphire, Seatrade Maritime News reported on Nov 6. Maritime security firm Vanguard Tech said the impact caused an explosion on the vessel's aft port side and a fire on board that was later extinguished; one crew member was reported killed, a fatality Vanguard said was yet to be confirmed, while the International Maritime Organization (IMO) listed a seafarer as missing in its register of confirmed attacks in the region. In a separate incident on Nov 5, the Vanuatu-flagged very large crude carrier (VLCC) Vieira, on an outbound transit about 16 nautical miles east of Khasab, Oman, reported an explosion at the waterline on its port side; the vessel remained under its own power and continued its voyage, Vanguard said via Seatrade. Seatrade counted seven vessels reported attacked in the region since the start of November, only two of them crude tankers, and said the Joint Maritime Information Center (JMIC) kept its Arabian Gulf threat level at Substantial and its Hormuz threat level at Severe in its Nov 5 update.",
+   "vintage": "Nov 5, 2026",
+   "source": "Seatrade Maritime News",
+   "source_url": "https://www.seatrade-maritime.com/security/seafarer-fatality-reported-tanker-attack-in-the-gulf"
+  },
+  {
+   "text": "Joint Maritime Information Center (JMIC) Update 111, dated Nov 5, recorded four attacks on shipping in the Strait of Hormuz in a 96-hour period, up from three in the previous reporting period, World Pulse Wire reported on Nov 6, citing the update and United Kingdom Maritime Trade Operations (UKMTO). All four attacks happened between Nov 1 and Nov 3 off Oman's Musandam coast. The update said Iran's Revolutionary Guard kept up drone overflights, targeted surveillance and radio warnings to merchant ships, and none of the four attacks has been tied publicly to a named attacker. Traffic through the strait stayed far below normal, with United States-assisted transits down to about 31 a day.",
+   "vintage": "Nov 5, 2026",
+   "source": "World Pulse Wire (citing JMIC and UKMTO)",
+   "source_url": "https://worldpulsewire.com/2026/11/06/hormuz-attacks-surge-shipping-thins-out/"
+  },
+  {
    "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) said on Nov 5 that two oil tankers and a tugboat had caught fire in separate incidents after attempting to use unauthorised routes through the Strait of Hormuz, Reuters reported. One tanker struck a mine while attempting to cross a passage south of the strait, while another supertanker caught fire while exiting the route in the eastern part of the waterway, the IRGC said. A tugboat that approached the second vessel to help extinguish the fire also caught fire. The IRGC gave no vessel names, flags or crew details, and the claim had not been independently verified.",
    "vintage": "Nov 5, 2026",
    "source": "Reuters (via 98.5 The River)",
@@ -376,6 +394,12 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil prices rose for a second day on Nov 6 but stayed on track for a sharp weekly fall, Reuters reported. Brent crude futures for January rose $1.57, or 1.6 percent, to $99.86 a barrel and US West Texas Intermediate (WTI) futures climbed $1.10, or 1.22 percent, to $91.62 a barrel as of 0222 GMT on Friday. Brent was on track to drop about 12 percent on the week and WTI about 12.1 percent, after both plunged earlier in the week on expectations that the Democratic sweep of the US midterm elections, which took the Senate and the House of Representatives from President Donald Trump's Republicans, could lead to a de-escalation of the US-Israeli war against Iran; prices fell 8 percent on Wednesday alone, settling at two-month lows. Prices then rebounded on the surge in tanker attacks on Wednesday and Thursday in the Gulf and the Strait of Hormuz. ANZ senior commodity strategist Daniel Hynes said traders viewed Wednesday's selloff as overdone, that Iran maintains control of the Strait of Hormuz and is unlikely to relinquish it, and that overall flows through the strait are under 60 percent of capacity. Reuters also reported that Iran said on Thursday that three more tankers had been attacked in the strait, and that data from the UK maritime security agency UKMTO suggested attacks on tankers are still running at close to record pace.",
+   "vintage": "Nov 6, 2026",
+   "source": "Reuters (via KSEV Radio, SRN News)",
+   "source_url": "https://ksevradio.com/oil-set-for-sharp-weekly-drop-but-middle-east-supply-concerns-provide-floor/"
   },
   {
    "text": "Gulf oil exports dipped in October from September levels that were the highest since the Iran war started, data from two ship-tracking companies showed, Reuters reported on Nov 3. Flows of crude, condensate and refined products, excluding liquefied petroleum gas (LPG), averaged 17.1 million barrels per day (b/d) in October, according to Vortexa, down from 18.9 million b/d in September and still roughly three quarters of pre-war levels. Crude and condensate exports averaged 14.0 million b/d, about 86 percent of pre-war levels, while refined product exports averaged 3.1 million b/d, just over half of normal volumes. Kpler put crude and condensate flows through the Strait of Hormuz, the Red Sea and the Gulf of Oman at about 16.1 million b/d in October, down from 17.09 million b/d in September. Both trackers said the October figures could be revised upwards, because many shuttle tankers switch off tracking signals as a safety measure as attacks around Hormuz reached a record in October, and both figures exclude Iran, which is not exporting due to the US blockade. Saudi Arabia's exports were steady against September, while the United Arab Emirates recorded the largest decline, and Iraq, Oman and Kuwait all exported less.",
@@ -1658,6 +1682,21 @@
  ],
  "sources": [
   {
+   "publisher": "IANS (via asiaPOST, citing Xinhua)",
+   "vintage": "",
+   "url": "https://asiapost.in/two-oil-tankers-caught-fire-while-seeking-to-cross-unauthorised-route-of-hormuz-irgc/"
+  },
+  {
+   "publisher": "Seatrade Maritime News",
+   "vintage": "",
+   "url": "https://www.seatrade-maritime.com/security/seafarer-fatality-reported-tanker-attack-in-the-gulf"
+  },
+  {
+   "publisher": "World Pulse Wire (citing JMIC and UKMTO)",
+   "vintage": "",
+   "url": "https://worldpulsewire.com/2026/11/06/hormuz-attacks-surge-shipping-thins-out/"
+  },
+  {
    "publisher": "Reuters (via 98.5 The River)",
    "vintage": "",
    "url": "https://985theriver.com/2026/11/04/irans-irgc-says-two-tankers-and-tugboat-caught-fire-in-strait-of-hormuz/"
@@ -1961,6 +2000,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters (via KSEV Radio, SRN News)",
+   "vintage": "",
+   "url": "https://ksevradio.com/oil-set-for-sharp-weekly-drop-but-middle-east-supply-concerns-provide-floor/"
   },
   {
    "publisher": "Reuters (via Global Banking & Finance)",

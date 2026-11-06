@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "At least six Russian diesel cargoes have broadcast that they plan transatlantic voyages to the United States under Moscow's October diesel export deal with Washington, shipping data from Kpler and LSEG showed, Reuters reported on Nov 5, while two cargoes appeared to have changed course after previously being bound for the US Atlantic coast. No Russian diesel cargo has arrived in the United States since the deal, and the first observed US-bound shipment is expected to arrive in New York this weekend, but regulatory, legislative and sanctions concerns mean its discharge is not guaranteed, Kpler analyst Matt Smith told Reuters. Kremlin spokesman Dmitry Peskov said the cargoes are commercial loadings whose details cannot be made public and denied any connection between tankers changing course and the US midterm election result, which President Donald Trump's Republican Party lost; Kremlin envoy Kirill Dmitriev said Russian diesel cargoes destined for the US are continuing on course. Asked late on Thursday about a 2022 US law that could make a Russian diesel cargo illegal to land, Trump said he would take a look at it.",
+   "vintage": "Nov 5, 2026",
+   "source": "Reuters (via SRN News)",
+   "source_url": "https://srnnews.com/renewed-refinery-attacks-deplete-russian-diesel-supply-as-us-deal-in-focus/"
+  },
+  {
    "text": "Russia's government has extended a general ban on diesel exports by producers until the end of January 2027 while still allowing some volumes to flow to the global market, Bloomberg reported on Oct 31 via gCaptain. The decision was taken to maintain stability in the domestic fuel market, according to a government statement announcing the signing of the relevant decree, which Bloomberg said had not yet been published. Deputy Prime Minister Alexander Novak said on Oct 30 that alongside the extension the government is preparing exemptions for certain suppliers to ship diesel to global markets, with similar exemptions introduced in October and planned for November. In November, Russia plans to export about 2.15 million tons of diesel after shipping about 510,000 tons in October, according to Novak, who said later that regular attacks on the nation's refineries by Ukraine may lead to a reduction in export volumes but that it would not be significant. As of late October, a total of four tankers had departed Baltic ports with Russian diesel, according to Novak.",
    "vintage": "Oct 31, 2026",
    "source": "Bloomberg (via gCaptain)",
@@ -268,6 +274,18 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Ukrainian drones struck the Afipsky oil refinery in Russia's Krasnodar Krai overnight into Nov 6, EuropeSays reported, republishing Kyiv Post reporting. Air raid sirens sounded across Krasnodar Krai shortly after 1 a.m. local time and residents reported loud explosions; the Krasnodar airport temporarily restricted arrivals and departures. The Krasnodar Krai operational headquarters confirmed a fire broke out at an enterprise in the settlement of Afipsk after falling drone debris, with no casualties, but did not identify the facility; the independent outlet Astra reported its open-source analyst had established from eyewitness photographs that the refinery's reservoir park was on fire, and the monitoring channels Exilenova+ and Exile+ reported a fire with the Afipsky refinery in the background. Krasnodar Krai Governor Veniamin Kondratyev had not officially confirmed an attack on the refinery, Kyiv Post could not independently verify the reports, and Russia's defence ministry said air defences intercepted and destroyed 142 Ukrainian drones overnight over nine regions and the Black and Azov seas. A Reuters wire item the same day reported a fire at an industrial facility in Afipsky following a drone attack, citing the local emergency service, and noted the town hosts the Afipsky refinery. The plant is one of the largest in southern Russia, with annual crude-processing capacity of about 7.2 million tonnes, producing gasoline, diesel, gas condensate distillates, heavy oil residues and sulfur; the extent of any damage has not been established.",
+   "vintage": "Nov 6, 2026",
+   "source": "EuropeSays (Kyiv Post)",
+   "source_url": "https://www.europesays.com/russia/85646/"
+  },
+  {
+   "text": "Reuters video analysis indicated the Ryazan oil refinery, one of Russia's largest, came under attack as part of a large drone strike overnight into Nov 5 on industrial sites in the city southeast of Moscow, Reuters reported on Nov 5. If confirmed, Ryazan would be the second refinery hit this week, after the Yaroslavl plant northeast of Moscow overnight into Nov 3, marking the breakdown of a pause in strikes. Ryazan's governor said the city had restored power by Thursday as fires at the unnamed industrial sites were contained or put out. Reuters said Ukraine's strikes on oil refineries this year forced large amounts of processing capacity in western Russia offline and caused fuel shortages that led Moscow to enforce fuel export bans from April onwards; a ban on diesel exports has since been lifted in part under the October US-Russia deal to resume diesel exports to international markets. The extent of damage at Ryazan has not been established.",
+   "vintage": "Nov 5, 2026",
+   "source": "Reuters (via SRN News)",
+   "source_url": "https://srnnews.com/renewed-refinery-attacks-deplete-russian-diesel-supply-as-us-deal-in-focus/"
   },
   {
    "text": "Ukrainian drones struck the Ryazan refinery overnight into Nov 5, the fifth hit on Russian oil refining in seven days, the Baltic Security Monitor reported on Nov 5. Ryazan governor Pavel Malkov said more than 200 drones targeted the region; debris damaged power lines, cutting electricity to parts of the city, fires broke out at industrial sites and one person was injured. Russian media reported a blaze at the Ryazan refinery, and the independent outlet Astra reported a strike on a large Wildberries logistics centre. The governor did not name the facilities hit, and neither Rosneft nor Wildberries has commented. The Ryazan refinery belongs to Rosneft, processes more than 17 million tonnes of crude a year, and supplies petrol, diesel and jet fuel to Moscow and central Russia; one of its primary crude units was shut down after a strike on Oct 15. Russia's Defence Ministry said it downed 496 Ukrainian drones over 13 regions, Crimea and the Black and Azov Seas, a figure the monitor said has not been independently verified. The monitor's week in sequence is Novokuibyshevsk on Oct 30, Ufa on Oct 31, Kstovo overnight into Nov 1, Yaroslavl on Nov 3 and Ryazan on Nov 5, and it cautioned that without satellite imagery or operator data the scale of damage at Ryazan cannot be assessed.",
@@ -554,6 +572,11 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via SRN News)",
+   "vintage": "",
+   "url": "https://srnnews.com/renewed-refinery-attacks-deplete-russian-diesel-supply-as-us-deal-in-focus/"
+  },
+  {
    "publisher": "Bloomberg (via gCaptain)",
    "vintage": "",
    "url": "https://gcaptain.com/russia-extends-ban-on-most-diesel-exports-through-january/"
@@ -772,6 +795,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "EuropeSays (Kyiv Post)",
+   "vintage": "",
+   "url": "https://www.europesays.com/russia/85646/"
   },
   {
    "publisher": "Baltic Security Monitor",
