@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-11-06T08:52:06-06:00",
+ "built_at": "2026-11-07T03:33:27-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -11,15 +11,15 @@
    "source": "CFTC Commitments of Traders (legacy)",
    "pull": "wcsb-weekly-pull-friday (bin/pull_cftc_cot.py)",
    "cadence": "weekly",
-   "vintage": "CFTC legacy Commitments of Traders, NYMEX WTI futures. Data through October 27, 2026.",
+   "vintage": "CFTC legacy Commitments of Traders, NYMEX WTI futures. Data through November 03, 2026.",
    "stats": {
-    "level": 74343.0,
-    "percentile": 2.593192868719611,
+    "level": 80289.0,
+    "percentile": 3.236245954692557,
     "span_start": 2015,
-    "wow_change": -14982.0,
-    "date": "2026-10-27"
+    "wow_change": 5946.0,
+    "date": "2026-11-03"
    },
-   "narrative_text": "Noncommercial traders, the speculative category in the legacy Commitments of Traders report, hold a net long of 74,343 contracts in NYMEX WTI futures as of October 27, 2026, in the 3rd percentile of weekly readings since 2015. The position shrank by 14,982 contracts on the week. Positioning is the crowdedness gauge for the outright: a stretched net long is flush fuel on any bearish surprise, and a stretched net short is squeeze fuel the other way. A move back toward the middle of the range would stand this read down.",
+   "narrative_text": "Noncommercial traders, the speculative category in the legacy Commitments of Traders report, hold a net long of 80,289 contracts in NYMEX WTI futures as of November 03, 2026, in the 3rd percentile of weekly readings since 2015. The position grew by 5,946 contracts on the week. Positioning is the crowdedness gauge for the outright: a stretched net long is flush fuel on any bearish surprise, and a stretched net short is squeeze fuel the other way. A move back toward the middle of the range would stand this read down.",
    "points": [
     [
      "2015-01-06",
@@ -1256,6 +1256,10 @@
     [
      "2026-10-27",
      74343.0
+    ],
+    [
+     "2026-11-03",
+     80289.0
     ]
    ]
   },
@@ -1267,14 +1271,14 @@
    "source": "ICE Futures Europe Commitments of Traders",
    "pull": "wcsb-weekly-pull-friday (bin/pull_ice_cot.py)",
    "cadence": "weekly",
-   "vintage": "ICE Futures Europe Commitments of Traders, Brent futures only. Data through October 27, 2026.",
+   "vintage": "ICE Futures Europe Commitments of Traders, Brent futures only. Data through November 03, 2026.",
    "stats": {
-    "level": 220069.0,
-    "percentile_since_2020": 60.451977401129945,
-    "wow_change": -1275.0,
-    "date": "2026-10-27"
+    "level": 171603.0,
+    "percentile_since_2020": 36.056338028169016,
+    "wow_change": -48466.0,
+    "date": "2026-11-03"
    },
-   "narrative_text": "Managed money holds a net long of 220,069 contracts in ICE Brent futures as of October 27, 2026, in the 60th percentile of weekly readings since 2020, down 1,275 contracts on the week. Brent positioning is the global book's tell: it moves the whole crude complex, including the differentials struck off it. A washout toward flat, or a build into crowded territory, would each change what this chart is saying.",
+   "narrative_text": "Managed money holds a net long of 171,603 contracts in ICE Brent futures as of November 03, 2026, in the 36th percentile of weekly readings since 2020, down 48,466 contracts on the week. Brent positioning is the global book's tell: it moves the whole crude complex, including the differentials struck off it. A washout toward flat, or a build into crowded territory, would each change what this chart is saying.",
    "points": [
     [
      "2020-01-14",
@@ -2691,6 +2695,10 @@
     [
      "2026-10-27",
      220069.0
+    ],
+    [
+     "2026-11-03",
+     171603.0
     ]
    ]
   },
@@ -8024,12 +8032,12 @@
    "cadence": "daily",
    "vintage": "Exchange front-month futures, via the daily crack file. Data through November 06, 2026.",
    "stats": {
-    "level": 89.9,
-    "percentile_since_2020": 85.38283062645012,
-    "chg_30d": 1.6200000000000045,
+    "level": 90.83,
+    "percentile_since_2020": 86.5429234338747,
+    "chg_30d": 2.549999999999997,
     "date": "2026-11-06"
    },
-   "narrative_text": "WTI front month closed at $89.90 on November 06, 2026, in the 85th percentile of daily closes since 2020 and +1.62 dollars over the last thirty days. The outright is context rather than the trade: the differentials and calendar spreads this site follows are struck off this level, and its trend sets the tone they trade in. A sustained break of the recent range, either way, would reset that context.",
+   "narrative_text": "WTI front month closed at $90.83 on November 06, 2026, in the 87th percentile of daily closes since 2020 and +2.55 dollars over the last thirty days. The outright is context rather than the trade: the differentials and calendar spreads this site follows are struck off this level, and its trend sets the tone they trade in. A sustained break of the recent range, either way, would reset that context.",
    "points": [
     [
      "2023-11-06",
@@ -9545,7 +9553,7 @@
     ],
     [
      "2026-11-06",
-     89.9
+     90.83
     ]
    ]
   },
@@ -9563,10 +9571,10 @@
     "percentile_since_2021": 73.35398915569326,
     "date": "2026-08-31",
     "tmw_tenor": "2026-12",
-    "tmw_settle": -30.1467,
-    "tmw_settle_date": "2026-11-05"
+    "tmw_settle": -29.6661,
+    "tmw_settle_date": "2026-11-06"
    },
-   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$30.15 on November 05, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
+   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$29.67 on November 06, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
    "points": [
     [
      "2021-08-02",
@@ -10876,13 +10884,13 @@
    "cadence": "daily",
    "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through November 06, 2026.",
    "stats": {
-    "level": 47.9622,
-    "percentile_since_2020": 88.80510440835266,
+    "level": 47.5614,
+    "percentile_since_2020": 88.63109048723898,
     "series_high": 75.311,
     "series_high_date": "2026-08-28",
     "date": "2026-11-06"
    },
-   "narrative_text": "The 3-2-1 crack spread printed $47.96 a barrel on November 06, 2026, in the 89th percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
+   "narrative_text": "The 3-2-1 crack spread printed $47.56 a barrel on November 06, 2026, in the 89th percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
    "points": [
     [
      "2023-11-06",
@@ -12398,7 +12406,7 @@
     ],
     [
      "2026-11-06",
-     47.9622
+     47.5614
     ]
    ]
   },
@@ -13324,15 +13332,15 @@
    "source": "CFTC Disaggregated Commitments of Traders",
    "pull": "trade-ideas-refresh step 0 (bin/pull_cftc_cot.py + bin/extract_cot_tmw.py)",
    "cadence": "weekly",
-   "vintage": "CFTC Disaggregated Commitments of Traders, ICE WCS 1A index future. Data through October 27, 2026.",
+   "vintage": "CFTC Disaggregated Commitments of Traders, ICE WCS 1A index future. Data through November 03, 2026.",
    "stats": {
-    "level": -14055.0,
-    "percentile_since_2024": 3.303964757709251,
-    "wow_change": 1110.0,
-    "mm_short_pct_of_oi": 22.57,
-    "date": "2026-10-27"
+    "level": -14965.0,
+    "percentile_since_2024": 2.6373626373626373,
+    "wow_change": -910.0,
+    "mm_short_pct_of_oi": 23.72,
+    "date": "2026-11-03"
    },
-   "narrative_text": "Managed money is net short 14,055 contracts in the ICE WCS 1A index future (TMW) as of October 27, 2026, in the 3rd percentile of weekly readings since 2024, with speculative shorts at 22.6 percent of open interest. This is the crowding gauge inside the differential itself: a heavily short speculative position is squeeze fuel if the diff tightens on apportionment, an outage, or a storage surprise. A cover back toward flat would remove the fuel, and a fresh build of shorts would add to it.",
+   "narrative_text": "Managed money is net short 14,965 contracts in the ICE WCS 1A index future (TMW) as of November 03, 2026, in the 3rd percentile of weekly readings since 2024, with speculative shorts at 23.7 percent of open interest. This is the crowding gauge inside the differential itself: a heavily short speculative position is squeeze fuel if the diff tightens on apportionment, an outage, or a storage surprise. A cover back toward flat would remove the fuel, and a fresh build of shorts would add to it.",
    "points": [
     [
      "2018-02-20",
@@ -14243,8 +14251,8 @@
      -15165.0
     ],
     [
-     "2026-10-27",
-     -14055.0
+     "2026-11-03",
+     -14965.0
     ]
    ]
   },
@@ -14256,16 +14264,16 @@
    "source": "Baltic Exchange (via thedcn.com.au)",
    "pull": "freight-watch-weekly",
    "cadence": "weekly",
-   "vintage": "Baltic Exchange via freight pull. Data through October 23, 2026.",
+   "vintage": "Baltic Exchange via freight pull. Data through October 30, 2026.",
    "stats": {
-    "level": 1287851.0,
-    "percentile": 95.0,
+    "level": 1345710.0,
+    "percentile": 95.1219512195122,
     "series_record": false,
-    "worldscale": 1208.13,
+    "worldscale": 1262.5,
     "trigger": "In rotation: TD3C earnings in the 95th percentile of the series",
-    "date": "2026-10-23"
+    "date": "2026-10-30"
    },
-   "narrative_text": "Very large crude carrier (VLCC) earnings on the Middle East to China route, TD3C, printed $1,287,851 a day in the week of October 23, 2026 (Worldscale 1,208), in the 95th percentile of weekly readings since March 2024. Freight at this level is a tax on every long-haul barrel and reshuffles which grades can travel; the Freight Watch page tracks it route by route, including the Vancouver to Asia leg that prices TMX barrels. Four consecutive weeks back inside the normal band retires this chart to the archive below.",
+   "narrative_text": "Very large crude carrier (VLCC) earnings on the Middle East to China route, TD3C, printed $1,345,710 a day in the week of October 30, 2026 (Worldscale 1,262), in the 95th percentile of weekly readings since March 2024. Freight at this level is a tax on every long-haul barrel and reshuffles which grades can travel; the Freight Watch page tracks it route by route, including the Vancouver to Asia leg that prices TMX barrels. Four consecutive weeks back inside the normal band retires this chart to the archive below.",
    "points": [
     [
      "2025-07-04",
@@ -14426,6 +14434,10 @@
     [
      "2026-10-23",
      1287851.0
+    ],
+    [
+     "2026-10-30",
+     1345710.0
     ]
    ]
   }

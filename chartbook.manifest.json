@@ -2,18 +2,18 @@
  "page": "/chartbook.html",
  "title": "Chartbook",
  "dek": "Heavy Reading's standing chartbook: fund positioning, U.S. inventories in seasonal standard deviations, prices and the WCS differential, crack spreads, Alberta storage, egress, apportionment, and a rotating bench for whatever has gone extreme. The options charts live in The Wing.",
- "built_at": "2026-11-06",
+ "built_at": "2026-11-07",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
-   "text": "Noncommercial traders, the speculative category in the legacy Commitments of Traders report, hold a net long of 74,343 contracts in NYMEX WTI futures as of October 27, 2026, in the 3rd percentile of weekly readings since 2015.",
-   "vintage": "CFTC legacy Commitments of Traders, NYMEX WTI futures. Data through October 27, 2026.",
+   "text": "Noncommercial traders, the speculative category in the legacy Commitments of Traders report, hold a net long of 80,289 contracts in NYMEX WTI futures as of November 03, 2026, in the 3rd percentile of weekly readings since 2015.",
+   "vintage": "CFTC legacy Commitments of Traders, NYMEX WTI futures. Data through November 03, 2026.",
    "source": "CFTC Commitments of Traders (legacy)",
    "source_url": ""
   },
   {
-   "text": "Managed money holds a net long of 220,069 contracts in ICE Brent futures as of October 27, 2026, in the 60th percentile of weekly readings since 2020, down 1,275 contracts on the week.",
-   "vintage": "ICE Futures Europe Commitments of Traders, Brent futures only. Data through October 27, 2026.",
+   "text": "Managed money holds a net long of 171,603 contracts in ICE Brent futures as of November 03, 2026, in the 36th percentile of weekly readings since 2020, down 48,466 contracts on the week.",
+   "vintage": "ICE Futures Europe Commitments of Traders, Brent futures only. Data through November 03, 2026.",
    "source": "ICE Futures Europe Commitments of Traders",
    "source_url": ""
   },
@@ -48,7 +48,7 @@
    "source_url": ""
   },
   {
-   "text": "WTI front month closed at $89.90 on November 06, 2026, in the 85th percentile of daily closes since 2020 and +1.62 dollars over the last thirty days.",
+   "text": "WTI front month closed at $90.83 on November 06, 2026, in the 87th percentile of daily closes since 2020 and +2.55 dollars over the last thirty days.",
    "vintage": "Exchange front-month futures, via the daily crack file. Data through November 06, 2026.",
    "source": "Exchange futures (via crack_321 daily file)",
    "source_url": ""
@@ -60,7 +60,7 @@
    "source_url": ""
   },
   {
-   "text": "The 3-2-1 crack spread printed $47.96 a barrel on November 06, 2026, in the 89th percentile of daily readings since 2020.",
+   "text": "The 3-2-1 crack spread printed $47.56 a barrel on November 06, 2026, in the 89th percentile of daily readings since 2020.",
    "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through November 06, 2026.",
    "source": "Exchange futures (computed)",
    "source_url": ""
@@ -84,14 +84,14 @@
    "source_url": ""
   },
   {
-   "text": "Managed money is net short 14,055 contracts in the ICE WCS 1A index future (TMW) as of October 27, 2026, in the 3rd percentile of weekly readings since 2024, with speculative shorts at 22.6 percent of open interest.",
-   "vintage": "CFTC Disaggregated Commitments of Traders, ICE WCS 1A index future. Data through October 27, 2026.",
+   "text": "Managed money is net short 14,965 contracts in the ICE WCS 1A index future (TMW) as of November 03, 2026, in the 3rd percentile of weekly readings since 2024, with speculative shorts at 23.7 percent of open interest.",
+   "vintage": "CFTC Disaggregated Commitments of Traders, ICE WCS 1A index future. Data through November 03, 2026.",
    "source": "CFTC Disaggregated Commitments of Traders",
    "source_url": ""
   },
   {
-   "text": "Very large crude carrier (VLCC) earnings on the Middle East to China route, TD3C, printed $1,287,851 a day in the week of October 23, 2026 (Worldscale 1,208), in the 95th percentile of weekly readings since March 2024.",
-   "vintage": "Baltic Exchange via freight pull. Data through October 23, 2026.",
+   "text": "Very large crude carrier (VLCC) earnings on the Middle East to China route, TD3C, printed $1,345,710 a day in the week of October 30, 2026 (Worldscale 1,262), in the 95th percentile of weekly readings since March 2024.",
+   "vintage": "Baltic Exchange via freight pull. Data through October 30, 2026.",
    "source": "Baltic Exchange (via thedcn.com.au)",
    "source_url": ""
   }
