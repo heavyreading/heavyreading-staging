@@ -96,6 +96,18 @@
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "text": "A weekly brief published on Nov 8 by Vigil Consilium, covering Nov 1 to Nov 7, grouped the latest refinery hits as three more refineries reached in one week: a fire at Lukoil's NORSI refinery in Kstovo overnight into Nov 1, a fire at the Afipsky refinery in Krasnodar Krai overnight into Nov 6, and the Saratov refinery set ablaze overnight into Nov 7. The brief said the records count reported strikes, not damage or lost throughput. It also noted Russia extended its producer diesel export ban to Jan 31, 2027. The Kstovo identification rests on monitoring channels and a statement by the drone maker Fire Point, with the Nizhny Novgorod governor reporting significant damage at an industrial facility in Kstovo district that he did not name; at Afipsky, regional authorities confirmed a fire at an unnamed enterprise and blamed drone debris.",
+   "vintage": "Nov 8, 2026",
+   "source": "Vigil Consilium",
+   "source_url": "https://vigilconsilium.com/briefs/2026-11-08/ukraine-russia/"
+  },
+  {
+   "text": "The Yanos refinery in Yaroslavl stopped all crude processing after a Nov 3 drone attack, Bloomberg reported on Nov 6 via Briefs, citing a person familiar with the matter. Bloomberg counted six Ukrainian strikes on Russian oil refineries since Oct 30, with Afipsky, at about 180,000 barrels a day, the most recent at the time of that report, and said this year's attacks have pushed Russian refinery throughput to multiyear lows and led Moscow to curb exports of diesel, gasoline and jet fuel. ForteInvest, the private owner of Afipsky, did not answer a Bloomberg request for comment, and regional emergency workers reported an unspecified location in the Afipsky area ignited after falling drone debris. No operator statement confirming the Yanos halt was published in the reporting here.",
+   "vintage": "Nov 6, 2026",
+   "source": "Bloomberg (via Briefs)",
+   "source_url": "https://www.briefs.co/news/ukraine-hits-sixth-russian-refinery-in-a-week/"
+  },
+  {
    "text": "Ukrainian President Volodymyr Zelenskyy said on Nov 6 that the operation against the Russian oil refining industry continues, in a statement on Telegram issued after receiving a military command report on deep strikes, Signal Post News reported, citing Reuters. Zelenskyy said the campaign is continuing in response to Russian strikes on Ukrainian energy facilities, that new countermeasure targets had been determined, and that Russia has refused de-escalation steps. In his nightly video address the same day, he said Ukrainian intelligence indicates Russia is preparing new strikes on energy, on bridges across the Dnipro and on civilian infrastructure. The statements land four days before United States, Russia and Ukraine talks resume in Abu Dhabi on Nov 10 and 11, and a day before the reported overnight strike on the Saratov refinery.",
    "vintage": "Nov 6, 2026",
    "source": "Signal Post News (citing Reuters)",
@@ -280,6 +292,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Follow-up on the Saratov strike: Ukrainian drones hit Rosneft's Saratov oil refinery overnight into Nov 7, where several separate fires were observed across the site, Defense Magazine reported on Nov 7, citing the monitoring resource Exilenova+ and Militarnyi. The same night, a missile strike hit the Proton plant in Oryol, which produces optoelectronics and semiconductor components used in Russian military systems; a fire was reported near Building No. 48, and Militarnyi reported Flamingo cruise missiles were likely involved, a detail not officially confirmed. Defense Magazine put Saratov's design capacity at around 7 million tonnes of oil a year, producing gasoline, diesel, marine fuel and bitumen, and said Militarnyi reported the refinery was last struck on Sep 11. No official assessment of damage to either site or of any impact on Saratov's operations had been published in the reporting here.",
+   "vintage": "Nov 7, 2026",
+   "source": "Defense Magazine",
+   "source_url": "https://www.defensemagazine.com/article/ukraine-hits-russian-electronics-plant-and-oil-refinery-in-overnight-missile-and-drone-strikes"
   },
   {
    "text": "Ukrainian strike drones attacked the Saratov oil refinery in Russia overnight into Nov 7, EuropeSays reported, republishing reporting by the Kyiv Independent. Local residents reported explosions and monitoring channels released footage of a massive fire in the vicinity of the plant, with preliminary reports of several fires on the refinery premises. The monitoring channel Exilenova+ published video from across Saratov showing the glow over the industrial area. The Saratov refinery, owned by Rosneft, can process around 7 million tonnes of crude oil a year, about 2 to 3 percent of Russia's total refining capacity, and produces petrol, diesel and other products, some used to support Russian military logistics. It is not yet possible to determine from the video the number of hits, the exact location of the fires or the damage to plant equipment, and no official assessment of the damage or of the impact on the refinery's operations had been published at the time of reporting. The plant has been attacked repeatedly in 2026, including a confirmed strike on Sep 11 that damaged a primary crude processing unit and a section of the main pipeline.",
@@ -659,6 +677,16 @@
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "publisher": "Vigil Consilium",
+   "vintage": "",
+   "url": "https://vigilconsilium.com/briefs/2026-11-08/ukraine-russia/"
+  },
+  {
+   "publisher": "Bloomberg (via Briefs)",
+   "vintage": "",
+   "url": "https://www.briefs.co/news/ukraine-hits-sixth-russian-refinery-in-a-week/"
+  },
+  {
    "publisher": "Signal Post News (citing Reuters)",
    "vintage": "",
    "url": "https://signalpostnews.com/zelenskyy-warns-russia-new-strikes-bridges-energy-ukraine-continues-refinery-november-2026"
@@ -812,6 +840,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Defense Magazine",
+   "vintage": "",
+   "url": "https://www.defensemagazine.com/article/ukraine-hits-russian-electronics-plant-and-oil-refinery-in-overnight-missile-and-drone-strikes"
   },
   {
    "publisher": "EuropeSays (citing the Kyiv Independent)",

@@ -6,6 +6,18 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Status check on Nov 8: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE newsroom search checked directly on Nov 8 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels, with crude to be supplied from the Big Hill and Bryan Mound storage sites and more than 216 million barrels, including 44 million premium barrels, secured to return beginning early next year. The newest reserves press release after that is the Nov 3 Northeast Home Heating Oil Reserve award listed separately in this section. No new EIA weekly SPR inventory figure has been published since the Nov 4 release, which put the reserve at 282.2 million barrels in the week ending Oct 30, 2026.",
+   "vintage": "Nov 8, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
+  },
+  {
+   "text": "The US Department of Energy (DOE) announced on Nov 3 contract awards for the exchange of 300,000 barrels of ultra-low sulfur distillate (fuel oil) from the Northeast Home Heating Oil Reserve (NEHHOR), with fuel supplied from storage sites in Boston, Massachusetts, and New Haven, Connecticut, DOE said. The awards followed DOE's Oct 21, 2026 request for proposals, and fuel transfers or deliveries were scheduled to be completed by Nov 6, 2026. Reuters reported on Nov 4 that the four recipients are Global Companies LLC, Sprague Operating Resources LLC, Trafigura Trading LLC and Vitol Inc., and that the volume is nearly a third of the 1-million-barrel reserve. Under the awarded contracts, recipients will return the same volume of fuel oil plus a premium, so NEHHOR is refilled ahead of the 2027-2028 heating season, DOE said.",
+   "vintage": "Nov 3, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.energy.gov/hgeo/opr/articles/energy-department-awards-contracts-northeast-home-heating-oil-reserve"
+  },
+  {
    "text": "Status check on Nov 7: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE newsroom search checked directly on Nov 7 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels; the next SPR item below it is dated Oct 23. No SPR press release dated Oct 30, Oct 31, Nov 1, Nov 2, Nov 3, Nov 4, Nov 5, Nov 6 or Nov 7 appears. The latest official Energy Information Administration (EIA) figure remains the Weekly Petroleum Status Report for the week ending Oct 30, published on Nov 4, which put the reserve at 282.2 million barrels, down 399,000 barrels on the week. Deliveries under the Oct 29 awards are scheduled from the Big Hill and Bryan Mound storage sites, with returns of more than 216 million barrels, including 44 million premium barrels, secured by DOE to begin early next year.",
    "vintage": "Nov 7, 2026",
    "source": "U.S. Department of Energy",
@@ -551,6 +563,11 @@
    "publisher": "U.S. Department of Energy",
    "vintage": "",
    "url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
+  },
+  {
+   "publisher": "U.S. Department of Energy",
+   "vintage": "",
+   "url": "https://www.energy.gov/hgeo/opr/articles/energy-department-awards-contracts-northeast-home-heating-oil-reserve"
   },
   {
    "publisher": "U.S. Department of Energy",
