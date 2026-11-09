@@ -48,6 +48,12 @@
    "source_url": "https://logistics.maritimeprofessional.com/transportation/2026/09/23/after-the-iran-conflict-crude-oil-imports-to-asia-hit-a-high-in-september-but-remain-weak"
   },
   {
+   "text": "OilPrice.com reported on Nov 9, citing Iran International reporting of leaked confidential correspondence and Iranian Oil Ministry sources, that Iran has been using oil terminals and storage facilities in China to ship its oil to its biggest buyer and keep sanctioned tankers operating despite US sanctions. Acting oil minister Hamid Bovard wrote that Iran's Foreign Ministry had negotiated buying port facilities and oil terminals in China to establish a hub for sanctioned Iranian crude, and that Tehran had also secured long-term leases on large storage facilities in several Chinese locations, OilPrice.com said. Ministry sources told Iran International that Iran has bought control of port facilities at three locations in China and stakes in docks in Shandong province, home to China's independent refiners, and that sanctioned vessels linked to Hossein Shamkhani transported the crude to the Iran-controlled facilities.",
+   "vintage": "Published Nov 9, 2026; accessed 2026-11-09",
+   "source": "OilPrice.com (citing Iran International)",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Moves-to-Control-Oil-Terminals-in-China-Leak-Shows.html"
+  },
+  {
    "text": "OilPrice.com reported on Oct 28, citing Bloomberg trading sources, that Chinese refiners have bought West African and Brazilian crude for December delivery after Atlantic Basin freight rates eased from record highs, paying premiums of up to $20 a barrel over ICE Brent for grades including Equatorial Guinea's Ceiba, Angola's Saturno and Brazil's Mero. The same report said independent teapot refiners are hunting the cheapest available supply after the US blockade in the Gulf of Oman cut off their Iranian feedstock, and that competition with India has pushed up prices for Russia's ESPO grade.",
    "vintage": "Published Oct 28, 2026; accessed 2026-11-02",
    "source": "OilPrice.com (citing Bloomberg)",
@@ -186,6 +192,12 @@
    "source_url": "https://vesselhunter.io/news/vlcc-freight-26-dollars-a-barrel-us-gulf-asia-crude"
   },
   {
+   "text": "The Centre for Research on Energy and Clean Air (CREA) reported on Nov 5 that reduced crude oil stockpiling accounted for 47 percent of the year-on-year drop in China's crude imports between March and August 2026, as temporary adjustments cushioned the Hormuz import shock. Electric vehicles displaced 38 million tonnes of oil equivalent in March to August 2026, equivalent to around 13 percent of China's crude oil imports in the same period of 2025, and growth in non-fossil generation reduced coal and gas requirements, saving an estimated $9.1 billion in fossil fuel imports since 2020, more than any other country, CREA said. Its analysis is based on National Bureau of Statistics data for domestic fuel production, refinery throughput and oil product output, and General Administration of Customs import and export volumes.",
+   "vintage": "Published Nov 5, 2026; accessed 2026-11-09",
+   "source": "Centre for Research on Energy and Clean Air (CREA)",
+   "source_url": "https://energyandcleanair.org/china-weathered-the-hormuz-shock-clean-energy-can-make-that-resilience-last/"
+  },
+  {
    "text": "Reuters reported on Oct 6 that Shandong refinery utilization fell to about 55% by late September from nearly 60% at the start of the month, per consultancy Horizon Insights, as margins deteriorated after China capped fuel price increases while crude feedstock costs surged. Refiners were losing 250 to 500 yuan per metric ton by late September, compared with profits of about 500 yuan per ton in early September. One trader said buyers were unwilling to pay spot premiums above $20 a barrel. Kpler senior analyst Muyu Xu said inventories at some Shandong teapots could run out as early as the end of October and that refiners need to secure alternative supplies to avoid shutting down or cutting run rates significantly.",
    "vintage": "Published Oct 6, 2026; accessed 2026-10-12",
    "source": "Reuters",
@@ -196,6 +208,12 @@
    "vintage": "Data: Aug 2026; published Sep 17, 2026; accessed 2026-09-24",
    "source": "Centre for Research on Energy and Clean Air",
    "source_url": "https://energyandcleanair.org/china-energy-and-emissions-trends-august-2026-snapshot/"
+  },
+  {
+   "text": "Signal Ocean analysis published by Cyprus Shipping News on Nov 3, drawing on Chinese customs (GACC) and National Bureau of Statistics data, put China's September crude imports at 9.03 million barrels per day (b/d), broadly flat on August, while refinery runs climbed to 13.99 million b/d, the highest since March, so China drew on stocks for the fourth time in five months, a net 0.60 million b/d after crude exports. Of the 121.5 million barrels built by April, only 31 million remained, and at the May to September draw pace of 0.59 million b/d that remainder would be gone by late November, Signal Ocean said. Arrivals picked up in October, but those cargoes were bought in the summer, and with Brent around $100 since early September the refill is likely to slow. China was still buying from the Atlantic, with 19 very large crude carriers fixed from Brazil and West Africa to China in the last ten days of October, most of them loading in November.",
+   "vintage": "Published Nov 3, 2026; accessed 2026-11-09",
+   "source": "Cyprus Shipping News (Signal Ocean analysis; GACC and NBS data)",
+   "source_url": "https://cyprusshippingnews.com/2026/11/03/ramble-on-who-pays-the-freight/"
   },
   {
    "text": "OilPrice.com reported on Oct 22, summarizing Reuters calculations, that China drew about 530,000 barrels per day from inventories in September, the fourth draw in five months, while still holding an estimated at least 1.2 billion barrels in commercial and strategic stocks. October imports above 10 million barrels per day would reduce the need to draw on those stocks.",
@@ -257,6 +275,11 @@
    "publisher": "Maritime Professional (citing Kpler)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transportation/2026/09/23/after-the-iran-conflict-crude-oil-imports-to-asia-hit-a-high-in-september-but-remain-weak"
+  },
+  {
+   "publisher": "OilPrice.com (citing Iran International)",
+   "vintage": "",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Moves-to-Control-Oil-Terminals-in-China-Leak-Shows.html"
   },
   {
    "publisher": "OilPrice.com (citing Bloomberg)",
@@ -359,9 +382,19 @@
    "url": "https://vesselhunter.io/news/vlcc-freight-26-dollars-a-barrel-us-gulf-asia-crude"
   },
   {
+   "publisher": "Centre for Research on Energy and Clean Air (CREA)",
+   "vintage": "",
+   "url": "https://energyandcleanair.org/china-weathered-the-hormuz-shock-clean-energy-can-make-that-resilience-last/"
+  },
+  {
    "publisher": "Centre for Research on Energy and Clean Air",
    "vintage": "",
    "url": "https://energyandcleanair.org/china-energy-and-emissions-trends-august-2026-snapshot/"
+  },
+  {
+   "publisher": "Cyprus Shipping News (Signal Ocean analysis; GACC and NBS data)",
+   "vintage": "",
+   "url": "https://cyprusshippingnews.com/2026/11/03/ramble-on-who-pays-the-freight/"
   },
   {
    "publisher": "OilPrice.com",

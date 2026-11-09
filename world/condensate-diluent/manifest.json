@@ -30,6 +30,12 @@
    "source_url": "https://www.sec.gov/Archives/edgar/data/49938/000119312518320124/d644021dex991.htm"
   },
   {
+   "text": "Ovintiv told its third-quarter earnings call on Nov 4 that the longer-term outlook for condensate demand in Western Canada has never been more favourable, because condensate is used as diluent to move oil sands bitumen through pipelines and demand grows as oil sands volumes grow. Every 1 million barrels per day (b/d) of bitumen growth would require about 300,000 b/d of additional condensate, against proposed oil sands growth of 1 million to 3 million b/d tied to several proposed pipelines, the company said. With domestic supply of about 500,000 to 600,000 b/d, Canada is already structurally short condensate by about 50 percent, and the import pipelines from the United States are largely full, so most incremental demand must be met by Western Canadian supply growth, import expansion, or substitution from other light and medium oils, Ovintiv said.",
+   "vintage": "Earnings call Nov 4, 2026; accessed 2026-11-09",
+   "source": "Ovintiv (Q3 2026 earnings call, via Motley Fool transcript)",
+   "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/ovintiv-ovv-q3-2026-earnings-call-transcript/"
+  },
+  {
    "text": "Oil Sands Magazine reported on Oct 29 that Alberta thermal oil sands production set records in the third quarter, averaging 1.8 million barrels per day, with Cenovus's four SAGD facilities averaging a combined 700,000 barrels per day and Foster Creek reaching an all-time high of 250,000 barrels per day in September. Record bitumen output means record diluent demand at the standard blend ratio, and the magazine said thermal production is expected to keep rising through the fourth quarter.",
    "vintage": "Published Oct 29, 2026; accessed 2026-11-02",
    "source": "Oil Sands Magazine",
@@ -66,6 +72,12 @@
    "source_url": "https://www.capp.ca/wp-content/uploads/2026/07/Canadian-Refining-Industry-April-17-2026.pdf"
   },
   {
+   "text": "Ovintiv said on its Nov 4 earnings call that Canadian condensate is already the only premium resource product produced in Canada, and management put Canadian condensate pricing at approximately 105 percent of West Texas Intermediate (WTI) at the time of the call, at about parity with WTI year to date. Even pipeline expansion at the low end of the proposed range would further tighten an already import-dependent market, so the company said it has high confidence Canadian condensate will keep realizing strong pricing for many years.",
+   "vintage": "Earnings call Nov 4, 2026; accessed 2026-11-09",
+   "source": "Ovintiv (Q3 2026 earnings call, via TradingKey)",
+   "source_url": "https://www.tradingkey.com/news/transcripts/262279661-"
+  },
+  {
    "text": "Imperial Oil's Q2 2026 MD&A says first-half average bitumen realizations rose $11.41/bbl year over year on higher marker prices, but that the gain was 'partially offset by a weaker WTI/WCS spread and higher diluent costs,' a concrete producer-level read that the diluent line item bit into netbacks even in a stronger tape. Its six-month averages: WTI US$82.77 (vs 67.52 in 2025), WCS US$68.19 (vs 56.25), WTI/WCS spread US$14.58 (vs 11.27), bitumen US$81.91 (vs 70.50), synthetic crude US$118.86 (vs 93.14).",
    "vintage": "Published Aug 3, 2026; accessed 2026-10-05",
    "source": "Imperial Oil (Q2 2026 MD&A, via Quartr)",
@@ -88,6 +100,12 @@
    "vintage": "2026; accessed 2026-09-24",
    "source": "Oil Sands Magazine (differentials page); Imperial Oil realization bridge (SEC filing)",
    "source_url": "https://www.oilsandsmagazine.com/market-insights/crude-oil-pricing-differentials-why-alberta-crude-sells-at-deep-discount-to-wti"
+  },
+  {
+   "text": "Enbridge executives said on Nov 6 that the company is poised to capture oilsands growth opportunities in northeastern Alberta, including diluent supply and carbon storage as well as crude pipelines, The Canadian Press reported. Colin Gruending, president of liquids pipelines, noted Enbridge can move diluent, the light product used to thin oilsands crude for pipeline transport, from domestic producers and can also import it to Edmonton from Illinois on its Southern Lights pipeline. Enbridge has also given the go-ahead to a $200 million expansion of pipeline and storage infrastructure serving the Long Lake project operated by China National Offshore Oil Corp., the report said.",
+   "vintage": "Published Nov 6, 2026; accessed 2026-11-09",
+   "source": "The Canadian Press",
+   "source_url": "https://sports.sunbeltpost.com/2026/11/06/enbridge-says-its-poised-to-capture-oilsands-growth-opportunities/"
   },
   {
    "text": "Gibson Energy's December 2025 Investor Day presentation targets 1 to 2 additional diluent recovery unit (DRU) phases, each with 50,000-plus b/d of capacity, entering service from 2028 onward, as part of a plan to deploy up to C$1 billion of growth capital over five years. That timeline matches the DRU expansion Rystad Energy cites as the main cover for the basin's projected condensate shortfall. A counter-note: a GuruFocus summary of Gibson's Q2 2026 earnings call said DRU expansion discussions had quieted, suggesting the timeline could slip.",
@@ -209,6 +227,11 @@
    "url": "https://www.sec.gov/Archives/edgar/data/49938/000119312518320124/d644021dex991.htm"
   },
   {
+   "publisher": "Ovintiv (Q3 2026 earnings call, via Motley Fool transcript)",
+   "vintage": "",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/ovintiv-ovv-q3-2026-earnings-call-transcript/"
+  },
+  {
    "publisher": "Oil Sands Magazine",
    "vintage": "",
    "url": "https://www.oilsandsmagazine.com/news/2026/10/29/labour-disputes-widening-wcs-differentials-and-q3-production-records"
@@ -234,6 +257,11 @@
    "url": "https://www.capp.ca/wp-content/uploads/2026/07/Canadian-Refining-Industry-April-17-2026.pdf"
   },
   {
+   "publisher": "Ovintiv (Q3 2026 earnings call, via TradingKey)",
+   "vintage": "",
+   "url": "https://www.tradingkey.com/news/transcripts/262279661-"
+  },
+  {
    "publisher": "Imperial Oil (Q2 2026 MD&A, via Quartr)",
    "vintage": "",
    "url": "https://files.quartr.com/reports/9a115ac0dc95cedd6f394ef2e37dfe1a-2026-08-03-19-23-02.pdf?ref=U0E="
@@ -252,6 +280,11 @@
    "publisher": "Oil Sands Magazine (differentials page); Imperial Oil realization bridge (SEC filing)",
    "vintage": "",
    "url": "https://www.oilsandsmagazine.com/market-insights/crude-oil-pricing-differentials-why-alberta-crude-sells-at-deep-discount-to-wti"
+  },
+  {
+   "publisher": "The Canadian Press",
+   "vintage": "",
+   "url": "https://sports.sunbeltpost.com/2026/11/06/enbridge-says-its-poised-to-capture-oilsands-growth-opportunities/"
   },
   {
    "publisher": "Gibson Energy (December 2025 Investor Day presentation)",
