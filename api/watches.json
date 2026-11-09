@@ -1,12 +1,12 @@
 {
- "vintage": "9 watches; newest source update 2026-11-08; built 2026-11-09",
+ "vintage": "9 watches; newest source update 2026-11-09; built 2026-11-09",
  "data": {
   "watches": [
    {
     "slug": "middle-east",
     "title": "Middle East watch",
     "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
-    "updated": "2026-11-08",
+    "updated": "2026-11-09",
     "how_to_read": "Read this page in order: what changed, what it means for barrels, how it reaches the market, and what could escalate next. Front 1 (The war) covers Iran's sanctioned exports, floating storage, the shadow fleet, and China's buying. Front 2 (Hormuz) covers tanker movement through the chokepoint against its pre-war baseline. Front 3 (Red Sea) covers Houthi pressure on Bab el-Mandeb shipping, Saudi export rerouting, and the Cape of Good Hope diversion. The archive at the bottom holds the blockade timeline and baselines.",
     "wcs_stakes": null,
     "wcs_closer": "For the WCSB book, watch the floating storage drawdown and the blockade line for how much Iranian sour is coming, vessel counts and the EIA quarterly series for whether Hormuz is loosening before the price does, and Bab el-Mandeb transit counts plus Yanbu loading resumption for the earliest sign Gulf sour is reaching Europe normally again. The moment Gulf sour flows freely on all three fronts, expect the bid under Canadian heavies to fade with it.",
@@ -14,6 +14,24 @@
      {
       "heading": "The latest",
       "bullets": [
+       {
+        "text": "Production was halted on Sunday, Nov 8, at Iraq's Khor Mor gas field, one of the largest in the Kurdistan region, after a suspected drone attack, Reuters reported, citing joint field operator Dana Gas. Dana Gas said in a statement on Monday that it was assessing the damage after dousing a fire sparked by the attack, with no injuries to staff. About 2.8 gigawatts of power generation in the Kurdistan region was taken out by the attack, the region's electricity ministry said. Two sources in the ministry said a single drone strike hit the LPG storage tank in the field, causing the fire, and employees were evacuated to shelters. The region's natural resources and electricity ministries described the incident as a terrorist attack in a joint statement. There was no claim of responsibility for Sunday's attack, and no restart timetable was given in the reporting here.",
+        "vintage": "Nov 8, 2026",
+        "source": "Reuters (via 98.5 The River)",
+        "source_url": "https://985theriver.com/2026/11/08/production-suspended-at-iraqs-khor-mor-gas-field-after-drone-attack-sources-say/"
+       },
+       {
+        "text": "The Iranian Navy said another tanker violating Iran's maritime regulations caught fire after striking a naval mine in the eastern Strait of Hormuz before noon on Sunday, Nov 8, Press TV reported. The Navy's public relations office said the tanker had switched off its identification systems and was sailing through a prohibited area when it struck the mine, and warned that the strait would remain closed to vessels violating Iranian regulations until all threats had been removed. Press TV said it was the fourth oil tanker to hit mines in the waterway on Sunday, and noted that in a separate statement the Islamic Revolutionary Guard Corps (IRGC) Navy reported three tankers had struck naval mines and caught fire in the strait on Sunday. No vessel was named in either statement, and no party that did not issue the claims had confirmed any of Sunday's tanker fires in the reporting here.",
+        "vintage": "Nov 8, 2026",
+        "source": "Press TV",
+        "source_url": "https://www.presstv.co.uk/Detail/2026/11/08/780272/another-tanker-catches-fire-after-striking-mine-in-strait-of-hormuz"
+       },
+       {
+        "text": "An official in Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said navigation aid systems south of the Strait of Hormuz had been destroyed and that no unauthorized vessels had transited the waterway overnight, Reuters reported on Nov 9 in a report carried by EL7.AI. The official did not identify who operated the systems. The claim could not be independently verified in the reporting here. The same report noted that October saw the highest number of attacks on commercial vessels in the Strait of Hormuz since March, citing the Associated Press, and that US forces have been enforcing a naval blockade of Iran in and around the strait for months.",
+        "vintage": "Nov 9, 2026",
+        "source": "Reuters (via EL7.AI)",
+        "source_url": "https://el7.ai/en/news/2026-11-09-irgc-claims-destruction-of-us-navigation-systems-in-strait-of-hormuz"
+       },
        {
         "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Nov 8 that three oil tankers had exploded and caught fire in the Strait of Hormuz after violating Iran's maritime traffic regulations, Press TV reported. In a statement on Sunday, the IRGC Navy said the incidents began in the early hours of the day along an unauthorized shipping route, with thick smoke from the burning vessels spreading across the strait. The statement said the tankers had switched off their navigation and identification systems, named no vessels, flags, owners or casualties, and warned that vessels defying Iranian regulations would face similar consequences. The claim had not been independently verified. It raised the IRGC tally from the two tankers it said late on Saturday had struck naval mines, one east of the strait and one within the strait, after deactivating their navigation and positioning systems to use an unauthorized southern corridor.",
         "vintage": "Nov 8, 2026",
@@ -481,6 +499,18 @@
      {
       "heading": "What it means for barrels",
       "bullets": [
+       {
+        "text": "Oil prices fell sharply on Monday, Nov 9, after US President Donald Trump downplayed the likelihood of renewed strikes on Iran, though attacks on ships near the Strait of Hormuz kept supply concerns in focus, Reuters reported. Brent crude slid by $3.49, or 3.6 percent, to $94.83 a barrel by 1219 GMT, while US West Texas Intermediate lost $2.66, or 2.9 percent, to $88.17. Brent plunged 16 percent last week to touch a two-month low of $93.22, its steepest weekly drop since the start of the COVID pandemic. Trump said on Sunday he was highly unlikely to order fresh attacks on Iran as long as talks to end the conflict progressed, even as both countries reported that shipping had been hit in or near the strait, and Iran has said it would respond by striking US and Israeli targets. JPMorgan said in a report on Friday that recovering Middle Eastern oil flows, rising production from other countries and weak demand have pushed global supply above consumption, estimating a surplus of 1.1 million barrels per day in September, widening to 1.4 million barrels per day in October.",
+        "vintage": "Nov 9, 2026",
+        "source": "Reuters (via Euronext Live)",
+        "source_url": "https://live.euronext.com/en/financial-news/oil-falls-trump-signals-restraint-iran-amid-fresh-hormuz-shipping-attacks"
+       },
+       {
+        "text": "Prices fell to fresh session lows on Monday, Nov 9, on a report from Israel Hayom that Iran had apparently dropped its demand to control the Strait of Hormuz and collect transit fees from vessels, Cornerstone Futures reported in its morning highlights. Cornerstone said Bloomberg could not verify the report, and treated it as unconfirmed until the United States, Iran or Qatari mediators say so. Reports cutting against it included Iranian state broadcaster IRIB saying the US struck Qeshm Island again overnight, and US Secretary of State Marco Rubio playing down the chances of a breakthrough in talks, Cornerstone said. No confirming statement from Washington, Tehran or the mediators had been published in the reporting here.",
+        "vintage": "Nov 9, 2026",
+        "source": "Cornerstone Futures (citing Israel Hayom and Bloomberg)",
+        "source_url": "https://www.cornerstonefuturesllc.com/post/morning-highlights-oil-drops-as-trump-downplays-iran-strikes-and-an-unconfirmed-report-has-tehran-e"
+       },
        {
         "text": "Oil prices rose for a second day on Nov 6 but stayed on track for a sharp weekly fall, Reuters reported. Brent crude futures for January rose $1.57, or 1.6 percent, to $99.86 a barrel and US West Texas Intermediate (WTI) futures climbed $1.10, or 1.22 percent, to $91.62 a barrel as of 0222 GMT on Friday. Brent was on track to drop about 12 percent on the week and WTI about 12.1 percent, after both plunged earlier in the week on expectations that the Democratic sweep of the US midterm elections, which took the Senate and the House of Representatives from President Donald Trump's Republicans, could lead to a de-escalation of the US-Israeli war against Iran; prices fell 8 percent on Wednesday alone, settling at two-month lows. Prices then rebounded on the surge in tanker attacks on Wednesday and Thursday in the Gulf and the Strait of Hormuz. ANZ senior commodity strategist Daniel Hynes said traders viewed Wednesday's selloff as overdone, that Iran maintains control of the Strait of Hormuz and is unlikely to relinquish it, and that overall flows through the strait are under 60 percent of capacity. Reuters also reported that Iran said on Thursday that three more tankers had been attacked in the strait, and that data from the UK maritime security agency UKMTO suggested attacks on tankers are still running at close to record pace.",
         "vintage": "Nov 6, 2026",
@@ -1808,7 +1838,7 @@
     "slug": "russia-refining",
     "title": "Russian Refining Watch",
     "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
-    "updated": "2026-11-08",
+    "updated": "2026-11-09",
     "how_to_read": "Read this page as the diesel side of the crude market: Ukrainian strikes on Russian refineries remove products, not crude, so the read is crack spreads and export curbs rather than wellhead output. Ukrainian claims are carried as claims. Strike dates are approximate and every bullet carries its vintage.",
     "wcs_stakes": "Russian refinery outages tighten global diesel, and record diesel cracks keep US and Asian refiners running at maximum to capture them, which is the demand-side bid under heavy sour barrels including Western Canadian Select (WCS). At the same time, crude displaced from downed Russian refineries has pushed seaborne Russian exports to 16-month highs, capping how much support the tight product market can pass back to sour crude prices. The net effect for WCS is constructive while diesel cracks stay extreme: refineries run hard and bid for every discounted heavy barrel they can crack.",
     "wcs_closer": "For the WCSB book, watch the diesel crack, not the strike count: it is the margin that decides how hard refiners run and how much they pay for heavy barrels. If an energy ceasefire returns Russian refineries and the diesel crack compresses, runs fall and discounted heavies strand first. Until then, the tight product market is the best demand cover WCS has.",
@@ -1911,6 +1941,12 @@
      {
       "heading": "Market effects and negotiation backdrop",
       "bullets": [
+       {
+        "text": "Reuters reported on Nov 9 that Russia's Kirishi oil refinery was set on fire after a Ukrainian drone attack on the region on Monday, citing Governor Alexander Drozdenko. Cornerstone Futures reported the same morning that the fire broke out and has been contained, that 113 drones were downed over the region, and that Kirishi processes 400,000 barrels per day, making it one of Russia's largest refineries, producing diesel, gasoline and fuel oil mainly for export. Surgutneftegas, the owner, had not commented, and Ukrainian military officials had not either, Cornerstone said, adding that Bloomberg notes Ukraine is striking Russian energy assets almost daily. The strike landed on the eve of US mediated working level talks between Ukraine and Russia due in Abu Dhabi on Nov 10 to 11, with Reuters reporting Steve Witkoff and Jared Kushner will lead the US side, the Baltic Security Monitor said.",
+        "vintage": "Nov 9, 2026",
+        "source": "Reuters (via Euronext Live); Cornerstone Futures; Baltic Security Monitor",
+        "source_url": "https://live.euronext.com/en/financial-news/oil-falls-trump-signals-restraint-iran-amid-fresh-hormuz-shipping-attacks"
+       },
        {
         "text": "A weekly brief published on Nov 8 by Vigil Consilium, covering Nov 1 to Nov 7, grouped the latest refinery hits as three more refineries reached in one week: a fire at Lukoil's NORSI refinery in Kstovo overnight into Nov 1, a fire at the Afipsky refinery in Krasnodar Krai overnight into Nov 6, and the Saratov refinery set ablaze overnight into Nov 7. The brief said the records count reported strikes, not damage or lost throughput. It also noted Russia extended its producer diesel export ban to Jan 31, 2027. The Kstovo identification rests on monitoring channels and a statement by the drone maker Fire Point, with the Nizhny Novgorod governor reporting significant damage at an industrial facility in Kstovo district that he did not name; at Afipsky, regional authorities confirmed a fire at an unnamed enterprise and blamed drone debris.",
         "vintage": "Nov 8, 2026",
@@ -2114,6 +2150,12 @@
      {
       "heading": "Named hits and outages",
       "bullets": [
+       {
+        "text": "Drones struck the industrial zone of Kirishi in Leningrad Oblast overnight into Nov 9 and set the KINEF refinery (Kirishinefteorgsintez) ablaze, the Baltic Security Monitor reported. Leningrad Oblast Governor Alexander Drozdenko confirmed impacts in the industrial zone and debris damage to an apartment in town, from which a family was evacuated, with no injuries reported in Kirishi; his count of downed drones rose during the morning from 81 to 113 as the attack was still under way. The independent Russian outlet ASTRA, after analysis of local video, confirmed the fire is at the KINEF refinery itself, and NASA's FIRMS satellite fire monitoring system detected multiple thermal hotspots at the site, the Kyiv Independent reported. Damage to primary crude distillation units, flagged as preliminary by Ukrainian monitoring channels, and any halt in processing and its duration had not been confirmed by independent sources, and the operator had not commented. KINEF, owned by Surgutneftegas and under US sanctions, is one of Russia's three largest refineries, with capacity of roughly 20 million tonnes a year, about 100 kilometres southeast of St. Petersburg and some 800 kilometres from Ukraine's border. It last stopped all processing after the Aug 30, 2026 attack, when two of its primary distillation units were damaged; this is the first strike on the plant since August.",
+        "vintage": "Nov 9, 2026",
+        "source": "Baltic Security Monitor",
+        "source_url": "https://osint-baltic.com/zaporizhzhia-power-kirishi-fire-en/"
+       },
        {
         "text": "Follow-up on the Saratov strike: Ukrainian drones hit Rosneft's Saratov oil refinery overnight into Nov 7, where several separate fires were observed across the site, Defense Magazine reported on Nov 7, citing the monitoring resource Exilenova+ and Militarnyi. The same night, a missile strike hit the Proton plant in Oryol, which produces optoelectronics and semiconductor components used in Russian military systems; a fire was reported near Building No. 48, and Militarnyi reported Flamingo cruise missiles were likely involved, a detail not officially confirmed. Defense Magazine put Saratov's design capacity at around 7 million tonnes of oil a year, producing gasoline, diesel, marine fuel and bitumen, and said Militarnyi reported the refinery was last struck on Sep 11. No official assessment of damage to either site or of any impact on Saratov's operations had been published in the reporting here.",
         "vintage": "Nov 7, 2026",
@@ -2710,7 +2752,7 @@
     "slug": "spr-storage",
     "title": "US SPR & Storage Watch",
     "dek": "US Strategic Petroleum Reserve (SPR) and commercial crude stocks -- SPR inventory, the 2026 exchange/refill mechanics, and Cushing.",
-    "updated": "2026-11-08",
+    "updated": "2026-11-09",
     "how_to_read": "Read this page as the US government's sour barrel: the Strategic Petroleum Reserve (SPR) is mostly sour crude, and its exchanges put barrels into the market while the returns schedule takes them back out. The reserve's published inventory is the hard data; the 2026 exchange repayment ledger is not published, so outstanding loan balances are estimates. Every bullet carries its vintage.",
     "wcs_stakes": "What's drawing lately is leaning sweet: between August 20 and September 11 the Strategic Petroleum Reserve (SPR) lost 5.0 million barrels of sweet against 4.2 million of sour, leaving it at roughly 34% sweet and 66% sour against the 40/60 mix the Department of Energy (DOE) says US Gulf Coast refineries were built around, and at 284.9 million barrels the reserve sits only about 32 million above the 252.4-million-barrel minimum Congress mandates. Near term the pressure stays bearish: Energy Secretary Chris Wright calls another exchange round 'a very real possibility' with 38.5 million barrels still unallocated. The trade flips in 2027, when borrowers start returning barrels at about 1.25 per barrel borrowed through 2029, turning the SPR from the market's biggest sour supplier into a standing bid for medium-sour crude.",
     "wcs_closer": "For the WCSB book, the SPR is a two-act story with a grade twist: exchanges now, repayments later, and sweet leaving fastest while the reserve drifts further from its 40/60 design mix. Watch the weekly EIA petroleum status report for the draw pace, the DOE grade table for the sweet/sour split, and any disclosed repayments; the 2027-2029 return schedule is a known future bid for sour barrels. Until then, the reserve's releases are the quiet headwind on every sour differential print, and the 252.4-million-barrel congressional floor leaves only about 32 million barrels of drawdown room.",
@@ -2718,6 +2760,12 @@
      {
       "heading": "The exchange ledger: two threads, one timeline",
       "bullets": [
+       {
+        "text": "Status check on Nov 9: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE newsroom search checked directly on Nov 9 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels, with crude to be supplied from the Big Hill and Bryan Mound storage sites and more than 216 million barrels, including 44 million premium barrels, secured to return beginning early next year. The newest reserves press release after that is the Nov 3 Northeast Home Heating Oil Reserve award listed separately in this section. No new EIA weekly SPR inventory figure has been published since the Nov 4 release, which put the reserve at 282.2 million barrels in the week ending Oct 30, 2026.",
+        "vintage": "Nov 9, 2026",
+        "source": "U.S. Department of Energy",
+        "source_url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
+       },
        {
         "text": "Status check on Nov 8: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE newsroom search checked directly on Nov 8 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels, with crude to be supplied from the Big Hill and Bryan Mound storage sites and more than 216 million barrels, including 44 million premium barrels, secured to return beginning early next year. The newest reserves press release after that is the Nov 3 Northeast Home Heating Oil Reserve award listed separately in this section. No new EIA weekly SPR inventory figure has been published since the Nov 4 release, which put the reserve at 282.2 million barrels in the week ending Oct 30, 2026.",
         "vintage": "Nov 8, 2026",

@@ -702,7 +702,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
       <div class="mnav-sec"><p class="mnav-label">The Wing</p><a class="mg-link" href="options/index.html">The Wing (options)</a><a class="mg-link" href="options/charts/index.html">The Wing charts</a></div>
       <div class="mnav-sec"><p class="mnav-label">Reference</p><a class="mg-link" href="fieldguide/index.html">Field guide</a><a class="mg-link" href="global-balance.html">Global balance</a><a class="mg-link" href="quotes/index.html">Quotes</a><a class="mg-link" href="tolls/index.html">Toll search</a><a class="mg-link" href="commitments/index.html">Commitments grid</a><a class="mg-link" href="freight-watch.html">Freight watch</a><a class="mg-link" href="sat-watch.html">Sat watch</a><a class="mg-link" href="globe.html">Globe</a><a class="mg-link" href="maps/index.html">Maps</a><a class="mg-link" href="chartbook.html">Chartbook</a><a class="mg-link" href="arb-watch/index.html">Arb watch</a><a class="mg-link" href="data/index.html">Data downloads</a><a class="mg-link" href="sources/index.html">Sources</a><a class="mg-link" href="methodology/index.html">Methodology</a><a class="mg-link" href="about/index.html">About</a></div>
       </div>
-      <a class="chg-badge" href="changes/index.html">23 changed today</a></nav>
+      <a class="chg-badge" href="changes/index.html">25 changed today</a></nav>
       </details>
     <div class="searchbox" role="search"><input type="search" id="sitesearch" placeholder="Search Heavy Reading" aria-label="Search Heavy Reading" autocomplete="off" data-index="search-index.json"><div class="searchres" id="searchres" hidden></div></div>
   </header>
@@ -1080,53 +1080,53 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <p><b>The honest scoring position.</b> No backtest yet. Scoring a flag means measuring what the market did after the flag, and that needs a real price panel; the detector still runs on a synthetic price stand-in. Flags are logged with the rule that produced each one, and the scoring rule is defined (directional call over the 20 trading days after the flag, graded against a naive benchmark). It runs when the price feed is real.</p>
   <p class="tblnote">Status: no backtest yet; flags logged, scoring rule defined, awaiting real prices.</p>
   <h3>Sat Watch sensor claims</h3>
-  <p><b>The prescription.</b> With 0 hits in 239 claims, this detector is a logging and baseline-learning instrument, not a source of findings. No claim from it is presented as a sighting, and no firing threshold tested, up to more than double the current one, changes the hit count from zero. The record below is kept so the detector can be fixed or retired on evidence, not on impressions.</p>
+  <p><b>The prescription.</b> With 0 hits in 241 claims, this detector is a logging and baseline-learning instrument, not a source of findings. No claim from it is presented as a sighting, and no firing threshold tested, up to more than double the current one, changes the hit count from zero. The record below is kept so the detector can be fixed or retired on evidence, not on impressions.</p>
   <p><b>Retirement test, verdict due.</b> This record reached 200 claims with 0 hits, the line registered on 4 November 2026. On this record the detector is retired as a findings instrument or rebuilt against a new baseline method; it does not continue as is. The full record below is the evidence for that call.</p>
   <p><b>What it scores.</b> The Sat Watch board claims a plant's heat changed: a QUIET claim says the heat fell well below the plant's own normal, a HEAT claim says it stepped up. Every claim is then adjudicated against the NASA Fire Information for Resource Management System (FIRMS) fire archive: when a satellite pass actually covers the plant after the claim, its detections settle the claim. A covered pass showing the claimed change is a <b>hit</b>; a covered pass showing normal heat makes it a <b>false alarm</b>. When two or more plants claim in the same polling window, the window is also checked for a <b>common-mode artifact</b>: one shared sensor cause, such as a bad frame or a cloud field, moving every plant at once. That class is assigned only by a written adjudication, never inferred from the coincidence alone. A claim whose rechecks never get a covered look inside 24 hours closes <b>unresolved</b>.</p>
-  <p><b>The record.</b> 239 claims scored: 0 hits, 230 false alarms, 5 common-mode artifacts, 1 unresolved, 3 still open. Median time to adjudication: 5.2 hours. 35 coincident windows (two or more plants claiming in one polling window) are flagged in the table.</p>
-  <p><b>Claims pause, status.</b> The claims arm was paused on 26 October 2026: no new claim was to be presented as a finding until its gates were proven. The sensor engine has kept logging in the background, and 136 claims have been logged since the pause (73 on the Canada board, 63 on the Gulf board). Those claims are graded here like the rest of the record. The pause covers presentation, not logging, and this line keeps the two from being confused.</p>
+  <p><b>The record.</b> 241 claims scored: 0 hits, 233 false alarms, 5 common-mode artifacts, 1 unresolved, 2 still open. Median time to adjudication: 5.2 hours. 35 coincident windows (two or more plants claiming in one polling window) are flagged in the table.</p>
+  <p><b>Claims pause, status.</b> The claims arm was paused on 26 October 2026: no new claim was to be presented as a finding until its gates were proven. The sensor engine has kept logging in the background, and 138 claims have been logged since the pause (73 on the Canada board, 65 on the Gulf board). Those claims are graded here like the rest of the record. The pause covers presentation, not logging, and this line keeps the two from being confused.</p>
   <p><b>By board.</b> Two boards, two instruments. The Canada board watches upgraders and refineries for QUIET steps, a plant going quiet. The Gulf board watches terminals and the Strait of Hormuz for HEAT steps, heat appearing where it was not. Neither board has produced a hit, and the split shows the failure is not confined to one board or one direction.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Board</th><th>Claims</th><th>Hits</th><th>False alarms</th><th>Common-mode</th><th>Unresolved</th><th>Open</th></tr>
   <tr><td>Canada (QUIET arm)</td><td class="num">161</td><td class="num">0</td><td class="num">156</td><td class="num">5</td><td class="num">0</td><td class="num">0</td></tr>
-  <tr><td>Gulf (HEAT arm)</td><td class="num">78</td><td class="num">0</td><td class="num">74</td><td class="num">0</td><td class="num">1</td><td class="num">3</td></tr>
+  <tr><td>Gulf (HEAT arm)</td><td class="num">80</td><td class="num">0</td><td class="num">77</td><td class="num">0</td><td class="num">1</td><td class="num">2</td></tr>
   </table></div>
   <p><b>By claim kind.</b> No kind has produced a hit. QUIET claims (heat fell) and HEAT claims (heat stepped up) fail alike, so the failure is in the step detector itself, not in one direction of it.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Claim kind</th><th>Claims</th><th>Hits</th><th>False alarms</th><th>Common-mode</th><th>Unresolved</th><th>Open</th></tr>
   <tr><td>QUIET</td><td class="num">133</td><td class="num">0</td><td class="num">128</td><td class="num">5</td><td class="num">0</td><td class="num">0</td></tr>
-  <tr><td>HEAT</td><td class="num">100</td><td class="num">0</td><td class="num">97</td><td class="num">0</td><td class="num">0</td><td class="num">3</td></tr>
+  <tr><td>HEAT</td><td class="num">102</td><td class="num">0</td><td class="num">100</td><td class="num">0</td><td class="num">0</td><td class="num">2</td></tr>
   <tr><td>HEADLINE</td><td class="num">6</td><td class="num">0</td><td class="num">5</td><td class="num">0</td><td class="num">1</td><td class="num">0</td></tr>
   </table></div>
-  <p><b>HEAT threshold sweep.</b> A HEAT claim fires when the heat step reaches 30 palette-gray levels above the plant baseline. The table replays every logged HEAT claim (100 with a step in its text) against higher thresholds, using the step printed in the claim itself. Raising the threshold cuts the claim count; the hits column shows what it cannot do in this record.</p>
+  <p><b>HEAT threshold sweep.</b> A HEAT claim fires when the heat step reaches 30 palette-gray levels above the plant baseline. The table replays every logged HEAT claim (102 with a step in its text) against higher thresholds, using the step printed in the claim itself. Raising the threshold cuts the claim count; the hits column shows what it cannot do in this record.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Threshold (palette-gray levels)</th><th>HEAT claims that would still fire</th><th>Share of current HEAT claims</th><th>Hits among them</th></tr>
-  <tr><td>30 (current)</td><td class="num">100</td><td class="num">100%</td><td class="num">0</td></tr>
-  <tr><td>40 (+10)</td><td class="num">72</td><td class="num">72%</td><td class="num">0</td></tr>
-  <tr><td>50 (+20)</td><td class="num">49</td><td class="num">49%</td><td class="num">0</td></tr>
-  <tr><td>60 (+30)</td><td class="num">29</td><td class="num">29%</td><td class="num">0</td></tr>
-  <tr><td>70 (+40)</td><td class="num">26</td><td class="num">26%</td><td class="num">0</td></tr>
+  <tr><td>30 (current)</td><td class="num">102</td><td class="num">100%</td><td class="num">0</td></tr>
+  <tr><td>40 (+10)</td><td class="num">73</td><td class="num">72%</td><td class="num">0</td></tr>
+  <tr><td>50 (+20)</td><td class="num">50</td><td class="num">49%</td><td class="num">0</td></tr>
+  <tr><td>60 (+30)</td><td class="num">30</td><td class="num">29%</td><td class="num">0</td></tr>
+  <tr><td>70 (+40)</td><td class="num">27</td><td class="num">26%</td><td class="num">0</td></tr>
   </table></div>
-  <p>Even at 70 levels, more than double the current threshold, 26 HEAT claims would still have fired, and every HEAT claim in the record at every threshold in this table is a false alarm. A higher threshold makes the arm quieter. In this record it does not make it right, because there is no true HEAT claim at any step size to keep.</p>
+  <p>Even at 70 levels, more than double the current threshold, 27 HEAT claims would still have fired, and every HEAT claim in the record at every threshold in this table is a false alarm. A higher threshold makes the arm quieter. In this record it does not make it right, because there is no true HEAT claim at any step size to keep.</p>
   <p><b>HEAT step sizes.</b> The same steps, grouped in bins of 10 palette-gray levels. Empty bins are printed, because a range with no claims in it is part of the shape.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Step size (palette-gray levels)</th><th>HEAT claims</th><th></th></tr>
-  <tr><td>30 to 39</td><td class="num">28</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:100%"></span></span></td></tr>
-  <tr><td>40 to 49</td><td class="num">23</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:82%"></span></span></td></tr>
-  <tr><td>50 to 59</td><td class="num">20</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:71%"></span></span></td></tr>
-  <tr><td>60 to 69</td><td class="num">3</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:11%"></span></span></td></tr>
-  <tr><td>70 to 79</td><td class="num">11</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:39%"></span></span></td></tr>
-  <tr><td>80 to 89</td><td class="num">5</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:18%"></span></span></td></tr>
-  <tr><td>90 to 99</td><td class="num">9</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:32%"></span></span></td></tr>
-  <tr><td>100 to 109</td><td class="num">1</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:4%"></span></span></td></tr>
+  <tr><td>30 to 39</td><td class="num">29</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:100%"></span></span></td></tr>
+  <tr><td>40 to 49</td><td class="num">23</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:79%"></span></span></td></tr>
+  <tr><td>50 to 59</td><td class="num">20</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:69%"></span></span></td></tr>
+  <tr><td>60 to 69</td><td class="num">3</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:10%"></span></span></td></tr>
+  <tr><td>70 to 79</td><td class="num">11</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:38%"></span></span></td></tr>
+  <tr><td>80 to 89</td><td class="num">5</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:17%"></span></span></td></tr>
+  <tr><td>90 to 99</td><td class="num">10</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:34%"></span></span></td></tr>
+  <tr><td>100 to 109</td><td class="num">1</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:3%"></span></span></td></tr>
   </table></div>
   <p><b>HEAT clusters by firing hour.</b> The step sizes form two clusters with an empty range between them, and most HEAT claims fire in one 3-hour block. This table crosses the two: it shows how much of each step cluster sits inside the 03:00 to 05:59 UTC block.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Step cluster</th><th>HEAT claims</th><th>Fired in the 03:00 block</th><th>Share in that block</th></tr>
-  <tr><td>Lower cluster (steps under 60 levels)</td><td class="num">71</td><td class="num">39</td><td class="num">55%</td></tr>
-  <tr><td>Higher cluster (steps of 70 levels and up)</td><td class="num">26</td><td class="num">16</td><td class="num">62%</td></tr>
+  <tr><td>Lower cluster (steps under 60 levels)</td><td class="num">72</td><td class="num">39</td><td class="num">54%</td></tr>
+  <tr><td>Higher cluster (steps of 70 levels and up)</td><td class="num">27</td><td class="num">16</td><td class="num">59%</td></tr>
   </table></div>
-  <p>The 03:00 block holds both clusters at much the same rate (55 percent of the lower cluster, 62 percent of the higher). The hour concentration is not the higher cluster wearing a clock: whatever concentrates firing at that hour acts on both step populations, which puts the cause upstream of the step size, in the frame or the baseline the two populations share.</p>
+  <p>The 03:00 block holds both clusters at much the same rate (54 percent of the lower cluster, 59 percent of the higher). The hour concentration is not the higher cluster wearing a clock: whatever concentrates firing at that hour acts on both step populations, which puts the cause upstream of the step size, in the frame or the baseline the two populations share.</p>
   <p><b>QUIET step sizes.</b> The Canada board claims carry their magnitude in the claim text: how far the thermal level fell below the plant baseline, in palette-gray levels. The same 10-level bins as the HEAT table above, empty bins printed.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Drop below baseline (palette-gray levels)</th><th>QUIET claims</th><th></th></tr>
@@ -1140,13 +1140,15 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <tr><td>90 to 99</td><td class="num">3</td><td><span style="display:block;min-width:120px;background:#e5e7eb;height:8px"><span style="display:block;background:#374151;height:8px;width:9%"></span></span></td></tr>
   </table></div>
   <p>The QUIET drops run from 25 to 97 levels with claims in every 10-level bin between: one continuous spread, no empty range. That is a different shape from the HEAT steps above, whose two clusters sit either side of an empty range. One detector, two failure shapes, one on each board.</p>
-  <p><b>By firing hour (UTC).</b> Claims are not spread evenly across the day: the 03:00 to 05:59 block holds 76 of 239 claims, against an even share of 30 per 3-hour block. A firing rate that clusters by time of day points at the baseline (what the sensor calls normal at that hour), not at the plants. The full split: 00h 27, 03h 76, 06h 19, 09h 13, 12h 38, 15h 7, 18h 32, 21h 27.</p>
-  <p><b>Baseline weight check.</b> 142 claims carry a logged weight (HEADLINE average 1.00 over 5 claims; HEAT average 0.99 over 86 claims; QUIET average 0.90 over 51 claims). The highest weight on record, 1.00 (HEAT on Kharg Island), is classed Open. So far the weight tracks baseline maturity only; it has not sorted a true claim from a false one, because there has been no true claim to sort.</p>
+  <p><b>By firing hour (UTC).</b> Claims are not spread evenly across the day: the 03:00 to 05:59 block holds 76 of 241 claims, against an even share of 30 per 3-hour block. A firing rate that clusters by time of day points at the baseline (what the sensor calls normal at that hour), not at the plants. The full split: 00h 27, 03h 76, 06h 19, 09h 13, 12h 40, 15h 7, 18h 32, 21h 27.</p>
+  <p><b>Baseline weight check.</b> 144 claims carry a logged weight (HEADLINE average 1.00 over 5 claims; HEAT average 0.99 over 88 claims; QUIET average 0.90 over 51 claims). The highest weight on record, 1.00 (HEAT on Kharg Island), is classed Open. So far the weight tracks baseline maturity only; it has not sorted a true claim from a false one, because there has been no true claim to sort.</p>
   <div class="tblwrap"><table class="data">
   <tr><th>Opened (UTC)</th><th>Plant</th><th>Claim</th><th>Class</th><th>Settled in</th><th>Window</th><th>Baseline weight</th></tr>
-  <tr><td>2026-11-09 04:32</td><td>Kharg Island</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">1.00</td></tr>
-  <tr><td>2026-11-09 04:17</td><td>Yanbu</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>joint</td><td class="num">1.00</td></tr>
-  <tr><td>2026-11-09 04:17</td><td>East-West pipeline</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>joint</td><td class="num">1.00</td></tr>
+  <tr><td>2026-11-09 13:32</td><td>Kharg Island</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">1.00</td></tr>
+  <tr><td>2026-11-09 13:17</td><td>Yanbu</td><td>HEAT</td><td>Open</td><td class="num">-</td><td>-</td><td class="num">1.00</td></tr>
+  <tr><td>2026-11-09 04:32</td><td>Kharg Island</td><td>HEAT</td><td>False alarm</td><td class="num">8.2 h</td><td>-</td><td class="num">1.00</td></tr>
+  <tr><td>2026-11-09 04:17</td><td>Yanbu</td><td>HEAT</td><td>False alarm</td><td class="num">8.5 h</td><td>joint</td><td class="num">1.00</td></tr>
+  <tr><td>2026-11-09 04:17</td><td>East-West pipeline</td><td>HEAT</td><td>False alarm</td><td class="num">8.5 h</td><td>joint</td><td class="num">1.00</td></tr>
   <tr><td>2026-11-09 01:02</td><td><a class="plink" href="projects/syncrude.html">Syncrude</a> Mildred Lake upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">5.0 h</td><td>joint</td><td class="num">1.00</td></tr>
   <tr><td>2026-11-09 01:02</td><td><a class="plink" href="projects/su_base_plant.html">Suncor Base Plant</a> upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">5.0 h</td><td>joint</td><td class="num">1.00</td></tr>
   <tr><td>2026-11-08 20:32</td><td>Imperial Strathcona refinery</td><td>HEAT</td><td>False alarm</td><td class="num">5.2 h</td><td>-</td><td class="num">1.00</td></tr>
@@ -1154,8 +1156,6 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   <tr><td>2026-11-08 19:47</td><td><a class="plink" href="projects/syncrude.html">Syncrude</a> Mildred Lake upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">5.0 h</td><td>joint</td><td class="num">1.00</td></tr>
   <tr><td>2026-11-08 19:47</td><td><a class="plink" href="projects/su_base_plant.html">Suncor Base Plant</a> upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">5.0 h</td><td>joint</td><td class="num">1.00</td></tr>
   <tr><td>2026-11-08 15:17</td><td>Imperial Strathcona refinery</td><td>QUIET</td><td>False alarm</td><td class="num">5.0 h</td><td>-</td><td class="num">1.00</td></tr>
-  <tr><td>2026-11-08 15:02</td><td>Scotford upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">5.0 h</td><td>-</td><td class="num">1.00</td></tr>
-  <tr><td>2026-11-08 14:17</td><td><a class="plink" href="projects/syncrude.html">Syncrude</a> Mildred Lake upgrader</td><td>QUIET</td><td>False alarm</td><td class="num">5.2 h</td><td>-</td><td class="num">1.00</td></tr>
   </table></div>
   <p class="tblnote">Baseline weight is the claim's confidence weight from its plant's baseline maturity, logged with the claim record from 2026-10-24 on: a claim on a young baseline carries less weight than one on a mature baseline. Claims opened earlier carry no weight and show a dash.</p>
   <h3>Trading signals</h3>

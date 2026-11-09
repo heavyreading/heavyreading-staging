@@ -6,6 +6,24 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Production was halted on Sunday, Nov 8, at Iraq's Khor Mor gas field, one of the largest in the Kurdistan region, after a suspected drone attack, Reuters reported, citing joint field operator Dana Gas. Dana Gas said in a statement on Monday that it was assessing the damage after dousing a fire sparked by the attack, with no injuries to staff. About 2.8 gigawatts of power generation in the Kurdistan region was taken out by the attack, the region's electricity ministry said. Two sources in the ministry said a single drone strike hit the LPG storage tank in the field, causing the fire, and employees were evacuated to shelters. The region's natural resources and electricity ministries described the incident as a terrorist attack in a joint statement. There was no claim of responsibility for Sunday's attack, and no restart timetable was given in the reporting here.",
+   "vintage": "Nov 8, 2026",
+   "source": "Reuters (via 98.5 The River)",
+   "source_url": "https://985theriver.com/2026/11/08/production-suspended-at-iraqs-khor-mor-gas-field-after-drone-attack-sources-say/"
+  },
+  {
+   "text": "The Iranian Navy said another tanker violating Iran's maritime regulations caught fire after striking a naval mine in the eastern Strait of Hormuz before noon on Sunday, Nov 8, Press TV reported. The Navy's public relations office said the tanker had switched off its identification systems and was sailing through a prohibited area when it struck the mine, and warned that the strait would remain closed to vessels violating Iranian regulations until all threats had been removed. Press TV said it was the fourth oil tanker to hit mines in the waterway on Sunday, and noted that in a separate statement the Islamic Revolutionary Guard Corps (IRGC) Navy reported three tankers had struck naval mines and caught fire in the strait on Sunday. No vessel was named in either statement, and no party that did not issue the claims had confirmed any of Sunday's tanker fires in the reporting here.",
+   "vintage": "Nov 8, 2026",
+   "source": "Press TV",
+   "source_url": "https://www.presstv.co.uk/Detail/2026/11/08/780272/another-tanker-catches-fire-after-striking-mine-in-strait-of-hormuz"
+  },
+  {
+   "text": "An official in Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said navigation aid systems south of the Strait of Hormuz had been destroyed and that no unauthorized vessels had transited the waterway overnight, Reuters reported on Nov 9 in a report carried by EL7.AI. The official did not identify who operated the systems. The claim could not be independently verified in the reporting here. The same report noted that October saw the highest number of attacks on commercial vessels in the Strait of Hormuz since March, citing the Associated Press, and that US forces have been enforcing a naval blockade of Iran in and around the strait for months.",
+   "vintage": "Nov 9, 2026",
+   "source": "Reuters (via EL7.AI)",
+   "source_url": "https://el7.ai/en/news/2026-11-09-irgc-claims-destruction-of-us-navigation-systems-in-strait-of-hormuz"
+  },
+  {
    "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Nov 8 that three oil tankers had exploded and caught fire in the Strait of Hormuz after violating Iran's maritime traffic regulations, Press TV reported. In a statement on Sunday, the IRGC Navy said the incidents began in the early hours of the day along an unauthorized shipping route, with thick smoke from the burning vessels spreading across the strait. The statement said the tankers had switched off their navigation and identification systems, named no vessels, flags, owners or casualties, and warned that vessels defying Iranian regulations would face similar consequences. The claim had not been independently verified. It raised the IRGC tally from the two tankers it said late on Saturday had struck naval mines, one east of the strait and one within the strait, after deactivating their navigation and positioning systems to use an unauthorized southern corridor.",
    "vintage": "Nov 8, 2026",
    "source": "Press TV",
@@ -466,6 +484,18 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil prices fell sharply on Monday, Nov 9, after US President Donald Trump downplayed the likelihood of renewed strikes on Iran, though attacks on ships near the Strait of Hormuz kept supply concerns in focus, Reuters reported. Brent crude slid by $3.49, or 3.6 percent, to $94.83 a barrel by 1219 GMT, while US West Texas Intermediate lost $2.66, or 2.9 percent, to $88.17. Brent plunged 16 percent last week to touch a two-month low of $93.22, its steepest weekly drop since the start of the COVID pandemic. Trump said on Sunday he was highly unlikely to order fresh attacks on Iran as long as talks to end the conflict progressed, even as both countries reported that shipping had been hit in or near the strait, and Iran has said it would respond by striking US and Israeli targets. JPMorgan said in a report on Friday that recovering Middle Eastern oil flows, rising production from other countries and weak demand have pushed global supply above consumption, estimating a surplus of 1.1 million barrels per day in September, widening to 1.4 million barrels per day in October.",
+   "vintage": "Nov 9, 2026",
+   "source": "Reuters (via Euronext Live)",
+   "source_url": "https://live.euronext.com/en/financial-news/oil-falls-trump-signals-restraint-iran-amid-fresh-hormuz-shipping-attacks"
+  },
+  {
+   "text": "Prices fell to fresh session lows on Monday, Nov 9, on a report from Israel Hayom that Iran had apparently dropped its demand to control the Strait of Hormuz and collect transit fees from vessels, Cornerstone Futures reported in its morning highlights. Cornerstone said Bloomberg could not verify the report, and treated it as unconfirmed until the United States, Iran or Qatari mediators say so. Reports cutting against it included Iranian state broadcaster IRIB saying the US struck Qeshm Island again overnight, and US Secretary of State Marco Rubio playing down the chances of a breakthrough in talks, Cornerstone said. No confirming statement from Washington, Tehran or the mediators had been published in the reporting here.",
+   "vintage": "Nov 9, 2026",
+   "source": "Cornerstone Futures (citing Israel Hayom and Bloomberg)",
+   "source_url": "https://www.cornerstonefuturesllc.com/post/morning-highlights-oil-drops-as-trump-downplays-iran-strikes-and-an-unconfirmed-report-has-tehran-e"
   },
   {
    "text": "Oil prices rose for a second day on Nov 6 but stayed on track for a sharp weekly fall, Reuters reported. Brent crude futures for January rose $1.57, or 1.6 percent, to $99.86 a barrel and US West Texas Intermediate (WTI) futures climbed $1.10, or 1.22 percent, to $91.62 a barrel as of 0222 GMT on Friday. Brent was on track to drop about 12 percent on the week and WTI about 12.1 percent, after both plunged earlier in the week on expectations that the Democratic sweep of the US midterm elections, which took the Senate and the House of Representatives from President Donald Trump's Republicans, could lead to a de-escalation of the US-Israeli war against Iran; prices fell 8 percent on Wednesday alone, settling at two-month lows. Prices then rebounded on the surge in tanker attacks on Wednesday and Thursday in the Gulf and the Strait of Hormuz. ANZ senior commodity strategist Daniel Hynes said traders viewed Wednesday's selloff as overdone, that Iran maintains control of the Strait of Hormuz and is unlikely to relinquish it, and that overall flows through the strait are under 60 percent of capacity. Reuters also reported that Iran said on Thursday that three more tankers had been attacked in the strait, and that data from the UK maritime security agency UKMTO suggested attacks on tankers are still running at close to record pace.",
@@ -1754,6 +1784,21 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via 98.5 The River)",
+   "vintage": "",
+   "url": "https://985theriver.com/2026/11/08/production-suspended-at-iraqs-khor-mor-gas-field-after-drone-attack-sources-say/"
+  },
+  {
+   "publisher": "Press TV",
+   "vintage": "",
+   "url": "https://www.presstv.co.uk/Detail/2026/11/08/780272/another-tanker-catches-fire-after-striking-mine-in-strait-of-hormuz"
+  },
+  {
+   "publisher": "Reuters (via EL7.AI)",
+   "vintage": "",
+   "url": "https://el7.ai/en/news/2026-11-09-irgc-claims-destruction-of-us-navigation-systems-in-strait-of-hormuz"
+  },
+  {
    "publisher": "Press TV",
    "vintage": "",
    "url": "https://www.presstv.co.uk/Detail/2026/11/08/780252/irgc-navy-three-oil-tankers-engulfed-in-flames-in-strait-of-hormuz-after-maritime-violations"
@@ -2132,6 +2177,16 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters (via Euronext Live)",
+   "vintage": "",
+   "url": "https://live.euronext.com/en/financial-news/oil-falls-trump-signals-restraint-iran-amid-fresh-hormuz-shipping-attacks"
+  },
+  {
+   "publisher": "Cornerstone Futures (citing Israel Hayom and Bloomberg)",
+   "vintage": "",
+   "url": "https://www.cornerstonefuturesllc.com/post/morning-highlights-oil-drops-as-trump-downplays-iran-strikes-and-an-unconfirmed-report-has-tehran-e"
   },
   {
    "publisher": "Reuters (via KSEV Radio, SRN News)",

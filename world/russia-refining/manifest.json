@@ -96,6 +96,12 @@
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "text": "Reuters reported on Nov 9 that Russia's Kirishi oil refinery was set on fire after a Ukrainian drone attack on the region on Monday, citing Governor Alexander Drozdenko. Cornerstone Futures reported the same morning that the fire broke out and has been contained, that 113 drones were downed over the region, and that Kirishi processes 400,000 barrels per day, making it one of Russia's largest refineries, producing diesel, gasoline and fuel oil mainly for export. Surgutneftegas, the owner, had not commented, and Ukrainian military officials had not either, Cornerstone said, adding that Bloomberg notes Ukraine is striking Russian energy assets almost daily. The strike landed on the eve of US mediated working level talks between Ukraine and Russia due in Abu Dhabi on Nov 10 to 11, with Reuters reporting Steve Witkoff and Jared Kushner will lead the US side, the Baltic Security Monitor said.",
+   "vintage": "Nov 9, 2026",
+   "source": "Reuters (via Euronext Live); Cornerstone Futures; Baltic Security Monitor",
+   "source_url": "https://live.euronext.com/en/financial-news/oil-falls-trump-signals-restraint-iran-amid-fresh-hormuz-shipping-attacks"
+  },
+  {
    "text": "A weekly brief published on Nov 8 by Vigil Consilium, covering Nov 1 to Nov 7, grouped the latest refinery hits as three more refineries reached in one week: a fire at Lukoil's NORSI refinery in Kstovo overnight into Nov 1, a fire at the Afipsky refinery in Krasnodar Krai overnight into Nov 6, and the Saratov refinery set ablaze overnight into Nov 7. The brief said the records count reported strikes, not damage or lost throughput. It also noted Russia extended its producer diesel export ban to Jan 31, 2027. The Kstovo identification rests on monitoring channels and a statement by the drone maker Fire Point, with the Nizhny Novgorod governor reporting significant damage at an industrial facility in Kstovo district that he did not name; at Afipsky, regional authorities confirmed a fire at an unnamed enterprise and blamed drone debris.",
    "vintage": "Nov 8, 2026",
    "source": "Vigil Consilium",
@@ -292,6 +298,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Drones struck the industrial zone of Kirishi in Leningrad Oblast overnight into Nov 9 and set the KINEF refinery (Kirishinefteorgsintez) ablaze, the Baltic Security Monitor reported. Leningrad Oblast Governor Alexander Drozdenko confirmed impacts in the industrial zone and debris damage to an apartment in town, from which a family was evacuated, with no injuries reported in Kirishi; his count of downed drones rose during the morning from 81 to 113 as the attack was still under way. The independent Russian outlet ASTRA, after analysis of local video, confirmed the fire is at the KINEF refinery itself, and NASA's FIRMS satellite fire monitoring system detected multiple thermal hotspots at the site, the Kyiv Independent reported. Damage to primary crude distillation units, flagged as preliminary by Ukrainian monitoring channels, and any halt in processing and its duration had not been confirmed by independent sources, and the operator had not commented. KINEF, owned by Surgutneftegas and under US sanctions, is one of Russia's three largest refineries, with capacity of roughly 20 million tonnes a year, about 100 kilometres southeast of St. Petersburg and some 800 kilometres from Ukraine's border. It last stopped all processing after the Aug 30, 2026 attack, when two of its primary distillation units were damaged; this is the first strike on the plant since August.",
+   "vintage": "Nov 9, 2026",
+   "source": "Baltic Security Monitor",
+   "source_url": "https://osint-baltic.com/zaporizhzhia-power-kirishi-fire-en/"
   },
   {
    "text": "Follow-up on the Saratov strike: Ukrainian drones hit Rosneft's Saratov oil refinery overnight into Nov 7, where several separate fires were observed across the site, Defense Magazine reported on Nov 7, citing the monitoring resource Exilenova+ and Militarnyi. The same night, a missile strike hit the Proton plant in Oryol, which produces optoelectronics and semiconductor components used in Russian military systems; a fire was reported near Building No. 48, and Militarnyi reported Flamingo cruise missiles were likely involved, a detail not officially confirmed. Defense Magazine put Saratov's design capacity at around 7 million tonnes of oil a year, producing gasoline, diesel, marine fuel and bitumen, and said Militarnyi reported the refinery was last struck on Sep 11. No official assessment of damage to either site or of any impact on Saratov's operations had been published in the reporting here.",
@@ -677,6 +689,11 @@
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "publisher": "Reuters (via Euronext Live); Cornerstone Futures; Baltic Security Monitor",
+   "vintage": "",
+   "url": "https://live.euronext.com/en/financial-news/oil-falls-trump-signals-restraint-iran-amid-fresh-hormuz-shipping-attacks"
+  },
+  {
    "publisher": "Vigil Consilium",
    "vintage": "",
    "url": "https://vigilconsilium.com/briefs/2026-11-08/ukraine-russia/"
@@ -840,6 +857,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Baltic Security Monitor",
+   "vintage": "",
+   "url": "https://osint-baltic.com/zaporizhzhia-power-kirishi-fire-en/"
   },
   {
    "publisher": "Defense Magazine",
