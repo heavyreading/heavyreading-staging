@@ -2,9 +2,21 @@
  "page": "/world/china-imports/",
  "title": "China Import Watch",
  "dek": "China's crude buying: import volumes, sourcing shifts, teapot run rates, and what it means for sour barrel demand.",
- "built_at": "2026-11-09",
+ "built_at": "2026-11-10",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "OilPrice.com reported on Nov 10, citing Reuters reporting of official customs data, that China's crude oil imports rose in October to 41.94 million tons, about 9.88 million barrels per day (b/d), the highest since March and up 9.4 percent on September on a daily basis. Seaborne imports rose 12 percent from September, according to Kpler data cited in the report. October imports were still 13.3 percent below October 2025, and imports in the first ten months of 2026 were 15.1 percent lower than in the same period of 2025. Imports from Saudi Arabia rose markedly to 1.62 million b/d, in line with the Saudi monthly total a year earlier, after Chinese buyers had sharply cut purchases from the region earlier in the year, OilPrice.com said.",
+   "vintage": "Published Nov 10, 2026; accessed 2026-11-10",
+   "source": "OilPrice.com (reporting Reuters and customs data)",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/China-Is-Buying-Oil-Again-After-Months-of-Living-Off-Its-Stockpiles.html"
+  },
+  {
+   "text": "Reuters reported on Nov 10 that China's seaborne crude arrivals rose 12 percent from September to about 9.2 million barrels per day (b/d) in October, their highest since March, according to Kpler data, while Kpler and Vortexa recorded a surge in imports from Saudi Arabia, putting October arrivals at 1.6 million b/d and 2 million b/d respectively. Energy Aspects estimated that China's refinery throughput fell from September levels to 13.75 million b/d in October, Reuters said.",
+   "vintage": "Published Nov 10, 2026; accessed 2026-11-10",
+   "source": "Reuters",
+   "source_url": "https://mymixfm.com/2026/11/09/chinas-october-crude-oil-imports-rise-to-highest-level-since-march-amid-middle-east-war/"
+  },
   {
    "text": "Reuters columnist Clyde Russell wrote on Nov 2 that Asia's crude oil imports recovered in October to 26.39 million barrels per day, up from 24.24 million in September and just shy of the 27.0 million average in the three months before the February 28 attack on Iran, citing Kpler data. Asia's imports sourced through the Strait of Hormuz rose to 7.42 million barrels per day in October, still well below the 13.06 million pre-war average, and arrivals from Russia rose to 3.50 million barrels per day.",
    "vintage": "Published Nov 2, 2026; accessed 2026-11-02",
@@ -42,10 +54,10 @@
    "source_url": "https://boereport.com/2026/09/15/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise-russell/"
   },
   {
-   "text": "Kpler data cited by Maritime Professional (Sep 23, 2026) put Asia on course to import 23.96 million b/d of crude in September, up from 23.38 million in August and the highest since February, extending the recovery from April's decade-plus low. Even so, September remained 13% below the 27.55 million b/d three-month pre-conflict average through February.",
-   "vintage": "Prelim data: Sep 2026; published Sep 23, 2026; accessed 2026-09-24",
-   "source": "Maritime Professional (citing Kpler)",
-   "source_url": "https://logistics.maritimeprofessional.com/transportation/2026/09/23/after-the-iran-conflict-crude-oil-imports-to-asia-hit-a-high-in-september-but-remain-weak"
+   "text": "Reuters reported on Nov 5 that several independent refiners in China's eastern Shandong province bought 8 million to 10 million barrels of November-loading West African crude in the previous week, while sellers of West African and Brazilian crude offered steeper discounts to Chinese buyers to offset high freight costs, intensifying competition with Gulf grades. Unsold December-loading cargoes of Oman, Murban and Iraqi crude from the previous trading cycle also pressured spot premiums, traders told Reuters.",
+   "vintage": "Published Nov 5, 2026; accessed 2026-11-10",
+   "source": "Reuters (via Baird Maritime)",
+   "source_url": "https://www.bairdmaritime.com/shipping/tankers/war-premiums-fade-as-middle-east-crude-floods-asian-buyers"
   },
   {
    "text": "OilPrice.com reported on Nov 9, citing Iran International reporting of leaked confidential correspondence and Iranian Oil Ministry sources, that Iran has been using oil terminals and storage facilities in China to ship its oil to its biggest buyer and keep sanctioned tankers operating despite US sanctions. Acting oil minister Hamid Bovard wrote that Iran's Foreign Ministry had negotiated buying port facilities and oil terminals in China to establish a hub for sanctioned Iranian crude, and that Tehran had also secured long-term leases on large storage facilities in several Chinese locations, OilPrice.com said. Ministry sources told Iran International that Iran has bought control of port facilities at three locations in China and stakes in docks in Shandong province, home to China's independent refiners, and that sanctioned vessels linked to Hossein Shamkhani transported the crude to the Iran-controlled facilities.",
@@ -114,10 +126,10 @@
    "source_url": "https://energiesmedia.com/saudi-aramco-arab-light-price-cut-energy/"
   },
   {
-   "text": "Saudi Arabia left its October-loading Arab Light official selling price (OSP) to Asia unchanged, according to Reuters reporting via TradingView on Sep 3, 2026, pausing the easing that had taken the September price to a $2/bbl discount against the regional benchmark.",
-   "vintage": "Announced Sep 3, 2026; accessed 2026-09-24",
-   "source": "TradingView (citing Reuters)",
-   "source_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N44V0N1:0-saudi-arabia-leaves-arab-light-crude-oil-osp-to-asia-for-october-unchanged/"
+   "text": "Reuters reported on Nov 5 that China released a larger than expected fourth batch of fuel export quotas in the previous week, which raised expectations of increased refined product supply in Asia and weighed on regional refining margins.",
+   "vintage": "Published Nov 5, 2026; accessed 2026-11-10",
+   "source": "Reuters (via Baird Maritime)",
+   "source_url": "https://www.bairdmaritime.com/shipping/tankers/war-premiums-fade-as-middle-east-crude-floods-asian-buyers"
   },
   {
    "text": "Reuters columnist Gavin Maguire wrote on Oct 5 that China's suspension of fuel exports for October left India best placed to fill the resulting hole in Asian fuel supply. Citing Kpler data, he reported India has 23 refineries able to process about 5.6 million b/d and was the larger fuel exporter in 2025 (about 47 million tonnes of diesel, gasoline and jet fuel versus China's 25.4 million), though India's fuel exports in the first nine months of 2026 were down roughly 23%, or about 8 million tonnes, year on year. He noted two recent cuts to India's fuel-export taxes and a rebound in Middle East crude deliveries to India, which hit 11.3 million tonnes in September, the highest since February, as signs India can step back into the export market.",
@@ -150,12 +162,6 @@
    "source_url": "https://www.idnfinancials.com/news/69072/chinas-refined-oil-product-exports-surge-in-august"
   },
   {
-   "text": "Baird Maritime (Sep 21, 2026, citing GAC customs data) reported China's August fuel oil exports fell to 1.21 million tonnes (about 247,000 b/d), down 35% month on month and 27% year on year, the lowest since October 2024, partly on weather disruption at the Zhoushan bunkering hub. Fuel oil imports were 1.3 million tonnes, up 15% month on month and down 11% year on year; crude throughput climbed for a second month, supported by stronger fuel exports after Beijing eased export restrictions in mid-July.",
-   "vintage": "Data: Aug 2026; published Sep 21, 2026; accessed 2026-09-24",
-   "source": "Baird Maritime (citing GAC customs data)",
-   "source_url": "https://www.bairdmaritime.com/shipping/tankers/china-fuel-oil-exports-slide-to-levels-not-seen-since-2024"
-  },
-  {
    "text": "OilPrice.com reported on Oct 28, citing Vortexa data reported by Bloomberg, that freight on the main Atlantic to Asia crude routes has eased by about $10 a barrel from the first week of October, when US Gulf Coast to South Korea shipping topped $42 a barrel, Brazil to China topped $39 and West Africa to China topped $32. A supertanker voyage from the US to Asia still cost about $60 million last week, and Asian refiners are ordering little US crude for November delivery at those rates.",
    "vintage": "Published Oct 28, 2026; accessed 2026-11-02",
    "source": "OilPrice.com (citing Bloomberg and Vortexa data)",
@@ -184,12 +190,6 @@
    "vintage": "Data: Sep 11, 2026; published Sep 23, 2026; accessed 2026-09-24",
    "source": "Tide Signal News (citing Reuters/Baltic Exchange)",
    "source_url": "https://tidesignalnews.com/vlcc-rates-ws450-gulf-oman-china/"
-  },
-  {
-   "text": "Vessel Hunter News (Sep 22, 2026, citing Baltic Exchange data) reported the TD3C Middle East Gulf to China very large crude carrier (VLCC) time-charter equivalent reached $1.2125 million a day on Sep 17, up 40.6% on the week and roughly ten times the $117,400 a day before the February conflict. TD15 West Africa to Far East hit $524,500 a day and TD22 US Gulf to Far East $388,400 a day; the China Crude Oil Tanker Freight Index stood at 14,575 points on Sep 16, about 83% above its early-September level.",
-   "vintage": "Data: Sep 16-17, 2026; published ~Sep 22, 2026; accessed 2026-09-24",
-   "source": "Vessel Hunter News (citing Baltic Exchange data)",
-   "source_url": "https://vesselhunter.io/news/vlcc-freight-26-dollars-a-barrel-us-gulf-asia-crude"
   },
   {
    "text": "The Centre for Research on Energy and Clean Air (CREA) reported on Nov 5 that reduced crude oil stockpiling accounted for 47 percent of the year-on-year drop in China's crude imports between March and August 2026, as temporary adjustments cushioned the Hormuz import shock. Electric vehicles displaced 38 million tonnes of oil equivalent in March to August 2026, equivalent to around 13 percent of China's crude oil imports in the same period of 2025, and growth in non-fossil generation reduced coal and gas requirements, saving an estimated $9.1 billion in fossil fuel imports since 2020, more than any other country, CREA said. Its analysis is based on National Bureau of Statistics data for domestic fuel production, refinery throughput and oil product output, and General Administration of Customs import and export volumes.",
@@ -242,6 +242,16 @@
  ],
  "sources": [
   {
+   "publisher": "OilPrice.com (reporting Reuters and customs data)",
+   "vintage": "",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/China-Is-Buying-Oil-Again-After-Months-of-Living-Off-Its-Stockpiles.html"
+  },
+  {
+   "publisher": "Reuters",
+   "vintage": "",
+   "url": "https://mymixfm.com/2026/11/09/chinas-october-crude-oil-imports-rise-to-highest-level-since-march-amid-middle-east-war/"
+  },
+  {
    "publisher": "Reuters (via BOE Report)",
    "vintage": "",
    "url": "https://boereport.com/2026/11/01/asias-crude-oil-imports-back-to-pre-war-levels-but-refined-fuels-lag-russell/amp/"
@@ -272,9 +282,9 @@
    "url": "https://boereport.com/2026/09/15/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise-russell/"
   },
   {
-   "publisher": "Maritime Professional (citing Kpler)",
+   "publisher": "Reuters (via Baird Maritime)",
    "vintage": "",
-   "url": "https://logistics.maritimeprofessional.com/transportation/2026/09/23/after-the-iran-conflict-crude-oil-imports-to-asia-hit-a-high-in-september-but-remain-weak"
+   "url": "https://www.bairdmaritime.com/shipping/tankers/war-premiums-fade-as-middle-east-crude-floods-asian-buyers"
   },
   {
    "publisher": "OilPrice.com (citing Iran International)",
@@ -322,11 +332,6 @@
    "url": "https://energiesmedia.com/saudi-aramco-arab-light-price-cut-energy/"
   },
   {
-   "publisher": "TradingView (citing Reuters)",
-   "vintage": "",
-   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N44V0N1:0-saudi-arabia-leaves-arab-light-crude-oil-osp-to-asia-for-october-unchanged/"
-  },
-  {
    "publisher": "Reuters (Gavin Maguire commentary; reprinted by The Hindu Business Line)",
    "vintage": "",
    "url": "https://www.thehindubusinessline.com/markets/commodities/india-poised-to-fill-fuel-export-gap-as-china-suspends-october-shipments/article71546098.ece"
@@ -352,11 +357,6 @@
    "url": "https://www.idnfinancials.com/news/69072/chinas-refined-oil-product-exports-surge-in-august"
   },
   {
-   "publisher": "Baird Maritime (citing GAC customs data)",
-   "vintage": "",
-   "url": "https://www.bairdmaritime.com/shipping/tankers/china-fuel-oil-exports-slide-to-levels-not-seen-since-2024"
-  },
-  {
    "publisher": "OilPrice.com (citing Bloomberg and Vortexa data)",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Refiners-Turn-to-Africa-and-Brazil-Crude-as-Freight-Rates-Ease.html"
@@ -375,11 +375,6 @@
    "publisher": "Tide Signal News (citing Reuters/Baltic Exchange)",
    "vintage": "",
    "url": "https://tidesignalnews.com/vlcc-rates-ws450-gulf-oman-china/"
-  },
-  {
-   "publisher": "Vessel Hunter News (citing Baltic Exchange data)",
-   "vintage": "",
-   "url": "https://vesselhunter.io/news/vlcc-freight-26-dollars-a-barrel-us-gulf-asia-crude"
   },
   {
    "publisher": "Centre for Research on Energy and Clean Air (CREA)",

@@ -2,9 +2,27 @@
  "page": "/world/middle-east/",
  "title": "Middle East watch",
  "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
- "built_at": "2026-11-09",
+ "built_at": "2026-11-10",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Nov 10 that two oil tankers attempting to navigate an unauthorized route through the Strait of Hormuz had suffered massive explosions and been left in flames, Press TV reported. In a statement on Tuesday, the IRGC Navy's public relations office said one vessel, identified as a supertanker, hit a naval mine and suffered an explosion, while the second tanker, which it said was operating under the protection of US military aircraft, encountered an incident and caught fire while attempting to cross the waterway through an illegal route. The statement said both vessels had switched off their navigation and identification systems, named no vessels, flags, owners or casualties, and warned that vessels cooperating with US forces would face similar consequences. The claim had not been independently verified in the reporting here.",
+   "vintage": "Nov 10, 2026",
+   "source": "Press TV",
+   "source_url": "https://www.presstv.co.uk/Detail/2026/11/10/780399/irgc-navy-two-violating-oil-tankers-catch-fire-in-strait-of-hormuz"
+  },
+  {
+   "text": "Oil prices fell again on Nov 10, extending the previous session's losses, after President Donald Trump downplayed the need for additional military action against Iran at this point, Reuters reported. Brent crude futures declined 1.7 percent to $90.99 a barrel at 0759 GMT, while US West Texas Intermediate (WTI) futures fell 1.8 percent to $85.20 a barrel. Trump said on Monday that he plans to hold off on new military strikes against Iran for the time being after appeals from countries in the region, including from Qatar's prime minister in White House talks, and said in a Reuters interview and a later appearance in the White House press briefing room that he plans to keep up the naval blockade in the Strait of Hormuz for now. Brent has retreated about 22 percent from the six-month high of $118 it touched on Oct 30. Eurasia Group senior analyst Gregory Brew said prices are unlikely to fall below $90 a barrel for Brent without more durable signs of de-escalation and a US-Iran deal, and that risks to shipping remain high as Iran continues to attack vessels transiting the strait.",
+   "vintage": "Nov 10, 2026",
+   "source": "Reuters (via MarineLink)",
+   "source_url": "https://www.marinelink.com/news/oil-prices-slide-trump-signals-pause-iran-544249"
+  },
+  {
+   "text": "Oil prices slid on Nov 9 after President Donald Trump downplayed the likelihood of renewed strikes on Iran, Reuters reported. Brent crude futures settled down $5.75, or 5.85 percent, at $92.57 a barrel and continued falling after settlement to lose more than $7 a barrel, hitting their lowest since late August, while US West Texas Intermediate (WTI) futures settled down $3.98, or 4.38 percent, to $86.85 a barrel. Trump said on Sunday that he was highly unlikely to order fresh attacks on Iran as long as talks to end the conflict progressed, even as both countries reported that shipping had been hit in or near the Strait of Hormuz. Iraq's Foreign Minister Fuad Hussein said in an interview with Al Jazeera on Sunday that Iraq has reached understandings with the United States to allow Iraqi oil exports through the Strait of Hormuz via a shipping lane near Oman, Reuters reported in the same article.",
+   "vintage": "Nov 9, 2026",
+   "source": "Reuters (via SRN News)",
+   "source_url": "https://srnnews.com/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely/"
+  },
   {
    "text": "Production was halted on Sunday, Nov 8, at Iraq's Khor Mor gas field, one of the largest in the Kurdistan region, after a suspected drone attack, Reuters reported, citing joint field operator Dana Gas. Dana Gas said in a statement on Monday that it was assessing the damage after dousing a fire sparked by the attack, with no injuries to staff. About 2.8 gigawatts of power generation in the Kurdistan region was taken out by the attack, the region's electricity ministry said. Two sources in the ministry said a single drone strike hit the LPG storage tank in the field, causing the fire, and employees were evacuated to shelters. The region's natural resources and electricity ministries described the incident as a terrorist attack in a joint statement. There was no claim of responsibility for Sunday's attack, and no restart timetable was given in the reporting here.",
    "vintage": "Nov 8, 2026",
@@ -1783,6 +1801,21 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "Press TV",
+   "vintage": "",
+   "url": "https://www.presstv.co.uk/Detail/2026/11/10/780399/irgc-navy-two-violating-oil-tankers-catch-fire-in-strait-of-hormuz"
+  },
+  {
+   "publisher": "Reuters (via MarineLink)",
+   "vintage": "",
+   "url": "https://www.marinelink.com/news/oil-prices-slide-trump-signals-pause-iran-544249"
+  },
+  {
+   "publisher": "Reuters (via SRN News)",
+   "vintage": "",
+   "url": "https://srnnews.com/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely/"
+  },
   {
    "publisher": "Reuters (via 98.5 The River)",
    "vintage": "",

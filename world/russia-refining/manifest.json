@@ -2,9 +2,15 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-11-09",
+ "built_at": "2026-11-10",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "A tanker carrying roughly 40,000 metric tons of Russian diesel was still crossing the North Atlantic on Sunday afternoon, Nov 8, with its destination listed as to be nominated, days after ship-tracking data had expected it in the New York area, Military.com reported on Nov 9. No American port has taken any Russian fuel since President Donald Trump announced the diesel deal with Moscow last month, according to tracking data and industry reporting. The Malta-flagged Agioi Fanendes loaded at Russia's Primorsk terminal on Oct 22 and initially signaled the Port of New York and New Jersey; Automatic Identification System data published by tracking service Rynda showed it still underway at about 10 knots early on Monday, Nov 9, and its manager, Eastern Mediterranean Maritime, told Reuters that no unloading port or country has been finalized. Two other tankers that loaded Russian diesel and declared US destinations have already turned, the Talisman into the Mediterranean and the Leruo toward Brazil, according to vessel tracking reported by the Associated Press and the Financial Times. New Jersey Governor Mikie Sherrill has warned the state's port and terminal operators that unloading such a cargo could bring civil penalties equal to the fuel's full value under the 2022 import ban.",
+   "vintage": "Nov 9, 2026",
+   "source": "Military.com",
+   "source_url": "https://www.military.com/new-jerseys-navy-veteran-governor-warned-ports-off-russian-diesel-no-tanker-has-docked-yet"
+  },
   {
    "text": "At least six Russian diesel cargoes have broadcast that they plan transatlantic voyages to the United States under Moscow's October diesel export deal with Washington, shipping data from Kpler and LSEG showed, Reuters reported on Nov 5, while two cargoes appeared to have changed course after previously being bound for the US Atlantic coast. No Russian diesel cargo has arrived in the United States since the deal, and the first observed US-bound shipment is expected to arrive in New York this weekend, but regulatory, legislative and sanctions concerns mean its discharge is not guaranteed, Kpler analyst Matt Smith told Reuters. Kremlin spokesman Dmitry Peskov said the cargoes are commercial loadings whose details cannot be made public and denied any connection between tankers changing course and the US midterm election result, which President Donald Trump's Republican Party lost; Kremlin envoy Kirill Dmitriev said Russian diesel cargoes destined for the US are continuing on course. Asked late on Thursday about a 2022 US law that could make a Russian diesel cargo illegal to land, Trump said he would take a look at it.",
    "vintage": "Nov 5, 2026",
@@ -94,6 +100,18 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "Renewed Ukrainian drone attacks on Russian oil refineries since late October have reduced Russia's oil refining capacity by about 30 percent, two industry sources told Reuters in an exclusive published on Nov 10. Ukrainian attacks disrupted operations and caused emergency situations at nine of Russia's 35 major refineries over the past week, according to the sources and officials. The combined daily nameplate capacity of refineries affected since late October, including three major plants in central Russia, stands at around 300,000 metric tons, or 2.2 million barrels per day, compared with total primary refining capacity of about 930,000 tons per day, and at the end of October Russian refineries were processing about 700,000 tons, or 5 million barrels, of crude per day, the sources said. They estimated the actual reduction in crude processing could be up to 200,000 tons per day, with affected plants including refineries in Ryazan, Yaroslavl and the Volga region. The same report said a Ukrainian drone struck the Kirishi refinery on Monday, Nov 9, setting it on fire, and that Governor Alexander Drozdenko said one woman had been killed in the attack, a casualty not reported in the initial Nov 9 coverage on this page. Russian Foreign Minister Sergei Lavrov said in an article published on Tuesday in Kommersant that Ukraine was ignoring Trump's calls to stop strikes on Russian energy targets.",
+   "vintage": "Nov 10, 2026",
+   "source": "Reuters (via Devdiscourse)",
+   "source_url": "https://www.devdiscourse.com/article/international/4004526-exclusive-recent-ukrainian-attacks-have-reduced-russias-oil-processing-capacity-by-30-sources-say"
+  },
+  {
+   "text": "Three-way talks between Russia, Ukraine and the United States opened in Abu Dhabi on Nov 10, the first such meeting since February, the Associated Press reported. The two-day session will focus on security guarantees, the White House said before the discussions. US envoy Steve Witkoff and Jared Kushner are mediating; Ukraine's delegation is led by Rustem Umerov, head of its Foreign Intelligence Service, and Russia's by presidential aide Vladimir Medinsky. Kushner said he believed there were some good ideas to bridge the differences between the two sides, while German Chancellor Friedrich Merz said on Monday night that he did not have overly high expectations for the talks. The two sides remain far apart: President Vladimir Putin wants Ukraine to pull its troops back from the four regions Moscow annexed in September 2022 and to abandon its bid to join NATO, while President Volodymyr Zelensky rejects ceding territory Russia has not taken and rejects limits on Ukraine's military. The talks took place against a backdrop of new long-range strikes, with Ukraine saying Russia launched 162 drones and a ballistic missile overnight and Russia saying it shot down 155 Ukrainian drones overnight.",
+   "vintage": "Nov 10, 2026",
+   "source": "Associated Press (via Glasgow Times)",
+   "source_url": "https://www.glasgowtimes.co.uk/news/national/26715613.us-mediated-talks-ending-russia-ukraine-war-begin-abu-dhabi/"
   },
   {
    "text": "Reuters reported on Nov 9 that Russia's Kirishi oil refinery was set on fire after a Ukrainian drone attack on the region on Monday, citing Governor Alexander Drozdenko. Cornerstone Futures reported the same morning that the fire broke out and has been contained, that 113 drones were downed over the region, and that Kirishi processes 400,000 barrels per day, making it one of Russia's largest refineries, producing diesel, gasoline and fuel oil mainly for export. Surgutneftegas, the owner, had not commented, and Ukrainian military officials had not either, Cornerstone said, adding that Bloomberg notes Ukraine is striking Russian energy assets almost daily. The strike landed on the eve of US mediated working level talks between Ukraine and Russia due in Abu Dhabi on Nov 10 to 11, with Reuters reporting Steve Witkoff and Jared Kushner will lead the US side, the Baltic Security Monitor said.",
@@ -614,6 +632,11 @@
  ],
  "sources": [
   {
+   "publisher": "Military.com",
+   "vintage": "",
+   "url": "https://www.military.com/new-jerseys-navy-veteran-governor-warned-ports-off-russian-diesel-no-tanker-has-docked-yet"
+  },
+  {
    "publisher": "Reuters (via SRN News)",
    "vintage": "",
    "url": "https://srnnews.com/renewed-refinery-attacks-deplete-russian-diesel-supply-as-us-deal-in-focus/"
@@ -687,6 +710,16 @@
    "publisher": "Maritime Professional (citing traders)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "publisher": "Reuters (via Devdiscourse)",
+   "vintage": "",
+   "url": "https://www.devdiscourse.com/article/international/4004526-exclusive-recent-ukrainian-attacks-have-reduced-russias-oil-processing-capacity-by-30-sources-say"
+  },
+  {
+   "publisher": "Associated Press (via Glasgow Times)",
+   "vintage": "",
+   "url": "https://www.glasgowtimes.co.uk/news/national/26715613.us-mediated-talks-ending-russia-ukraine-war-begin-abu-dhabi/"
   },
   {
    "publisher": "Reuters (via Euronext Live); Cornerstone Futures; Baltic Security Monitor",

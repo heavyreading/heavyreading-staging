@@ -2,7 +2,7 @@
  "page": "/world/refinery-margins/",
  "title": "Refinery margins watch",
  "dek": "Crack spreads, utilization, and turnarounds: how refinery economics set the bid for discounted heavy barrels like Western Canadian Select (WCS).",
- "built_at": "2026-11-09",
+ "built_at": "2026-11-10",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -28,6 +28,24 @@
    "vintage": "Jul 17, 2026; accessed 2026-09-24",
    "source": "Reuters (via BOE Report)",
    "source_url": "https://boereport.com/2026/07/16/us-refiner-margins-hit-new-records-as-fuel-shortage-concerns-grow/"
+  },
+  {
+   "text": "The US 3-2-1 crack spread stood at $39.32 a barrel on Nov 3, 2026, in the Eco3min composite built from US Energy Information Administration (EIA) spot prices for West Texas Intermediate at Cushing, New York Harbor conventional gasoline and New York Harbor No. 2 heating oil. The reading sits at the 96.7th percentile of the daily history since June 1986, against a historical average of $12.46 a barrel, and below the record of $78.92 a barrel set on Sep 25, 2026, Eco3min said.",
+   "vintage": "Data: Nov 3, 2026; dataset updated Nov 3, 2026; accessed 2026-11-10",
+   "source": "Eco3min (EIA spot prices composite)",
+   "source_url": "https://eco3min.fr/en/us-321-crack-spread-dataset/"
+  },
+  {
+   "text": "Reuters reported on Nov 5 that Asian refining margins cooled from their September records: Asian refiners' profit for gasoline slumped to its lowest since late February, while margins for 10 parts per million sulphur diesel were slightly above $60 a barrel, down from a record high of more than $87 a barrel in mid-September, LSEG data showed. Asian refiners are unlikely to increase crude purchases unless refining margins improve, a market participant told Reuters.",
+   "vintage": "Published Nov 5, 2026; accessed 2026-11-10",
+   "source": "Reuters (via Baird Maritime; LSEG data)",
+   "source_url": "https://www.bairdmaritime.com/shipping/tankers/war-premiums-fade-as-middle-east-crude-floods-asian-buyers"
+  },
+  {
+   "text": "Gibson Energy said on its third-quarter 2026 earnings call on Nov 3 that its marketing business delivered $35 million of adjusted EBITDA, up from $7 million a year earlier, driven primarily by exceptionally strong refining margins at its Moose Jaw facility, and that it had hedged some of its distillate exposure into 2027 to lock in part of those profits. Consolidated adjusted EBITDA was a record $193 million and distributable cash flow was $120 million, the company said.",
+   "vintage": "Earnings call Nov 3, 2026; accessed 2026-11-10",
+   "source": "Gibson Energy (Q3 2026 earnings call, via Roic AI transcript)",
+   "source_url": "https://www.roic.ai/quote/GBNXF/transcripts"
   },
   {
    "text": "OilPrice.com reported on Nov 5 that US refineries produced a smaller share of gasoline from every barrel processed in 2026 and shifted output toward diesel and jet fuel, citing Energy Information Administration (EIA) Petroleum Supply Monthly data through August published that day. Gasoline yields averaged below 45 percent from January through August, below the previous five-year low in every month, while distillate fuel oil yields exceeded their five-year average in every month, and jet fuel's share of output exceeded 12 percent in March for the first time on record and stayed at or above that level through August, the EIA said. The agency attributed the shift to particularly high refinery margins for distillate fuel oil and jet fuel.",
@@ -168,18 +186,6 @@
    "source_url": "https://boereport.com/2026/10/07/us-crude-stocks-and-distillate-inventories-fall-gasoline-inventories-rise-eia-says/"
   },
   {
-   "text": "ExxonMobil entered Friday, September 18 with its 275,000 barrel-per-day Joliet, Illinois refinery still shut, roughly a week after the September 13 power outage and a subsequent flood that overwhelmed a pump, with no firm restart timetable given. The plant produces about 11 million gallons of gasoline and diesel per day and accounts for roughly 6 percent of Midwest refining capacity, making each extra offline day a material hole in regional supply.",
-   "vintage": "Event: Sep 18, 2026; published Sep 21, 2026; accessed 2026-09-28",
-   "source": "GuruFocus (via TradingView)",
-   "source_url": "https://www.tradingview.com/news/gurufocus:499cf5225094b:0-exxon-s-275-000-barrel-a-day-joliet-refinery-remains-offline/"
-  },
-  {
-   "text": "Several units at ExxonMobil's Joliet refinery returned to service on Wednesday, Sep 23, starting the restart of the full plant after the September 13 site-wide shutdown, and the refinery was reported back in service around Sep 27. Detail sits behind a paywall; the restart arc is confirmed by the publisher's own headlines and the public restart sequence.",
-   "vintage": "Events: Sep 23-27, 2026; published Sep 24-27, 2026; accessed 2026-09-28",
-   "source": "Quantum Commodity Intelligence",
-   "source_url": "https://www.qcintel.com/article/exxonmobil-says-illinois-refinery-back-in-service-73941.html"
-  },
-  {
    "text": "IndexBox reported on Oct 23, citing Platts, that Enbridge Mainline apportionment for November stands at 19 percent for light crude at Kerrobert and 7 percent for heavy crude at Kerrobert, with a further 16 percent heavy point at Superior, up from 8 percent for lights and 4 percent for heavies in October. Trans Mountain apportionment for October stands at 7 percent, and the system was 90 percent full in September.",
    "vintage": "Published Oct 23, 2026; accessed 2026-10-26",
    "source": "IndexBox (reporting S&P Global Platts)",
@@ -238,12 +244,6 @@
    "vintage": "Dec 2025 guidance; accessed 2026-09-24",
    "source": "Oil and Gas Journal (citing Imperial Oil 2026 guidance)",
    "source_url": "https://www.ogj.com/refining-processing/refining/operations/news/55338848/imperial-plans-2026-turnarounds-at-two-canadian-refineries"
-  },
-  {
-   "text": "Irving Oil's 320,000 barrel-per-day Saint John, New Brunswick refinery, Canada's largest, began a two-month turnaround in September 2026 running to mid-November, an extended maintenance window over its historical 30 to 35 day turnarounds.",
-   "vintage": "Jul 17, 2026; accessed 2026-09-24",
-   "source": "Reuters (via Pipeline and Gas Journal)",
-   "source_url": "https://pgjonline.com/news/2026/july/irving-oils-saint-john-refinery-to-begin-fall-turnaround-in-september"
   }
  ],
  "sources": [
@@ -256,6 +256,21 @@
    "publisher": "Reuters (via BOE Report)",
    "vintage": "",
    "url": "https://boereport.com/2026/07/16/us-refiner-margins-hit-new-records-as-fuel-shortage-concerns-grow/"
+  },
+  {
+   "publisher": "Eco3min (EIA spot prices composite)",
+   "vintage": "",
+   "url": "https://eco3min.fr/en/us-321-crack-spread-dataset/"
+  },
+  {
+   "publisher": "Reuters (via Baird Maritime; LSEG data)",
+   "vintage": "",
+   "url": "https://www.bairdmaritime.com/shipping/tankers/war-premiums-fade-as-middle-east-crude-floods-asian-buyers"
+  },
+  {
+   "publisher": "Gibson Energy (Q3 2026 earnings call, via Roic AI transcript)",
+   "vintage": "",
+   "url": "https://www.roic.ai/quote/GBNXF/transcripts"
   },
   {
    "publisher": "OilPrice.com (citing EIA)",
@@ -373,16 +388,6 @@
    "url": "https://boereport.com/2026/10/07/us-crude-stocks-and-distillate-inventories-fall-gasoline-inventories-rise-eia-says/"
   },
   {
-   "publisher": "GuruFocus (via TradingView)",
-   "vintage": "",
-   "url": "https://www.tradingview.com/news/gurufocus:499cf5225094b:0-exxon-s-275-000-barrel-a-day-joliet-refinery-remains-offline/"
-  },
-  {
-   "publisher": "Quantum Commodity Intelligence",
-   "vintage": "",
-   "url": "https://www.qcintel.com/article/exxonmobil-says-illinois-refinery-back-in-service-73941.html"
-  },
-  {
    "publisher": "IndexBox (reporting S&P Global Platts)",
    "vintage": "",
    "url": "https://www.indexbox.io/blog/canadian-crude-pipelines-raise-apportionment-as-heavy-oil-discounts-widen/"
@@ -431,11 +436,6 @@
    "publisher": "Oil and Gas Journal (citing Imperial Oil 2026 guidance)",
    "vintage": "",
    "url": "https://www.ogj.com/refining-processing/refining/operations/news/55338848/imperial-plans-2026-turnarounds-at-two-canadian-refineries"
-  },
-  {
-   "publisher": "Reuters (via Pipeline and Gas Journal)",
-   "vintage": "",
-   "url": "https://pgjonline.com/news/2026/july/irving-oils-saint-john-refinery-to-begin-fall-turnaround-in-september"
   }
  ]
 }

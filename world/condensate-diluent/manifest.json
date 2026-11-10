@@ -2,7 +2,7 @@
  "page": "/world/condensate-diluent/",
  "title": "Condensate and diluent watch",
  "dek": "The other half of every Western Canadian Select (WCS) barrel: what diluent is, where Alberta's condensate comes from, the structural import shortfall, and the cost it puts on the heavy barrel.",
- "built_at": "2026-11-09",
+ "built_at": "2026-11-10",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -102,6 +102,12 @@
    "source_url": "https://www.oilsandsmagazine.com/market-insights/crude-oil-pricing-differentials-why-alberta-crude-sells-at-deep-discount-to-wti"
   },
   {
+   "text": "Pembina said in its Nov 5 third-quarter guidance discussion that it expects a higher fourth-quarter contribution from the Cochin Pipeline, its condensate import line into Alberta, driven by higher interruptible volumes arising from more favourable commodity price differentials. Pembina also announced a non-binding agreement to participate in Pacific Link, a proposed crude pipeline system of about 1 million barrels per day connecting Alberta to Canada's West Coast with a related export terminal, which the Government of Canada listed on Oct 1 as a Project of National Interest, the company said.",
+   "vintage": "Q3 2026 results Nov 5, 2026; accessed 2026-11-10",
+   "source": "Pembina Pipeline (Q3 2026 results)",
+   "source_url": "https://cdn.prod.nntech.io/company-events/reports/33be3b7a-6029-3b1d-91a9-2066a9601ab6/report.pdf"
+  },
+  {
    "text": "Enbridge executives said on Nov 6 that the company is poised to capture oilsands growth opportunities in northeastern Alberta, including diluent supply and carbon storage as well as crude pipelines, The Canadian Press reported. Colin Gruending, president of liquids pipelines, noted Enbridge can move diluent, the light product used to thin oilsands crude for pipeline transport, from domestic producers and can also import it to Edmonton from Illinois on its Southern Lights pipeline. Enbridge has also given the go-ahead to a $200 million expansion of pipeline and storage infrastructure serving the Long Lake project operated by China National Offshore Oil Corp., the report said.",
    "vintage": "Published Nov 6, 2026; accessed 2026-11-09",
    "source": "The Canadian Press",
@@ -160,6 +166,12 @@
    "vintage": "Aug 16, 2019; accessed 2026-09-24",
    "source": "BOE Report (citing Eight Capital)",
    "source_url": "https://boereport.com/2019/08/16/oilsands-firms-considering-diluent-recovery-units-to-boost-crude-by-rail-volumes/"
+  },
+  {
+   "text": "Pembina Pipeline, in its third-quarter 2026 results released Nov 5, described what it calls an Energy Flywheel in the Western Canadian Sedimentary Basin: greater crude oil egress would support higher oil sands production, driving increased demand for condensate, and the increase in liquids-rich natural gas production could in turn support incremental opportunities across gas processing, transportation and fractionation. Pembina also raised its 2026 adjusted EBITDA guidance range to $4.45 billion to $4.55 billion, from $4.35 billion to $4.55 billion, and said it is trending to the upper end of the range.",
+   "vintage": "Q3 2026 results Nov 5, 2026; accessed 2026-11-10",
+   "source": "Pembina Pipeline (Q3 2026 results)",
+   "source_url": "https://cdn.prod.nntech.io/company-events/reports/33be3b7a-6029-3b1d-91a9-2066a9601ab6/report.pdf"
   },
   {
    "text": "Oil Sands Magazine reported on Oct 29 that Alberta producers are diverting crude from the US Midwest to the West Coast, with October nominations on the Trans Mountain system apportioned by 7 percent, and that Midwest refinery outages, including ExxonMobil's Joliet plant recovering from a mid-September site-wide power outage and Cenovus's Toledo refinery returning from a fall turnaround, dented Midwest demand for Canadian heavy crude in October. Fewer dilbit barrels moving to the Midwest means less condensate blended and shipped with them.",
@@ -280,6 +292,11 @@
    "publisher": "Oil Sands Magazine (differentials page); Imperial Oil realization bridge (SEC filing)",
    "vintage": "",
    "url": "https://www.oilsandsmagazine.com/market-insights/crude-oil-pricing-differentials-why-alberta-crude-sells-at-deep-discount-to-wti"
+  },
+  {
+   "publisher": "Pembina Pipeline (Q3 2026 results)",
+   "vintage": "",
+   "url": "https://cdn.prod.nntech.io/company-events/reports/33be3b7a-6029-3b1d-91a9-2066a9601ab6/report.pdf"
   },
   {
    "publisher": "The Canadian Press",

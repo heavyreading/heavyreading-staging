@@ -2,7 +2,7 @@
  "page": "/world/sour/",
  "title": "The Global Sour Barrel",
  "dek": "The sour grades WCS competes with, Dubai, Mars, Merey: how they are priced, and what moves the arb.",
- "built_at": "2026-11-09",
+ "built_at": "2026-11-10",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -60,6 +60,18 @@
    "source_url": "https://www.petroleum-economist.com/magazine/2026/augustseptember-2026/forward-intelligence/why-all-eyes-should-be-on-the-brent-dubai-spread/"
   },
   {
+   "text": "Reuters reported on Nov 5 that spot premiums for Middle East crude benchmarks returned to pre-war levels that week as ample supplies weighed on the market and cooling refining margins in Asia slowed buying interest. Dubai's cash premium to swaps slumped to 65 cents a barrel on Monday, the lowest since July, before recovering to $1.55 a barrel on Thursday, Reuters data showed. Oman's premium dropped to 95 cents a barrel on Tuesday, the weakest since July, before rising to $1.76 on Thursday, against an average of about $8 a barrel in the previous month. Middle East crude flows including bypass pipelines averaged 17.1 million barrels per day in September and 16.3 million in October, Kpler data showed, and Iraqi flows jumped to 3.35 million barrels per day in October, only 150,000 barrels per day under pre-war levels, Kpler analyst Naveen Das said.",
+   "vintage": "Published Nov 5, 2026; accessed 2026-11-10",
+   "source": "Reuters (via Baird Maritime)",
+   "source_url": "https://www.bairdmaritime.com/shipping/tankers/war-premiums-fade-as-middle-east-crude-floods-asian-buyers"
+  },
+  {
+   "text": "Reuters reported on Nov 6 that spot premiums for the Middle East benchmark Dubai fell slightly on Friday, after Saudi Arabia cut its December official selling prices for Asia to a fresh six-year low. The Singapore market had a half trading day on Friday and was closed on Monday for a public holiday, Reuters said via TradingView.",
+   "vintage": "Published Nov 6, 2026; accessed 2026-11-10",
+   "source": "Reuters (via TradingView)",
+   "source_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46N09I:0-dubai-premium-edges-lower-after-saudi-cuts-osp/"
+  },
+  {
    "text": "Bloomberg reported on Nov 3 that Middle East oil market metrics pointed to near-term supply outpacing demand for the first time since July: the nearest timespread for the Dubai benchmark was in contango at the start of the week, with the November contract at a discount of about $2 a barrel to December, according to traders and brokers cited by Bloomberg. Partial contracts on the S&P Global Energy trading window, which can be converted into physical barrels and typically command a premium to the Dubai derivatives benchmark, traded at near-parity. Combined exports from Saudi Arabia, the United Arab Emirates, Iraq and Kuwait climbed by 10 percent to just over 15 million barrels per day in October, Bloomberg data showed, while Iranian exports remained effectively halted.",
    "vintage": "Published Nov 3, 2026; accessed 2026-11-09",
    "source": "Bloomberg (via Business Mirror)",
@@ -94,12 +106,6 @@
    "vintage": "Published Oct 8-9, 2026; accessed 2026-10-12",
    "source": "Quantum Commodity Intelligence",
    "source_url": "https://www.qcintel.com/article/east-of-suez-dubai-eases-from-oct-highs-asia-naphtha-extends-run-74867.html"
-  },
-  {
-   "text": "Reuters reported on Oct 5 that Saudi Aramco set the November Arab Light official selling price (OSP) to Asia at $5.00 per barrel below the Oman/Dubai average, a $3 per barrel cut from October and the widest discount since June 2020, against expectations of a $3 per barrel hike in a Reuters survey. Arab Medium and Arab Heavy were cut by $5 each, while November OSPs for northwest Europe were raised $3 across all grades after exports resumed from the Red Sea port of Yanbu, and US prices were left unchanged. Aramco had looked at offering discounts to compensate buyers for record freight rates and protect market share after the regional conflict hit exports, per people familiar with the matter. This reverses the early-September announcement that had set November Arab Light to Asia at $4.00 per barrel over Oman/Dubai.",
-   "vintage": "Published Oct 5, 2026; accessed 2026-10-05",
-   "source": "Reuters (via gCaptain)",
-   "source_url": "https://gcaptain.com/saudi-arabia-unexpectedly-cuts-oil-prices-to-asia/"
   },
   {
    "text": "Basra Oil Company chief Bassem Abdul Karim said on Sep 24 that the northern leg now carries about 250,000 barrels per day of Basrah crude to Turkey's Mediterranean port of Ceyhan, while southern terminals handled about 2.6 million barrels per day. The same parliamentary hearing put Iraq's war-related revenue loss near 60 billion dollars and flagged sharply higher shipping costs.",
@@ -162,12 +168,6 @@
    "source_url": "https://www.energy.gov/hgeo/opr/spr-quick-facts"
   },
   {
-   "text": "The seven core producers of the Organization of the Petroleum Exporting Countries (OPEC+) and its allies (Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria and Oman) met virtually on September 6, 2026 and held October production quotas at September levels, the first month since April without an increase. The decision follows the August 2 approval of a 188,000 barrel per day September increase (Saudi Arabia and Russia 62,000 each, Iraq 26,000, Kuwait 16,000, Kazakhstan 10,000, Algeria 6,000, Oman 5,000), which completed the unwinding of the 2023 voluntary cuts. October required levels: Saudi Arabia 10.478 million barrels per day, Russia 9.949, Iraq 4.431, Kuwait 2.676, Kazakhstan 1.628, Algeria 1.007, Oman 0.841. Delegates expect quotas to hold through year-end while a 2027 baseline review runs; the next review is October 4.",
-   "vintage": "Decided Sep 6, 2026; accessed 2026-09-24",
-   "source": "NewsGoLive (quoting OPEC statement); September increase detail via World Oil",
-   "source_url": "https://newsgolive.com/opec-keeps-oil-output-targets-unchanged-for-october/"
-  },
-  {
    "text": "US refineries ran at 97 percent utilization in the week ending Sep 11, with no idle capacity left to switch on. US distillate production averaged 5.1 million barrels per day from January through August, the most since 2019, while distillate inventories sat 15.8 million barrels, or 13 percent, below the five-year seasonal average. The read for sour crude: heavy sour barrels with high distillate yields stay bid as long as this lasts.",
    "vintage": "Data: week ending Sep 11, 2026; published Sep 21, 2026; accessed 2026-09-28",
    "source": "The Auto Wire (citing EIA data)",
@@ -196,6 +196,12 @@
    "vintage": "Published ~mid-Aug 2026 (Q2 2026 data); accessed 2026-09-24",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Mexico-Has-More-Refining-Capacity-So-Why-Are-Fuel-Imports-Rising.amp.html"
+  },
+  {
+   "text": "BOE Report reported on Nov 9, from Reuters reporting of brokerage assessments, that Western Canadian Select (WCS) for December delivery at Hardisty, Alberta settled at $25 a barrel below West Texas Intermediate (WTI), compared with $26 on Friday, continuing its retreat from the blowout levels of earlier in the month. The discount reached as wide as $31 below WTI in the first week of November, and at Houston WCS barrels in late October hit an all-time wide discount of $23 as soaring global freight rates reduced demand for Canadian crude re-exports off the US Gulf Coast. Global freight rates, while still high, have come down since October, Rory Johnston of Commodity Context told Reuters.",
+   "vintage": "Published Nov 9, 2026; accessed 2026-11-10",
+   "source": "BOE Report (Reuters; brokerage assessments)",
+   "source_url": "https://boereport.com/2026/11/09/discount-on-western-canada-select-narrows-54/"
   },
   {
    "text": "Oil Authority reported, citing Alberta Treasury Board and Finance weekly indicators, that the Western Canadian Select (WCS) discount to West Texas Intermediate (WTI) stood at $30.15 a barrel on Nov 5, holding near its widest level of the fiscal year as crude prices fell, with WTI at $90.52 that day. The differential had reached $30.50 on Oct 29, about 2.1 times the province's $14.80 fiscal-year forecast, Oil Authority calculated from the province's published figures.",
@@ -238,12 +244,6 @@
    "vintage": "Weekly close: Oct 16, 2026; accessed 2026-10-19",
    "source": "Oil Sands Magazine",
    "source_url": "https://www.oilsandsmagazine.com/energy-statistics/oil-and-gas-prices"
-  },
-  {
-   "text": "OilPrice.com reported on Oct 1 that Venezuela's oil exports fell nearly 9% in September to 1.08 million barrels per day as soaring tanker costs forced Vitol and Trafigura to press PDVSA for steeper discounts and delayed cargoes. US shipments rose to 629,000 barrels per day from 553,000 in August, India fell to 253,000 from 297,000, and European purchases plunged to 86,000 from 260,000. Chevron shipped about 283,000 barrels per day (roughly flat), while trading firms moved 637,000 barrels per day, up from 597,000 in August. Rystad Energy estimates Venezuelan production could reach 1.6 million barrels per day by 2028 and 1.8 million by 2030, but notes the country had only two active drilling rigs in August versus an estimated 50 needed by 2028.",
-   "vintage": "Published Oct 1, 2026; accessed 2026-10-05",
-   "source": "OilPrice.com",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Exports-Drop-9-as-Freight-Costs-Bite.html"
   }
  ],
  "sources": [
@@ -288,6 +288,16 @@
    "url": "https://www.petroleum-economist.com/magazine/2026/augustseptember-2026/forward-intelligence/why-all-eyes-should-be-on-the-brent-dubai-spread/"
   },
   {
+   "publisher": "Reuters (via Baird Maritime)",
+   "vintage": "",
+   "url": "https://www.bairdmaritime.com/shipping/tankers/war-premiums-fade-as-middle-east-crude-floods-asian-buyers"
+  },
+  {
+   "publisher": "Reuters (via TradingView)",
+   "vintage": "",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46N09I:0-dubai-premium-edges-lower-after-saudi-cuts-osp/"
+  },
+  {
    "publisher": "Bloomberg (via Business Mirror)",
    "vintage": "",
    "url": "https://businessmirror.com.ph/2026/11/03/mideast-oil-prices-dip-as-crude-keeps-flowing-through-hormuz/"
@@ -316,11 +326,6 @@
    "publisher": "Quantum Commodity Intelligence",
    "vintage": "",
    "url": "https://www.qcintel.com/article/east-of-suez-dubai-eases-from-oct-highs-asia-naphtha-extends-run-74867.html"
-  },
-  {
-   "publisher": "Reuters (via gCaptain)",
-   "vintage": "",
-   "url": "https://gcaptain.com/saudi-arabia-unexpectedly-cuts-oil-prices-to-asia/"
   },
   {
    "publisher": "Europe Says (aggregating Iraqi parliamentary hearing)",
@@ -373,11 +378,6 @@
    "url": "https://www.energy.gov/hgeo/opr/spr-quick-facts"
   },
   {
-   "publisher": "NewsGoLive (quoting OPEC statement); September increase detail via World Oil",
-   "vintage": "",
-   "url": "https://newsgolive.com/opec-keeps-oil-output-targets-unchanged-for-october/"
-  },
-  {
    "publisher": "The Auto Wire (citing EIA data)",
    "vintage": "",
    "url": "https://theautowire.com/2026/09/21/record-diesel-prices-refining-capacity-expor/"
@@ -401,6 +401,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Energy/Crude-Oil/Mexico-Has-More-Refining-Capacity-So-Why-Are-Fuel-Imports-Rising.amp.html"
+  },
+  {
+   "publisher": "BOE Report (Reuters; brokerage assessments)",
+   "vintage": "",
+   "url": "https://boereport.com/2026/11/09/discount-on-western-canada-select-narrows-54/"
   },
   {
    "publisher": "Oil Authority (citing Alberta Treasury Board and Finance)",
@@ -436,11 +441,6 @@
    "publisher": "Oil Sands Magazine",
    "vintage": "",
    "url": "https://www.oilsandsmagazine.com/energy-statistics/oil-and-gas-prices"
-  },
-  {
-   "publisher": "OilPrice.com",
-   "vintage": "",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Exports-Drop-9-as-Freight-Costs-Bite.html"
   }
  ]
 }

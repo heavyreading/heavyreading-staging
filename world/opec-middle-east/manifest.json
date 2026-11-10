@@ -2,9 +2,15 @@
  "page": "/world/opec-middle-east/",
  "title": "OPEC and Middle East Supply Watch",
  "dek": "Organization of the Petroleum Exporting Countries and its allies (OPEC+) quotas, the Middle East supply disruption, Gulf loadings, and Saudi pricing: the state of the world's swing supply.",
- "built_at": "2026-11-09",
+ "built_at": "2026-11-10",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "The full OPEC+ ministerial meeting is scheduled for Nov 29, 2026 in Vienna and is expected to consider the capacity audit commissioned from DeGolyer and MacNaughton, which two sources told Reuters in early October had slipped from its original end-September deadline to mid-November, House of Saud reported. The audit will serve as the reference for 2027 production baselines, and the meeting will also need to address the roughly 2 million barrels per day group-wide cut layer that expires on Dec 31, the report said.",
+   "vintage": "Published Nov 1, 2026, updated Nov 9, 2026; accessed 2026-11-10",
+   "source": "House of Saud (citing Reuters)",
+   "source_url": "https://houseofsaud.com/opec-plus-december-output-unchanged-hormuz/"
+  },
   {
    "text": "OilPrice.com reported on Nov 9 that Iraq's campaign for a larger OPEC production allocation has been complicated by Oil Minister Basim Mohammed Khudair's statement that Iraq is already producing more than 5 million barrels per day (b/d), more than half a million barrels above its OPEC+ requirement of 4.431 million b/d, which Baghdad had agreed six days earlier to maintain for December alongside six other producers. Khudair said Iraq remained compliant because its exports were within an export ceiling, but OPEC+ compliance is assessed on crude production from independent secondary sources, not exports, OilPrice.com noted. Iraq reported production of 4.399 million b/d to OPEC in September, the International Energy Agency estimated September output lower at 4.10 million b/d and Iraqi sustainable capacity at 4.87 million b/d, and Iraq is seeking a future baseline based on capacity of around 6 million b/d as OPEC assesses members' maximum sustainable capacity for its 2027 framework. Iraqi exports rose to about 3.5 million b/d in October from 2.65 million b/d in September, according to Iraqi energy officials cited by Reuters.",
    "vintage": "Published Nov 9, 2026; accessed 2026-11-09",
@@ -48,10 +54,16 @@
    "source_url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2264491-opec-compliance-eases-in-september-delegate"
   },
   {
-   "text": "OPEC+ approved a 188,000 barrel-per-day production increase for September 2026 and then agreed to hold required production levels flat for October, the first pause since the unwind began in April; required levels include Saudi Arabia at 10.478 million barrels per day, Russia at 9.949 million, Iraq at 4.431 million, Kuwait at 2.676 million, Kazakhstan at 1.628 million, Algeria at 1.007 million, and Oman at 0.841 million, with the next meeting scheduled for October 4.",
-   "vintage": "2026-09-07",
-   "source": "Rigzone",
-   "source_url": "https://www.rigzone.com/news/opec_7_reveal_october_output_plan-07-sep-2026-184549-article/"
+   "text": "Saudi crude output rebounded to 9.2 million barrels per day (b/d) in October, according to a Bloomberg production survey published Nov 7 and reported by House of Saud, up from 8.3 million b/d in September in the International Energy Agency's October report. The kingdom's December target stays at 10.478 million b/d under the Nov 1 OPEC+ decision, so output remained more than 1 million b/d below target even after the October rebound, the report showed.",
+   "vintage": "Bloomberg survey published Nov 7, 2026; accessed 2026-11-10",
+   "source": "House of Saud (citing Bloomberg survey and IEA)",
+   "source_url": "https://houseofsaud.com/opec-plus-december-output-unchanged-hormuz/"
+  },
+  {
+   "text": "Reuters reported on Nov 10 that OPEC oil output rose in October, according to a Reuters survey, led by gains in Saudi Arabia, Kuwait and Iraq despite continued constraints on exports. JPMorgan put the global supply surplus at about 1.1 million barrels per day in September, widening to about 1.4 million barrels per day in October, as recovering Middle East flows, rising production elsewhere and weak demand pushed supply above consumption, Reuters said.",
+   "vintage": "Published Nov 10, 2026; accessed 2026-11-10",
+   "source": "Reuters (via SRN News)",
+   "source_url": "https://srnnews.com/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran/"
   },
   {
    "text": "Reuters reported on Nov 2 that the United Arab Emirates, six months after leaving OPEC, told the ADIPEC conference in Abu Dhabi that it had increased oil exports despite the Iran war, with energy minister Suhail al-Mazrouei saying exports on occasions had been better than before the war. OPEC figures compiled from secondary sources put UAE crude production at 3.917 million barrels per day (b/d) in September, up 15 percent from February and 470,000 b/d above the OPEC+ quota that would have applied in May had the UAE not left OPEC and OPEC+ on May 1, while the International Energy Agency put total UAE oil output, including condensate and other liquids, at a record 5.3 million b/d in September. Abu Dhabi National Oil Company told Reuters the data in the story was wrong and the report inaccurate, Reuters said.",
@@ -120,12 +132,6 @@
    "source_url": "https://www.opec.org/assets/assetdb/momr-july-2026.pdf"
   },
   {
-   "text": "The EIA's September 2026 Short-Term Energy Outlook estimated that 6.7 million barrels per day of Middle East crude production was shut in during August, up from 5.0 million in July, easing to about 5.7 million in the fourth quarter, with regional output staying below pre-conflict averages until the second quarter of 2027.",
-   "vintage": "2026-09",
-   "source": "US Energy Information Administration (EIA) Short-Term Energy Outlook, via Oil and Gas Journal summary",
-   "source_url": "https://www.ogj.com/general-interest/economics-markets/news/55404072/eia-sees-brent-near-90-bbl-in-second-half-2026-amid-middle-east-disruptions"
-  },
-  {
    "text": "IndexBox reported on Oct 31, citing Investing.com reporting of European Union Sentinel satellite imagery, that nine very large crude carriers loaded at Saudi Arabia's Persian Gulf export terminals on Wednesday, October 28, the busiest loading day since hostilities began at the end of February, with combined capacity of roughly 18 million barrels. The report cautioned that a single day of loadings does not by itself establish a sustained rise in Saudi exports.",
    "vintage": "Published Oct 31, 2026; accessed 2026-11-02",
    "source": "IndexBox (citing Investing.com and Sentinel satellite imagery)",
@@ -180,12 +186,6 @@
    "source_url": "https://www.bairdmaritime.com/shipping/tankers/vitol-becomes-iraqs-second-largest-crude-buyer-amid-its-export-struggles"
   },
   {
-   "text": "Kpler data cited September 23, 2026 showed about 6.5 million barrels per day flowing through the Strait of Hormuz so far in September, the highest since the June ceasefire but down from roughly 20 million barrels per day before the conflict; very large crude carrier (VLCC) freight from the Middle East Gulf to China hit an all-time high of about $30 per barrel, roughly 25 percent of cargo cost.",
-   "vintage": "2026-09-23",
-   "source": "OilPrice.com",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Workarounds-Keep-Gulf-Oil-Flowingat-a-Steep-Cost.html"
-  },
-  {
    "text": "Reuters reported on Nov 5 that Saudi Aramco cut its December official selling prices (OSPs) for Asia across all grades by $2 a barrel from November, with the pricing document showing Arab Light at a discount of $7.00 a barrel to the Oman/Dubai average, Arab Medium at $8.00 below and Arab Heavy at $9.35 below, the lowest levels since May 2020 during the pandemic. Aramco also cut December prices for Northwest Europe and the Mediterranean by $1 a barrel across all grades and kept prices for the United States unchanged. A Reuters survey had expected Aramco to keep Asia prices unchanged or cut by up to $2 a barrel, citing ample Middle East supplies and weaker spot premiums, and spot premiums for Middle East benchmarks had returned to pre-war levels that week as producers ramped up exports. HSBC raised its fourth-quarter Saudi crude production forecast to 8.3 million barrels per day from 6.3 million, citing a faster than expected export recovery, Reuters reported.",
    "vintage": "Published Nov 5, 2026; accessed 2026-11-09",
    "source": "Reuters (via BOE Report)",
@@ -216,10 +216,10 @@
    "source_url": "https://www.energyconnects.com/news/oil/2026/october/saudis-slash-oil-prices-to-asia-in-battle-for-market-share/"
   },
   {
-   "text": "Reuters reported on Oct 5 that Aramco set its November Arab Light official selling price to Asia at $5 a barrel below the average of Oman and Dubai prices, down $3 from October and the widest discount since June 2020, defying a Reuters survey expectation of a $3 a barrel hike. Arab Medium and Arab Heavy OSPs to Asia were cut by $5 a barrel, while November OSPs for northwest Europe were raised $3 a barrel across all grades after exports from Yanbu resumed, and US prices were unchanged; Reuters said the Asia cuts appeared aimed at compensating buyers for elevated freight costs, citing LSEG data putting a VLCC Gulf-to-China time charter at $1.2 million a day versus about $80,000 a day a year ago.",
-   "vintage": "Published Oct 5, 2026; accessed 2026-10-05",
-   "source": "Reuters",
-   "source_url": "https://gcaptain.com/saudi-arabia-unexpectedly-cuts-oil-prices-to-asia/"
+   "text": "Reuters reported on Nov 10 that the global oil market is showing signs of a return to excess supply as demand drops because of high prices, with JPMorgan estimating the global surplus at about 1.4 million barrels per day in October. The dated Brent physical benchmark, against which roughly two thirds of oil supply is priced, has also weakened in recent weeks, Reuters said.",
+   "vintage": "Published Nov 10, 2026; accessed 2026-11-10",
+   "source": "Reuters (via SRN News)",
+   "source_url": "https://srnnews.com/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran/"
   },
   {
    "text": "OPEC lowered its forecast for 2026 oil demand growth for a sixth straight month in its October Monthly Oil Market Report, to 180,000 barrels per day from 380,000, putting world demand at 105.72 million barrels per day, Reuters reported on Oct 13. The group raised its 2027 forecast to growth of 2.55 million barrels per day, to an average of 108.3 million barrels per day, assuming demand softens this year as expected and is then bolstered by the need to replenish inventories depleted by the Iran war.",
@@ -247,6 +247,11 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "House of Saud (citing Reuters)",
+   "vintage": "",
+   "url": "https://houseofsaud.com/opec-plus-december-output-unchanged-hormuz/"
+  },
   {
    "publisher": "OilPrice.com",
    "vintage": "",
@@ -283,9 +288,14 @@
    "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2264491-opec-compliance-eases-in-september-delegate"
   },
   {
-   "publisher": "Rigzone",
+   "publisher": "House of Saud (citing Bloomberg survey and IEA)",
    "vintage": "",
-   "url": "https://www.rigzone.com/news/opec_7_reveal_october_output_plan-07-sep-2026-184549-article/"
+   "url": "https://houseofsaud.com/opec-plus-december-output-unchanged-hormuz/"
+  },
+  {
+   "publisher": "Reuters (via SRN News)",
+   "vintage": "",
+   "url": "https://srnnews.com/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran/"
   },
   {
    "publisher": "Reuters (via MarineLink)",
@@ -343,11 +353,6 @@
    "url": "https://www.opec.org/assets/assetdb/momr-july-2026.pdf"
   },
   {
-   "publisher": "US Energy Information Administration (EIA) Short-Term Energy Outlook, via Oil and Gas Journal summary",
-   "vintage": "",
-   "url": "https://www.ogj.com/general-interest/economics-markets/news/55404072/eia-sees-brent-near-90-bbl-in-second-half-2026-amid-middle-east-disruptions"
-  },
-  {
    "publisher": "IndexBox (citing Investing.com and Sentinel satellite imagery)",
    "vintage": "",
    "url": "https://www.indexbox.io/blog/saudi-gulf-oil-loadings-hit-highest-level-since-february-hostilities/"
@@ -393,11 +398,6 @@
    "url": "https://www.bairdmaritime.com/shipping/tankers/vitol-becomes-iraqs-second-largest-crude-buyer-amid-its-export-struggles"
   },
   {
-   "publisher": "OilPrice.com",
-   "vintage": "",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Workarounds-Keep-Gulf-Oil-Flowingat-a-Steep-Cost.html"
-  },
-  {
    "publisher": "Reuters (via BOE Report)",
    "vintage": "",
    "url": "https://boereport.com/2026/11/05/saudi-arabia-cuts-december-asia-oil-prices-to-fresh-6-year-low/"
@@ -416,11 +416,6 @@
    "publisher": "Bloomberg via Energy Connects",
    "vintage": "",
    "url": "https://www.energyconnects.com/news/oil/2026/october/saudis-slash-oil-prices-to-asia-in-battle-for-market-share/"
-  },
-  {
-   "publisher": "Reuters",
-   "vintage": "",
-   "url": "https://gcaptain.com/saudi-arabia-unexpectedly-cuts-oil-prices-to-asia/"
   },
   {
    "publisher": "Associated Press (via Transport Topics)",
