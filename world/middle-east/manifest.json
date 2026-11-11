@@ -6,6 +6,30 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Iran's army naval forces said early on Wednesday, Nov 11, that a violating oil tanker caught fire after striking a naval mine in an unsafe, prohibited area in the east of the Strait of Hormuz, in a statement broadcast by Iranian state television and reported by News Central TV. The statement said the vessel had entered an area declared unsafe and prohibited by Iran before hitting the mine, and named no vessel, flag, owner or casualties. The claim had not been independently verified in the reporting here, and United Kingdom Maritime Trade Operations (UKMTO) separately reported an incident involving a tanker in the strait late on Tuesday, without confirming a mine as the cause.",
+   "vintage": "Nov 11, 2026",
+   "source": "News Central TV",
+   "source_url": "https://newscentraltv.com/tanker-strikes-mine-catches-fire-in-strait-of-hormuz/"
+  },
+  {
+   "text": "Oil prices rose on Wednesday, Nov 11, from the previous session's two-month lows, as the market swung between hopes for de-escalation in the US-Israeli war on Iran and concerns about attacks on shipping in the Strait of Hormuz, Reuters reported. Brent futures climbed 52 cents, or 0.6 percent, to $92.01 a barrel by 0730 GMT, while US West Texas Intermediate (WTI) crude rose 16 cents, or 0.2 percent, to $86.20. Recent data showed little sign of fewer attacks in November, after 37 ships were attacked in October, the highest monthly total since the start of the Middle East war, according to data from the Washington Institute for Near East Policy. A tanker was struck northeast of Lima in Oman on Tuesday, United Kingdom Maritime Trade Operations (UKMTO) said, and Iran's Revolutionary Guards Navy said in a separate statement on Tuesday that two tankers caught fire after hitting naval mines on the unauthorized route in the strait. LSEG Oil Research said in a Nov 10 note that even in the event a deal is struck, an increase in flows through the waterway would still depend on mine clearance, insurance costs and whether shipowners would be willing to take the risk.",
+   "vintage": "Nov 11, 2026",
+   "source": "Reuters (via Duke FM)",
+   "source_url": "https://941theduke.com/2026/11/10/oil-rises-from-two-month-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes/"
+  },
+  {
+   "text": "Abu Dhabi National Oil Company (ADNOC) Logistics and Services confirmed on Nov 10 that one of its vessels sustained damage in an attack inside United Arab Emirates territorial waters in the Arabian Gulf, ShipUniverse reported on Nov 11. Separately, United Kingdom Maritime Trade Operations (UKMTO) issued incident report 201-26 after a tanker master reported being struck by an unidentified projectile at 13:38 UTC on Nov 10, about 19 nautical miles northeast of Lima, Oman; UKMTO said the crew was safe, no environmental impact was reported, and a damage assessment would follow at first light. ADNOC did not identify its damaged vessel or disclose the extent of its damage, neither organization identified an attacker, and the reporting here does not conclusively establish whether the two Nov 10 reports involved separate vessels. A further UKMTO warning, 202-26, involving a tanker appeared on Nov 11 and was not classified as a confirmed attack in the initial warning.",
+   "vintage": "Nov 10, 2026",
+   "source": "ShipUniverse (citing UKMTO and ADNOC Logistics and Services)",
+   "source_url": "https://www.shipuniverse.com/news/adnoc-ship-damaged-tanker-hit-off-oman-two-attack-reports-and-a-critical-missing-detail-in-hormuz/"
+  },
+  {
+   "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Tuesday afternoon, Nov 10, that a third oil tanker attempting to cross an unauthorized route through the Strait of Hormuz had exploded after striking a naval mine, Press TV reported. The IRGC Navy public relations office said the tanker was burning in the eastern part of the strait, with smoke spreading across the area, following its statement earlier on Tuesday that two oil tankers on a similar route had suffered massive explosions and been left ablaze. IRGC spokesman Brigadier General Hossein Mohebbi said the strait is without any doubt under the control of the IRGC Navy. The statement named no vessel, flag, owner or casualties, and the claim had not been independently verified in the reporting here.",
+   "vintage": "Nov 10, 2026",
+   "source": "Press TV",
+   "source_url": "https://www.presstv.co.uk/Detail/2026/11/10/780435/third-oil-tanker-explodes-after-striking-naval-mine-in-strait-of-hormuz-irgc-navy"
+  },
+  {
    "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Nov 10 that two oil tankers attempting to navigate an unauthorized route through the Strait of Hormuz had suffered massive explosions and been left in flames, Press TV reported. In a statement on Tuesday, the IRGC Navy's public relations office said one vessel, identified as a supertanker, hit a naval mine and suffered an explosion, while the second tanker, which it said was operating under the protection of US military aircraft, encountered an incident and caught fire while attempting to cross the waterway through an illegal route. The statement said both vessels had switched off their navigation and identification systems, named no vessels, flags, owners or casualties, and warned that vessels cooperating with US forces would face similar consequences. The claim had not been independently verified in the reporting here.",
    "vintage": "Nov 10, 2026",
    "source": "Press TV",
@@ -1801,6 +1825,26 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "News Central TV",
+   "vintage": "",
+   "url": "https://newscentraltv.com/tanker-strikes-mine-catches-fire-in-strait-of-hormuz/"
+  },
+  {
+   "publisher": "Reuters (via Duke FM)",
+   "vintage": "",
+   "url": "https://941theduke.com/2026/11/10/oil-rises-from-two-month-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes/"
+  },
+  {
+   "publisher": "ShipUniverse (citing UKMTO and ADNOC Logistics and Services)",
+   "vintage": "",
+   "url": "https://www.shipuniverse.com/news/adnoc-ship-damaged-tanker-hit-off-oman-two-attack-reports-and-a-critical-missing-detail-in-hormuz/"
+  },
+  {
+   "publisher": "Press TV",
+   "vintage": "",
+   "url": "https://www.presstv.co.uk/Detail/2026/11/10/780435/third-oil-tanker-explodes-after-striking-naval-mine-in-strait-of-hormuz-irgc-navy"
+  },
   {
    "publisher": "Press TV",
    "vintage": "",
