@@ -2,9 +2,15 @@
  "page": "/world/spr-storage/",
  "title": "US SPR & Storage Watch",
  "dek": "US Strategic Petroleum Reserve (SPR) and commercial crude stocks, SPR inventory, the 2026 exchange/refill mechanics, and Cushing.",
- "built_at": "2026-11-11",
+ "built_at": "2026-11-12",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Status check on Nov 12: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE newsroom search checked directly on Nov 12 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels, with crude to be supplied from the Big Hill and Bryan Mound storage sites and more than 216 million barrels, including 44 million premium barrels, secured to return beginning early next year. The only newer reserves item is a Nov 9 update to the SPR Quick Facts page, not an award or solicitation, and the newest reserves press release after Oct 29 is the Nov 3 Northeast Home Heating Oil Reserve award listed separately in this section. No new official Energy Information Administration (EIA) weekly SPR inventory figure had been published as of this check; the last official EIA figure put the reserve at 282.2 million barrels in the week ending Oct 30, 2026, the American Petroleum Institute (API) estimate reported separately on this page put the reserve at 279.5 million barrels in the week ending Nov 6, and the next EIA Weekly Petroleum Status Report is due Nov 12, a day later than usual in the federal holiday week.",
+   "vintage": "Nov 12, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
+  },
   {
    "text": "Status check on Nov 11: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE newsroom search checked directly on Nov 11 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels, with crude to be supplied from the Big Hill and Bryan Mound storage sites and more than 216 million barrels, including 44 million premium barrels, secured to return beginning early next year. The only newer reserves item is a Nov 9 update to the SPR Quick Facts page, not an award or solicitation, and the newest reserves press release after Oct 29 is the Nov 3 Northeast Home Heating Oil Reserve award listed separately in this section. No new official Energy Information Administration (EIA) weekly SPR inventory figure has been published since the Nov 4 release, which put the reserve at 282.2 million barrels in the week ending Oct 30, 2026; the American Petroleum Institute (API) estimate reported separately on this page put the reserve at 279.5 million barrels in the week ending Nov 6, and the next EIA Weekly Petroleum Status Report is due Nov 12, a day later than usual in the federal holiday week.",
    "vintage": "Nov 11, 2026",
@@ -244,6 +250,12 @@
    "vintage": "Reported Sep 11, 2026; accessed 2026-09-28",
    "source": "Reuters (via Permian Basin Oil and Gas Magazine); US Department of Energy (energy.gov)",
    "source_url": "https://pboilandgasmagazine.com/oil-in-strategic-petroleum-reserve-falls-to-lowest-level-in-more-than-40-years/"
+  },
+  {
+   "text": "The official US Energy Information Administration (EIA) weekly petroleum report for the week ending Nov 6 is due on Thursday, Nov 12, delayed a day due to a US national holiday on Wednesday, Reuters reported on Nov 12. As of the morning check on Nov 12 the report had not yet been published, so the last official EIA figures remain those for the week ending Oct 30, when commercial crude stocks were 409.8 million barrels and the Strategic Petroleum Reserve (SPR) held 282.2 million barrels. Market sources citing American Petroleum Institute (API) data, reported separately on this page, put the US crude change for the week ending Nov 6 at a rise of 9 million barrels. Reuters noted the API build and the delayed EIA release in its Nov 12 market report, in which Brent futures were down $1.47 to $91.29 a barrel and US West Texas Intermediate (WTI) futures were down $1.24 to $85.29 by 0426 GMT.",
+   "vintage": "Nov 12, 2026",
+   "source": "Reuters (via WNCY)",
+   "source_url": "https://wncy.com/2026/11/11/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets/"
   },
   {
    "text": "The American Petroleum Institute (API) estimated on Nov 10 that US crude oil inventories rose by 9.0 million barrels in the week ending Nov 6, after a fall of 5.267 million barrels in the prior week, OilPrice.com reported. Gasoline inventories rose by just 4,000 barrels in the week, after rising by 1.427 million barrels the prior week, and distillate inventories rose by 1.5 million barrels, after a fall of 270,000 barrels the prior week, with distillate stocks already 13 percent below the five-year average heading into the period on the latest Energy Information Administration (EIA) data. Cushing inventories gained 182,000 barrels, after gaining 511,000 barrels the previous week. For the week ending Nov 6, 2.7 million barrels of crude oil left the Strategic Petroleum Reserve (SPR), bringing the reserve down to 279.5 million barrels, 434 million barrels below maximum capacity, API data reported by OilPrice.com said. Market sources cited by Reuters on Nov 11 put the same API crude change at a rise of 9 million barrels for the week ended Nov 6. The official EIA report for the week is due Nov 12.",
@@ -678,6 +690,11 @@
    "publisher": "Reuters (via Permian Basin Oil and Gas Magazine); US Department of Energy (energy.gov)",
    "vintage": "",
    "url": "https://pboilandgasmagazine.com/oil-in-strategic-petroleum-reserve-falls-to-lowest-level-in-more-than-40-years/"
+  },
+  {
+   "publisher": "Reuters (via WNCY)",
+   "vintage": "",
+   "url": "https://wncy.com/2026/11/11/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets/"
   },
   {
    "publisher": "OilPrice.com (citing API)",

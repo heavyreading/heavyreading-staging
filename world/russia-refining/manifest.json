@@ -2,9 +2,15 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-11-11",
+ "built_at": "2026-11-12",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Kazakhstan's oil shipments through the Ust-Luga seaport have been temporarily suspended since September, so the Ukrainian drone incident at Ust-Luga on the night of Nov 11 did not affect the transportation or export of Kazakh oil, Kazakhstan Energy Ministry representative Asel Serikpayeva told journalists at Interfax-Kazakhstan, TopWar reported on Nov 12. Serikpayeva said the suspension was due to technical limitations of the transit pipeline infrastructure, that crude shipments have been rerouted to other routes so obligations to shippers and recipients are being fully met, and that export volumes from Kazakhstan have not been affected. On Nov 5, Kazakhstan's Energy Ministry contacted its Russian counterparts with a request to resume oil pumping through the Druzhba pipeline for onward shipment via Ust-Luga, and Energy Minister Yerlan Akkenzhenov said five days later that there had been no response yet.",
+   "vintage": "Nov 12, 2026",
+   "source": "TopWar (citing Interfax-Kazakhstan)",
+   "source_url": "https://en.topwar.ru/293406-ataki-bpla-vsu-na-ust-lugu-uzhe-ne-vlijajut-na-otgruzki-nefti-iz-kazahstana.html"
+  },
   {
    "text": "A tanker carrying roughly 40,000 metric tons of Russian diesel was still crossing the North Atlantic on Sunday afternoon, Nov 8, with its destination listed as to be nominated, days after ship-tracking data had expected it in the New York area, Military.com reported on Nov 9. No American port has taken any Russian fuel since President Donald Trump announced the diesel deal with Moscow last month, according to tracking data and industry reporting. The Malta-flagged Agioi Fanendes loaded at Russia's Primorsk terminal on Oct 22 and initially signaled the Port of New York and New Jersey; Automatic Identification System data published by tracking service Rynda showed it still underway at about 10 knots early on Monday, Nov 9, and its manager, Eastern Mediterranean Maritime, told Reuters that no unloading port or country has been finalized. Two other tankers that loaded Russian diesel and declared US destinations have already turned, the Talisman into the Mediterranean and the Leruo toward Brazil, according to vessel tracking reported by the Associated Press and the Financial Times. New Jersey Governor Mikie Sherrill has warned the state's port and terminal operators that unloading such a cargo could bring civil penalties equal to the fuel's full value under the 2022 import ban.",
    "vintage": "Nov 9, 2026",
@@ -100,6 +106,12 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "Russia and Ukraine agreed to a large exchange of prisoners of war as two days of US-mediated talks in Abu Dhabi concluded on Wednesday, Nov 11, with no major breakthrough on ending the war, the Associated Press reported. US envoy Jared Kushner said the two sides had agreed to the biggest humanitarian release of prisoners, with the numbers to be finalised on Thursday, and that he and envoy Steve Witkoff would travel to Moscow on Thursday to meet President Vladimir Putin and then to Dublin to meet Ukrainian President Volodymyr Zelenskyy. Russian delegation head Vladimir Medinsky and Ukrainian delegation head Rustem Umerov confirmed the planned exchange, which could take place in the next two or three weeks. The talks, the first such meeting since February, lasted just under two hours on Wednesday after a four-hour session the previous day, and US mediators said differences remained on other major issues, including territory.",
+   "vintage": "Nov 11, 2026",
+   "source": "Associated Press (via KSFR)",
+   "source_url": "https://www.ksfr.org/npr-news/2026-11-11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough"
   },
   {
    "text": "Renewed Ukrainian drone attacks on Russian oil refineries since late October have reduced Russia's oil refining capacity by about 30 percent, two industry sources told Reuters in an exclusive published on Nov 10. Ukrainian attacks disrupted operations and caused emergency situations at nine of Russia's 35 major refineries over the past week, according to the sources and officials. The combined daily nameplate capacity of refineries affected since late October, including three major plants in central Russia, stands at around 300,000 metric tons, or 2.2 million barrels per day, compared with total primary refining capacity of about 930,000 tons per day, and at the end of October Russian refineries were processing about 700,000 tons, or 5 million barrels, of crude per day, the sources said. They estimated the actual reduction in crude processing could be up to 200,000 tons per day, with affected plants including refineries in Ryazan, Yaroslavl and the Volga region. The same report said a Ukrainian drone struck the Kirishi refinery on Monday, Nov 9, setting it on fire, and that Governor Alexander Drozdenko said one woman had been killed in the attack, a casualty not reported in the initial Nov 9 coverage on this page. Russian Foreign Minister Sergei Lavrov said in an article published on Tuesday in Kommersant that Ukraine was ignoring Trump's calls to stop strikes on Russian energy targets.",
@@ -316,6 +328,18 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "The Russian city of Omsk, home to the largest oil refinery in the country, came under sustained drone fire for more than eight hours on Nov 11, EuropeSays reported, republishing reporting by the Kyiv Independent. Omsk Governor Vitaly Khotsenko reported during the day on Nov 11 that Ukrainian drones were attacking the region and urged residents to remain indoors, and residents reported a fire near the Omsk oil refinery, the independent Russian Telegram channel Astra reported, whose open-source analysis confirmed a blaze near the site. The precise targets and the extent of the damage were not yet clear, Khotsenko said emergency workers had been dispatched to sites hit by falling drone debris without specifying which facilities were struck, and residents also reported blackouts in some districts. The Omsk refinery, owned by Gazprom, has a processing capacity of more than 21 million metric tons of crude a year and accounts for about one in every six liters of Russian gasoline and diesel; Ukrainian forces struck the refinery twice before, in July and again in October 2026. The Kyiv Independent could not verify the claims at the time of publication.",
+   "vintage": "Nov 11, 2026",
+   "source": "EuropeSays (citing the Kyiv Independent)",
+   "source_url": "https://www.europesays.com/3369257/"
+  },
+  {
+   "text": "Ukraine's General Staff confirmed its drones struck the port of Ust-Luga in Leningrad Oblast overnight into Nov 11, SAGIRE reported on Nov 11. The General Staff said the strikes damaged five oil tanks with a total volume of 150,000 cubic meters, a hydrocracking unit, an air-cooling unit and a pumping station; Ukraine's Security Service (SBU) said the same operation hit the Naro-Fominsk, a Buyan-M class missile boat carrying Onyx and Kalibr missiles. Leningrad Oblast Governor Aleksandr Drozdenko confirmed the attack and said 150 Ukrainian drones were shot down in the region, with three workers injured. The damage figures are Ukrainian military claims and had not been independently verified in the reporting here; the fire, the injuries and the power station shutdown at Ust-Luga were reported separately by Reuters on Nov 11 in this section.",
+   "vintage": "Nov 11, 2026",
+   "source": "SAGIRE",
+   "source_url": "https://sagire.online/wire/5d6c52aa/"
   },
   {
    "text": "A drone attack caused a fire in the port area of Ust-Luga on the Baltic Sea early on Wednesday, Nov 11, injuring three workers, Leningrad region Governor Aleksandr Drozdenko said on Telegram, Reuters reported. Drozdenko said a power station was also cut off as a result of the attack, and that 150 drones were shot down over the Leningrad region in the course of the attack, up from an earlier count of 92 drones downed early on Wednesday reported by Reuters. Ust-Luga is a major oil, oil products and grain export outlet, and the Leningrad region is also home to the Kirishi oil refinery, Russia's second-largest, which was struck on Monday, Nov 9. The Baltic states of Lithuania, Latvia and Estonia warned of a drone threat on Wednesday, and Finland adopted temporary partial airspace and maritime curbs amid the attack. Reuters could not immediately independently confirm the report, and whether oil loading at Ust-Luga was interrupted was not established in the reporting here.",
@@ -644,6 +668,11 @@
  ],
  "sources": [
   {
+   "publisher": "TopWar (citing Interfax-Kazakhstan)",
+   "vintage": "",
+   "url": "https://en.topwar.ru/293406-ataki-bpla-vsu-na-ust-lugu-uzhe-ne-vlijajut-na-otgruzki-nefti-iz-kazahstana.html"
+  },
+  {
    "publisher": "Military.com",
    "vintage": "",
    "url": "https://www.military.com/new-jerseys-navy-veteran-governor-warned-ports-off-russian-diesel-no-tanker-has-docked-yet"
@@ -722,6 +751,11 @@
    "publisher": "Maritime Professional (citing traders)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "publisher": "Associated Press (via KSFR)",
+   "vintage": "",
+   "url": "https://www.ksfr.org/npr-news/2026-11-11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough"
   },
   {
    "publisher": "Reuters (via Devdiscourse)",
@@ -902,6 +936,16 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "EuropeSays (citing the Kyiv Independent)",
+   "vintage": "",
+   "url": "https://www.europesays.com/3369257/"
+  },
+  {
+   "publisher": "SAGIRE",
+   "vintage": "",
+   "url": "https://sagire.online/wire/5d6c52aa/"
   },
   {
    "publisher": "Reuters (via The Business Standard)",

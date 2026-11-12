@@ -2,9 +2,33 @@
  "page": "/world/middle-east/",
  "title": "Middle East watch",
  "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
- "built_at": "2026-11-11",
+ "built_at": "2026-11-12",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Two oil supertankers were disabled by massive explosions on Wednesday night, Nov 11, after ignoring warnings against using an unauthorised route in the Strait of Hormuz, Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Thursday, Nov 12, Reuters reported. Iranian state media said later that the two tankers exploded after hitting naval mines, showing what it said was video footage of the incidents, and Press TV said the vessels were carrying a combined total of more than 4 million barrels of oil and were now burning. The IRGC statement named no vessels, flags, owners or casualties, and the claim had not been independently verified in the reporting here. In several cases in the strait, United Kingdom Maritime Trade Operations (UKMTO) has said tankers have been struck by unknown projectiles.",
+   "vintage": "Nov 12, 2026",
+   "source": "Reuters (via MarineLink)",
+   "source_url": "https://www.marinelink.com/news/two-oil-supertankers-explode-strait-544312"
+  },
+  {
+   "text": "Oil prices fell more than $1 a barrel on Thursday, Nov 12, as easing concerns over an escalation of conflict in the Middle East reduced the risk premium, while rising OPEC+ output and growing US inventories fed worries about oversupply, Reuters reported. Brent futures were down $1.47, or 1.58 percent, to $91.29 a barrel by 0426 GMT, while US West Texas Intermediate (WTI) crude futures slipped $1.24, or 1.43 percent, to $85.29. The declines reversed Wednesday's gains, when Brent rose 1.4 percent and WTI added 0.6 percent after both benchmarks hit two-month lows the previous day. Nissan Securities Investment chief strategist Hiroyuki Kikukawa said markets are unlikely to suffer a significant collapse given the uncertainty surrounding the Strait of Hormuz. OPEC+ crude production rose in October, driven by higher Saudi Arabian output despite ongoing shipping disruptions through the strait, and US crude stocks rose by 9 million barrels in the latest week, according to market sources citing American Petroleum Institute data, with official Energy Information Administration data due later on Thursday.",
+   "vintage": "Nov 12, 2026",
+   "source": "Reuters (via WNCY)",
+   "source_url": "https://wncy.com/2026/11/11/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets/"
+  },
+  {
+   "text": "United Kingdom Maritime Trade Operations (UKMTO) Warning 202-26, issued on Nov 11 after a report concerning a tanker in the Strait of Hormuz, involved the Saudi-flagged oil and chemical tanker NCC FAJR, The DeepDraft reported on Nov 12, citing India's shipping minister, who subsequently identified the vessel. The minister described the incident as a possible attack and said the entire crew was safe, including three Indian seafarers. The vessel is a 2013-built LR2 tanker of approximately 81,336 deadweight tonnes. UKMTO's initial warning did not identify the tanker or confirm crew injuries, damage or environmental impact, and no authoritative account had confirmed the weapon involved, the precise damage condition or any pollution. The incident should remain separate from the Nov 10 Fujairah Energy strike unless investigating authorities establish a connection.",
+   "vintage": "Nov 11, 2026",
+   "source": "The DeepDraft",
+   "source_url": "https://thedeepdraft.com/2026/11/12/fujairah-energy-strike-crew-injured/"
+  },
+  {
+   "text": "The tanker struck by a projectile on Nov 10 while sailing from Al Ruwais to Dubai has been identified as the Liberia-flagged very large crude carrier (VLCC) Fujairah Energy, The DeepDraft reported on Nov 12, citing India's Minister of Ports, Shipping and Waterways. Four of the vessel's 22 crew members were injured, including one Indian national who sustained minor injuries and was taken ashore, while the remaining crew were reported safe; six Indian seafarers were serving aboard. The 2015-built, 299,999-deadweight-tonne vessel is managed by Sinokor Maritime. Its damage condition, cargo status, propulsion capability and any pollution consequences had not been confirmed at the reporting cutoff, and no verified source had established that Fujairah Energy was the Abu Dhabi National Oil Company (ADNOC) Logistics and Services vessel mentioned in earlier reporting on this page.",
+   "vintage": "Nov 10, 2026",
+   "source": "The DeepDraft",
+   "source_url": "https://thedeepdraft.com/2026/11/12/fujairah-energy-strike-crew-injured/"
+  },
   {
    "text": "Iran's army naval forces said early on Wednesday, Nov 11, that a violating oil tanker caught fire after striking a naval mine in an unsafe, prohibited area in the east of the Strait of Hormuz, in a statement broadcast by Iranian state television and reported by News Central TV. The statement said the vessel had entered an area declared unsafe and prohibited by Iran before hitting the mine, and named no vessel, flag, owner or casualties. The claim had not been independently verified in the reporting here, and United Kingdom Maritime Trade Operations (UKMTO) separately reported an incident involving a tanker in the strait late on Tuesday, without confirming a mine as the cause.",
    "vintage": "Nov 11, 2026",
@@ -1825,6 +1849,21 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "Reuters (via MarineLink)",
+   "vintage": "",
+   "url": "https://www.marinelink.com/news/two-oil-supertankers-explode-strait-544312"
+  },
+  {
+   "publisher": "Reuters (via WNCY)",
+   "vintage": "",
+   "url": "https://wncy.com/2026/11/11/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets/"
+  },
+  {
+   "publisher": "The DeepDraft",
+   "vintage": "",
+   "url": "https://thedeepdraft.com/2026/11/12/fujairah-energy-strike-crew-injured/"
+  },
   {
    "publisher": "News Central TV",
    "vintage": "",

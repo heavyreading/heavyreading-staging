@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-11-11T08:50:29-06:00",
+ "built_at": "2026-11-12T09:08:34-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -8030,14 +8030,14 @@
    "source": "Exchange futures (via crack_321 daily file)",
    "pull": "crude-oil-morning-digest (src/ingest/build_crack_321.py)",
    "cadence": "daily",
-   "vintage": "Exchange front-month futures, via the daily crack file. Data through November 11, 2026.",
+   "vintage": "Exchange front-month futures, via the daily crack file. Data through November 12, 2026.",
    "stats": {
-    "level": 86.21,
-    "percentile_since_2020": 80.77591198610307,
-    "chg_30d": -7.530000000000001,
-    "date": "2026-11-11"
+    "level": 86.75,
+    "percentile_since_2020": 81.48148148148148,
+    "chg_30d": -7.390000000000001,
+    "date": "2026-11-12"
    },
-   "narrative_text": "WTI front month closed at $86.21 on November 11, 2026, in the 81st percentile of daily closes since 2020 and -7.53 dollars over the last thirty days. The outright is context rather than the trade: the differentials and calendar spreads this site follows are struck off this level, and its trend sets the tone they trade in. A sustained break of the recent range, either way, would reset that context.",
+   "narrative_text": "WTI front month closed at $86.75 on November 12, 2026, in the 81st percentile of daily closes since 2020 and -7.39 dollars over the last thirty days. The outright is context rather than the trade: the differentials and calendar spreads this site follows are struck off this level, and its trend sets the tone they trade in. A sustained break of the recent range, either way, would reset that context.",
    "points": [
     [
      "2023-11-13",
@@ -9548,8 +9548,8 @@
      86.04
     ],
     [
-     "2026-11-11",
-     86.21
+     "2026-11-12",
+     86.75
     ]
    ]
   },
@@ -9568,9 +9568,9 @@
     "date": "2026-08-31",
     "tmw_tenor": "2026-12",
     "tmw_settle": -28.4933,
-    "tmw_settle_date": "2026-11-10"
+    "tmw_settle_date": "2026-11-11"
    },
-   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$28.49 on November 10, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
+   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$28.49 on November 11, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
    "points": [
     [
      "2021-08-02",
@@ -10878,15 +10878,15 @@
    "source": "Exchange futures (computed)",
    "pull": "crude-oil-morning-digest (src/ingest/build_crack_321.py)",
    "cadence": "daily",
-   "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through November 11, 2026.",
+   "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through November 12, 2026.",
    "stats": {
-    "level": 45.502,
-    "percentile_since_2020": 87.37695425593515,
+    "level": 45.5864,
+    "percentile_since_2020": 87.55787037037037,
     "series_high": 75.311,
     "series_high_date": "2026-08-28",
-    "date": "2026-11-11"
+    "date": "2026-11-12"
    },
-   "narrative_text": "The 3-2-1 crack spread printed $45.50 a barrel on November 11, 2026, in the 87th percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
+   "narrative_text": "The 3-2-1 crack spread printed $45.59 a barrel on November 12, 2026, in the 88th percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
    "points": [
     [
      "2023-11-13",
@@ -12397,8 +12397,8 @@
      44.839
     ],
     [
-     "2026-11-11",
-     45.502
+     "2026-11-12",
+     45.5864
     ]
    ]
   },
