@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-11-12T12:32:25-06:00",
+ "built_at": "2026-11-13T04:23:05-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -4838,20 +4838,16 @@
    "source": "U.S. Energy Information Administration",
    "pull": "build_chartbook EIA products step (bin/eia_api.py, same connector as the Wednesday WPSR pull)",
    "cadence": "weekly",
-   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through October 30, 2026.",
+   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through November 06, 2026.",
    "stats": {
-    "level": 208.958,
-    "seasonal_mean": 216.07036666666667,
-    "z": -0.9457752428169001,
-    "seasonal_pct": 34.0,
-    "date": "2026-10-30"
+    "level": 210.757,
+    "seasonal_mean": 215.6949,
+    "z": -0.6523123331197055,
+    "seasonal_pct": 54.0,
+    "date": "2026-11-06"
    },
-   "narrative_text": "U.S. gasoline inventories stand at 209.0 million barrels, 7.1 million barrels (3.3 percent) below the ten-year seasonal average, a gap of 0.9 standard deviations, and in the 34th percentile of readings for this part of the year since 2010. Stocks drew 0.2 million barrels on the week. Gasoline stocks set the summer crack tone and, into the autumn shoulder, the pace at which refiners can ease runs: a low seasonal percentile is refinery-margin support. A seasonal build through the shoulder months would close the tightness case.",
+   "narrative_text": "U.S. gasoline inventories stand at 210.8 million barrels, 4.9 million barrels (2.3 percent) below the ten-year seasonal average, a gap of 0.7 standard deviations, and in the 54th percentile of readings for this part of the year since 2010. Stocks built 1.8 million barrels on the week. Gasoline stocks set the summer crack tone and, into the autumn shoulder, the pace at which refiners can ease runs: a low seasonal percentile is refinery-margin support. A seasonal build through the shoulder months would close the tightness case.",
    "points": [
-    [
-     "2021-11-05",
-     212.703
-    ],
     [
      "2021-11-12",
      211.996
@@ -5891,6 +5887,10 @@
     [
      "2026-10-30",
      208.958
+    ],
+    [
+     "2026-11-06",
+     210.757
     ]
    ]
   },
@@ -5902,20 +5902,16 @@
    "source": "U.S. Energy Information Administration",
    "pull": "build_chartbook EIA products step (bin/eia_api.py, same connector as the Wednesday WPSR pull)",
    "cadence": "weekly",
-   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through October 30, 2026.",
+   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through November 06, 2026.",
    "stats": {
-    "level": 99.259,
-    "seasonal_mean": 123.69366666666666,
-    "z": -1.5655660052284752,
-    "seasonal_pct": 2.0,
-    "date": "2026-10-30"
+    "level": 103.33,
+    "seasonal_mean": 122.45863333333334,
+    "z": -1.2841243415431927,
+    "seasonal_pct": 4.0,
+    "date": "2026-11-06"
    },
-   "narrative_text": "U.S. distillate inventories stand at 99.3 million barrels, 24.4 million barrels (19.8 percent) below the ten-year seasonal average, a gap of 1.6 standard deviations, and in the 2nd percentile of readings for this part of the year since 2010. Stocks drew 3.6 million barrels on the week. Distillate is the winter product and the freight economy's fuel: low stocks into winter are heating-season upside for cracks and a squeeze risk in the heating oil leg. A mild winter, or a demand miss that rebuilds stocks, would unwind the tightness.",
+   "narrative_text": "U.S. distillate inventories stand at 103.3 million barrels, 19.1 million barrels (15.6 percent) below the ten-year seasonal average, a gap of 1.3 standard deviations, and in the 4th percentile of readings for this part of the year since 2010. Stocks built 4.1 million barrels on the week. Distillate is the winter product and the freight economy's fuel: low stocks into winter are heating-season upside for cracks and a squeeze risk in the heating oil leg. A mild winter, or a demand miss that rebuilds stocks, would unwind the tightness.",
    "points": [
-    [
-     "2021-11-05",
-     124.509
-    ],
     [
      "2021-11-12",
      123.685
@@ -6955,6 +6951,10 @@
     [
      "2026-10-30",
      99.259
+    ],
+    [
+     "2026-11-06",
+     103.33
     ]
    ]
   },
@@ -6966,20 +6966,16 @@
    "source": "U.S. Energy Information Administration",
    "pull": "build_chartbook EIA products step (bin/eia_api.py, same connector as the Wednesday WPSR pull)",
    "cadence": "weekly",
-   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through October 30, 2026.",
+   "vintage": "EIA Weekly Petroleum Status Report, via the stack EIA pull. Data through November 06, 2026.",
    "stats": {
-    "level": 104.108,
-    "seasonal_mean": 91.0462,
-    "z": 1.2116121592310882,
-    "seasonal_pct": 92.0,
-    "date": "2026-10-30"
+    "level": 104.199,
+    "seasonal_mean": 90.25829999999999,
+    "z": 1.272774712306324,
+    "seasonal_pct": 94.0,
+    "date": "2026-11-06"
    },
-   "narrative_text": "U.S. propane inventories stand at 104.1 million barrels, 13.1 million barrels (14.3 percent) above the ten-year seasonal average, a gap of 1.2 standard deviations, and in the 92nd percentile of readings for this part of the year since 2010. Stocks drew 1.6 million barrels on the week. Propane is a heating fuel and a Canadian export staple: U.S. stocks against the seasonal average frame the winter pull on western Canadian supply. A warm winter that leaves stocks high into spring would change the read.",
+   "narrative_text": "U.S. propane inventories stand at 104.2 million barrels, 13.9 million barrels (15.4 percent) above the ten-year seasonal average, a gap of 1.3 standard deviations, and in the 94th percentile of readings for this part of the year since 2010. Stocks built 0.1 million barrels on the week. Propane is a heating fuel and a Canadian export staple: U.S. stocks against the seasonal average frame the winter pull on western Canadian supply. A warm winter that leaves stocks high into spring would change the read.",
    "points": [
-    [
-     "2021-11-05",
-     74.757
-    ],
     [
      "2021-11-12",
      74.568
@@ -8019,6 +8015,10 @@
     [
      "2026-10-30",
      104.108
+    ],
+    [
+     "2026-11-06",
+     104.199
     ]
    ]
   },
@@ -8030,14 +8030,14 @@
    "source": "Exchange futures (via crack_321 daily file)",
    "pull": "crude-oil-morning-digest (src/ingest/build_crack_321.py)",
    "cadence": "daily",
-   "vintage": "Exchange front-month futures, via the daily crack file. Data through November 12, 2026.",
+   "vintage": "Exchange front-month futures, via the daily crack file. Data through November 13, 2026.",
    "stats": {
-    "level": 86.75,
-    "percentile_since_2020": 81.48148148148148,
-    "chg_30d": -7.390000000000001,
-    "date": "2026-11-12"
+    "level": 89.04,
+    "percentile_since_2020": 84.38403701561596,
+    "chg_30d": -6.049999999999997,
+    "date": "2026-11-13"
    },
-   "narrative_text": "WTI front month closed at $86.75 on November 12, 2026, in the 81st percentile of daily closes since 2020 and -7.39 dollars over the last thirty days. The outright is context rather than the trade: the differentials and calendar spreads this site follows are struck off this level, and its trend sets the tone they trade in. A sustained break of the recent range, either way, would reset that context.",
+   "narrative_text": "WTI front month closed at $89.04 on November 13, 2026, in the 84th percentile of daily closes since 2020 and -6.05 dollars over the last thirty days. The outright is context rather than the trade: the differentials and calendar spreads this site follows are struck off this level, and its trend sets the tone they trade in. A sustained break of the recent range, either way, would reset that context.",
    "points": [
     [
      "2023-11-13",
@@ -9549,7 +9549,11 @@
     ],
     [
      "2026-11-12",
-     86.75
+     88.74
+    ],
+    [
+     "2026-11-13",
+     89.04
     ]
    ]
   },
@@ -9567,10 +9571,10 @@
     "percentile_since_2021": 73.35398915569326,
     "date": "2026-08-31",
     "tmw_tenor": "2026-12",
-    "tmw_settle": -28.4933,
-    "tmw_settle_date": "2026-11-11"
+    "tmw_settle": -28.3632,
+    "tmw_settle_date": "2026-11-12"
    },
-   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$28.49 on November 11, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
+   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$28.36 on November 12, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
    "points": [
     [
      "2021-08-02",
@@ -10878,15 +10882,15 @@
    "source": "Exchange futures (computed)",
    "pull": "crude-oil-morning-digest (src/ingest/build_crack_321.py)",
    "cadence": "daily",
-   "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through November 12, 2026.",
+   "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through November 13, 2026.",
    "stats": {
-    "level": 45.5864,
-    "percentile_since_2020": 87.55787037037037,
+    "level": 45.2466,
+    "percentile_since_2020": 87.21804511278195,
     "series_high": 75.311,
     "series_high_date": "2026-08-28",
-    "date": "2026-11-12"
+    "date": "2026-11-13"
    },
-   "narrative_text": "The 3-2-1 crack spread printed $45.59 a barrel on November 12, 2026, in the 88th percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
+   "narrative_text": "The 3-2-1 crack spread printed $45.25 a barrel on November 13, 2026, in the 87th percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
    "points": [
     [
      "2023-11-13",
@@ -12398,7 +12402,11 @@
     ],
     [
      "2026-11-12",
-     45.5864
+     46.0534
+    ],
+    [
+     "2026-11-13",
+     45.2466
     ]
    ]
   },
