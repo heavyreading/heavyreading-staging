@@ -2,7 +2,7 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-11-13",
+ "built_at": "2026-11-14",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -328,6 +328,24 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Four people were killed and two injured in a Ukrainian drone attack on an industrial zone in Russia's southern city of Volgograd, regional governor Andrei Bocharov said on Friday, Nov 13, Reuters reported, calling it the deadliest attack on the city so far. Volgograd is home to a large oil refinery run by Lukoil, which has a processing capacity of approximately 14 million tonnes of crude oil per year, or 280,000 barrels per day, about 5 percent of total refining volume in Russia, according to Lukoil's website cited by Reuters. Unverified video posted on social media purported to show a large fire at the refinery, which has been attacked several times before, and residents reported loud explosions overnight, but there was no official confirmation that the refinery had been attacked and Lukoil did not reply to a request for comment. Ukraine has sharply stepped up its attacks on Russian oil refineries since the end of October, when an energy ceasefire announced by US President Donald Trump failed to take hold, Reuters said.",
+   "vintage": "Nov 13, 2026",
+   "source": "Reuters (via 93.5 The Lloyd)",
+   "source_url": "https://935thelloyd.com/2026/11/13/four-killed-in-ukrainian-drone-strike-on-industrial-zone-in-russias-volgograd-official-says/"
+  },
+  {
+   "text": "The huge fire that erupted on Nov 11 at Russia's largest Baltic Sea port of Ust-Luga following a Ukrainian overnight drone attack has been contained, but attempts to extinguish it continue, Leningrad region governor Alexander Drozdenko said, Ports Europe reported on Nov 12. Ust-Luga is Russia's second largest port behind Novorossiysk on the Black Sea, handles 700,000 barrels of crude oil per day, and exported more than 32.8 million tonnes of refined oil products last year, Ports Europe said. The port loads crude oil and petroleum products, coal, fertilisers and grain, and is home to the major Novatek refinery; earlier attacks on its oil terminals also caused temporary halts in loadings.",
+   "vintage": "Nov 12, 2026",
+   "source": "Ports Europe",
+   "source_url": "https://www.portseurope.com/ukrainian-drones-provoked-fire-at-russias-ust-luga-port-contained-but-not-extinguished/"
+  },
+  {
+   "text": "Ukraine's Special Operations Forces (SSO) confirmed they conducted an eight hour drone attack on Russia's largest oil refinery in the Siberian city of Omsk on Nov 11, more than 1,550 miles from the Ukrainian border, the National Security Journal reported on Nov 12. The SSO said the attack was the farthest reaching drone strike conducted by Ukraine on an oil refinery in Russia, with drones flying around 1,864 miles to strike the facility. Residents reported explosions, power cuts and fires at the Gazprom Neft refinery, and Russian officials confirmed a drone attack, but not whether the refinery was struck; there has been no confirmation of damage to specific refining units, and the level of damage remained unclear on Thursday, Nov 12. The refinery can process more than 21 million metric tons of crude oil each year.",
+   "vintage": "Nov 11, 2026",
+   "source": "National Security Journal",
+   "source_url": "https://nationalsecurityjournal.org/ukraine-just-did-the-impossible-its-drones-hit-russias-largest-oil-refinery-in-siberia-1550-miles-from-the-border/"
   },
   {
    "text": "The Russian city of Omsk, home to the largest oil refinery in the country, came under sustained drone fire for more than eight hours on Nov 11, EuropeSays reported, republishing reporting by the Kyiv Independent. Omsk Governor Vitaly Khotsenko reported during the day on Nov 11 that Ukrainian drones were attacking the region and urged residents to remain indoors, and residents reported a fire near the Omsk oil refinery, the independent Russian Telegram channel Astra reported, whose open-source analysis confirmed a blaze near the site. The precise targets and the extent of the damage were not yet clear, Khotsenko said emergency workers had been dispatched to sites hit by falling drone debris without specifying which facilities were struck, and residents also reported blackouts in some districts. The Omsk refinery, owned by Gazprom, has a processing capacity of more than 21 million metric tons of crude a year and accounts for about one in every six liters of Russian gasoline and diesel; Ukrainian forces struck the refinery twice before, in July and again in October 2026. The Kyiv Independent could not verify the claims at the time of publication.",
@@ -936,6 +954,21 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Reuters (via 93.5 The Lloyd)",
+   "vintage": "",
+   "url": "https://935thelloyd.com/2026/11/13/four-killed-in-ukrainian-drone-strike-on-industrial-zone-in-russias-volgograd-official-says/"
+  },
+  {
+   "publisher": "Ports Europe",
+   "vintage": "",
+   "url": "https://www.portseurope.com/ukrainian-drones-provoked-fire-at-russias-ust-luga-port-contained-but-not-extinguished/"
+  },
+  {
+   "publisher": "National Security Journal",
+   "vintage": "",
+   "url": "https://nationalsecurityjournal.org/ukraine-just-did-the-impossible-its-drones-hit-russias-largest-oil-refinery-in-siberia-1550-miles-from-the-border/"
   },
   {
    "publisher": "EuropeSays (citing the Kyiv Independent)",

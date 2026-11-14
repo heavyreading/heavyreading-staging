@@ -2,9 +2,51 @@
  "page": "/world/middle-east/",
  "title": "Middle East watch",
  "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
- "built_at": "2026-11-13",
+ "built_at": "2026-11-14",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Iran's Revolutionary Guards navy said a tanker carrying liquefied natural gas struck a naval mine and suffered an explosion in the Strait of Hormuz on Friday, Nov 13, while using what it described as an unauthorised and dangerous route, Reuters reported, citing Iranian state media. No details on the tanker were immediately available, and the claim had not been independently verified in the reporting here. Iranian media reported on Thursday that four oil tankers were hit by explosions in the waterway, adding that the vessels had ignored warnings and entered what Iran considers restricted areas. At least 10 ships were hit in the first 10 days of November, after 37 attacks in October, which was the highest monthly tally since the conflict began in late February, according to data from the Washington Institute for Near East Policy.",
+   "vintage": "Nov 13, 2026",
+   "source": "Reuters (via KWSN)",
+   "source_url": "https://kwsn.com/2026/11/13/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-in-hormuz/"
+  },
+  {
+   "text": "Kpler data showed liquefied natural gas exports via the Strait of Hormuz reached their highest total since February in October, at 31 tankers, compared with 23 in September, OilPrice.com reported on Nov 13, citing Kpler. Loadings at Qatar's Ras Laffan terminal exceeded 2.7 million tons in October, while the country exported nearly 6.2 million tons in February, so the October total remained far from pre-war levels, OilPrice.com said. The figures sit alongside continued Iranian reports of mine strikes on vessels using routes Iran calls unauthorised.",
+   "vintage": "Nov 13, 2026",
+   "source": "OilPrice.com (citing Kpler)",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Gas-Tanker-Hit-Mine-in-Strait-of-Hormuz.html"
+  },
+  {
+   "text": "The world oil market will return to a surplus in the fourth quarter of this year, the International Energy Agency (IEA) said on Friday, Nov 13, as Middle East exports recover faster than global oil demand despite continued attacks on shipping, Reuters reported. Oil supply will average 105 million barrels per day in the fourth quarter, 1.7 million barrels per day higher than forecast demand, the IEA said in its monthly report; it had previously forecast a fourth quarter supply deficit. The agency said the oil market is showing tentative signs of rebalancing, with global oil supplies surpassing demand for the first time since the outbreak of the war in Iran. Gulf producers are recovering exports by using workarounds such as dark crossings through the Strait of Hormuz, where tankers switch off tracking signals to evade attack, Reuters reported. The agency also said 71 million barrels from its members' emergency reserves pledged in March would be made available by the end of February, including 15 million barrels of diesel. OPEC+ pumped 41.23 million barrels per day of crude in October, up about 2.04 million barrels per day from September and 97 percent of the pre-war February volume, OPEC said on Wednesday, according to the same report.",
+   "vintage": "Nov 13, 2026",
+   "source": "Reuters (via WNFL)",
+   "source_url": "https://wnflsports.com/2026/11/13/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover-iea-says/"
+  },
+  {
+   "text": "Oil prices edged down on Friday, Nov 13, and were headed for a second weekly decline as the US focus on its blockade of Iran and other economic pressure eased fears of renewed direct conflict, though shipping attacks remained a supply risk, Reuters reported. Brent futures fell 37 cents, or 0.4 percent, to $95.45 a barrel at 1015 GMT, while US West Texas Intermediate (WTI) futures were down 68 cents, or 0.8 percent, to $88.06 a barrel. For the week, Brent and WTI were both on track for a drop of nearly 3 percent, after plunging 16 percent and 13 percent respectively last week. US President Donald Trump said on Truth Social a deal with Iran was not necessary to end the war. The weakness was also driven by signs of softening US demand, as rising crude oil and fuel inventories indicate a relatively subdued consumption outlook, Reuters reported, citing analysts.",
+   "vintage": "Nov 13, 2026",
+   "source": "Reuters (via Duke FM)",
+   "source_url": "https://941theduke.com/2026/11/12/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade/"
+  },
+  {
+   "text": "Oil prices jumped on Thursday, Nov 12, and settled up by $3 a barrel after attacks on Saudi energy infrastructure escalated and shipping disruptions through the Strait of Hormuz threatened global oil flows, Reuters reported. Brent futures settled at $95.82 a barrel, up $3.06 or 3.3 percent, while US West Texas Intermediate (WTI) crude closed at $88.74 a barrel, up $2.21 or 2.6 percent; for the week, both benchmarks were still down about 2.5 percent. Trade was volatile, with crude selling off early and then rebounding after Yemen's Iran-aligned Houthis said they had attacked a pumping station on the Saudi East-West oil pipeline, an oil facility in the Saudi Red Sea city of Yanbu, and an Aramco building in the capital Riyadh. Later, the Saudi-led military coalition fighting the Houthis said it had intercepted and destroyed two drones launched by the group, one in the Riyadh region and another in the kingdom's oil-rich Eastern Province. No Saudi confirmation of damage at the three claimed sites was reported in the Reuters account.",
+   "vintage": "Nov 12, 2026",
+   "source": "Reuters (via SRN News)",
+   "source_url": "https://srnnews.com/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets/"
+  },
+  {
+   "text": "Four oil tankers were hit by explosions in the Strait of Hormuz, Iran's military said on Thursday, Nov 12, adding that the vessels had ignored warnings and entered what it considers restricted areas of the strategic waterway, Reuters reported. Iran's Revolutionary Guards Navy said two supertankers were disabled by explosions on Wednesday, Nov 11, after they ignored warnings against using what it said was an unauthorised route; Iranian state media said the two vessels exploded after hitting naval mines. Iran's army later said two other tankers had hit mines on Thursday afternoon while sailing through the eastern Strait of Hormuz after ignoring warnings and disabling their radar systems, and that the tankers entered a restricted area and subsequently caught fire, state TV reported. Reuters could not immediately verify the Iranian account. In several cases in the strait, United Kingdom Maritime Trade Operations (UKMTO) has said vessels had been struck by unknown projectiles.",
+   "vintage": "Nov 12, 2026",
+   "source": "Reuters (via KWSN)",
+   "source_url": "https://kwsn.com/2026/11/12/four-tankers-struck-by-explosions-in-strait-of-hormuz-iran-says/"
+  },
+  {
+   "text": "A vessel was hit by an unidentified projectile about 14 nautical miles northwest of the United Arab Emirates emirate of Ras Al-Khaimah on Wednesday, Nov 11, causing a fire in its engine room, British maritime agencies said in reports published on Thursday, Nov 12, Reuters reported. All 22 crew members on the Liberia-flagged oil tanker, including 19 Indian nationals, were safely evacuated, India's shipping minister Sarbananda Sonowal said. Sonowal identified the vessel as the MT Dominica Prosperity and said it was attacked while drifting off the port of Mina Saqr. Firefighting efforts were under way at the time of the report, United Kingdom Maritime Trade Operations (UKMTO) said. Maritime security firm Ambrey said the vessel was struck at the stern while leaving the Strait of Hormuz, and Athens-based maritime security firm MARISKS said the tanker is owned by South Korea's Haut Brion 56 Ltd and operated by Sinokor Maritime Co Ltd.",
+   "vintage": "Nov 11, 2026",
+   "source": "Reuters (via 104.9 The Wolf)",
+   "source_url": "https://www.1049thewolf.com/2026/11/12/vessel-on-fire-after-being-struck-off-uaes-ras-al-khaimah-maritime-agencies-say/"
+  },
   {
    "text": "Two oil supertankers were disabled by massive explosions on Wednesday night, Nov 11, after ignoring warnings against using an unauthorised route in the Strait of Hormuz, Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Thursday, Nov 12, Reuters reported. Iranian state media said later that the two tankers exploded after hitting naval mines, showing what it said was video footage of the incidents, and Press TV said the vessels were carrying a combined total of more than 4 million barrels of oil and were now burning. The IRGC statement named no vessels, flags, owners or casualties, and the claim had not been independently verified in the reporting here. In several cases in the strait, United Kingdom Maritime Trade Operations (UKMTO) has said tankers have been struck by unknown projectiles.",
    "vintage": "Nov 12, 2026",
@@ -1849,6 +1891,41 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "Reuters (via KWSN)",
+   "vintage": "",
+   "url": "https://kwsn.com/2026/11/13/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-in-hormuz/"
+  },
+  {
+   "publisher": "OilPrice.com (citing Kpler)",
+   "vintage": "",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Gas-Tanker-Hit-Mine-in-Strait-of-Hormuz.html"
+  },
+  {
+   "publisher": "Reuters (via WNFL)",
+   "vintage": "",
+   "url": "https://wnflsports.com/2026/11/13/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover-iea-says/"
+  },
+  {
+   "publisher": "Reuters (via Duke FM)",
+   "vintage": "",
+   "url": "https://941theduke.com/2026/11/12/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade/"
+  },
+  {
+   "publisher": "Reuters (via SRN News)",
+   "vintage": "",
+   "url": "https://srnnews.com/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets/"
+  },
+  {
+   "publisher": "Reuters (via KWSN)",
+   "vintage": "",
+   "url": "https://kwsn.com/2026/11/12/four-tankers-struck-by-explosions-in-strait-of-hormuz-iran-says/"
+  },
+  {
+   "publisher": "Reuters (via 104.9 The Wolf)",
+   "vintage": "",
+   "url": "https://www.1049thewolf.com/2026/11/12/vessel-on-fire-after-being-struck-off-uaes-ras-al-khaimah-maritime-agencies-say/"
+  },
   {
    "publisher": "Reuters (via MarineLink)",
    "vintage": "",
