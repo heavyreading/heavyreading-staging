@@ -2,7 +2,7 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-11-14",
+ "built_at": "2026-11-15",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -106,6 +106,12 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "A campaign tally published on Nov 14 counted successful Ukrainian drone attacks on Russia's six largest refineries between Oct 30 and Nov 12: Omsk, Kirishi, Ryazan, Kstovo, Yaroslavl and Volgograd. The six facilities together carry nominal capacity of 123.2 million tonnes of crude a year, representing about half of Russia's annual refining output, the tally said. Across the last 15 days it counted 13 refineries and oil and gas infrastructure facilities successfully attacked, including two attacks on the Samara loading and dispatch station and an attack on the port and transshipment facilities at Ust-Luga. The tally cautioned that a successful attack does not immediately indicate that all production at a plant has been knocked offline, and that Russia now treats shutdown and restart information as a state secret, so information on shutdowns and restarts lags weeks behind.",
+   "vintage": "Nov 14, 2026",
+   "source": "Malcontent News (Russia-Ukraine War SITREP)",
+   "source_url": "https://malcontentnews.substack.com/p/in-15-days-russias-6-largest-refineries"
   },
   {
    "text": "Russia and Ukraine agreed to a large exchange of prisoners of war as two days of US-mediated talks in Abu Dhabi concluded on Wednesday, Nov 11, with no major breakthrough on ending the war, the Associated Press reported. US envoy Jared Kushner said the two sides had agreed to the biggest humanitarian release of prisoners, with the numbers to be finalised on Thursday, and that he and envoy Steve Witkoff would travel to Moscow on Thursday to meet President Vladimir Putin and then to Dublin to meet Ukrainian President Volodymyr Zelenskyy. Russian delegation head Vladimir Medinsky and Ukrainian delegation head Rustem Umerov confirmed the planned exchange, which could take place in the next two or three weeks. The talks, the first such meeting since February, lasted just under two hours on Wednesday after a four-hour session the previous day, and US mediators said differences remained on other major issues, including territory.",
@@ -328,6 +334,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Ukraine's General Staff said in a Telegram statement that its forces attacked Lukoil's Volgograd refinery overnight into Nov 13, causing a fire, Bloomberg reported via Rigzone on Nov 13. The statement said the plant's four primary processing units, a hydrotreatment unit, six storage tanks and a loading rack were damaged. The refinery, about 900 kilometres southeast of Moscow, has nameplate processing capacity of about 300,000 barrels of crude a day. The strike made Volgograd the ninth Russian oil refinery Ukraine has attacked since the start of November, including the Omsk facility, the country's largest, according to a Bloomberg tally based on statements from officials in both nations and people familiar with the incidents, and the nine plants together carry nameplate capacity of around 2.6 million barrels a day on Bloomberg calculations. How much Volgograd processing has stopped, and for how long, had not been confirmed by the operator in the reporting here.",
+   "vintage": "Nov 13, 2026",
+   "source": "Bloomberg (via Rigzone)",
+   "source_url": "https://www.rigzone.com/news/wire/ukraine_hits_9th_russian_oil_refinery_since_start_of_nov-13-nov-2026-185083-article/"
   },
   {
    "text": "Four people were killed and two injured in a Ukrainian drone attack on an industrial zone in Russia's southern city of Volgograd, regional governor Andrei Bocharov said on Friday, Nov 13, Reuters reported, calling it the deadliest attack on the city so far. Volgograd is home to a large oil refinery run by Lukoil, which has a processing capacity of approximately 14 million tonnes of crude oil per year, or 280,000 barrels per day, about 5 percent of total refining volume in Russia, according to Lukoil's website cited by Reuters. Unverified video posted on social media purported to show a large fire at the refinery, which has been attacked several times before, and residents reported loud explosions overnight, but there was no official confirmation that the refinery had been attacked and Lukoil did not reply to a request for comment. Ukraine has sharply stepped up its attacks on Russian oil refineries since the end of October, when an energy ceasefire announced by US President Donald Trump failed to take hold, Reuters said.",
@@ -771,6 +783,11 @@
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
   },
   {
+   "publisher": "Malcontent News (Russia-Ukraine War SITREP)",
+   "vintage": "",
+   "url": "https://malcontentnews.substack.com/p/in-15-days-russias-6-largest-refineries"
+  },
+  {
    "publisher": "Associated Press (via KSFR)",
    "vintage": "",
    "url": "https://www.ksfr.org/npr-news/2026-11-11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough"
@@ -954,6 +971,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Bloomberg (via Rigzone)",
+   "vintage": "",
+   "url": "https://www.rigzone.com/news/wire/ukraine_hits_9th_russian_oil_refinery_since_start_of_nov-13-nov-2026-185083-article/"
   },
   {
    "publisher": "Reuters (via 93.5 The Lloyd)",

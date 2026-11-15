@@ -2,9 +2,27 @@
  "page": "/world/middle-east/",
  "title": "Middle East watch",
  "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
- "built_at": "2026-11-14",
+ "built_at": "2026-11-15",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Iran said on Saturday, Nov 14, that three oil tankers caught fire after striking naval mines in and around the Strait of Hormuz, Reuters reported via CNA. The Islamic Revolutionary Guard Corps (IRGC) Navy said two tankers that had turned off their radar and navigation systems and were travelling covertly along an unauthorized route exploded and caught fire south of the strait, and that one of them had very large capacity. In a separate statement, Iran's regular navy said a third vessel caught fire after striking a mine east of the strait, having travelled in a prohibited area with its identification and tracking systems switched off. Iran disclosed no vessel identities, registered nationalities or cargoes, and gave no casualty figures. US Central Command dismissed the mine claims as false and said the US military had conducted mine clearing operations in the main international shipping lanes. The report put traffic through the strait at around 36 passages a day, down about 70 percent from pre-war levels of 130 to 140 a day, and noted that under regulations issued by Tehran on Oct 26 all vessels passing through the strait must obtain permission and follow the coordination of the IRGC Maritime Traffic Control Center.",
+   "vintage": "Nov 14, 2026",
+   "source": "Reuters (via StockBiz, citing CNA)",
+   "source_url": "https://stockbiz.vn/en/news/iran-says-3-oil-tankers-hit-mines-in-strait-of-hormuz/42779121"
+  },
+  {
+   "text": "The United Nations put its own confirmed tally on the Hormuz shipping crisis on Friday, Nov 13. Assistant Secretary-General Khaled Khiari told the Security Council that the International Maritime Organization had recorded 134 confirmed incidents in and around the Strait of Hormuz as of Nov 11, that 25 seafarers had lost their lives, and that October saw the highest monthly number of incidents against commercial shipping since February. Energy export volumes out of the Gulf have largely been restored, including through alternative routes, but maritime shipments remain below pre-conflict levels, Khiari said, calling the present arrangements costly, unpredictable and unsafe. A second tally the same week, from Lloyd's List Intelligence as reported by Yonhap News Agency, counted 37 attacks around Hormuz in October and 418 transits by non-Iranian tankers in October, with at least 14 attacks confirmed in November so far.",
+   "vintage": "Nov 13, 2026",
+   "source": "Kilambi News (citing UN Web TV and Lloyd's List Intelligence via Yonhap)",
+   "source_url": "https://news.kilambi.com/stories/2026-11-13-iran-says-lng-tanker-hit-mine-hormuz/"
+  },
+  {
+   "text": "The UN Security Council strongly condemned the Houthi group's military escalation, its attacks against Saudi Arabia and its threats to commercial shipping vessels on Nov 13, Qatar News Agency reported. In Resolution 2837, tabled by the United Kingdom, the Council demanded that the Houthis immediately and unconditionally cease their escalation and attacks, including those targeting civilian populations and infrastructure such as commercial airports and international maritime shipping, and it extended Yemen-related sanctions, including asset freezes and travel bans. The Council also extended the mandate of the Panel of Experts established under Resolution 2140 until Dec 15, 2027, and asked the Secretary-General to increase the panel to six members, adding experts on maritime security, while urging member states to step up efforts against weapons smuggling by land and sea routes.",
+   "vintage": "Nov 13, 2026",
+   "source": "Fana News (QNA)",
+   "source_url": "https://www.fananews.com/language/en/un-security-council-condemns-houthi-attacks-against-saudi-arabia-threats-to-commercial-shipping/"
+  },
   {
    "text": "Iran's Revolutionary Guards navy said a tanker carrying liquefied natural gas struck a naval mine and suffered an explosion in the Strait of Hormuz on Friday, Nov 13, while using what it described as an unauthorised and dangerous route, Reuters reported, citing Iranian state media. No details on the tanker were immediately available, and the claim had not been independently verified in the reporting here. Iranian media reported on Thursday that four oil tankers were hit by explosions in the waterway, adding that the vessels had ignored warnings and entered what Iran considers restricted areas. At least 10 ships were hit in the first 10 days of November, after 37 attacks in October, which was the highest monthly tally since the conflict began in late February, according to data from the Washington Institute for Near East Policy.",
    "vintage": "Nov 13, 2026",
@@ -592,6 +610,12 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil settled little changed on Friday, Nov 13, and closed a second straight weekly decline, Reuters reported. Brent futures settled at $95.84 a barrel, up two cents or 0.02 percent, while US West Texas Intermediate finished at $88.56 a barrel, down 18 cents or 0.2 percent, with both benchmarks on track for a drop of about 2.5 percent for the week after falling 16 percent and 13 percent respectively the week before. The market weighed a growing global supply surplus, Friday's International Energy Agency report pointing to a rising surplus, and Washington's focus on blockading Iran and ramping up other economic pressures, against continued attacks on shipping in the Strait of Hormuz and Houthi claims of attacks on Saudi energy infrastructure. Phil Flynn, senior analyst at Price Futures, said the biggest fear a few months ago was a fear of shortage and that the biggest fear now looks like a surplus, while US crude and fuel inventories rose in the latest Energy Information Administration report on softer refined products demand and a jump in oil imports.",
+   "vintage": "Nov 13, 2026",
+   "source": "Reuters (via EuropeSays)",
+   "source_url": "https://www.europesays.com/3374076/"
   },
   {
    "text": "Oil prices fell sharply on Monday, Nov 9, after US President Donald Trump downplayed the likelihood of renewed strikes on Iran, though attacks on ships near the Strait of Hormuz kept supply concerns in focus, Reuters reported. Brent crude slid by $3.49, or 3.6 percent, to $94.83 a barrel by 1219 GMT, while US West Texas Intermediate lost $2.66, or 2.9 percent, to $88.17. Brent plunged 16 percent last week to touch a two-month low of $93.22, its steepest weekly drop since the start of the COVID pandemic. Trump said on Sunday he was highly unlikely to order fresh attacks on Iran as long as talks to end the conflict progressed, even as both countries reported that shipping had been hit in or near the strait, and Iran has said it would respond by striking US and Israeli targets. JPMorgan said in a report on Friday that recovering Middle Eastern oil flows, rising production from other countries and weak demand have pushed global supply above consumption, estimating a surplus of 1.1 million barrels per day in September, widening to 1.4 million barrels per day in October.",
@@ -1892,6 +1916,21 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via StockBiz, citing CNA)",
+   "vintage": "",
+   "url": "https://stockbiz.vn/en/news/iran-says-3-oil-tankers-hit-mines-in-strait-of-hormuz/42779121"
+  },
+  {
+   "publisher": "Kilambi News (citing UN Web TV and Lloyd's List Intelligence via Yonhap)",
+   "vintage": "",
+   "url": "https://news.kilambi.com/stories/2026-11-13-iran-says-lng-tanker-hit-mine-hormuz/"
+  },
+  {
+   "publisher": "Fana News (QNA)",
+   "vintage": "",
+   "url": "https://www.fananews.com/language/en/un-security-council-condemns-houthi-attacks-against-saudi-arabia-threats-to-commercial-shipping/"
+  },
+  {
    "publisher": "Reuters (via KWSN)",
    "vintage": "",
    "url": "https://kwsn.com/2026/11/13/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-in-hormuz/"
@@ -2370,6 +2409,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters (via EuropeSays)",
+   "vintage": "",
+   "url": "https://www.europesays.com/3374076/"
   },
   {
    "publisher": "Reuters (via Euronext Live)",
