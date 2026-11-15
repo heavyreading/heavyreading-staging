@@ -6,6 +6,24 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Sunday, Nov 15, that two oil tankers exploded in the southern Strait of Hormuz after striking naval mines in an unauthorized transit corridor, and that one of them has sunk, Press TV reported. The IRGC Navy said the two tankers suffered a very massive explosion after hitting sea mines in recent hours while attempting to transit through an unauthorized route, with all identification and positioning systems shut down. One vessel, described as a supertanker carrying more than 2 million barrels of crude oil, sank in the southern waters of the Persian Gulf following the explosion and a massive fire, the statement said. The IRGC advised fishermen to avoid the sunken tanker's wreckage and warned tanker owners and crews against entering the prohibited zone. The statement named no vessels, flags, owners or casualties, and the sinking claim had not been independently verified in the reporting here.",
+   "vintage": "Nov 15, 2026",
+   "source": "Press TV",
+   "source_url": "https://www.presstv.co.uk/Detail/2026/11/15/780794/two-violating-oil-tankers-hit-mines-in-strait-of-hormuz-one-sinks-irgc-navy"
+  },
+  {
+   "text": "Yemen's government forces have pulled out of the area overlooking the Bab el-Mandeb Strait, handing the Iran-aligned Houthis control of one of the world's most important shipping chokepoints, Reuters reported on Sunday, Nov 15. The Southern Armed Forces said they were redeploying troops from Dhubab Airport and the Bab el-Mandeb area, west of Taiz Governorate, toward Aden to secure the capital and neighbouring governorates and strengthen front lines. The move follows weeks of fighting along Yemen's western coast, more than a month after Southern Forces backed by Saudi air support launched an operation against Houthi positions around Bab el-Mandeb, and a September Houthi push south to seize Yemen's Red Sea coast. Reuters described the retreat as handing the Houthis a potent pressure point on global shipping while Iran continues to disrupt traffic through the Strait of Hormuz, leaving two vital sea lanes under strain at the same time. No independent confirmation of the Houthis' presence at the strait itself had been published in the reporting here, and the Southern Forces said the redeployment did not signal an end to military operations.",
+   "vintage": "Nov 15, 2026",
+   "source": "Reuters (via ReportRig)",
+   "source_url": "https://reportrig.com/houthis-seize-bab-el-mandeb-as-yemen-forces-pull-back-to-aden/"
+  },
+  {
+   "text": "A tanker was attacked in the past few hours while transiting waters off Oman before entering the Strait of Hormuz, United Kingdom Maritime Trade Operations (UKMTO) said in a report published on Nov 15, Democrata reported, citing UKMTO and Indian maritime authorities. UKMTO said Indian maritime authorities had reported an attack on a tanker transiting through the Persian Gulf heading east, before entering the strait, and that the crew was located and safe. No assessment of damage or environmental impact was yet known at the time of the report, and vessels were advised to transit with caution and report suspicious activity to UKMTO. The report named no vessel, flag or attacker.",
+   "vintage": "Nov 15, 2026",
+   "source": "Democrata (citing UKMTO)",
+   "source_url": "https://www.democrata.es/en/international/attack-against-an-oil-tanker-in-the-strait-of-hormuz/"
+  },
+  {
    "text": "Iran said on Saturday, Nov 14, that three oil tankers caught fire after striking naval mines in and around the Strait of Hormuz, Reuters reported via CNA. The Islamic Revolutionary Guard Corps (IRGC) Navy said two tankers that had turned off their radar and navigation systems and were travelling covertly along an unauthorized route exploded and caught fire south of the strait, and that one of them had very large capacity. In a separate statement, Iran's regular navy said a third vessel caught fire after striking a mine east of the strait, having travelled in a prohibited area with its identification and tracking systems switched off. Iran disclosed no vessel identities, registered nationalities or cargoes, and gave no casualty figures. US Central Command dismissed the mine claims as false and said the US military had conducted mine clearing operations in the main international shipping lanes. The report put traffic through the strait at around 36 passages a day, down about 70 percent from pre-war levels of 130 to 140 a day, and noted that under regulations issued by Tehran on Oct 26 all vessels passing through the strait must obtain permission and follow the coordination of the IRGC Maritime Traffic Control Center.",
    "vintage": "Nov 14, 2026",
    "source": "Reuters (via StockBiz, citing CNA)",
@@ -1915,6 +1933,21 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "Press TV",
+   "vintage": "",
+   "url": "https://www.presstv.co.uk/Detail/2026/11/15/780794/two-violating-oil-tankers-hit-mines-in-strait-of-hormuz-one-sinks-irgc-navy"
+  },
+  {
+   "publisher": "Reuters (via ReportRig)",
+   "vintage": "",
+   "url": "https://reportrig.com/houthis-seize-bab-el-mandeb-as-yemen-forces-pull-back-to-aden/"
+  },
+  {
+   "publisher": "Democrata (citing UKMTO)",
+   "vintage": "",
+   "url": "https://www.democrata.es/en/international/attack-against-an-oil-tanker-in-the-strait-of-hormuz/"
+  },
   {
    "publisher": "Reuters (via StockBiz, citing CNA)",
    "vintage": "",

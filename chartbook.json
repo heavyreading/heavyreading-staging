@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-11-14T10:05:28-06:00",
+ "built_at": "2026-11-15T08:54:27-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -10888,13 +10888,13 @@
    "cadence": "daily",
    "vintage": "Computed daily from front-month WTI, RBOB gasoline, and heating oil futures. Data through November 13, 2026.",
    "stats": {
-    "level": 44.4582,
-    "percentile_since_2020": 86.63967611336032,
+    "level": 43.5538,
+    "percentile_since_2020": 85.94563331405436,
     "series_high": 75.311,
     "series_high_date": "2026-08-28",
     "date": "2026-11-13"
    },
-   "narrative_text": "The 3-2-1 crack spread printed $44.46 a barrel on November 13, 2026, in the 87th percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
+   "narrative_text": "The 3-2-1 crack spread printed $43.55 a barrel on November 13, 2026, in the 86th percentile of daily readings since 2020. The crack is the refining system's margin: at this level refiners run as hard as equipment allows, which is crude demand support, and product supply eventually answers. A crack back under twenty-five dollars would signal margin-driven run cuts and soften the crude bid.",
    "points": [
     [
      "2023-11-13",
@@ -12410,7 +12410,7 @@
     ],
     [
      "2026-11-13",
-     44.4582
+     43.5538
     ]
    ]
   },
