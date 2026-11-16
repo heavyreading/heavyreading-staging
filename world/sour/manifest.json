@@ -60,6 +60,18 @@
    "source_url": "https://www.petroleum-economist.com/magazine/2026/augustseptember-2026/forward-intelligence/why-all-eyes-should-be-on-the-brent-dubai-spread/"
   },
   {
+   "text": "Kpler reported on Nov 12 that the Dubai prompt spread (M1 minus M3) narrowed from a premium of $11.03 a barrel on Oct 6 to $1.03 a barrel on Nov 12, approaching contango as Middle East crude availability improves. Saudi Arabia and Kuwait have cut December official selling prices by $2 a barrel, intensifying competition to defend market share in Asia, Kpler said.",
+   "vintage": "Published Nov 12, 2026; accessed 2026-11-16",
+   "source": "Kpler",
+   "source_url": "https://www.kpler.com/blog/mideast-gulf-crude-discounts-deepen-as-asian-refiners-turn-to-atlantic-barrels"
+  },
+  {
+   "text": "Reuters reported on Nov 12 that spot premiums for the Middle East crude benchmarks Dubai and Oman fell to their lowest in nearly four months, as oversupply concerns grew after data pointed to recovered output in the region and OPEC+ crude production rose in October on higher Saudi Arabian output.",
+   "vintage": "Published Nov 12, 2026; accessed 2026-11-16",
+   "source": "Reuters (via TradingView)",
+   "source_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46T0FL:0-dubai-oman-premiums-fall-to-near-four-month-low/"
+  },
+  {
    "text": "Reuters reported on Nov 5 that spot premiums for Middle East crude benchmarks returned to pre-war levels that week as ample supplies weighed on the market and cooling refining margins in Asia slowed buying interest. Dubai's cash premium to swaps slumped to 65 cents a barrel on Monday, the lowest since July, before recovering to $1.55 a barrel on Thursday, Reuters data showed. Oman's premium dropped to 95 cents a barrel on Tuesday, the weakest since July, before rising to $1.76 on Thursday, against an average of about $8 a barrel in the previous month. Middle East crude flows including bypass pipelines averaged 17.1 million barrels per day in September and 16.3 million in October, Kpler data showed, and Iraqi flows jumped to 3.35 million barrels per day in October, only 150,000 barrels per day under pre-war levels, Kpler analyst Naveen Das said.",
    "vintage": "Published Nov 5, 2026; accessed 2026-11-10",
    "source": "Reuters (via Baird Maritime)",
@@ -100,12 +112,6 @@
    "vintage": "Published Oct 21, 2026; accessed 2026-10-26",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Higher-Oil-Availability-Pressures-Middle-East-Crude-Benchmarks.amp.html"
-  },
-  {
-   "text": "Quantum Commodity Intelligence reported Dubai crude racing higher midweek with Asia distillate cracks rising (its Oct 8 East of Suez note), then easing from its weekly highs on Friday as fears over US military strikes receded. Per QCI's two notes, Dubai premiums are still trading headlines on Middle East security rather than physical spot demand.",
-   "vintage": "Published Oct 8-9, 2026; accessed 2026-10-12",
-   "source": "Quantum Commodity Intelligence",
-   "source_url": "https://www.qcintel.com/article/east-of-suez-dubai-eases-from-oct-highs-asia-naphtha-extends-run-74867.html"
   },
   {
    "text": "Basra Oil Company chief Bassem Abdul Karim said on Sep 24 that the northern leg now carries about 250,000 barrels per day of Basrah crude to Turkey's Mediterranean port of Ceyhan, while southern terminals handled about 2.6 million barrels per day. The same parliamentary hearing put Iraq's war-related revenue loss near 60 billion dollars and flagged sharply higher shipping costs.",
@@ -180,12 +186,6 @@
    "source_url": "https://www.hellenicshippingnews.com/tanker-market-unplanned-us-refinery-outages-could-impact-freight-trade/"
   },
   {
-   "text": "Asian refining margins for 10 parts per million (ppm) sulfur diesel surged to a record just above $87 per barrel in mid-September 2026, versus pre-war levels around $22 per barrel and a prior record of $85.60 set in late March 2026, while the front-month diesel spread stood slightly above $11 per barrel, near a five-month high. Because medium-sour grades carry higher distillate yields than light sweets, record diesel cracks directly support bids for Mars-type barrels and widen the incentive for complex refiners to run heavy sour slates.",
-   "vintage": "~Sep 18, 2026; accessed 2026-09-24",
-   "source": "IDNFinancials (citing Reuters and LSEG data)",
-   "source_url": "https://www.idnfinancials.com/news/69011/asian-diesel-margins-hit-record-high-amid-supply-risks"
-  },
-  {
    "text": "Pemex crude exports fell to a 35-year low of about 368,000 barrels per day in December 2025, down 54 percent year over year, as the Olmeca refinery (Dos Bocas) ramped to over 260,000 barrels per day of heavy crude processing and absorbed barrels once destined for export. The export collapse removed roughly 440,000 barrels per day of heavy sour supply year over year, and US imports from Mexico fell to 224,500 barrels per day in December (down 22 percent month over month). With crude production capped at 1.8 million barrels per day under Mexico's Energy Sovereignty 2030 roadmap, the industry may lean more heavily on Western Canadian Select (WCS) or Mars as the Americas heavy benchmark as Maya liquidity dries up.",
    "vintage": "Data: Dec 2025; published Jan 28, 2026; accessed 2026-09-24",
    "source": "Daily Courier / MarketMinute (via FinancialContent)",
@@ -196,6 +196,12 @@
    "vintage": "Published ~mid-Aug 2026 (Q2 2026 data); accessed 2026-09-24",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Mexico-Has-More-Refining-Capacity-So-Why-Are-Fuel-Imports-Rising.amp.html"
+  },
+  {
+   "text": "BOE Report reported on Nov 13, from Reuters reporting of brokerage assessments, that Western Canadian Select (WCS) for December delivery at Hardisty settled at $26.20 a barrel under West Texas Intermediate (WTI), narrowing from $26.60 on Nov 12 after widening from $25.75 on Nov 10. The discount remains wide on constrained Canadian export capacity, increased competition from Venezuelan heavy crude and high global freight rates, reached $31 in the first week of November, and WCS at Houston hit a record $23 discount in late October as freight reduced demand for Canadian re-exports off the US Gulf Coast, BOE Report said.",
+   "vintage": "Published Nov 13, 2026; accessed 2026-11-16",
+   "source": "BOE Report (Reuters; brokerage assessments)",
+   "source_url": "https://boereport.com/2026/11/13/discount-on-western-canada-select-narrows-55/"
   },
   {
    "text": "BOE Report reported on Nov 9, from Reuters reporting of brokerage assessments, that Western Canadian Select (WCS) for December delivery at Hardisty, Alberta settled at $25 a barrel below West Texas Intermediate (WTI), compared with $26 on Friday, continuing its retreat from the blowout levels of earlier in the month. The discount reached as wide as $31 below WTI in the first week of November, and at Houston WCS barrels in late October hit an all-time wide discount of $23 as soaring global freight rates reduced demand for Canadian crude re-exports off the US Gulf Coast. Global freight rates, while still high, have come down since October, Rory Johnston of Commodity Context told Reuters.",
@@ -238,12 +244,6 @@
    "vintage": "Published Oct 8, 2026; accessed 2026-10-19",
    "source": "Reuters (via TradingView)",
    "source_url": "https://www.tradingview.com/news/moodys:ad0c7c798ea22:0-india-s-venezuelan-oil-imports-set-to-hit-highest-level-in-nearly-seven-years/"
-  },
-  {
-   "text": "Oil Sands Magazine's weekly close for Oct 16 put Western Canadian Select (WCS) at Hardisty at $76.18 a barrel, a $25.00 discount to West Texas Intermediate (WTI), which closed at $101.41. WCS delivered at Houston stood at a $16.60 discount to WTI, WCS at Cushing at $17.92 under, and synthetic crude oil (SCO) at a $7.57 premium to WTI.",
-   "vintage": "Weekly close: Oct 16, 2026; accessed 2026-10-19",
-   "source": "Oil Sands Magazine",
-   "source_url": "https://www.oilsandsmagazine.com/energy-statistics/oil-and-gas-prices"
   }
  ],
  "sources": [
@@ -288,6 +288,16 @@
    "url": "https://www.petroleum-economist.com/magazine/2026/augustseptember-2026/forward-intelligence/why-all-eyes-should-be-on-the-brent-dubai-spread/"
   },
   {
+   "publisher": "Kpler",
+   "vintage": "",
+   "url": "https://www.kpler.com/blog/mideast-gulf-crude-discounts-deepen-as-asian-refiners-turn-to-atlantic-barrels"
+  },
+  {
+   "publisher": "Reuters (via TradingView)",
+   "vintage": "",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46T0FL:0-dubai-oman-premiums-fall-to-near-four-month-low/"
+  },
+  {
    "publisher": "Reuters (via Baird Maritime)",
    "vintage": "",
    "url": "https://www.bairdmaritime.com/shipping/tankers/war-premiums-fade-as-middle-east-crude-floods-asian-buyers"
@@ -321,11 +331,6 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Higher-Oil-Availability-Pressures-Middle-East-Crude-Benchmarks.amp.html"
-  },
-  {
-   "publisher": "Quantum Commodity Intelligence",
-   "vintage": "",
-   "url": "https://www.qcintel.com/article/east-of-suez-dubai-eases-from-oct-highs-asia-naphtha-extends-run-74867.html"
   },
   {
    "publisher": "Europe Says (aggregating Iraqi parliamentary hearing)",
@@ -388,11 +393,6 @@
    "url": "https://www.hellenicshippingnews.com/tanker-market-unplanned-us-refinery-outages-could-impact-freight-trade/"
   },
   {
-   "publisher": "IDNFinancials (citing Reuters and LSEG data)",
-   "vintage": "",
-   "url": "https://www.idnfinancials.com/news/69011/asian-diesel-margins-hit-record-high-amid-supply-risks"
-  },
-  {
    "publisher": "Daily Courier / MarketMinute (via FinancialContent)",
    "vintage": "",
    "url": "https://markets.financialcontent.com/kelownadailycourier/article/marketminute-2026-1-28-mexicos-oil-paradox-pemex-exports-hit-35-year-low-as-domestic-sovereignty-takes-precedence"
@@ -401,6 +401,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Energy/Crude-Oil/Mexico-Has-More-Refining-Capacity-So-Why-Are-Fuel-Imports-Rising.amp.html"
+  },
+  {
+   "publisher": "BOE Report (Reuters; brokerage assessments)",
+   "vintage": "",
+   "url": "https://boereport.com/2026/11/13/discount-on-western-canada-select-narrows-55/"
   },
   {
    "publisher": "BOE Report (Reuters; brokerage assessments)",
@@ -436,11 +441,6 @@
    "publisher": "Reuters (via TradingView)",
    "vintage": "",
    "url": "https://www.tradingview.com/news/moodys:ad0c7c798ea22:0-india-s-venezuelan-oil-imports-set-to-hit-highest-level-in-nearly-seven-years/"
-  },
-  {
-   "publisher": "Oil Sands Magazine",
-   "vintage": "",
-   "url": "https://www.oilsandsmagazine.com/energy-statistics/oil-and-gas-prices"
   }
  ]
 }

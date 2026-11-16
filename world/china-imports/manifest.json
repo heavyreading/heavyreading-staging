@@ -48,10 +48,10 @@
    "source_url": "https://www.oilmonster.com/article/goldman-sachs-expects-china-crude-imports-to-remain-weak-amid-high-oil-prices-/8619"
   },
   {
-   "text": "Reuters columnist Clyde Russell's analysis of official data (published Sep 15, 2026) showed China processed 13.91 million b/d in August, the most since March, against 8.93 million b/d of imports plus 4.34 million b/d of domestic production, implying a 640,000 b/d inventory draw. It was the third draw in four months (draws of 500,000 b/d in May and 940,000 b/d in June, a 210,000 b/d surplus in July); stocks are estimated at at least 1.2 billion barrels, and January to August still showed a net surplus of 330,000 b/d.",
-   "vintage": "Data: Aug 2026; published Sep 15, 2026; accessed 2026-09-24",
-   "source": "BOE Report (Reuters columnist Clyde Russell)",
-   "source_url": "https://boereport.com/2026/09/15/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise-russell/"
+   "text": "Kpler reported on Nov 12 that Chinese refiners are stepping up purchases of West African and Brazilian crude despite cheaper Middle East alternatives, as ample Gulf supply and falling tanker rates reshape competition for Asian demand. Kpler assessments put the landed value of Nigerian Agbami into Ningbo at a premium of $19.65 a barrel to the Dubai swap for late-November loading, down $11.95 a barrel on the week, leaving prompt Agbami cargoes about $4 a barrel more competitive than Abu Dhabi Murban into China, Kpler said.",
+   "vintage": "Published Nov 12, 2026; accessed 2026-11-16",
+   "source": "Kpler",
+   "source_url": "https://www.kpler.com/blog/mideast-gulf-crude-discounts-deepen-as-asian-refiners-turn-to-atlantic-barrels"
   },
   {
    "text": "Reuters reported on Nov 5 that several independent refiners in China's eastern Shandong province bought 8 million to 10 million barrels of November-loading West African crude in the previous week, while sellers of West African and Brazilian crude offered steeper discounts to Chinese buyers to offset high freight costs, intensifying competition with Gulf grades. Unsold December-loading cargoes of Oman, Murban and Iraqi crude from the previous trading cycle also pressured spot premiums, traders told Reuters.",
@@ -120,10 +120,10 @@
    "source_url": "https://www.mitrade.com/au/insights/news/live-news/article-3-2118162-20260927"
   },
   {
-   "text": "Saudi Aramco cut its September official selling price (OSP) for Arab Light to Asia by 50 cents a barrel to a $2/bbl discount against the regional benchmark, the fifth-lowest differential since 2000, per Energies Media (Aug 19, 2026). The cut reflected war-driven costs (freight, rerouting) plus formal discount requests from Asian refiners for longer voyages; Aramco held exports near 5 million b/d, about 70% of normal, leaning on Red Sea port Yanbu and potentially Sidi Kerir loadings.",
-   "vintage": "Reported Aug 19, 2026; accessed 2026-09-24",
-   "source": "Energies Media",
-   "source_url": "https://energiesmedia.com/saudi-aramco-arab-light-price-cut-energy/"
+   "text": "Reuters reported on Nov 10 that China's refined oil product exports fell to 5.18 million tons in October from 7.16 million tons in September, while product imports rose to 3.15 million tons from 1.85 million tons. Product exports in the first ten months of 2026 totaled 46.59 million tons, down 2 percent from a year earlier, Reuters said, citing customs data.",
+   "vintage": "Published Nov 10, 2026; accessed 2026-11-16",
+   "source": "Reuters (via Baird Maritime)",
+   "source_url": "https://www.bairdmaritime.com/shipping/tankers/china-crude-oil-imports-hit-seven-month-high-in-october"
   },
   {
    "text": "Reuters reported on Nov 5 that China released a larger than expected fourth batch of fuel export quotas in the previous week, which raised expectations of increased refined product supply in Asia and weighed on regional refining margins.",
@@ -190,6 +190,12 @@
    "vintage": "Data: Sep 11, 2026; published Sep 23, 2026; accessed 2026-09-24",
    "source": "Tide Signal News (citing Reuters/Baltic Exchange)",
    "source_url": "https://tidesignalnews.com/vlcc-rates-ws450-gulf-oman-china/"
+  },
+  {
+   "text": "China's National Bureau of Statistics data, released Nov 16 and reported by Shanghai Metals Market, showed crude oil processing of 58.3 million tons in October, down 8.1 percent from a year earlier. The October volume works out to roughly 13.7 million barrels per day, in line with the 13.75 million barrels per day that Energy Aspects estimated for October in Reuters reporting on Nov 10, and below September levels as state refiners held back amid uncertainty over product export policy.",
+   "vintage": "NBS release Nov 16, 2026 (October data); accessed 2026-11-16",
+   "source": "National Bureau of Statistics (via Shanghai Metals Market)",
+   "source_url": "https://news.metal.com/newscontent/NUCOEMTGGAJYPIYVP6JVRCAOJR7KVKKLY4BYUZQ-nbs-october-value-added-of-industrial-enterprises-above-designated-size-up-48-yoy-national-economy-operating-generally-stable-with-new-and-improving-momentum"
   },
   {
    "text": "The Centre for Research on Energy and Clean Air (CREA) reported on Nov 5 that reduced crude oil stockpiling accounted for 47 percent of the year-on-year drop in China's crude imports between March and August 2026, as temporary adjustments cushioned the Hormuz import shock. Electric vehicles displaced 38 million tonnes of oil equivalent in March to August 2026, equivalent to around 13 percent of China's crude oil imports in the same period of 2025, and growth in non-fossil generation reduced coal and gas requirements, saving an estimated $9.1 billion in fossil fuel imports since 2020, more than any other country, CREA said. Its analysis is based on National Bureau of Statistics data for domestic fuel production, refinery throughput and oil product output, and General Administration of Customs import and export volumes.",
@@ -277,9 +283,9 @@
    "url": "https://www.oilmonster.com/article/goldman-sachs-expects-china-crude-imports-to-remain-weak-amid-high-oil-prices-/8619"
   },
   {
-   "publisher": "BOE Report (Reuters columnist Clyde Russell)",
+   "publisher": "Kpler",
    "vintage": "",
-   "url": "https://boereport.com/2026/09/15/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise-russell/"
+   "url": "https://www.kpler.com/blog/mideast-gulf-crude-discounts-deepen-as-asian-refiners-turn-to-atlantic-barrels"
   },
   {
    "publisher": "Reuters (via Baird Maritime)",
@@ -327,9 +333,9 @@
    "url": "https://www.mitrade.com/au/insights/news/live-news/article-3-2118162-20260927"
   },
   {
-   "publisher": "Energies Media",
+   "publisher": "Reuters (via Baird Maritime)",
    "vintage": "",
-   "url": "https://energiesmedia.com/saudi-aramco-arab-light-price-cut-energy/"
+   "url": "https://www.bairdmaritime.com/shipping/tankers/china-crude-oil-imports-hit-seven-month-high-in-october"
   },
   {
    "publisher": "Reuters (Gavin Maguire commentary; reprinted by The Hindu Business Line)",
@@ -375,6 +381,11 @@
    "publisher": "Tide Signal News (citing Reuters/Baltic Exchange)",
    "vintage": "",
    "url": "https://tidesignalnews.com/vlcc-rates-ws450-gulf-oman-china/"
+  },
+  {
+   "publisher": "National Bureau of Statistics (via Shanghai Metals Market)",
+   "vintage": "",
+   "url": "https://news.metal.com/newscontent/NUCOEMTGGAJYPIYVP6JVRCAOJR7KVKKLY4BYUZQ-nbs-october-value-added-of-industrial-enterprises-above-designated-size-up-48-yoy-national-economy-operating-generally-stable-with-new-and-improving-momentum"
   },
   {
    "publisher": "Centre for Research on Energy and Clean Air (CREA)",

@@ -102,6 +102,12 @@
    "source_url": "https://www.oilsandsmagazine.com/market-insights/crude-oil-pricing-differentials-why-alberta-crude-sells-at-deep-discount-to-wti"
   },
   {
+   "text": "Keyera said in its third-quarter 2026 results on Nov 10 that it is advancing a capital-efficient debottleneck of its wholly owned Fort Saskatchewan Condensate System, using drag-reducing agents and metering upgrades to lift operable capacity by about 15 percent. Existing capacity is highly contracted under long-term take-or-pay agreements, and the added capacity is expected in service in early 2027, Keyera said.",
+   "vintage": "Q3 2026 results Nov 10, 2026; accessed 2026-11-16",
+   "source": "Keyera Corp. (Q3 2026 results)",
+   "source_url": "https://www.newswire.ca/news-releases/keyera-announces-2026-third-quarter-results-and-2027-guidance-802517052.html"
+  },
+  {
    "text": "Pembina said in its Nov 5 third-quarter guidance discussion that it expects a higher fourth-quarter contribution from the Cochin Pipeline, its condensate import line into Alberta, driven by higher interruptible volumes arising from more favourable commodity price differentials. Pembina also announced a non-binding agreement to participate in Pacific Link, a proposed crude pipeline system of about 1 million barrels per day connecting Alberta to Canada's West Coast with a related export terminal, which the Government of Canada listed on Oct 1 as a Project of National Interest, the company said.",
    "vintage": "Q3 2026 results Nov 5, 2026; accessed 2026-11-10",
    "source": "Pembina Pipeline (Q3 2026 results)",
@@ -166,6 +172,12 @@
    "vintage": "Aug 16, 2019; accessed 2026-09-24",
    "source": "BOE Report (citing Eight Capital)",
    "source_url": "https://boereport.com/2019/08/16/oilsands-firms-considering-diluent-recovery-units-to-boost-crude-by-rail-volumes/"
+  },
+  {
+   "text": "RBN Energy reported on Nov 11 that Keyera put the Fort Saskatchewan Condensate System debottleneck at about 15 percent, or roughly 100,000 barrels per day, in its third-quarter call, and that the project is contracted in response to commitments secured over the prior three to six months. Keyera told the call that planned pipeline projects are expected to support further oil sands production growth and drive increased condensate demand, and it is also evaluating a debottleneck of its 30 percent owned Norlite condensate system, which could add about 200,000 barrels per day from added pump stations, RBN Energy said.",
+   "vintage": "Published Nov 11, 2026; accessed 2026-11-16",
+   "source": "RBN Energy",
+   "source_url": "https://rbnenergy.com/daily-posts/analyst-insight/q3-2026-earnings-calls-keyera-lowers-iso-octane-production-outlook"
   },
   {
    "text": "Pembina Pipeline, in its third-quarter 2026 results released Nov 5, described what it calls an Energy Flywheel in the Western Canadian Sedimentary Basin: greater crude oil egress would support higher oil sands production, driving increased demand for condensate, and the increase in liquids-rich natural gas production could in turn support incremental opportunities across gas processing, transportation and fractionation. Pembina also raised its 2026 adjusted EBITDA guidance range to $4.45 billion to $4.55 billion, from $4.35 billion to $4.55 billion, and said it is trending to the upper end of the range.",
@@ -294,6 +306,11 @@
    "url": "https://www.oilsandsmagazine.com/market-insights/crude-oil-pricing-differentials-why-alberta-crude-sells-at-deep-discount-to-wti"
   },
   {
+   "publisher": "Keyera Corp. (Q3 2026 results)",
+   "vintage": "",
+   "url": "https://www.newswire.ca/news-releases/keyera-announces-2026-third-quarter-results-and-2027-guidance-802517052.html"
+  },
+  {
    "publisher": "Pembina Pipeline (Q3 2026 results)",
    "vintage": "",
    "url": "https://cdn.prod.nntech.io/company-events/reports/33be3b7a-6029-3b1d-91a9-2066a9601ab6/report.pdf"
@@ -347,6 +364,11 @@
    "publisher": "BOE Report (citing Eight Capital)",
    "vintage": "",
    "url": "https://boereport.com/2019/08/16/oilsands-firms-considering-diluent-recovery-units-to-boost-crude-by-rail-volumes/"
+  },
+  {
+   "publisher": "RBN Energy",
+   "vintage": "",
+   "url": "https://rbnenergy.com/daily-posts/analyst-insight/q3-2026-earnings-calls-keyera-lowers-iso-octane-production-outlook"
   },
   {
    "publisher": "Oil Sands Magazine",

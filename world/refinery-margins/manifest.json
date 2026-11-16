@@ -30,6 +30,18 @@
    "source_url": "https://boereport.com/2026/07/16/us-refiner-margins-hit-new-records-as-fuel-shortage-concerns-grow/"
   },
   {
+   "text": "The US 3-2-1 crack spread averaged $41.71 a barrel in the week to Nov 6, 2026, and stood at $36.86 a barrel on Nov 10, in calculations from US Energy Information Administration (EIA) spot prices published by Global Oil Shock. The diesel crack held near $98 a barrel in the week to Nov 6 while the gasoline crack eased to $13.57 a barrel, leaving distillate as the strong leg of the barrel, Global Oil Shock said.",
+   "vintage": "Data: week to Nov 6, 2026 and Nov 10, 2026; accessed 2026-11-16",
+   "source": "Global Oil Shock (EIA spot prices composite)",
+   "source_url": "https://globaloilshock.com/en/data/crack-spread-chart/"
+  },
+  {
+   "text": "The International Energy Agency (IEA) said in its November report, published Nov 13, that global refinery throughput fell by 1.3 million barrels per day (b/d) in October to 81.3 million b/d, a seasonal low, and that it expects runs to recover to 84.7 million b/d in December. The agency also said persistent attacks on Russian energy infrastructure continue to choke off diesel supplies to international markets, keeping product cracks elevated even as crude supply moves into surplus.",
+   "vintage": "IEA report Nov 13, 2026; accessed 2026-11-16",
+   "source": "Declassified (reporting IEA November Oil Market Report)",
+   "source_url": "https://declassifiednow.com/editors-choice/diesels-record-run-refining-not-crude-sets-price/"
+  },
+  {
    "text": "The US 3-2-1 crack spread stood at $39.32 a barrel on Nov 3, 2026, in the Eco3min composite built from US Energy Information Administration (EIA) spot prices for West Texas Intermediate at Cushing, New York Harbor conventional gasoline and New York Harbor No. 2 heating oil. The reading sits at the 96.7th percentile of the daily history since June 1986, against a historical average of $12.46 a barrel, and below the record of $78.92 a barrel set on Sep 25, 2026, Eco3min said.",
    "vintage": "Data: Nov 3, 2026; dataset updated Nov 3, 2026; accessed 2026-11-10",
    "source": "Eco3min (EIA spot prices composite)",
@@ -144,10 +156,10 @@
    "source_url": "https://www.tradingview.com/news/te_news:586492:0-crack-spreads-surge-to-record-high/"
   },
   {
-   "text": "The 3-2-1 crack spread stood at 73.12 dollars a barrel on Sep 22, about 3.7 percent below the May 13, 2022 record of 75.89 and far above the post-2006 median near 19 dollars. The benchmark is a gross spot margin before operating costs, Renewable Identification Number (RIN) costs, transport, and refinery-specific yields, and refiners' reported margins lag it by roughly a quarter. RBN Energy's daily print had the spread at 68.19 dollars on Sep 27, showing it cooling off the record but still near triple the median.",
-   "vintage": "Reading: Sep 22, 2026; published Sep 25, 2026; accessed 2026-09-28",
-   "source": "thetrading.tools (computed from EIA daily spot prices)",
-   "source_url": "https://www.thetrading.tools/crack-spread"
+   "text": "OilPrice.com reported on Nov 12, from the Energy Information Administration (EIA) weekly release for the week ended Nov 6, that US commercial crude inventories rose by 4.7 million barrels to 414.4 million barrels, ending five straight weekly draws, while refinery crude runs rose by 322,000 barrels per day (b/d) to 17.0 million b/d and utilization rose to 95.2 percent. Gasoline inventories rose by 1.8 million barrels and distillate inventories rose by 4.1 million barrels to 103.3 million barrels, still 8 percent below the five-year average, and total commercial petroleum inventories rose by 11.4 million barrels, OilPrice.com said.",
+   "vintage": "EIA release Nov 12, 2026 (week ended Nov 6); accessed 2026-11-16",
+   "source": "OilPrice.com (reporting EIA data)",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Data-Shows-Builds-in-Crude-Gasoline-and-Distillates.html"
   },
   {
    "text": "OilPrice.com reported on Nov 4, from the Energy Information Administration (EIA) weekly release, that US crude inventories fell by 900,000 barrels in the week ended Oct 30 to 409.8 million barrels, 4 percent below the five-year average, while refinery crude runs rose by 199,000 barrels per day (b/d) to 16.7 million b/d and utilization rose 1.7 percentage points to 94.5 percent. Total commercial petroleum inventories slipped by 8.2 million barrels in the week, gasoline inventories fell by 200,000 barrels, and the four-week average for total products supplied rose to 21.2 million b/d, up 4.2 percent year on year, with the distillate four-week average at 4.2 million b/d, up 8.7 percent, OilPrice.com said. Distillate stocks fell by 3.6 million barrels to 99.3 million barrels in the same EIA release, according to EIA data reported by ENGINE Online.",
@@ -172,18 +184,6 @@
    "vintage": "Week ending Oct 16, 2026; published Oct 21, 2026; accessed 2026-10-26",
    "source": "Reuters (via BOE Report)",
    "source_url": "https://boereport.com/2026/10/21/us-crude-and-gasoline-stocks-fall-distillates-rise-eia-says/"
-  },
-  {
-   "text": "For the week ended Oct 9, US refinery crude runs rose by 135,000 barrels per day and refinery utilization rates rose by 0.8 percentage points to 93.5 percent, the Energy Information Administration (EIA) said, Reuters reported on Oct 15. Crude inventories fell by 8.6 million barrels to 415.6 million barrels, against analysts' expectations in a Reuters poll for a 288,000 barrel draw, while stocks at Cushing rose by 1.9 million barrels. Distillate stockpiles fell by 2.5 million barrels to 102.6 million barrels and gasoline stocks rose by 3.5 million barrels to 208.3 million. Mizuho's Bob Yawger called it a hurricane report, saying nobody was bringing oil into the Gulf of Mexico with the hurricane spinning around.",
-   "vintage": "Week ending Oct 9, 2026; published Oct 15, 2026; accessed 2026-10-19",
-   "source": "Reuters (via BOE Report)",
-   "source_url": "https://boereport.com/2026/10/15/us-crude-stocks-fall-on-hurricane-production-shut-ins-distillate-inventories-fall-eia-says/"
-  },
-  {
-   "text": "For the week ended October 2, Reuters reported EIA data showing US refinery crude runs rose by 223,000 barrels a day and utilization ticked up 0.2 points to 92.7 percent. US crude stocks fell 3.2 million barrels to 424.1 million against expectations for a build, on exports jumping 1.2 million barrels a day to 4.77 million. Gasoline stocks rose 0.4 million to 204.7 million, with Gulf Coast gasoline at its lowest since September 2017 and Midwest inventories at a record low; distillate stockpiles, including diesel and heating oil, were little changed at 105.1 million barrels versus an expected 2.1-million-barrel draw.",
-   "vintage": "Week ending Oct 2, 2026; published Oct 7, 2026; accessed 2026-10-12",
-   "source": "Reuters (via BOE Report)",
-   "source_url": "https://boereport.com/2026/10/07/us-crude-stocks-and-distillate-inventories-fall-gasoline-inventories-rise-eia-says/"
   },
   {
    "text": "IndexBox reported on Oct 23, citing Platts, that Enbridge Mainline apportionment for November stands at 19 percent for light crude at Kerrobert and 7 percent for heavy crude at Kerrobert, with a further 16 percent heavy point at Superior, up from 8 percent for lights and 4 percent for heavies in October. Trans Mountain apportionment for October stands at 7 percent, and the system was 90 percent full in September.",
@@ -256,6 +256,16 @@
    "publisher": "Reuters (via BOE Report)",
    "vintage": "",
    "url": "https://boereport.com/2026/07/16/us-refiner-margins-hit-new-records-as-fuel-shortage-concerns-grow/"
+  },
+  {
+   "publisher": "Global Oil Shock (EIA spot prices composite)",
+   "vintage": "",
+   "url": "https://globaloilshock.com/en/data/crack-spread-chart/"
+  },
+  {
+   "publisher": "Declassified (reporting IEA November Oil Market Report)",
+   "vintage": "",
+   "url": "https://declassifiednow.com/editors-choice/diesels-record-run-refining-not-crude-sets-price/"
   },
   {
    "publisher": "Eco3min (EIA spot prices composite)",
@@ -353,9 +363,9 @@
    "url": "https://www.tradingview.com/news/te_news:586492:0-crack-spreads-surge-to-record-high/"
   },
   {
-   "publisher": "thetrading.tools (computed from EIA daily spot prices)",
+   "publisher": "OilPrice.com (reporting EIA data)",
    "vintage": "",
-   "url": "https://www.thetrading.tools/crack-spread"
+   "url": "https://oilprice.com/Energy/Crude-Oil/EIA-Data-Shows-Builds-in-Crude-Gasoline-and-Distillates.html"
   },
   {
    "publisher": "OilPrice.com (reporting EIA data); ENGINE Online (reporting EIA data)",
@@ -376,16 +386,6 @@
    "publisher": "Reuters (via BOE Report)",
    "vintage": "",
    "url": "https://boereport.com/2026/10/21/us-crude-and-gasoline-stocks-fall-distillates-rise-eia-says/"
-  },
-  {
-   "publisher": "Reuters (via BOE Report)",
-   "vintage": "",
-   "url": "https://boereport.com/2026/10/15/us-crude-stocks-fall-on-hurricane-production-shut-ins-distillate-inventories-fall-eia-says/"
-  },
-  {
-   "publisher": "Reuters (via BOE Report)",
-   "vintage": "",
-   "url": "https://boereport.com/2026/10/07/us-crude-stocks-and-distillate-inventories-fall-gasoline-inventories-rise-eia-says/"
   },
   {
    "publisher": "IndexBox (reporting S&P Global Platts)",
