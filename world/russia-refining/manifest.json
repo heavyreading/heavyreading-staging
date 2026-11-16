@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Five weeks after President Donald Trump announced the Russian diesel deal on Oct 9, no delivery to a US port has been confirmed, Unbiased Headlines reported on Nov 15. Greenpeace, which tracked the fleet using shipping databases, counts six vessels carrying an estimated 268,000 tonnes of Russian diesel under the arrangement. Two tankers that left the Baltic port of Primorsk first declared US East Coast destinations and have since turned, one toward Brazil and the other into the Mediterranean, according to Kpler and MarineTraffic data, and Bloomberg and the Kyiv Post reported that the Malta-flagged Agioi Fanendes, carrying about 40,000 metric tons, reversed course roughly 400 nautical miles from New York. The US Treasury's Office of Foreign Assets Control (OFAC) authorisation for Russian diesel transactions runs to Apr 7, 2027. Neither the White House nor the Kremlin has said whether the deal was put in writing, and neither has disclosed the price, payment terms or participating companies, the report said.",
+   "vintage": "Nov 15, 2026",
+   "source": "Unbiased Headlines",
+   "source_url": "https://unbiasedheadlines.com/article/no-russian-diesel-delivery-confirmed-in-us-five-weeks-after-trump-putin-deal"
+  },
+  {
    "text": "Kazakhstan's oil shipments through the Ust-Luga seaport have been temporarily suspended since September, so the Ukrainian drone incident at Ust-Luga on the night of Nov 11 did not affect the transportation or export of Kazakh oil, Kazakhstan Energy Ministry representative Asel Serikpayeva told journalists at Interfax-Kazakhstan, TopWar reported on Nov 12. Serikpayeva said the suspension was due to technical limitations of the transit pipeline infrastructure, that crude shipments have been rerouted to other routes so obligations to shippers and recipients are being fully met, and that export volumes from Kazakhstan have not been affected. On Nov 5, Kazakhstan's Energy Ministry contacted its Russian counterparts with a request to resume oil pumping through the Druzhba pipeline for onward shipment via Ust-Luga, and Energy Minister Yerlan Akkenzhenov said five days later that there had been no response yet.",
    "vintage": "Nov 12, 2026",
    "source": "TopWar (citing Interfax-Kazakhstan)",
@@ -106,6 +112,12 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "Ukrainian drones have struck 11 Russian oil refineries since Oct 30, on flights of up to nearly 3,000 kilometres, and President Volodymyr Zelenskyy said on Nov 15 that Ukraine had neutralised more than 55 percent of Russia's refining capacity, YAC News reported, citing the Kyiv Independent. Zelenskyy gave the figure in his evening address, citing a report by Major General Mykhailo Drapatyi, and called the campaign Ukraine's long-range sanctions and a fitting response to Russia's refusal to de-escalate. Ukraine's Defence Ministry had put the share at 51 percent on Oct 4. Sergey Vakulenko, a former Gazprom Neft analyst now at the Carnegie Russia Eurasia Center in Berlin, wrote on Nov 13 that the refineries attacked in the current wave make about 55 percent of Russia's commercial petrol, and estimated that Russia's petrol stocks would last about a week of national consumption. Rosneft began limiting fuel sales at its filling stations in every Russian region by Nov 9, with drivers in Karelia and Buryatia held to 30 litres of petrol a visit in the cities, the report said. The 55 percent figure is a Ukrainian claim covering capacity neutralised, not a confirmed measure of current lost throughput, and no operator or Russian official figure reconciles with it in the reporting here.",
+   "vintage": "Nov 15, 2026",
+   "source": "YAC News (citing the Kyiv Independent)",
+   "source_url": "https://www.yacnews.com/ukraine-strikes-11-russian-refineries-zelenskyy-55-per-cent/"
   },
   {
    "text": "A campaign tally published on Nov 14 counted successful Ukrainian drone attacks on Russia's six largest refineries between Oct 30 and Nov 12: Omsk, Kirishi, Ryazan, Kstovo, Yaroslavl and Volgograd. The six facilities together carry nominal capacity of 123.2 million tonnes of crude a year, representing about half of Russia's annual refining output, the tally said. Across the last 15 days it counted 13 refineries and oil and gas infrastructure facilities successfully attacked, including two attacks on the Samara loading and dispatch station and an attack on the port and transshipment facilities at Ust-Luga. The tally cautioned that a successful attack does not immediately indicate that all production at a plant has been knocked offline, and that Russia now treats shutdown and restart information as a state secret, so information on shutdowns and restarts lags weeks behind.",
@@ -334,6 +346,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Russia's defence ministry said its air defences brought down 1,336 Ukrainian drones overnight into Monday, Nov 16, one of the largest totals of the year, over the Moscow region, Crimea, Krasnodar Krai and the Black and Azov seas, YAC News reported on Nov 16. Fires broke out at four production sites in Azov, in Rostov region, and three men were injured, Governor Yuri Slyusar said; witness footage showed an oil depot and a gas distribution station burning, the independent Russian channel Astra reported. Krasnodar Krai's emergency headquarters said a fire had broken out at an enterprise in the village of Ilsky and that falling debris had injured three people in Seversky district, among them a child. The village is home to the Ilsky refinery, one of the largest in southern Russia at about 6.6 million tonnes of crude a year, which Ukraine's General Staff says supplies the Russian armed forces. Ukraine had not confirmed a strike on the Ilsky plant by the morning of Nov 16, and neither the extent of damage at Azov nor any halt to Ilsky processing had been confirmed in the reporting here.",
+   "vintage": "Nov 16, 2026",
+   "source": "YAC News",
+   "source_url": "https://www.yacnews.com/ukraine-strikes-11-russian-refineries-zelenskyy-55-per-cent/"
   },
   {
    "text": "Ukrainian forces struck two facilities in Nizhnekamsk, in Russia's Republic of Tatarstan, overnight on Nov 15, hitting the Nizhnekamskneftekhim petrochemical complex and the TAIF-NK oil refinery, Ukraine's General Staff said. Explosions and a fire were reported at Nizhnekamskneftekhim, part of the Sibur holding and one of Russia's largest producers of synthetic rubber and plastics, located about 1,200 kilometres from Ukraine. At TAIF-NK, the General Staff said the strike hit the plant's sole primary oil processing unit, known as ELOU-AVT-7, and a fire was reported at the site; the facility processes heavy, high sulphur crude and supplies fuel, petrochemical feedstock and military needs. Nizhnekamsk Mayor Radmir Belyaev said the city came under a prolonged drone attack that damaged industrial facilities and an apartment building, residents were evacuated and several people were injured, with regional authorities reporting three people wounded. Russia's defence ministry said it shot down 533 Ukrainian drones overnight over a dozen regions and annexed Crimea, and a separate strike the same night hit electrical substations in Taganrog, in the Rostov region, killing a chief engineer. The extent of damage at both Nizhnekamsk facilities was still being assessed, the General Staff said.",
@@ -704,6 +722,11 @@
  ],
  "sources": [
   {
+   "publisher": "Unbiased Headlines",
+   "vintage": "",
+   "url": "https://unbiasedheadlines.com/article/no-russian-diesel-delivery-confirmed-in-us-five-weeks-after-trump-putin-deal"
+  },
+  {
    "publisher": "TopWar (citing Interfax-Kazakhstan)",
    "vintage": "",
    "url": "https://en.topwar.ru/293406-ataki-bpla-vsu-na-ust-lugu-uzhe-ne-vlijajut-na-otgruzki-nefti-iz-kazahstana.html"
@@ -787,6 +810,11 @@
    "publisher": "Maritime Professional (citing traders)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "publisher": "YAC News (citing the Kyiv Independent)",
+   "vintage": "",
+   "url": "https://www.yacnews.com/ukraine-strikes-11-russian-refineries-zelenskyy-55-per-cent/"
   },
   {
    "publisher": "Malcontent News (Russia-Ukraine War SITREP)",
@@ -977,6 +1005,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "YAC News",
+   "vintage": "",
+   "url": "https://www.yacnews.com/ukraine-strikes-11-russian-refineries-zelenskyy-55-per-cent/"
   },
   {
    "publisher": "EuropeSays (citing Ukraine's General Staff)",

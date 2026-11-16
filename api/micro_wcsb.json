@@ -21,17 +21,17 @@
   "2027-12"
  ],
  "prices": {
-  "asof": "Nov 16, 2026 2:36 AM MDT",
+  "asof": "Nov 16, 2026 7:36 AM MDT",
   "settle_date": "2026-11-13",
   "rows": [
    {
     "label": "WTI, Dec 26",
-    "value": 89.16,
+    "value": 87.72,
     "basis": "intraday quote"
    },
    {
     "label": "Brent, Jan 27",
-    "value": 96.43,
+    "value": 94.5,
     "basis": "intraday quote"
    },
    {
