@@ -1,7 +1,7 @@
 {
  "title": "WCSB micro-balance",
  "built": "2026-11-04",
- "dashboard_built": "2026-11-16",
+ "dashboard_built": "2026-11-17",
  "default_month": "2026-11",
  "months": [
   "2026-10",
@@ -21,37 +21,37 @@
   "2027-12"
  ],
  "prices": {
-  "asof": "Nov 16, 2026 9:06 AM MDT",
-  "settle_date": "2026-11-13",
+  "asof": "Nov 17, 2026 2:06 AM MDT",
+  "settle_date": "2026-11-16",
   "rows": [
    {
     "label": "WTI, Dec 26",
-    "value": 86.85,
+    "value": 85.08,
     "basis": "intraday quote"
    },
    {
     "label": "Brent, Jan 27",
-    "value": 93.66,
+    "value": 91.78,
     "basis": "intraday quote"
    },
    {
     "label": "WCS Hardisty diff (TMW), Dec 26",
-    "value": -28.2713,
+    "value": -28.2176,
     "basis": "ICE end-of-day settle"
    },
    {
     "label": "WCS Hardisty diff (TMW), Jan 27",
-    "value": -25.55,
+    "value": -25.75,
     "basis": "ICE end-of-day settle"
    },
    {
     "label": "WCS Houston diff (ARV), Dec 26",
-    "value": -19.239,
+    "value": -19.345,
     "basis": "ICE end-of-day settle"
    },
    {
     "label": "Synthetic diff (TMS), Dec 26",
-    "value": 8.1519,
+    "value": 8.1125,
     "basis": "ICE end-of-day settle"
    }
   ]
@@ -179,18 +179,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": -164.4
+      "value": 1203.5
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3720.9
+      "value": 2353.0
      }
     ],
-    "sco": -164.4,
-    "mined_dashboard": 3038.3,
-    "mined_to_upgrader": 1471.1,
-    "mined_to_market": 1567.2
+    "sco": 1203.5,
+    "mined_dashboard": 1460.8,
+    "mined_to_upgrader": 1261.5,
+    "mined_to_market": 199.3
    },
    "detail": {
     "sagd": [
@@ -307,10 +307,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1505.4
-     },
-     {
       "label": "Suncor Base Plant",
       "value": 261.7
      },
@@ -341,6 +337,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 118.8
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -72.1
      }
     ],
     "sco": [
@@ -366,7 +366,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1367.9
+      "value": 0.0
      }
     ],
     "conventional": [
@@ -619,18 +619,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": -0.1
+      "value": 1438.4
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3820.7
+      "value": 2382.2
      }
     ],
-    "sco": -0.1,
-    "mined_dashboard": 3341.1,
-    "mined_to_upgrader": 1698.3,
-    "mined_to_market": 1642.8
+    "sco": 1438.4,
+    "mined_dashboard": 1650.5,
+    "mined_to_upgrader": 1446.2,
+    "mined_to_market": 204.3
    },
    "detail": {
     "sagd": [
@@ -747,10 +747,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1438.3
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 401.1
      },
@@ -781,6 +777,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 153.6
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -252.3
      }
     ],
     "sco": [
@@ -806,7 +806,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1438.5
+      "value": 0.0
      }
     ],
     "conventional": [
@@ -1059,18 +1059,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": -0.1
+      "value": 1432.3
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3833.6
+      "value": 2401.2
      }
     ],
-    "sco": -0.1,
-    "mined_dashboard": 3346.1,
-    "mined_to_upgrader": 1691.4,
-    "mined_to_market": 1654.7
+    "sco": 1432.3,
+    "mined_dashboard": 1664.4,
+    "mined_to_upgrader": 1442.1,
+    "mined_to_market": 222.3
    },
    "detail": {
     "sagd": [
@@ -1187,10 +1187,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1432.3
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 401.0
      },
@@ -1221,6 +1217,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 142.2
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -249.4
      }
     ],
     "sco": [
@@ -1246,7 +1246,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1432.4
+      "value": 0.0
      }
     ],
     "conventional": [
@@ -1494,18 +1494,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": -0.1
+      "value": 1347.3
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3652.1
+      "value": 2304.7
      }
     ],
-    "sco": -0.1,
-    "mined_dashboard": 3084.8,
-    "mined_to_upgrader": 1606.1,
-    "mined_to_market": 1478.7
+    "sco": 1347.3,
+    "mined_dashboard": 1510.1,
+    "mined_to_upgrader": 1378.8,
+    "mined_to_market": 131.3
    },
    "detail": {
     "sagd": [
@@ -1622,10 +1622,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1347.2
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 372.4
      },
@@ -1656,6 +1652,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 142.0
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -227.5
      }
     ],
     "sco": [
@@ -1681,7 +1681,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1347.4
+      "value": 0.0
      }
     ],
     "conventional": [
@@ -1929,18 +1929,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": 0.1
+      "value": 1367.9
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3651.1
+      "value": 2283.3
      }
     ],
-    "sco": 0.1,
-    "mined_dashboard": 3103.4,
-    "mined_to_upgrader": 1621.0,
-    "mined_to_market": 1482.4
+    "sco": 1367.9,
+    "mined_dashboard": 1513.1,
+    "mined_to_upgrader": 1398.5,
+    "mined_to_market": 114.6
    },
    "detail": {
     "sagd": [
@@ -2057,10 +2057,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1367.8
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 385.6
      },
@@ -2091,6 +2087,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 135.1
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -222.5
      }
     ],
     "sco": [
@@ -2116,7 +2116,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1367.8
+      "value": 0.0
      }
     ],
     "conventional": [
@@ -2364,18 +2364,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": 0.0
+      "value": 1387.7
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3735.9
+      "value": 2348.2
      }
     ],
-    "sco": 0.0,
-    "mined_dashboard": 3194.9,
-    "mined_to_upgrader": 1633.5,
-    "mined_to_market": 1561.4
+    "sco": 1387.7,
+    "mined_dashboard": 1573.9,
+    "mined_to_upgrader": 1400.2,
+    "mined_to_market": 173.7
    },
    "detail": {
     "sagd": [
@@ -2492,10 +2492,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1387.5
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 393.6
      },
@@ -2526,6 +2522,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 139.8
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -233.5
      }
     ],
     "sco": [
@@ -2551,7 +2551,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1387.8
+      "value": -0.1
      }
     ],
     "conventional": [
@@ -2799,18 +2799,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": -26.0
+      "value": 1332.9
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3599.7
+      "value": 2240.8
      }
     ],
-    "sco": -26.0,
-    "mined_dashboard": 2970.4,
-    "mined_to_upgrader": 1478.3,
-    "mined_to_market": 1492.1
+    "sco": 1332.9,
+    "mined_dashboard": 1381.9,
+    "mined_to_upgrader": 1248.7,
+    "mined_to_market": 133.2
    },
    "detail": {
     "sagd": [
@@ -2927,10 +2927,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1332.8
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 385.2
      },
@@ -2961,6 +2957,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 116.7
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -255.7
      }
     ],
     "sco": [
@@ -2986,7 +2986,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1358.9
+      "value": 0.0
      }
     ],
     "conventional": [
@@ -3234,18 +3234,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": 0.1
+      "value": 1264.4
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3492.0
+      "value": 2227.7
      }
     ],
-    "sco": 0.1,
-    "mined_dashboard": 2673.0,
-    "mined_to_upgrader": 1263.1,
-    "mined_to_market": 1409.9
+    "sco": 1264.4,
+    "mined_dashboard": 1287.6,
+    "mined_to_upgrader": 1142.0,
+    "mined_to_market": 145.6
    },
    "detail": {
     "sagd": [
@@ -3362,10 +3362,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1264.4
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 275.7
      },
@@ -3396,6 +3392,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 101.4
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -121.0
      }
     ],
     "sco": [
@@ -3421,7 +3421,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1264.2
+      "value": 0.1
      }
     ],
     "conventional": [
@@ -3669,18 +3669,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": -0.1
+      "value": 1331.8
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3660.5
+      "value": 2328.6
      }
     ],
-    "sco": -0.1,
-    "mined_dashboard": 2994.9,
-    "mined_to_upgrader": 1454.5,
-    "mined_to_market": 1540.4
+    "sco": 1331.8,
+    "mined_dashboard": 1443.7,
+    "mined_to_upgrader": 1235.2,
+    "mined_to_market": 208.5
    },
    "detail": {
     "sagd": [
@@ -3797,10 +3797,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1332.0
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 296.8
      },
@@ -3831,6 +3827,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 128.6
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -219.2
      }
     ],
     "sco": [
@@ -3856,7 +3856,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1332.0
+      "value": -0.1
      }
     ],
     "conventional": [
@@ -4104,18 +4104,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": 0.0
+      "value": 1415.1
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3746.6
+      "value": 2331.5
      }
     ],
-    "sco": 0.0,
-    "mined_dashboard": 3248.3,
-    "mined_to_upgrader": 1648.4,
-    "mined_to_market": 1599.9
+    "sco": 1415.1,
+    "mined_dashboard": 1597.7,
+    "mined_to_upgrader": 1412.9,
+    "mined_to_market": 184.8
    },
    "detail": {
     "sagd": [
@@ -4232,10 +4232,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1408.9
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 404.1
      },
@@ -4266,6 +4262,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 135.5
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -241.7
      }
     ],
     "sco": [
@@ -4291,7 +4291,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1415.2
+      "value": -0.1
      }
     ],
     "conventional": [
@@ -4539,18 +4539,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": 0.0
+      "value": 1407.9
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3716.8
+      "value": 2308.9
      }
     ],
-    "sco": 0.0,
-    "mined_dashboard": 3226.6,
-    "mined_to_upgrader": 1654.3,
-    "mined_to_market": 1572.3
+    "sco": 1407.9,
+    "mined_dashboard": 1570.7,
+    "mined_to_upgrader": 1406.3,
+    "mined_to_market": 164.4
    },
    "detail": {
     "sagd": [
@@ -4667,10 +4667,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1401.6
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 379.5
      },
@@ -4701,6 +4697,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 142.5
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -254.3
      }
     ],
     "sco": [
@@ -4726,7 +4726,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1408.0
+      "value": -0.1
      }
     ],
     "conventional": [
@@ -4974,18 +4974,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": -11.9
+      "value": 1349.9
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3802.1
+      "value": 2440.3
      }
     ],
-    "sco": -11.9,
-    "mined_dashboard": 3110.9,
-    "mined_to_upgrader": 1467.1,
-    "mined_to_market": 1643.8
+    "sco": 1349.9,
+    "mined_dashboard": 1522.4,
+    "mined_to_upgrader": 1240.4,
+    "mined_to_market": 282.0
    },
    "detail": {
     "sagd": [
@@ -5102,10 +5102,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1343.5
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 380.8
      },
@@ -5136,6 +5132,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 117.5
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -245.0
      }
     ],
     "sco": [
@@ -5161,7 +5161,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1361.9
+      "value": -0.1
      }
     ],
     "conventional": [
@@ -5409,18 +5409,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": 0.0
+      "value": 1351.2
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3720.9
+      "value": 2369.7
      }
     ],
-    "sco": 0.0,
-    "mined_dashboard": 3038.3,
-    "mined_to_upgrader": 1471.1,
-    "mined_to_market": 1567.2
+    "sco": 1351.2,
+    "mined_dashboard": 1477.5,
+    "mined_to_upgrader": 1261.5,
+    "mined_to_market": 216.0
    },
    "detail": {
     "sagd": [
@@ -5537,10 +5537,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1344.8
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 381.4
      },
@@ -5571,6 +5567,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 118.8
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -216.0
      }
     ],
     "sco": [
@@ -5596,7 +5596,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1351.2
+      "value": 0.0
      }
     ],
     "conventional": [
@@ -5844,18 +5844,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": -0.1
+      "value": 1444.7
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3820.7
+      "value": 2375.9
      }
     ],
-    "sco": -0.1,
-    "mined_dashboard": 3341.1,
-    "mined_to_upgrader": 1698.3,
-    "mined_to_market": 1642.8
+    "sco": 1444.7,
+    "mined_dashboard": 1644.2,
+    "mined_to_upgrader": 1446.2,
+    "mined_to_market": 198.0
    },
    "detail": {
     "sagd": [
@@ -5972,10 +5972,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1438.3
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 401.1
      },
@@ -6006,6 +6002,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 153.6
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -258.6
      }
     ],
     "sco": [
@@ -6031,7 +6031,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1444.8
+      "value": 0.0
      }
     ],
     "conventional": [
@@ -6279,18 +6279,18 @@
      {
       "id": "grade_sco",
       "label": "SCO (synthetic crude oil)",
-      "value": -0.1
+      "value": 1438.6
      },
      {
       "id": "grade_dilbit",
       "label": "Dilbit and raw bitumen blends",
-      "value": 3833.6
+      "value": 2394.9
      }
     ],
-    "sco": -0.1,
-    "mined_dashboard": 3346.1,
-    "mined_to_upgrader": 1691.4,
-    "mined_to_market": 1654.7
+    "sco": 1438.6,
+    "mined_dashboard": 1658.1,
+    "mined_to_upgrader": 1442.1,
+    "mined_to_market": 216.0
    },
    "detail": {
     "sagd": [
@@ -6407,10 +6407,6 @@
     ],
     "mined": [
      {
-      "label": "Other/unallocated (ST39 gap)",
-      "value": 1432.3
-     },
-     {
       "label": "Horizon (CNRL)",
       "value": 401.0
      },
@@ -6441,6 +6437,10 @@
      {
       "label": "Jackpine (CNRL)",
       "value": 142.2
+     },
+     {
+      "label": "Other/unallocated (ST39 gap)",
+      "value": -255.7
      }
     ],
     "sco": [
@@ -6466,7 +6466,7 @@
      },
      {
       "label": "Other/unallocated (ST39 gap)",
-      "value": -1438.7
+      "value": -0.0
      }
     ],
     "conventional": [
