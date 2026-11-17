@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Status check on Nov 17: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE search checked directly on Nov 17 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels, with crude to be supplied from the Big Hill and Bryan Mound storage sites and more than 216 million barrels, including 44 million premium barrels, secured to return beginning early next year. The newest reserves press release after that remains the Nov 3 Northeast Home Heating Oil Reserve award listed separately in this section, and the only newer reserves item is a Nov 9 update to the SPR Quick Facts page, not an award or solicitation. No new Energy Information Administration weekly SPR inventory figure has been published since the Nov 12 release, which put the reserve at 279.5 million barrels in the week ending Nov 6, 2026; the next Weekly Petroleum Status Report, for the week ending Nov 13, is due Nov 18. A Department of Energy inventory figure reported by Reuters on Nov 17 put the reserve at 276.4 million barrels last week, the lowest since August 1982; that figure is reported in the inventory section of this page.",
+   "vintage": "Nov 17, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
+  },
+  {
    "text": "Status check on Nov 16: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE search checked directly on Nov 16 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels, with crude to be supplied from the Big Hill and Bryan Mound storage sites and more than 216 million barrels, including 44 million premium barrels, secured to return beginning early next year. The newest reserves press release after that remains the Nov 3 Northeast Home Heating Oil Reserve award listed separately in this section, and the only newer reserves item is a Nov 9 update to the SPR Quick Facts page, not an award or solicitation. No new Energy Information Administration weekly SPR inventory figure has been published since the Nov 12 release, which put the reserve at 279.5 million barrels in the week ending Nov 6, 2026; the next Weekly Petroleum Status Report, for the week ending Nov 13, is due Nov 18.",
    "vintage": "Nov 16, 2026",
    "source": "U.S. Department of Energy",
@@ -552,6 +558,12 @@
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Taps-Strategic-Oil-Reserve-Again-as-Diesel-Tops-6.html"
   },
   {
+   "text": "Crude oil stocks in the US Strategic Petroleum Reserve (SPR) fell to 276.4 million barrels last week, the lowest level since August 1982, according to Department of Energy data reported by Reuters on Nov 17. The drawdown is part of the United States agreement to release 172 million barrels from the reserve, Reuters said. The figure sits below the last official Energy Information Administration (EIA) weekly reading published on this page, 279.5 million barrels in the week ending Nov 6, 2026, and the next EIA Weekly Petroleum Status Report, for the week ending Nov 13, is due Nov 18, which will show whether the official weekly series records the same level.",
+   "vintage": "Nov 17, 2026",
+   "source": "Reuters (via KTWB)",
+   "source_url": "https://ktwb.com/2026/11/16/oil-slips-on-supply-surplus-outlook-despite-gulf-tensions/"
+  },
+  {
    "text": "The US Strategic Petroleum Reserve (SPR) held 279.5 million barrels of crude oil in the week ending Nov 6, 2026, down 2.6 million barrels, or 0.9 percent, from the prior week, Energy Factbook reported, citing Energy Information Administration (EIA) data updated Nov 12. The reserve was at 39.2 percent of its 714 million barrels of authorized storage capacity and at its lowest level since October 8, 1982, Energy Factbook said. The weekly series shows the reserve held 415.4 million barrels in the week ending Feb 27, 2026, a decline of 135.9 million barrels to the Nov 6 level.",
    "vintage": "Nov 12, 2026",
    "source": "Energy Factbook (citing EIA)",
@@ -954,6 +966,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Taps-Strategic-Oil-Reserve-Again-as-Diesel-Tops-6.html"
+  },
+  {
+   "publisher": "Reuters (via KTWB)",
+   "vintage": "",
+   "url": "https://ktwb.com/2026/11/16/oil-slips-on-supply-surplus-outlook-despite-gulf-tensions/"
   },
   {
    "publisher": "Energy Factbook (citing EIA)",

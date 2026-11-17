@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "More than a month after President Donald Trump announced the Russian diesel deal, the Agioi Fanendes was still hovering hundreds of miles off the east coast of the United States as of Sunday, Nov 15, and several other tankers that left Russia are no longer bound for the United States, CNN reported, citing MarineTraffic ship tracking data, in a report summarized by National Security Journal on Nov 16. A bipartisan group of members of Congress wrote to several major banks and port authorities shortly after the deal was announced, warning that they could face legal action if they are involved in importing Russian diesel into the United States, and that companies importing products in violation of US law may expose themselves to criminal and civil liability, CNN reported. The lawmakers questioned whether the Treasury Department's sanctions waiver was legal. A White House official told CNN that, consistent with the deal between Trump and President Vladimir Putin, Russian diesel is on the water and heading to the market, without saying the oil was coming to the United States. The Wall Street Journal reported last week that numerous ships carrying Russian diesel had either turned around or otherwise failed to deliver to the United States, and that the deal had yet to result in any new imports into the country.",
+   "vintage": "Nov 16, 2026",
+   "source": "National Security Journal (citing CNN)",
+   "source_url": "https://nationalsecurityjournal.org/trump-is-going-to-be-mad-lawmakers-warned-banks-and-ports-they-could-face-legal-action-for-taking-his-russian-diesel/"
+  },
+  {
    "text": "Five weeks after President Donald Trump announced the Russian diesel deal on Oct 9, no delivery to a US port has been confirmed, Unbiased Headlines reported on Nov 15. Greenpeace, which tracked the fleet using shipping databases, counts six vessels carrying an estimated 268,000 tonnes of Russian diesel under the arrangement. Two tankers that left the Baltic port of Primorsk first declared US East Coast destinations and have since turned, one toward Brazil and the other into the Mediterranean, according to Kpler and MarineTraffic data, and Bloomberg and the Kyiv Post reported that the Malta-flagged Agioi Fanendes, carrying about 40,000 metric tons, reversed course roughly 400 nautical miles from New York. The US Treasury's Office of Foreign Assets Control (OFAC) authorisation for Russian diesel transactions runs to Apr 7, 2027. Neither the White House nor the Kremlin has said whether the deal was put in writing, and neither has disclosed the price, payment terms or participating companies, the report said.",
    "vintage": "Nov 15, 2026",
    "source": "Unbiased Headlines",
@@ -346,6 +352,12 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Ukraine hit the road and rail bridge connecting Crimea to Russia's Krasnodar region and targeted oil refineries overnight into Monday, Nov 16, in what Russian defence ministry data showed was the biggest overnight drone attack on Russia since the start of the full-scale war in 2022, Reuters reported. Russia said its air defences brought down 1,336 Ukrainian drones across 16 regions, surpassing the 1,254 registered as shot down on Oct 29, and Moscow Mayor Sergei Sobyanin said about 600 drones had been launched at the Moscow region since Sunday evening, 191 of them brought down. The Russian-backed governor of Crimea, Sergei Aksyonov, said the Kerch Strait bridge was struck overnight; the Kremlin called the damage minor, road traffic was temporarily suspended while repairs were undertaken, and rail traffic continued as normal, the transport ministry said. In the Krasnodar region, local officials said a fire broke out at an unnamed industrial facility in Ilsky, home to an oil refinery, and that falling drone debris injured six people, including children. Rostov region governor Yuri Slyusar said fires broke out at four industrial sites in Azov after the attack. The extent of any halt to processing at Ilsky had not been confirmed in the reporting here.",
+   "vintage": "Nov 16, 2026",
+   "source": "Reuters (via 93.5 The Lloyd)",
+   "source_url": "https://935thelloyd.com/2026/11/16/ukraine-launches-biggest-drone-attack-on-russia-since-war-began-defence-ministry-data-shows/"
   },
   {
    "text": "Russia's defence ministry said its air defences brought down 1,336 Ukrainian drones overnight into Monday, Nov 16, one of the largest totals of the year, over the Moscow region, Crimea, Krasnodar Krai and the Black and Azov seas, YAC News reported on Nov 16. Fires broke out at four production sites in Azov, in Rostov region, and three men were injured, Governor Yuri Slyusar said; witness footage showed an oil depot and a gas distribution station burning, the independent Russian channel Astra reported. Krasnodar Krai's emergency headquarters said a fire had broken out at an enterprise in the village of Ilsky and that falling debris had injured three people in Seversky district, among them a child. The village is home to the Ilsky refinery, one of the largest in southern Russia at about 6.6 million tonnes of crude a year, which Ukraine's General Staff says supplies the Russian armed forces. Ukraine had not confirmed a strike on the Ilsky plant by the morning of Nov 16, and neither the extent of damage at Azov nor any halt to Ilsky processing had been confirmed in the reporting here.",
@@ -722,6 +734,11 @@
  ],
  "sources": [
   {
+   "publisher": "National Security Journal (citing CNN)",
+   "vintage": "",
+   "url": "https://nationalsecurityjournal.org/trump-is-going-to-be-mad-lawmakers-warned-banks-and-ports-they-could-face-legal-action-for-taking-his-russian-diesel/"
+  },
+  {
    "publisher": "Unbiased Headlines",
    "vintage": "",
    "url": "https://unbiasedheadlines.com/article/no-russian-diesel-delivery-confirmed-in-us-five-weeks-after-trump-putin-deal"
@@ -1005,6 +1022,11 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "Reuters (via 93.5 The Lloyd)",
+   "vintage": "",
+   "url": "https://935thelloyd.com/2026/11/16/ukraine-launches-biggest-drone-attack-on-russia-since-war-began-defence-ministry-data-shows/"
   },
   {
    "publisher": "YAC News",

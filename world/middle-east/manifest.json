@@ -6,6 +6,48 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "The tanker attacked about seven nautical miles north of Khasab, Oman, on Monday, Nov 16, was struck a second time and caught fire again, and its crew are currently unaccounted for, United Kingdom Maritime Trade Operations (UKMTO) said in an update on Tuesday, Nov 17, EuropeSays reported. UKMTO first received a third party report that the tanker transiting the Strait of Hormuz had been attacked, disabled and left with an engine room fire, and the crew were initially reported safe. In the update, for Warning 208-26, UKMTO said a maritime security agency had reported the second strike and fire, and that the damage assessment is unknown at present. UKMTO named no vessel, flag, operator or attacker, and urged vessels transiting the area to exercise caution and report suspicious activity while authorities investigate.",
+   "vintage": "Nov 17, 2026",
+   "source": "EuropeSays (citing UKMTO)",
+   "source_url": "https://www.europesays.com/3381058/"
+  },
+  {
+   "text": "The foreign ministers of Iran and Oman discussed the situation in the region and the importance of keeping security in the maritime corridors to ensure smooth flows of shipping and trade on Tuesday, Nov 17, OilPrice.com reported, citing Oman's Foreign Ministry. Oman's Foreign Minister Sayyid Badr Albusaidi and his visiting Iranian counterpart Abbas Araghchi also talked about revitalizing channels for dialogue and negotiations, Oman said, in efforts it described as broadening understanding among the parties concerned and preventing the crisis and its repercussions from escalating. Oman lies on the Strait of Hormuz opposite Iran and has played a mediating role in efforts to engage the United States and Iran in indirect talks. The meeting took place as attacks on oil tankers in and around the strait have intensified in recent weeks, with October the highest month for reported tanker attacks since the war began in late February, OilPrice.com said.",
+   "vintage": "Nov 17, 2026",
+   "source": "OilPrice.com",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-and-Oman-Hold-Talks-on-Strait-of-Hormuz-Security-as-Tanker-Attacks-Surge.html"
+  },
+  {
+   "text": "Oil flows through the Strait of Hormuz rose to 9.1 million barrels per day in the third quarter of 2026, up from 5.1 million barrels per day in the second quarter, according to US Energy Information Administration (EIA) data reported by The Hindu BusinessLine on Nov 17. The third quarter volume remained far below the 21.4 million barrels per day that moved through the strait in the third quarter of 2025. The same EIA data showed strategic oil inventories falling in both China and the United States during the quarter: China's declined from 1,492 million barrels in the second quarter to 1,460 million barrels in the third, and US strategic inventories declined to 283 million barrels in the third quarter from 321 million barrels in the second, while India's strategic inventories held constant at 21 million barrels across all three quarters of 2026.",
+   "vintage": "Nov 17, 2026",
+   "source": "The Hindu BusinessLine (citing EIA)",
+   "source_url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-fall-as-hormuz-shipments-improve-in-q3-2026/article71710342.ece"
+  },
+  {
+   "text": "India's Minister of Ports, Shipping and Waterways, Sarbananda Sonowal, said on Tuesday, Nov 17, that the Panama-flagged liquefied petroleum gas tanker Tara Gas was targeted in a missile attack in the Strait of Hormuz on Nov 16, and that all 25 crew members, including 24 Indian seafarers, were safe with no injuries, Devdiscourse reported. Sonowal said authorities were monitoring the situation continuously and were in close contact with the ship management company. United Kingdom Maritime Trade Operations (UKMTO) did not name any vessel in its Nov 16 advisories on the strait, which reported a tanker struck by an unknown projectile outbound and a second tanker attacked and disabled about seven nautical miles north of Khasab, Oman, and its Nov 17 update on the Khasab incident reported a second strike with the crew unaccounted for. Whether the Tara Gas is one of the vessels in the UKMTO advisories had not been confirmed in the reporting here.",
+   "vintage": "Nov 16, 2026",
+   "source": "Devdiscourse",
+   "source_url": "https://www.devdiscourse.com/article/international/4008095-panama-flagged-lpg-tanker-carrying-24-indians-targeted-in-hormuz-missile-attack-all-crew-safe-shipping-minister-sonowal"
+  },
+  {
+   "text": "Warning sirens sounded at Iraq's Khor Mor gas field in the Kurdistan region on Monday, Nov 16, after a drone flew over the facility, Reuters reported, citing two security sources, in a report carried by Al Jazeera on Nov 17. Production at Khor Mor had already been halted the previous week, after the suspected drone attack on Nov 8 that sparked a fire and took out about 2.8 gigawatts of power generation in the region, according to joint field operator Dana Gas. The field is a major source of natural gas for electricity generation in the Kurdish region. No new damage, injuries or restart timetable were reported for the Nov 16 overflight in the reporting here.",
+   "vintage": "Nov 16, 2026",
+   "source": "Al Jazeera (via 234radio, citing Reuters)",
+   "source_url": "https://234radio.com/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field/"
+  },
+  {
+   "text": "Houthi fighters have advanced to within 100 kilometres of Aden, the temporary capital of Yemen's Saudi-backed government, after government forces withdrew from positions near the Bab el-Mandeb Strait, OilPrice.com reported on Nov 16, citing Yemeni military sources who spoke to Reuters. Five Yemeni military sources told Reuters the fighters had reached Khor Omairh, about 100 kilometres west of Aden, after the government said on Sunday it was pulling out of Dhubab and the surrounding area near the strait to defend the city. Tankers carrying Saudi crude from the Red Sea port of Yanbu to buyers in Asia pass through the strait, and the Red Sea has been Saudi Arabia's main oil export hub since the Iran war began in February, OilPrice.com said, citing Reuters columnist Ron Bousso. The Maritime Executive reported on Nov 3 that Houthi control of the coast between Bab el-Mandeb and Aden would present a major increase in the threat to merchant shipping using the strait and the Maritime Security Transit Corridor through the Gulf of Aden.",
+   "vintage": "Nov 16, 2026",
+   "source": "OilPrice.com (citing Reuters)",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Houthi-Advance-Puts-Saudi-Crude-Exports-at-Risk.amp.html"
+  },
+  {
+   "text": "Saudi Arabia replaced the commander overseeing its coalition against Yemen's Iran-aligned Houthis on Monday, Nov 16, after Riyadh's Yemeni allies were forced to withdraw from swathes of territory in a major setback for their campaign against the group, Reuters reported. A royal decree issued by King Salman set out the changes to the command of the Saudi-led coalition: the existing commander, Lieutenant General Fahd bin Hamad Al-Salman, was appointed as adviser to the defence minister for military affairs, while Chief of the General Staff General Fayyad Al-Ruwaili was assigned the additional role of commanding the joint forces, Saudi state media reported.",
+   "vintage": "Nov 16, 2026",
+   "source": "Reuters (via KRRO)",
+   "source_url": "https://krro.com/2026/11/16/houthis-seize-ground-on-yemens-southern-coast-edge-closer-to-aden/"
+  },
+  {
    "text": "Two tanker strikes in and around the Strait of Hormuz have now been confirmed by maritime authorities, Seatrade Maritime News reported on Nov 16. United Kingdom Maritime Trade Operations (UKMTO), citing Indian shipping authorities, confirmed that a tanker was attacked in the Arabian Gulf on Nov 15 as it approached the strait, with the crew safe and accounted for; maritime security firm Vanguard Tech identified the vessel as the very large crude carrier (VLCC) Al Dhannah, managed by Abu Dhabi National Oil Company (ADNOC) Logistics and Services, which was struck in the steering gear room at the stern and headed back toward Dubai port, and which sits on Iran's Persian Gulf Strait Authority (PGSA) non-compliant list. UKMTO later reported that a second vessel was struck by an unknown projectile while transiting outbound on Nov 16, at 05:58 UTC according to its company security officer, causing an engine room fire with all crew accounted for and no casualties; Vanguard identified that tanker as the Panama-flagged On Phoenix, owned by Onex and struck about 3 nautical miles off the coast of Oman, which has been on the PGSA blacklist since Sep 14. Iran continues to say the northern corridor through its waters is the only allowable route and requires PGSA authorisation, and the Islamic Revolutionary Guard Corps (IRGC) Navy warned tanker owners, shipping company managers and crews, in a report carried by Tasnim News Agency, not to approach the restricted area of the strait.",
    "vintage": "Nov 16, 2026",
    "source": "Seatrade Maritime News",
@@ -652,6 +694,12 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil prices fell on Tuesday, Nov 17, as expectations of a supply surplus, driven by recovering Middle East exports, overshadowed concerns about continued attacks on tankers in the region and broader geopolitical tensions, Reuters reported. Brent crude futures were down 82 cents, or 0.9 percent, to $91.62 a barrel at 0720 GMT, while US West Texas Intermediate (WTI) futures fell 83 cents, or 1 percent, to $84.89. The International Energy Agency (IEA) said on Friday that the world oil market will return to a surplus in the fourth quarter of this year, as Middle East exports recover faster than global oil demand despite attacks on shipping. ANZ analysts said in a note that supply flows are unsustainable over the longer term, that an increasing amount must find its way via alternative routes highly exposed to disruption from attacks by Iran or constraints on logistics, and that throughput in the Strait of Hormuz is only 49 percent of pre-war levels. KCM Trade chief analyst Tim Waterer said the geopolitical risk premium from the US-Iran conflict has not disappeared, but is clearly taking a back seat for now. Reuters also reported in the same article that US Strategic Petroleum Reserve stocks fell to 276.4 million barrels last week, the lowest since August 1982, on Department of Energy data; that figure is tracked on the SPR watch page.",
+   "vintage": "Nov 17, 2026",
+   "source": "Reuters (via KTWB)",
+   "source_url": "https://ktwb.com/2026/11/16/oil-slips-on-supply-surplus-outlook-despite-gulf-tensions/"
   },
   {
    "text": "Oil prices dropped on Monday, Nov 16, as signs of recovering oil flows through the Strait of Hormuz reinforced expectations of surplus supply, though fresh tanker incidents underscored the risks to Middle East exports, Reuters reported. Brent futures fell 69 cents, or 0.7 percent, to $95.15 a barrel by 0919 GMT, while US West Texas Intermediate (WTI) crude dropped 37 cents, or 0.4 percent, to $88.19. Shipments from the Middle East through the strait have been nearly restored to pre-war levels, and the International Energy Agency (IEA) said on Friday that the world oil market will return to a surplus in the fourth quarter, with supply averaging 105 million barrels per day, 1.7 million barrels per day above forecast demand. Goldman Sachs said in a note on Sunday that Middle East supply and oil demand have adapted remarkably well to heightened shipping risks and higher prices, and that it expects Brent to average $88 a barrel in 2027 and ease to $78 a barrel by the end of 2027 on a return to surplus supply. Reuters noted that Iran's Revolutionary Guards said on Monday that two oil tankers struck mines in the strait and that six tankers caught fire in similar incidents on Sunday and Monday, a report Reuters could not independently verify.",
@@ -1964,6 +2012,41 @@
  ],
  "sources": [
   {
+   "publisher": "EuropeSays (citing UKMTO)",
+   "vintage": "",
+   "url": "https://www.europesays.com/3381058/"
+  },
+  {
+   "publisher": "OilPrice.com",
+   "vintage": "",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-and-Oman-Hold-Talks-on-Strait-of-Hormuz-Security-as-Tanker-Attacks-Surge.html"
+  },
+  {
+   "publisher": "The Hindu BusinessLine (citing EIA)",
+   "vintage": "",
+   "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-fall-as-hormuz-shipments-improve-in-q3-2026/article71710342.ece"
+  },
+  {
+   "publisher": "Devdiscourse",
+   "vintage": "",
+   "url": "https://www.devdiscourse.com/article/international/4008095-panama-flagged-lpg-tanker-carrying-24-indians-targeted-in-hormuz-missile-attack-all-crew-safe-shipping-minister-sonowal"
+  },
+  {
+   "publisher": "Al Jazeera (via 234radio, citing Reuters)",
+   "vintage": "",
+   "url": "https://234radio.com/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field/"
+  },
+  {
+   "publisher": "OilPrice.com (citing Reuters)",
+   "vintage": "",
+   "url": "https://oilprice.com/Energy/Energy-General/Houthi-Advance-Puts-Saudi-Crude-Exports-at-Risk.amp.html"
+  },
+  {
+   "publisher": "Reuters (via KRRO)",
+   "vintage": "",
+   "url": "https://krro.com/2026/11/16/houthis-seize-ground-on-yemens-southern-coast-edge-closer-to-aden/"
+  },
+  {
    "publisher": "Seatrade Maritime News",
    "vintage": "",
    "url": "https://www.seatrade-maritime.com/security/tanker-confirmed-struck-in-the-gulf-iran-claims-vlcc-sinking"
@@ -2492,6 +2575,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters (via KTWB)",
+   "vintage": "",
+   "url": "https://ktwb.com/2026/11/16/oil-slips-on-supply-surplus-outlook-despite-gulf-tensions/"
   },
   {
    "publisher": "Reuters (via Mix 106.9)",

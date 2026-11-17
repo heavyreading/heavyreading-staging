@@ -1,12 +1,12 @@
 {
- "vintage": "9 watches; newest source update 2026-11-16; built 2026-11-17",
+ "vintage": "9 watches; newest source update 2026-11-17; built 2026-11-17",
  "data": {
   "watches": [
    {
     "slug": "middle-east",
     "title": "Middle East watch",
     "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
-    "updated": "2026-11-16",
+    "updated": "2026-11-17",
     "how_to_read": "Read this page in order: what changed, what it means for barrels, how it reaches the market, and what could escalate next. Front 1 (The war) covers Iran's sanctioned exports, floating storage, the shadow fleet, and China's buying. Front 2 (Hormuz) covers tanker movement through the chokepoint against its pre-war baseline. Front 3 (Red Sea) covers Houthi pressure on Bab el-Mandeb shipping, Saudi export rerouting, and the Cape of Good Hope diversion. The archive at the bottom holds the blockade timeline and baselines.",
     "wcs_stakes": null,
     "wcs_closer": "For the WCSB book, watch the floating storage drawdown and the blockade line for how much Iranian sour is coming, vessel counts and the EIA quarterly series for whether Hormuz is loosening before the price does, and Bab el-Mandeb transit counts plus Yanbu loading resumption for the earliest sign Gulf sour is reaching Europe normally again. The moment Gulf sour flows freely on all three fronts, expect the bid under Canadian heavies to fade with it.",
@@ -14,6 +14,48 @@
      {
       "heading": "The latest",
       "bullets": [
+       {
+        "text": "The tanker attacked about seven nautical miles north of Khasab, Oman, on Monday, Nov 16, was struck a second time and caught fire again, and its crew are currently unaccounted for, United Kingdom Maritime Trade Operations (UKMTO) said in an update on Tuesday, Nov 17, EuropeSays reported. UKMTO first received a third party report that the tanker transiting the Strait of Hormuz had been attacked, disabled and left with an engine room fire, and the crew were initially reported safe. In the update, for Warning 208-26, UKMTO said a maritime security agency had reported the second strike and fire, and that the damage assessment is unknown at present. UKMTO named no vessel, flag, operator or attacker, and urged vessels transiting the area to exercise caution and report suspicious activity while authorities investigate.",
+        "vintage": "Nov 17, 2026",
+        "source": "EuropeSays (citing UKMTO)",
+        "source_url": "https://www.europesays.com/3381058/"
+       },
+       {
+        "text": "The foreign ministers of Iran and Oman discussed the situation in the region and the importance of keeping security in the maritime corridors to ensure smooth flows of shipping and trade on Tuesday, Nov 17, OilPrice.com reported, citing Oman's Foreign Ministry. Oman's Foreign Minister Sayyid Badr Albusaidi and his visiting Iranian counterpart Abbas Araghchi also talked about revitalizing channels for dialogue and negotiations, Oman said, in efforts it described as broadening understanding among the parties concerned and preventing the crisis and its repercussions from escalating. Oman lies on the Strait of Hormuz opposite Iran and has played a mediating role in efforts to engage the United States and Iran in indirect talks. The meeting took place as attacks on oil tankers in and around the strait have intensified in recent weeks, with October the highest month for reported tanker attacks since the war began in late February, OilPrice.com said.",
+        "vintage": "Nov 17, 2026",
+        "source": "OilPrice.com",
+        "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-and-Oman-Hold-Talks-on-Strait-of-Hormuz-Security-as-Tanker-Attacks-Surge.html"
+       },
+       {
+        "text": "Oil flows through the Strait of Hormuz rose to 9.1 million barrels per day in the third quarter of 2026, up from 5.1 million barrels per day in the second quarter, according to US Energy Information Administration (EIA) data reported by The Hindu BusinessLine on Nov 17. The third quarter volume remained far below the 21.4 million barrels per day that moved through the strait in the third quarter of 2025. The same EIA data showed strategic oil inventories falling in both China and the United States during the quarter: China's declined from 1,492 million barrels in the second quarter to 1,460 million barrels in the third, and US strategic inventories declined to 283 million barrels in the third quarter from 321 million barrels in the second, while India's strategic inventories held constant at 21 million barrels across all three quarters of 2026.",
+        "vintage": "Nov 17, 2026",
+        "source": "The Hindu BusinessLine (citing EIA)",
+        "source_url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-fall-as-hormuz-shipments-improve-in-q3-2026/article71710342.ece"
+       },
+       {
+        "text": "India's Minister of Ports, Shipping and Waterways, Sarbananda Sonowal, said on Tuesday, Nov 17, that the Panama-flagged liquefied petroleum gas tanker Tara Gas was targeted in a missile attack in the Strait of Hormuz on Nov 16, and that all 25 crew members, including 24 Indian seafarers, were safe with no injuries, Devdiscourse reported. Sonowal said authorities were monitoring the situation continuously and were in close contact with the ship management company. United Kingdom Maritime Trade Operations (UKMTO) did not name any vessel in its Nov 16 advisories on the strait, which reported a tanker struck by an unknown projectile outbound and a second tanker attacked and disabled about seven nautical miles north of Khasab, Oman, and its Nov 17 update on the Khasab incident reported a second strike with the crew unaccounted for. Whether the Tara Gas is one of the vessels in the UKMTO advisories had not been confirmed in the reporting here.",
+        "vintage": "Nov 16, 2026",
+        "source": "Devdiscourse",
+        "source_url": "https://www.devdiscourse.com/article/international/4008095-panama-flagged-lpg-tanker-carrying-24-indians-targeted-in-hormuz-missile-attack-all-crew-safe-shipping-minister-sonowal"
+       },
+       {
+        "text": "Warning sirens sounded at Iraq's Khor Mor gas field in the Kurdistan region on Monday, Nov 16, after a drone flew over the facility, Reuters reported, citing two security sources, in a report carried by Al Jazeera on Nov 17. Production at Khor Mor had already been halted the previous week, after the suspected drone attack on Nov 8 that sparked a fire and took out about 2.8 gigawatts of power generation in the region, according to joint field operator Dana Gas. The field is a major source of natural gas for electricity generation in the Kurdish region. No new damage, injuries or restart timetable were reported for the Nov 16 overflight in the reporting here.",
+        "vintage": "Nov 16, 2026",
+        "source": "Al Jazeera (via 234radio, citing Reuters)",
+        "source_url": "https://234radio.com/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field/"
+       },
+       {
+        "text": "Houthi fighters have advanced to within 100 kilometres of Aden, the temporary capital of Yemen's Saudi-backed government, after government forces withdrew from positions near the Bab el-Mandeb Strait, OilPrice.com reported on Nov 16, citing Yemeni military sources who spoke to Reuters. Five Yemeni military sources told Reuters the fighters had reached Khor Omairh, about 100 kilometres west of Aden, after the government said on Sunday it was pulling out of Dhubab and the surrounding area near the strait to defend the city. Tankers carrying Saudi crude from the Red Sea port of Yanbu to buyers in Asia pass through the strait, and the Red Sea has been Saudi Arabia's main oil export hub since the Iran war began in February, OilPrice.com said, citing Reuters columnist Ron Bousso. The Maritime Executive reported on Nov 3 that Houthi control of the coast between Bab el-Mandeb and Aden would present a major increase in the threat to merchant shipping using the strait and the Maritime Security Transit Corridor through the Gulf of Aden.",
+        "vintage": "Nov 16, 2026",
+        "source": "OilPrice.com (citing Reuters)",
+        "source_url": "https://oilprice.com/Energy/Energy-General/Houthi-Advance-Puts-Saudi-Crude-Exports-at-Risk.amp.html"
+       },
+       {
+        "text": "Saudi Arabia replaced the commander overseeing its coalition against Yemen's Iran-aligned Houthis on Monday, Nov 16, after Riyadh's Yemeni allies were forced to withdraw from swathes of territory in a major setback for their campaign against the group, Reuters reported. A royal decree issued by King Salman set out the changes to the command of the Saudi-led coalition: the existing commander, Lieutenant General Fahd bin Hamad Al-Salman, was appointed as adviser to the defence minister for military affairs, while Chief of the General Staff General Fayyad Al-Ruwaili was assigned the additional role of commanding the joint forces, Saudi state media reported.",
+        "vintage": "Nov 16, 2026",
+        "source": "Reuters (via KRRO)",
+        "source_url": "https://krro.com/2026/11/16/houthis-seize-ground-on-yemens-southern-coast-edge-closer-to-aden/"
+       },
        {
         "text": "Two tanker strikes in and around the Strait of Hormuz have now been confirmed by maritime authorities, Seatrade Maritime News reported on Nov 16. United Kingdom Maritime Trade Operations (UKMTO), citing Indian shipping authorities, confirmed that a tanker was attacked in the Arabian Gulf on Nov 15 as it approached the strait, with the crew safe and accounted for; maritime security firm Vanguard Tech identified the vessel as the very large crude carrier (VLCC) Al Dhannah, managed by Abu Dhabi National Oil Company (ADNOC) Logistics and Services, which was struck in the steering gear room at the stern and headed back toward Dubai port, and which sits on Iran's Persian Gulf Strait Authority (PGSA) non-compliant list. UKMTO later reported that a second vessel was struck by an unknown projectile while transiting outbound on Nov 16, at 05:58 UTC according to its company security officer, causing an engine room fire with all crew accounted for and no casualties; Vanguard identified that tanker as the Panama-flagged On Phoenix, owned by Onex and struck about 3 nautical miles off the coast of Oman, which has been on the PGSA blacklist since Sep 14. Iran continues to say the northern corridor through its waters is the only allowable route and requires PGSA authorisation, and the Islamic Revolutionary Guard Corps (IRGC) Navy warned tanker owners, shipping company managers and crews, in a report carried by Tasnim News Agency, not to approach the restricted area of the strait.",
         "vintage": "Nov 16, 2026",
@@ -667,6 +709,12 @@
      {
       "heading": "What it means for barrels",
       "bullets": [
+       {
+        "text": "Oil prices fell on Tuesday, Nov 17, as expectations of a supply surplus, driven by recovering Middle East exports, overshadowed concerns about continued attacks on tankers in the region and broader geopolitical tensions, Reuters reported. Brent crude futures were down 82 cents, or 0.9 percent, to $91.62 a barrel at 0720 GMT, while US West Texas Intermediate (WTI) futures fell 83 cents, or 1 percent, to $84.89. The International Energy Agency (IEA) said on Friday that the world oil market will return to a surplus in the fourth quarter of this year, as Middle East exports recover faster than global oil demand despite attacks on shipping. ANZ analysts said in a note that supply flows are unsustainable over the longer term, that an increasing amount must find its way via alternative routes highly exposed to disruption from attacks by Iran or constraints on logistics, and that throughput in the Strait of Hormuz is only 49 percent of pre-war levels. KCM Trade chief analyst Tim Waterer said the geopolitical risk premium from the US-Iran conflict has not disappeared, but is clearly taking a back seat for now. Reuters also reported in the same article that US Strategic Petroleum Reserve stocks fell to 276.4 million barrels last week, the lowest since August 1982, on Department of Energy data; that figure is tracked on the SPR watch page.",
+        "vintage": "Nov 17, 2026",
+        "source": "Reuters (via KTWB)",
+        "source_url": "https://ktwb.com/2026/11/16/oil-slips-on-supply-surplus-outlook-despite-gulf-tensions/"
+       },
        {
         "text": "Oil prices dropped on Monday, Nov 16, as signs of recovering oil flows through the Strait of Hormuz reinforced expectations of surplus supply, though fresh tanker incidents underscored the risks to Middle East exports, Reuters reported. Brent futures fell 69 cents, or 0.7 percent, to $95.15 a barrel by 0919 GMT, while US West Texas Intermediate (WTI) crude dropped 37 cents, or 0.4 percent, to $88.19. Shipments from the Middle East through the strait have been nearly restored to pre-war levels, and the International Energy Agency (IEA) said on Friday that the world oil market will return to a surplus in the fourth quarter, with supply averaging 105 million barrels per day, 1.7 million barrels per day above forecast demand. Goldman Sachs said in a note on Sunday that Middle East supply and oil demand have adapted remarkably well to heightened shipping risks and higher prices, and that it expects Brent to average $88 a barrel in 2027 and ease to $78 a barrel by the end of 2027 on a return to surplus supply. Reuters noted that Iran's Revolutionary Guards said on Monday that two oil tankers struck mines in the strait and that six tankers caught fire in similar incidents on Sunday and Monday, a report Reuters could not independently verify.",
         "vintage": "Nov 16, 2026",
@@ -2018,7 +2066,7 @@
     "slug": "russia-refining",
     "title": "Russian Refining Watch",
     "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
-    "updated": "2026-11-16",
+    "updated": "2026-11-17",
     "how_to_read": "Read this page as the diesel side of the crude market: Ukrainian strikes on Russian refineries remove products, not crude, so the read is crack spreads and export curbs rather than wellhead output. Ukrainian claims are carried as claims. Strike dates are approximate and every bullet carries its vintage.",
     "wcs_stakes": "Russian refinery outages tighten global diesel, and record diesel cracks keep US and Asian refiners running at maximum to capture them, which is the demand-side bid under heavy sour barrels including Western Canadian Select (WCS). At the same time, crude displaced from downed Russian refineries has pushed seaborne Russian exports to 16-month highs, capping how much support the tight product market can pass back to sour crude prices. The net effect for WCS is constructive while diesel cracks stay extreme: refineries run hard and bid for every discounted heavy barrel they can crack.",
     "wcs_closer": "For the WCSB book, watch the diesel crack, not the strike count: it is the margin that decides how hard refiners run and how much they pay for heavy barrels. If an energy ceasefire returns Russian refineries and the diesel crack compresses, runs fall and discounted heavies strand first. Until then, the tight product market is the best demand cover WCS has.",
@@ -2026,6 +2074,12 @@
      {
       "heading": "Crude export redirection",
       "bullets": [
+       {
+        "text": "More than a month after President Donald Trump announced the Russian diesel deal, the Agioi Fanendes was still hovering hundreds of miles off the east coast of the United States as of Sunday, Nov 15, and several other tankers that left Russia are no longer bound for the United States, CNN reported, citing MarineTraffic ship tracking data, in a report summarized by National Security Journal on Nov 16. A bipartisan group of members of Congress wrote to several major banks and port authorities shortly after the deal was announced, warning that they could face legal action if they are involved in importing Russian diesel into the United States, and that companies importing products in violation of US law may expose themselves to criminal and civil liability, CNN reported. The lawmakers questioned whether the Treasury Department's sanctions waiver was legal. A White House official told CNN that, consistent with the deal between Trump and President Vladimir Putin, Russian diesel is on the water and heading to the market, without saying the oil was coming to the United States. The Wall Street Journal reported last week that numerous ships carrying Russian diesel had either turned around or otherwise failed to deliver to the United States, and that the deal had yet to result in any new imports into the country.",
+        "vintage": "Nov 16, 2026",
+        "source": "National Security Journal (citing CNN)",
+        "source_url": "https://nationalsecurityjournal.org/trump-is-going-to-be-mad-lawmakers-warned-banks-and-ports-they-could-face-legal-action-for-taking-his-russian-diesel/"
+       },
        {
         "text": "Five weeks after President Donald Trump announced the Russian diesel deal on Oct 9, no delivery to a US port has been confirmed, Unbiased Headlines reported on Nov 15. Greenpeace, which tracked the fleet using shipping databases, counts six vessels carrying an estimated 268,000 tonnes of Russian diesel under the arrangement. Two tankers that left the Baltic port of Primorsk first declared US East Coast destinations and have since turned, one toward Brazil and the other into the Mediterranean, according to Kpler and MarineTraffic data, and Bloomberg and the Kyiv Post reported that the Malta-flagged Agioi Fanendes, carrying about 40,000 metric tons, reversed course roughly 400 nautical miles from New York. The US Treasury's Office of Foreign Assets Control (OFAC) authorisation for Russian diesel transactions runs to Apr 7, 2027. Neither the White House nor the Kremlin has said whether the deal was put in writing, and neither has disclosed the price, payment terms or participating companies, the report said.",
         "vintage": "Nov 15, 2026",
@@ -2378,6 +2432,12 @@
      {
       "heading": "Named hits and outages",
       "bullets": [
+       {
+        "text": "Ukraine hit the road and rail bridge connecting Crimea to Russia's Krasnodar region and targeted oil refineries overnight into Monday, Nov 16, in what Russian defence ministry data showed was the biggest overnight drone attack on Russia since the start of the full-scale war in 2022, Reuters reported. Russia said its air defences brought down 1,336 Ukrainian drones across 16 regions, surpassing the 1,254 registered as shot down on Oct 29, and Moscow Mayor Sergei Sobyanin said about 600 drones had been launched at the Moscow region since Sunday evening, 191 of them brought down. The Russian-backed governor of Crimea, Sergei Aksyonov, said the Kerch Strait bridge was struck overnight; the Kremlin called the damage minor, road traffic was temporarily suspended while repairs were undertaken, and rail traffic continued as normal, the transport ministry said. In the Krasnodar region, local officials said a fire broke out at an unnamed industrial facility in Ilsky, home to an oil refinery, and that falling drone debris injured six people, including children. Rostov region governor Yuri Slyusar said fires broke out at four industrial sites in Azov after the attack. The extent of any halt to processing at Ilsky had not been confirmed in the reporting here.",
+        "vintage": "Nov 16, 2026",
+        "source": "Reuters (via 93.5 The Lloyd)",
+        "source_url": "https://935thelloyd.com/2026/11/16/ukraine-launches-biggest-drone-attack-on-russia-since-war-began-defence-ministry-data-shows/"
+       },
        {
         "text": "Russia's defence ministry said its air defences brought down 1,336 Ukrainian drones overnight into Monday, Nov 16, one of the largest totals of the year, over the Moscow region, Crimea, Krasnodar Krai and the Black and Azov seas, YAC News reported on Nov 16. Fires broke out at four production sites in Azov, in Rostov region, and three men were injured, Governor Yuri Slyusar said; witness footage showed an oil depot and a gas distribution station burning, the independent Russian channel Astra reported. Krasnodar Krai's emergency headquarters said a fire had broken out at an enterprise in the village of Ilsky and that falling debris had injured three people in Seversky district, among them a child. The village is home to the Ilsky refinery, one of the largest in southern Russia at about 6.6 million tonnes of crude a year, which Ukraine's General Staff says supplies the Russian armed forces. Ukraine had not confirmed a strike on the Ilsky plant by the morning of Nov 16, and neither the extent of damage at Azov nor any halt to Ilsky processing had been confirmed in the reporting here.",
         "vintage": "Nov 16, 2026",
@@ -3064,7 +3124,7 @@
     "slug": "spr-storage",
     "title": "US SPR & Storage Watch",
     "dek": "US Strategic Petroleum Reserve (SPR) and commercial crude stocks -- SPR inventory, the 2026 exchange/refill mechanics, and Cushing.",
-    "updated": "2026-11-16",
+    "updated": "2026-11-17",
     "how_to_read": "Read this page as the US government's sour barrel: the Strategic Petroleum Reserve (SPR) is mostly sour crude, and its exchanges put barrels into the market while the returns schedule takes them back out. The reserve's published inventory is the hard data; the 2026 exchange repayment ledger is not published, so outstanding loan balances are estimates. Every bullet carries its vintage.",
     "wcs_stakes": "What's drawing lately is leaning sweet: between August 20 and September 11 the Strategic Petroleum Reserve (SPR) lost 5.0 million barrels of sweet against 4.2 million of sour, leaving it at roughly 34% sweet and 66% sour against the 40/60 mix the Department of Energy (DOE) says US Gulf Coast refineries were built around, and at 284.9 million barrels the reserve sits only about 32 million above the 252.4-million-barrel minimum Congress mandates. Near term the pressure stays bearish: Energy Secretary Chris Wright calls another exchange round 'a very real possibility' with 38.5 million barrels still unallocated. The trade flips in 2027, when borrowers start returning barrels at about 1.25 per barrel borrowed through 2029, turning the SPR from the market's biggest sour supplier into a standing bid for medium-sour crude.",
     "wcs_closer": "For the WCSB book, the SPR is a two-act story with a grade twist: exchanges now, repayments later, and sweet leaving fastest while the reserve drifts further from its 40/60 design mix. Watch the weekly EIA petroleum status report for the draw pace, the DOE grade table for the sweet/sour split, and any disclosed repayments; the 2027-2029 return schedule is a known future bid for sour barrels. Until then, the reserve's releases are the quiet headwind on every sour differential print, and the 252.4-million-barrel congressional floor leaves only about 32 million barrels of drawdown room.",
@@ -3072,6 +3132,12 @@
      {
       "heading": "The exchange ledger: two threads, one timeline",
       "bullets": [
+       {
+        "text": "Status check on Nov 17: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE search checked directly on Nov 17 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels, with crude to be supplied from the Big Hill and Bryan Mound storage sites and more than 216 million barrels, including 44 million premium barrels, secured to return beginning early next year. The newest reserves press release after that remains the Nov 3 Northeast Home Heating Oil Reserve award listed separately in this section, and the only newer reserves item is a Nov 9 update to the SPR Quick Facts page, not an award or solicitation. No new Energy Information Administration weekly SPR inventory figure has been published since the Nov 12 release, which put the reserve at 279.5 million barrels in the week ending Nov 6, 2026; the next Weekly Petroleum Status Report, for the week ending Nov 13, is due Nov 18. A Department of Energy inventory figure reported by Reuters on Nov 17 put the reserve at 276.4 million barrels last week, the lowest since August 1982; that figure is reported in the inventory section of this page.",
+        "vintage": "Nov 17, 2026",
+        "source": "U.S. Department of Energy",
+        "source_url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
+       },
        {
         "text": "Status check on Nov 16: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE search checked directly on Nov 16 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels, with crude to be supplied from the Big Hill and Bryan Mound storage sites and more than 216 million barrels, including 44 million premium barrels, secured to return beginning early next year. The newest reserves press release after that remains the Nov 3 Northeast Home Heating Oil Reserve award listed separately in this section, and the only newer reserves item is a Nov 9 update to the SPR Quick Facts page, not an award or solicitation. No new Energy Information Administration weekly SPR inventory figure has been published since the Nov 12 release, which put the reserve at 279.5 million barrels in the week ending Nov 6, 2026; the next Weekly Petroleum Status Report, for the week ending Nov 13, is due Nov 18.",
         "vintage": "Nov 16, 2026",
@@ -3643,6 +3709,12 @@
      {
       "heading": "SPR: current inventory",
       "bullets": [
+       {
+        "text": "Crude oil stocks in the US Strategic Petroleum Reserve (SPR) fell to 276.4 million barrels last week, the lowest level since August 1982, according to Department of Energy data reported by Reuters on Nov 17. The drawdown is part of the United States agreement to release 172 million barrels from the reserve, Reuters said. The figure sits below the last official Energy Information Administration (EIA) weekly reading published on this page, 279.5 million barrels in the week ending Nov 6, 2026, and the next EIA Weekly Petroleum Status Report, for the week ending Nov 13, is due Nov 18, which will show whether the official weekly series records the same level.",
+        "vintage": "Nov 17, 2026",
+        "source": "Reuters (via KTWB)",
+        "source_url": "https://ktwb.com/2026/11/16/oil-slips-on-supply-surplus-outlook-despite-gulf-tensions/"
+       },
        {
         "text": "The US Strategic Petroleum Reserve (SPR) held 279.5 million barrels of crude oil in the week ending Nov 6, 2026, down 2.6 million barrels, or 0.9 percent, from the prior week, Energy Factbook reported, citing Energy Information Administration (EIA) data updated Nov 12. The reserve was at 39.2 percent of its 714 million barrels of authorized storage capacity and at its lowest level since October 8, 1982, Energy Factbook said. The weekly series shows the reserve held 415.4 million barrels in the week ending Feb 27, 2026, a decline of 135.9 million barrels to the Nov 6 level.",
         "vintage": "Nov 12, 2026",
