@@ -2,9 +2,33 @@
  "page": "/world/middle-east/",
  "title": "Middle East watch",
  "dek": "One war, three fronts: Iran's sanctioned exports under the naval blockade, tanker movement through the Strait of Hormuz, and Houthi pressure on Red Sea shipping. The fronts move together; this page tracks them together. Every number is either tracker-observed or claimed, never both; bullets say which. When any front tightens, buyers bid up substitute sours and the whole complex firms, supporting Canadian differentials; when they loosen, medium and heavy sours soften.",
- "built_at": "2026-11-18",
+ "built_at": "2026-11-19",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "The United Arab Emirates' ADNOC Logistics and Services (ADNOC L&S) said on Wednesday, Nov 18, that one crew member was missing and 11 were injured after one of its vessels was attacked in the Strait of Hormuz on Tuesday, Nov 17, Reuters reported. The company said the rest of the crew had been evacuated, without naming the vessel or giving further details, and said search and rescue operations were continuing in coordination with the relevant authorities. In the same report, Oman's emergency response authorities said they had rescued 24 crew members from the Panama-flagged Tara Gas liquefied petroleum gas tanker, that the search for one missing person was continuing, and that efforts to put out the fire aboard the tanker were still under way.",
+   "vintage": "Nov 18, 2026",
+   "source": "Reuters (via 102.7 WBOW)",
+   "source_url": "https://1027wbow.com/2026/11/18/uaes-adnoc-ls-says-one-crew-member-missing-after-attack-on-its-vessel-in-hormuz/"
+  },
+  {
+   "text": "The Panama-flagged, 53,200-deadweight-ton liquefied petroleum gas carrier Tara Gas was abandoned after a second strike on Tuesday, Nov 17, engulfed the vessel in flames off Oman's Musandam Peninsula, Splash247 reported on Nov 18. India's foreign ministry confirmed that 24 of the vessel's 25 crew members had been rescued, including 21 Indian nationals brought ashore at Khasab, with two injured Indian sailors being treated in hospital and a search continuing for the missing seafarer. United Kingdom Maritime Trade Operations (UKMTO) first reported the tanker being attacked on Monday, Nov 16, seven nautical miles north of Khasab, when the initial strike disabled the vessel and caused an engine room fire; a subsequent attack on Tuesday ignited another fire and forced the crew to abandon ship, with Omani naval and coastguard personnel coordinating the rescue. The incident followed another attack on Monday against the Panama-flagged tanker On Phoenix, which was struck by an unidentified projectile while leaving Hormuz and also suffered an engine room fire, with all crew accounted for.",
+   "vintage": "Nov 18, 2026",
+   "source": "Splash247",
+   "source_url": "https://splash247.com/hormuz-inferno-leaves-seafarer-missing/"
+  },
+  {
+   "text": "Gulf countries said on Wednesday, Nov 18, they had intercepted missiles and drones from Iran and its Houthi allies in Yemen, after the United States struck Qeshm Island in the Strait of Hormuz, Reuters reported. The Iranian army said it had targeted US drone and missile installations at Kuwait's Ali Al Salem base, after Kuwait said its air defences were countering hostile drone attacks, in what Reuters described as the first Iranian attack on Kuwait since September. Bahrain said it had intercepted Iranian aerial attacks for the third time this week and accused Tehran of a systematic hostile approach toward the country, which hosts the US Navy's Fifth Fleet. The Saudi-led coalition said it had destroyed a cruise missile launched by the Houthi militia toward Riyadh. On Tuesday, Nov 17, US fighter jets fired on a Revolutionary Guards missile launch site on Qeshm Island, a US military official said, in response to Iran's attacks on US personnel and assets; Iranian media, citing an Iranian official, said the US attack did not damage infrastructure.",
+   "vintage": "Nov 18, 2026",
+   "source": "Reuters (via 93.5 The Lloyd)",
+   "source_url": "https://935thelloyd.com/2026/11/17/bahrain-issues-all-clear-after-threat-alert-amid-us-iran-exchanges-of-fire/"
+  },
+  {
+   "text": "Yemen's Iran-aligned Houthis said on Tuesday, Nov 17, they had launched a total of five drones toward two pumping stations along Saudi Arabia's East-West pipeline in the Riyadh area, Reuters reported. There was no immediate Saudi confirmation, and no damage or interruption to pipeline operations was established in the report. The Houthis have claimed several times this month to have attacked the pipeline. Since conflict in the Middle East disrupted oil flows through the Strait of Hormuz, Riyadh has rerouted about 4 million barrels of crude per day via the East-West pipeline to Yanbu, equivalent to about 4 percent of global supply, Reuters said.",
+   "vintage": "Nov 17, 2026",
+   "source": "Reuters (via 102.7 WBOW)",
+   "source_url": "https://1027wbow.com/2026/11/17/yemens-houthis-say-they-launched-drones-towards-saudi-east-west-pipeline/"
+  },
   {
    "text": "The tanker attacked about seven nautical miles north of Khasab, Oman, on Monday, Nov 16, was struck a second time and caught fire again, and its crew are currently unaccounted for, United Kingdom Maritime Trade Operations (UKMTO) said in an update on Tuesday, Nov 17, EuropeSays reported. UKMTO first received a third party report that the tanker transiting the Strait of Hormuz had been attacked, disabled and left with an engine room fire, and the crew were initially reported safe. In the update, for Warning 208-26, UKMTO said a maritime security agency had reported the second strike and fire, and that the damage assessment is unknown at present. UKMTO named no vessel, flag, operator or attacker, and urged vessels transiting the area to exercise caution and report suspicious activity while authorities investigate.",
    "vintage": "Nov 17, 2026",
@@ -694,6 +718,12 @@
    "vintage": "Oct 8, 2026",
    "source": "OilPrice.com",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "text": "Oil prices fell on Wednesday, Nov 18, on data showing an increase in US crude and fuel inventories last week, although ongoing US-Iran attacks and disruptions to shipping through the Strait of Hormuz limited losses, Reuters reported. Brent crude futures fell 61 cents, or 0.7 percent, to $92.53 a barrel at 0550 GMT, and US West Texas Intermediate futures lost $1.24, or 1.4 percent, to $84.77 a barrel. US crude stocks rose by 5.28 million barrels in the week ended Nov 13, market sources said on Tuesday, citing American Petroleum Institute data, while gasoline stocks rose by 5.12 million barrels and distillate inventories rose by 351,000 barrels. Bahrain's defence force said on Wednesday it had intercepted Iranian aerial attacks, a day after Iranian drones attacked a US military radar system in Bahrain and the US retaliated with strikes on a missile launch site on Iran's Qeshm Island. LSEG analysts said in a note on Tuesday that although regional supply may continue to recover through alternative routes, the latest vessel data suggests that normalisation of flows through Hormuz is still not possible under current conditions.",
+   "vintage": "Nov 18, 2026",
+   "source": "Reuters (via 93.5 The Lloyd)",
+   "source_url": "https://935thelloyd.com/2026/11/17/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks/"
   },
   {
    "text": "Oil prices fell on Tuesday, Nov 17, as expectations of a supply surplus, driven by recovering Middle East exports, overshadowed concerns about continued attacks on tankers in the region and broader geopolitical tensions, Reuters reported. Brent crude futures were down 82 cents, or 0.9 percent, to $91.62 a barrel at 0720 GMT, while US West Texas Intermediate (WTI) futures fell 83 cents, or 1 percent, to $84.89. The International Energy Agency (IEA) said on Friday that the world oil market will return to a surplus in the fourth quarter of this year, as Middle East exports recover faster than global oil demand despite attacks on shipping. ANZ analysts said in a note that supply flows are unsustainable over the longer term, that an increasing amount must find its way via alternative routes highly exposed to disruption from attacks by Iran or constraints on logistics, and that throughput in the Strait of Hormuz is only 49 percent of pre-war levels. KCM Trade chief analyst Tim Waterer said the geopolitical risk premium from the US-Iran conflict has not disappeared, but is clearly taking a back seat for now. Reuters also reported in the same article that US Strategic Petroleum Reserve stocks fell to 276.4 million barrels last week, the lowest since August 1982, on Department of Energy data; that figure is tracked on the SPR watch page.",
@@ -2012,6 +2042,26 @@
  ],
  "sources": [
   {
+   "publisher": "Reuters (via 102.7 WBOW)",
+   "vintage": "",
+   "url": "https://1027wbow.com/2026/11/18/uaes-adnoc-ls-says-one-crew-member-missing-after-attack-on-its-vessel-in-hormuz/"
+  },
+  {
+   "publisher": "Splash247",
+   "vintage": "",
+   "url": "https://splash247.com/hormuz-inferno-leaves-seafarer-missing/"
+  },
+  {
+   "publisher": "Reuters (via 93.5 The Lloyd)",
+   "vintage": "",
+   "url": "https://935thelloyd.com/2026/11/17/bahrain-issues-all-clear-after-threat-alert-amid-us-iran-exchanges-of-fire/"
+  },
+  {
+   "publisher": "Reuters (via 102.7 WBOW)",
+   "vintage": "",
+   "url": "https://1027wbow.com/2026/11/17/yemens-houthis-say-they-launched-drones-towards-saudi-east-west-pipeline/"
+  },
+  {
    "publisher": "EuropeSays (citing UKMTO)",
    "vintage": "",
    "url": "https://www.europesays.com/3381058/"
@@ -2575,6 +2625,11 @@
    "publisher": "OilPrice.com",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html"
+  },
+  {
+   "publisher": "Reuters (via 93.5 The Lloyd)",
+   "vintage": "",
+   "url": "https://935thelloyd.com/2026/11/17/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks/"
   },
   {
    "publisher": "Reuters (via KTWB)",

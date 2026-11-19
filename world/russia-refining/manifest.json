@@ -2,7 +2,7 @@
  "page": "/world/russia-refining/",
  "title": "Russian Refining Watch",
  "dek": "Ukraine's drone campaign against Russian refining: strikes, offline capacity, and the diesel crisis.",
- "built_at": "2026-11-18",
+ "built_at": "2026-11-19",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
@@ -352,6 +352,24 @@
    "vintage": "Oct 1, 2026",
    "source": "Associated Press (via AAP)",
    "source_url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "text": "Two industrial facilities in Krasnodar Krai caught fire after a drone attack that injured four people, regional authorities said on Wednesday, Nov 18, with media identifying the targets as two major oil refineries, EuropeSays reported, carrying Moscow Times reporting. The Krasnodar region's emergency centre said falling drone debris sparked fires at two facilities and that the four injured were receiving medical treatment. The exiled outlet Astra said local residents named the targeted sites as the Afipsky and Ilsky oil refineries in Seversky district. The Afipsky refinery has a processing capacity of 9.1 million tons of crude per year and the Ilsky refinery a design capacity of over 6 million metric tons per year, and both have been attacked multiple times. Four more residents of the neighbouring republic of Adygea were hospitalised after a drone attack on a settlement less than 10 kilometres from the Afipsky refinery. Russia's Defence Ministry said it had intercepted 183 Ukrainian drones over Russian regions overnight. Regional authorities did not name the facilities, so the refinery identifications rest on residents and monitoring channels, not on an official confirmation.",
+   "vintage": "Nov 18, 2026",
+   "source": "EuropeSays (citing The Moscow Times)",
+   "source_url": "https://www.europesays.com/russia/91201/"
+  },
+  {
+   "text": "Two oil refineries in Krasnodar Krai were reportedly targeted in an overnight drone attack on Nov 17 to 18, with Ukrainian monitoring channels reporting strikes on both facilities, EuropeSays reported, carrying Kyiv Independent reporting. The monitoring channel Exilenova+ posted that the Ilsky and Afipsky refineries had both been hit, citing local sources, and Supernova+ also reported an attack on the Ilsky refinery. The Kyiv Independent said it could not independently verify the reported strikes or damage at either facility, and Ukrainian military officials did not immediately confirm the latest reported strikes. Ukraine's General Staff had previously reported striking the Ilsky refinery on Nov 16, targeting several oil-processing units and a gasoline production complex, and the Afipsky refinery was also reportedly targeted on Nov 6, when regional authorities confirmed a fire at an industrial enterprise but did not identify the facility.",
+   "vintage": "Nov 18, 2026",
+   "source": "EuropeSays (citing the Kyiv Independent)",
+   "source_url": "https://www.europesays.com/3382981/"
+  },
+  {
+   "text": "Ukrainian drones struck one of Russia's largest petrochemical complexes in Bashkortostan overnight on Nov 17, triggering a major fire in the industrial city of Salavat, EuropeSays reported. The overnight attacks targeted Salavat and the regional capital Ufa, according to Bashkortostan's emergency situations committee, and Russian authorities said air defences, industrial security teams and mobile fire groups shot down more than 50 drones. Videos filmed by local residents and reviewed by the independent Russian outlet Astra suggest the strike hit Gazprom Neftekhim Salavat, which operates oil-refining and gas-chemical plants producing gasoline, diesel, jet fuel and fuel oil, and which previously was struck on Oct 8. Residents reported explosions and a blaze in Salavat's industrial zone, with the fire's glow reportedly visible from Sterlitamak, about 17 kilometres away. Russia's Defence Ministry claimed it had intercepted 1,441 Ukrainian fixed-wing drones overnight across 21 regions, occupied Crimea and the Black Sea and Sea of Azov, a figure that, if confirmed, would be a record; Russian authorities had not officially confirmed damage at the Salavat complex in the report.",
+   "vintage": "Nov 17, 2026",
+   "source": "EuropeSays",
+   "source_url": "https://www.europesays.com/ukraine/72747/"
   },
   {
    "text": "Ukraine hit the road and rail bridge connecting Crimea to Russia's Krasnodar region and targeted oil refineries overnight into Monday, Nov 16, in what Russian defence ministry data showed was the biggest overnight drone attack on Russia since the start of the full-scale war in 2022, Reuters reported. Russia said its air defences brought down 1,336 Ukrainian drones across 16 regions, surpassing the 1,254 registered as shot down on Oct 29, and Moscow Mayor Sergei Sobyanin said about 600 drones had been launched at the Moscow region since Sunday evening, 191 of them brought down. The Russian-backed governor of Crimea, Sergei Aksyonov, said the Kerch Strait bridge was struck overnight; the Kremlin called the damage minor, road traffic was temporarily suspended while repairs were undertaken, and rail traffic continued as normal, the transport ministry said. In the Krasnodar region, local officials said a fire broke out at an unnamed industrial facility in Ilsky, home to an oil refinery, and that falling drone debris injured six people, including children. Rostov region governor Yuri Slyusar said fires broke out at four industrial sites in Azov after the attack. The extent of any halt to processing at Ilsky had not been confirmed in the reporting here.",
@@ -1022,6 +1040,21 @@
    "publisher": "Associated Press (via AAP)",
    "vintage": "",
    "url": "https://aapnews.aap.com.au/news/ukraine-claims-major-cut-to-russia-s-refining-capacity"
+  },
+  {
+   "publisher": "EuropeSays (citing The Moscow Times)",
+   "vintage": "",
+   "url": "https://www.europesays.com/russia/91201/"
+  },
+  {
+   "publisher": "EuropeSays (citing the Kyiv Independent)",
+   "vintage": "",
+   "url": "https://www.europesays.com/3382981/"
+  },
+  {
+   "publisher": "EuropeSays",
+   "vintage": "",
+   "url": "https://www.europesays.com/ukraine/72747/"
   },
   {
    "publisher": "Reuters (via 93.5 The Lloyd)",

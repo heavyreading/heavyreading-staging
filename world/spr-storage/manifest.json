@@ -2,9 +2,15 @@
  "page": "/world/spr-storage/",
  "title": "US SPR & Storage Watch",
  "dek": "US Strategic Petroleum Reserve (SPR) and commercial crude stocks, SPR inventory, the 2026 exchange/refill mechanics, and Cushing.",
- "built_at": "2026-11-18",
+ "built_at": "2026-11-19",
  "generator": "heavyreading-manifest/1",
  "claims": [
+  {
+   "text": "Status check on Nov 18: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE search checked directly on Nov 18 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels. The SPR exchange solicitation page on energy.gov was also checked directly on Nov 18 and showed no new exchange document. The next Energy Information Administration Weekly Petroleum Status Report, for the week ending Nov 13, is due later on Wednesday, Nov 18, at 10:30 a.m. Eastern Time, so the last official SPR inventory figure at the time of this check remains 279.5 million barrels in the week ending Nov 6, alongside the 276.4 million barrel Department of Energy figure reported by Reuters on Nov 17.",
+   "vintage": "Nov 18, 2026",
+   "source": "U.S. Department of Energy",
+   "source_url": "https://www.energy.gov/search?keywords=Petroleum%20Reserves"
+  },
   {
    "text": "Status check on Nov 17: no new Department of Energy (DOE) Strategic Petroleum Reserve (SPR) award, exchange or solicitation announcement had been published on energy.gov as of this check. The DOE search checked directly on Nov 17 lists the newest SPR press release as the Oct 29 contract awards for an exchange of more than 40 million barrels, which completed the US commitment to release 172 million barrels, with crude to be supplied from the Big Hill and Bryan Mound storage sites and more than 216 million barrels, including 44 million premium barrels, secured to return beginning early next year. The newest reserves press release after that remains the Nov 3 Northeast Home Heating Oil Reserve award listed separately in this section, and the only newer reserves item is a Nov 9 update to the SPR Quick Facts page, not an award or solicitation. No new Energy Information Administration weekly SPR inventory figure has been published since the Nov 12 release, which put the reserve at 279.5 million barrels in the week ending Nov 6, 2026; the next Weekly Petroleum Status Report, for the week ending Nov 13, is due Nov 18. A Department of Energy inventory figure reported by Reuters on Nov 17 put the reserve at 276.4 million barrels last week, the lowest since August 1982; that figure is reported in the inventory section of this page.",
    "vintage": "Nov 17, 2026",
@@ -286,6 +292,12 @@
    "vintage": "Reported Sep 11, 2026; accessed 2026-09-28",
    "source": "Reuters (via Permian Basin Oil and Gas Magazine); US Department of Energy (energy.gov)",
    "source_url": "https://pboilandgasmagazine.com/oil-in-strategic-petroleum-reserve-falls-to-lowest-level-in-more-than-40-years/"
+  },
+  {
+   "text": "US crude stocks rose by 5.28 million barrels in the week ended Nov 13, market sources said on Tuesday, Nov 17, citing American Petroleum Institute (API) data, Reuters reported on Nov 18. Gasoline stocks rose by 5.12 million barrels and distillate inventories rose by 351,000 barrels. The official Energy Information Administration (EIA) Weekly Petroleum Status Report for the same week is due on Wednesday, Nov 18, at 10:30 a.m. Eastern Time and had not been published at the time of the morning check, so the last official EIA figures remain those for the week ending Nov 6, when commercial crude stocks rose by 4.7 million barrels to 414.4 million barrels.",
+   "vintage": "Nov 18, 2026",
+   "source": "Reuters (via 93.5 The Lloyd)",
+   "source_url": "https://935thelloyd.com/2026/11/17/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks/"
   },
   {
    "text": "A third 90-day extension of the Jones Act waiver for fuel shipments between US ports took effect at 12:00 a.m. Eastern Time on Monday, Nov 16, with no gap after the previous waiver expired late on Nov 15, Bloomberg reported via gCaptain. President Donald Trump extended the waiver on Nov 13, a White House official told Bloomberg and Reuters, without changing the breadth of the relief: foreign-flagged ships may keep carrying covered products, including gasoline, jet fuel, crude oil, naphtha, liquefied natural gas, soy oil and fertilizers, between US ports, and the case-by-case review introduced in August, under which the Maritime Administration is consulted on US-flagged vessel availability before the waiver is applied to an individual voyage, stays in place. An additional 90 million barrels of products, mostly refined fuels, have been shipped between US ports since the waiver was first issued in March, with gasoline, crude oil and renewable fuel the biggest beneficiaries, the official said; government data analysed by the Cato Institute counted 338 voyages on foreign vessels under the waivers since March. US Customs and Border Protection guidance puts the new loading deadline for covered cargo at Feb 14, 2027.",
@@ -761,6 +773,11 @@
    "publisher": "Reuters (via Permian Basin Oil and Gas Magazine); US Department of Energy (energy.gov)",
    "vintage": "",
    "url": "https://pboilandgasmagazine.com/oil-in-strategic-petroleum-reserve-falls-to-lowest-level-in-more-than-40-years/"
+  },
+  {
+   "publisher": "Reuters (via 93.5 The Lloyd)",
+   "vintage": "",
+   "url": "https://935thelloyd.com/2026/11/17/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks/"
   },
   {
    "publisher": "Bloomberg (via gCaptain)",

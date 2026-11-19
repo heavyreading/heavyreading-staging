@@ -1,7 +1,7 @@
 {
- "vintage": "Sat Watch: geostationary hotspot polls \u2014 Meteosat IODC (EUMETView public WMS, 15-min frames) on the Gulf board, GOES-West (NASA GIBS) on the Canadian board; styled-render palette-gray step detection + NASA FIRMS rechecks, built 2026-11-17T14:48:36.771995Z",
+ "vintage": "Sat Watch: geostationary hotspot polls \u2014 Meteosat IODC (EUMETView public WMS, 15-min frames) on the Gulf board, GOES-West (NASA GIBS) on the Canadian board; styled-render palette-gray step detection + NASA FIRMS rechecks, built 2026-11-19T07:03:36.796940Z",
  "data": {
-  "updated_at": "2026-11-17T14:33:36.987770Z",
+  "updated_at": "2026-11-19T06:48:36.742861Z",
   "assets": [
    {
     "key": "yanbu",
@@ -13,34 +13,34 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:15:00Z",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 85.0,
-     "baseline_diff_med": 104.0,
-     "delta_vs_baseline": -19.0,
+     "diff_p995": 100.0,
+     "baseline_diff_med": 98.0,
+     "delta_vs_baseline": 2.0,
      "fire_px": 0,
-     "baseline_samples": 25
+     "baseline_samples": 24
     },
     "baseline": {
-     "looks_total": 1890,
-     "looks_clear": 1736,
+     "looks_total": 1996,
+     "looks_clear": 1824,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 258.3
+     "maturity_pct": 271.4
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T11:36:00Z",
+     "last_pass_utc": "2026-11-18T23:43:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:21:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-17T15:16:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-19T08:17:30Z (\u00b11.4 h, region-cluster cadence 2.9 h)",
+      "~2026-11-19T11:09:00Z (\u00b11.4 h, region-cluster cadence 2.9 h)"
      ],
      "looks_per_day": 8.5
     },
     "firms_archive": {
-     "rows": 615,
+     "rows": 610,
      "first_day": "2026-04-01",
-     "last_day": "2026-11-17",
+     "last_day": "2026-11-18",
      "key_used": true
     },
     "thermal_presence": {
@@ -64,34 +64,34 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:15:00Z",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 55.0,
-     "baseline_diff_med": 55.0,
+     "diff_p995": 83.0,
+     "baseline_diff_med": 83.0,
      "delta_vs_baseline": 0.0,
      "fire_px": 0,
-     "baseline_samples": 33
+     "baseline_samples": 37
     },
     "baseline": {
-     "looks_total": 1917,
-     "looks_clear": 1421,
+     "looks_total": 2023,
+     "looks_clear": 1520,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 211.5
+     "maturity_pct": 226.2
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T11:36:00Z",
+     "last_pass_utc": "2026-11-18T22:58:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:21:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-17T15:16:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-19T04:04:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
+      "~2026-11-19T04:55:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
      ],
-     "looks_per_day": 11.5
+     "looks_per_day": 12.5
     },
     "firms_archive": {
-     "rows": 11885,
+     "rows": 11989,
      "first_day": "2026-04-01",
-     "last_day": "2026-11-17",
+     "last_day": "2026-11-18",
      "key_used": true
     },
     "thermal_presence": {
@@ -115,34 +115,34 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:15:00Z",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 10.0,
-     "baseline_diff_med": 10.0,
+     "diff_p995": 106.0,
+     "baseline_diff_med": 106.0,
      "delta_vs_baseline": 0.0,
      "fire_px": 0,
-     "baseline_samples": 34
+     "baseline_samples": 36
     },
     "baseline": {
-     "looks_total": 1910,
-     "looks_clear": 1607,
+     "looks_total": 2016,
+     "looks_clear": 1703,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 239.1
+     "maturity_pct": 253.4
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:51:00Z",
+     "last_pass_utc": "2026-11-18T22:58:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:49:00Z (\u00b10.8 h, region-cluster cadence 1.0 h)",
-      "~2026-11-17T15:48:30Z (\u00b10.8 h, region-cluster cadence 1.0 h)"
+      "~2026-11-19T03:48:00Z (\u00b10.8 h, region-cluster cadence 1.0 h)",
+      "~2026-11-19T04:46:00Z (\u00b10.8 h, region-cluster cadence 1.0 h)"
      ],
-     "looks_per_day": 9.0
+     "looks_per_day": 10.0
     },
     "firms_archive": {
-     "rows": 1592,
+     "rows": 1584,
      "first_day": "2026-04-01",
-     "last_day": "2026-11-17",
+     "last_day": "2026-11-18",
      "key_used": true
     },
     "thermal_presence": {
@@ -166,34 +166,34 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:15:00Z",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 7.0,
-     "baseline_diff_med": 7.0,
-     "delta_vs_baseline": 0.0,
+     "diff_p995": 104.0,
+     "baseline_diff_med": 107.0,
+     "delta_vs_baseline": -3.0,
      "fire_px": 0,
-     "baseline_samples": 35
+     "baseline_samples": 32
     },
     "baseline": {
-     "looks_total": 1927,
-     "looks_clear": 1422,
+     "looks_total": 2032,
+     "looks_clear": 1476,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 211.6
+     "maturity_pct": 219.6
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:51:00Z",
+     "last_pass_utc": "2026-11-18T22:58:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:39:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-17T15:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-19T03:45:30Z (\u00b10.8 h, region-cluster cadence 1.0 h)",
+      "~2026-11-19T04:43:00Z (\u00b10.8 h, region-cluster cadence 1.0 h)"
      ],
-     "looks_per_day": 9.0
+     "looks_per_day": 10.0
     },
     "firms_archive": {
-     "rows": 546,
+     "rows": 553,
      "first_day": "2026-04-01",
-     "last_day": "2026-11-17",
+     "last_day": "2026-11-18",
      "key_used": true
     },
     "thermal_presence": {
@@ -215,36 +215,36 @@
     "region": "gulf",
     "geo_source": "Meteosat IODC (EUMETView)",
     "direction": "up",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:15:00Z",
+    "status": "BLIND_CLOUD",
+    "status_reason": "cloud fraction 0.70 >= 0.6 \u2014 IR blind this frame",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 9.0,
-     "baseline_diff_med": 11.0,
-     "delta_vs_baseline": -2.0,
+     "diff_p995": 99.0,
+     "baseline_diff_med": 106.0,
+     "delta_vs_baseline": null,
      "fire_px": 0,
-     "baseline_samples": 33
+     "baseline_samples": 26
     },
     "baseline": {
-     "looks_total": 1939,
-     "looks_clear": 1645,
+     "looks_total": 2044,
+     "looks_clear": 1719,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 244.8
+     "maturity_pct": 255.8
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:51:00Z",
+     "last_pass_utc": "2026-11-18T22:58:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:39:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-17T15:36:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-19T03:45:30Z (\u00b10.8 h, region-cluster cadence 1.0 h)",
+      "~2026-11-19T04:43:00Z (\u00b10.8 h, region-cluster cadence 1.0 h)"
      ],
-     "looks_per_day": 8.5
+     "looks_per_day": 10.0
     },
     "firms_archive": {
-     "rows": 161,
+     "rows": 167,
      "first_day": "2026-04-01",
-     "last_day": "2026-11-17",
+     "last_day": "2026-11-18",
      "key_used": true
     },
     "thermal_presence": {
@@ -266,36 +266,36 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:10:00Z",
+    "status": "ANOMALY",
+    "status_reason": "abnormal QUIET: thermal level 50 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 161.0,
-     "baseline_diff_med": 175.0,
-     "delta_vs_baseline": -14.0,
+     "diff_p995": 197.0,
+     "baseline_diff_med": 193.5,
+     "delta_vs_baseline": 3.5,
      "fire_px": 0,
      "baseline_samples": 36
     },
     "baseline": {
-     "looks_total": 1494,
-     "looks_clear": 1494,
+     "looks_total": 1617,
+     "looks_clear": 1617,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 222.3
+     "maturity_pct": 240.6
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:21:00Z",
+     "last_pass_utc": "2026-11-18T23:28:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:36:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
-      "~2026-11-17T15:27:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
+      "~2026-11-19T04:15:30Z (\u00b10.8 h, region-cluster cadence 1.0 h)",
+      "~2026-11-19T05:13:00Z (\u00b10.8 h, region-cluster cadence 1.0 h)"
      ],
-     "looks_per_day": 13.0
+     "looks_per_day": 15.5
     },
     "firms_archive": {
-     "rows": 423,
+     "rows": 426,
      "first_day": "2026-01-15",
-     "last_day": "2026-10-16",
+     "last_day": "2026-11-18",
      "key_used": true
     },
     "thermal_presence": {
@@ -381,36 +381,36 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:10:00Z",
+    "status": "ANOMALY",
+    "status_reason": "abnormal QUIET: thermal level 56 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 161.0,
-     "baseline_diff_med": 176.0,
-     "delta_vs_baseline": -15.0,
+     "diff_p995": 197.0,
+     "baseline_diff_med": 194.0,
+     "delta_vs_baseline": 3.0,
      "fire_px": 0,
-     "baseline_samples": 36
+     "baseline_samples": 37
     },
     "baseline": {
-     "looks_total": 1481,
-     "looks_clear": 1481,
+     "looks_total": 1604,
+     "looks_clear": 1604,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 220.4
+     "maturity_pct": 238.7
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:21:00Z",
+     "last_pass_utc": "2026-11-19T03:00:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:31:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
-      "~2026-11-17T15:21:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
+      "~2026-11-19T06:50:00Z (\u00b10.8 h, region-cluster cadence 1.0 h)",
+      "~2026-11-19T07:47:30Z (\u00b10.8 h, region-cluster cadence 1.0 h)"
      ],
-     "looks_per_day": 13.0
+     "looks_per_day": 15.5
     },
     "firms_archive": {
-     "rows": 587,
+     "rows": 590,
      "first_day": "2026-01-15",
-     "last_day": "2026-11-17",
+     "last_day": "2026-11-18",
      "key_used": true
     },
     "thermal_presence": {
@@ -463,19 +463,7 @@
        ]
       }
      ],
-     "provisional": {
-      "day": "2026-11-17",
-      "state": "DOWN",
-      "zone": "FLOOR",
-      "heat_sum_frp": 24.25,
-      "n_detections": 7,
-      "passes": [
-       "2026-11-17T08:41:00Z",
-       "2026-11-17T09:41:00Z",
-       "2026-11-17T10:21:00Z"
-      ],
-      "basis": "partial day \u2014 provisional until the UTC day closes"
-     },
+     "provisional": null,
      "snr": "winter: cold ground against a hot plant \u2014 the best thermal contrast of the year",
      "actual_basis": "actual start/end timestamps are sensor-estimated from thermal transitions"
     }
@@ -490,29 +478,29 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:10:00Z",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 162.0,
-     "baseline_diff_med": 175.5,
-     "delta_vs_baseline": -13.5,
+     "diff_p995": 197.0,
+     "baseline_diff_med": 175.0,
+     "delta_vs_baseline": 22.0,
      "fire_px": 0,
-     "baseline_samples": 36
+     "baseline_samples": 37
     },
     "baseline": {
-     "looks_total": 1478,
-     "looks_clear": 1478,
+     "looks_total": 1602,
+     "looks_clear": 1602,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 219.9
+     "maturity_pct": 238.4
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:21:00Z",
+     "last_pass_utc": "2026-11-18T21:33:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:36:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
-      "~2026-11-17T15:27:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
+      "~2026-11-19T03:23:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
+      "~2026-11-19T04:13:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
      ],
-     "looks_per_day": 13.0
+     "looks_per_day": 15.5
     },
     "firms_archive": {
      "rows": 40,
@@ -569,29 +557,29 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:10:00Z",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 194.0,
-     "baseline_diff_med": 184.5,
-     "delta_vs_baseline": 9.5,
+     "diff_p995": 197.0,
+     "baseline_diff_med": 188.0,
+     "delta_vs_baseline": 9.0,
      "fire_px": 0,
      "baseline_samples": 36
     },
     "baseline": {
-     "looks_total": 1490,
-     "looks_clear": 1490,
+     "looks_total": 1612,
+     "looks_clear": 1612,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 221.7
+     "maturity_pct": 239.9
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:21:00Z",
+     "last_pass_utc": "2026-11-18T21:33:00Z",
      "next_pass_windows": [
-      "~2026-11-17T15:08:30Z (\u00b10.8 h, region-cluster cadence 1.0 h)",
-      "~2026-11-17T16:06:00Z (\u00b10.8 h, region-cluster cadence 1.0 h)"
+      "~2026-11-19T03:23:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
+      "~2026-11-19T04:13:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
      ],
-     "looks_per_day": 12.5
+     "looks_per_day": 15.0
     },
     "firms_archive": {
      "rows": 0,
@@ -630,31 +618,31 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:10:00Z",
+    "status": "ANOMALY",
+    "status_reason": "IR fire-channel differential stepped +78.0 palette-gray levels vs baseline median 119.0",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 194.0,
-     "baseline_diff_med": 194.5,
-     "delta_vs_baseline": -0.5,
+     "diff_p995": 197.0,
+     "baseline_diff_med": 119.0,
+     "delta_vs_baseline": 78.0,
      "fire_px": 0,
      "baseline_samples": 36
     },
     "baseline": {
-     "looks_total": 1487,
-     "looks_clear": 1487,
+     "looks_total": 1609,
+     "looks_clear": 1609,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 221.3
+     "maturity_pct": 239.4
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:21:00Z",
+     "last_pass_utc": "2026-11-19T03:00:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:31:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
-      "~2026-11-17T15:21:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
+      "~2026-11-19T06:46:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-19T07:42:30Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 13.0
+     "looks_per_day": 16.5
     },
     "firms_archive": {
      "rows": 2151,
@@ -700,18 +688,7 @@
      },
      "profile_goes": null,
      "windows": [],
-     "provisional": {
-      "day": "2026-11-17",
-      "state": "DOWN",
-      "zone": "FLOOR",
-      "heat_sum_frp": 2.34,
-      "n_detections": 2,
-      "passes": [
-       "2026-11-17T08:41:00Z",
-       "2026-11-17T09:41:00Z"
-      ],
-      "basis": "partial day \u2014 provisional until the UTC day closes"
-     },
+     "provisional": null,
      "snr": "winter: cold ground against a hot plant \u2014 the best thermal contrast of the year",
      "actual_basis": "actual start/end timestamps are sensor-estimated from thermal transitions"
     }
@@ -724,34 +701,34 @@
     "region": "canada",
     "geo_source": "GOES-West (NASA GIBS)",
     "direction": "both",
-    "status": "NORMAL",
-    "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:10:00Z",
+    "status": "ANOMALY",
+    "status_reason": "IR fire-channel differential stepped +43.3 palette-gray levels vs baseline median 142.7",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 195.0,
-     "baseline_diff_med": 195.5,
-     "delta_vs_baseline": -0.5,
+     "diff_p995": 186.0,
+     "baseline_diff_med": 142.67,
+     "delta_vs_baseline": 43.33,
      "fire_px": 0,
-     "baseline_samples": 36
+     "baseline_samples": 37
     },
     "baseline": {
-     "looks_total": 1480,
-     "looks_clear": 1480,
+     "looks_total": 1603,
+     "looks_clear": 1603,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 220.2
+     "maturity_pct": 238.5
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:21:00Z",
+     "last_pass_utc": "2026-11-18T23:28:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:31:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
-      "~2026-11-17T15:21:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
+      "~2026-11-19T05:56:30Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-19T06:52:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 13.0
+     "looks_per_day": 16.5
     },
     "firms_archive": {
-     "rows": 303,
+     "rows": 304,
      "first_day": "2026-01-15",
      "last_day": "2026-11-17",
      "key_used": true
@@ -766,10 +743,10 @@
      "presence_floor_per_week": 2.0
     },
     "restart": {
-     "state_firms_day": "DOWN",
+     "state_firms_day": "STARTUP_TRANSIENT",
      "state_goes_frame": "PROFILE_LEARNING",
      "down_since": "2026-09-08",
-     "transient_start": null,
+     "transient_start": "2026-11-17",
      "last_signature": {
       "asset_down_since": "2026-07-18",
       "transient_start": "2026-07-29",
@@ -790,19 +767,7 @@
      },
      "profile_goes": null,
      "windows": [],
-     "provisional": {
-      "day": "2026-11-17",
-      "state": "DOWN",
-      "zone": "FLOOR",
-      "heat_sum_frp": 7.22,
-      "n_detections": 8,
-      "passes": [
-       "2026-11-17T08:41:00Z",
-       "2026-11-17T09:41:00Z",
-       "2026-11-17T10:23:00Z"
-      ],
-      "basis": "partial day \u2014 provisional until the UTC day closes"
-     },
+     "provisional": null,
      "snr": "winter: cold ground against a hot plant \u2014 the best thermal contrast of the year",
      "actual_basis": "actual start/end timestamps are sensor-estimated from thermal transitions"
     }
@@ -817,29 +782,29 @@
     "direction": "both",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:10:00Z",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 189.0,
-     "baseline_diff_med": 192.0,
-     "delta_vs_baseline": -3.0,
+     "diff_p995": 193.0,
+     "baseline_diff_med": 197.0,
+     "delta_vs_baseline": -4.0,
      "fire_px": 0,
      "baseline_samples": 36
     },
     "baseline": {
-     "looks_total": 1486,
-     "looks_clear": 1486,
+     "looks_total": 1608,
+     "looks_clear": 1608,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 221.1
+     "maturity_pct": 239.3
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:21:00Z",
+     "last_pass_utc": "2026-11-18T21:31:00Z",
      "next_pass_windows": [
-      "~2026-11-17T14:33:30Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
-      "~2026-11-17T15:24:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
+      "~2026-11-19T03:21:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)",
+      "~2026-11-19T04:11:00Z (\u00b10.8 h, region-cluster cadence 0.8 h)"
      ],
-     "looks_per_day": 13.0
+     "looks_per_day": 16.0
     },
     "firms_archive": {
      "rows": 43,
@@ -880,29 +845,29 @@
     "direction": "up",
     "status": "NORMAL",
     "status_reason": "no step change",
-    "last_check_utc": "2026-11-17T14:33:36.987770Z",
-    "last_frame_utc": "2026-11-17T14:10:00Z",
+    "last_check_utc": "2026-11-19T06:48:36.742861Z",
+    "last_frame_utc": "2026-11-19T06:30:00Z",
     "thermal": {
-     "diff_p995": 171.0,
-     "baseline_diff_med": 185.0,
-     "delta_vs_baseline": -14.0,
+     "diff_p995": 136.03,
+     "baseline_diff_med": 157.0,
+     "delta_vs_baseline": -20.97,
      "fire_px": 0,
      "baseline_samples": 36
     },
     "baseline": {
-     "looks_total": 1506,
-     "looks_clear": 1506,
+     "looks_total": 1628,
+     "looks_clear": 1628,
      "mature": true,
      "mature_looks": 672,
-     "maturity_pct": 224.1
+     "maturity_pct": 242.3
     },
     "firms": {
-     "last_pass_utc": "2026-11-17T10:21:00Z",
+     "last_pass_utc": "2026-11-18T23:26:00Z",
      "next_pass_windows": [
-      "~2026-11-17T15:06:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
-      "~2026-11-17T16:03:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
+      "~2026-11-19T06:01:30Z (\u00b10.8 h, region-cluster cadence 0.9 h)",
+      "~2026-11-19T06:58:00Z (\u00b10.8 h, region-cluster cadence 0.9 h)"
      ],
-     "looks_per_day": 10.5
+     "looks_per_day": 14.0
     },
     "firms_archive": {
      "rows": 27,
@@ -924,409 +889,409 @@
   ],
   "event_log": [
    {
-    "ts": "2026-11-17T14:20:20.799630Z",
-    "kind": "RESOLUTION",
-    "detail": "claim claim-20261117T061836-sensor-syncrude resolved FALSE by FIRMS (syncrude)",
-    "asset": "syncrude",
-    "claim_id": "claim-20261117T061836-sensor-syncrude"
-   },
-   {
-    "ts": "2026-11-17T14:19:58.290764Z",
+    "ts": "2026-11-19T07:04:39.848178Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +35.0 palette-gray levels vs baseline median 19.0",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T14:19:58.290304Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +44.0 palette-gray levels vs baseline median 57.0",
-    "asset": "east-west",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T14:04:45.667939Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +48.0 palette-gray levels vs baseline median 15.0",
-    "asset": "kharg",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T14:04:45.667855Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +59.0 palette-gray levels vs baseline median 19.0",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T14:04:45.667417Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +49.0 palette-gray levels vs baseline median 57.0",
-    "asset": "east-west",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T13:49:38.344803Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +46.0 palette-gray levels vs baseline median 11.0",
-    "asset": "hormuz",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T13:49:38.344711Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +70.0 palette-gray levels vs baseline median 15.0",
-    "asset": "kharg",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T13:49:38.344528Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +72.0 palette-gray levels vs baseline median 28.0",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T13:49:38.343979Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +41.5 palette-gray levels vs baseline median 60.5",
-    "asset": "east-west",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T13:34:36.186007Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +69.0 palette-gray levels vs baseline median 11.0",
-    "asset": "hormuz",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T13:34:36.185892Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +66.0 palette-gray levels vs baseline median 39.0",
-    "asset": "kharg",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T13:34:36.185167Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +53.0 palette-gray levels vs baseline median 54.0",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T13:34:36.184810Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +35.0 palette-gray levels vs baseline median 64.0",
-    "asset": "east-west",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T13:19:33.661560Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 29 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "detail": "IR fire-channel differential stepped +43.3 palette-gray levels vs baseline median 142.7",
     "asset": "strathcona",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T13:19:33.661426Z",
+    "ts": "2026-11-19T07:04:39.848084Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +90.0 palette-gray levels vs baseline median 12.0",
-    "asset": "hormuz",
+    "detail": "IR fire-channel differential stepped +78.0 palette-gray levels vs baseline median 119.0",
+    "asset": "scotford",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T13:19:33.661172Z",
+    "ts": "2026-11-19T07:04:39.847805Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +69.0 palette-gray levels vs baseline median 39.0",
-    "asset": "kharg",
+    "detail": "abnormal QUIET: thermal level 56 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "suncor",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T13:19:33.660733Z",
+    "ts": "2026-11-19T07:04:39.847373Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +33.0 palette-gray levels vs baseline median 64.0",
-    "asset": "east-west",
+    "detail": "abnormal QUIET: thermal level 50 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "syncrude",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T13:04:32.292742Z",
+    "ts": "2026-11-19T06:49:54.649928Z",
+    "kind": "RESOLUTION",
+    "detail": "claim claim-20261119T013336-sensor-suncor resolved FALSE by FIRMS (suncor)",
+    "asset": "suncor",
+    "claim_id": "claim-20261119T013336-sensor-suncor"
+   },
+   {
+    "ts": "2026-11-19T06:49:38.190264Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +41.3 palette-gray levels vs baseline median 142.7",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T06:49:38.190184Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +77.0 palette-gray levels vs baseline median 119.0",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T06:49:38.190090Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "abnormal QUIET: thermal level 42 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T06:49:38.189616Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "abnormal QUIET: thermal level 39 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "syncrude",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T06:34:38.778229Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +43.8 palette-gray levels vs baseline median 143.2",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T06:34:38.777827Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +79.5 palette-gray levels vs baseline median 117.5",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T06:34:38.777812Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "suncor",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T06:34:38.777787Z",
+    "kind": "DEVIATION",
+    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
+    "asset": "syncrude",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T06:19:28.854789Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +36.3 palette-gray levels vs baseline median 143.7",
     "asset": "strathcona",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T13:04:32.292151Z",
+    "ts": "2026-11-19T06:19:28.853472Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +31.0 palette-gray levels vs baseline median 64.0",
-    "asset": "east-west",
+    "detail": "IR fire-channel differential stepped +79.0 palette-gray levels vs baseline median 116.0",
+    "asset": "scotford",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T11:49:58.023888Z",
+    "ts": "2026-11-19T06:04:51.120996Z",
     "kind": "RESOLUTION",
-    "detail": "claim claim-20261117T063336-sensor-suncor resolved FALSE by FIRMS (suncor)",
-    "asset": "suncor",
-    "claim_id": "claim-20261117T063336-sensor-suncor"
+    "detail": "claim claim-20261119T024836-sensor-scotford resolved FALSE by FIRMS (scotford)",
+    "asset": "scotford",
+    "claim_id": "claim-20261119T024836-sensor-scotford"
    },
    {
-    "ts": "2026-11-17T09:48:43.221541Z",
-    "kind": "POLL_BLIND",
-    "detail": "EUMETView capabilities unreachable: IncompleteRead",
-    "asset": null,
+    "ts": "2026-11-19T06:04:30.583502Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +31.3 palette-gray levels vs baseline median 143.7",
+    "asset": "strathcona",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T09:33:39.247406Z",
-    "kind": "POLL_BLIND",
-    "detail": "EUMETView capabilities unreachable: IncompleteRead",
-    "asset": null,
+    "ts": "2026-11-19T06:04:30.583052Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +81.0 palette-gray levels vs baseline median 116.0",
+    "asset": "scotford",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T09:19:49.656036Z",
-    "kind": "RESOLUTION",
-    "detail": "claim claim-20261117T040337-sensor-east-west resolved FALSE by FIRMS (east-west)",
-    "asset": "east-west",
-    "claim_id": "claim-20261117T040337-sensor-east-west"
+    "ts": "2026-11-19T05:49:27.688294Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +37.3 palette-gray levels vs baseline median 143.7",
+    "asset": "strathcona",
+    "claim_id": null
    },
    {
-    "ts": "2026-11-17T09:05:12.125111Z",
-    "kind": "RESOLUTION",
-    "detail": "claim claim-20261117T034837-sensor-kharg resolved FALSE by FIRMS (kharg)",
-    "asset": "kharg",
-    "claim_id": "claim-20261117T034837-sensor-kharg"
+    "ts": "2026-11-19T05:49:27.688207Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +80.0 palette-gray levels vs baseline median 116.0",
+    "asset": "scotford",
+    "claim_id": null
    },
    {
-    "ts": "2026-11-17T09:05:12.119633Z",
-    "kind": "RESOLUTION",
-    "detail": "claim claim-20261117T034837-sensor-ras-tanura resolved FALSE by FIRMS (ras-tanura)",
-    "asset": "ras-tanura",
-    "claim_id": "claim-20261117T034837-sensor-ras-tanura"
+    "ts": "2026-11-19T05:49:27.687864Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +31.0 palette-gray levels vs baseline median 66.0",
+    "asset": "yanbu",
+    "claim_id": null
    },
    {
-    "ts": "2026-11-17T08:34:51.756185Z",
-    "kind": "RESOLUTION",
-    "detail": "claim claim-20261117T031837-sensor-hormuz resolved FALSE by FIRMS (hormuz)",
-    "asset": "hormuz",
-    "claim_id": "claim-20261117T031837-sensor-hormuz"
+    "ts": "2026-11-19T05:34:33.496891Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +44.0 palette-gray levels vs baseline median 144.0",
+    "asset": "strathcona",
+    "claim_id": null
    },
    {
-    "ts": "2026-11-17T07:04:43.665275Z",
+    "ts": "2026-11-19T05:34:33.496804Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +79.0 palette-gray levels vs baseline median 116.0",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T05:34:33.496396Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +46.5 palette-gray levels vs baseline median 53.5",
+    "asset": "yanbu",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T05:19:40.178740Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +51.7 palette-gray levels vs baseline median 144.3",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T05:19:40.178372Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +79.5 palette-gray levels vs baseline median 117.5",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T05:19:40.177175Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +46.5 palette-gray levels vs baseline median 53.5",
+    "asset": "yanbu",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T05:04:29.749891Z",
     "kind": "DEVIATION",
     "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
     "asset": "lloydminster",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T06:49:44.068213Z",
+    "ts": "2026-11-19T05:04:29.749824Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 39 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "suncor",
+    "detail": "IR fire-channel differential stepped +52.3 palette-gray levels vs baseline median 144.7",
+    "asset": "strathcona",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T06:34:40.472603Z",
+    "ts": "2026-11-19T05:04:29.749704Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 52 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "suncor",
+    "detail": "IR fire-channel differential stepped +78.0 palette-gray levels vs baseline median 119.0",
+    "asset": "scotford",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T06:34:40.472218Z",
+    "ts": "2026-11-19T05:04:29.749280Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 38 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "detail": "IR fire-channel differential stepped +74.0 palette-gray levels vs baseline median 30.0",
+    "asset": "yanbu",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:49:32.706876Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +38.0 palette-gray levels vs baseline median 157.0",
+    "asset": "westridge",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:49:32.706812Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +52.3 palette-gray levels vs baseline median 144.7",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:49:32.706724Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +78.0 palette-gray levels vs baseline median 119.0",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:49:32.706280Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +54.0 palette-gray levels vs baseline median 12.0",
+    "asset": "yanbu",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:34:36.537994Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +39.0 palette-gray levels vs baseline median 157.0",
+    "asset": "westridge",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:34:36.537929Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +51.3 palette-gray levels vs baseline median 144.7",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:34:36.537810Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +76.7 palette-gray levels vs baseline median 119.0; abnormal QUIET: thermal level 34 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:34:36.536581Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +54.0 palette-gray levels vs baseline median 12.0",
+    "asset": "yanbu",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:19:30.625805Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +37.3 palette-gray levels vs baseline median 157.0",
+    "asset": "westridge",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:19:30.625726Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +51.3 palette-gray levels vs baseline median 144.7",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:19:30.625322Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "abnormal QUIET: thermal level 44 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:04:25.583432Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +35.3 palette-gray levels vs baseline median 157.0",
+    "asset": "westridge",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:04:25.583355Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "IR fire-channel differential stepped +51.3 palette-gray levels vs baseline median 144.7",
+    "asset": "strathcona",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T04:04:25.582972Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "abnormal QUIET: thermal level 45 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T03:49:26.455517Z",
+    "kind": "SENSOR_ANOMALY",
+    "detail": "abnormal QUIET: thermal level 44 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "scotford",
+    "claim_id": null
+   },
+   {
+    "ts": "2026-11-19T03:34:57.976687Z",
+    "kind": "RESOLUTION",
+    "detail": "claim claim-20261118T221836-sensor-syncrude resolved FALSE by FIRMS (syncrude)",
     "asset": "syncrude",
-    "claim_id": null
+    "claim_id": "claim-20261118T221836-sensor-syncrude"
    },
    {
-    "ts": "2026-11-17T06:19:50.694247Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "suncor",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T06:19:50.693654Z",
+    "ts": "2026-11-19T03:34:35.363323Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "abnormal QUIET: thermal level 38 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
-    "asset": "syncrude",
+    "detail": "IR fire-channel differential stepped +48.3 palette-gray levels vs baseline median 144.7; abnormal QUIET: thermal level 26 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "strathcona",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T06:04:48.843516Z",
-    "kind": "DEVIATION",
-    "detail": "sub-threshold deviation (logged, not alerted): sub-threshold deviation logged (baseline immature or single-frame); not alerted",
-    "asset": "syncrude",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T06:04:48.843116Z",
+    "ts": "2026-11-19T03:34:35.362824Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +32.0 palette-gray levels vs baseline median 72.0",
-    "asset": "yanbu",
+    "detail": "abnormal QUIET: thermal level 44 palette-gray below baseline median for two consecutive frames (plant signature gone, not just a flare spike)",
+    "asset": "scotford",
     "claim_id": null
    },
    {
-    "ts": "2026-11-17T05:49:42.277402Z",
+    "ts": "2026-11-19T03:19:24.211488Z",
     "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +43.0 palette-gray levels vs baseline median 49.0",
-    "asset": "east-west",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:49:42.277048Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +80.5 palette-gray levels vs baseline median 23.5",
-    "asset": "yanbu",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:34:50.617059Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +43.0 palette-gray levels vs baseline median 49.0",
-    "asset": "east-west",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:34:50.616722Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +80.5 palette-gray levels vs baseline median 23.5",
-    "asset": "yanbu",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:19:54.759498Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +47.0 palette-gray levels vs baseline median 60.0",
-    "asset": "kharg",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:19:54.759428Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +38.0 palette-gray levels vs baseline median 67.0",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:19:54.759232Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +74.0 palette-gray levels vs baseline median 23.0",
-    "asset": "east-west",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:19:54.758495Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +94.0 palette-gray levels vs baseline median 10.0",
-    "asset": "yanbu",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:04:46.970330Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +68.0 palette-gray levels vs baseline median 39.0",
-    "asset": "kharg",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:04:46.970218Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +51.0 palette-gray levels vs baseline median 55.0",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:04:46.970151Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +92.0 palette-gray levels vs baseline median 8.0",
-    "asset": "east-west",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T05:04:46.969867Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +95.0 palette-gray levels vs baseline median 9.0",
-    "asset": "yanbu",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T04:49:41.903421Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +82.0 palette-gray levels vs baseline median 25.0",
-    "asset": "kharg",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T04:49:41.903366Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +63.0 palette-gray levels vs baseline median 42.0",
-    "asset": "ras-tanura",
-    "claim_id": null
-   },
-   {
-    "ts": "2026-11-17T04:49:41.903255Z",
-    "kind": "SENSOR_ANOMALY",
-    "detail": "IR fire-channel differential stepped +95.5 palette-gray levels vs baseline median 7.5",
-    "asset": "east-west",
+    "detail": "IR fire-channel differential stepped +38.0 palette-gray levels vs baseline median 157.0",
+    "asset": "westridge",
     "claim_id": null
    }
   ],
   "claims_open": [
    {
-    "id": "claim-20261117T041837-sensor-yanbu",
-    "assets": [
-     "yanbu"
-    ],
-    "opened_utc": "2026-11-17T04:18:37.512831Z",
-    "kind": "HEAT",
-    "window_utc": null
-   },
-   {
-    "id": "claim-20261117T130336-sensor-east-west",
-    "assets": [
-     "east-west"
-    ],
-    "opened_utc": "2026-11-17T13:03:36.743214Z",
-    "kind": "HEAT",
-    "window_utc": null
-   },
-   {
-    "id": "claim-20261117T131836-sensor-kharg",
-    "assets": [
-     "kharg"
-    ],
-    "opened_utc": "2026-11-17T13:18:36.670686Z",
-    "kind": "HEAT",
-    "window_utc": "2026-11-17T13:18:36.670686Z"
-   },
-   {
-    "id": "claim-20261117T131836-sensor-hormuz",
-    "assets": [
-     "hormuz"
-    ],
-    "opened_utc": "2026-11-17T13:18:36.670686Z",
-    "kind": "HEAT",
-    "window_utc": "2026-11-17T13:18:36.670686Z"
-   },
-   {
-    "id": "claim-20261117T131836-sensor-strathcona",
+    "id": "claim-20261119T023336-sensor-strathcona",
     "assets": [
      "strathcona"
     ],
-    "opened_utc": "2026-11-17T13:18:36.670686Z",
+    "opened_utc": "2026-11-19T02:33:36.738995Z",
     "kind": "QUIET",
-    "window_utc": "2026-11-17T13:18:36.670686Z"
+    "window_utc": "2026-11-19T02:33:36.738995Z"
    },
    {
-    "id": "claim-20261117T133336-sensor-ras-tanura",
+    "id": "claim-20261119T023336-sensor-westridge",
     "assets": [
-     "ras-tanura"
+     "westridge"
     ],
-    "opened_utc": "2026-11-17T13:33:36.796735Z",
+    "opened_utc": "2026-11-19T02:33:36.738995Z",
     "kind": "HEAT",
+    "window_utc": "2026-11-19T02:33:36.738995Z"
+   },
+   {
+    "id": "claim-20261119T043336-sensor-yanbu",
+    "assets": [
+     "yanbu"
+    ],
+    "opened_utc": "2026-11-19T04:33:36.581717Z",
+    "kind": "HEAT",
+    "window_utc": null
+   },
+   {
+    "id": "claim-20261119T061836-sensor-scotford",
+    "assets": [
+     "scotford"
+    ],
+    "opened_utc": "2026-11-19T06:18:36.672847Z",
+    "kind": "HEAT",
+    "window_utc": null
+   },
+   {
+    "id": "claim-20261119T064836-sensor-syncrude",
+    "assets": [
+     "syncrude"
+    ],
+    "opened_utc": "2026-11-19T06:48:36.742861Z",
+    "kind": "QUIET",
+    "window_utc": null
+   },
+   {
+    "id": "claim-20261119T070336-sensor-suncor",
+    "assets": [
+     "suncor"
+    ],
+    "opened_utc": "2026-11-19T07:03:36.796940Z",
+    "kind": "QUIET",
     "window_utc": null
    }
   ]
