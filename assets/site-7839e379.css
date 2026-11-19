@@ -1,69 +1,85 @@
 :root {
-  --paper:#ffffff; --ink:#191b1e; --mut:#5f646b; --faint:#9ba1a8;
-  --line:#e2e4e7; --line2:#eef0f2;
+  --paper:#ffffff; --card:#ffffff; --ground:#F5F1EC;
+  --ink:#1C1E21; --text:#33373D; --mut:#606770; --faint:#8A9199;
+  --line:#DDDFE2; --line2:#E4E6EB;
   --panel:#ffffff;
-  --acc:#b42318; --acc-deep:#8f1d13;
+  --brand:#522924; --brand-deep:#3E1E19; --brand-tint:#F1E4DC;
+  --band-sub:#DBBBA9;
+  --acc:#BE2E1F; --acc-deep:#962216;
+  --green:#137333; --green-tint:#E6F4EA;
+  --red-chip:#B3261E; --red-tint:#FDECEA;
+  --amber:#8A5A00; --amber-tint:#FBF0DA;
+  --card-shadow:0 1px 2px rgba(16,24,40,.06);
   --serif:"Fraunces",Georgia,"Times New Roman",serif;
   --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  /* chart instrument: ink, neutral grays, slate for forecast, the one
-     accent for the highlighted series. Labels sit on their fills. */
-  --ch-ink:#191b1e; --ch-ink-lab:#ffffff;
-  --ch-ink2:#3c4147; --ch-ink2-lab:#ffffff;
-  --ch-acc:#b42318; --ch-acc-lab:#ffffff;
-  --ch-steel:#7e8b98; --ch-steel-lab:#ffffff;
-  --ch-g1:#494f57; --ch-g1-lab:#ffffff;
-  --ch-g2:#828a92; --ch-g2-lab:#ffffff;
-  --ch-g3:#aeb4ba; --ch-g3-lab:#191b1e;
-  --ch-g4:#d3d7db; --ch-g4-lab:#191b1e;
-  --ch-nc:#6d747c; --ch-nc-lab:#ffffff;
-  --ch-fc:#54687c; --ch-fc-lab:#ffffff;
-  --ch-sand:#aeb4ba; --ch-sand-lab:#191b1e;
-  --ch-blue:#54687c; --ch-blue-lab:#ffffff;
-  --ch-red:#b42318; --ch-red-lab:#ffffff;
-  --ch-gray:#828a92; --ch-gray-lab:#ffffff;
-  --ch-grid:#e2e4e7; --ch-axis:#c9cdd2;
-  --ch-band-nc:#eff0f1; --ch-band-fc:#e9edf1;
-  --ch-evt:#a7adb4;
-  --ch-wash-acc:rgba(180,35,24,.08); --ch-wash-acc2:rgba(180,35,24,.40);
-  --ch-wash-nc:rgba(25,27,30,.05);
-  --ch-pat:rgba(25,27,30,.16);
+  /* chart instrument: cordovan primary, warm brown-gray steps, a warm
+     tan reserved for forecast, overflow red. Labels sit on their fills. */
+  --ch-ink:#1C1E21; --ch-ink-lab:#ffffff;
+  --ch-ink2:#4A423C; --ch-ink2-lab:#ffffff;
+  --ch-acc:#522924; --ch-acc-lab:#ffffff;
+  --ch-steel:#8C7B6B; --ch-steel-lab:#ffffff;
+  --ch-g1:#57493F; --ch-g1-lab:#ffffff;
+  --ch-g2:#857A70; --ch-g2-lab:#ffffff;
+  --ch-g3:#B4A89C; --ch-g3-lab:#1C1E21;
+  --ch-g4:#D8CFC4; --ch-g4-lab:#1C1E21;
+  --ch-nc:#6E6259; --ch-nc-lab:#ffffff;
+  --ch-fc:#96795D; --ch-fc-lab:#ffffff;
+  --ch-sand:#C9BBA8; --ch-sand-lab:#1C1E21;
+  --ch-blue:#77685C; --ch-blue-lab:#ffffff;
+  --ch-red:#BE2E1F; --ch-red-lab:#ffffff;
+  --ch-gray:#857A70; --ch-gray-lab:#ffffff;
+  --ch-grid:#E4E6EB; --ch-axis:#C9CDD2;
+  --ch-band-nc:#F1E4DC; --ch-band-fc:#E7DCCB;
+  --ch-evt:#B4A89C;
+  --ch-wash-acc:rgba(190,46,31,.08); --ch-wash-acc2:rgba(190,46,31,.40);
+  --ch-wash-nc:rgba(28,30,33,.05);
+  --ch-pat:rgba(82,41,36,.16);
 }
 * { box-sizing:border-box; }
 html { -webkit-text-size-adjust:100%; scroll-behavior:smooth; }
 html, body { overflow-x:clip; }
-::selection { background:rgba(25,27,30,.12); }
-body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans);
+::selection { background:rgba(82,41,36,.16); }
+body { margin:0; background:var(--ground); color:var(--ink); font-family:var(--sans);
        font-size:16px; line-height:1.65; -webkit-font-smoothing:antialiased;
        font-optical-sizing:auto;
        font-feature-settings:"pnum" on, "lnum" on, "liga" on, "tnum" on; }
 .wrap { max-width:1080px; margin:0 auto; padding:0 24px 80px; }
-:focus-visible { outline:2px solid var(--ink); outline-offset:3px; border-radius:2px; }
+:focus-visible { outline:2px solid var(--brand); outline-offset:3px; border-radius:2px; }
 
-/* ---- top bar: one slim sticky bar carrying the compact brand, the
-   grouped section nav, and the search action. White, ruled, quiet:
-   the interface stays near-invisible so the data carries the weight.
-   The class name stays .masthead: build_changes.py keys on it. ---- */
-.masthead { position:sticky; top:0; z-index:90; background:var(--paper);
-  border-bottom:1px solid var(--line); margin:0 -24px; padding:0 24px; }
-.tb { display:flex; align-items:center; gap:6px 22px; min-height:57px;
-  flex-wrap:wrap; }
+/* ---- masthead: the brand layer. A full cordovan band carries the
+   wordmark in the display serif; under it a white tab row carries the
+   grouped section nav, the active section in cordovan with a 3px
+   cordovan underline. The class name stays .masthead: build_changes.py
+   keys on it. ---- */
+.masthead { position:sticky; top:0; z-index:90; }
+.band { background:var(--brand); margin:0 -24px; padding:10px 24px; }
+.navrow { background:var(--card); margin:0 -24px; padding:0 24px;
+  border-bottom:1px solid var(--line); box-shadow:0 1px 2px rgba(16,24,40,.05); }
+.tb { display:flex; align-items:center; gap:6px 22px; flex-wrap:wrap; }
+.tb-band { min-height:34px; }
 .brandlock { padding:0; flex:none; }
 .brandlink { display:inline-flex; align-items:center; gap:10px; text-decoration:none;
   color:var(--ink); }
+.band .brandlink { color:#fff; }
 .mark { width:27px; height:27px; display:block; flex:none; }
 .wordstack { display:flex; flex-direction:column; }
 .wordmark { font-family:var(--serif); font-optical-sizing:auto; font-weight:560;
   font-size:21px; letter-spacing:-0.02em; line-height:1; white-space:nowrap; }
+.band .wordmark { color:#fff; }
 .wordsub { display:none; }
-/* bar actions: the search toggle, one quiet word at the right. */
+/* bar actions: the search toggle, one quiet word at the right of the band. */
 .tb-act { display:flex; align-items:center; gap:4px 16px; margin-left:auto;
   flex:none; }
 .tb-btn { background:none; border:0; padding:6px 2px; font:inherit;
   font-size:12px; letter-spacing:.08em; text-transform:uppercase;
   color:var(--faint); cursor:pointer; }
 .tb-btn:hover { color:var(--ink); }
-/* the search row: hidden until the toggle opens it, ruled under the bar. */
-.tb-search { border-top:1px solid var(--line2); padding:10px 0 12px; }
+.band .tb-btn { color:var(--band-sub); }
+.band .tb-btn:hover { color:#fff; }
+/* the search row: hidden until the toggle opens it, a white strip
+   under the tab row. */
+.tb-search { background:var(--card); margin:0 -24px; padding:10px 24px 12px;
+  border-bottom:1px solid var(--line); }
 .tb-search[hidden] { display:none; }
 .tb-search .searchbox { margin:0; }
 
@@ -81,10 +97,11 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sa
 .navdrop { position:relative; }
 .navdrop-sep { margin-left:14px; padding-left:14px;
   border-left:1px solid var(--line); }
-.nd-top { display:block; color:var(--ink); text-decoration:none; font-size:12px; font-weight:600;
-  letter-spacing:.1em; text-transform:uppercase; padding:10px 12px;
-  white-space:nowrap; border-bottom:2px solid transparent; margin-bottom:-1px; }
-.navdrop.active .nd-top { border-bottom-color:var(--ink); }
+.nd-top { display:block; color:var(--mut); text-decoration:none; font-size:13.5px; font-weight:500;
+  letter-spacing:0; text-transform:none; padding:10px 12px 9px;
+  white-space:nowrap; border-bottom:3px solid transparent; margin-bottom:-1px; }
+.navdrop.active .nd-top { color:var(--brand); font-weight:700;
+  border-bottom-color:var(--brand); }
 /* desktop dropdowns (2026-09-28): hover/focus reveals the panel; the header
    stays four clean links at rest. Hidden everywhere else - touch and mobile
    use the Sections panel. The mobile Sections panel carries the full link
@@ -93,7 +110,8 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sa
 .nd-panel { display:none; }
 @media (min-width:641px) {
   .nd-panel { position:absolute; top:100%; left:0; z-index:60;
-    min-width:232px; background:var(--paper); border:1px solid var(--line);
+    min-width:232px; background:var(--card); border:1px solid var(--line);
+    border-radius:10px; box-shadow:0 8px 24px rgba(16,24,40,.12);
     padding:6px 0 8px; }
   .navdrop:hover .nd-panel, .navdrop:focus-within .nd-panel { display:block; }
   .nd-sec + .nd-sec { border-top:1px solid var(--line); margin-top:4px;
@@ -103,24 +121,26 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sa
     padding:0 16px; }
   .nd-link { display:block; padding:7px 16px; font-size:13.5px;
     color:var(--ink); text-decoration:none; white-space:nowrap; }
-  .nd-link:hover { background:#f4f5f6; }
+  .nd-link:hover { background:var(--brand-tint); }
   .nd-link[aria-current="page"] { color:var(--ink); font-weight:700; }
 }
 @media (hover:hover) {
-  .nd-top:hover { border-bottom-color:#c9cdd2; }
-  .navdrop.active .nd-top:hover { border-bottom-color:var(--ink); }
+  .nd-top:hover { color:var(--ink); border-bottom-color:#D8CFC4; }
+  .navdrop.active .nd-top:hover { color:var(--brand);
+    border-bottom-color:var(--brand); }
   .mg-link:hover { text-decoration:underline; text-underline-offset:3px; }
 }
 
 /* search: one quiet field under the nav */
 .searchbox { position:relative; margin:14px 0 0; }
 .searchbox input { width:100%; max-width:480px; padding:9px 12px; font-size:14px;
-  font-family:var(--sans); border:1px solid var(--line); border-radius:0;
-  background:var(--paper); color:var(--ink); }
+  font-family:var(--sans); border:1px solid var(--line); border-radius:8px;
+  background:var(--card); color:var(--ink); }
 .searchbox input::placeholder { color:var(--faint); }
-.searchbox input:focus { border-color:var(--ink); outline:none; }
+.searchbox input:focus { border-color:var(--brand); outline:none; }
 .searchres { position:absolute; top:100%; left:0; width:min(430px,100%);
-  background:var(--paper); border:1px solid var(--line);
+  background:var(--card); border:1px solid var(--line); border-radius:8px;
+  box-shadow:0 8px 24px rgba(16,24,40,.12);
   z-index:70; margin-top:4px; overflow:hidden; }
 .sr-hit { display:block; padding:10px 14px; text-decoration:none;
   color:var(--ink); border-bottom:1px solid var(--line2); }
@@ -149,9 +169,9 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sa
   border:1px solid var(--ink); background:transparent; padding:13px 22px;
   border-radius:4px;
   text-decoration:none; cursor:pointer; }
-.btn:hover { background:var(--ink); color:var(--paper); }
-.btn.primary { background:var(--ink); border-color:var(--ink); color:#fff; }
-.btn.primary:hover { background:#2b2e33; border-color:#2b2e33; }
+.btn:hover { background:var(--brand); border-color:var(--brand); color:#fff; }
+.btn.primary { background:var(--brand); border-color:var(--brand); color:#fff; }
+.btn.primary:hover { background:var(--brand-deep); border-color:var(--brand-deep); }
 /* metadata dot separator */
 .dot { display:inline-block; width:3px; height:3px; border-radius:50%;
   background:var(--faint); margin:0 10px; vertical-align:2px; }
@@ -159,7 +179,7 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sa
 
 /* ---- article header: kicker / display headline / dek / whisper meta ---- */
 .kicker { font-size:12px; font-weight:700; letter-spacing:.18em;
-  text-transform:uppercase; color:var(--mut); margin:0 0 14px; }
+  text-transform:uppercase; color:var(--brand); margin:0 0 14px; }
 .arthead { margin:36px 0 8px; padding-bottom:24px; border-bottom:1px solid var(--line); }
 /* display setting (2026-11-18): lighter weight, airier leading, lower
    ceiling, so a headline reads as a letter's headline and no longer
@@ -182,8 +202,8 @@ h1.arttitle, h1 { font-family:var(--serif); font-optical-sizing:auto; font-weigh
 .lede { font-size:1.06rem; line-height:1.65; max-width:64ch; color:var(--ink); }
 h2 { font-family:var(--serif); font-optical-sizing:auto; font-weight:560;
   font-size:clamp(1.4rem, 1.2rem + 1vw, 1.65rem); letter-spacing:-0.015em;
-  line-height:1.2; margin:3rem 0 1rem; padding-top:1.4rem;
-  border-top:1px solid var(--line); text-wrap:balance; }
+  line-height:1.2; margin:3rem 0 1rem; padding-top:0;
+  border-top:none; text-wrap:balance; }
 h2:first-of-type { border-top:none; padding-top:0; margin-top:2rem; }
 /* a section list already ends on a rule; the next h2 must not double it */
 .seclist + h2, .ht-list + h2 { border-top:none; padding-top:0; margin-top:2.2rem; }
@@ -203,14 +223,14 @@ ul.tight li { margin:.38rem 0; }
    the browser's default blue (the two leaks the teardown found on
    Barrels). Component rules below and elsewhere override it. */
 :where(.wrap) a { color:var(--ink); text-decoration:underline;
-  text-decoration-color:#c6ccd1; text-decoration-thickness:1px;
+  text-decoration-color:#D8CFC4; text-decoration-thickness:1px;
   text-underline-offset:3px; }
 :where(.wrap) a:visited { color:var(--ink); }
 main a, .wrap > a, p a, li a, td a, th a, figcaption a, .fcolophon a, section a,
 main a:visited, p a:visited, li a:visited, td a:visited, th a:visited,
 figcaption a:visited, .fcolophon a:visited, section a:visited {
   color:var(--ink); text-decoration:underline;
-  text-decoration-color:#c6ccd1; text-decoration-thickness:1px;
+  text-decoration-color:#D8CFC4; text-decoration-thickness:1px;
   text-underline-offset:3px; }
 main a:hover, p a:hover, li a:hover, td a:hover, th a:hover,
 figcaption a:hover, .fcolophon a:hover, section a:hover {
@@ -225,37 +245,42 @@ h1 a:hover, h2 a:hover, h3 a:hover { color:var(--ink); }
 /* pull quote */
 .pullquote { font-family:var(--serif); font-optical-sizing:auto;
   font-size:clamp(1.2rem, 1.05rem + .8vw, 1.45rem); font-weight:500;
-  line-height:1.4; letter-spacing:-0.008em; color:#2b2e33;
-  border-left:2px solid var(--ink); padding:2px 0 2px 22px; margin:2.4rem 0;
+  line-height:1.4; letter-spacing:-0.008em; color:#2E2622;
+  border-left:2px solid var(--brand); padding:2px 0 2px 22px; margin:2.4rem 0;
   max-width:58ch; }
 .pullquote cite { display:block; font-family:var(--sans); font-style:normal;
   font-size:12px; color:var(--mut); margin-top:10px; letter-spacing:.04em; }
 
-/* ---- numbers are the product: tabular, quiet units, hairlines ---- */
+/* ---- numbers are the product: KPI cards on the warm ground.
+   Each lead figure is a white card (border, 10px radius, one soft
+   shadow): label in small caps, the figure large and tabular, the
+   change as a tinted delta chip (green tint for a positive move,
+   red tint for pressure), the as-of line attached under the grid. ---- */
 .statgrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-  gap:0 28px; margin:24px 0; border-top:1px solid var(--ink); }
-.stat { padding:12px 0; border-bottom:1px solid var(--line); }
-.stat .v { font-size:29px; font-weight:700; letter-spacing:-0.02em;
-  font-variant-numeric:tabular-nums; line-height:1.1; }
+  gap:10px; margin:24px 0; }
+.stat { background:var(--card); border:1px solid var(--line);
+  border-radius:10px; box-shadow:var(--card-shadow); padding:14px 14px 12px; }
+.stat .v { font-size:27px; font-weight:700; letter-spacing:-0.02em;
+  font-variant-numeric:tabular-nums; line-height:1.1; color:var(--ink); }
 .stat .l { font-size:11px; color:var(--mut); margin-top:6px; letter-spacing:.07em;
   text-transform:uppercase; font-weight:600; line-height:1.5; }
-.stat .d { font-size:12px; color:var(--mut); margin-top:2px; }
-/* the stat band: a page's lead figures, set as figures under one
-   strong ink rule, aligned to the text column, with the as-of line
-   attached inside the band. No tint and no box: the figures are the
-   layer. Direction reads in the sign and the word; the one accent
-   marks the negative direction only. */
-.statband { border-top:2px solid var(--ink);
-  border-bottom:1px solid var(--line); padding:16px 0 6px;
-  margin:24px 0; }
-.statband .statgrid { border-top:none; margin:0; }
-.statband .stat { border-bottom:none; padding:10px 0 12px; }
+.stat .k { font-size:11px; color:var(--mut); letter-spacing:.07em;
+  text-transform:uppercase; font-weight:600; line-height:1.5; }
+.stat .d { font-size:12px; color:var(--mut); margin-top:6px; line-height:1.5; }
+.stat .s { font-size:12px; color:var(--mut); margin-top:6px; line-height:1.5; }
+/* the stat band: a page's lead figures as a row of KPI cards, with
+   the as-of note attached beneath the grid so the figures and their
+   vintage travel together. */
+.statband { margin:24px 0; }
+.statband .statgrid { margin:0; }
 .statband .band-note { font-size:12px; color:var(--mut); line-height:1.55;
-  padding:2px 0 10px; max-width:76ch; }
-.stat .d .up { color:var(--ink); font-weight:600; }
-.stat .d .dn { color:var(--acc); font-weight:600; }
-.delta-up { color:var(--ink); font-weight:600; }
-.delta-dn { color:var(--acc); font-weight:600; }
+  padding:8px 2px 0; max-width:76ch; margin:0; }
+.stat .d .up { display:inline-block; background:var(--green-tint);
+  color:var(--green); font-weight:700; border-radius:5px; padding:1px 7px; }
+.stat .d .dn { display:inline-block; background:var(--red-tint);
+  color:var(--red-chip); font-weight:700; border-radius:5px; padding:1px 7px; }
+.delta-up { color:var(--green); font-weight:600; }
+.delta-dn { color:var(--red-chip); font-weight:600; }
 
 /* tables: small-caps headers, hairline rows, tabular numerals.
    Scroll affordance: soft edge shadows that only appear when there is more
@@ -263,10 +288,20 @@ h1 a:hover, h2 a:hover, h3 a:hover { color:var(--ink); }
 .tblwrap { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:16px -24px;
   padding:0 24px;
   background:
-    linear-gradient(to right, var(--paper) 30%, rgba(255,255,255,0)),
-    linear-gradient(to right, rgba(255,255,255,0), var(--paper) 70%) 100% 0,
-    radial-gradient(farthest-side at 0 50%, rgba(25,27,30,.12), rgba(25,27,30,0)),
-    radial-gradient(farthest-side at 100% 50%, rgba(25,27,30,.12), rgba(25,27,30,0)) 100% 0;
+    linear-gradient(to right, var(--ground) 30%, rgba(245,241,236,0)),
+    linear-gradient(to right, rgba(245,241,236,0), var(--ground) 70%) 100% 0,
+    radial-gradient(farthest-side at 0 50%, rgba(28,30,33,.12), rgba(28,30,33,0)),
+    radial-gradient(farthest-side at 100% 50%, rgba(28,30,33,.12), rgba(28,30,33,0)) 100% 0;
+  background-repeat:no-repeat;
+  background-size:44px 100%, 44px 100%, 16px 100%, 16px 100%;
+  background-attachment:local, local, scroll, scroll; }
+/* inside a white card the scroll fades blend to the card, not the ground */
+.panel .tblwrap, figure.chart .tblwrap {
+  background:
+    linear-gradient(to right, var(--card) 30%, rgba(255,255,255,0)),
+    linear-gradient(to right, rgba(255,255,255,0), var(--card) 70%) 100% 0,
+    radial-gradient(farthest-side at 0 50%, rgba(28,30,33,.12), rgba(28,30,33,0)),
+    radial-gradient(farthest-side at 100% 50%, rgba(28,30,33,.12), rgba(28,30,33,0)) 100% 0;
   background-repeat:no-repeat;
   background-size:44px 100%, 44px 100%, 16px 100%, 16px 100%;
   background-attachment:local, local, scroll, scroll; }
@@ -286,9 +321,9 @@ table.data caption { text-align:left; font-family:var(--serif);
   letter-spacing:-0.008em; padding:0 0 10px; }
 table.data th, table.data td { padding:10px 12px; text-align:left; vertical-align:top; }
 table.data th { font-size:11px; text-transform:uppercase; letter-spacing:.07em;
-  color:var(--mut); font-weight:700; border-bottom:1px solid var(--ink);
+  color:var(--mut); font-weight:700; border-bottom:1px solid var(--line);
   white-space:nowrap; }
-table.data td { border-bottom:1px solid var(--line);
+table.data td { border-bottom:1px solid var(--line2);
   font-variant-numeric:tabular-nums; }
 table.data tbody tr:last-child td { border-bottom:none; }
 table.data td.num, table.data th.num { text-align:right; font-variant-numeric:tabular-nums; }
@@ -296,8 +331,8 @@ table.data td .mom { font-size:11px; color:var(--mut); font-variant-numeric:tabu
 table.data tr.tot td { font-weight:700; }
 table.data td.n, table.data th.n { text-align:right; font-variant-numeric:tabular-nums; }
 table.data td.k { color:var(--faint); font-size:12px; white-space:nowrap; }
-table.data td.up { color:var(--ink); font-weight:700; }
-table.data td.dn { color:var(--acc); font-weight:700; }
+table.data td.up { color:var(--brand); font-weight:700; }
+table.data td.dn { color:var(--red-chip); font-weight:700; }
 table.movers { display:block; overflow-x:auto; }
 table.movers thead th { white-space:nowrap; }
 table.movers td.sig { color:var(--acc); font-weight:700; font-size:12px;
@@ -338,8 +373,8 @@ table.facts td:first-child { font-weight:600; width:34%; color:#2b2e33; }
 .tblnote { font-size:12px; color:var(--mut); margin:8px 0 0; max-width:68ch;
   line-height:1.6; }
 
-/* executive call: an ink hairline, not a box */
-.exec { margin:24px 0; padding:2px 0 2px 20px; border-left:2px solid var(--ink); }
+/* executive call: a cordovan rule, not a box */
+.exec { margin:24px 0; padding:2px 0 2px 20px; border-left:3px solid var(--brand); }
 .exec h2 { border:none; margin:0 0 10px; padding:0; font-family:var(--sans);
   font-size:11px; font-weight:700; letter-spacing:.18em; text-transform:uppercase;
   color:var(--ink); }
@@ -348,13 +383,13 @@ table.facts td:first-child { font-weight:600; width:34%; color:#2b2e33; }
 .exec li::marker { color:var(--faint); }
 .exec-vint { font-size:12px; color:var(--mut); margin:10px 0 0; }
 
-/* section entrances: hairline rows, not cards.
-   Home "Inside" runs as a two-column editorial grid on desktop. */
-.seclist { display:grid; grid-template-columns:1fr 1fr; column-gap:36px;
-  border-bottom:1px solid var(--line); }
-.srow { display:block; padding:18px 2px; border-top:1px solid var(--line);
+/* section entrances: white cards on the ground.
+   Home "Inside" runs as a two-column card grid on desktop. */
+.seclist { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.srow { display:block; padding:18px; background:var(--card);
+  border:1px solid var(--line); border-radius:10px; box-shadow:var(--card-shadow);
   text-decoration:none !important; color:var(--ink); }
-.srow.last { border-bottom:none; }
+.srow.last { border-bottom:1px solid var(--line); }
 .srow .kicker { font-size:11px; margin:0 0 8px; }
 .srow h3 { margin:0 0 6px; font-size:1.14rem; }
 .srow p { margin:0; font-size:13.5px; color:var(--mut); line-height:1.6; }
@@ -371,9 +406,9 @@ table.facts td:first-child { font-weight:600; width:34%; color:#2b2e33; }
 
 /* in-page jump-list: quiet sticky section links for long indexes (projects).
    Sticks under the top bar; the scrollspy marks the section in view. */
-.jumplist { position:sticky; top:58px; z-index:5; display:flex; flex-wrap:wrap;
+.jumplist { position:sticky; top:92px; z-index:5; display:flex; flex-wrap:wrap;
   align-items:baseline; gap:6px 18px; padding:10px 2px; margin:6px 0 0;
-  background:var(--paper); border-top:1px solid var(--line);
+  background:var(--ground); border-top:1px solid var(--line);
   border-bottom:1px solid var(--line); font-size:13px; }
 .jumplist .jl-cap { font-size:11px; font-weight:700; letter-spacing:.14em;
   text-transform:uppercase; color:var(--mut); }
@@ -393,8 +428,10 @@ table.facts td:first-child { font-weight:600; width:34%; color:#2b2e33; }
 .weeknav a:last-child { text-align:right; }
 .weeknav a:hover { text-decoration:underline; text-underline-offset:3px; }
 
-/* monitors: hairline-divided entries, status as quiet colored text */
-.idea { border-top:1px solid var(--line); padding:18px 2px; margin:0; }
+/* monitors: white card entries, status as quiet colored text */
+.idea { background:var(--card); border:1px solid var(--line);
+  border-radius:10px; box-shadow:var(--card-shadow);
+  padding:18px 20px; margin:12px 0; }
 .idea.last { border-bottom:1px solid var(--line); }
 .idea h3 { margin:0 0 8px; }
 .idea p { margin:7px 0; font-size:15px; }
@@ -416,12 +453,15 @@ table.facts td:first-child { font-weight:600; width:34%; color:#2b2e33; }
 .lic-tag { font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase;
   color:var(--mut); margin-left:8px; white-space:nowrap; }
 
-/* figures: airy, captions carry vintage + legend in whisper italic */
-figure.chart { margin:24px 0; }
+/* figures: charts live in white cards; captions carry the vintage
+   in plain faint text under the chart, never italic furniture. */
+figure.chart { margin:24px 0; background:var(--card);
+  border:1px solid var(--line); border-radius:10px; box-shadow:var(--card-shadow);
+  padding:16px 18px 12px; }
 figure.chart svg { width:100%; height:auto; display:block; }
-figure.chart figcaption { font-size:12.5px; font-style:italic; color:var(--mut);
-  margin-top:10px; max-width:68ch; border-left:2px solid var(--line);
-  padding-left:12px; line-height:1.55; }
+figure.chart figcaption { font-size:12.5px; font-style:normal; color:var(--faint);
+  margin-top:10px; max-width:68ch; border-left:none;
+  padding-left:0; line-height:1.55; }
 figure.chart figcaption b, figure.chart figcaption strong { color:var(--ink);
   font-weight:600; font-style:normal; }
 .lg { display:flex; flex-wrap:wrap; gap:6px 18px; font-size:12px; color:var(--mut);
@@ -492,8 +532,8 @@ details.sec { margin:0; }
 details.sec > summary { cursor:pointer; list-style:none; display:block;
   font-family:var(--serif); font-optical-sizing:auto; font-weight:560;
   font-size:clamp(1.4rem, 1.2rem + 1vw, 1.65rem); letter-spacing:-0.015em;
-  line-height:1.2; margin:3rem 0 1rem; padding-top:1.4rem;
-  border-top:1px solid var(--line); text-wrap:balance; }
+  line-height:1.2; margin:3rem 0 1rem; padding-top:0;
+  border-top:none; text-wrap:balance; }
 details.sec > summary::-webkit-details-marker { display:none; }
 details.sec > summary::marker { content:""; }
 details.sec > summary::before { content:"+ "; color:var(--faint); font-weight:700; }
@@ -509,11 +549,12 @@ details.sec > summary:hover { color:var(--ink); }
   border:1px solid var(--line2); color:var(--mut); }
 .basis-guided { border-color:var(--ink); color:var(--ink); }
 .basis-modeled { border-color:var(--faint); color:var(--mut); }
-/* the panel: one surface treatment site-wide, and it is not a box.
-   A hairline above, whitespace inside, aligned to the text column;
-   grouping comes from the rule and the space, never a tint. */
-.panel { margin:24px 0; border-top:1px solid var(--line);
-  padding:18px 0 2px; }
+/* the panel: one surface treatment site-wide. A white card on the
+   warm ground: border, 10px radius, one soft shadow, aligned to the
+   text column. Grouping comes from the card, never a tint. */
+.panel { margin:24px 0; background:var(--card);
+  border:1px solid var(--line); border-radius:10px;
+  box-shadow:var(--card-shadow); padding:18px 20px; }
 .panel > :first-child { margin-top:0; }
 .panel > :last-child { margin-bottom:0; }
 /* direction and status chips (2026-11-18): the trade header's slots.
@@ -521,11 +562,11 @@ details.sec > summary:hover { color:var(--ink); }
    word always carries the meaning, the colour only repeats it. */
 .tchip { display:inline-block; font-size:11.5px; font-weight:600;
   letter-spacing:.02em; padding:3px 11px; margin:0 8px 4px 0;
-  border:1px solid var(--line); border-radius:99px;
-  background:var(--paper); color:var(--ink); }
-.tchip.long { border-color:var(--ink); color:var(--ink); }
-.tchip.short { border-color:var(--acc); color:var(--acc); }
-.tchip.off { color:var(--mut); }
+  border:none; border-radius:99px;
+  background:var(--brand-tint); color:var(--brand); }
+.tchip.long { background:var(--green-tint); color:var(--green); }
+.tchip.short { background:var(--red-tint); color:var(--red-chip); }
+.tchip.off { background:#EFEAE4; color:var(--mut); }
 /* compact label heading (2026-11-18): an h3 that keeps the small
    sans label look where a card or checklist field is a heading. */
 .lblh { font-family:var(--sans); font-size:.95rem; font-weight:700;
@@ -537,8 +578,9 @@ h2.qh { font-size:1.18rem; margin:1.8rem 0 .55rem; letter-spacing:-0.01em;
   line-height:1.3; border-top:none; padding-top:0; }
 /* the digest as a ruled editorial index (2026-11-18): date, headline,
    one line, hairlines. The latest edition alone gets the lead panel. */
-.edlist { border-top:1px solid var(--ink); margin:18px 0 0; }
-.ed-row { display:block; padding:18px 2px; border-bottom:1px solid var(--line);
+.edlist { margin:18px 0 0; }
+.ed-row { display:block; padding:18px; margin-top:12px; background:var(--card);
+  border:1px solid var(--line); border-radius:10px; box-shadow:var(--card-shadow);
   text-decoration:none !important; color:var(--ink); }
 .ed-row .ed-date { font-size:12px; color:var(--mut); letter-spacing:.04em; }
 .ed-row .ed-title { font-family:var(--serif); font-optical-sizing:auto;
@@ -547,8 +589,10 @@ h2.qh { font-size:1.18rem; margin:1.8rem 0 .55rem; letter-spacing:-0.01em;
 .ed-row .ed-dek { font-size:14px; color:var(--mut); line-height:1.55;
   max-width:64ch; margin:0; }
 .ed-row:hover .ed-title { text-decoration:underline; text-underline-offset:3px; }
-.ed-lead { border-top:2px solid var(--ink);
-  padding:18px 0 2px; margin:18px 0 0; }
+.ed-lead { background:var(--card); border:1px solid var(--line);
+  border-top:3px solid var(--brand); border-radius:10px;
+  box-shadow:var(--card-shadow);
+  padding:18px 20px; margin:18px 0 0; }
 .ed-lead .ed-date { font-size:12px; color:var(--mut); letter-spacing:.04em; }
 .ed-lead .ed-title { font-family:var(--serif); font-optical-sizing:auto;
   font-size:1.5rem; font-weight:560; line-height:1.22; margin:4px 0 6px;
@@ -559,36 +603,44 @@ h2.qh { font-size:1.18rem; margin:1.8rem 0 .55rem; letter-spacing:-0.01em;
   max-width:64ch; margin:0; }
 hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:76ch; }
 
-/* footer (2026-11-18): compact group rows generated from the same
-   section registry as the nav, so the two can never drift apart. One
-   row per group: a quiet caps label, then the group's links inline. */
-.sitefoot { margin-top:56px; padding-top:18px; border-top:1px solid var(--ink); }
+/* footer: the brand band repeated. The cordovan block bookends the
+   page: the serif wordmark first, then compact group rows generated
+   from the same section registry as the nav, so the two can never
+   drift apart. One row per group: a pale caps label, then the
+   group's links in white. */
+.sitefoot { margin-top:56px; background:var(--brand); border-radius:10px;
+  padding:20px 22px; }
+.fbrand { margin:0 0 8px; }
+.fword { font-family:var(--serif); font-optical-sizing:auto; font-size:19px;
+  font-weight:700; letter-spacing:-0.01em; color:#fff; }
 .frow { display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 16px;
-  padding:7px 0; border-top:1px solid var(--line2); }
+  padding:7px 0; border-top:1px solid rgba(219,187,169,.25); }
 .frow:first-child { border-top:none; }
 .frow .flab { flex:0 0 108px; font-size:11px; letter-spacing:.14em;
-  text-transform:uppercase; color:var(--mut); font-weight:700;
+  text-transform:uppercase; color:var(--band-sub); font-weight:700;
   padding:3px 0; }
-.frow a { font-size:13px; color:var(--ink); text-decoration:none;
+.frow a { font-size:13px; color:#fff; text-decoration:none;
   padding:3px 0; white-space:nowrap; }
 .frow a:hover { text-decoration:underline;
-  text-decoration-color:var(--ink); text-underline-offset:3px; }
-.fcolophon { font-size:12.5px; color:var(--mut); margin:24px 0 0; max-width:76ch;
+  text-decoration-color:#fff; text-underline-offset:3px; }
+.fcolophon { font-size:12.5px; color:var(--band-sub); margin:24px 0 0; max-width:76ch;
   line-height:1.6; }
-.fcolophon a { color:var(--ink); }
+.fcolophon b { color:#fff; }
+.fcolophon a { color:#fff; }
 
 @media (max-width:640px) {
   body { font-size:16px; }
   .wrap { padding:0 18px 60px; }
-  .masthead { margin:0 -18px; padding:0 18px; }
-  .tb { min-height:52px; gap:4px 14px; }
+  .band { margin:0 -18px; padding:10px 18px; }
+  .navrow { margin:0 -18px; padding:0 18px; }
+  .tb-search { margin:0 -18px; padding:10px 18px 12px; }
+  .tb { gap:4px 14px; }
   .brandlock { order:1; }
   .tb-act { order:2; }
-  .mnav { order:3; flex:1 1 100%; }
   .wordmark { font-size:20px; }
   .mark { width:26px; height:26px; }
   .jumplist { top:97px; }
-  .statband { padding:14px 16px 4px; }
+  .statband { margin:20px 0; }
   .arthead { margin-top:28px; padding-bottom:20px; }
   .herosub { font-size:1.1rem; margin-top:26px; }
   .hero { margin-top:24px; padding-bottom:26px; }
@@ -650,6 +702,13 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
   body { background:#fff; }
   .mnav, .searchbox, .searchres, .tb-act, .tb-search { display:none; }
   .masthead { position:static; margin:0; padding:0; border-bottom:none; }
+  .band { background:#fff; margin:0; padding:0 0 8px; }
+  .band .wordmark { color:var(--ink); }
+  .navrow { display:none; }
+  .sitefoot { background:#fff; padding:16px 0 0; }
+  .fword, .frow a, .frow .flab, .fcolophon, .fcolophon a, .fcolophon b {
+    color:var(--ink); }
+  .frow { border-top-color:var(--line2); }
   .brandlock { padding:0; }
   .wordmark { font-size:24px; }
   .mark { width:30px; height:30px; }
@@ -676,7 +735,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 .xlmut { font-size:11.5px; fill:var(--mut); }
 .xlneg { font-size:11.5px; font-weight:600; fill:var(--ch-red); }
 .eln { font-size:12.5px; font-weight:600; }
-.takeaway { border-left:3px solid var(--ink);
+.takeaway { border-left:3px solid var(--brand);
   padding:2px 0 2px 18px; margin:24px 0; }
 .takeaway h2 { margin:0 0 8px; font-size:1.18rem; }
 .takeaway p.note { margin-bottom:0; }
@@ -715,16 +774,20 @@ hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:7
 .chg-badge::before { content:""; width:7px; height:7px; border-radius:50%;
   background:var(--acc); }
 .chg-badge:hover { text-decoration:underline; text-underline-offset:3px; }
-.chg-river { border-top:1px solid var(--line);
-  border-bottom:1px solid var(--line); padding:16px 0 8px; margin:20px 0 28px; }
+.chg-river { background:var(--card); border:1px solid var(--line);
+  border-radius:10px; box-shadow:var(--card-shadow);
+  padding:16px 20px 8px; margin:20px 0 28px; }
 .chg-river .chg-river-head { display:flex; justify-content:space-between;
   align-items:baseline; gap:12px; }
 .chg-river h2.chg-river-title { font-size:1.18rem; margin:0 0 4px; }
 .chg-river .chg-more { font-size:12.5px; color:var(--mut); white-space:nowrap; }
 .chg-day { font-family:var(--serif); font-optical-sizing:auto; font-weight:560; font-size:1.18rem; letter-spacing:-0.01em; margin:2rem 0 4px; }
 .chg-list { list-style:none; margin:0; padding:0; }
-.chg-list li { padding:7px 0; border-bottom:1px solid var(--line2);
+.chg-list li { position:relative; padding:7px 0 7px 22px;
+  border-bottom:1px solid var(--line2);
   font-size:14.5px; line-height:1.45; }
+.chg-list li::before { content:""; position:absolute; left:2px; top:14px;
+  width:8px; height:8px; border-radius:50%; background:var(--brand); }
 .chg-list .chg-sec { color:var(--mut); }
 .chg-list .chg-note { display:block; color:var(--ink); }
 .chg-list a { color:var(--ink); font-weight:600; text-decoration:none; }
