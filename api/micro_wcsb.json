@@ -1,6 +1,6 @@
 {
  "title": "WCSB micro-balance",
- "built": "2026-11-18",
+ "built": "2026-11-04",
  "dashboard_built": "2026-11-19",
  "default_month": "2026-11",
  "months": [
@@ -21,37 +21,37 @@
   "2027-12"
  ],
  "prices": {
-  "asof": "Nov 19, 2026 2:21 AM MDT",
-  "settle_date": "2026-11-18",
+  "asof": "Nov 18, 2026 1:07 AM MDT",
+  "settle_date": "2026-11-16",
   "rows": [
    {
     "label": "WTI, Dec 26",
-    "value": 83.25,
+    "value": 84.09,
     "basis": "intraday quote"
    },
    {
     "label": "Brent, Jan 27",
-    "value": 92.2,
+    "value": 91.75,
     "basis": "intraday quote"
    },
    {
-    "label": "WCS Hardisty diff (TMW), Jan 27",
-    "value": -23.45,
+    "label": "WCS Hardisty diff (TMW), Dec 26",
+    "value": -28.2176,
     "basis": "ICE end-of-day settle"
    },
    {
-    "label": "WCS Hardisty diff (TMW), Feb 27",
-    "value": -22.55,
+    "label": "WCS Hardisty diff (TMW), Jan 27",
+    "value": -25.75,
     "basis": "ICE end-of-day settle"
    },
    {
     "label": "WCS Houston diff (ARV), Dec 26",
-    "value": -18.509,
+    "value": -19.345,
     "basis": "ICE end-of-day settle"
    },
    {
-    "label": "Synthetic diff (TMS), Jan 27",
-    "value": 5.3,
+    "label": "Synthetic diff (TMS), Dec 26",
+    "value": 8.1125,
     "basis": "ICE end-of-day settle"
    }
   ]
@@ -492,8 +492,8 @@
    "apportionment": {
     "light_pct": 8.0,
     "heavy_pct": 4.0,
-    "source": "Enbridge notice, Oct 20, 2026 (Nov); Enbridge notice, Sep 16, 2026 (Oct); Enbridge announcement (Sep)",
-    "note": "November: Light 19% / Heavy 7% at Kerrobert (plus 13% at Cromer, 16% at Superior), up from October"
+    "source": "Enbridge notice, Nov 18, 2026 (Dec); Enbridge notice, Oct 20, 2026 (Nov); Enbridge notice, Sep 16, 2026 (Oct); Enbridge announcement (Sep)",
+    "note": "December: Light 24% / Heavy 17% at Kerrobert, up from November (19% / 7%); Cromer and Superior points for December not yet in hand"
    },
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
   },
@@ -932,8 +932,8 @@
    "apportionment": {
     "light_pct": 19.0,
     "heavy_pct": 7.0,
-    "source": "Enbridge notice, Oct 20, 2026 (Nov); Enbridge notice, Sep 16, 2026 (Oct); Enbridge announcement (Sep)",
-    "note": "November: Light 19% / Heavy 7% at Kerrobert (plus 13% at Cromer, 16% at Superior), up from October"
+    "source": "Enbridge notice, Nov 18, 2026 (Dec); Enbridge notice, Oct 20, 2026 (Nov); Enbridge notice, Sep 16, 2026 (Oct); Enbridge announcement (Sep)",
+    "note": "December: Light 24% / Heavy 17% at Kerrobert, up from November (19% / 7%); Cromer and Superior points for December not yet in hand"
    },
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
   },
@@ -1369,23 +1369,28 @@
     "ullage_mmbbl": 4.4,
     "pct_full": 94.6
    },
-   "apportionment": null,
+   "apportionment": {
+    "light_pct": 24.0,
+    "heavy_pct": 17.0,
+    "source": "Enbridge notice, Nov 18, 2026 (Dec); Enbridge notice, Oct 20, 2026 (Nov); Enbridge notice, Sep 16, 2026 (Oct); Enbridge announcement (Sep)",
+    "note": "December: Light 24% / Heavy 17% at Kerrobert, up from November (19% / 7%); Cromer and Superior points for December not yet in hand"
+   },
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
   },
   "2027-01": {
    "ym": "2027-01",
    "label": "January 2027",
    "cards": {
-    "nameplate_pipes_kbd": 5243,
-    "effective_pipes_kbd": 5044.0,
-    "effective_stack_kbd": 5129.0,
+    "nameplate_pipes_kbd": 5183,
+    "effective_pipes_kbd": 4984.0,
+    "effective_stack_kbd": 5069.0,
     "supply_net_kbd": 5202.3,
     "demand_wants_kbd": 5202.3,
     "refinery_kbd": 610.1,
     "removals_wanted_kbd": 4592.2,
-    "exports_shipped_kbd": 4592.2,
-    "overflow_kbd": 0.0,
-    "utilization_pct": 101.2
+    "exports_shipped_kbd": 4541.6,
+    "overflow_kbd": 50.6,
+    "utilization_pct": 101.4
    },
    "gross_production_kbd": 4318.2,
    "production": [
@@ -1456,9 +1461,9 @@
     "plug": 121.5,
     "net_supply": 5202.3,
     "refinery": 610.1,
-    "exports": 4592.2,
-    "storage_change": 0.0,
-    "check": 0.0
+    "exports": 4541.6,
+    "storage_change": 50.6,
+    "check": -0.0
    },
    "receipts_other_kbd": 789.5,
    "diluent": {
@@ -1726,9 +1731,9 @@
      "dest": "Burnaby, the Westridge marine terminal and Puget Sound",
      "kind": "swing",
      "region": "Pacific coast",
-     "nameplate": 950,
-     "effective": 925.6,
-     "flow": 925.6,
+     "nameplate": 890,
+     "effective": 865.6,
+     "flow": 865.6,
      "util": 100.0,
      "prev": 865.6
     },
@@ -1794,15 +1799,15 @@
     }
    ],
    "sk_other_kbd": 600.0,
-   "marketable_on_lines_kbd": 5129.0,
-   "bound_uplift_unallocated_kbd": 63.2,
+   "marketable_on_lines_kbd": 5069.0,
+   "bound_uplift_unallocated_kbd": 72.6,
    "storage": {
-    "change_kbd": 0.0,
-    "change_mbbl": 0.0,
-    "level_mmbbl": 76.24,
+    "change_kbd": 50.6,
+    "change_mbbl": 1.57,
+    "level_mmbbl": 77.81,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 4.4,
-    "pct_full": 94.6
+    "ullage_mmbbl": 2.8,
+    "pct_full": 96.5
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -1811,16 +1816,16 @@
    "ym": "2027-02",
    "label": "February 2027",
    "cards": {
-    "nameplate_pipes_kbd": 5243,
-    "effective_pipes_kbd": 5044.0,
-    "effective_stack_kbd": 5129.0,
+    "nameplate_pipes_kbd": 5183,
+    "effective_pipes_kbd": 4984.0,
+    "effective_stack_kbd": 5069.0,
     "supply_net_kbd": 5189.9,
     "demand_wants_kbd": 5189.9,
     "refinery_kbd": 629.9,
     "removals_wanted_kbd": 4560.0,
-    "exports_shipped_kbd": 4560.0,
-    "overflow_kbd": 0.0,
-    "utilization_pct": 100.6
+    "exports_shipped_kbd": 4541.6,
+    "overflow_kbd": 18.4,
+    "utilization_pct": 101.4
    },
    "gross_production_kbd": 4328.1,
    "production": [
@@ -1891,9 +1896,9 @@
     "plug": 121.5,
     "net_supply": 5189.9,
     "refinery": 629.9,
-    "exports": 4560.0,
-    "storage_change": 0.0,
-    "check": 0.0
+    "exports": 4541.6,
+    "storage_change": 18.4,
+    "check": -0.0
    },
    "receipts_other_kbd": 776.4,
    "diluent": {
@@ -2161,11 +2166,11 @@
      "dest": "Burnaby, the Westridge marine terminal and Puget Sound",
      "kind": "swing",
      "region": "Pacific coast",
-     "nameplate": 950,
-     "effective": 925.6,
-     "flow": 925.6,
+     "nameplate": 890,
+     "effective": 865.6,
+     "flow": 865.6,
      "util": 100.0,
-     "prev": 925.6
+     "prev": 865.6
     },
     {
      "id": "keystone",
@@ -2229,15 +2234,15 @@
     }
    ],
    "sk_other_kbd": 600.0,
-   "marketable_on_lines_kbd": 5129.0,
-   "bound_uplift_unallocated_kbd": 31.0,
+   "marketable_on_lines_kbd": 5069.0,
+   "bound_uplift_unallocated_kbd": 72.6,
    "storage": {
-    "change_kbd": 0.0,
-    "change_mbbl": 0.0,
-    "level_mmbbl": 76.24,
+    "change_kbd": 18.4,
+    "change_mbbl": 0.52,
+    "level_mmbbl": 78.32,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 4.4,
-    "pct_full": 94.6
+    "ullage_mmbbl": 2.3,
+    "pct_full": 97.2
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -2600,7 +2605,7 @@
      "effective": 955.6,
      "flow": 955.6,
      "util": 100.0,
-     "prev": 925.6
+     "prev": 865.6
     },
     {
      "id": "keystone",
@@ -2669,10 +2674,10 @@
    "storage": {
     "change_kbd": 33.1,
     "change_mbbl": 1.03,
-    "level_mmbbl": 77.27,
+    "level_mmbbl": 79.35,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 3.3,
-    "pct_full": 95.9
+    "ullage_mmbbl": 1.2,
+    "pct_full": 98.4
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -3104,10 +3109,10 @@
    "storage": {
     "change_kbd": 0.0,
     "change_mbbl": 0.0,
-    "level_mmbbl": 77.27,
+    "level_mmbbl": 79.35,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 3.3,
-    "pct_full": 95.9
+    "ullage_mmbbl": 1.2,
+    "pct_full": 98.4
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -3539,10 +3544,10 @@
    "storage": {
     "change_kbd": -0.0,
     "change_mbbl": -0.0,
-    "level_mmbbl": 77.27,
+    "level_mmbbl": 79.35,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 3.3,
-    "pct_full": 95.9
+    "ullage_mmbbl": 1.2,
+    "pct_full": 98.4
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -3974,10 +3979,10 @@
    "storage": {
     "change_kbd": -0.0,
     "change_mbbl": -0.0,
-    "level_mmbbl": 77.27,
+    "level_mmbbl": 79.35,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 3.3,
-    "pct_full": 95.9
+    "ullage_mmbbl": 1.2,
+    "pct_full": 98.4
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -4409,10 +4414,10 @@
    "storage": {
     "change_kbd": 0.0,
     "change_mbbl": 0.0,
-    "level_mmbbl": 77.27,
+    "level_mmbbl": 79.35,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 3.3,
-    "pct_full": 95.9
+    "ullage_mmbbl": 1.2,
+    "pct_full": 98.4
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -4844,10 +4849,10 @@
    "storage": {
     "change_kbd": 0.0,
     "change_mbbl": 0.0,
-    "level_mmbbl": 77.27,
+    "level_mmbbl": 79.35,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 3.3,
-    "pct_full": 95.9
+    "ullage_mmbbl": 1.2,
+    "pct_full": 98.4
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -5279,10 +5284,10 @@
    "storage": {
     "change_kbd": 0.0,
     "change_mbbl": 0.0,
-    "level_mmbbl": 77.27,
+    "level_mmbbl": 79.35,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 3.3,
-    "pct_full": 95.9
+    "ullage_mmbbl": 1.2,
+    "pct_full": 98.4
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -5714,10 +5719,10 @@
    "storage": {
     "change_kbd": 0.0,
     "change_mbbl": 0.0,
-    "level_mmbbl": 77.27,
+    "level_mmbbl": 79.35,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 3.3,
-    "pct_full": 95.9
+    "ullage_mmbbl": 1.2,
+    "pct_full": 98.4
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -6149,10 +6154,10 @@
    "storage": {
     "change_kbd": 0.0,
     "change_mbbl": 0.0,
-    "level_mmbbl": 77.27,
+    "level_mmbbl": 79.35,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 3.3,
-    "pct_full": 95.9
+    "ullage_mmbbl": 1.2,
+    "pct_full": 98.4
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -6584,10 +6589,10 @@
    "storage": {
     "change_kbd": -0.0,
     "change_mbbl": -0.0,
-    "level_mmbbl": 77.27,
+    "level_mmbbl": 79.35,
     "capacity_mmbbl": 80.6,
-    "ullage_mmbbl": 3.3,
-    "pct_full": 95.9
+    "ullage_mmbbl": 1.2,
+    "pct_full": 98.4
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"

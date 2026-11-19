@@ -6,6 +6,30 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) Navy said on Thursday, Nov 19, that two supertankers carrying more than four million barrels of crude oil exploded after striking naval mines while attempting a covert passage through a prohibited route in the Strait of Hormuz, Press TV reported. The IRGC Navy public relations office said the vessels were sailing close to the southern coast of the strait, that they were operating with the support of US fighter jets while surveillance drones flew overhead, and that the vessels were abandoned after the explosions and are now burning. The statement warned that oil tankers cooperating with the US military will be dealt with decisively if they cross through unauthorized routes. The statement named no vessels, flags, owners or casualties, and the claim had not been independently verified in the reporting here.",
+   "vintage": "Nov 19, 2026",
+   "source": "Press TV",
+   "source_url": "https://www.presstv.co.uk/Detail/2026/11/19/781097/two-violating-supertankers-explode-after-hitting-naval-mines-in-strait-of-hormuz-irgc"
+  },
+  {
+   "text": "Oil prices edged up on Thursday, Nov 19, following losses in the prior session, as worries about Middle East supplies amid attacks on shipping in the Strait of Hormuz pushed up against expectations for a market surplus, Reuters reported. Brent crude futures were trading up 24 cents, or 0.26 percent, at $92.19 a barrel at 0953 GMT, while US West Texas Intermediate (WTI) futures for December were up 5 cents to $83.31 a barrel and the more active January contract was up 12 cents at $82.43. US President Donald Trump and his Chinese and Russian counterparts, Xi Jinping and Vladimir Putin, kicked off a three-way meeting, with Trump saying both he and Xi felt strongly about oil having to flow through the Strait of Hormuz. Iran's navy said three oil tankers sailing east of the Strait of Hormuz were disabled by mines, Iranian media reported on Wednesday, Nov 18, and on Thursday the Iran-aligned Houthi movement fired missiles at the Saudi Arabian capital Riyadh, but the Saudi Civil Defense agency said the danger had passed, Reuters said.",
+   "vintage": "Nov 19, 2026",
+   "source": "Reuters (via KWSN)",
+   "source_url": "https://kwsn.com/2026/11/18/oil-prices-steady-as-supply-surplus-softens-sentiment-though-gulf-war-supports/"
+  },
+  {
+   "text": "The Abu Dhabi National Oil Company (ADNOC) linked vessel attacked in the Strait of Hormuz on Tuesday evening, Nov 17, was identified as the Liberian-flagged product tanker Navig8 Messi, Ships & Ports reported on Nov 19. Maritime security firm Vanguard Tech identified the vessel, which was reportedly struck by an unidentified projectile approximately 13 nautical miles north of Khasab, Oman, leaving one seafarer missing and 11 others injured, with the remaining crew evacuated. The Navig8 Group, which owns the vessel, is majority owned by ADNOC Logistics and Services (ADNOC L&S). The incident marks the second reported attack on the Navig8 Messi in the strait: the tanker was previously struck by an unmanned aerial vehicle on Aug 13, in a simultaneous attack on another ADNOC linked vessel, the Liberian-flagged Tarif, and it has been listed as a non-compliant vessel on Iran's Persian Gulf Strait Authority blacklist since the list was first published in August. The attack brings the number of confirmed attacks on commercial vessels in and around the Strait of Hormuz to 18 so far in November, Ships & Ports said. ADNOC and United Kingdom Maritime Trade Operations (UKMTO) did not name the vessel in their primary notices.",
+   "vintage": "Nov 19, 2026",
+   "source": "Ships & Ports",
+   "source_url": "https://shipsandports.com.ng/adnoc-tanker-attacked-for-second-time-in-four-months-in-strait-of-hormuz/"
+  },
+  {
+   "text": "United Kingdom Maritime Trade Operations (UKMTO) Warning 212-26, issued on Nov 18, reported that a tanker transiting outbound through the Strait of Hormuz was struck by an unknown projectile in its engine room at 1645 UTC, approximately six nautical miles north of Khasab, Oman, SAFETY4SEA reported on Nov 19. All crew members were reported safe and accounted for, while the extent of damage and any environmental impact remained unknown. The incident followed Warning 211-26 on Nov 17, when a tanker was struck approximately 13 nautical miles north of Khasab and a fire broke out onboard before being extinguished, with search and rescue continuing for a missing crew member. In the same report, Joint Maritime Information Center (JMIC) Advisory 017-26, issued on Nov 18, said US Naval Forces Central Command (NAVCENT) had updated its guidance on the naval blockade of Iranian ports and coastal areas in force since Jul 14, 2026: vessels receiving Iranian cargo through ship-to-ship transfers from vessels subject to the blockade, carrying cargo loaded at Iranian ports or along the Iranian coastline, may be considered to be evading the blockade even if they have not entered Iranian waters, and could be stopped, boarded, diverted or captured. JMIC continues to assess the regional maritime security threat level as SEVERE.",
+   "vintage": "Nov 18, 2026",
+   "source": "SAFETY4SEA (citing UKMTO and JMIC)",
+   "source_url": "https://safety4sea.com/us-warns-of-blockade-violations-through-ship-to-ship-transfers/"
+  },
+  {
    "text": "The United Arab Emirates' ADNOC Logistics and Services (ADNOC L&S) said on Wednesday, Nov 18, that one crew member was missing and 11 were injured after one of its vessels was attacked in the Strait of Hormuz on Tuesday, Nov 17, Reuters reported. The company said the rest of the crew had been evacuated, without naming the vessel or giving further details, and said search and rescue operations were continuing in coordination with the relevant authorities. In the same report, Oman's emergency response authorities said they had rescued 24 crew members from the Panama-flagged Tara Gas liquefied petroleum gas tanker, that the search for one missing person was continuing, and that efforts to put out the fire aboard the tanker were still under way.",
    "vintage": "Nov 18, 2026",
    "source": "Reuters (via 102.7 WBOW)",
@@ -2041,6 +2065,26 @@
   }
  ],
  "sources": [
+  {
+   "publisher": "Press TV",
+   "vintage": "",
+   "url": "https://www.presstv.co.uk/Detail/2026/11/19/781097/two-violating-supertankers-explode-after-hitting-naval-mines-in-strait-of-hormuz-irgc"
+  },
+  {
+   "publisher": "Reuters (via KWSN)",
+   "vintage": "",
+   "url": "https://kwsn.com/2026/11/18/oil-prices-steady-as-supply-surplus-softens-sentiment-though-gulf-war-supports/"
+  },
+  {
+   "publisher": "Ships & Ports",
+   "vintage": "",
+   "url": "https://shipsandports.com.ng/adnoc-tanker-attacked-for-second-time-in-four-months-in-strait-of-hormuz/"
+  },
+  {
+   "publisher": "SAFETY4SEA (citing UKMTO and JMIC)",
+   "vintage": "",
+   "url": "https://safety4sea.com/us-warns-of-blockade-violations-through-ship-to-ship-transfers/"
+  },
   {
    "publisher": "Reuters (via 102.7 WBOW)",
    "vintage": "",
