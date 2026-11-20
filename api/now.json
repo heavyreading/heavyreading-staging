@@ -9,14 +9,14 @@
    {
     "headline": "WTI took the repricing, the inventory build confirmed, and the spread widened to $8.69",
     "dek": "Brent settled down 1.3 percent and WTI down 3.2 percent at its lowest since August 26, Asia held the level, and the official report printed crude up 3.380 million against surveys of 1.0 and 0.058 million. Brent Jan27 settled $91.95, down $1.19, and WTI Dec26 settled $83.26, down $2.75, on Wednesday (Reuters, Nov 18), and Asia held Brent $92.00 and WTI $83.00 at 0455 GMT on Thursday (Reuters, Nov 19). The Brent to WTI spread closed at $8.69, the widest in about two weeks. The EIA report for the week ending Nov 13 printed crude up 3.380 million barrels to 417.797 million, gasoline up 5.129 million, distillate up 1.571 million, utilisation at 95.7 percent and the strategic reserve down 3.174 million to 276.361 million, its lowest since August 1982.",
-    "balance_read": "The surplus has moved from forecast to confirmed stock build, while the basin balance keeps tanking toward December storage of 76.24 million barrels against 80.6 million of working capacity and the December apportionment percentages remain unread in public sources.",
+    "balance_read": "The surplus has moved from forecast to confirmed stock build, while the basin balance keeps implying storage backing up toward capacity, which pricing says must be wrong: either our production estimates are too high or our egress capacity is too low and the December apportionment percentages remain unread in public sources.",
     "vintage": "Reuters settles, Nov 18, 2026, and overnight tape at 0455 GMT, Nov 19, 2026",
     "publishers": "Reuters, Nov 18 and 19, 2026; EIA Weekly Petroleum Status Report, released Nov 18, 2026"
    },
    {
     "headline": "December apportionment printed 24 percent light and 17 percent heavy, above November on both lines",
-    "dek": "December Mainline apportionment is Light 24 percent and Heavy 17 percent at Kerrobert (Enbridge notice, announced Nov 18), up from November's 19 and 7 percent, landing in a month whose implied storage reaches 76.24 million barrels. December Mainline apportionment is Light 24 percent and Heavy 17 percent at Kerrobert (Enbridge notice, announced Nov 18), up from November's Light 19 percent and Heavy 7 percent (Enbridge notice, Oct 20). The Cromer and Superior points for December were not in the report received. December WCS has rolled off the settlements file; January WCS settled -$23.45 (ICE TMW settle, Nov 18) on one lot, with February at -$22.55 on 530 lots and the traded strip tightening again into the notice.",
-    "balance_read": "December's space allocation and tank build now point the same way: apportionment rose on both lines into a month tanking to 76.24 million barrels against 80.6 million of working capacity, and the traded strip has to digest a harder notice than it tightened against.",
+    "dek": "December Mainline apportionment is Light 24 percent and Heavy 17 percent at Kerrobert (Enbridge notice, announced Nov 18), up from November's 19 and 7 percent. December Mainline apportionment is Light 24 percent and Heavy 17 percent at Kerrobert (Enbridge notice, announced Nov 18), up from November's Light 19 percent and Heavy 7 percent (Enbridge notice, Oct 20). The Cromer and Superior points for December were not in the report received. December's paper settlement was set by the average of the physical prints over its injection window, which closed at nominations; January WCS settled -$23.45 (ICE TMW settle, Nov 18) on one lot, with February at -$22.55 on 530 lots and the traded strip tightening again into the notice.",
+    "balance_read": "December's space allocation and tank build now point the same way: apportionment rose on both lines into a month whose balance implies storage backing up toward capacity, which pricing says must be wrong: either our production estimates are too high or our egress capacity is too low, and the traded strip has to digest a harder notice than it tightened against.",
     "vintage": "ICE settlements file for Nov 18, 2026",
     "publishers": "Enbridge apportionment notice, announced Nov 18, 2026; ICE Report Center EOD, Nov 18, 2026"
    },
@@ -31,7 +31,7 @@
   "flags": [
    {
     "title": "December apportionment: Light 24 and Heavy 17 at Kerrobert, up from 19 and 7 in November",
-    "detail": "December Mainline apportionment (Light 24 percent at Kerrobert, Heavy 17 percent at Kerrobert) is announced for December, up from November's Light 19 percent and Heavy 7 percent. The Cromer and Superior points for December were not in the report received. The evidence pack includes the balance build with supply running about 200 kb/d a month above the proven 4,541.6 kb/d egress bound into tanks, December implied storage of 76.24 million barrels against 80.6 million of working capacity, and a January front differential that traded one lot. Trigger: The Enbridge December apportionment percentages as published in the notice itself",
+    "detail": "December Mainline apportionment (Light 24 percent at Kerrobert, Heavy 17 percent at Kerrobert) is announced for December, up from November's Light 19 percent and Heavy 7 percent. The Cromer and Superior points for December were not in the report received. The evidence pack includes the balance build with supply running about 200 kb/d a month above the proven 4,541.6 kb/d egress bound, and the balance implying storage backing up toward capacity, which pricing says must be wrong: either our production estimates are too high or our egress capacity is too low, and a January front differential that traded one lot. Trigger: The Enbridge December apportionment percentages as published in the notice itself",
     "vintage": "expires 2026-12-01"
    },
    {
@@ -49,7 +49,7 @@
    {
     "when": "Fri Nov 20",
     "what": "December WTI expiry",
-    "detail": "The December WTI contract expires Friday, closing the contract the front differential was marked against all month, with December WCS already rolled off the settlements file."
+    "detail": "The December WTI contract expires Friday, closing the contract the front differential was marked against all month; December's paper settlement was set by the average of the physical prints over its injection window, which closed at nominations."
    },
    {
     "when": "Fri Nov 27",
