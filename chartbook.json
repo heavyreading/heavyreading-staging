@@ -1,6 +1,6 @@
 {
  "page": "chartbook.html",
- "built_at": "2026-11-19T16:47:59-06:00",
+ "built_at": "2026-11-19T20:20:52-06:00",
  "generator": "builders/site/build_chartbook.py",
  "series": [
   {
@@ -9570,11 +9570,11 @@
     "level": 18.57,
     "percentile_since_2021": 73.35398915569326,
     "date": "2026-08-31",
-    "tmw_tenor": "2026-12",
-    "tmw_settle": -28.2176,
-    "tmw_settle_date": "2026-11-17"
+    "tmw_tenor": "2027-01",
+    "tmw_settle": -23.45,
+    "tmw_settle_date": "2026-11-18"
    },
-   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for December 2026 settled at -$28.22 on November 17, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
+   "narrative_text": "The assessed WCS discount at Hardisty was $18.57 a barrel in the last published reading, August 31, 2026 (Natural Resources Canada publishes monthly, about two months in arrears), in the 73rd percentile of daily assessments since 2021. The tradable edge moves faster: the ICE WCS 1A index future (TMW) for January 2027 settled at -$23.45 on November 18, 2026. The assessed series is the slow, official record of what the basis did; the TMW settle is what it costs to trade it now. A narrowing of the assessed discount toward twelve dollars, or a blowout past twenty-five, would each rewrite this block.",
    "points": [
     [
      "2021-08-02",

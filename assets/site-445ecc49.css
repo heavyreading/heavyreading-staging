@@ -1,10 +1,10 @@
 :root {
-  --paper:#ffffff; --card:#ffffff; --ground:#F5F1EC;
+  --paper:#ffffff; --card:#ffffff; --ground:#F0F2F5;
   --ink:#1C1E21; --text:#33373D; --mut:#606770; --faint:#8A9199;
   --line:#DDDFE2; --line2:#E4E6EB;
   --panel:#ffffff;
-  --brand:#522924; --brand-deep:#3E1E19; --brand-tint:#F1E4DC;
-  --band-sub:#DBBBA9;
+  --brand:#2A1B10; --brand-deep:#20140B; --brand-tint:#E7E3D9;
+  --band-sub:#BFB09A;
   --acc:#BE2E1F; --acc-deep:#962216;
   --green:#137333; --green-tint:#E6F4EA;
   --red-chip:#B3261E; --red-tint:#FDECEA;
@@ -12,33 +12,33 @@
   --card-shadow:0 1px 2px rgba(16,24,40,.06);
   --serif:"Fraunces",Georgia,"Times New Roman",serif;
   --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  /* chart instrument: cordovan primary, warm brown-gray steps, a warm
-     tan reserved for forecast, overflow red. Labels sit on their fills. */
+  /* chart instrument: cocoa primary, cool slate-gray steps, a slate
+     reserved for forecast, overflow red. Labels sit on their fills. */
   --ch-ink:#1C1E21; --ch-ink-lab:#ffffff;
-  --ch-ink2:#4A423C; --ch-ink2-lab:#ffffff;
-  --ch-acc:#522924; --ch-acc-lab:#ffffff;
-  --ch-steel:#8C7B6B; --ch-steel-lab:#ffffff;
-  --ch-g1:#57493F; --ch-g1-lab:#ffffff;
-  --ch-g2:#857A70; --ch-g2-lab:#ffffff;
-  --ch-g3:#B4A89C; --ch-g3-lab:#1C1E21;
-  --ch-g4:#D8CFC4; --ch-g4-lab:#1C1E21;
-  --ch-nc:#6E6259; --ch-nc-lab:#ffffff;
-  --ch-fc:#96795D; --ch-fc-lab:#ffffff;
-  --ch-sand:#C9BBA8; --ch-sand-lab:#1C1E21;
-  --ch-blue:#77685C; --ch-blue-lab:#ffffff;
+  --ch-ink2:#3C434A; --ch-ink2-lab:#ffffff;
+  --ch-acc:#2A1B10; --ch-acc-lab:#ffffff;
+  --ch-steel:#6F7B88; --ch-steel-lab:#ffffff;
+  --ch-g1:#444A52; --ch-g1-lab:#ffffff;
+  --ch-g2:#6E7A87; --ch-g2-lab:#ffffff;
+  --ch-g3:#9FA7B1; --ch-g3-lab:#1C1E21;
+  --ch-g4:#C9CED3; --ch-g4-lab:#1C1E21;
+  --ch-nc:#5A636D; --ch-nc-lab:#ffffff;
+  --ch-fc:#6D7986; --ch-fc-lab:#ffffff;
+  --ch-sand:#B1B8C0; --ch-sand-lab:#1C1E21;
+  --ch-blue:#5F6974; --ch-blue-lab:#ffffff;
   --ch-red:#BE2E1F; --ch-red-lab:#ffffff;
-  --ch-gray:#857A70; --ch-gray-lab:#ffffff;
+  --ch-gray:#6E7A87; --ch-gray-lab:#ffffff;
   --ch-grid:#E4E6EB; --ch-axis:#C9CDD2;
-  --ch-band-nc:#F1E4DC; --ch-band-fc:#E7DCCB;
-  --ch-evt:#B4A89C;
+  --ch-band-nc:#E7E3D9; --ch-band-fc:#D5D9DD;
+  --ch-evt:#9FA7B1;
   --ch-wash-acc:rgba(190,46,31,.08); --ch-wash-acc2:rgba(190,46,31,.40);
   --ch-wash-nc:rgba(28,30,33,.05);
-  --ch-pat:rgba(82,41,36,.16);
+  --ch-pat:rgba(42,27,16,.16);
 }
 * { box-sizing:border-box; }
 html { -webkit-text-size-adjust:100%; scroll-behavior:smooth; }
 html, body { overflow-x:clip; }
-::selection { background:rgba(82,41,36,.16); }
+::selection { background:rgba(42,27,16,.16); }
 body { margin:0; background:var(--ground); color:var(--ink); font-family:var(--sans);
        font-size:16px; line-height:1.65; -webkit-font-smoothing:antialiased;
        font-optical-sizing:auto;
@@ -46,10 +46,10 @@ body { margin:0; background:var(--ground); color:var(--ink); font-family:var(--s
 .wrap { max-width:1080px; margin:0 auto; padding:0 24px 80px; }
 :focus-visible { outline:2px solid var(--brand); outline-offset:3px; border-radius:2px; }
 
-/* ---- masthead: the brand layer. A full cordovan band carries the
+/* ---- masthead: the brand layer. A full cocoa band carries the
    wordmark in the display serif; under it a white tab row carries the
-   grouped section nav, the active section in cordovan with a 3px
-   cordovan underline. The class name stays .masthead: build_changes.py
+   grouped section nav, the active section in cocoa with a 3px
+   cocoa underline. The class name stays .masthead: build_changes.py
    keys on it. ---- */
 .masthead { position:sticky; top:0; z-index:90; }
 .band { background:var(--brand); margin:0 -24px; padding:10px 24px; }
@@ -61,7 +61,7 @@ body { margin:0; background:var(--ground); color:var(--ink); font-family:var(--s
 .brandlink { display:inline-flex; align-items:center; gap:10px; text-decoration:none;
   color:var(--ink); }
 .band .brandlink { color:#fff; }
-.mark { width:27px; height:27px; display:block; flex:none; }
+.mark { width:23px; height:30px; display:block; flex:none; }
 .wordstack { display:flex; flex-direction:column; }
 .wordmark { font-family:var(--serif); font-optical-sizing:auto; font-weight:560;
   font-size:21px; letter-spacing:-0.02em; line-height:1; white-space:nowrap; }
@@ -125,7 +125,7 @@ body { margin:0; background:var(--ground); color:var(--ink); font-family:var(--s
   .nd-link[aria-current="page"] { color:var(--ink); font-weight:700; }
 }
 @media (hover:hover) {
-  .nd-top:hover { color:var(--ink); border-bottom-color:#D8CFC4; }
+  .nd-top:hover { color:var(--ink); border-bottom-color:#C9CED3; }
   .navdrop.active .nd-top:hover { color:var(--brand);
     border-bottom-color:var(--brand); }
   .mg-link:hover { text-decoration:underline; text-underline-offset:3px; }
@@ -216,21 +216,21 @@ ul.ev li::marker { color:var(--faint); }
 ul.tight { margin:8px 0 1rem; padding-left:22px; max-width:68ch; }
 ul.tight li { margin:.38rem 0; }
 
-/* links: quiet, warm on interaction. Visited links keep the same ink color:
+/* links: quiet, brand-toned on interaction. Visited links keep the same ink color:
    a data publication never shows browser-default blue/purple. The
    zero-specificity catch-all comes first (2026-11-18): any link inside
    the wrap that no component rule reaches still renders ink, never
    the browser's default blue (the two leaks the teardown found on
    Barrels). Component rules below and elsewhere override it. */
 :where(.wrap) a { color:var(--ink); text-decoration:underline;
-  text-decoration-color:#D8CFC4; text-decoration-thickness:1px;
+  text-decoration-color:#C9CED3; text-decoration-thickness:1px;
   text-underline-offset:3px; }
 :where(.wrap) a:visited { color:var(--ink); }
 main a, .wrap > a, p a, li a, td a, th a, figcaption a, .fcolophon a, section a,
 main a:visited, p a:visited, li a:visited, td a:visited, th a:visited,
 figcaption a:visited, .fcolophon a:visited, section a:visited {
   color:var(--ink); text-decoration:underline;
-  text-decoration-color:#D8CFC4; text-decoration-thickness:1px;
+  text-decoration-color:#C9CED3; text-decoration-thickness:1px;
   text-underline-offset:3px; }
 main a:hover, p a:hover, li a:hover, td a:hover, th a:hover,
 figcaption a:hover, .fcolophon a:hover, section a:hover {
@@ -245,13 +245,13 @@ h1 a:hover, h2 a:hover, h3 a:hover { color:var(--ink); }
 /* pull quote */
 .pullquote { font-family:var(--serif); font-optical-sizing:auto;
   font-size:clamp(1.2rem, 1.05rem + .8vw, 1.45rem); font-weight:500;
-  line-height:1.4; letter-spacing:-0.008em; color:#2E2622;
+  line-height:1.4; letter-spacing:-0.008em; color:#24282C;
   border-left:2px solid var(--brand); padding:2px 0 2px 22px; margin:2.4rem 0;
   max-width:58ch; }
 .pullquote cite { display:block; font-family:var(--sans); font-style:normal;
   font-size:12px; color:var(--mut); margin-top:10px; letter-spacing:.04em; }
 
-/* ---- numbers are the product: KPI cards on the warm ground.
+/* ---- numbers are the product: KPI cards on the cool ground.
    Each lead figure is a white card (border, 10px radius, one soft
    shadow): label in small caps, the figure large and tabular, the
    change as a tinted delta chip (green tint for a positive move,
@@ -373,7 +373,7 @@ table.facts td:first-child { font-weight:600; width:34%; color:#2b2e33; }
 .tblnote { font-size:12px; color:var(--mut); margin:8px 0 0; max-width:68ch;
   line-height:1.6; }
 
-/* executive call: a cordovan rule, not a box */
+/* executive call: a cocoa rule, not a box */
 .exec { margin:24px 0; padding:2px 0 2px 20px; border-left:3px solid var(--brand); }
 .exec h2 { border:none; margin:0 0 10px; padding:0; font-family:var(--sans);
   font-size:11px; font-weight:700; letter-spacing:.18em; text-transform:uppercase;
@@ -550,7 +550,7 @@ details.sec > summary:hover { color:var(--ink); }
 .basis-guided { border-color:var(--ink); color:var(--ink); }
 .basis-modeled { border-color:var(--faint); color:var(--mut); }
 /* the panel: one surface treatment site-wide. A white card on the
-   warm ground: border, 10px radius, one soft shadow, aligned to the
+   cool ground: border, 10px radius, one soft shadow, aligned to the
    text column. Grouping comes from the card, never a tint. */
 .panel { margin:24px 0; background:var(--card);
   border:1px solid var(--line); border-radius:10px;
@@ -566,7 +566,7 @@ details.sec > summary:hover { color:var(--ink); }
   background:var(--brand-tint); color:var(--brand); }
 .tchip.long { background:var(--green-tint); color:var(--green); }
 .tchip.short { background:var(--red-tint); color:var(--red-chip); }
-.tchip.off { background:#EFEAE4; color:var(--mut); }
+.tchip.off { background:#E7E9EC; color:var(--mut); }
 /* compact label heading (2026-11-18): an h3 that keeps the small
    sans label look where a card or checklist field is a heading. */
 .lblh { font-family:var(--sans); font-size:.95rem; font-weight:700;
@@ -603,7 +603,7 @@ h2.qh { font-size:1.18rem; margin:1.8rem 0 .55rem; letter-spacing:-0.01em;
   max-width:64ch; margin:0; }
 hr { border:none; border-top:1px solid var(--line); margin:2.6rem 0; max-width:76ch; }
 
-/* footer: the brand band repeated. The cordovan block bookends the
+/* footer: the brand band repeated. The cocoa block bookends the
    page: the serif wordmark first, then compact group rows generated
    from the same section registry as the nav, so the two can never
    drift apart. One row per group: a pale caps label, then the
