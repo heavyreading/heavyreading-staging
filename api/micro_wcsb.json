@@ -1,7 +1,7 @@
 {
  "title": "WCSB micro-balance",
- "built": "2026-11-20",
- "dashboard_built": "2026-11-19",
+ "built": "2026-11-18",
+ "dashboard_built": "2026-11-20",
  "default_month": "2026-11",
  "months": [
   "2026-10",
@@ -21,37 +21,37 @@
   "2027-12"
  ],
  "prices": {
-  "asof": "Nov 18, 2026 1:07 AM MDT",
-  "settle_date": "2026-11-16",
+  "asof": "Nov 20, 2026 2:06 AM MDT",
+  "settle_date": "2026-11-19",
   "rows": [
    {
-    "label": "WTI, Dec 26",
-    "value": 84.09,
+    "label": "WTI, Jan 27",
+    "value": 82.61,
     "basis": "intraday quote"
    },
    {
     "label": "Brent, Jan 27",
-    "value": 91.75,
+    "value": 92.01,
     "basis": "intraday quote"
    },
    {
-    "label": "WCS Hardisty diff (TMW), Dec 26",
-    "value": -28.2176,
+    "label": "WCS Hardisty diff (TMW), Jan 27",
+    "value": -22.0,
     "basis": "ICE end-of-day settle"
    },
    {
-    "label": "WCS Hardisty diff (TMW), Jan 27",
-    "value": -25.75,
+    "label": "WCS Hardisty diff (TMW), Feb 27",
+    "value": -21.55,
     "basis": "ICE end-of-day settle"
    },
    {
     "label": "WCS Houston diff (ARV), Dec 26",
-    "value": -19.345,
+    "value": -18.399,
     "basis": "ICE end-of-day settle"
    },
    {
-    "label": "Synthetic diff (TMS), Dec 26",
-    "value": 8.1125,
+    "label": "Synthetic diff (TMS), Jan 27",
+    "value": 5.3,
     "basis": "ICE end-of-day settle"
    }
   ]
@@ -483,13 +483,17 @@
    "bound_uplift_unallocated_kbd": 0.0,
    "storage": {
     "change_kbd": 0.0,
-    "change_mbbl": 0.0
+    "change_mbbl": 0.0,
+    "level_mmbbl": 63.78,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 16.8,
+    "pct_full": 79.1
    },
    "apportionment": {
     "light_pct": 8.0,
     "heavy_pct": 4.0,
     "source": "Enbridge notice, Nov 18, 2026 (Dec); Enbridge notice, Oct 20, 2026 (Nov); Enbridge notice, Sep 16, 2026 (Oct); Enbridge announcement (Sep)",
-    "note": "December: Light 24% / Heavy 17% at Kerrobert, up from November (19% / 7%); Cromer and Superior points for December not yet in hand"
+    "note": "December: Light 24% / Heavy 17% at Kerrobert (Cromer and Superior points not yet recorded); November was Light 19% / Heavy 7% at Kerrobert"
    },
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
   },
@@ -919,13 +923,17 @@
    "bound_uplift_unallocated_kbd": 72.6,
    "storage": {
     "change_kbd": 192.3,
-    "change_mbbl": 5.77
+    "change_mbbl": 5.77,
+    "level_mmbbl": 69.55,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 11.0,
+    "pct_full": 86.3
    },
    "apportionment": {
     "light_pct": 19.0,
     "heavy_pct": 7.0,
     "source": "Enbridge notice, Nov 18, 2026 (Dec); Enbridge notice, Oct 20, 2026 (Nov); Enbridge notice, Sep 16, 2026 (Oct); Enbridge announcement (Sep)",
-    "note": "December: Light 24% / Heavy 17% at Kerrobert, up from November (19% / 7%); Cromer and Superior points for December not yet in hand"
+    "note": "December: Light 24% / Heavy 17% at Kerrobert (Cromer and Superior points not yet recorded); November was Light 19% / Heavy 7% at Kerrobert"
    },
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
   },
@@ -1355,13 +1363,17 @@
    "bound_uplift_unallocated_kbd": 72.6,
    "storage": {
     "change_kbd": 215.9,
-    "change_mbbl": 6.69
+    "change_mbbl": 6.69,
+    "level_mmbbl": 76.24,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 4.4,
+    "pct_full": 94.6
    },
    "apportionment": {
     "light_pct": 24.0,
     "heavy_pct": 17.0,
     "source": "Enbridge notice, Nov 18, 2026 (Dec); Enbridge notice, Oct 20, 2026 (Nov); Enbridge notice, Sep 16, 2026 (Oct); Enbridge announcement (Sep)",
-    "note": "December: Light 24% / Heavy 17% at Kerrobert, up from November (19% / 7%); Cromer and Superior points for December not yet in hand"
+    "note": "December: Light 24% / Heavy 17% at Kerrobert (Cromer and Superior points not yet recorded); November was Light 19% / Heavy 7% at Kerrobert"
    },
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
   },
@@ -1791,7 +1803,11 @@
    "bound_uplift_unallocated_kbd": 63.2,
    "storage": {
     "change_kbd": 0.0,
-    "change_mbbl": 0.0
+    "change_mbbl": 0.0,
+    "level_mmbbl": 76.24,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 4.4,
+    "pct_full": 94.6
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -2222,7 +2238,11 @@
    "bound_uplift_unallocated_kbd": 31.0,
    "storage": {
     "change_kbd": 0.0,
-    "change_mbbl": 0.0
+    "change_mbbl": 0.0,
+    "level_mmbbl": 76.24,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 4.4,
+    "pct_full": 94.6
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -2653,7 +2673,11 @@
    "bound_uplift_unallocated_kbd": 72.6,
    "storage": {
     "change_kbd": 33.1,
-    "change_mbbl": 1.03
+    "change_mbbl": 1.03,
+    "level_mmbbl": 77.27,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 3.3,
+    "pct_full": 95.9
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -3084,7 +3108,11 @@
    "bound_uplift_unallocated_kbd": 5.5,
    "storage": {
     "change_kbd": 0.0,
-    "change_mbbl": 0.0
+    "change_mbbl": 0.0,
+    "level_mmbbl": 77.27,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 3.3,
+    "pct_full": 95.9
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -3515,7 +3543,11 @@
    "bound_uplift_unallocated_kbd": 0.0,
    "storage": {
     "change_kbd": -0.0,
-    "change_mbbl": -0.0
+    "change_mbbl": -0.0,
+    "level_mmbbl": 77.27,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 3.3,
+    "pct_full": 95.9
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -3946,7 +3978,11 @@
    "bound_uplift_unallocated_kbd": 0.0,
    "storage": {
     "change_kbd": -0.0,
-    "change_mbbl": -0.0
+    "change_mbbl": -0.0,
+    "level_mmbbl": 77.27,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 3.3,
+    "pct_full": 95.9
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -4377,7 +4413,11 @@
    "bound_uplift_unallocated_kbd": 13.7,
    "storage": {
     "change_kbd": 0.0,
-    "change_mbbl": 0.0
+    "change_mbbl": 0.0,
+    "level_mmbbl": 77.27,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 3.3,
+    "pct_full": 95.9
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -4808,7 +4848,11 @@
    "bound_uplift_unallocated_kbd": 0.0,
    "storage": {
     "change_kbd": 0.0,
-    "change_mbbl": 0.0
+    "change_mbbl": 0.0,
+    "level_mmbbl": 77.27,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 3.3,
+    "pct_full": 95.9
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -5239,7 +5283,11 @@
    "bound_uplift_unallocated_kbd": 0.0,
    "storage": {
     "change_kbd": 0.0,
-    "change_mbbl": 0.0
+    "change_mbbl": 0.0,
+    "level_mmbbl": 77.27,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 3.3,
+    "pct_full": 95.9
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -5670,7 +5718,11 @@
    "bound_uplift_unallocated_kbd": 0.0,
    "storage": {
     "change_kbd": 0.0,
-    "change_mbbl": 0.0
+    "change_mbbl": 0.0,
+    "level_mmbbl": 77.27,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 3.3,
+    "pct_full": 95.9
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -6101,7 +6153,11 @@
    "bound_uplift_unallocated_kbd": 24.9,
    "storage": {
     "change_kbd": 0.0,
-    "change_mbbl": 0.0
+    "change_mbbl": 0.0,
+    "level_mmbbl": 77.27,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 3.3,
+    "pct_full": 95.9
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"
@@ -6532,7 +6588,11 @@
    "bound_uplift_unallocated_kbd": 48.5,
    "storage": {
     "change_kbd": -0.0,
-    "change_mbbl": -0.0
+    "change_mbbl": -0.0,
+    "level_mmbbl": 77.27,
+    "capacity_mmbbl": 80.6,
+    "ullage_mmbbl": 3.3,
+    "pct_full": 95.9
    },
    "apportionment": null,
    "vintage": "ST3/ST53 thru 2026-09, ST39 thru 2026-06 (AER); maint cal 2026-09-23"

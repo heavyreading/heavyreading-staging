@@ -1,5 +1,5 @@
 {
- "vintage": "2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant); feed built 2026-11-19",
+ "vintage": "2026-09-28 (F3 rail-baseload split before the pipe cap; F5 economic inventory path; inventory floor + shortage-side price response; barrel-conservation invariant); feed built 2026-11-20",
  "data": {
   "months": [
    {
@@ -18,8 +18,8 @@
     "overflow_kbd": 0.0,
     "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2026-11",
@@ -37,8 +37,8 @@
     "overflow_kbd": 192.3,
     "requires_price_response_kbd": 192.3,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2026-12",
@@ -56,8 +56,8 @@
     "overflow_kbd": 215.9,
     "requires_price_response_kbd": 215.9,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-01",
@@ -66,17 +66,17 @@
     "supply_side_kbd": 5202.3,
     "refinery_demand_kbd": 610.1,
     "removals_wanted_kbd": 4592.2,
-    "removals_final_kbd": 4541.6,
-    "pipe_cap_kbd": 5056.6,
-    "pipe_cap_ab_kbd": 4456.6,
-    "pipe_exports_kbd": 4456.6,
-    "pipe_spare_kbd": -50.6,
+    "removals_final_kbd": 4592.2,
+    "pipe_cap_kbd": 5116.6,
+    "pipe_cap_ab_kbd": 4516.6,
+    "pipe_exports_kbd": 4507.2,
+    "pipe_spare_kbd": 9.4,
     "rail_baseload_kbd": 85.0,
-    "overflow_kbd": 50.6,
-    "requires_price_response_kbd": 50.6,
+    "overflow_kbd": 0.0,
+    "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-02",
@@ -85,17 +85,17 @@
     "supply_side_kbd": 5189.9,
     "refinery_demand_kbd": 629.9,
     "removals_wanted_kbd": 4560.0,
-    "removals_final_kbd": 4541.6,
-    "pipe_cap_kbd": 5056.6,
-    "pipe_cap_ab_kbd": 4456.6,
-    "pipe_exports_kbd": 4456.6,
-    "pipe_spare_kbd": -18.4,
+    "removals_final_kbd": 4560.0,
+    "pipe_cap_kbd": 5116.6,
+    "pipe_cap_ab_kbd": 4516.6,
+    "pipe_exports_kbd": 4475.0,
+    "pipe_spare_kbd": 41.6,
     "rail_baseload_kbd": 85.0,
-    "overflow_kbd": 18.4,
-    "requires_price_response_kbd": 18.4,
+    "overflow_kbd": 0.0,
+    "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-03",
@@ -113,8 +113,8 @@
     "overflow_kbd": 33.1,
     "requires_price_response_kbd": 33.1,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-04",
@@ -132,8 +132,8 @@
     "overflow_kbd": 0.0,
     "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-05",
@@ -151,8 +151,8 @@
     "overflow_kbd": 0.0,
     "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-06",
@@ -170,8 +170,8 @@
     "overflow_kbd": 0.0,
     "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-07",
@@ -189,8 +189,8 @@
     "overflow_kbd": 0.0,
     "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-08",
@@ -208,8 +208,8 @@
     "overflow_kbd": 0.0,
     "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-09",
@@ -227,8 +227,8 @@
     "overflow_kbd": 0.0,
     "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-10",
@@ -246,8 +246,8 @@
     "overflow_kbd": 0.0,
     "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-11",
@@ -265,8 +265,8 @@
     "overflow_kbd": 0.0,
     "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    },
    {
     "month": "2027-12",
@@ -284,8 +284,8 @@
     "overflow_kbd": 0.0,
     "requires_price_response_kbd": 0.0,
     "storage_final_kbd": 0.0,
-    "inventory_kbbl": 58720.0,
-    "ullage_kbbl": 21896.0
+    "inventory_kbbl": 61721.0,
+    "ullage_kbbl": 18895.0
    }
   ],
   "sensitivity_overflow_vs_sk_other": {
@@ -327,8 +327,8 @@
     "2026-10": 104.6,
     "2026-11": 200.0,
     "2026-12": 200.0,
-    "2027-01": 200.0,
-    "2027-02": 200.0,
+    "2027-01": 190.6,
+    "2027-02": 158.4,
     "2027-03": 200.0,
     "2027-04": 132.9,
     "2027-05": 0.0,
