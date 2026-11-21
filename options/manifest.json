@@ -2,12 +2,12 @@
  "page": "/options/",
  "title": "The Wing",
  "dek": "The Wing: Heavy Reading's options section. What traders pay for spike insurance versus crash insurance, off ICE end-of-day settlements, our dated house view, and lesson one: expensive insurance is not a forecast.",
- "built_at": "2026-11-20",
+ "built_at": "2026-11-21",
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
-   "text": "At the November 19, 2026 ICE Brent settlements (front expiry November 26, 2026), RR25 printed +4.20 points and the 20 percent out-of-the-money call implied volatility 71.39 percent, a tail premium of +30.38 points over at-the-money. Series n = 26 prints from October 15, 2026.",
-   "vintage": "ICE settlements 2026-11-19",
+   "text": "At the November 20, 2026 ICE Brent settlements (front expiry November 26, 2026), RR25 printed +7.45 points and the 20 percent out-of-the-money call implied volatility 81.19 percent, a tail premium of +38.03 points over at-the-money. Series n = 27 prints from October 15, 2026.",
+   "vintage": "ICE settlements 2026-11-20",
    "source": "Skew gauges (skew_timeseries.csv)",
    "source_url": ""
   },
@@ -21,7 +21,7 @@
  "sources": [
   {
    "publisher": "ICE Endex (Report Center report 166)",
-   "vintage": "options settlements to 2026-11-19",
+   "vintage": "options settlements to 2026-11-20",
    "url": ""
   },
   {
