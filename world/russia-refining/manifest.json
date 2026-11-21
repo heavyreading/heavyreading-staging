@@ -6,6 +6,12 @@
  "generator": "heavyreading-manifest/1",
  "claims": [
   {
+   "text": "Russia third quarter exports of refined products plunged to a multidecade low of 1.2 million barrels per day, and although there was a slight rebound in October, these volumes are likely to fall again after a new wave of Ukrainian drone strikes against refineries, Energy Intelligence reported. In early November, diesel exports reached 325,000 barrels per day, up two thirds compared to October but nearly 60 percent lower than levels at the start of the year. In the first 10 months of the year, crude oil exports averaged 5.1 million barrels per day, a gain of 350,000 barrels per day over full year 2025, and these are poised to grow in November. Full year exports of crude and products are expected to come to 6.8 million to 6.9 million barrels per day, the fourth straight annual decline and the lowest level on record, Energy Intelligence said.",
+   "vintage": "Nov 19, 2026",
+   "source": "Energy Intelligence",
+   "source_url": "https://www.energyintel.com/000001a1-efae-d355-afa5-effec4120000"
+  },
+  {
    "text": "Russia's seaborne crude exports rose to their highest level since late July as Ukrainian drone strikes on refineries pushed crude that would have been processed at home into export markets, Bloomberg vessel-tracking data showed, reported by OilPrice.com on Nov 17. The 39 tankers that loaded Russian crude in the week ending Nov 15 carried 30.27 million barrels, up from 23.6 million barrels on 31 ships the previous week, and weekly exports jumped by 950,000 barrels per day to 4.32 million barrels per day, the highest since June. On a four-week average, shipments reached 3.9 million barrels per day, their highest since late July and up 280,000 barrels per day from the previous reporting period. Ukraine has attacked 13 Russian refineries since the beginning of November, Bloomberg reported, including the TAIF-NK facility in Nizhnekamsk and the Ilsky refinery in southern Russia. The four-week average value of Russian seaborne crude exports slipped to $2.45 billion per week, a seven-week low, as prices for Russia's flagship Urals crude fell for a fifth consecutive week, and Asian-bound shipments, including cargoes without confirmed final destinations, rose to 3.72 million barrels per day from 3.42 million barrels per day a week earlier.",
    "vintage": "Nov 17, 2026",
    "source": "OilPrice.com (citing Bloomberg)",
@@ -124,6 +130,12 @@
    "vintage": "Data: July-Aug 2026; accessed 2026-09-24",
    "source": "Maritime Professional (citing traders)",
    "source_url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "text": "More Russian regions are introducing restrictions on retail sales of gasoline and diesel following a renewed round of Ukrainian attacks on oil refineries, according to local media and the authorities, QNC News reported on Nov 20. Industry sources say the drone attacks have cut the combined crude processing volumes of Russian refineries by 45 percent since late October, tightening supplies at filling stations across the country. In Sevastopol, the governor installed by Russia, Mikhail Razvozhayev, said gasoline sales at a number of filling stations were being limited from Thursday to one full car tank and 20 litres in jerrycans, and said the measures were meant to stop people from filling canisters with hundreds of litres at a time, which had caused queues. The Siberian city of Tomsk capped sales of gasoline at 30 litres and diesel at 50 litres from last week, and on Thursday the city of Penza, about 770 kilometres southeast of Moscow, restricted gasoline sales to 50 litres and diesel to 200 litres per vehicle. At least half a dozen other regions introduced their own restrictions earlier this month, while Crimea has been among the worst hit regions and had already brought in fuel rationing before the latest strikes this week. Russia is usually a large exporter of fuel, but it was forced to turn to imports, including from India, when widespread shortages broke out in the summer, and analysts say reduced Russian refining could also affect supplies to global fuel markets and hamper the ability of Moscow to deliver on a deal to export diesel to the United States and other buyers, QNC News said.",
+   "vintage": "Nov 20, 2026",
+   "source": "QNC News",
+   "source_url": "https://qncnews.com/2026/11/20/more-russian-regions-limit-fuel-sales-as-ukrainian-drone-strikes-cut-refinery-output/"
   },
   {
    "text": "Ukrainian drone attacks have slashed Russian oil refineries' combined crude processing volumes by 45 percent since late October, according to estimates from two industry sources in a Reuters exclusive published on Nov 18. Following near-daily drone strikes over the last 20 days, crude processing volumes have fallen to around 400,000 metric tons per day, or around 3 million barrels per day, from over 700,000 metric tons per day at the end of October. The attacks have now disrupted or halted operations at 15 of Russia's 35 major refineries, up from nine in the middle of last week, and the combined nominal capacity of refineries affected since late October stands at around 500,000 tons per day, equivalent to approximately 54 percent of the country's total primary refining capacity of an estimated 930,000 tons per day. The sources said average crude processing volumes in November remain above 500,000 tons per day, about 5 to 10 percent below September and October levels, given the gradual reduction in operating capacity. Major refineries affected include plants in Ryazan, Yaroslavl, Kirishi and the Volga region. Russia's energy ministry did not respond to a Reuters request for comment. Reduced refining could tighten global fuel markets and hamper Russia's ability to deliver on its deal to export diesel to the United States, Reuters said.",
@@ -788,6 +800,11 @@
  ],
  "sources": [
   {
+   "publisher": "Energy Intelligence",
+   "vintage": "",
+   "url": "https://www.energyintel.com/000001a1-efae-d355-afa5-effec4120000"
+  },
+  {
    "publisher": "OilPrice.com (citing Bloomberg)",
    "vintage": "",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Crude-Exports-Hit-Four-Month-High.html"
@@ -886,6 +903,11 @@
    "publisher": "Maritime Professional (citing traders)",
    "vintage": "",
    "url": "https://logistics.maritimeprofessional.com/transport-infrastructure/2026/09/01/traders-say-that-novorossiysks-disruptions-will-cause-a-drop-in-russias-west-oil-exports-in-september"
+  },
+  {
+   "publisher": "QNC News",
+   "vintage": "",
+   "url": "https://qncnews.com/2026/11/20/more-russian-regions-limit-fuel-sales-as-ukrainian-drone-strikes-cut-refinery-output/"
   },
   {
    "publisher": "Reuters (via KWSN)",

@@ -1,5 +1,5 @@
 {
- "vintage": "CER open data pulled 2026-09-22; AER ST3 thru 2026-09; model build 2026-11-18; feed built 2026-11-21",
+ "vintage": "CER open data pulled 2026-09-22; AER ST3 thru 2026-09; model build 2026-11-21; feed built 2026-11-21",
  "data": {
   "history": [
    {
@@ -1503,14 +1503,14 @@
    {
     "month": "2026-12",
     "kind": "forecast",
-    "total_capacity_kbd": 5069.0,
+    "total_capacity_kbd": 5129.0,
     "throughput_kbd": null,
     "utilization_pct": null,
     "spare_kbd": 0.0,
     "by_pipe": {
      "enbridge_mainline_kbd": 3050.4,
      "keystone_kbd": 643.0,
-     "trans_mountain_kbd": 865.6,
+     "trans_mountain_kbd": 925.6,
      "express_kbd": 290.0
     }
    },
@@ -2204,12 +2204,12 @@
    },
    {
     "month": "2026-12",
-    "marketable_supply_kbd": 5141.6,
+    "marketable_supply_kbd": 5201.6,
     "spare_kbd": 0.0,
     "rail_kbd": 85.0,
     "by_pipe": {
      "mainline_kbd": 3050.4,
-     "trans_mountain_kbd": 865.6,
+     "trans_mountain_kbd": 925.6,
      "keystone_kbd": 643.0,
      "express_kbd": 290.0,
      "milk_river_kbd": 90.0,

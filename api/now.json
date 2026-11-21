@@ -111,8 +111,8 @@
    },
    {
     "month": "2026-12",
-    "requires_price_response_kbd": 215.9,
-    "pipe_spare_kbd": -215.9
+    "requires_price_response_kbd": 155.9,
+    "pipe_spare_kbd": -155.9
    }
   ],
   "latest_digest": "2026-11-20"
